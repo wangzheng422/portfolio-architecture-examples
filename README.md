@@ -1,8 +1,10 @@
 # Portfolio Architecture Examples
 
-Example diagrams, pieces of diagrams, and examples for importing with URL feature of tooling.
+Example diagrams, pieces of diagrams, and examples for importing with URL feature of tooling. To use just import into tooling:
 
-## List of examples with URL
+  **File -> Import from -> URL** 
+
+Insert one of the URL's below:
 
   - Logical Diagram (from workshop): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/example_logical_diagram.drawio
 
