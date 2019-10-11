@@ -4,6 +4,8 @@ Example diagrams, pieces of diagrams, and examples for importing with URL featur
 
   **File -> Import from -> URL** 
 
+(diagram tool hosted online for free usage here: https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling)
+
 Insert one of the URL's below:
 
 ## Logical diagrams
