@@ -25,6 +25,8 @@ Insert one of the URL's below:
 ## Detailed diagrams
 
   - Detailed diagrams (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-omnichannel-customer-experience.drawio
+  
+  - Detailed diagrams (Integrate SaaS Applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-integrate-saas-applications.drawio
  
 ## Solution diagram colletion
 
