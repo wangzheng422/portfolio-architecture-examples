@@ -18,9 +18,12 @@ Insert one of the URL's below:
 
 ## Schematic diagrams
 
+  - Schematic diagram (from workshop): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/example_schematic_diagram.drawio
+
   - Schematic diagram (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-omnichannel-customer-experience.drawio
   
-  - Schematic diagram (from workshop): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/example_schematic_diagram.drawio
+  - Schematic diagram (Integrate SaaS Applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-integrate-saas-applications.drawio
+  
 
 ## Detailed diagrams
 
