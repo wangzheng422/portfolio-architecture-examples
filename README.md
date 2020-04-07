@@ -14,7 +14,9 @@ Insert one of the URL's below:
 
   - Logical diagram (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-omnichannel-customer-experience.drawio
   
-  - Logical diagram (Integrate SaaS Applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-integrate-saas-applications.drawio
+  - Logical diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-integrate-saas-applications.drawio
+
+  - Logical diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-cloud-native-development.drawio
 
 ## Schematic diagrams
 
@@ -22,14 +24,14 @@ Insert one of the URL's below:
 
   - Schematic diagram (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-omnichannel-customer-experience.drawio
   
-  - Schematic diagram (Integrate SaaS Applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-integrate-saas-applications.drawio
+  - Schematic diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-integrate-saas-applications.drawio
   
 
 ## Detailed diagrams
 
   - Detailed diagrams (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-omnichannel-customer-experience.drawio
   
-  - Detailed diagrams (Integrate SaaS Applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-integrate-saas-applications.drawio
+  - Detailed diagrams (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-integrate-saas-applications.drawio
  
 ## Solution diagram colletion
 
