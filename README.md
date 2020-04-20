@@ -26,6 +26,8 @@ Insert one of the URL's below:
   
   - Schematic diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-integrate-saas-applications.drawio
   
+- Schematic diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagram-cloud-native-development.drawio
+  
 
 ## Detailed diagrams
 
