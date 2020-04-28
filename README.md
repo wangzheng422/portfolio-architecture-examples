@@ -18,6 +18,7 @@ Insert one of the URL's below:
 
   - Logical diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-cloud-native-development.drawio
 
+
 ## Schematic diagrams
 
   - Schematic diagram (from workshop): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/example_schematic_diagram.drawio
@@ -35,6 +36,7 @@ Insert one of the URL's below:
   
   - Detailed diagrams (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-integrate-saas-applications.drawio
  
+
 ## Solution diagram colletion
 
   - IoT diagrams: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/Asahi-OCP.drawio
