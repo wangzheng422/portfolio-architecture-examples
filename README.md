@@ -37,7 +37,7 @@ Insert one of the URL's below:
   - Detailed diagrams (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-integrate-saas-applications.drawio
  
 
-## Solution diagram colletion
+## Solution diagrams 
 
   - IoT diagrams: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/Asahi-OCP.drawio
   
