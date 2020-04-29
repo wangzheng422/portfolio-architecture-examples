@@ -42,3 +42,9 @@ Insert one of the URL's below:
   - IoT diagrams: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/Asahi-OCP.drawio
   
   - Red Hat on Red Hat diagrams: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/RHonRH.drawio
+
+
+## Community diagrams
+
+  - Camel-K event streaming hazard diagrams: https://gitlab.com/redhatdemocentral/portfolio-architecture-example/raw/master/community/Camel-K/Event-Streaming-Hazard.drawio 
+
