@@ -111,6 +111,20 @@ enlarge an image):
 
      - https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-omnichannel-customer-experience.drawio
 
+  <img src="images/detail-diagrams/web-app.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/mobile-app.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/web-app2.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/api-managemnet2.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/reverse-proxy.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/applications.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/front-end-microservices.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/process-facade-microservices2.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/integration-microservices2.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/integration-data-microservices2.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/process-server.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/real-time-data-storage.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/sso-server.png" border="2" width="150" height="100">
+
 
 ## Solution diagrams 
 
