@@ -14,16 +14,14 @@ Insert one of the URL's below:
 
   - Logical diagram (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-omnichannel-customer-experience.drawio
   
-  - Logical diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-integrate saas-applications.drawio
 
-![SaaS LD](images/logical-diagrams/saas-ld.png)
-<img src="images/logical-diagrams/saas-ld.png" width="250" height="150">
+  - Logical diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-integrate-saas-applications.drawio
+
+  <img src="images/logical-diagrams/integrating-with-saas-applications-ld.png" width="150" height="100"><img src="images/logical-diagrams/saas-ld.png" width="150" height="100">
 
   - Logical diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-cloud-native-development.drawio
 
-![Cloud-native LD](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/images/logical-diagrams/cloud-native-development-ld.png)
-<img src="images/logical-diagrams/cloud-native-development-ld.png" width="250" height="100">
-<img src="images/logical-diagrams/cloud-native-development-ld.png" width="150" height="100">
+  <img src="images/logical-diagrams/cloud-native-development-ld.png" width="150" height="100"><img src="images/logical-diagrams/cloud-native-development-details-ld.png" width="150" height="100">
 
 ## Schematic diagrams
 
@@ -33,15 +31,25 @@ Insert one of the URL's below:
   
   - Schematic diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-integrate-saas-applications.drawio
   
-- Schematic diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagram-cloud-native-development.drawio
+  <img src="images/schematic-diagrams/saas-external-crm-interation-example.png" width="150" height="100">
+
+  - Schematic diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagram-cloud-native-development.drawio
   
+  <img src="images/schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png" width="150" height="100"><img src="images/schematic-diagrams/cloud-native-development-local-containers-process-sd.png" width="150" height="100">
+  <img src="images/schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png" width="150" height="100"><img src="images/schematic-diagrams/cloud-native-development-remote-containers-process-sd.png" width="150" height="100">
+  <img src="images/schematic-diagrams/cloud-native-development-deployment-sd.png" width="150" height="100"><img src="images/schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png" width="150" height="100">
 
 ## Detailed diagrams
 
   - Detailed diagrams (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-omnichannel-customer-experience.drawio
   
   - Detailed diagrams (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-integrate-saas-applications.drawio
- 
+  
+  - Detailed diagrams (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagram-cloud-native-development.drawio
+  
+  <img src="images/detail-diagrams/developer-ide.png" width="150" height="100"><img src="images/detail-diagrams/maven-repo.png" width="150" height="100"><img src="images/detail-diagrams/scm-system.png" width="150" height="100">
+  <img src="images/detail-diagrams/runtimes-frameworks.png" width="150" height="100"><img src="images/detail-diagrams/integration-frameworks.png" width="150" height="100"><img src="images/detail-diagrams/container-tooling.png" width="150" height="100">
+  <img src="images/detail-diagrams/ci-cd-platform.png" width="150" height="100">
 
 ## Solution diagrams 
 
