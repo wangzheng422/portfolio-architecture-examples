@@ -10,35 +10,28 @@ Insert one of the URL's below:
 
 ## Logical diagrams
 
-  - Logical diagram (from workshop): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/example_logical_diagram.drawio
+  - Logical diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-cloud-native-development.drawio
 
-  <img src="images/logical-diagrams/workshop-example-ld.png" border="2" width="150" height="100">
-
-  - Logical diagram (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-omnichannel-customer-experience.drawio
-  
-  <img src="images/logical-diagrams/omnichannel-customer-experience-ld.png" border="2" width="150" height="100">
-  <img src="images/logical-diagrams/omnichannel-customer-experience-details-ld.png" border="2" width="150" height="100">
+  <img src="images/logical-diagrams/cloud-native-development-ld.png" border="2" width="150" height="100">
+  <img src="images/logical-diagrams/cloud-native-development-details-ld.png" border="2" width="150" height="100">
 
   - Logical diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-integrate-saas-applications.drawio
 
   <img src="images/logical-diagrams/integrating-with-saas-applications-ld.png" border="2" width="150" height="100">
   <img src="images/logical-diagrams/saas-ld.png" border="2" width="150" height="100">
 
-  - Logical diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-cloud-native-development.drawio
+  - Logical diagram (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-omnichannel-customer-experience.drawio
+  
+  <img src="images/logical-diagrams/omnichannel-customer-experience-ld.png" border="2" width="150" height="100">
+  <img src="images/logical-diagrams/omnichannel-customer-experience-details-ld.png" border="2" width="150" height="100">
 
-  <img src="images/logical-diagrams/cloud-native-development-ld.png" border="2" width="150" height="100">
-  <img src="images/logical-diagrams/cloud-native-development-details-ld.png" border="2" width="150" height="100">
+  - Logical diagram (from workshop): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/example_logical_diagram.drawio
+
+  <img src="images/logical-diagrams/workshop-example-ld.png" border="2" width="150" height="100">
+
 
 ## Schematic diagrams
-
-  - Schematic diagram (from workshop): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/example_schematic_diagram.drawio
-
-  - Schematic diagram (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-omnichannel-customer-experience.drawio
   
-  - Schematic diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-integrate-saas-applications.drawio
-  
-  <img src="images/schematic-diagrams/saas-external-crm-integration-example.png" border="2" width="150" height="100">
-
   - Schematic diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagram-cloud-native-development.drawio
   
   <img src="images/schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png" border="2" width="150" height="100">
@@ -48,11 +41,19 @@ Insert one of the URL's below:
   <img src="images/schematic-diagrams/cloud-native-development-deployment-sd.png" border="2" width="150" height="100">
   <img src="images/schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png" border="2" width="150" height="100">
 
-## Detailed diagrams
-
-  - Detailed diagrams (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-omnichannel-customer-experience.drawio
+  - Schematic diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-integrate-saas-applications.drawio
   
-  - Detailed diagrams (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-integrate-saas-applications.drawio
+  <img src="images/schematic-diagrams/saas-external-crm-integration-sd.png" border="2" width="150" height="100">
+  <img src="images/schematic-diagrams/saas-external-crm-connector-sd.png" border="2" width="150" height="100">
+  <img src="images/schematic-diagrams/saas-external-3rd-party-platform-sd.png" border="2" width="150" height="100">
+  <img src="images/schematic-diagrams/saas-external-3rd-party-process-sd.png" border="2" width="150" height="100">
+
+  - Schematic diagram (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-omnichannel-customer-experience.drawio
+
+  - Schematic diagram (from workshop): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/example_schematic_diagram.drawio
+
+
+## Detailed diagrams
   
   - Detailed diagrams (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagram-cloud-native-development.drawio
   
@@ -63,6 +64,11 @@ Insert one of the URL's below:
   <img src="images/detail-diagrams/integration-frameworks.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/container-tooling.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/ci-cd-platform.png" border="2" width="150" height="100">
+
+  - Detailed diagrams (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-integrate-saas-applications.drawio
+
+  - Detailed diagrams (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-omnichannel-customer-experience.drawio
+
 
 ## Solution diagrams 
 
