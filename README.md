@@ -45,8 +45,8 @@ Insert one of the URL's below:
   
   <img src="images/schematic-diagrams/saas-external-crm-integration-sd.png" border="2" width="150" height="100">
   <img src="images/schematic-diagrams/saas-external-crm-connector-sd.png" border="2" width="150" height="100">
-  <img src="images/schematic-diagrams/saas-external-3rd-party-platform-sd.png" border="2" width="150" height="100">
-  <img src="images/schematic-diagrams/saas-external-3rd-party-process-sd.png" border="2" width="150" height="100">
+  <img src="images/schematic-diagrams/saas-integration-3rd-party-platform-sd.png" border="2" width="150" height="100">
+  <img src="images/schematic-diagrams/saas-integration-3rd-party-process-sd.png" border="2" width="150" height="100">
 
   - Schematic diagram (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-omnichannel-customer-experience.drawio
 
