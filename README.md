@@ -17,11 +17,11 @@ Insert one of the URL's below:
 
   - Logical diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-integrate-saas-applications.drawio
 
-  <img src="images/logical-diagrams/integrating-with-saas-applications-ld.png" width="150" height="100"><img src="images/logical-diagrams/saas-ld.png" width="150" height="100">
+  <img src="images/logical-diagrams/integrating-with-saas-applications-ld.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;"><img src="images/logical-diagrams/saas-ld.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;">
 
   - Logical diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-cloud-native-development.drawio
 
-  <img src="images/logical-diagrams/cloud-native-development-ld.png" width="150" height="100"><img src="images/logical-diagrams/cloud-native-development-details-ld.png" width="150" height="100">
+  <img src="images/logical-diagrams/cloud-native-development-ld.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;"><img src="images/logical-diagrams/cloud-native-development-details-ld.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;">
 
 ## Schematic diagrams
 
@@ -31,13 +31,13 @@ Insert one of the URL's below:
   
   - Schematic diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-integrate-saas-applications.drawio
   
-  <img src="images/schematic-diagrams/saas-external-crm-interation-example.png" width="150" height="100">
+  <img src="images/schematic-diagrams/saas-external-crm-interation-example.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;">
 
   - Schematic diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagram-cloud-native-development.drawio
   
-  <img src="images/schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png" width="150" height="100"><img src="images/schematic-diagrams/cloud-native-development-local-containers-process-sd.png" width="150" height="100">
-  <img src="images/schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png" width="150" height="100"><img src="images/schematic-diagrams/cloud-native-development-remote-containers-process-sd.png" width="150" height="100">
-  <img src="images/schematic-diagrams/cloud-native-development-deployment-sd.png" width="150" height="100"><img src="images/schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png" width="150" height="100">
+  <img src="images/schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;"><img src="images/schematic-diagrams/cloud-native-development-local-containers-process-sd.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;">
+  <img src="images/schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;"><img src="images/schematic-diagrams/cloud-native-development-remote-containers-process-sd.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;">
+  <img src="images/schematic-diagrams/cloud-native-development-deployment-sd.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;"><img src="images/schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;">
 
 ## Detailed diagrams
 
@@ -47,9 +47,9 @@ Insert one of the URL's below:
   
   - Detailed diagrams (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagram-cloud-native-development.drawio
   
-  <img src="images/detail-diagrams/developer-ide.png" width="150" height="100"><img src="images/detail-diagrams/maven-repo.png" width="150" height="100"><img src="images/detail-diagrams/scm-system.png" width="150" height="100">
-  <img src="images/detail-diagrams/runtimes-frameworks.png" width="150" height="100"><img src="images/detail-diagrams/integration-frameworks.png" width="150" height="100"><img src="images/detail-diagrams/container-tooling.png" width="150" height="100">
-  <img src="images/detail-diagrams/ci-cd-platform.png" width="150" height="100">
+  <img src="images/detail-diagrams/developer-ide.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;"><img src="images/detail-diagrams/maven-repo.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;"><img src="images/detail-diagrams/scm-system.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;">
+  <img src="images/detail-diagrams/runtimes-frameworks.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;"><img src="images/detail-diagrams/integration-frameworks.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;"><img src="images/detail-diagrams/container-tooling.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;">
+  <img src="images/detail-diagrams/ci-cd-platform.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;">
 
 ## Solution diagrams 
 
@@ -62,3 +62,4 @@ Insert one of the URL's below:
 
   - Camel-K event streaming hazard diagrams: https://gitlab.com/redhatdemocentral/portfolio-architecture-example/raw/master/community/Camel-K/Event-Streaming-Hazard.drawio 
 
+  <img src="images/community-diagrams/camel-k-diagram-in-the-wild.png" style="border:0px;margin:0px;float:left;width:150px;height:100px;">
