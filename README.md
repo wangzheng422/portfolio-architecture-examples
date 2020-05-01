@@ -6,16 +6,22 @@ Example diagrams, pieces of diagrams, and examples for importing with URL featur
 
 (diagram tool hosted online for free usage here: https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling)
 
-Insert one of the URL's below:
+Below you find the diagram project files (cut and paste URL into tooling to import) and images that can be used for slides (click to
+enlarge an image):
+
 
 ## Logical diagrams
 
-  - Logical diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-cloud-native-development.drawio
+  - Logical diagram (Cloud-native development): 
+
+     * https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-cloud-native-development.drawio
 
   <img src="images/logical-diagrams/cloud-native-development-ld.png" border="2" width="150" height="100">
   <img src="images/logical-diagrams/cloud-native-development-details-ld.png" border="2" width="150" height="100">
 
-  - Logical diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-integrate-saas-applications.drawio
+  - Logical diagram (Integrate SaaS applications): 
+
+     - https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-integrate-saas-applications.drawio
 
   <img src="images/logical-diagrams/integrating-with-saas-applications-ld.png" border="2" width="150" height="100">
   <img src="images/logical-diagrams/saas-ld.png" border="2" width="150" height="100">
@@ -78,7 +84,7 @@ Insert one of the URL's below:
   <img src="images/detail-diagrams/crm-connector.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/web-app.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/api-management.png" border="2" width="150" height="100">
-  <img src="images/detail-diagrams/font-end-microservices.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/front-end-microservices.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/process-facade-microservices.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/integration-microservices.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/integration-data-microservices.png" border="2" width="150" height="100">
