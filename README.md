@@ -18,6 +18,7 @@ Insert one of the URL's below:
 
   - Logical diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-cloud-native-development.drawio
 
+![Cloud-native LD](images/logical-diagrams/cloud-native-development-ld.png =250x100)
 
 ## Schematic diagrams
 
