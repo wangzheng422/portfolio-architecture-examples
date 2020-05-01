@@ -12,8 +12,12 @@ Insert one of the URL's below:
 
   - Logical diagram (from workshop): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/example_logical_diagram.drawio
 
+  <img src="images/logical-diagrams/workshop-example-ld.png" border="2" width="150" height="100">
+
   - Logical diagram (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-omnichannel-customer-experience.drawio
   
+  <img src="images/logical-diagrams/omnichannel-customer-experience-ld.png" border="2" width="150" height="100">
+  <img src="images/logical-diagrams/omnichannel-customer-experience-details-ld.png" border="2" width="150" height="100">
 
   - Logical diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-integrate-saas-applications.drawio
 
