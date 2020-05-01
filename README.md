@@ -77,6 +77,8 @@ enlarge an image):
 
      - https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/example_schematic_diagram.drawio
 
+  <img src="images/schematic-diagrams/workshop-example-sd.png" border="2" width="150" height="100">
+
 
 ## Detailed diagrams
   
