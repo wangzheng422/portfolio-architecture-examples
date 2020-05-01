@@ -114,7 +114,7 @@ enlarge an image):
   <img src="images/detail-diagrams/web-app.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/mobile-app.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/web-app2.png" border="2" width="150" height="100">
-  <img src="images/detail-diagrams/api-managemnet2.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/api-management2.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/reverse-proxy.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/applications.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/front-end-microservices.png" border="2" width="150" height="100">
