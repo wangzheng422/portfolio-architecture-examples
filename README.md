@@ -17,10 +17,13 @@ Insert one of the URL's below:
   - Logical diagram (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-integrate saas-applications.drawio
 
 ![SaaS LD](images/logical-diagrams/saas-ld.png)
+<img src="images/logical-diagrams/saas-ld.png" width="250" height="150">
 
   - Logical diagram (Cloud-native development): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/logical-diagram-cloud-native-development.drawio
 
 ![Cloud-native LD](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/images/logical-diagrams/cloud-native-development-ld.png)
+<img src="images/logical-diagrams/cloud-native-development-ld.png" width="250" height="100">
+<img src="images/logical-diagrams/cloud-native-development-ld.png" width="150" height="100">
 
 ## Schematic diagrams
 
