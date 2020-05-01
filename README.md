@@ -50,6 +50,13 @@ Insert one of the URL's below:
 
   - Schematic diagram (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/schematic-diagrams-omnichannel-customer-experience.drawio
 
+  <img src="images/schematic-diagrams/omnichannel-process-integration-sd.png" border="2" width="150" height="100">
+  <img src="images/schematic-diagrams/omnichannel-mobile-integration-sd.png" border="2" width="150" height="100">
+  <img src="images/schematic-diagrams/omnichannel-integration-service-sd.png" border="2" width="150" height="100">
+  <img src="images/schematic-diagrams/omnichannel-integration-data-service-sd.png" border="2" width="150" height="100">
+  <img src="images/schematic-diagrams/omnichannel-integration-3rd-parry-service-sd.png" border="2" width="150" height="100">
+  <img src="images/schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.png" border="2" width="150" height="100">
+
   - Schematic diagram (from workshop): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/example_schematic_diagram.drawio
 
 
