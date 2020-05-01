@@ -74,6 +74,17 @@ Insert one of the URL's below:
 
   - Detailed diagrams (Integrate SaaS applications): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-integrate-saas-applications.drawio
 
+  <img src="images/detail-diagrams/external-saas-crm.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/crm-connector.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/web-app.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/api-management.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/font-end-microservices.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/process-facade-microservices.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/integration-microservices.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/integration-data-microservices.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/sso-server.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/3rd-party-platform-services.png" border="2" width="150" height="100">
+
   - Detailed diagrams (Omnichannel customer experience): https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/detailed-diagrams-omnichannel-customer-experience.drawio
 
 
