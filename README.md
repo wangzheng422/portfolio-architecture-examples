@@ -134,10 +134,19 @@ enlarge an image):
 
      - https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/Asahi-OCP.drawio
   
+  <img src="images/solution-diagrams/iot-logical.png" border="2" width="150" height="100">
+  <img src="images/solution-diagrams/iot-schematic.png" border="2" width="150" height="100">
+  <img src="images/solution-diagrams/iot-detail.png" border="2" width="150" height="100">
+  
   - **Red Hat on Red Hat diagrams:**
 
      - https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/raw/master/RHonRH.drawio
 
+  <img src="images/solution-diagrams/rhonrh-logical.png" border="2" width="150" height="100">
+  <img src="images/solution-diagrams/rhonrh-schematic.png" border="2" width="150" height="100">
+  <img src="images/solution-diagrams/rhonrh-schematic-provisioning.png" border="2" width="150" height="100">
+  <img src="images/solution-diagrams/rhonrh-detail-app.png" border="2" width="150" height="100">
+  <img src="images/solution-diagrams/rhonrh-detail-sysmanagement.png" border="2" width="150" height="100">
 
 ## Community diagrams
 
