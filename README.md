@@ -93,6 +93,11 @@ enlarge an image):
   <img src="images/detail-diagrams/integration-frameworks.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/container-tooling.png" border="2" width="150" height="100">
   <img src="images/detail-diagrams/ci-cd-platform.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/image-registry.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/registry-management.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/s2i-workflow.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/sandbox-registry.png" border="2" width="150" height="100">
+  <img src="images/detail-diagrams/enterprise-registry.png" border="2" width="150" height="100">
 
   - **Detailed diagrams (Integrate SaaS applications):**
 
