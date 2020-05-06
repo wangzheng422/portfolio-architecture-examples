@@ -1,0 +1,12 @@
+pages:
+  stage: deploy
+  script:
+    - mkdir .public
+    - mkdir .public/projects
+    - cp *.drawio .public/projects/
+    - mv .public public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
