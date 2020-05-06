@@ -1,0 +1,3 @@
+<FilesMatch "\.(?i:drawio)$">
+  Header set Content-Disposition attachment
+</FilesMatch>
