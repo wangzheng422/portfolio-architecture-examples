@@ -16,7 +16,7 @@ Images that can be used for slides (click to enlarge an image):
  
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-cloud-native-development.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/logical-diagram-cloud-native-development.drawio?inline=false)  ]
 
-<img src="images/logical-diagrams/cloud-native-development-details-ld.png" border="2" width="150" height="100">
+<img src="images/logical-diagrams/cloud-native-development-ld.png" border="2" width="150" height="100">
 
 ### Logical diagram (Integrate SaaS applications):
 
