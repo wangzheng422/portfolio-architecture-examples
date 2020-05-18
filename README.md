@@ -156,7 +156,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Camel-K event streaming hazard diagrams:
 
-[ [Load Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Event-Streaming-Hazard.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/community/Event-Streaming-Hazard.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Event-Streaming-Hazard.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/community/Event-Streaming-Hazard.drawio?inline=false) ]
 
 <img src="images/community-diagrams/camel-k-diagram-in-the-wild.png" border="2" width="150" height="100">
 
