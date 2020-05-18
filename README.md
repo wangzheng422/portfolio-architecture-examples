@@ -14,27 +14,27 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Logical diagram (Cloud-native development):
  
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-cloud-native-development.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/logical-diagram-cloud-native-development.drawio?inline=false)  ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-cloud-native-development.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagram-cloud-native-development.drawio?inline=false)  ]
 
 <img src="images/logical-diagrams/cloud-native-development-ld.png" border="2" width="150" height="100">
 
 ### Logical diagram (Integrate SaaS applications):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-integrate-saas-applications.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/logical-diagram-integrate-saas-applications.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-integrate-saas-applications.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagram-integrate-saas-applications.drawio?inline=false) ]
 
 <img src="images/logical-diagrams/integrating-with-saas-applications-ld.png" border="2" width="150" height="100">
 <img src="images/logical-diagrams/saas-ld.png" border="2" width="150" height="100">
 
 ### Logical diagram (Omnichannel customer experience)
 
-[  [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-omnichannel-customer-experience.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/logical-diagram-omnichannel-customer-experience.drawio?inline=false) ]
+[  [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-omnichannel-customer-experience.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagram-omnichannel-customer-experience.drawio?inline=false) ]
 
 <img src="images/logical-diagrams/omnichannel-customer-experience-ld.png" border="2" width="150" height="100">
 <img src="images/logical-diagrams/omnichannel-customer-experience-details-ld.png" border="2" width="150" height="100">
 
 ### Logical diagram (from workshop):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/master/example_logical_diagram.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/example_logical_diagram.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/master/diagrams/example_logical_diagram.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/example_logical_diagram.drawio?inline=false) ]
 
 <img src="images/logical-diagrams/workshop-example-ld.png" border="2" width="150" height="100">
 
@@ -43,7 +43,7 @@ Images that can be used for slides (click to enlarge an image):
   
 ### Schematic diagram (Cloud-native development):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagram-cloud-native-development.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/schematic-diagram-cloud-native-development.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagram-cloud-native-development.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagram-cloud-native-development.drawio?inline=false) ]
 
 <img src="images/schematic-diagrams/cloud-native-development-local-containers-process-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png" border="2" width="150" height="100">
@@ -53,7 +53,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Schematic diagram (Integrate SaaS applications):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-integrate-saas-applications.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/schematic-diagrams-integrate-saas-applications.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-integrate-saas-applications.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-integrate-saas-applications.drawio?inline=false) ]
 
 <img src="images/schematic-diagrams/saas-external-crm-integration-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/saas-external-crm-connector-sd.png" border="2" width="150" height="100">
@@ -62,7 +62,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Schematic diagram (Omnichannel customer experience):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-omnichannel-customer-experience.drawio) ]  [[Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/schematic-diagrams-omnichannel-customer-experience.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-omnichannel-customer-experience.drawio) ]  [[Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-omnichannel-customer-experience.drawio?inline=false) ]
 
 <img src="images/schematic-diagrams/omnichannel-process-integration-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/omnichannel-mobile-integration-sd.png" border="2" width="150" height="100">
@@ -73,7 +73,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Schematic diagram (from workshop):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/example_schematic_diagram.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/example_schematic_diagram.drawio?inline=false)
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/example_schematic_diagram.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/example_schematic_diagram.drawio?inline=false)
 
 <img src="images/schematic-diagrams/workshop-example-sd.png" border="2" width="150" height="100">
 
@@ -82,7 +82,7 @@ Images that can be used for slides (click to enlarge an image):
   
 ### Detailed diagrams (Cloud-native development):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagram-cloud-native-development.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/detailed-diagram-cloud-native-development.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagram-cloud-native-development.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagram-cloud-native-development.drawio?inline=false) ]
 
 <img src="images/detail-diagrams/developer-ide.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/maven-repo.png" border="2" width="150" height="100">
@@ -99,7 +99,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Detailed diagrams (Integrate SaaS applications):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-integrate-saas-applications.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/detailed-diagrams-integrate-saas-applications.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-integrate-saas-applications.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-integrate-saas-applications.drawio?inline=false) ]
 
 <img src="images/detail-diagrams/external-saas-crm.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/crm-connector.png" border="2" width="150" height="100">
@@ -114,7 +114,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Detailed diagrams (Omnichannel customer experence):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-omnichannel-customer-experience.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/detailed-diagrams-omnichannel-customer-experience.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-omnichannel-customer-experience.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-omnichannel-customer-experience.drawio?inline=false) ]
 
 <img src="images/detail-diagrams/web-app.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/mobile-app.png" border="2" width="150" height="100">
@@ -135,7 +135,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ### IoT diagrams:
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Asahi-OCP.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/Asahi-OCP.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Asahi-OCP.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/Asahi-OCP.drawio?inline=false) ]
 
 <img src="images/solution-diagrams/iot-logical.png" border="2" width="150" height="100">
 <img src="images/solution-diagrams/iot-schematic.png" border="2" width="150" height="100">
@@ -143,7 +143,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Red Hat on Red Hat diagrams:
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/RHonRH.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/RHonRH.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/RHonRH.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/RHonRH.drawio?inline=false) ]
 
 <img src="images/solution-diagrams/rhonrh-logical.png" border="2" width="150" height="100">
 <img src="images/solution-diagrams/rhonrh-schematic.png" border="2" width="150" height="100">
@@ -156,7 +156,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Camel-K event streaming hazard diagrams:
 
-[ [Load Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/community/Camel-K/Event-Streaming-Hazard.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/community/Camel-K/Event-Streaming-Hazard.drawio?inline=false) ]
+[ [Load Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Event-Streaming-Hazard.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/community/Event-Streaming-Hazard.drawio?inline=false) ]
 
 <img src="images/community-diagrams/camel-k-diagram-in-the-wild.png" border="2" width="150" height="100">
 
