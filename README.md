@@ -151,6 +151,15 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/solution-diagrams/rhonrh-detail-app.png" border="2" width="150" height="100">
 <img src="images/solution-diagrams/rhonrh-detail-sysmanagement.png" border="2" width="150" height="100">
 
+### Automated Infrastructure Remediation 
+
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/all_in_one_remediation.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/all_in_one_remediation.drawio?inline=false) ]
+
+<img src="images/solution-diagrams/logical_remediation.png" border="2" width="150" height="100">
+<img src="images/solution-diagrams/schema_remediation_network_only.png" border="2" width="150" height="100">
+<img src="images/solution-diagrams/schema_remediation_all.png" border="2" width="150" height="100">
+<img src="images/solution-diagrams/detail_remediation_smart_management.png" border="2" width="150" height="100">
+<img src="images/solution-diagrams/detail_remediation_automation_orchestration.png" border="2" width="150" height="100">
 
 ## Community diagrams
 
