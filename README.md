@@ -12,6 +12,12 @@ Images that can be used for slides (click to enlarge an image):
 
 ## Logical diagrams
 
+### Logical Diagram (FSI payments):
+
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-fsi-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagram-fsi-payments.drawio?inline=false)  ]
+
+<img src="images/logical-diagrams/fsi-payments-ld.png" border="2" width="150" height="100">
+
 ### Logical diagram (Cloud-native development):
  
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-cloud-native-development.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagram-cloud-native-development.drawio?inline=false)  ]
