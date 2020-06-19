@@ -51,7 +51,7 @@ Images that can be used for slides (click to enlarge an image):
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagram-fsi-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagram-fsi-payments.drawio?inline=false)  ]
 
-<img src="images/logical-diagrams/fsi-payments-financial-calculations-sd.png" border="2" width="150" height="100">
+<img src="images/schematic-diagrams/fsi-payments-financial-calculations-sd.png" border="2" width="150" height="100">
 
 ### Schematic diagram (Cloud-native development):
 
