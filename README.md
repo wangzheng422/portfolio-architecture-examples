@@ -136,7 +136,7 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/detail-diagrams/api-management2.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/reverse-proxy.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/applications.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/front-end-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/front-end-microservices2.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/process-facade-microservices2.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/integration-microservices2.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/integration-data-microservices2.png" border="2" width="150" height="100">
