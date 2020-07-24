@@ -130,7 +130,6 @@ Images that can be used for slides (click to enlarge an image):
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-omnichannel-customer-experience.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-omnichannel-customer-experience.drawio?inline=false) ]
 
-<img src="images/detail-diagrams/web-app.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/mobile-app.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/web-app2.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/api-management2.png" border="2" width="150" height="100">
