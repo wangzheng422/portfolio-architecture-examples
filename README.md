@@ -60,6 +60,7 @@ Images that can be used for slides (click to enlarge an image):
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagram-cloud-native-development.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagram-cloud-native-development.drawio?inline=false) ]
 
+<img src="images/schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/cloud-native-development-local-containers-process-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/cloud-native-development-remote-containers-process-sd.png" border="2" width="150" height="100">
