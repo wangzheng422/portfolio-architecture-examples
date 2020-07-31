@@ -84,7 +84,7 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/schematic-diagrams/omnichannel-mobile-integration-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/omnichannel-integration-service-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/omnichannel-integration-data-service-sd.png" border="2" width="150" height="100">
-<img src="images/schematic-diagrams/omnichannel-integration-3rd-parry-service-sd.png" border="2" width="150" height="100">
+<img src="images/schematic-diagrams/omnichannel-integration-3rd-party-service-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.png" border="2" width="150" height="100">
 
 ### Schematic diagram (from workshop):
