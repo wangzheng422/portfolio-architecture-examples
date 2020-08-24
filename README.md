@@ -145,6 +145,12 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/detail-diagrams/real-time-data-storage.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/sso-server.png" border="2" width="150" height="100">
 
+### Detail diagram (from workshop):
+
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/example_detail_diagram.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/example_detail_diagram.drawio?inline=false) ]
+
+<img src="images/detail-diagrams/workshop-example-dd.png" border="2" width="150" height="100">
+
 
 ## Solution diagrams 
 
