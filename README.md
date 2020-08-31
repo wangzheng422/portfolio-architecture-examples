@@ -55,6 +55,7 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/schematic-diagrams/fsi-payments-financial-calculations-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/fsi-payments-immediate-payments-network-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/fsi-payments-immediate-payments-data-sd.png" border="2" width="150" height="100">
+<img src="images/schematic-diagrams/fsi-payments-anti-money-laundering-sd.png" border="2" width="150" height="100">
 
 ### Schematic diagram (Cloud-native development):
 
