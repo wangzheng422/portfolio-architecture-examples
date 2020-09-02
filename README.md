@@ -14,27 +14,27 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Logical Diagram (FSI payments):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-fsi-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagram-fsi-payments.drawio?inline=false)  ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-fsi-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-fsi-payments.drawio?inline=false)  ]
 
 <img src="images/logical-diagrams/fsi-payments-ld.png" border="2" width="150" height="100">
 
 ### Logical diagram (Cloud-native development):
  
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-cloud-native-development.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagram-cloud-native-development.drawio?inline=false)  ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-cloud-native-development.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-cloud-native-development.drawio?inline=false)  ]
 
 <img src="images/logical-diagrams/cloud-native-development-ld.png" border="2" width="150" height="100">
 <img src="images/logical-diagrams/cloud-native-development-details-ld.png" border="2" width="150" height="100">
 
 ### Logical diagram (Integrate SaaS applications):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-integrate-saas-applications.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagram-integrate-saas-applications.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-integrate-saas-applications.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-integrate-saas-applications.drawio?inline=false) ]
 
 <img src="images/logical-diagrams/integrating-with-saas-applications-ld.png" border="2" width="150" height="100">
 <img src="images/logical-diagrams/integrating-with-saas-applications-details-ld.png" border="2" width="150" height="100">
 
 ### Logical diagram (Omnichannel customer experience)
 
-[  [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagram-omnichannel-customer-experience.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagram-omnichannel-customer-experience.drawio?inline=false) ]
+[  [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-omnichannel-customer-experience.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-omnichannel-customer-experience.drawio?inline=false) ]
 
 <img src="images/logical-diagrams/omnichannel-customer-experience-ld.png" border="2" width="150" height="100">
 <img src="images/logical-diagrams/omnichannel-customer-experience-details-ld.png" border="2" width="150" height="100">
@@ -50,7 +50,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Schematic diagram (FSI payments):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagram-fsi-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagram-fsi-payments.drawio?inline=false)  ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-fsi-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-fsi-payments.drawio?inline=false)  ]
 
 <img src="images/schematic-diagrams/fsi-payments-financial-calculations-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/fsi-payments-immediate-payments-network-sd.png" border="2" width="150" height="100">
@@ -60,7 +60,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Schematic diagram (Cloud-native development):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagram-cloud-native-development.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagram-cloud-native-development.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-cloud-native-development.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-cloud-native-development.drawio?inline=false) ]
 
 <img src="images/schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/cloud-native-development-local-containers-process-sd.png" border="2" width="150" height="100">
@@ -100,7 +100,7 @@ Images that can be used for slides (click to enlarge an image):
   
 ### Detailed diagrams (Cloud-native development):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagram-cloud-native-development.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagram-cloud-native-development.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-cloud-native-development.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-cloud-native-development.drawio?inline=false) ]
 
 <img src="images/detail-diagrams/developer-ide.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/maven-repo.png" border="2" width="150" height="100">
