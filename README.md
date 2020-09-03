@@ -107,6 +107,10 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/detail-diagrams/fsi-validation-microservices-events.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-clearing-microservices.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-routing-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-aml-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-fraud-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-data-cache.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-payments-network.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-api.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-message-queues.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-validation-microservices.png" border="2" width="150" height="100">
