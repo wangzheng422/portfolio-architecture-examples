@@ -12,27 +12,27 @@ Images that can be used for slides (click to enlarge an image):
 
 ## Logical diagrams
 
-### Logical Diagram (FSI payments):
+### Logical diagrams (FSI payments):
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-fsi-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-fsi-payments.drawio?inline=false)  ]
 
 <img src="images/logical-diagrams/fsi-payments-ld.png" border="2" width="150" height="100">
 
-### Logical diagram (Cloud-native development):
+### Logical diagrams (Cloud-native development):
  
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-cloud-native-development.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-cloud-native-development.drawio?inline=false)  ]
 
 <img src="images/logical-diagrams/cloud-native-development-ld.png" border="2" width="150" height="100">
 <img src="images/logical-diagrams/cloud-native-development-details-ld.png" border="2" width="150" height="100">
 
-### Logical diagram (Integrate SaaS applications):
+### Logical diagrams (Integrate SaaS applications):
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-integrate-saas-applications.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-integrate-saas-applications.drawio?inline=false) ]
 
 <img src="images/logical-diagrams/integrating-with-saas-applications-ld.png" border="2" width="150" height="100">
 <img src="images/logical-diagrams/integrating-with-saas-applications-details-ld.png" border="2" width="150" height="100">
 
-### Logical diagram (Omnichannel customer experience)
+### Logical diagrams (Omnichannel customer experience)
 
 [  [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-omnichannel-customer-experience.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-omnichannel-customer-experience.drawio?inline=false) ]
 
@@ -48,7 +48,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ## Schematic diagrams
 
-### Schematic diagram (FSI payments):
+### Schematic diagrams (FSI payments):
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-fsi-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-fsi-payments.drawio?inline=false)  ]
 
@@ -58,7 +58,7 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/schematic-diagrams/fsi-payments-anti-money-laundering-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/fsi-payments-fraud-detection-sd.png" border="2" width="150" height="100">
 
-### Schematic diagram (Cloud-native development):
+### Schematic diagrams (Cloud-native development):
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-cloud-native-development.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-cloud-native-development.drawio?inline=false) ]
 
@@ -69,7 +69,7 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/schematic-diagrams/cloud-native-development-deployment-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png" border="2" width="150" height="100">
 
-### Schematic diagram (Integrate SaaS applications):
+### Schematic diagrams (Integrate SaaS applications):
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-integrate-saas-applications.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-integrate-saas-applications.drawio?inline=false) ]
 
@@ -78,7 +78,7 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/schematic-diagrams/saas-integration-3rd-party-platform-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/saas-integration-3rd-party-process-sd.png" border="2" width="150" height="100">
 
-### Schematic diagram (Omnichannel customer experience):
+### Schematic diagrams (Omnichannel customer experience):
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-omnichannel-customer-experience.drawio) ]  [[Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-omnichannel-customer-experience.drawio?inline=false) ]
 
@@ -98,7 +98,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ## Detailed diagrams
 
-### Schematic diagram (FSI payments):
+### Detailed diagrams (FSI payments):
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-fsi-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-fsi-payments.drawio?inline=false)  ]
 
@@ -106,6 +106,10 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/detail-diagrams/fsi-message-queues.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-integration-microservices.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-billing-systems.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-validation-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-detail-calculations-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-aggregation-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-reference-data.png" border="2" width="150" height="100">
   
 ### Detailed diagrams (Cloud-native development):
 
@@ -183,7 +187,7 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/solution-diagrams/rhonrh-detail-app.png" border="2" width="150" height="100">
 <img src="images/solution-diagrams/rhonrh-detail-sysmanagement.png" border="2" width="150" height="100">
 
-### Automated Infrastructure Remediation 
+### Automated infrastructure remediation 
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/all_in_one_remediation.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/all_in_one_remediation.drawio?inline=false) ]
 
