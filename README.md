@@ -102,14 +102,19 @@ Images that can be used for slides (click to enlarge an image):
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-fsi-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-fsi-payments.drawio?inline=false)  ]
 
+<img src="images/detail-diagrams/fsi-payments-api.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-payment-event-streams.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-validation-microservices-events.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-clearing-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-routing-microservices.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-api.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-message-queues.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/fsi-integration-microservices.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/fsi-billing-systems.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-validation-microservices.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-detail-calculations-microservices.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-aggregation-microservices.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-reference-data.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-integration-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-billing-systems.png" border="2" width="150" height="100">
   
 ### Detailed diagrams (Cloud-native development):
 
