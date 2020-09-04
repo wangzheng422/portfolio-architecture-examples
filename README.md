@@ -111,6 +111,17 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/detail-diagrams/fsi-fraud-microservices.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-data-cache.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-payments-network.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-aml-payments-event-streams.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-aml-transaction-scoring.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-aml-aml-rules.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-fraud-detection-rules.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-aml-malicious-activity-streams.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-aml-suspicious-activity-reporting.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-aml-case-management.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-fraud-prevention-process.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-aml-kyc.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-aml-cusotmer-transation-data.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/fsi-aml-model-training-serving.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-api.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-message-queues.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/fsi-validation-microservices.png" border="2" width="150" height="100">
