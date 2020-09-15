@@ -12,11 +12,11 @@ Images that can be used for slides (click to enlarge an image):
 
 ## Logical diagrams
 
-### Logical diagrams (Financial payments):
+### Logical diagrams (Payments):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-financial-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-financial-payments.drawio?inline=false)  ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-payments-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-payments-payments.drawio?inline=false)  ]
 
-<img src="images/logical-diagrams/financial-payments-ld.png" border="2" width="150" height="100">
+<img src="images/logical-diagrams/payments-payments-ld.png" border="2" width="150" height="100">
 
 ### Logical diagrams (Cloud-native development):
  
@@ -48,15 +48,15 @@ Images that can be used for slides (click to enlarge an image):
 
 ## Schematic diagrams
 
-### Schematic diagrams (Financial payments):
+### Schematic diagrams (Payments):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-financial-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-financial-payments.drawio?inline=false)  ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-payments-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-payments-payments.drawio?inline=false)  ]
 
-<img src="images/schematic-diagrams/financial-payments-financial-calculations-sd.png" border="2" width="150" height="100">
-<img src="images/schematic-diagrams/financial-payments-immediate-payments-network-sd.png" border="2" width="150" height="100">
-<img src="images/schematic-diagrams/financial-payments-immediate-payments-data-sd.png" border="2" width="150" height="100">
-<img src="images/schematic-diagrams/financial-payments-anti-money-laundering-sd.png" border="2" width="150" height="100">
-<img src="images/schematic-diagrams/financial-payments-fraud-detection-sd.png" border="2" width="150" height="100">
+<img src="images/schematic-diagrams/payments-payments-payments-calculations-sd.png" border="2" width="150" height="100">
+<img src="images/schematic-diagrams/payments-payments-immediate-payments-network-sd.png" border="2" width="150" height="100">
+<img src="images/schematic-diagrams/payments-payments-immediate-payments-data-sd.png" border="2" width="150" height="100">
+<img src="images/schematic-diagrams/payments-payments-anti-money-laundering-sd.png" border="2" width="150" height="100">
+<img src="images/schematic-diagrams/payments-payments-fraud-detection-sd.png" border="2" width="150" height="100">
 
 ### Schematic diagrams (Cloud-native development):
 
@@ -98,38 +98,38 @@ Images that can be used for slides (click to enlarge an image):
 
 ## Detailed diagrams
 
-### Detailed diagrams (Financial payments):
+### Detailed diagrams (Payments):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-financial-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-financial-payments.drawio?inline=false)  ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-payments-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-payments-payments.drawio?inline=false)  ]
 
-<img src="images/detail-diagrams/financial-payments-api.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-payment-event-streams.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-validation-microservices-events.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-clearing-microservices.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-routing-microservices.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-aml-microservices.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-fraud-microservices.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-data-cache.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-payments-network.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-aml-payments-event-streams.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-aml-transaction-scoring.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-aml-aml-rules.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-fraud-detection-rules.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-aml-malicious-activity-streams.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-aml-suspicious-activity-reporting.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-aml-case-management.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-fraud-prevention-process.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-aml-kyc.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-aml-cusotmer-transation-data.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-aml-model-training-serving.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-api.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-message-queues.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-validation-microservices.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-detail-calculations-microservices.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-aggregation-microservices.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-reference-data.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-integration-microservices.png" border="2" width="150" height="100">
-<img src="images/detail-diagrams/financial-billing-systems.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-payments-api.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-payment-event-streams.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-validation-microservices-events.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-clearing-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-routing-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-aml-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-fraud-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-data-cache.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-payments-network.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-aml-payments-event-streams.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-aml-transaction-scoring.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-aml-aml-rules.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-fraud-detection-rules.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-aml-malicious-activity-streams.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-aml-suspicious-activity-reporting.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-aml-case-management.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-fraud-prevention-process.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-aml-kyc.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-aml-cusotmer-transation-data.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-aml-model-training-serving.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-api.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-message-queues.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-validation-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-detail-calculations-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-aggregation-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-reference-data.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-integration-microservices.png" border="2" width="150" height="100">
+<img src="images/detail-diagrams/payments-billing-systems.png" border="2" width="150" height="100">
   
 ### Detailed diagrams (Cloud-native development):
 
