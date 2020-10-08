@@ -207,7 +207,7 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/solution-diagrams/rhonrh-detail-app.png" border="2" width="150" height="100">
 <img src="images/solution-diagrams/rhonrh-detail-sysmanagement.png" border="2" width="150" height="100">
 
-### Automated infrastructure remediation 
+### Automated infrastructure remediation: 
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remediation_v2.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/remediation_v2.drawio?inline=false) ]
 
@@ -216,6 +216,21 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/solution-diagrams/remediation-dataflow-blueprint.png" border="2" width="150" height="100">
 <img src="images/solution-diagrams/remediation-detail-smartmanagement.png" border="2" width="150" height="100">
 <img src="images/solution-diagrams/remediation-detail-automationorchestration.png" border="2" width="150" height="100">
+
+## Product demo diagrams
+
+### CodeReady Containers (OCP 4.5) with Red Hat Decision Manager Install
+
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhdm-install-demo.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/community/crc-rhdm-install-demo.drawio?inline=false) ]
+
+<img src="images/product-demo-diagrams/codeready-containers-rhdm-install.png" border="2" width="150" height="100">
+
+### CodeReady Containers (OCP 4.5) with Red Hat Process Automation Manager Install
+
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhpam-install-demo.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/community/crc-rhpam-install-demo.drawio?inline=false) ]
+
+<img src="images/product-demo-diagrams/codeready-containers-rhpam-install.png" border="2" width="150" height="100">
+
 
 ## Community diagrams
 
