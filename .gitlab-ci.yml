@@ -6,6 +6,7 @@ pages:
     - cp .gitlab-htaccess .public/projects/.htaccess
     - cp diagrams/*.drawio .public/projects/
     - cp diagrams/community/*.drawio .public/projects/
+    - cp diagrams/product-demos/*.drawio .public/projects/
     - mv .public public
   artifacts:
     paths:
