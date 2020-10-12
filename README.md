@@ -100,7 +100,7 @@ Images that can be used for slides (click to enlarge an image):
 
 ### Detailed diagrams (Payments):
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-payments-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-payments-payments.drawio?inline=false)  ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-payments.drawio?inline=false)  ]
 
 <img src="images/detail-diagrams/payments-payments-api.png" border="2" width="150" height="100">
 <img src="images/detail-diagrams/payments-payment-event-streams.png" border="2" width="150" height="100">
