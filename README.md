@@ -12,6 +12,12 @@ Images that can be used for slides (click to enlarge an image):
 
 ## Logical diagrams
 
+### Logical diagrams (Retail):
+
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-retail.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-retail.drawio?inline=false)  ]
+
+<img src="images/logical-diagrams/retail-pos-ld.png" border="2" width="150" height="100">
+
 ### Logical diagrams (Payments):
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-payments.drawio) ]  [  [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-payments.drawio?inline=false)  ]
