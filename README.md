@@ -228,19 +228,19 @@ Images that can be used for slides (click to enlarge an image):
 
 ### CodeReady Containers (OCP 4.5) with Red Hat Process Automation Manager Mortgage Demo
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhpam-mortgage-demo.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/community/crc-rhpam-mortgage-demo.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhpam-mortgage-demo.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/crc-rhpam-mortgage-demo.drawio?inline=false) ]
 
 <img src="images/product-demo-diagrams/crc-rhpam-mortgage-demo.png" border="2" width="150" height="100">
 
 ### CodeReady Containers (OCP 4.5) with Red Hat Decision Manager Install
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhdm-install-demo.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/community/crc-rhdm-install-demo.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhdm-install-demo.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/crc-rhdm-install-demo.drawio?inline=false) ]
 
 <img src="images/product-demo-diagrams/crc-rhdm-install.png" border="2" width="150" height="100">
 
 ### CodeReady Containers (OCP 4.5) with Red Hat Process Automation Manager Install
 
-[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhpam-install-demo.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/community/crc-rhpam-install-demo.drawio?inline=false) ]
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhpam-install-demo.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/crc-rhpam-install-demo.drawio?inline=false) ]
 
 <img src="images/product-demo-diagrams/crc-rhpam-install.png" border="2" width="150" height="100">
 
