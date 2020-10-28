@@ -226,6 +226,12 @@ Images that can be used for slides (click to enlarge an image):
 
 ## Product demo diagrams
 
+### CodeReady Containers (OCP 4.5) with Red Hat Quick Loan Bank Demo
+
+[ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhdm-quick-loan-bank-demo.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/product-demos/crc-rhdm-quick-loan-bank-demo.drawio?inline=false) ]
+
+<img src="images/product-demo-diagrams/crc-quick-loan-bank-demo.png" border="2" width="150" height="100">
+
 ### CodeReady Containers (OCP 4.5) with Red Hat Process Automation Manager Mortgage Demo
 
 [ [Load Diagram](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhpam-mortgage-demo.drawio) ]  [ [Download Diagram](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/product-demos/crc-rhpam-mortgage-demo.drawio?inline=false) ]
