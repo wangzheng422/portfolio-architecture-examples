@@ -75,6 +75,8 @@ Images that can be used for slides (click to enlarge an image):
 <img src="images/schematic-diagrams/cloud-native-development-remote-containers-process-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/cloud-native-development-deployment-sd.png" border="2" width="150" height="100">
 <img src="images/schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png" border="2" width="150" height="100">
+<img src="images/schematic-diagrams/cloud-native-development-deployment-with-python.png" border="2" width="150" height="100">
+<img src="images/schematic-diagrams/cloud-native-development-deployment-with-thoth.png" border="2" width="150" height="100">
 
 ### Schematic diagrams (Integrate SaaS applications):
 
