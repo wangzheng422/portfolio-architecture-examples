@@ -1,0 +1,33 @@
+= Integrating with SaaS applications
+Eric Schabell @eschabell
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+Providing integration with Software-as-a-Service (SaaS) applications, platforms, and services empowers organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Red Hat offers a foundation for IT teams to develop and deliver integration with SaaS applications through a combination of integration and process automa-tion technologies.
+
+== Logical diagrams
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-integrate-saas-applications.drawio[Load Diagram]
+
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-integrate-saas-applications.drawio?inline=false[Download Diagram]
+
+image::logical-diagrams/integrating-with-saas-applications-ld.png[1500,1000]
+'''
+image::logical-diagrams/integrating-with-saas-applications-details-ld.png[1500,1000]
+'''
+
+== Schematic diagrams
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-integrate-saas-applications.drawio[Load Diagram]
+
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-integrate-saas-applications.drawio?inline=false[Download Diagram]
+
+'''
+
+image::schematic-diagrams/saas-external-crm-integration-sd.png[1500,1000]
+'''
+image::schematic-diagrams/saas-external-crm-connector-sd.png[1500,1000]
+'''
+image::schematic-diagrams/saas-integration-3rd-party-platform-sd.png[1500,1000]
+'''
+image::schematic-diagrams/saas-integration-3rd-party-process-sd.png[1500,1000]

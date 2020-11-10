@@ -31,12 +31,11 @@ Images that can be used for slides (click to enlarge an image):
 == Blueprint Index
 
 === General
-* Cloud Native Development
+* link:cnd.adoc[Cloud Native Development]
 * Connected Mixed Reality
-* Designing an omnichannel customer experience
+* link:omnichannel.adoc[Designing an omnichannel customer experience]
 * Emergency Response Demo - Push Button Applications
-* Integrating with SaaS applications
-* Omnichannel customer experience
+* link:integrated-saas.adoc[Integrating with SaaS applications]
 * Project Canary
 * Red Hat Continuous Remediation Solution
 
@@ -44,4 +43,5 @@ Images that can be used for slides (click to enlarge an image):
 * Autonomous Driving
 * link:edge-ai-ml.adoc[Edge AI/ML Manufacturing]
 * link:payment.adoc[Global Payments]
+* link:retail.adoc[Retail]
 * Virtual Content Delivery Network (CDN) for Media

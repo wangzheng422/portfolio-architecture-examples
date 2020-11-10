@@ -1,11 +1,11 @@
 = Global Payments
-Eric Schabell @eschabell, Marty Wesley @mwesley_redhat, William Henry @ipbabble, Will Nix @tronik, Ishu Verma  @ishuverma, Marcos Entenza @makentenza
+Eric Schabell @eschabell
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
 
-Financial services institutions understand that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere, and are therefore accelerating adoption of digital technologies to enable a variety of new offerings. That often includes real-time payments that let businesses, consumers, and even governments send and accept funds that provide both availability to the recipient and instant confirmation to the sender. Enabling real-time - or at least faster - payments that improve the speed of online payment experiences to customers has the potential to give banks a greater opportunity to win, serve, and retain their customers. By building solutions that capture real-time payment business, banks also can drive higher payment volumes, ideally at lower costs as well as engage new customer segments.  
+Financial services institutions understand that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere, and are therefore accelerating adoption of digital technologies to enable a variety of new offerings. That often includes real-time payments that let businesses, consumers, and even governments send and accept funds that provide both availability to the recipient and instant confirmation to the sender. Enabling real-time - or at least faster - payments that improve the speed of online payment experiences to customers has the potential to give banks a greater opportunity to win, serve, and retain their customers. By building solutions that capture real-time payment business, banks also can drive higher payment volumes, ideally at lower costs as well as engage new customer segments.
 
 
 == Logical diagrams
