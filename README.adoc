@@ -1,0 +1,47 @@
+= Red Hat Portfolio Architecture Examples
+Eric Schabell @eschabell, Marty Wesley @mwesley_redhat, William Henry @ipbabble, Will Nix @tronik, Ishu Verma  @ishuverma, Marcos Entenza @makentenza
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+== Overview
+This repository provides examples of customer implementations using Red Hat product portfolio. These architectural blueprints can be used as is or adapted to meet the customer requirements.
+
+The architectural diagrams are created using the open source tool draw.io.
+
+The examples include high level overview in *Logical* diagrams, more in-depth view of how the various components and services work together in *Schematic* diagrams and core functions associated with a particular service or component in *Detailed* diagrams.
+
+TIP: Learn how to use the draw.io tool to create portfolio architecture diagrams with https://gitlab.com/redhatdemocentral/portfolio-architecture-workshops[Portfolio Architecture Workshop]
+
+== How to use
+The architectural diagrams created using the diagram tool hosted online for free usage https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling[here]
+
+To show varying levels of complexity, the library contains three styles of diagrams: logical, schematic, and detail.
+
+
+You can download the example files and import them into the tool using:
+
+  File -> Import from -> Device
+
+Or you can click on the "Load Diagram" link and load the drawing directly into the tool.
+
+Images that can be used for slides (click to enlarge an image):
+
+== Blueprint Index
+
+=== General
+* link:cnd.adoc[Cloud Native Development]
+* Connected Mixed Reality
+* link:omnichannel.adoc[Designing an omnichannel customer experience]
+* Emergency Response Demo - Push Button Applications
+* link:integrated-saas.adoc[Integrating with SaaS applications]
+* Project Canary
+* Red Hat Continuous Remediation Solution
+
+=== Vertical
+* Autonomous Driving
+* link:edge-ai-ml.adoc[Edge AI/ML Manufacturing]
+* link:payment.adoc[Global Payments]
+* link:retail.adoc[Retail]
+* Virtual Content Delivery Network (CDN) for Media

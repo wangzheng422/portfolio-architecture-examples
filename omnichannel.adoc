@@ -1,0 +1,41 @@
+= Designing an omnichannel customer experience
+Eric Schabell @eschabell
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+An omnichannel approach provides a unified customer experience across platforms, creating a single view for customers to interact with their own information.
+
+Red Hat provides a foundation for IT teams to develop and deliver omnichannel services through a combination of integration and process automation technologies. Agile integration defines how organizations are transforming and delivering on their digital promise to customers by integrating applica-tions and services across on-premise infrastructure and cloud environments. Business automation, in the form of process integrations, are captured to enable access to complex process services.
+
+== Logical diagrams
+
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-omnichannel-customer-experience.drawio[Load Diagram]
+
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-omnichannel-customer-experience.drawio?inline=false[Download Diagram]
+
+image::logical-diagrams/omnichannel-customer-experience-ld.png[1500,1000]
+'''
+image::logical-diagrams/omnichannel-customer-experience-details-ld.png[1500,1000]
+'''
+
+== Schematic diagrams
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-omnichannel-customer-experience.drawio[Load Diagram]
+
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-omnichannel-customer-experience.drawio?inline=false[Download Diagram]
+
+'''
+
+image::schematic-diagrams/omnichannel-process-integration-sd.png[1500,1000]
+'''
+image::schematic-diagrams/omnichannel-mobile-integration-sd.png[1500,1000]
+'''
+image::schematic-diagrams/omnichannel-integration-service-sd.png[1500,1000]
+'''
+image::schematic-diagrams/omnichannel-integration-data-service-sd.png[1500,1000]
+'''
+image::schematic-diagrams/omnichannel-integration-3rd-party-service-sd.png[1500,1000]
+'''
+image::schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.png[1500,1000]
+'''

@@ -1,0 +1,31 @@
+= Global Payments
+Eric Schabell @eschabell
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+Financial services institutions understand that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere, and are therefore accelerating adoption of digital technologies to enable a variety of new offerings. That often includes real-time payments that let businesses, consumers, and even governments send and accept funds that provide both availability to the recipient and instant confirmation to the sender. Enabling real-time - or at least faster - payments that improve the speed of online payment experiences to customers has the potential to give banks a greater opportunity to win, serve, and retain their customers. By building solutions that capture real-time payment business, banks also can drive higher payment volumes, ideally at lower costs as well as engage new customer segments.
+
+
+== Logical diagrams
+
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-payments.drawio[Load Diagram]
+
+
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-payments.drawio?inline=false[Download Diagram]
+
+image::logical-diagrams/payments-ld.png[1500,1000]
+
+'''
+
+== Schematic diagrams
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-payments.drawio)[Load Diagram]
+
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-payments.drawio?inline=false[Download Diagram]
+
+image::schematic-diagrams/payments-calculations-sd.png[1500, 1000]
+image::schematic-diagrams/payments-immediate-payments-network-sd.png[1500, 1000]
+image::schematic-diagrams/payments-immediate-payments-data-sd.png[1500, 1000]
+image::schematic-diagrams/payments-anti-money-laundering-sd.png[1500, 1000]
+image::schematic-diagrams/payments-fraud-detection-sd.png[1500, 1000]
