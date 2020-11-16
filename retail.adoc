@@ -19,21 +19,10 @@ image::logical-diagrams/retail-pos-ld.png[1500,1000]
 '''
 
 == Schematic diagrams
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-omnichannel-customer-experience.drawio[Load Diagram]
 
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-omnichannel-customer-experience.drawio?inline=false[Download Diagram]
+TBD...
 
-'''
 
-image::schematic-diagrams/omnichannel-process-integration-sd.png[1500,1000]
-'''
-image::schematic-diagrams/omnichannel-mobile-integration-sd.png[1500,1000]
-'''
-image::schematic-diagrams/omnichannel-integration-service-sd.png[1500,1000]
-'''
-image::schematic-diagrams/omnichannel-integration-data-service-sd.png[1500,1000]
-'''
-image::schematic-diagrams/omnichannel-integration-3rd-party-service-sd.png[1500,1000]
-'''
-image::schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.png[1500,1000]
-'''
+== Detail diagrams
+
+TBD...
