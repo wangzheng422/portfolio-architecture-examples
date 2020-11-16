@@ -1,4 +1,4 @@
-= Cloud native development
+= Cloud-native development
  Ishu Verma  @ishuverma, William Henry @ipbabble,
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
