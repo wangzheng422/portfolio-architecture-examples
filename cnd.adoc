@@ -5,38 +5,76 @@
 :icons: font
 :source-highlighter: prettify
 
-Cloud-native development is an approach to building and running applications to fully use the advan- tages of the cloud computing model (i.e., responsive, elastic, and resilient applications). Red Hat empowers organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
+Cloud-native development is an approach to building and running applications to fully use the advantages of the
+cloud computing model (i.e., responsive, elastic, and resilient applications). Red Hat empowers organizations to
+build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
 
-Containers and orchestration, DevOps and continuous delivery, microservices and service meshes, and declarative application programming interfaces (APIs) are key building blocks of cloud-native application development. These technologies and techniques deliver loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow businesses to make high-impact application improvements frequently and predictably with minimal effort and risk. Additionally, cloud-native architecture and technologies provide the foundation for newer devel- opment models such as serverless computing and Functions-as-a-Service.
+Containers and orchestration, DevOps and continuous delivery, microservices and service meshes, and declarative
+application programming interfaces (APIs) are key building blocks of cloud-native application development. These
+technologies and techniques deliver loosely coupled systems that are resilient, manageable, and observable.
+Combined with robust automation, they allow businesses to make high-impact application improvements frequently
+and predictably with minimal effort and risk. Additionally, cloud-native architecture and technologies provide
+the foundation for newer devel- opment models such as serverless computing and Functions-as-a-Service.
 
 == Logical diagrams
 
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-cloud-native-development.drawio[Load Diagram]
+Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
+content.
 
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-cloud-native-development.drawio?inline=false[Download Diagram]
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-cloud-native-development.drawio[[Load Diagram] ]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-cloud-native-development.drawio?inline=false[ [Download Diagram]]
+--
 
-image::logical-diagrams/cloud-native-development-ld.png[1500,1000]
+--
+image:logical-diagrams/cloud-native-development-ld.png[350, 300]
+image:logical-diagrams/cloud-native-development-details-ld.png[350,300]
+--
 
-'''
-image::logical-diagrams/cloud-native-development-details-ld.png[1500,1000]
-
-'''
 
 == Schematic diagrams
 
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-cloud-native-development.drawio[Load Diagram]
+Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
+content.
 
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-cloud-native-development.drawio?inline=false[Download Diagram]
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-cloud-native-development.drawio[[Load Diagram] ]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-cloud-native-development.drawio?inline=false[ [Download Diagram]]
+--
 
-image::schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[1500, 1000, border="2"]
-'''
-image::schematic-diagrams/cloud-native-development-local-containers-process-sd.png[1500, 1000]
-'''
-image::schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png[1500, 1000, border=2]
-'''
-image::schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[1500, 1000, border=2]
-'''
-image::schematic-diagrams/cloud-native-development-deployment-sd.png[1500, 1000, border=2]
-'''
-image::schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[1500, 1000, border=2]
-'''
+--
+image:schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-local-containers-process-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-deployment-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[350, 300]
+--
+
+== Detailed diagrams
+
+Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
+content.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-cloud-native-development.drawio[[Load Diagram] ]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-cloud-native-development.drawio?inline=false[ [Download Diagram]]
+--
+
+--
+image:detail-diagrams/developer-ide.png[350, 300]
+image:detail-diagrams/maven-repo.png[350, 300]
+image:detail-diagrams/scm-system.png[350, 300]
+image:detail-diagrams/runtimes-frameworks.png[350, 300]
+image:detail-diagrams/integration-frameworks.png[350, 300]
+image:detail-diagrams/container-tooling.png[350, 300]
+image:detail-diagrams/ci-cd-platform.png[350, 300]
+image:detail-diagrams/image-registry.png[350, 300]
+image:detail-diagrams/registry-management.png[350, 300]
+image:detail-diagrams/s2i-workflow.png[350, 300]
+image:detail-diagrams/sandbox-registry.png[350, 300]
+image:detail-diagrams/enterprise-registry.png[350, 300]
+--
