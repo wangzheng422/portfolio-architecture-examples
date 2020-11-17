@@ -19,11 +19,13 @@ Open the diagrams in the diagram tooling using 'Load Diagram' link. To download 
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
 content.
 
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-retail.drawio[Load Diagram]
-
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-retail.drawio?inline=false[Download Diagram]
-
 --
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-retail.drawio[[Load
+Diagram] ]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-retail.drawio?inline=false[ [Download
+Diagram]]
+--
+
 image:logical-diagrams/retail-supply-chain-ld.png[350, 300] 
 image:logical-diagrams/retail-pos-ld.png[350, 300]
 --
@@ -34,21 +36,23 @@ Open the  diagrams in the diagram tooling using 'Load Diagram' link. To download
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
 content.
 
-[Load Diagram]
-
-[Download Diagram]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-retail.drawio[[Load
+Diagram] ]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-retail.drawio?inline=false[ [Download
+Diagram]]
 
 Coming soon...
 
 
-== Detail diagrams
+== Detailed diagrams
 
 Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
 content.
 
-[Load Diagram]
-
-[Download Diagram]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-retail.drawio[[Load
+Diagram] ]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-retail.drawio?inline=false[ [Download
+Diagram]]
 
 Coming soon...
