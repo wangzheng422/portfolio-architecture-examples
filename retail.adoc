@@ -23,8 +23,10 @@ https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/
 
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-retail.drawio?inline=false[Download Diagram]
 
-image::logical-diagrams/retail-supply-chain-ld.png[350, 300] image::logical-diagrams/retail-pos-ld.png[350,300]
-
+--
+image:logical-diagrams/retail-supply-chain-ld.png[350, 300] 
+image:logical-diagrams/retail-pos-ld.png[350, 300]
+--
 
 == Schematic diagrams
 
