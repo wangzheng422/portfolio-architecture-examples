@@ -1,4 +1,4 @@
-= Global Payments
+= Payments
 Eric Schabell @eschabell
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
