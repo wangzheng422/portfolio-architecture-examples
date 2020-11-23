@@ -51,6 +51,8 @@ image:schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.
 image:schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[350, 300]
 image:schematic-diagrams/cloud-native-development-deployment-sd.png[350, 300]
 image:schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-deployment-with-python.png[350, 300]
+image:schematic-diagrams/cloud-native-development-deployment-with-thoth.png[350, 300]
 --
 
 == Detailed diagrams
