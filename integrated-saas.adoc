@@ -1,5 +1,5 @@
 = Integrating with SaaS applications
-Eric Schabell @eschabell
+Eric D. Schabell @eschabell
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
 :icons: font

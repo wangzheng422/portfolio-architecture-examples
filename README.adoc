@@ -45,3 +45,7 @@ Images that can be used for slides (click to enlarge an image):
 * link:payment.adoc[Payments]
 * link:retail.adoc[Retail]
 * Virtual Content Delivery Network (CDN) for Media
+
+== Product demo
+* link:demos.adoc[Product demos]
+
