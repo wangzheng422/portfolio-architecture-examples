@@ -32,6 +32,7 @@ image:logical-diagrams/retail-supply-chain-ld.png[350, 300]
 image:logical-diagrams/retail-pos-ld.png[350, 300]
 image:logical-diagrams/retail-headless-ecommerce-ld.png[350, 300]
 image:logical-diagrams/retail-business-optimisation-ld.png[350, 300]
+image:logical-diagrams/retail-store-safety-ld.png[350, 300]
 --
 
 == Schematic diagrams
