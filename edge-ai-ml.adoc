@@ -11,7 +11,7 @@ The manufacturing industry has consistently used technology to fuel innovation, 
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Mfg-AI-ML-0928.drawio[Load Diagram]
 
 
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/Mfg-AI-ML-0928.drawio?inline=false[Download Diagram]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/Mfg-AI-ML-0928.drawio?inline=false[Download Diagram]
 
 == Logical diagrams
 

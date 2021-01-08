@@ -18,7 +18,7 @@ content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhdm-quick-loan-bank-demo.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/product-demos/crc-rhdm-quick-loan-bank-demo.drawio?inline=false[[Download Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/product-demos/crc-rhdm-quick-loan-bank-demo.drawio?inline=false[[Download Diagram]]
 --
 
 --
@@ -31,7 +31,7 @@ image:product-demo-diagrams/crc-quick-loan-bank-demo.png[350, 300]
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhpam-mortgage-demo.drawio[[Load
 Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/product-demos/crc-rhpam-mortgage-demo.drawio?inline=false[[Download Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/product-demos/crc-rhpam-mortgage-demo.drawio?inline=false[[Download Diagram]]
 --
 
 --
@@ -43,7 +43,7 @@ image:product-demo-diagrams/crc-rhpam-mortgage-demo.png[350, 300]
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhdm-install-demo.drawio[[Load Diagram]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/product-demos/crc-rhdm-install-demo.drawio?inline=false[[Download Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/product-demos/crc-rhdm-install-demo.drawio?inline=false[[Download Diagram]]
 --
 
 --
@@ -55,7 +55,7 @@ image:product-demo-diagrams/crc-rhdm-install.png[350, 300]
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhpam-install-demo.drawio[[Load Diagram]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/product-demos/crc-rhpam-install-demo.drawio?inline=false[[Download Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/product-demos/crc-rhpam-install-demo.drawio?inline=false[[Download Diagram]]
 --
 
 --
