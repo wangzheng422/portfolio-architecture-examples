@@ -18,7 +18,7 @@ content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-integrate-saas-applications.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-integrate-saas-applications.drawio?inline=false[[Download Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/logical-diagrams-integrate-saas-applications.drawio?inline=false[[Download Diagram]]
 --
 
 --
@@ -34,7 +34,7 @@ content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-integrate-saas-applications.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-integrate-saas-applications.drawio?inline=false[[Download Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/schematic-diagrams-integrate-saas-applications.drawio?inline=false[[Download Diagram]]
 --
 
 --
@@ -53,7 +53,7 @@ content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detialed-diagrams-integrate-saas-applications.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-integrate-saas-applications.drawio?inline=false[[Download Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/detailed-diagrams-integrate-saas-applications.drawio?inline=false[[Download Diagram]]
 --
 
 --

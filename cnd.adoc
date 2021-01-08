@@ -24,7 +24,7 @@ content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-cloud-native-development.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/logical-diagrams-cloud-native-development.drawio?inline=false[[Download Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/logical-diagrams-cloud-native-development.drawio?inline=false[[Download Diagram]]
 --
 
 --
@@ -41,7 +41,7 @@ content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-cloud-native-development.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/schematic-diagrams-cloud-native-development.drawio?inline=false[[Download Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/schematic-diagrams-cloud-native-development.drawio?inline=false[[Download Diagram]]
 --
 
 --
@@ -63,7 +63,7 @@ content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-cloud-native-development.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/detailed-diagrams-cloud-native-development.drawio?inline=false[[Download Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/detailed-diagrams-cloud-native-development.drawio?inline=false[[Download Diagram]]
 --
 
 --
