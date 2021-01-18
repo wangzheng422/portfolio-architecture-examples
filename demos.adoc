@@ -13,8 +13,19 @@ Open the diagrams in the diagram tooling using 'Load Diagram' link. To download 
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
 content.
 
+=== CodeReady Containers (OCP 4) with Red Hat Signal Marketing Demo
 
-=== CodeReady Containers (OCP 4.5) with Red Hat Quick Loan Bank Demo
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhpam-signal-marketing-demo.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/product-demos/crc-rhpam-signal-marketing-demo.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:product-demo-diagrams/crc-rhpam-signal-marketing-demo.png[350, 300]
+--
+
+
+=== CodeReady Containers (OCP 4) with Red Hat Quick Loan Bank Demo
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhdm-quick-loan-bank-demo.drawio[[Load Diagram]]
@@ -26,7 +37,7 @@ image:product-demo-diagrams/crc-quick-loan-bank-demo.png[350, 300]
 --
 
 
-=== CodeReady Containers (OCP 4.5) with Red Hat Process Automation Manager Mortgage Demo
+=== CodeReady Containers (OCP 4) with Red Hat Process Automation Manager Mortgage Demo
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhpam-mortgage-demo.drawio[[Load
@@ -39,7 +50,7 @@ image:product-demo-diagrams/crc-rhpam-mortgage-demo.png[350, 300]
 --
 
 
-=== CodeReady Containers (OCP 4.5) with Red Hat Decision Manager Install
+=== CodeReady Containers (OCP 4) with Red Hat Decision Manager Install
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhdm-install-demo.drawio[[Load Diagram]
@@ -51,7 +62,7 @@ image:product-demo-diagrams/crc-rhdm-install.png[350, 300]
 --
 
 
-== CodeReady Containers (OCP 4.5) with Red Hat Process Automation Manager Install
+== CodeReady Containers (OCP 4) with Red Hat Process Automation Manager Install
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhpam-install-demo.drawio[[Load Diagram]
