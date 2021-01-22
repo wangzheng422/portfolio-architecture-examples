@@ -49,7 +49,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:logical-diagrams/retail-business-optimisation-sd.png[350, 300]
+image:schematic-diagrams/retail-business-optimisation-sd.png[350, 300]
 --
 
 
