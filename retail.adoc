@@ -22,7 +22,8 @@ the 'Download Diagram' link. The images below can be used to browse the availabl
 
 == Retail supply chain integration
 
-Use case: todo...
+Use case: Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other third-party interactions.
+
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-supply-chain.drawio[[Load Diagram]]
@@ -37,7 +38,7 @@ image:schematic-diagrams/retail-supply-chain-sd.png[350, 300]
 
 == Retail point of sale
 
-Use case: todo...
+Use case: Simplifying and modernizing central management of distributed point-of-sale devices with built in support for container based applications.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-pos.drawio[[Load Diagram]]
@@ -51,7 +52,7 @@ image:logical-diagrams/retail-pos-ld.png[350, 300]
 
 == Retail headless eCommerce
 
-Use case: todo...
+Use case: Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce platform.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-headless-ecommerce.drawio[[Load Diagram]]
@@ -65,7 +66,7 @@ image:logical-diagrams/retail-headless-ecommerce-ld.png[350, 300]
 
 == Retail business optimisation
 
-Use case: todo...
+Use case: Optimising delivery routing, automatng rostering of staff, and improving efficiency of tasks across multiple stores.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-business-optimisation.drawio[[Load Diagram]]
@@ -80,7 +81,7 @@ image:schematic-diagrams/retail-business-optimisation-sd.png[350, 300]
 
 == Retail store health and safety
 
-Use case: todo...
+Use case: Managing effective in-store compliance, health & safety, and employee checks and procedures.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-store-health-and-safety.drawio[[Load Diagram]]
@@ -94,7 +95,7 @@ image:logical-diagrams/retail-store-safety-ld.png[350, 300]
 
 == Retail real-time stock control
 
-Use case: todo...
+Use case: Providing (near) real-time stock positions and dynamic pricing promotions information to retailer omnichannels.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-real-time-stock-control.drawio[[Load Diagram]]
@@ -108,7 +109,7 @@ image:logical-diagrams/retail-real-time-stock-control-ld.png[350, 300]
 
 == Retail data framework
 
-Use case: todo...
+Use case: Creating a framework for access to retail data from customers, stock, stores, and staff across multiple internal teams.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-data-framework.drawio[[Load Diagram]]
