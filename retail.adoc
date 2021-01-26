@@ -13,54 +13,111 @@ including necessities such as food and clothing; sometimes it takes place as a r
 involves window shopping and browsing: it does not always result in a purchase.
 
 This blueprint covers several architectures in the retail domain; supply chain integration, point of sale, headless eCommerce,
-business optimisation, store health and safety, and retail data framework.
+business optimisation, store health and safety, real-time stock control, and retail data framework. Each case is detailed below 
+with short outline of the case definition along with logical, schematic, and detailed diagrams.
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
 
-== Logical diagrams
+== Retail supply chain integration
 
-Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
-content.
+Use case: todo...
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-retail.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/logical-diagrams-retail.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-supply-chain.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-supply-chain.drawio?inline=false[[Download Diagram]]
 --
 
 --
 image:logical-diagrams/retail-supply-chain-ld.png[350, 300] 
-image:logical-diagrams/retail-pos-ld.png[350, 300]
-image:logical-diagrams/retail-headless-ecommerce-ld.png[350, 300]
-image:logical-diagrams/retail-business-optimisation-ld.png[350, 300]
-image:logical-diagrams/retail-store-safety-ld.png[350, 300]
-image:logical-diagrams/retail-real-time-stock-control-ld.png[350, 300]
-image:logical-diagrams/retail-data-framework-ld.png[350, 300]
---
-
-== Schematic diagrams
-
-Open the  diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
-content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-retail.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/schematic-diagrams-retail.drawio?inline=false[[Download Diagram]]
---
-
---
 image:schematic-diagrams/retail-supply-chain-sd.png[350, 300]
+--
+
+
+== Retail point of sale
+
+Use case: todo...
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-pos.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-pos.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/retail-pos-ld.png[350, 300]
+--
+
+
+== Retail headless eCommerce
+
+Use case: todo...
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-headless-ecommerce.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-headless-ecommerce.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/retail-headless-ecommerce-ld.png[350, 300]
+--
+
+
+== Retail business optimisation
+
+Use case: todo...
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-business-optimisation.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-business-optimisation.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/retail-business-optimisation-ld.png[350, 300]
 image:schematic-diagrams/retail-business-optimisation-sd.png[350, 300]
 --
 
 
-== Detailed diagrams
+== Retail store health and safety
 
-Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
-content.
+Use case: todo...
 
-// https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-retail.drawio[[Load Diagram]]
-// https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/detailed-diagrams-retail.drawio?inline=false[[Download Diagram]]
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-store-health-and-safety.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-store-health-and-safety.drawio?inline=false[[Download Diagram]]
+--
 
-Coming soon...
+--
+image:logical-diagrams/retail-store-safety-ld.png[350, 300]
+--
+
+
+== Retail real-time stock control
+
+Use case: todo...
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-real-time-stock-control.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-real-time-stock-control.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/retail-real-time-stock-control-ld.png[350, 300]
+--
+
+
+== Retail data framework
+
+Use case: todo...
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-data-framework.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-data-framework.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/retail-data-framework-ld.png[350, 300]
+--
+
+
+
