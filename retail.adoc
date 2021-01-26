@@ -20,7 +20,7 @@ Open the diagrams below directly in the diagram tooling using 'Load Diagram' lin
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
 
-== Retail supply chain integration
+== Supply chain integration
 
 Use case: Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other third-party interactions.
 
@@ -36,7 +36,7 @@ image:schematic-diagrams/retail-supply-chain-sd.png[350, 300]
 --
 
 
-== Retail point of sale
+== Point of sale
 
 Use case: Simplifying and modernizing central management of distributed point-of-sale devices with built in support for container based applications.
 
@@ -50,7 +50,7 @@ image:logical-diagrams/retail-pos-ld.png[350, 300]
 --
 
 
-== Retail headless eCommerce
+== Headless eCommerce
 
 Use case: Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce platform.
 
@@ -64,7 +64,7 @@ image:logical-diagrams/retail-headless-ecommerce-ld.png[350, 300]
 --
 
 
-== Retail business optimisation
+== Business optimisation
 
 Use case: Optimising delivery routing, automatng rostering of staff, and improving efficiency of tasks across multiple stores.
 
@@ -79,7 +79,7 @@ image:schematic-diagrams/retail-business-optimisation-sd.png[350, 300]
 --
 
 
-== Retail store health and safety
+== Store health and safety
 
 Use case: Managing effective in-store compliance, health & safety, and employee checks and procedures.
 
@@ -93,7 +93,7 @@ image:logical-diagrams/retail-store-safety-ld.png[350, 300]
 --
 
 
-== Retail real-time stock control
+== Real-time stock control
 
 Use case: Providing (near) real-time stock positions and dynamic pricing promotions information to retailer omnichannels.
 
