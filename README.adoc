@@ -32,19 +32,13 @@ Images that can be used for slides (click to enlarge an image):
 
 === General
 * link:cnd.adoc[Cloud native development]
-* Connected Mixed Reality
 * link:omnichannel.adoc[Omnichannel customer experience]
-* Emergency Response Demo - Push Button Applications
 * link:integrated-saas.adoc[Integrating with SaaS applications]
-* Project Canary
-* Red Hat Continuous Remediation Solution
 
 === Vertical
-* Autonomous Driving
 * link:edge-ai-ml.adoc[Edge AI/ML Manufacturing]
 * link:payment.adoc[Payments]
 * link:retail.adoc[Retail]
-* Virtual Content Delivery Network (CDN) for Media
 
 == Product demo
 * link:demos.adoc[Product demos]
