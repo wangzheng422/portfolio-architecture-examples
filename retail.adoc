@@ -47,6 +47,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 --
 image:logical-diagrams/retail-pos-ld.png[350, 300]
+image:schematic-diagrams/retail-pos-sd.png[350, 300]
 --
 
 
