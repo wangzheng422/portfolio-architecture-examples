@@ -67,7 +67,7 @@ image:logical-diagrams/retail-headless-ecommerce-ld.png[350, 300]
 
 == Business optimisation
 
-Use case: Optimising delivery routing, automatng rostering of staff, and improving efficiency of tasks across multiple stores.
+Use case: Optimising delivery routing, automating rostering of staff, and improving efficiency of tasks across multiple stores.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-business-optimisation.drawio[[Load Diagram]]
