@@ -92,6 +92,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 --
 image:logical-diagrams/retail-store-safety-ld.png[350, 300]
+image:schematic-diagrams/retail-store-safety-sd.png[350, 300]
 --
 
 
