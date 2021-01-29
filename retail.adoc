@@ -122,6 +122,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 --
 image:logical-diagrams/retail-data-framework-ld.png[350, 300]
+image:schematic-diagrams/retail-data-framework-sd.png[350, 300]
 --
 
 
