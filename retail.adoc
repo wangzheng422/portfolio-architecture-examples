@@ -107,6 +107,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 --
 image:logical-diagrams/retail-real-time-stock-control-ld.png[350, 300]
+image:schematic-diagrams/retail-real-time-stock-control-sd.png[350, 300]
 --
 
 
