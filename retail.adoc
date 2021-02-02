@@ -96,6 +96,21 @@ image:schematic-diagrams/retail-store-safety-sd.png[350, 300]
 --
 
 
+== Remote server management
+
+Use case: Managing a large number of servers in multiple countries, data centres, and store servers.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/ADDHERE.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/ADDHERE.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/ADDHERE.png[350, 300]
+image:schematic-diagrams/ADDHERE.png[350, 300]
+--
+
+
 == Real-time stock control
 
 Use case: Providing (near) real-time stock positions and dynamic pricing promotions information to retailer omnichannels.
