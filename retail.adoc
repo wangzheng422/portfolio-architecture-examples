@@ -13,7 +13,7 @@ including necessities such as food and clothing; sometimes it takes place as a r
 involves window shopping and browsing: it does not always result in a purchase.
 
 This blueprint covers several architectures in the retail domain; supply chain integration, point of sale, headless eCommerce,
-business optimisation, store health and safety, real-time stock control, and retail data framework. Each case is detailed below 
+business optimisation, store health and safety, real-time stock control, and retail data framework. Each case is detailed below
 with short outline of the case definition along with logical, schematic, and detailed diagrams.
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
@@ -31,7 +31,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:logical-diagrams/retail-supply-chain-ld.png[350, 300] 
+image:logical-diagrams/retail-supply-chain-ld.png[350, 300]
 image:schematic-diagrams/retail-supply-chain-sd.png[350, 300]
 --
 
@@ -101,13 +101,13 @@ image:schematic-diagrams/retail-store-safety-sd.png[350, 300]
 Use case: Managing a large number of servers in multiple countries, data centres, and store servers.
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/ADDHERE.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/ADDHERE.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remote-server-management.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/remote-server-management.drawio?inline=false[[Download Diagram]]
 --
 
 --
-image:logical-diagrams/ADDHERE.png[350, 300]
-image:schematic-diagrams/ADDHERE.png[350, 300]
+image:logical-diagrams/RSM-ld.png[350, 300]
+image:schematic-diagrams/RSM-sd.png[350, 300]
 --
 
 == Cloud adoption (TODO)
