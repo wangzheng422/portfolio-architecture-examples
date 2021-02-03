@@ -96,7 +96,7 @@ image:schematic-diagrams/retail-store-safety-sd.png[350, 300]
 --
 
 
-== Remote server management
+== Remote server management (TODO)
 
 Use case: Managing a large number of servers in multiple countries, data centres, and store servers.
 
@@ -108,6 +108,53 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 image:logical-diagrams/ADDHERE.png[350, 300]
 image:schematic-diagrams/ADDHERE.png[350, 300]
+--
+
+== Cloud adoption (TODO)
+
+Use case: Transitioning from on-premise data centre to public cloud and deploying short-lived promotional workloads to cloud.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/ADDHERE.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/ADDHERE.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/ADDHERE.png[350, 300]
+image:schematic-diagrams/ADDHERE.png[350, 300]
+--
+
+== Cloud native development
+
+Use case: Enabling modern container and microservice based application development and deployment.
+
+--
+cnd.adoc[[View Blueprint]]
+--
+
+--
+image:logical-diagrams/cloud-native-development-ld.png[350, 300]
+image:logical-diagrams/cloud-native-development-details-ld.png[350,300]
+image:schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-local-containers-process-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-deployment-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-deployment-with-python.png[350, 300]
+image:schematic-diagrams/cloud-native-development-deployment-with-thoth.png[350, 300]
+image:detail-diagrams/developer-ide.png[350, 300]
+image:detail-diagrams/maven-repo.png[350, 300]
+image:detail-diagrams/scm-system.png[350, 300]
+image:detail-diagrams/runtimes-frameworks.png[350, 300]
+image:detail-diagrams/integration-frameworks.png[350, 300]
+image:detail-diagrams/container-tooling.png[350, 300]
+image:detail-diagrams/ci-cd-platform.png[350, 300]
+image:detail-diagrams/image-registry.png[350, 300]
+image:detail-diagrams/registry-management.png[350, 300]
+image:detail-diagrams/s2i-workflow.png[350, 300]
+image:detail-diagrams/sandbox-registry.png[350, 300]
+image:detail-diagrams/enterprise-registry.png[350, 300]
 --
 
 
