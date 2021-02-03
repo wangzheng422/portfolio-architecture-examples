@@ -129,20 +129,20 @@ image:schematic-diagrams/ADDHERE.png[350, 300]
 Use case: Enabling modern container and microservice based application development and deployment.
 
 --
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/blob/main/cnd.adoc[[View Blueprint]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/blob/main/cnd.adoc[[View Existing Solution Blueprint Diagrams]]
 --
 
 --
-image:logical-diagrams/cloud-native-development-ld.png[350, 300]
-image:logical-diagrams/cloud-native-development-details-ld.png[350,300]
-image:schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[350, 300]
-image:schematic-diagrams/cloud-native-development-local-containers-process-sd.png[350, 300]
-image:schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png[350, 300]
-image:schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[350, 300]
-image:schematic-diagrams/cloud-native-development-deployment-sd.png[350, 300]
-image:schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[350, 300]
-image:schematic-diagrams/cloud-native-development-deployment-with-python.png[350, 300]
-image:schematic-diagrams/cloud-native-development-deployment-with-thoth.png[350, 300]
+image:logical-diagrams/cloud-native-development-ld.png[300, 250]
+image:logical-diagrams/cloud-native-development-details-ld.png[300,250]
+image:schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[300, 250]
+image:schematic-diagrams/cloud-native-development-local-containers-process-sd.png[300, 250]
+image:schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png[300, 250]
+image:schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[300, 250]
+image:schematic-diagrams/cloud-native-development-deployment-sd.png[300, 250]
+image:schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[300, 250]
+image:schematic-diagrams/cloud-native-development-deployment-with-python.png[300, 250]
+image:schematic-diagrams/cloud-native-development-deployment-with-thoth.png[300, 250]
 image:detail-diagrams/developer-ide.png[250, 200]
 image:detail-diagrams/maven-repo.png[250, 200]
 image:detail-diagrams/scm-system.png[250, 200]
