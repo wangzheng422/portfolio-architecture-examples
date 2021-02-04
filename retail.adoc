@@ -62,7 +62,8 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 --
 image:logical-diagrams/retail-headless-ecommerce-ld.png[350, 300]
-image:schematic-diagrams/retail-headless-ecommerce-sd.png[350, 300]
+image:schematic-diagrams/retail-headless-ecommerce-local-sd.png[350, 300]
+image:schematic-diagrams/retail-headless-ecommerce-remote-sd.png[350, 300]
 --
 
 
