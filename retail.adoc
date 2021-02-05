@@ -108,6 +108,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 image:logical-diagrams/RSM-ld.png[350, 300]
 image:schematic-diagrams/RSM-sd.png[350, 300]
+image:schematic-diagrams/RSM-sdf.png[350, 300]
 --
 
 == Cloud adoption (TODO)
