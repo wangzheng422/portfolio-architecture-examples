@@ -48,6 +48,11 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 image:logical-diagrams/retail-pos-ld.png[350, 300]
 image:schematic-diagrams/retail-pos-sd.png[350, 300]
+image:detail-diagrams/retail-scm.png[350, 300]
+image:detail-diagrams/retail-pos-ci-cd-platform.png[350, 300]
+image:detail-diagrams/retail-pos-image-registry.png[350, 300]
+image:detail-diagrams/retail-pos-image-data-store.png[350, 300]
+image:detail-diagrams/retail-pos-sales-data-integration-aggregation.png[350, 300]
 --
 
 
