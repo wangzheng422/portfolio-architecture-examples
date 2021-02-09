@@ -77,6 +77,17 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:logical-diagrams/retail-headless-ecommerce-ld.png[350, 300]
 image:schematic-diagrams/retail-headless-ecommerce-local-sd.png[350, 300]
 image:schematic-diagrams/retail-headless-ecommerce-remote-sd.png[350, 300]
+image:detail-diagrams/developer-ide.png[250, 200]
+image:detail-diagrams/scm-system.png[250, 200]
+image:detail-diagrams/maven-repo.png[250, 200]
+image:detail-diagrams/runtimes-frameworks.png[250, 200]
+image:detail-diagrams/ci-cd-platform.png[250, 200]
+image:detail-diagrams/s2i-workflow.png[250, 200]
+image:detail-diagrams/container-tooling.png[250, 200]
+image:detail-diagrams/retail-headless-image-registry.png[250, 200]
+image:detail-diagrams/registry-management.png[250, 200]
+image:detail-diagrams/retail-headless-integration-services.png[250, 200]
+image:detail-diagrams/retail-headless-api-management.png[250, 200]
 --
 
 
