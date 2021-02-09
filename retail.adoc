@@ -33,6 +33,14 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 image:logical-diagrams/retail-supply-chain-ld.png[350, 300]
 image:schematic-diagrams/retail-supply-chain-sd.png[350, 300]
+image:detail-diagrams/retail-supply-chain-ai-ml.png[250, 200]
+image:detail-diagrams/retail-supply-chain-api-management.png[250, 200]
+image:detail-diagrams/retail-supply-chain-event-streams.png[250, 200]
+image:detail-diagrams/retail-supply-chain-integration-data.png[250, 200]
+image:detail-diagrams/retail-supply-chain-integration-microservices.png[250, 200]
+image:detail-diagrams/retail-supply-chain-message-transformation.png[250, 200]
+image:detail-diagrams/retail-supply-chain-microservices.png[250, 200]
+image:detail-diagrams/retail-supply-chain-third-party.png[250, 200]
 --
 
 
