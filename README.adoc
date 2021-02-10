@@ -50,9 +50,9 @@ https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops[[free onlin
 in the worksho and links to load pre-completed diagrams into the tooling directly. 
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-logical-diagram.drawio[[Load Logical Diagram]]
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-schematic-diagram.drawio[[Load Schematic Diagram]]
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-detail-diagram.drawio[[Load Detail Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-logical-diagram.drawio[[Logical Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-schematic-diagram.drawio[[Schematic Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-detail-diagram.drawio[[Detail Diagram]]
 --
 
 
