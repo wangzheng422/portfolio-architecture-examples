@@ -43,9 +43,3 @@ Images that can be used for slides (click to enlarge an image):
 === Product demo
 * link:demos.adoc[Product demos]
 
-
-==== Diagram tooling workshop
-
-Explore and learn to use the portfolio architecture diagram tooling used to create all the diagrams found in this repository in this 
-https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops[[free online workshop]].
-
