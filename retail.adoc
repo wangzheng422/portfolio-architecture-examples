@@ -130,7 +130,7 @@ image:schematic-diagrams/retail-store-safety-data-sd.png[350, 300]
 --
 
 
-== Remote server management (TODO)
+== Remote server management
 
 Use case: Managing a large number of servers in multiple countries, data centres, and store servers.
 
@@ -145,18 +145,19 @@ image:schematic-diagrams/RSM-sd.png[350, 300]
 image:schematic-diagrams/RSM-sdf.png[350, 300]
 --
 
-== Cloud adoption (TODO)
+== Cloud adoption
 
 Use case: Transitioning from on-premise data centre to public cloud and deploying short-lived promotional workloads to cloud.
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/ADDHERE.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/ADDHERE.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-cloud-adoption.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-cloud-adoption.drawio?inline=false[[Download Diagram]]
 --
 
 --
-image:logical-diagrams/ADDHERE.png[350, 300]
-image:schematic-diagrams/ADDHERE.png[350, 300]
+image:logical-diagrams/logical-cloud-adoption.png[350, 300]
+image:schematic-diagrams/schematic-network-cloud-adoption.png[350, 300]
+image:schematic-diagrams/schematic-dataflow-cloud-adoption.png[350, 300]
 --
 
 == Cloud native development
