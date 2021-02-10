@@ -40,11 +40,11 @@ Images that can be used for slides (click to enlarge an image):
 * link:payment.adoc[Payments]
 * link:retail.adoc[Retail]
 
-== Product demo
+=== Product demo
 * link:demos.adoc[Product demos]
 
 
-== Diagram tooling workshop
+==== Diagram tooling workshop
 
 Explore and learn to use the portfolio architecture diagram tooling used to create all the diagrams found in this repository in this 
 https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops[[free online workshop]].
