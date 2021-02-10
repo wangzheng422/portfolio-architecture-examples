@@ -43,3 +43,30 @@ Images that can be used for slides (click to enlarge an image):
 == Product demo
 * link:demos.adoc[Product demos]
 
+== Workshop examples
+
+The example files from the https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops[[free online workshop]], can be opened to view and explore the end results.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-logical-diagram.drawio[[Load Logical Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/workshop-logical-diagram.drawio?inline=false[[Download Logical Diagram]]
+--
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-schematic-diagram.drawio[[Load Schematic Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/workshop-schematic-diagram.drawio?inline=false[[Download Schematic Diagram]]
+--
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-detail-diagram.drawio[[Load Detail Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/workshop-detail-diagram.drawio?inline=false[[Download Detail Diagram]]
+--
+
+
+--
+image:logical-diagrams/workshop-example-ld.png[350, 300]
+image:schematic-diagrams/workshop-example-sd.png[350, 300]
+image:detial-diagrams/workshop-example-dd.png[250, 200]
+--
+
+
