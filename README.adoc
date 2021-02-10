@@ -43,23 +43,9 @@ Images that can be used for slides (click to enlarge an image):
 == Product demo
 * link:demos.adoc[Product demos]
 
-== Workshop examples
+
+== Diagram tooling workshop
 
 Explore and learn to use the portfolio architecture diagram tooling used to create all the diagrams found in this repository in this 
-https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops[[free online workshop]]. Below are the diagrams you're creating
-in the worksho and links to load pre-completed diagrams into the tooling directly. 
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-logical-diagram.drawio[[Logical Diagram]]
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-schematic-diagram.drawio[[Schematic Diagram]]
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-detail-diagram.drawio[[Detail Diagram]]
---
-
-
---
-image:logical-diagrams/workshop-example-ld.png[350, 300]
-image:schematic-diagrams/workshop-example-sd.png[350, 300]
-image:detial-diagrams/workshop-example-dd.png[250, 200]
---
-
+https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops[[free online workshop]].
 
