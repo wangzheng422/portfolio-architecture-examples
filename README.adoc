@@ -45,21 +45,14 @@ Images that can be used for slides (click to enlarge an image):
 
 == Workshop examples
 
-The example files from the https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops[[free online workshop]], can be opened to view and explore the end results.
+Explore and learn to use the portfolio architecture diagram tooling used to create all the diagrams found in this repository in this 
+https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops[[free online workshop]]. Below are the diagrams you're creating
+in the worksho and links to load pre-completed diagrams into the tooling directly. 
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-logical-diagram.drawio[[Load Logical Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/workshop-logical-diagram.drawio?inline=false[[Download Logical Diagram]]
---
-
---
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-schematic-diagram.drawio[[Load Schematic Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/workshop-schematic-diagram.drawio?inline=false[[Download Schematic Diagram]]
---
-
---
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/workshop-detail-diagram.drawio[[Load Detail Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/workshop-detail-diagram.drawio?inline=false[[Download Detail Diagram]]
 --
 
 
