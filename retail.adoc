@@ -127,6 +127,14 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:logical-diagrams/retail-store-safety-ld.png[350, 300]
 image:schematic-diagrams/retail-store-safety-sd.png[350, 300]
 image:schematic-diagrams/retail-store-safety-data-sd.png[350, 300]
+image:detail-diagrams/retail-store-safety-api-management.png[250, 200]
+image:detail-diagrams/retail-store-safety-health-processes.png[250, 200]
+image:detail-diagrams/retail-store-safety-health-rules.png[250, 200]
+image:detail-diagrams/retail-store-safety-processes.png[250, 200]
+image:detail-diagrams/retail-store-safety-local-store-rules.png[250, 200]
+image:detail-diagrams/retail-store-safety-integration-microservices.png[250, 200]
+image:detail-diagrams/retail-stock-control-integration-data-microservices.png[250, 200]
+image:detail-diagrams/retail-store-safety-external-systems.png[250, 200]
 --
 
 
