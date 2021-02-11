@@ -151,6 +151,10 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:logical-diagrams/RSM-ld.png[350, 300]
 image:schematic-diagrams/RSM-sd.png[350, 300]
 image:schematic-diagrams/RSM-sdf.png[350, 300]
+image:detail-diagrams/smart-management.png[250, 200]
+image:detail-diagrams/ansible-tower.png[250, 200]
+image:detail-diagrams/git-server.png[250, 200]
+image:detail-diagrams/quay.png[250, 200]
 --
 
 == Cloud adoption
@@ -166,6 +170,10 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:logical-diagrams/cloud-adoption-ld.png[350, 300]
 image:schematic-diagrams/cloud-adoption-network-sd.png[350, 300]
 image:schematic-diagrams/cloud-adoption-dataflow-sd.png[350, 300]
+image:detail-diagrams/smart-management.png[250, 200]
+image:detail-diagrams/ansible-tower.png[250, 200]
+image:detail-diagrams/git-server.png[250, 200]
+image:detail-diagrams/quay.png[250, 200]
 --
 
 == Cloud native development
