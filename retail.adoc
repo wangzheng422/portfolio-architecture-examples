@@ -198,13 +198,22 @@ image:detail-diagrams/enterprise-registry.png[250, 200]
 Use case: Providing (near) real-time stock positions and dynamic pricing promotions information to retailer omnichannels.
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-real-time-stock-control.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-real-time-stock-control.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-stock-control.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-stock-control.drawio?inline=false[[Download Diagram]]
 --
 
 --
-image:logical-diagrams/retail-real-time-stock-control-ld.png[350, 300]
-image:schematic-diagrams/retail-real-time-stock-control-sd.png[350, 300]
+image:logical-diagrams/retail-stock-control-ld.png[350, 300]
+image:schematic-diagrams/retail-stock-control-sd.png[350, 300]
+image:detail-diagrams/retail-stock-control-api-management.png[250, 200]
+image:detail-diagrams/retail-stock-control-avail-to-sell-microservices.png[250, 200]
+image:detail-diagrams/retail-stock-control-event-streams.png[250, 200]
+image:detail-diagrams/retail-stock-control-external-systems.png[250, 200]
+image:detail-diagrams/retail-stock-control-integration-data-microservices.png[250, 200]
+image:detail-diagrams/retail-stock-control-integration-microservices.png[250, 200]
+image:detail-diagrams/retail-stock-control-payments-microservices.png[250, 200]
+image:detail-diagrams/retail-stock-control-promotions-microservices.png[250, 200]
+image:detail-diagrams/retail-stock-control-retail-processes.png[250, 200]
 --
 
 
