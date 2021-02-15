@@ -252,6 +252,14 @@ image:detail-diagrams/retail-data-framework-data-caching.png[250, 200]
 image:detail-diagrams/retail-data-framework-business-automation.png[250, 200]
 image:detail-diagrams/retail-data-framework-event-processing.png[250, 200]
 image:detail-diagrams/retail-data-framework-messaging.png[250, 200]
+image:detail-diagrams/retail-data-framework-compliance-rules.png[250, 200]
+image:detail-diagrams/retail-data-framework-integration-microservices.png[250, 200]
+image:detail-diagrams/retail-data-framework-data-visualisation.png[250, 200]
+image:detail-diagrams/retail-data-framework-integration-data-microservices.png[250, 200]
+image:detail-diagrams/retail-data-framework-businesss-intelligence.png[250, 200]
+image:detail-diagrams/retail-data-framework-data-visualisation-tooling.png[250, 200]
+image:detail-diagrams/retail-data-framework-data-science.png[250, 200]
+image:detail-diagrams/retail-data-framework-core-platform.png[250, 200]
 --
 
 
