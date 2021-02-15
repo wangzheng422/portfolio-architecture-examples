@@ -249,6 +249,9 @@ image:schematic-diagrams/retail-data-framework-sd.png[350, 300]
 image:detail-diagrams/retail-data-framework-api-management.png[250, 200]
 image:detail-diagrams/retail-data-framework-web-apps.png[250, 200]
 image:detail-diagrams/retail-data-framework-data-caching.png[250, 200]
+image:detail-diagrams/retail-data-framework-business-automation.png[250, 200]
+image:detail-diagrams/retail-data-framework-event-processing.png[250, 200]
+image:detail-diagrams/retail-data-framework-messaging.png[250, 200]
 --
 
 
