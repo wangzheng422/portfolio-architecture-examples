@@ -12,9 +12,9 @@ Open the diagrams below directly in the diagram tooling using 'Load Diagram' lin
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
 
-== Remote server management
+== Use case:
 
-Use case: Managing a large number of servers in multiple countries, data centres, and store servers.
+Managing a large number of servers in multiple countries, data centres, and store servers.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remote-server-management.drawio[[Load Diagram]]

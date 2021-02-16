@@ -11,9 +11,9 @@ This blueprint covers the architecture for cloud adoption. are the logical, sche
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
-== Cloud adoption
+== Use case: 
 
-Use case: Transitioning from on-premise data centre to public cloud and deploying short-lived promotional workloads to cloud.
+Transitioning from on-premise data centre to public cloud and deploying short-lived promotional workloads to cloud.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-adoption.drawio[[Load Diagram]]
