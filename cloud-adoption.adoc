@@ -1,0 +1,32 @@
+= Cloud adoption
+William Henry @ipbabble
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+
+This blueprint covers the architecture for cloud adoption. are the logical, schematic, and detailed diagrams.
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+
+== Cloud adoption
+
+Use case: Transitioning from on-premise data centre to public cloud and deploying short-lived promotional workloads to cloud.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-adoption.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-adoption.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/cloud-adoption-ld.png[350, 300]
+image:schematic-diagrams/cloud-adoption-network-sd.png[350, 300]
+image:schematic-diagrams/cloud-adoption-dataflow-sd.png[350, 300]
+image:detail-diagrams/smart-management.png[250, 200]
+image:detail-diagrams/ansible-tower.png[250, 200]
+image:detail-diagrams/git-server.png[250, 200]
+image:detail-diagrams/quay.png[250, 200]
+--
+
