@@ -61,6 +61,7 @@ image:detail-diagrams/retail-pos-ci-cd-platform.png[250, 200]
 image:detail-diagrams/retail-pos-image-registry.png[250, 200]
 image:detail-diagrams/retail-pos-image-data-store.png[250, 200]
 image:detail-diagrams/retail-pos-sales-data-integration-aggregation.png[250, 200]
+image:detail-diagrams/retail-pos-sku-catalog.png[250, 200]
 --
 
 
