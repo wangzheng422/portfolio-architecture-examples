@@ -6,7 +6,9 @@ William Henry @ipbabble
 :source-highlighter: prettify
 
 
-This blueprint covers the architecture for cloud adoption. are the logical, schematic, and detailed diagrams.
+This blueprint covers the architecture for remote server management. As more and more enterprises are deployed across different data centers and public and/or private clouds, it is important to provide consistency and security in an automated way across all of the the servers in order to reduce risk and costs.
+
+The diagrams include the logical, schematic, and detailed diagrams.
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
