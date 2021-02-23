@@ -104,6 +104,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 image:logical-diagrams/retail-business-optimisation-ld.png[350, 300]
 image:schematic-diagrams/retail-business-optimisation-sd.png[350, 300]
+image:schematic-diagrams/retail-business-optimisation-vaccines-sd.png[350, 300]
 image:detail-diagrams/retail-optimising-api-management.png[250, 200]
 image:detail-diagrams/retail-optimising-decision-microservices.png[250, 200]
 image:detail-diagrams/retail-optimising-retail-processes.png[250, 200]
