@@ -81,6 +81,6 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:product-demo-diagrams/event-streaming-hazard-demopng[350, 300]
+image:product-demo-diagrams/event-streaming-hazard-demo.png[350, 300]
 --
 

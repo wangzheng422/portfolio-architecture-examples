@@ -12,9 +12,8 @@ government clientele. Shopping generally refers to the act of buying products. S
 including necessities such as food and clothing; sometimes it takes place as a recreational activity. Recreational shopping often
 involves window shopping and browsing: it does not always result in a purchase.
 
-This blueprint covers several architectures in the retail domain; supply chain integration, point of sale, headless eCommerce,
-business optimisation, store health and safety, real-time stock control, and retail data framework. Each case is detailed below
-with short outline of the case definition along with logical, schematic, and detailed diagrams.
+This document is a collection of various architectures in the retail domain. Each case is detailed below with a definition of the 
+use case along with logical, schematic, and detailed diagrams.
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
