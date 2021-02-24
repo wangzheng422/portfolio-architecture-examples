@@ -73,3 +73,14 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:product-demo-diagrams/crc-rhpam-install.png[350, 300]
 --
 
+== Agile Integration Event Streaming Hazard Demo 
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/event-streaming-hazard-demo.drawio[[Load Diagram]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/product-demos/event-streaming-hazard-demo.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:product-demo-diagrams/event-streaming-hazard-demopng[350, 300]
+--
+
