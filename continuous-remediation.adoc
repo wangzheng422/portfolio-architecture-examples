@@ -1,0 +1,32 @@
+= Remote server management
+William Henry @ipbabble
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+
+This blueprint covers the architecture for Continuous Remediation of Red Hat server hosts or hybrid cloud hosts. Modern application infrastructure has, in many ways, gotten more complex as it has gotten more powerful and easy to consume. Keeping that infrastructure safe and compliant is a challenge for many organizations. One of the most powerful tools in infrastructure management today is the combination of using insights based on historical data, and automation tools for applying remediation across hundreds or thousands of hosts in a targeted and prioritized manner.
+
+The diagrams include the logical, schematic, and detailed diagrams.
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+
+
+== Use case:
+
+Managing security, policy and patches for a large number of servers in data centers or public/private clouds.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remediation_v2.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/remediation_v2.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/remediation-logical.png[350, 300]
+image:schematic-diagrams/remediation-dataflow-blueprint.png[350, 300]
+image:schematic-diagrams/remediation-network-blueprint.png[350, 300]
+image:detail-diagrams/remediation-detail-smartmanagement.png[250, 200]
+image:detail-diagrams/remediation-detail-automationorchestration.png[250, 200]
+--
