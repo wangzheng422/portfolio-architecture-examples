@@ -32,6 +32,7 @@ Images that can be used for slides (click to enlarge an image):
 
 === General
 * link:cnd.adoc[Cloud native development]
+* link:devsecops.adoc[DevSecOps for Cloud native development]
 * link:omnichannel.adoc[Omnichannel customer experience]
 * link:integrated-saas.adoc[Integrating with SaaS applications]
 * link:continuous-remediation.adoc[Continuous Remediation]
