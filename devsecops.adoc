@@ -26,4 +26,6 @@ https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/schmatic-diagrams-devsecops-synopsys.drawio?inline=false[[Download Diagram]]
 --
 
-
+--
+image:schematic-diagrams/devsecops-synopsis-dataflow.png[350, 300]
+--
