@@ -33,4 +33,4 @@ image:schematic-diagrams/devsecops-synopsis-dataflow.png[350, 300]
 === Contacts
 
 For more information on cloud native DevSecOps at Red Hat please contact:
-Aaron Levey <alevey@redhat.com> or Dave Meurer <dmeurer@redhat.com>
+Aaron Levey or Dave Meuret at <DevSecOpsHelp@redhat.com>
