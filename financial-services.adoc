@@ -85,6 +85,6 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:logical-diagrams/fsi-openbanking-ld.png[350,300]
 image:schematic-diagrams/fsi-openbanking-sd.png[350,300]
 image:schematic-diagrams/fsi-openbanking-data-sd.png[350,300]
-image:detail-diagrams/fsi-openbanking-api-management.png[250,200]
+image:detail-diagrams/fsi-openbanking-api.png[250,200]
 --
 
