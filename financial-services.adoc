@@ -31,12 +31,12 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:logical-diagrams/payments-ld.png[350,300]
-image:schematic-diagrams/payments-calculations-sd.png[350,300]
-image:schematic-diagrams/payments-immediate-payments-network-sd.png[350,300]
-image:schematic-diagrams/payments-immediate-payments-data-sd.png[350,300]
-image:schematic-diagrams/payments-anti-money-laundering-sd.png[350,300]
-image:schematic-diagrams/payments-fraud-detection-sd.png[350,300]
+image:logical-diagrams/fsi-payments-ld.png[350,300]
+image:schematic-diagrams/fsi-payments-calculations-sd.png[350,300]
+image:schematic-diagrams/fsi-payments-immediate-payments-sd.png[350,300]
+image:schematic-diagrams/fsi-payments-immediate-payments-data-sd.png[350,300]
+image:schematic-diagrams/fsi-payments-anti-money-laundering-sd.png[350,300]
+image:schematic-diagrams/fsi-payments-fraud-detection-sd.png[350,300]
 image:detail-diagrams/payments-payments-api.png[250,200]
 image:detail-diagrams/payments-payment-event-streams.png[250,200]
 image:detail-diagrams/payments-validation-microservices-events.png[250,200]
@@ -65,5 +65,26 @@ image:detail-diagrams/payments-aggregation-microservices.png[250,200]
 image:detail-diagrams/payments-reference-data.png[250,200]
 image:detail-diagrams/payments-integration-microservices.png[250,200]
 image:detail-diagrams/payments-billing-systems.png[250,200]
+--
+
+
+== Open Banking
+
+Use case: TODO, add open banking use case definition.
+
+Open the  diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
+content.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/fsi-openbanking.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/fsi-openbanking.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/fsi-openbanking-ld.png[350,300]
+image:schematic-diagrams/fsi-openbanking-sd.png[350,300]
+image:schematic-diagrams/fsi-openbanking-data-sd.png[350,300]
+image:detail-diagrams/fsi-openbanking-api-management.png[250,200]
 --
 
