@@ -40,8 +40,8 @@ Images that can be used for slides (click to enlarge an image):
 * link:remote-management.adoc[Remote server management]
 
 === Vertical
-* link:edge-ai-ml.adoc[Edge AI/ML Manufacturing]
-* link:payment.adoc[Payments]
+* link:edge-ai-ml.adoc[Manufacturing]
+* link:financial-services.adoc[Financial Services]
 * link:retail.adoc[Retail]
 
 === Product demo

@@ -1,0 +1,69 @@
+= 
+Eric D. Schabell @eschabell, Ramon Villarreal @rvillarr
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+Financial services institutions understand that today’s banking customers expect fast, easy-to-use services they
+can tap into anytime, anywhere, and are therefore accelerating adoption of digital technologies to enable a variety
+of new offerings. 
+
+
+== Payments
+
+Use case: Financial institutions enabling customers with fast, easy to use, and safe payment services available anytime, anywhere... 
+
+An offering of (near) real-time payments lets businesses, consumers, and even governments send and accept funds that 
+provide both availability to the recipient and instant confirmation to the sender. Enabling real-time - or at least 
+faster - payments that improve the speed of online payment experiences to customers has the potential to give 
+banks a greater opportunity to win, serve, and retain their customers. By building solutions that capture real-time 
+payment business, banks also can drive higher payment volumes, ideally at lower costs as well as engage new customer 
+segments.
+
+Open the  diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
+content.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/fsi-payments.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/fsi-payments.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/payments-ld.png[350,300]
+image:schematic-diagrams/payments-calculations-sd.png[350,300]
+image:schematic-diagrams/payments-immediate-payments-network-sd.png[350,300]
+image:schematic-diagrams/payments-immediate-payments-data-sd.png[350,300]
+image:schematic-diagrams/payments-anti-money-laundering-sd.png[350,300]
+image:schematic-diagrams/payments-fraud-detection-sd.png[350,300]
+image:detail-diagrams/payments-payments-api.png[250,200]
+image:detail-diagrams/payments-payment-event-streams.png[250,200]
+image:detail-diagrams/payments-validation-microservices-events.png[250,200]
+image:detail-diagrams/payments-clearing-microservices.png[250,200]
+image:detail-diagrams/payments-routing-microservices.png[250,200]
+image:detail-diagrams/payments-aml-microservices.png[250,200]
+image:detail-diagrams/payments-fraud-microservices.png[250,200]
+image:detail-diagrams/payments-data-cache.png[250,200]
+image:detail-diagrams/payments-payments-network.png[250,200]
+image:detail-diagrams/payments-aml-payments-event-streams.png[250,200]
+image:detail-diagrams/payments-aml-transaction-scoring.png[250,200]
+image:detail-diagrams/payments-aml-aml-rules.png[250,200]
+image:detail-diagrams/payments-fraud-detection-rules.png[250,200]
+image:detail-diagrams/payments-aml-malicious-activity-streams.png[250,200]
+image:detail-diagrams/payments-aml-suspicious-activity-reporting.png[250,200]
+image:detail-diagrams/payments-aml-case-management.png[250,200]
+image:detail-diagrams/payments-fraud-prevention-process.png[250,200]
+image:detail-diagrams/payments-aml-kyc.png[250,200]
+image:detail-diagrams/payments-aml-cusotmer-transation-data.png[250,200]
+image:detail-diagrams/payments-aml-model-training-serving.png[250,200]
+image:detail-diagrams/payments-api.png[250,200]
+image:detail-diagrams/payments-message-queues.png[250,200]
+image:detail-diagrams/payments-validation-microservices.png[250,200]
+image:detail-diagrams/payments-detail-calculations-microservices.png[250,200]
+image:detail-diagrams/payments-aggregation-microservices.png[250,200]
+image:detail-diagrams/payments-reference-data.png[250,200]
+image:detail-diagrams/payments-integration-microservices.png[250,200]
+image:detail-diagrams/payments-billing-systems.png[250,200]
+--
+
