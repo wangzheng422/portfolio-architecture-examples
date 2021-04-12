@@ -15,7 +15,7 @@ the 'Download Diagram' link. The images below can be used to browse the availabl
 
 == Use case:
 
-Transitioning from on-premise data centre to public cloud and deploying short-lived promotional workloads to cloud.
+Accelerating cloud adoption with effective automation for deploying and managing workloads across multiple cloud infrastructures according to performance, security, compliance, and cost requirements.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-adoption.drawio[[Load Diagram]]
