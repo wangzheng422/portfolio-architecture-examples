@@ -16,7 +16,7 @@ the 'Download Diagram' link. The images below can be used to browse the availabl
 
 == Use case:
 
-Managing a large number of servers in multiple countries, data centres, and store servers.
+Providing remote management for a consist server estate across hybrid cloud and data centers with remote management, security, and  data protection for full lifecycle.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remote-server-management.drawio[[Load Diagram]]
@@ -24,12 +24,12 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:logical-diagrams/RSM-ld.png[350, 300]
-image:schematic-diagrams/RSM-sd.png[350, 300]
-image:schematic-diagrams/RSM-sdf.png[350, 300]
-image:detail-diagrams/smart-management.png[250, 200]
-image:detail-diagrams/ansible-tower.png[250, 200]
-image:detail-diagrams/git-server.png[250, 200]
-image:detail-diagrams/quay.png[250, 200]
+image:logical-diagrams/rsm-ld.png[350, 300]
+image:schematic-diagrams/rsm-network-sd.png[350, 300]
+image:schematic-diagrams/rsm-data-sd.png[350, 300]
+image:detail-diagrams/rsm-smart-management.png[250, 200]
+image:detail-diagrams/rsm-automation.png[250, 200]
+image:detail-diagrams/rsm-image-store.png[250, 200]
+image:detail-diagrams/rsm-scm.png[250, 200]
 --
 
