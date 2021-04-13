@@ -1,0 +1,39 @@
+= Telco 5G Core
+ Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  @ishuverma, William Henry @ipbabble
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+5G is the latest evolution of wireless mobile technology. It will enable ultra-reliable, immersive experiences for people and objects when and where it matters most.
+
+It can deliver a number of services from the network edge:
+
+- Enhanced mobile broadband (eMBB)
+* 5G enhances data speeds and experiences with new radio capabilities like mmWave frequency spectrum for higher bandwidth allocation and theoretical throughput up to 20Gbps.
+- Ultra-reliable, low-latency communication (uRLLC)
+* 5G supports vertical industry requirements, including sub-millisecond latency with
+less than 1 lost packet in 105 packets.
+- Massive machine type communications (mMTC)
+* 5G supports cost-efficient and robust connection for up to 1 million mMTC, NB-IOT, and LTE-M devices per square kilometer without network overloading.
+
+
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Telco_5G-iv_dotted-04-12.drawio[Load Diagram]
+
+
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/Telco_5G-iv_dotted-04-12.drawio?inline=false[Download Diagram]
+
+== Logical diagrams
+
+image::logical-diagrams/Telco-5GC-logical.png[1500,1000]
+
+'''
+
+== Schematic diagrams
+
+image::schematic-diagrams/Telco-5GC-schematic.png[1500, 1000]
+'''
+
+== Detailed diagrams
+
+Coming Soon.......
