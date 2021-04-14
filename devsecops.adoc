@@ -1,25 +1,34 @@
 = DevSecOps
-William Henry @ipbabble
+William Henry @ipbabble, Aaron Levey DevSecOpsHelp@redhat.com, Dave Meurer DevSecOpsHelp@redhat.com
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
 
 
-DevSecOps with Red Hat is not just about helping our customers with their application pipeline in a containerized environment. We can help customers implement DevSecOps no matter where they are in their journey of creating applications faster and securely on top of a secure infrastructure. We can help customers tackle the culture and process component of DevSecOps with the expertise in our Global Transformation Office and Innovation Labs , where we have helped many customers get jump started in DevSecOps in a residency style experience. Our portfolio provides customers the technologies to build security into their applications on top of a secure infrastructure with management and automation tools to quickly adapt and integrate with security partner ecosystem tooling for comprehensive DevSecOps. In addition we help customers implement DevSecOps with culture and process in mind (such as organizational policy and business guidelines) with services we offer in both Red Hat consulting and Innovation labs and provide training and certification courses specific to security and DevOps.
+DevSecOps with Red Hat is not just about helping our customers with their application pipeline in a containerized environment. We
+can help customers implement DevSecOps no matter where they are in their journey of creating applications faster and securely on top
+of a secure infrastructure. We can help customers tackle the culture and process component of DevSecOps with the expertise in our
+Global Transformation Office and Innovation Labs , where we have helped many customers get jump started in DevSecOps in a residency
+style experience. Our portfolio provides customers the technologies to build security into their applications on top of a secure
+infrastructure with management and automation tools to quickly adapt and integrate with security partner ecosystem tooling for
+comprehensive DevSecOps. In addition we help customers implement DevSecOps with culture and process in mind (such as organizational
+policy and business guidelines) with services we offer in both Red Hat consulting and Innovation labs and provide training and
+certification courses specific to security and DevOps.
 
-The diagrams include the logical, schematic, and detailed diagrams.
+Use case: Building secure, high-qulaity containerized solutions using OpenShift platform using DevSecOps in the development life
+cycle.
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
-== Use case:
-
-There are a number of partners and technologies that help out the DevSecOps use cases for Cloud Native Development on OpenShift.
-
 === Synopsys
 
-Synopsys helps development teams build secure, high-quality software, minimizing risks while maximizing speed and productivity. Synopsys, a recognized leader in application security, provides static analysis, software composition analysis, and dynamic analysis solutions that enable teams to quickly find and fix vulnerabilities and defects in proprietary code, open source components, and application behavior. With a combination of industry-leading tools, services, and expertise, Synopsys helps organizations optimize security and quality in DevSecOps and throughout the software development life cycle.
+Synopsys helps development teams build secure, high-quality software, minimizing risks while maximizing speed and productivity.
+Synopsys, a recognized leader in application security, provides static analysis, software composition analysis, and dynamic analysis
+solutions that enable teams to quickly find and fix vulnerabilities and defects in proprietary code, open source components, and
+application behavior. With a combination of industry-leading tools, services, and expertise, Synopsys helps organizations optimize
+security and quality in DevSecOps and throughout the software development life cycle. 
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schmatic-diagrams-devsecops-synopsys.drawio[[Load Diagram]]
@@ -30,7 +39,3 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:schematic-diagrams/devsecops-synopsis-dataflow.png[350, 300]
 --
 
-=== Contacts
-
-For more information on cloud native DevSecOps at Red Hat please contact:
-Aaron Levey or Dave Meurer at <DevSecOpsHelp@redhat.com>

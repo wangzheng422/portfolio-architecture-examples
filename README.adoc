@@ -43,7 +43,7 @@ Images that can be used for slides (click to enlarge an image):
 * link:edge-ai-ml.adoc[Manufacturing]
 * link:financial-services.adoc[Financial Services]
 * link:retail.adoc[Retail]
-* link:Telco-5g-core.adoc[Telco]
+* link:telco.adoc[Telco]
 
 === Product demo
 * link:demos.adoc[Product demos]

@@ -1,0 +1,35 @@
+= Telco 
+ Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  @ishuverma, William Henry @ipbabble
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge:
+
+- Enhanced mobile broadband (eMBB)
+* 5G enhances data speeds and experiences with new radio capabilities like mmWave frequency spectrum for higher bandwidth allocation and theoretical throughput up to 20Gbps.
+- Ultra-reliable, low-latency communication (uRLLC)
+* 5G supports vertical industry requirements, including sub-millisecond latency with
+less than 1 lost packet in 105 packets.
+- Massive machine type communications (mMTC)
+* 5G supports cost-efficient and robust connection for up to 1 million mMTC, NB-IOT, and LTE-M devices per square kilometer without network overloading.
+
+This document is a collection of various architectures in the telco domain. Each case is detailed below with a definition of the 
+use case along with logical, schematic, and detailed diagrams.
+
+
+= Telco 5G Core
+
+Use case: Enabling ultra-reliable, immersive telco experiences through 5G for people and objects when and where it matters most.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Telco_5G-iv_dotted-04-12.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/Telco_5G-iv_dotted-04-12.drawio?inline=false[[Download Diagrama]]
+--
+
+--
+image::logical-diagrams/Telco-5GC-logical.png[350,300]
+image::schematic-diagrams/Telco-5GC-schematic.png[350, 300]
+--
+
