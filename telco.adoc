@@ -25,7 +25,7 @@ Use case: Enabling ultra-reliable, immersive telco experiences through 5G for pe
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-G5G.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/master/diagrams/telco-5G.drawio?inline=false[[Download Diagrama]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-5G.drawio?inline=false[[Download Diagrama]]
 --
 
 --
