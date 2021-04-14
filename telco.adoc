@@ -24,7 +24,7 @@ use case along with logical, schematic, and detailed diagrams.
 Use case: Enabling ultra-reliable, immersive telco experiences through 5G for people and objects when and where it matters most.
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-G5G.drawio[[Load Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-5G.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-5G.drawio?inline=false[[Download Diagrama]]
 --
 
