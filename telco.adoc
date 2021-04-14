@@ -29,7 +29,9 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image::logical-diagrams/Telco-5GC-logical.png[350,300]
-image::schematic-diagrams/Telco-5GC-schematic.png[350, 300]
+image::logical-diagrams/telco-5gc-ld.png[350,300]
+image::schematic-diagrams/telco-5gc-sd-1.png[350, 300]
+image::schematic-diagrams/telco-5gc-sd-2.png[350, 300]
+image::schematic-diagrams/telco-5gc-sd-3.png[350, 300]
 --
 
