@@ -1,5 +1,5 @@
 = Cloud adoption
-William Henry @ipbabble
+Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
 :icons: font

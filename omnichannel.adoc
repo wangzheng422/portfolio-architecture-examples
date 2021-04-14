@@ -14,11 +14,14 @@ and delivering on their digital promise to customers by integrating applications
 infrastructure and cloud environments. Business automation, in the form of process integrations, are captured to
 enable access to complex process services.
 
-== Logical diagrams
+Use case: Omnichannel implies integration and orchestration of channels such that the experience of engaging across all the channels
+someone chooses to use. 
 
 Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
 content.
+
+== Logical diagrams
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-omnichannel-customer-experience.drawio[[Load Diagram]]
@@ -31,10 +34,6 @@ image:logical-diagrams/omnichannel-customer-experience-details-ld.png[350,300]
 --
 
 == Schematic diagrams
-
-Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
-content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-omnichannel-customer-experience.drawio[[Load Diagram]]
@@ -52,9 +51,6 @@ image:schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.p
 
 == Detailed diagrams
 
-Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
-content.
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-omnichannel-customer-experience.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/detailed-diagrams-omnichannel-customer-experience.drawio?inline=false[[Download Diagram]]

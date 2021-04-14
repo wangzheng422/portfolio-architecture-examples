@@ -5,16 +5,14 @@ Eric D. Schabell @eschabell
 :icons: font
 :source-highlighter: prettify
 
-Providing integration with Software-as-a-Service (SaaS) applications, platforms, and services empowers organizations
-to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
-Red Hat offers a foundation for IT teams to develop and deliver integration with SaaS applications through a
-combination of integration and process automation technologies.
-
-== Logical diagrams
+Use case: Providing integration with SaaS applications, platforms, and services empowers organizations to build and run scalable
+applications in modern, dynamic environments such as public, private, and hybrid clouds. 
 
 Open the  diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
 content.
+
+== Logical diagrams
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-integrate-saas-applications.drawio[[Load Diagram]]
@@ -27,10 +25,6 @@ image:logical-diagrams/integrating-with-saas-applications-details-ld.png[350,300
 --
 
 == Schematic diagrams
-
-Open the  diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
-content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-integrate-saas-applications.drawio[[Load Diagram]]
@@ -46,10 +40,6 @@ image:schematic-diagrams/saas-integration-3rd-party-process-sd.png[350,300]
 --
 
 == Detailed diagrams
-
-Open the  diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
-content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detialed-diagrams-integrate-saas-applications.drawio[[Load Diagram]]
@@ -68,3 +58,4 @@ image:detail-diagrams/integration-data-microservices.png[350,300]
 image:detail-diagrams/sso-server.png[350,300]
 image:detail-diagrams/3rd-party-platform-services.png[350,300]
 --
+

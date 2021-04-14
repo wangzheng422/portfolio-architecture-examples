@@ -1,5 +1,5 @@
 = Retail
-Eric D. Schabell @eschabell
+Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
@@ -22,7 +22,6 @@ the 'Download Diagram' link. The images below can be used to browse the availabl
 == Supply chain integration
 
 Use case: Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other third-party interactions.
-
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-supply-chain.drawio[[Load Diagram]]

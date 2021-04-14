@@ -1,22 +1,20 @@
 = Remote server management
-William Henry @ipbabble
+Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
 
 
-This blueprint covers the architecture for remote server management. As more and more enterprises are deployed across different data centers and public and/or private clouds, it is important to provide consistency and security in an automated way across all of the the servers in order to reduce risk and costs.
+This blueprint covers the architecture for remote server management. As more and more enterprises are deployed across different data
+centers and public and/or private clouds, it is important to provide consistency and security in an automated way across all of the
+the servers in order to reduce risk and costs. 
 
-The diagrams include the logical, schematic, and detailed diagrams.
+Use case: Providing remote management for a consist server estate across hybrid cloud and data centers with remote management,
+security, and  data protection for full lifecycle.
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
-
-
-== Use case:
-
-Providing remote management for a consist server estate across hybrid cloud and data centers with remote management, security, and  data protection for full lifecycle.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remote-server-management.drawio[[Load Diagram]]
