@@ -21,53 +21,31 @@ Open the diagrams in the diagram tooling using 'Load Diagram' link. To download 
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
 content.
 
-== Logical diagrams
-
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-omnichannel-customer-experience.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/logical-diagrams-omnichannel-customer-experience.drawio?inline=false[ [Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/omnichannel-customer-experience.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/omnichannel-customer-experience.drawio?inline=false[ [Download Diagram]]
 --
 
 --
 image:logical-diagrams/omnichannel-customer-experience-ld.png[350,300]
 image:logical-diagrams/omnichannel-customer-experience-details-ld.png[350,300]
---
-
-== Schematic diagrams
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-omnichannel-customer-experience.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/schematic-diagrams-omnichannel-customer-experience.drawio?inline=false[[Download Diagram]]
---
-
---
 image:schematic-diagrams/omnichannel-process-integration-sd.png[350,300]
 image:schematic-diagrams/omnichannel-mobile-integration-sd.png[350,300]
 image:schematic-diagrams/omnichannel-integration-service-sd.png[350,300]
 image:schematic-diagrams/omnichannel-integration-data-service-sd.png[350,300]
 image:schematic-diagrams/omnichannel-integration-3rd-party-service-sd.png[350,300]
 image:schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.png[350,300]
---
-
-== Detailed diagrams
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-omnichannel-customer-experience.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/detailed-diagrams-omnichannel-customer-experience.drawio?inline=false[[Download Diagram]]
---
-
---
-image:detail-diagrams/mobile-app.png[350,300]
-image:detail-diagrams/web-app2.png[350,300]
-image:detail-diagrams/api-management2.png[350,300]
-image:detail-diagrams/reverse-proxy.png[350,300]
-image:detail-diagrams/applications.png[350,300]
-image:detail-diagrams/front-end-microservices2.png[350,300]
-image:detail-diagrams/process-facade-microservices2.png[350,300]
-image:detail-diagrams/integration-microservices2.png[350,300]
-image:detail-diagrams/integration-data-microservices2.png[350,300]
-image:detail-diagrams/process-server.png[350,300]
-image:detail-diagrams/real-time-data-storage.png[350,300]
-image:detail-diagrams/sso-server.png[350,300]
+image:detail-diagrams/mobile-app.png[250,200]
+image:detail-diagrams/web-app2.png[250,200]
+image:detail-diagrams/api-management2.png[250,200]
+image:detail-diagrams/reverse-proxy.png[250,200]
+image:detail-diagrams/applications.png[250,200]
+image:detail-diagrams/front-end-microservices2.png[250,200]
+image:detail-diagrams/process-facade-microservices2.png[250,200]
+image:detail-diagrams/integration-microservices2.png[250,200]
+image:detail-diagrams/integration-data-microservices2.png[250,200]
+image:detail-diagrams/process-server.png[250,200]
+image:detail-diagrams/real-time-data-storage.png[250,200]
+image:detail-diagrams/sso-server.png[250,200]
 --
 
