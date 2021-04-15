@@ -22,27 +22,14 @@ advantages of the cloud computing model (i.e. responsive, elastic and resilient 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
-== Logical diagrams
-
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/logical-diagrams-cloud-native-development.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/logical-diagrams-cloud-native-development.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-native-development.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-native-development.drawio?inline=false[[Download Diagram]]
 --
 
 --
 image:logical-diagrams/cloud-native-development-ld.png[350, 300]
 image:logical-diagrams/cloud-native-development-details-ld.png[350,300]
---
-
-
-== Schematic diagrams
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schematic-diagrams-cloud-native-development.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/schematic-diagrams-cloud-native-development.drawio?inline=false[[Download Diagram]]
---
-
---
 image:schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[350, 300]
 image:schematic-diagrams/cloud-native-development-local-containers-process-sd.png[350, 300]
 image:schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png[350, 300]
@@ -51,26 +38,17 @@ image:schematic-diagrams/cloud-native-development-deployment-sd.png[350, 300]
 image:schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[350, 300]
 image:schematic-diagrams/cloud-native-development-deployment-with-python.png[350, 300]
 image:schematic-diagrams/cloud-native-development-deployment-with-thoth.png[350, 300]
+image:detail-diagrams/developer-ide.png[250, 200]
+image:detail-diagrams/maven-repo.png[250, 200]
+image:detail-diagrams/scm-system.png[250, 200]
+image:detail-diagrams/runtimes-frameworks.png[250, 200]
+image:detail-diagrams/integration-frameworks.png[250, 200]
+image:detail-diagrams/container-tooling.png[250, 200]
+image:detail-diagrams/ci-cd-platform.png[250, 200]
+image:detail-diagrams/image-registry.png[250, 200]
+image:detail-diagrams/registry-management.png[250, 200]
+image:detail-diagrams/s2i-workflow.png[250, 200]
+image:detail-diagrams/sandbox-registry.png[250, 200]
+image:detail-diagrams/enterprise-registry.png[250, 200]
 --
 
-== Detailed diagrams
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/detailed-diagrams-cloud-native-development.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/detailed-diagrams-cloud-native-development.drawio?inline=false[[Download Diagram]]
---
-
---
-image:detail-diagrams/developer-ide.png[350, 300]
-image:detail-diagrams/maven-repo.png[350, 300]
-image:detail-diagrams/scm-system.png[350, 300]
-image:detail-diagrams/runtimes-frameworks.png[350, 300]
-image:detail-diagrams/integration-frameworks.png[350, 300]
-image:detail-diagrams/container-tooling.png[350, 300]
-image:detail-diagrams/ci-cd-platform.png[350, 300]
-image:detail-diagrams/image-registry.png[350, 300]
-image:detail-diagrams/registry-management.png[350, 300]
-image:detail-diagrams/s2i-workflow.png[350, 300]
-image:detail-diagrams/sandbox-registry.png[350, 300]
-image:detail-diagrams/enterprise-registry.png[350, 300]
---
