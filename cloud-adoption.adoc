@@ -25,7 +25,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 image:logical-diagrams/cloud-adoption-ld.png[350, 300]
 image:schematic-diagrams/cloud-adoption-network-sd.png[350, 300]
-image:schematic-diagrams/cloud-adoption-dataflow-sd.png[350, 300]
+image:schematic-diagrams/cloud-adoption-data-sd.png[350, 300]
 image:detail-diagrams/cloud-adoption-smart-management.png[250, 200]
 image:detail-diagrams/cloud-adoption-automation.png[250, 200]
 image:detail-diagrams/cloud-adoption-scm.png[250, 200]
