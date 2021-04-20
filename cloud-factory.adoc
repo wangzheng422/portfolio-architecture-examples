@@ -8,24 +8,18 @@ Eric Lavarde @L1
 
 This blueprint covers the architecture for deploying in an automated manner multiple instance of an OpenStack and Ceph based cloud, following the principles of Infrastructure as Code.
 
-The diagrams include the logical, schematic, and detailed diagrams.
+Use case: Deploy multiple private clouds based on the same (infrastructure as) code using different parametrization (Ansible inventories).
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
-
-== Use case:
-
-Deploy multiple private clouds based on the same (infrastructure as) code, just using different parametrization (Ansible inventories).
-The reason can be clouds for multiple stages and sites (avoiding stretch clusters), for higher reliance, legal or technical reasons (e.g. a big data cluster requiring the whole available bandwidth).
-
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/diagrams/cloud-factory.drawio[[Load Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-factory.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-factory.drawio?inline=false[[Download Diagram]]
 --
 
 --
-image:logical-diagrams/cloud-factory-logical-overview.png[960, 300]
-image:schematic-diagrams/cloud-factory-schematic-overview.png[580, 300]
-image:schematic-diagrams/cloud-factory-schematic-cloud-nw.png[490, 300]
+image:logical-diagrams/cloud-factory-ld.png[350, 300]
+image:schematic-diagrams/cloud-factory-sd.png[350, 300]
+image:schematic-diagrams/cloud-factory-details-sd.png[350, 300]
 --
