@@ -1,4 +1,4 @@
-= cloud Factory
+= Cloud factory
 Eric Lavarde @L1
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
