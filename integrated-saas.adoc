@@ -5,12 +5,14 @@ Eric D. Schabell @eschabell
 :icons: font
 :source-highlighter: prettify
 
+
 Use case: Providing integration with SaaS applications, platforms, and services empowers organizations to build and run scalable
 applications in modern, dynamic environments such as public, private, and hybrid clouds. 
 
 Open the  diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
 content.
+
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/integrate-saas-applications.drawio[[Load Diagram]]

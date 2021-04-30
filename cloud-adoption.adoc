@@ -6,16 +6,16 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :source-highlighter: prettify
 
 
-This blueprint covers the architecture for cloud adoption. As enterprises adopt to public and/or private clouds, it is important to provide automation to manage and scale server deployments and to provide the capability to transition servers between data centers and cloud providers. This provides flexibility and portability.
+This blueprint covers the architecture for cloud adoption. As enterprises adopt to public and/or private clouds, it is important to
+provide automation to manage and scale server deployments and to provide the capability to transition servers between data centers
+and cloud providers. This provides flexibility and portability.
 
-The diagrams include the logical, schematic, and detailed diagrams.
+Use case: Accelerating cloud adoption with effective automation for deploying and managing workloads across multiple cloud
+infrastructures according to performance, security, compliance, and cost requirements. 
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
-== Use case:
-
-Accelerating cloud adoption with effective automation for deploying and managing workloads across multiple cloud infrastructures according to performance, security, compliance, and cost requirements.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-adoption.drawio[[Load Diagram]]

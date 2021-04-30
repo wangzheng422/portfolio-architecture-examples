@@ -5,6 +5,7 @@
 :icons: font
 :source-highlighter: prettify
 
+
 Cloud native development is an approach to building and running applications to fully use the advantages of the
 cloud computing model (i.e., responsive, elastic, and resilient applications). Red Hat empowers organizations to
 build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
@@ -19,8 +20,10 @@ the foundation for newer development models such as serverless computing and Fun
 Use case: Cloud-native development is an approach to building and running applications to fully exploit the 
 advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams
+use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
+content.
+
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-native-development.drawio[[Load Diagram]]

@@ -16,19 +16,18 @@ comprehensive DevSecOps. In addition we help customers implement DevSecOps with 
 policy and business guidelines) with services we offer in both Red Hat consulting and Innovation labs and provide training and
 certification courses specific to security and DevOps.
 
+Synopsys helps development teams build secure, high-quality software, minimizing risks while maximizing speed and productivity.
+Synopsys, a recognized leader in application security, provides static analysis, software composition analysis, and dynamic analysis
+solutions that enable teams to quickly find and fix vulnerabilities and defects in proprietary code, open source components, and
+application behavior. With a combination of industry-leading tools, services, and expertise, Synopsys helps organizations optimize
+security and quality in DevSecOps and throughout the software development life cycle. 
+
 Use case: Building secure, high-qulaity containerized solutions using OpenShift platform using DevSecOps in the development life
 cycle.
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
-=== Synopsys
-
-Synopsys helps development teams build secure, high-quality software, minimizing risks while maximizing speed and productivity.
-Synopsys, a recognized leader in application security, provides static analysis, software composition analysis, and dynamic analysis
-solutions that enable teams to quickly find and fix vulnerabilities and defects in proprietary code, open source components, and
-application behavior. With a combination of industry-leading tools, services, and expertise, Synopsys helps organizations optimize
-security and quality in DevSecOps and throughout the software development life cycle. 
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schmatic-diagrams-devsecops-synopsys.drawio[[Load Diagram]]
