@@ -5,6 +5,7 @@
 :icons: font
 :source-highlighter: prettify
 
+
 5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge:
 
 - Enhanced mobile broadband (eMBB)
@@ -22,6 +23,7 @@ use case along with logical, schematic, and detailed diagrams.
 = Telco 5G Core
 
 Use case: Enabling ultra-reliable, immersive telco experiences through 5G for people and objects when and where it matters most.
+
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-5GC.drawio[[Load Diagram]]

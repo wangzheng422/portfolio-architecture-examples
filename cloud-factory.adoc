@@ -6,12 +6,14 @@ Eric Lavarde @L1
 :source-highlighter: prettify
 
 
-This blueprint covers the architecture for deploying in an automated manner multiple instance of an OpenStack and Ceph based cloud, following the principles of Infrastructure as Code.
+This blueprint covers the architecture for deploying in an automated manner multiple instance of an OpenStack and Ceph based cloud,
+following the principles of Infrastructure as Code.
 
 Use case: Deploy multiple private clouds based on the same (infrastructure as) code using different parametrization (Ansible inventories).
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-factory.drawio[[Load Diagram]]

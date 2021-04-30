@@ -5,6 +5,7 @@ Eric D. Schabell @eschabell, Ramon Villarreal @rvillarr
 :icons: font
 :source-highlighter: prettify
 
+
 Financial services institutions understand that today’s banking customers expect fast, easy-to-use services they
 can tap into anytime, anywhere, and are therefore accelerating adoption of digital technologies to enable a variety
 of new offerings. 
@@ -26,6 +27,7 @@ Use case: Financial institutions enabling customers with fast, easy to use, and 
 Open the  diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
 content.
+
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/fsi-payments.drawio[[Load Diagram]]
@@ -73,6 +75,7 @@ image:detail-diagrams/payments-billing-systems.png[250,200]
 == Open Banking
 
 Use case: TODO, add open banking use case definition.
+
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/fsi-openbanking.drawio[[Load Diagram]]

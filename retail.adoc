@@ -5,6 +5,7 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :icons: font
 :source-highlighter: prettify
 
+
 Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to earn a profit.
 Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied where a service provider fills
 the small orders of many individuals, who are end-users, rather than large orders of a small number of wholesale, corporate or
@@ -22,6 +23,7 @@ the 'Download Diagram' link. The images below can be used to browse the availabl
 == Supply chain integration
 
 Use case: Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other third-party interactions.
+
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-supply-chain.drawio[[Load Diagram]]
@@ -46,6 +48,7 @@ image:detail-diagrams/retail-supply-chain-third-party.png[250, 200]
 
 Use case: Simplifying and modernizing central management of distributed point-of-sale devices with built in support for container based applications.
 
+
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-pos.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-pos.drawio?inline=false[[Download Diagram]]
@@ -66,6 +69,7 @@ image:detail-diagrams/retail-pos-sku-catalog.png[250, 200]
 == Headless eCommerce
 
 Use case: Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce platform.
+
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-headless-ecommerce.drawio[[Load Diagram]]
@@ -94,6 +98,7 @@ image:detail-diagrams/retail-headless-api-management.png[250, 200]
 
 Use case: Optimising delivery routing, automating rostering of staff, and improving efficiency of tasks across multiple stores.
 
+
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-business-optimisation.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-business-optimisation.drawio?inline=false[[Download Diagram]]
@@ -117,6 +122,7 @@ image:detail-diagrams/retail-optimising-retail-systems.png[250, 200]
 == Store health and safety
 
 Use case: Managing effective in-store compliance, health & safety, and employee checks and procedures.
+
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-store-health-and-safety.drawio[[Load Diagram]]
@@ -142,6 +148,7 @@ image:detail-diagrams/retail-store-safety-external-systems.png[250, 200]
 
 Use case: Providing (near) real-time stock positions and dynamic pricing promotions information to retailer omnichannels.
 
+
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-stock-control.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-stock-control.drawio?inline=false[[Download Diagram]]
@@ -166,6 +173,7 @@ image:detail-diagrams/retail-stock-control-retail-processes.png[250, 200]
 
 Use case: Creating a framework for access to retail data from customers, stock, stores, and staff across multiple internal teams.
 
+
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-data-framework.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-data-framework.drawio?inline=false[[Download Diagram]]
@@ -189,6 +197,4 @@ image:detail-diagrams/retail-data-framework-data-visualisation-tooling.png[250, 
 image:detail-diagrams/retail-data-framework-data-science.png[250, 200]
 image:detail-diagrams/retail-data-framework-core-platform.png[250, 200]
 --
-
-
 
