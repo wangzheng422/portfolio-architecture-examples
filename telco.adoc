@@ -1,4 +1,4 @@
-= Telco 
+= Telco
  Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  @ishuverma, William Henry @ipbabble
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
@@ -16,13 +16,13 @@ less than 1 lost packet in 105 packets.
 - Massive machine type communications (mMTC)
 * 5G supports cost-efficient and robust connection for up to 1 million mMTC, NB-IOT, and LTE-M devices per square kilometer without network overloading.
 
-This document is a collection of various architectures in the telco domain. Each case is detailed below with a definition of the 
+This document is a collection of various architectures in the telco domain. Each case is detailed below with a definition of the
 use case along with logical, schematic, and detailed diagrams.
 
 
 = Telco 5G Core
 
-Use case: Enabling ultra-reliable, immersive telco experiences through 5G for people and objects when and where it matters most.
+Use case 1 (Equipement manufactures): Enabling ultra-reliable, immersive telco experiences through 5G for people and objects when and where it matters most. These diagrams is how a network equipment manufactures can create a solution for 5G Core network.
 
 
 --
@@ -35,3 +35,11 @@ image:logical-diagrams/telco-5gc-ld.png[250, 200]
 image:schematic-diagrams/telco-5gc-sd.png[350, 300]
 --
 
+Use case 2 (Public Cloud): Enabling ultra-reliable, immersive telco experiences through 5G for people and objects when and where it matters most. These diagrams is how public cloud services can be create a solution for 5G Core network.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Telco5GC-Generic-2.drawio[[Load Diagram]]
+--
+
+--
+image:logical-diagrams/telco-5gc-ld.png[250, 200]
