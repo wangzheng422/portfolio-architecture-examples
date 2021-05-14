@@ -38,8 +38,11 @@ image:schematic-diagrams/telco-5gc-sd.png[350, 300]
 *Use case 2 (Public Cloud)*: These diagrams is how public cloud services can be create a solution for 5G Core network.
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Telco5GC-Generic-3.drawio[[Load Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Telco5GC-Generic-4.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-5GC-Generic-4.drawio?inline=false[[Download Diagrama]]
 --
 
 --
 image:logical-diagrams/Telco5GC-Generic-3-ld.png[250, 200]
+image:logical-diagrams/Telco5GC-Ge-3-ld.png[250, 200]
+--
