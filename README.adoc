@@ -14,6 +14,8 @@ The examples include high level overview in *Logical* diagrams, more in-depth vi
 
 TIP: Learn how to use the draw.io tool to create portfolio architecture diagrams with https://gitlab.com/redhatdemocentral/portfolio-architecture-workshops[Portfolio Architecture Workshop]
 
+TIP: Interested in the workflow to create, update, and push your blueprint project to this examples reposiotry? Try this https://redhatdemocentral.gitlab.io/portfolio-architecture-template[Beginners guide to deveoping an architecture blueprint]
+
 == How to use
 The architectural diagrams created using the diagram tool hosted online for free usage https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling[here]
 
