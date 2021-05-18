@@ -22,7 +22,7 @@ use case along with logical, schematic, and detailed diagrams.
 
 = Telco 5G Core
 
-*Use case 1 (Equipement manufactures)*: These diagrams is how a network equipment manufactures can create a solution for 5G Core network.
+*Use case 1 (On-Preminse Deployment)*: These diagrams is how a network equipment manufactures can create a solution for 5G Core network.
 
 
 --
