@@ -26,8 +26,8 @@ use case along with logical, schematic, and detailed diagrams.
 
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-5GC.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-5GC.drawio?inline=false[[Download Diagrama]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco5GC-Generic-6.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco5GC-Generic-6.drawio?inline=false[[Download Diagrama]]
 --
 
 --
@@ -44,5 +44,5 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 --
 image:logical-diagrams/Telco5GC-Generic-5-ld.png[250, 200]
-image:schematic-diagrams/Telco5GC-Generic-5-sd.png[350, 300]
+image:schematic-diagrams/telco5GC-generic-6-sd.png[350, 300]
 --
