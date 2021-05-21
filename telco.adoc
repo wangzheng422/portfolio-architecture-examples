@@ -42,13 +42,23 @@ https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-5GC-Generic-4.drawio?inline=false[[Download Diagrama]]
 --
 
+*Logical Diagram*
 --
 image:logical-diagrams/Telco5GC-Generic-5-ld.png[250, 200]
-image:schematic-diagrams/telco5GC-generic-6-sd.png[350, 300]
-image:detail-diagrams/telco5GC-dashboard.png[250, 200]
-image:detail-diagrams/telco5GC-database.png[250, 200]
-image:detail-diagrams/telco5GC-ecr.png[250, 200]
-image:detail-diagrams/telco5GC-eventstream.png[250, 200]
-image:detail-diagrams/telco5GC-orchestration.png[250, 200]
-image:detail-diagrams/telco5GC-storage.png[250, 200]
+
+'''
+*Schematic Diagram*
+
+image:schematic-diagrams/telco5GC-generic-7-sd.png[350, 300]
+
+'''
+
+*Detailed Diagrams* +
+
+image:detail-diagrams/telco5GC-dashboard-1.png[250, 200]
+image:detail-diagrams/telco5GC-database-1.png[250, 200]
+image:detail-diagrams/telco5GC-ecr-1.png[250, 200]
+image:detail-diagrams/telco5GC-eventstream-1.png[250, 200]
+image:detail-diagrams/telco5GC-orchestration-1.png[250, 200]
+image:detail-diagrams/telco5GC-storage-1.png[250, 200]
 --
