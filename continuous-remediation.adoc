@@ -24,9 +24,9 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:logical-diagrams/remediation-logical.png[350, 300]
-image:schematic-diagrams/remediation-dataflow-blueprint.png[350, 300]
-image:schematic-diagrams/remediation-network-blueprint.png[350, 300]
+image:logical-diagrams/remediation-ld.png[350, 300]
+image:schematic-diagrams/remediation-network-sd.png[350, 300]
+image:schematic-diagrams/remediation-dataflow-sd.png[350, 300]
 image:detail-diagrams/remediation-detail-smartmanagement.png[250, 200]
 image:detail-diagrams/remediation-detail-automationorchestration.png[250, 200]
 --
