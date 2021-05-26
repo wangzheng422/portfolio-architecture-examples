@@ -22,12 +22,12 @@ use case along with logical, schematic, and detailed diagrams.
 
 = Telco 5G Core
 
-*Use case 1 (On-Premise Deployment)*: These diagrams is how a network equipment manufactures can create a solution for 5G Core network.
+*Use case 1 (On-Premise Deployment)*: These diagrams is how service providers can create on-premise solution for 5G Core network.
 
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco5GC-Generic-6.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco5GC-Generic-6.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-5G-rev5.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-5G-rev5.drawio?inline=false[[Download Diagram]]
 --
 
 --
