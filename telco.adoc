@@ -1,10 +1,14 @@
 = Telco
- Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  @ishuverma, William Henry @ipbabble
+ Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  @ishuverma, William Henry @ipbabble,
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
 
+This document is a collection of various architectures in the telco domain. Some of the telco use cases cover broadband technology evolution like 5G while others cover infrastructure modernization like Radio Access Network. Each case is detailed below with a definition of the
+use case along with logical, schematic, and detailed diagrams.
+
+= Telco 5G Core
 
 5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge:
 
@@ -16,14 +20,10 @@ less than 1 lost packet in 105 packets.
 - Massive machine type communications (mMTC)
 * 5G supports cost-efficient and robust connection for up to 1 million mMTC, NB-IOT, and LTE-M devices per square kilometer without network overloading.
 
-This document is a collection of various architectures in the telco domain. Each case is detailed below with a definition of the
-use case along with logical, schematic, and detailed diagrams.
-
-
-= Telco 5G Core
 
 *Use case 1 (On-Premise Deployment)*: These diagrams is how service providers can create on-premise solution for 5G Core network.
 
+=== Diagrams
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-5G-rev5.drawio[[Load Diagram]]
@@ -31,8 +31,15 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:logical-diagrams/telco-5gc-ld.png[250, 200]
+
+*Logical Diagram* +
+image:logical-diagrams/telco-5gc-ld.png[350, 300]
+
+
+*Schematic Diagram* +
 image:schematic-diagrams/telco-5gc-sd.png[350, 300]
+
+'''
 --
 
 *Use case 2 (Public Cloud)*: These diagrams is how public cloud services can be create a solution for 5G Core network.
@@ -42,15 +49,19 @@ https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco5GC-generic-7.drawio?inline=false[[Download Diagram]]
 --
 
+=== Resources:
+5G Core Project repo: https://github.com/fenar/cnvopen5gcore
+
+=== Diagrams
+
 --
+'''
 *Logical Diagram* +
-image:logical-diagrams/telco5GC-generic-7-ld.png[250, 200]
+image:logical-diagrams/telco5GC-generic-7-ld.png[350, 300]
 
-'''
-*Schematic Diargram* +
+
+*Schematic Diagram* +
 image:schematic-diagrams/telco5GC-generic-7-sd.png[350, 300]
-
-'''
 
 *Detail Diagrams* +
 image:detail-diagrams/telco5GC-dashboard-1.png[250, 200]
@@ -60,3 +71,28 @@ image:detail-diagrams/telco5GC-eventstream-1.png[250, 200]
 image:detail-diagrams/telco5GC-orchestration-1.png[250, 200]
 image:detail-diagrams/telco5GC-storage-1.png[250, 200]
 --
+
+= Radio Access Networks
+
+*Use case 3*: These diagrams is how to create Open Radio Access Networks.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-ran-pb-v12.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb-v12.drawio?inline=false[[Download Diagram]]
+--
+
+=== Diagrams
+
+--
+'''
+*Logical Diagram* +
+image:logical-diagrams/telco-RAN-ld.png[350, 300]
+
+
+*Schematic Diagram* +
+image:schematic-diagrams/telco-d-ran-sd.png[350, 300]
+image:schematic-diagrams/telco-ran-mgmt-sd.png[350, 300]
+
+*Detail Diagrams* +
+image:detail-diagrams/telco-ran-cu-cp.png[250, 200]
+image:detail-diagrams/telco-ran-cu-up.png[250, 200]
