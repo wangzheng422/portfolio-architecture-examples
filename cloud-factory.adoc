@@ -22,7 +22,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 --
 image:logical-diagrams/cloud-factory-ld.png[350, 300]
-image:schematic-diagrams/cloud-factory-details-sd.png[350, 300]
+image:schematic-diagrams/cloud-factory-data-sd.png[350, 300]
 image:schematic-diagrams/cloud-factory-sd.png[350, 300]
 image:detail-diagrams/cloud-factory-automation-orchestration.png[250, 200]
 image:detail-diagrams/cloud-factory-monitoring-logging.png[250, 200]
