@@ -5,8 +5,9 @@
 :icons: font
 :source-highlighter: prettify
 
-This document is a collection of various architectures in the telco domain. Some of the telco use cases cover broadband technology evolution like 5G while others cover infrastructure modernization like Radio Access Network. Each case is detailed below with a definition of the
-use case along with logical, schematic, and detailed diagrams.
+This document is a collection of various architectures in the telco domain. Some of the telco use cases cover broadband technology
+evolution like 5G while others cover infrastructure modernization like Radio Access Network. Each case is detailed below with a
+definition of the use case along with logical, schematic, and detailed diagrams.
 
 = Telco 5G Core
 

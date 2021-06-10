@@ -6,7 +6,7 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :source-highlighter: prettify
 
 
-This blueprint covers the architecture for remote server management. As more and more enterprises are deployed across different data
+This architecture covers remote server management. As more and more enterprises are deployed across different data
 centers and public and/or private clouds, it is important to provide consistency and security in an automated way across all of the
 the servers in order to reduce risk and costs. 
 
