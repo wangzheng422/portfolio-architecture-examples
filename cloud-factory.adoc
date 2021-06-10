@@ -6,7 +6,7 @@ Eric Lavarde @L1
 :source-highlighter: prettify
 
 
-This blueprint covers the architecture for deploying in an automated manner multiple instance of an OpenStack and Ceph based cloud,
+This architecture covers deploying in an automated manner multiple instance of an OpenStack and Ceph based cloud,
 following the principles of Infrastructure as Code.
 
 Use case: Deploy multiple private clouds based on the same (infrastructure as) code using different parametrization (Ansible inventories).

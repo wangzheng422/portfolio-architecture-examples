@@ -6,7 +6,7 @@ William Henry @ipbabble
 :source-highlighter: prettify
 
 
-This blueprint covers the architecture for Continuous Remediation of Red Hat server hosts or hybrid cloud hosts. Modern application
+This architecture covers Continuous Remediation of Red Hat server hosts or hybrid cloud hosts. Modern application
 infrastructure has, in many ways, gotten more complex as it has gotten more powerful and easy to consume. Keeping that
 infrastructure safe and compliant is a challenge for many organizations. One of the most powerful tools in infrastructure management
 today is the combination of using insights based on historical data, and automation tools for applying remediation across hundreds

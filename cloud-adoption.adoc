@@ -6,7 +6,7 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :source-highlighter: prettify
 
 
-This blueprint covers the architecture for cloud adoption. As enterprises adopt to public and/or private clouds, it is important to
+This architecture covers cloud adoption. As enterprises adopt to public and/or private clouds, it is important to
 provide automation to manage and scale server deployments and to provide the capability to transition servers between data centers
 and cloud providers. This provides flexibility and portability.
 
