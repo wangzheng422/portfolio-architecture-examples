@@ -78,8 +78,8 @@ image:detail-diagrams/telco5GC-storage-1.png[250, 200]
 *Use case 3*: These diagrams is how to create Open Radio Access Networks.
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-ran-pb-v12.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb-v12.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-ran-pb-v13.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb-v13.drawio?inline=false[[Download Diagram]]
 --
 
 === Diagrams
@@ -87,11 +87,11 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 '''
 *Logical Diagram* +
-image:logical-diagrams/telco-RAN-ld.png[350, 300]
+image:logical-diagrams/telco-ran-1-ld.png[350, 300]
 
 
 *Schematic Diagram* +
-image:schematic-diagrams/telco-d-ran-sd.png[350, 300]
+image:schematic-diagrams/telco-d-ran-1-sd.png[350, 300]
 image:schematic-diagrams/telco-ran-mgmt-sd.png[350, 300]
 
 *Detail Diagrams* +
