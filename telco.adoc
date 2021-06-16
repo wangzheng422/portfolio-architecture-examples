@@ -22,9 +22,9 @@ less than 1 lost packet in 105 packets.
 * 5G supports cost-efficient and robust connection for up to 1 million mMTC, NB-IOT, and LTE-M devices per square kilometer without network overloading.
 
 
-*Use case 1 (On-Premise Deployment)*: These diagrams is how service providers can create on-premise solution for 5G Core network.
+=== Use case 1 (On-Premise Deployment): These diagrams is how service providers can create on-premise solution for 5G Core network.
 
-=== Diagrams
+==== Diagrams
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-5G-rev5.drawio[[Load Diagram]]
@@ -43,17 +43,17 @@ image:schematic-diagrams/telco-5gc-sd.png[350, 300]
 '''
 --
 
-*Use case 2 (Public Cloud)*: These diagrams is how public cloud services can be create a solution for 5G Core network.
+=== Use case 2 (Public Cloud): These diagrams is how telco service providers can partner with hyperscalers to create a solution for 5G Core network.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco5GC-generic-7.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco5GC-generic-7.drawio?inline=false[[Download Diagram]]
 --
 
-=== Resources:
+==== Resources:
 5G Core Project repo: https://github.com/fenar/cnvopen5gcore
 
-=== Diagrams
+==== Diagrams
 
 --
 '''
@@ -73,16 +73,16 @@ image:detail-diagrams/telco5GC-orchestration-1.png[250, 200]
 image:detail-diagrams/telco5GC-storage-1.png[250, 200]
 --
 
-= Radio Access Networks
+== Radio Access Networks
 
-*Use case 3*: These diagrams is how to create Open Radio Access Networks.
+=== Use case 3: These diagrams is how to create Open Radio Access Networks.
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-ran-pb-v14.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb-v14.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-ran-pb-v15.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb-v15.drawio?inline=false[[Download Diagram]]
 --
 
-=== Diagrams
+==== Diagrams
 
 --
 '''
@@ -92,7 +92,7 @@ image:logical-diagrams/telco-ran-1-ld.png[350, 300]
 
 *Schematic Diagram* +
 image:schematic-diagrams/telco-d-ran-1-sd.png[350, 300]
-image:schematic-diagrams/telco-d-ran-2-sd.png[350, 300]
+image:schematic-diagrams/telco-d-ran-3-sd.png[350, 300]
 
 *Detail Diagrams* +
 image:detail-diagrams/telco-ran-cu-cp.png[250, 200]
