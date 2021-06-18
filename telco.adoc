@@ -91,10 +91,11 @@ image:logical-diagrams/telco-ran-1-ld.png[350, 300]
 
 
 *Schematic Diagram* +
-image:schematic-diagrams/telco-d-ran-1-sd.png[350, 300]
-image:schematic-diagrams/telco-d-ran-4-sd.png[350, 300]
+image:schematic-diagrams/telco-d-ran-mgmt-1-sd.png[350, 300]
+image:schematic-diagrams/telco-d-ran-5-sd.png[350, 300]
 
 *Detail Diagrams* +
-image:detail-diagrams/telco-ran-cu-cp.png[250, 200]
-image:detail-diagrams/telco-ran-cu-up.png[250, 200]
-image:detail-diagrams/telco-ran-du.png[250, 200]
+image:detail-diagrams/telco-ran-cu-cp-1.png[250, 200]
+image:detail-diagrams/telco-ran-cu-up-1.png[250, 200]
+image:detail-diagrams/telco-ran-du-1.png[250, 200]
+image:detail-diagrams/telco-ran-ru.png[250, 200]
