@@ -27,20 +27,31 @@ less than 1 lost packet in 105 packets.
 ==== Diagrams
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-5G-rev5.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-5G-rev5.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-5G-rev6.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-5G-rev6.drawio?inline=false[[Download Diagram]]
 --
 
 --
-
+'''
 *Logical Diagram* +
-image:logical-diagrams/telco-5gc-ld.png[350, 300]
+image:logical-diagrams/telco-5g-ld.png[350, 300]
 
 
 *Schematic Diagram* +
-image:schematic-diagrams/telco-5gc-sd.png[350, 300]
+image:schematic-diagrams/telco-5g-sd.png[350, 300]
+image:schematic-diagrams/telco-5g-network-sd.png[350, 300]
 
-'''
+*Detail Diagrams* +
+image:detail-diagrams/telco-5g-dashboards.png[250, 200]
+image:detail-diagrams/telco-5g-database.png[250, 200]
+image:detail-diagrams/telco-5g-eventstream.png[250, 200]
+image:detail-diagrams/telco-5g-orchestration.png[250, 200]
+image:detail-diagrams/telco-5g-registry.png[250, 200]
+image:detail-diagrams/telco-5g-storage.png[250, 200]
+image:detail-diagrams/telco-5g-sba.png[250, 200]
+image:detail-diagrams/telco-5g-up.png[250, 200]
+
+
 --
 
 === Use case 2 (Public Cloud): These diagrams is how telco service providers can partner with hyperscalers to create a solution for 5G Core network.
