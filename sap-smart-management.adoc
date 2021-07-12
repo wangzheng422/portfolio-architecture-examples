@@ -21,5 +21,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 --
 image:logical-diagrams/sap-smart-management.png[350, 300]
-
+image:schematic-diagrams/sap-smart-management.png[350, 300]
+image:detail-diagrams/rsm-smart-management.png[250, 200]
+image:detail-diagrams/rsm-automation.png[250, 200]
 --
