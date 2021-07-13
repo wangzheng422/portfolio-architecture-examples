@@ -41,7 +41,7 @@ Images that can be used for slides (click to enlarge an image):
 * link:remote-management.adoc[Remote server management]
 * link:cloud-factory.adoc[Cloud factory]
 * link:batch-modernisation.adoc[Batch modernisation]
-* link:sap-smart-management.adoc[Batch modernisation]
+* link:sap-smart-management.adoc[SAP smart management]
 
 === Vertical
 * link:edge-ai-ml.adoc[Manufacturing]
