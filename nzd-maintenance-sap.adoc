@@ -6,9 +6,10 @@ Ricardo Garcia Cavero @ipbabble
 :source-highlighter: prettify
 
 
-This architecture covers Smart Management for RHEL servers hosting SAP workloads. SAP landscapes are usually very complex with a high number of servers and lots of dependencies. Besides, SAP workloads are really performance demanding and new recommendations need to be applied whenever a new release of the OS or the workload is certified. Maintaining all the servers in these landscapes aligned and up to date with the latest recommendations can be really challenging. On the other hand, being such critical systems the need to prevent potential issues is of the utmost importance. The combination of Red Hat Insights with all its SAP specific rules to detect potential problems, Red Hat Automation Platform to remediate them before they occur and Red Hat Satellite to manage the servers' lifecycle is a very powerful and robust tool to make sure that the SAP workloads will be healthy and operate smooth and performantly.
+This architecture covers Near Zero Downtime maintenance for RHEL servers hosting SAP workloads. SAP workloads are critical in the company and the maintenance windows are very strict, sometimes making it difficult for the system administrators to finish the update tasks properly in time. This solution allows for application of OS patches, fixes, updates, DB patches and new versions and SAP kernel updates while users can continue to work inside SAP, not perceiving any disruption
 
-Use case: Managing security, policy and patches for all the servers in the SAP ecosystem (on-premise, public, private and hybrid cloud), making sure they are compliant with SAP and Red Hat's recommendations through their entire lifecycle.
+Use case: Patching SAP hosts at OS, DB and SAP kernel level with no service interruption for the users
+
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
