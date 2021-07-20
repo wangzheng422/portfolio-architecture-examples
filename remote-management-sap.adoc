@@ -21,9 +21,9 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:logical-diagrams/nzd-maintenance-sap.png[350, 300]
-image:schematic-diagrams/nzd-maintenance-sap-network-sd.png[350, 300]
-image:schematic-diagrams/nzd-maintenance-sap-data-sd.png[350, 300]
+image:logical-diagrams/remote-management-sap.png[350, 300]
+image:schematic-diagrams/remote-management-sap-network-sd.png[350, 300]
+image:schematic-diagrams/remote-management-sap-data-sd.png[350, 300]
 image:detail-diagrams/satellite.png[250, 200]
 image:detail-diagrams/ansible-automation-platform.png[250, 200]
 --
