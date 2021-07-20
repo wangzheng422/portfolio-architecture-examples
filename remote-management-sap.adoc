@@ -16,7 +16,7 @@ the 'Download Diagram' link. The images below can be used to browse the availabl
 
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/smart-management-sap.drawio[[Load Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remote-management-sap.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/smart-management-sap?inline=false[[Download Diagram]]
 --
 
