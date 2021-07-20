@@ -6,3 +6,4 @@
 # ignore generated files
 *.pdf
 *.html
+*.code-workspace
