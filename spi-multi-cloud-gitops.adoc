@@ -29,6 +29,7 @@ image:schematic-diagrams/spi-multi-cloud-gitops-sd-network.png[350, 300]
 image:detail-diagrams/spi-multi-cloud-gitops-automation.png[250, 200]
 image:detail-diagrams/spi-multi-cloud-gitops-cd.png[250, 200]
 image:detail-diagrams/spi-multi-cloud-gitops-sm.png[250, 200]
+image:detail-diagrams/spi-multi-cloud-gitops-sm-external.png[250, 200]
 image:detail-diagrams/spi-multi-cloud-gitops-mcm.png[250, 200]
 --
 
