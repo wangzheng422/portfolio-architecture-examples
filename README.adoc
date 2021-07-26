@@ -43,7 +43,7 @@ Images that can be used for slides (click to enlarge an image):
 * link:batch-modernisation.adoc[Batch modernisation]
 * link:sap-smart-management.adoc[Smart management for SAP]
 * link:remote-management-sap.adoc[Remote server management for SAP]
-
+* link:spi-multi-cloud-gitops.adoc[Hybrid Multi-cloud management with GitOps]
 === Vertical
 * link:edge-ai-ml.adoc[Manufacturing]
 * link:financial-services.adoc[Financial services]
