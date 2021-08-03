@@ -1,0 +1,23 @@
+= From Data Center to Edge
+ Ishu Verma  @ishuverma, Luca Gabella, Luca Bigotta, Francesco Rossi
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+
+[TODO: Add description]
+
+Use case: Bringing computing closer to the edge by monitoring for potential issues with gas pipeline
+(edge).
+
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Snam-v2.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/Snam-v2.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image::logical-diagrams/snam-ld.png[350,300]
+
+--

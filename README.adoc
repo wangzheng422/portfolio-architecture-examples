@@ -47,6 +47,7 @@ Images that can be used for slides (click to enlarge an image):
 
 === Vertical
 * link:edge-ai-ml.adoc[Manufacturing]
+* link:edge-utility.adoc[Energy]
 * link:financial-services.adoc[Financial services]
 * link:retail.adoc[Retail]
 * link:telco.adoc[Telco]
