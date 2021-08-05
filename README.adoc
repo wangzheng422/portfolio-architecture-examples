@@ -30,7 +30,7 @@ Or you can click on the "Load Diagram" link and load the drawing directly into t
 
 Images that can be used for slides (click to enlarge an image):
 
-== Blueprint Index
+== Portfolio Architecture Project Index
 
 === General
 * link:cnd.adoc[Cloud native development]
