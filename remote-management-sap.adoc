@@ -1,0 +1,29 @@
+= Remote Server Management for SAP
+Ricardo Garcia Cavero @ipbabble
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+
+This architecture covers Remote Server Management for RHEL servers hosting SAP workloads. SAP workloads are critical in the company and the maintenance windows are very strict, sometimes making it difficult for the system administrators to finish the update tasks properly in time. This solution allows for application of OS patches, fixes, updates, DB patches and new versions and SAP kernel updates while users can continue to work inside SAP, not perceiving any disruption
+
+Use case: Providing remote management for a consist SAP estate across hybrid cloud and data centers with remote management, security, and data protection for full lifecycle
+
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remote-management-sap.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/smart-management-sap?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/remote-management-sap.png[350, 300]
+image:schematic-diagrams/remote-management-sap-network-sd.png[350, 300]
+image:schematic-diagrams/remote-management-sap-data-sd.png[350, 300]
+image:detail-diagrams/satellite.png[250, 200]
+image:detail-diagrams/ansible-automation-platform.png[250, 200]
+--

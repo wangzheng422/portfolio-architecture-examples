@@ -30,22 +30,25 @@ Or you can click on the "Load Diagram" link and load the drawing directly into t
 
 Images that can be used for slides (click to enlarge an image):
 
-== Blueprint Index
+== Portfolio Architecture Project Index
 
 === General
 * link:cnd.adoc[Cloud native development]
 * link:omnichannel.adoc[Omnichannel customer experience]
 * link:integrated-saas.adoc[Integrating with SaaS applications]
-* link:continuous-remediation.adoc[Continuous Remediation]
+* link:continuous-remediation.adoc[Continuous remediation]
 * link:cloud-adoption.adoc[Cloud adoption]
 * link:remote-management.adoc[Remote server management]
 * link:cloud-factory.adoc[Cloud factory]
 * link:batch-modernisation.adoc[Batch modernisation]
-* link:sap-smart-management.adoc[SAP smart management]
+* link:sap-smart-management.adoc[Smart management for SAP]
+* link:remote-management-sap.adoc[Remote server management for SAP]
+* link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
 
 === Vertical
 * link:edge-ai-ml.adoc[Manufacturing]
-* link:financial-services.adoc[Financial Services]
+* link:edge-utility.adoc[Energy]
+* link:financial-services.adoc[Financial services]
 * link:retail.adoc[Retail]
 * link:telco.adoc[Telco]
 

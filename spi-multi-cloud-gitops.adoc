@@ -1,0 +1,35 @@
+= Hybrid Multicloud management with GitOps
+Christia Lin @christina_wm
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+This architecture covers hybrid and Multicloud management with GitOps. The customer was looking for a stabilize and simplify container platform that was secure and supports a hybrid environment and being able to run on multiple cloud solution for its developers and engineers. With automated infrastructure as code approach that manages the versioning and being able to deploy according to the configuration.
+
+Use case: Manage hybrid and multicloud cluster lifecycle, secure configuration and credentials. GitOps for Infrastructure as code approach. Cross cluster governance and application lifecycle management.
+
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/spi-multi-cloud-gitops.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/spi-multi-cloud-gitops.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:logical-diagrams/spi-multi-cloud-gitops-ld-simple.png[350, 300]
+image:logical-diagrams/spi-multi-cloud-gitops-ld-public.png[350, 300]
+image:schematic-diagrams/spi-multi-cloud-gitops-sd-install.png[350, 300]
+image:schematic-diagrams/spi-multi-cloud-gitops-sd-security.png[350, 300]
+image:schematic-diagrams/spi-multi-cloud-gitops-sd-gitops.png[350, 300]
+image:schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[350, 300]
+image:detail-diagrams/spi-multi-cloud-gitops-automation.png[250, 200]
+image:detail-diagrams/spi-multi-cloud-gitops-cd.png[250, 200]
+image:detail-diagrams/spi-multi-cloud-gitops-mcm.png[250, 200]
+image:detail-diagrams/spi-multi-cloud-gitops-sm.png[250, 200]
+image:detail-diagrams/spi-multi-cloud-gitops-sm-external.png[250, 200]
+--
+

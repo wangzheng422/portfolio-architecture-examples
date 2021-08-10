@@ -25,4 +25,8 @@ image:schematic-diagrams/sap-smart-management-network-sd.png[350, 300]
 image:schematic-diagrams/sap-smart-management-data-sd.png[350, 300]
 image:detail-diagrams/rsm-smart-management.png[250, 200]
 image:detail-diagrams/rsm-automation.png[250, 200]
+image:detail-diagrams/sap-hana-db.png[250, 200]
+image:detail-diagrams/sap-anydb.png[250, 200]
+image:detail-diagrams/sap-s4hana.png[250, 200]
+image:detail-diagrams/sap-netweaver.png[250, 200]
 --
