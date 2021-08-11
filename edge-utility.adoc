@@ -13,11 +13,11 @@ Use case: Bringing computing closer to the edge by monitoring for potential issu
 
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Snam-v2.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/Snam-v2.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Snam-v3.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/Snam-v3.drawio?inline=false[[Download Diagram]]
 --
 
 --
-image::logical-diagrams/snam-ld.png[350,300]
+image::logical-diagrams/snam-5-ld.png[350,300]
 
 --
