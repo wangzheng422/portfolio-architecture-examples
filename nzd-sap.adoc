@@ -28,7 +28,6 @@ image:detail-diagrams/satellite.png[250, 200]
 image:detail-diagrams/ansible-automation-platform.png[250, 200]
 image:detail-diagrams/ha-add-on.png[250, 200]
 image:detail-diagrams/sap-hana-detail.png[250, 200]
-image:detail-diagrams/sap-anydb-detail.png[250, 200]
 image:detail-diagrams/sap-s4hana-detail.png[250, 200]
 image:detail-diagrams/sap-netweaver-detail.png[250, 200]
 --
