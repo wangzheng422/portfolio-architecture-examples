@@ -42,7 +42,7 @@ Images that can be used for slides (click to enlarge an image):
 * link:cloud-factory.adoc[Cloud factory]
 * link:batch-modernisation.adoc[Batch modernisation]
 * link:sap-smart-management.adoc[Smart management for SAP]
-* link:remote-management-sap.adoc[Remote server management for SAP]
+* link:nzd-sap.adoc[Near Zero Downtime Maintenance for SAP]
 * link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
 
 === Vertical
