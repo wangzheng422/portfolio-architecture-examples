@@ -30,7 +30,8 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 image:logical-diagrams/edge-medical-diagnosis-ld.png[350, 300]
 image:logical-diagrams/edge-medical-diagnosis-details-ld.png[350, 300]
-image:schematic-diagrams/retail-supply-chain-sd.png[350, 300]
-image:detail-diagrams/retail-supply-chain-ai-ml.png[250, 200]
+image:schematic-diagrams/edge-medical-diagnosis-xray-sd.png[350, 300]
+image:detail-diagrams/edge-medical-diagnosis-shared-storage.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-database.png[250, 200]
 --
 
