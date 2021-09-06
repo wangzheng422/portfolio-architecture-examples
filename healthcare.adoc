@@ -28,14 +28,8 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:logical-diagrams/retail-supply-chain-ld.png[350, 300]
+image:logical-diagrams/edge-medical-diagnosis-ld.png[350, 300]
 image:schematic-diagrams/retail-supply-chain-sd.png[350, 300]
 image:detail-diagrams/retail-supply-chain-ai-ml.png[250, 200]
---
-
-
-image:detail-diagrams/retail-pos-image-data-store.png[250, 200]
-image:detail-diagrams/retail-pos-sales-data-integration-aggregation.png[250, 200]
-image:detail-diagrams/retail-pos-sku-catalog.png[250, 200]
 --
 
