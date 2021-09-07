@@ -34,7 +34,7 @@ image:logical-diagrams/edge-medical-diagnosis-details-ld.png[350, 300]
 
 --
 image:schematic-diagrams/edge-medical-diagnosis-xray-sd.png[350, 300]
-image:schematic-diagrams/edge-medical-diagnosis-xray-mirrored-streamoing-sd.png[350, 300]
+image:schematic-diagrams/edge-medical-diagnosis-xray-mirrored-streaming-sd.png[350, 300]
 image:schematic-diagrams/edge-medical-diagnosis-gitops-sd.png[350, 300]
 
 --
