@@ -34,10 +34,25 @@ image:logical-diagrams/edge-medical-diagnosis-details-ld.png[350, 300]
 
 --
 image:schematic-diagrams/edge-medical-diagnosis-xray-sd.png[350, 300]
+image:schematic-diagrams/edge-medical-diagnosis-xray-mirrored-streamoing-sd.png[350, 300]
+image:schematic-diagrams/edge-medical-diagnosis-gitops-sd.png[350, 300]
+
 --
 
 --
-image:detail-diagrams/edge-medical-diagnosis-shared-storage.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-xray-server.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-notification.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-ml-cicd.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-detection.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-streaming-datacenter.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-streaming-facility.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-registry-cloud.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-registry-datacenter.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-registry-edge.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-scm-datacenter.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-scm.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-gitops-controller.png[250, 200]
+image:detail-diagrams/edge-medical-diagnosis-gitops.png[250, 200]
 image:detail-diagrams/edge-medical-diagnosis-database.png[250, 200]
 --
 
