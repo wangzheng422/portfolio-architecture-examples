@@ -17,7 +17,7 @@ Open the diagrams below directly in the diagram tooling using 'Load Diagram' lin
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
 
-== Edge medial diagnosis
+== Edge medical diagnosis
 
 Use case: Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
 
