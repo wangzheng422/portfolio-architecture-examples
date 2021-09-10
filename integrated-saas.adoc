@@ -20,12 +20,19 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+image:intro-marketectures/saas-integration-marketing-slide.png[750,700]
+--
+
+--
 image:logical-diagrams/integrating-with-saas-applications-ld.png[350,300]
 image:logical-diagrams/integrating-with-saas-applications-details-ld.png[350,300]
 image:schematic-diagrams/saas-external-crm-integration-sd.png[350,300]
 image:schematic-diagrams/saas-external-crm-connector-sd.png[350,300]
 image:schematic-diagrams/saas-integration-3rd-party-platform-sd.png[350,300]
 image:schematic-diagrams/saas-integration-3rd-party-process-sd.png[350,300]
+--
+
+--
 image:detail-diagrams/external-saas-crm.png[250,200]
 image:detail-diagrams/crm-connector.png[250,200]
 image:detail-diagrams/web-app.png[250,200]

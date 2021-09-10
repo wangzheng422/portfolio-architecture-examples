@@ -31,6 +31,10 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+image:intro-marketectures/cnd-marketing-slide.png[750,700]
+--
+
+--
 image:logical-diagrams/cloud-native-development-ld.png[350, 300]
 image:logical-diagrams/cloud-native-development-details-ld.png[350,300]
 image:schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[350, 300]
@@ -41,6 +45,9 @@ image:schematic-diagrams/cloud-native-development-deployment-sd.png[350, 300]
 image:schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[350, 300]
 image:schematic-diagrams/cloud-native-development-deployment-with-python.png[350, 300]
 image:schematic-diagrams/cloud-native-development-deployment-with-thoth.png[350, 300]
+--
+
+--
 image:detail-diagrams/developer-ide.png[250, 200]
 image:detail-diagrams/maven-repo.png[250, 200]
 image:detail-diagrams/scm-system.png[250, 200]

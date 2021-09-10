@@ -32,6 +32,10 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+image:intro-marketectures/telco-5g-on-premise-marketing-slide.png[750,700]
+--
+
+--
 '''
 *Logical Diagram* +
 image:logical-diagrams/telco-5g-ld.png[350, 300]
@@ -50,8 +54,6 @@ image:detail-diagrams/telco-5g-registry.png[250, 200]
 image:detail-diagrams/telco-5g-storage.png[250, 200]
 image:detail-diagrams/telco-5g-sba.png[250, 200]
 image:detail-diagrams/telco-5g-up.png[250, 200]
-
-
 --
 
 === Use case 2 (Public Cloud): These diagrams is how telco service providers can partner with hyperscalers to create a solution for 5G Core network.
@@ -59,6 +61,10 @@ image:detail-diagrams/telco-5g-up.png[250, 200]
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco5GC-generic-7.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco5GC-generic-7.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:intro-marketectures/telco-5g-core-hyperscalers-marketing-slide.png[750,700]
 --
 
 ==== Resources:
@@ -93,6 +99,10 @@ https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb-v20.drawio?inline=false[[Download Diagram]]
 --
 
+--
+image:intro-marketectures/telco-ran-marketing-slide.png[750,700]
+--
+
 ==== Diagrams
 
 --
@@ -110,3 +120,5 @@ image:detail-diagrams/telco-ran-cu-cp-1.png[250, 200]
 image:detail-diagrams/telco-ran-cu-up-1.png[250, 200]
 image:detail-diagrams/telco-ran-du-1.png[250, 200]
 image:detail-diagrams/telco-ran-ru.png[250, 200]
+--
+

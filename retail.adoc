@@ -126,7 +126,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:intro-marketectures/business-optimisation-marketing-slide.png[750,800]
+image:intro-marketectures/business-optimisation-marketing-slide.png[750,700]
 --
 
 --
@@ -158,7 +158,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:intro-marketectures/store-health-safety-marketing-slide.png[850,800]
+image:intro-marketectures/store-health-safety-marketing-slide.png[750,700]
 --
 
 --
@@ -190,7 +190,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:intro-marketectures/real-time-stock-control-marketing-slide.png[850,800]
+image:intro-marketectures/real-time-stock-control-marketing-slide.png[750,700]
 --
 
 --
@@ -222,7 +222,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:intro-marketectures/retail-data-framework-marketing-slide.png[850,800]
+image:intro-marketectures/retail-data-framework-marketing-slide.png[750,700]
 --
 
 --

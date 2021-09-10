@@ -21,11 +21,17 @@ the 'Download Diagram' link. The images below can be used to browse the availabl
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-adoption.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-adoption.drawio?inline=false[[Download Diagram]]
 --
+--
+image:intro-marketectures/cloud-adoption-marketing-slide.png[750,700]
+--
 
 --
 image:logical-diagrams/cloud-adoption-ld.png[350, 300]
 image:schematic-diagrams/cloud-adoption-network-sd.png[350, 300]
 image:schematic-diagrams/cloud-adoption-data-sd.png[350, 300]
+--
+
+--
 image:detail-diagrams/cloud-adoption-smart-management.png[250, 200]
 image:detail-diagrams/cloud-adoption-automation.png[250, 200]
 image:detail-diagrams/cloud-adoption-scm.png[250, 200]

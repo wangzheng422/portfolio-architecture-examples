@@ -21,9 +21,16 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+image:intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing-slide.png[750,700]
+--
+
+--
 image:logical-diagrams/nzd-sap.png[350, 300]
 image:schematic-diagrams/nzd-sap-network-sd.png[350, 300]
 image:schematic-diagrams/nzd-sap-data-sd.png[350, 300]
+--
+
+--
 image:detail-diagrams/satellite.png[250, 200]
 image:detail-diagrams/ansible-automation-platform.png[250, 200]
 image:detail-diagrams/ha-add-on.png[250, 200]
