@@ -31,6 +31,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+[.thumb]
 image:intro-marketectures/supply-chain-integration-marketing-slide.png[450,400]
 --
 
@@ -65,6 +66,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+[.thumb]
 image:intro-marketectures/pos-marketing-slide.png[450,400]
 --
 
@@ -97,6 +99,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+[.thumb]
 image:intro-marketectures/headless-ecommerce-marketing-slide.png[450,400]
 --
 
