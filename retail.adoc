@@ -31,15 +31,11 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-[.thumb]
-image:intro-marketectures/supply-chain-integration-marketing-slide.png[450,400]
+image:intro-marketectures/supply-chain-integration-marketing-slide.png[850,800]
 --
 
 --
 image:logical-diagrams/retail-supply-chain-ld.png[350, 300]
---
-
---
 image:schematic-diagrams/retail-supply-chain-sd.png[350, 300]
 --
 
@@ -66,15 +62,11 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-[.thumb]
-image:intro-marketectures/pos-marketing-slide.png[450,400]
+image:intro-marketectures/pos-marketing-slide.png[750,700]
 --
 
 --
 image:logical-diagrams/retail-pos-ld.png[350, 300]
---
-
---
 image:schematic-diagrams/retail-pos-sd.png[350, 300]
 --
 
@@ -99,15 +91,11 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-[.thumb]
-image:intro-marketectures/headless-ecommerce-marketing-slide.png[450,400]
+image:intro-marketectures/headless-ecommerce-marketing-slide.png[650,600]
 --
 
 --
 image:logical-diagrams/retail-headless-ecommerce-ld.png[350, 300]
---
-
---
 image:schematic-diagrams/retail-headless-ecommerce-local-sd.png[350, 300]
 image:schematic-diagrams/retail-headless-ecommerce-remote-sd.png[350, 300]
 --
