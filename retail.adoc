@@ -31,8 +31,18 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+image:intro-marketectures/supply-chain-integration-marketing-slide.png[450,400]
+--
+
+--
 image:logical-diagrams/retail-supply-chain-ld.png[350, 300]
+--
+
+--
 image:schematic-diagrams/retail-supply-chain-sd.png[350, 300]
+--
+
+--
 image:detail-diagrams/retail-supply-chain-ai-ml.png[250, 200]
 image:detail-diagrams/retail-supply-chain-api-management.png[250, 200]
 image:detail-diagrams/retail-supply-chain-event-streams.png[250, 200]
@@ -55,8 +65,18 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+image:intro-marketectures/pos-marketing-slide.png[450,400]
+--
+
+--
 image:logical-diagrams/retail-pos-ld.png[350, 300]
+--
+
+--
 image:schematic-diagrams/retail-pos-sd.png[350, 300]
+--
+
+--
 image:detail-diagrams/retail-scm.png[250, 200]
 image:detail-diagrams/retail-pos-ci-cd-platform.png[250, 200]
 image:detail-diagrams/retail-pos-image-registry.png[250, 200]
@@ -77,9 +97,19 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+image:intro-marketectures/headless-ecommerce-marketing-slide.png[450,400]
+--
+
+--
 image:logical-diagrams/retail-headless-ecommerce-ld.png[350, 300]
+--
+
+--
 image:schematic-diagrams/retail-headless-ecommerce-local-sd.png[350, 300]
 image:schematic-diagrams/retail-headless-ecommerce-remote-sd.png[350, 300]
+--
+
+--
 image:detail-diagrams/developer-ide.png[250, 200]
 image:detail-diagrams/scm-system.png[250, 200]
 image:detail-diagrams/maven-repo.png[250, 200]
