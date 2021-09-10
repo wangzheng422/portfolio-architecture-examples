@@ -29,6 +29,10 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+image:intro-marketectures/omnichannel-marketing-slide.png[750,700]
+--
+
+--
 image:logical-diagrams/omnichannel-customer-experience-ld.png[350,300]
 image:logical-diagrams/omnichannel-customer-experience-details-ld.png[350,300]
 image:schematic-diagrams/omnichannel-process-integration-sd.png[350,300]
@@ -37,6 +41,9 @@ image:schematic-diagrams/omnichannel-integration-service-sd.png[350,300]
 image:schematic-diagrams/omnichannel-integration-data-service-sd.png[350,300]
 image:schematic-diagrams/omnichannel-integration-3rd-party-service-sd.png[350,300]
 image:schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.png[350,300]
+--
+
+--
 image:detail-diagrams/mobile-app.png[250,200]
 image:detail-diagrams/web-app2.png[250,200]
 image:detail-diagrams/api-management2.png[250,200]

@@ -23,9 +23,16 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+image:intro-marketectures/rsm-marketing-slide.png[750,700]
+--
+
+--
 image:logical-diagrams/rsm-ld.png[350, 300]
 image:schematic-diagrams/rsm-network-sd.png[350, 300]
 image:schematic-diagrams/rsm-data-sd.png[350, 300]
+--
+
+--
 image:detail-diagrams/rsm-smart-management.png[250, 200]
 image:detail-diagrams/rsm-automation.png[250, 200]
 image:detail-diagrams/rsm-image-store.png[250, 200]
