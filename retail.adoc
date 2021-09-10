@@ -126,7 +126,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:intro-marketectures/business-optimisation-marketing-slide.png[850,800]
+image:intro-marketectures/business-optimisation-marketing-slide.png[750,800]
 --
 
 --
