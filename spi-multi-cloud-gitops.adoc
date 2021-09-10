@@ -20,7 +20,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:intro-marketectures/hybid-multicloud-management-gitops-marketing-slide.png[750,700]
+image:intro-marketectures/hybrid-multicloud-management-gitops-marketing-slide.png[750,700]
 --
 
 --

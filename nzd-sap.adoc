@@ -21,7 +21,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing-slide.png[750,700]
+image:intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing.png[750,700]
 --
 
 --
@@ -38,3 +38,4 @@ image:detail-diagrams/sap-hana-detail.png[250, 200]
 image:detail-diagrams/sap-s4hana-detail.png[250, 200]
 image:detail-diagrams/sap-netweaver-detail.png[250, 200]
 --
+
