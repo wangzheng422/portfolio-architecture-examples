@@ -57,3 +57,17 @@ image:detail-diagrams/edge-medical-diagnosis-gitops.png[250, 200]
 image:detail-diagrams/edge-medical-diagnosis-database.png[250, 200]
 --
 
+
+== Intelligent data as a service (iDaaS)
+
+Use case: Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
+manner while driving data needs for moving towards consumerisation in healthcare.
+
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/intelligent-data-as-a-service-iDaaS.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/?intelligent-data-as-a-service-iDaaS.drawio?inline=false[[Download Diagram]]
+--
+
+
+Images coming soon...
