@@ -66,7 +66,7 @@ manner while driving data needs for moving towards consumerisation in healthcare
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/intelligent-data-as-a-service-iDaaS.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/?intelligent-data-as-a-service-iDaaS.drawio?inline=false[[Download Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/intelligent-data-as-a-service-iDaaS.drawio?inline=false[[Download Diagram]]
 --
 
 
