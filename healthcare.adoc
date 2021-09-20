@@ -28,6 +28,10 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+image:intro-marketectures/edge-medical-diagnosis-marketing-slide.png[750,700]
+--
+
+--
 image:logical-diagrams/edge-medical-diagnosis-ld.png[350, 300]
 image:logical-diagrams/edge-medical-diagnosis-details-ld.png[350, 300]
 --
