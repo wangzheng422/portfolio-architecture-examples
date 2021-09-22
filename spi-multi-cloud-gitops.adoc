@@ -5,6 +5,7 @@ Christia Lin @christina_wm
 :icons: font
 :source-highlighter: prettify
 
+
 This architecture covers hybrid and Multicloud management with GitOps. The customer was looking for a stabilize and simplify container platform that was secure and supports a hybrid environment and being able to run on multiple cloud solution for its developers and engineers. With automated infrastructure as code approach that manages the versioning and being able to deploy according to the configuration.
 
 Use case: Manage hybrid and multicloud cluster lifecycle, secure configuration and credentials. GitOps for Infrastructure as code approach. Cross cluster governance and application lifecycle management.
@@ -23,9 +24,9 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:intro-marketectures/hybrid-multicloud-management-gitops-marketing-slide.png[750,700]
 --
 
---
 
-#### The Technology Stack
+
+== The Technology Stack
 
 In the case study, customers have chosen several the following technologies and the reason why: 
 
@@ -48,15 +49,15 @@ image:logical-diagrams/spi-multi-cloud-gitops-ld-public.png[750, 750]
 * Hashicorp Vault  
 ** Secure centralized store for dynamic infrastructure and application across clusters. For low trust networks between clouds and data centers. 
 
-#### Other reference image
 
 image:logical-diagrams/spi-multi-cloud-gitops-ld-simple.png[350, 300]
 
 
---
 
---
-#### Bootstrapping the management hub. 
+
+
+
+== Bootstrapping the management hub. 
 
 image:schematic-diagrams/spi-multi-cloud-gitops-sd-install.png[750, 750]
 
@@ -68,10 +69,11 @@ image:schematic-diagrams/spi-multi-cloud-gitops-sd-install.png[750, 750]
 3. Install Vault with Ansible playbook. The vault we choose is from our partner Hashicorp, the vault is to manage secrets for all the Openshift clusters.
 
 4. Ansible playbook is used again to configure and trigger the Openshift Gitops operator on the hub cluster. And deploy the Openshift Gitops instance for continuous delivery. 
---
 
---
-image:schematic-diagrams/spi-multi-cloud-gitops-sd-security.png[350, 300]
+
+== Hybrid Multi-Cloud GitOps
+
+image:schematic-diagrams/spi-multi-cloud-gitops-sd-security.png[750, 750]
 
 
 1. Manifest and configuration are set as code template in the form of “Kustomization” yaml. It describes the end desire state of how the managed cluster is going to be like. When done, it is pushed into the source control management repository with version assigned to each update. 
@@ -83,15 +85,29 @@ image:schematic-diagrams/spi-multi-cloud-gitops-sd-security.png[350, 300]
 4. ACM provision/update/delete managed clusters and configuration according to the manifest. In the manifest, you can configure what cloud provider the cluster will be on, the name of the cluster, infra node details and worker node. Governance policy can also be applied as well as provision an agent in the cluster as the bridge between the control center and the managed cluster. 
 
 5. OpenShift GitOps will continuously watch between the code repository and status of the clusters reported back to RHACM. Any configuration drift or in case of any failure, it will automatically try to remediate by applying the manifest (Or showing alerts for manual intervention). 
---
 
---
-image:schematic-diagrams/spi-multi-cloud-gitops-sd-gitops.png[350, 300]
---
---
-image:schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[350, 300]
---
 
+== Dynamic Security Management 
+image:schematic-diagrams/spi-multi-cloud-gitops-sd-gitops.png[750, 750]
+
+1. During setup, the token to securely access HashiCorp Vault is stored in Ansible Vault. It is encrypted to protect sensitive content.
+2. Red Hat Advanced Cluster Management for Kubernetes (RHACM) allows us to have centralized control over the managing clusters. It acquires the token from Ansible Vault during install and distributes it among the clusters.
+3. To allow the cluster access to the external vault, we need to set up the external secret management (with Helm in this study). OpenShift Gitops is used to deploy the external secret object to a managed cluster.
+4. External secret management fetches secrets from HashiCorp Vault using the token we created in step 2 and constantly watches for updates.
+Secrets are created in each namespace, where applications can use.
+
+== Observability in Hybrid Multi-Cloud Environment
+
+image:schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[750, 750]
+1. Queries from the Grafana dashboard in Hub cluster, the central Querier component in Observatorium process the PromQL queries and aggregate the results.
+2. Prometheus scraps metrics in the local cluster, Thano sidecar pushes metrics to Observatorium to persist in storage.
+3. Thanos sidecar acts as a proxy that serves Prometheus’s local data over Thanos’s gRPC API from the Querier.
+
+1. Promtail is used to collect logs and push to Loki API (Observatorium).
+2. In Observatorium, the Loki distributor sends logs in batches to ingester, where they will be persisted. A couple of things to beware of: both ingester and querier require large memory consumption, will need more replicas.
+3. Grafana dashboard in Hub cluster display logs via requesting:
+  1. Real-time display (tail) with WebSocket.
+  2. Time-series-based query with HTTP.
 
 --
 image:detail-diagrams/spi-multi-cloud-gitops-automation.png[250, 200]
