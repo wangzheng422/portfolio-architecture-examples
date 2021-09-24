@@ -74,6 +74,10 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
+image:intro-marketectures/idaas-marketing-slide.png[750,700]
+--
+
+--
 image:logical-diagrams/idaas-ld.png[350, 300]
 --
 
