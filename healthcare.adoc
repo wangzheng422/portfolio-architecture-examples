@@ -17,6 +17,26 @@ Open the diagrams below directly in the diagram tooling using 'Load Diagram' lin
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
 
+== Intelligent data as a service (iDaaS)
+
+Use case: Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
+manner while driving data needs for moving towards consumerisation in healthcare.
+
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/idaas.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/idaas.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:intro-marketectures/idaas-marketing-slide.png[750,700]
+--
+
+--
+image:logical-diagrams/idaas-ld.png[350, 300]
+--
+
+
 == Edge medical diagnosis
 
 Use case: Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
@@ -61,23 +81,4 @@ image:detail-diagrams/edge-medical-diagnosis-gitops.png[250, 200]
 image:detail-diagrams/edge-medical-diagnosis-database.png[250, 200]
 --
 
-
-== Intelligent data as a service (iDaaS)
-
-Use case: Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
-manner while driving data needs for moving towards consumerisation in healthcare.
-
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/idaas.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/idaas.drawio?inline=false[[Download Diagram]]
---
-
---
-image:intro-marketectures/idaas-marketing-slide.png[750,700]
---
-
---
-image:logical-diagrams/idaas-ld.png[350, 300]
---
 
