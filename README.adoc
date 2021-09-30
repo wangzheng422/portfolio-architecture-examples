@@ -37,7 +37,7 @@ Images that can be used for slides (click to enlarge an image):
 * link:cloud-adoption.adoc[Cloud adoption]
 * link:cloud-factory.adoc[Cloud factory]
 * link:cnd.adoc[Cloud native development]
-* link:self-healing.adoc[Continuous remediation]
+* link:self-healing.adoc[Self-Healing Infrastructure]
 * link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
 * link:integrated-saas.adoc[Integrating with SaaS applications]
 * link:nzd-sap.adoc[Near Zero Downtime Maintenance for SAP]
