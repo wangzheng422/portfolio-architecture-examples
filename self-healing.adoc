@@ -23,9 +23,19 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/blob/main
 --
 
 --
+image:intro-marketectures/self-healing-infra-marketing-slide.png[750,700]
+--
+
+--
 image:logical-diagrams/self-healing-ld.png[350, 300]
+--
+
+--
 image:schematic-diagrams/self-healing-sd-net.png[350, 300]
 image:schematic-diagrams/self-healing-sd-data.png[350, 300]
+--
+
+--
 image:detail-diagrams/self-healing-detail-smartmanagement.png[250, 200]
 image:detail-diagrams/self-healing-detail-automationorchestration.png[250, 200]
 --
