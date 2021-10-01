@@ -12,46 +12,60 @@ The architectural diagrams are created using the open source tool draw.io.
 
 The examples include high level overview in *Logical* diagrams, more in-depth view of how the various components and services work together in *Schematic* diagrams and core functions associated with a particular service or component in *Detailed* diagrams.
 
+== How to use
+Select any Portfolio Architecture link in the table below to explore their diagrams.
+
 TIP: Learn how to use the draw.io tool to create portfolio architecture diagrams with https://gitlab.com/redhatdemocentral/portfolio-architecture-workshops[Portfolio Architecture Workshop]
 
 TIP: Learn how to develop your own blueprint project and add to this examples reposiotry with https://redhatdemocentral.gitlab.io/portfolio-architecture-template[Beginners guide to deveoping an architecture blueprint]
 
-== How to use
-The architectural diagrams created using the diagram tool hosted online for free usage https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling[here]
-
-To show varying levels of complexity, the library contains three styles of diagrams: logical, schematic, and detail.
-
-
-You can download the example files and import them into the tool using:
-
-  File -> Import from -> Device
-
-Or you can click on the "Load Diagram" link and load the drawing directly into the tool.
-
-Images that can be used for slides (click to enlarge an image):
-
 == Portfolio Architecture Project Index
 
-=== General
-* link:batch-modernisation.adoc[Batch modernisation]
-* link:cloud-adoption.adoc[Cloud adoption]
-* link:cloud-factory.adoc[Cloud factory]
-* link:cnd.adoc[Cloud native development]
-* link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
-* link:integrated-saas.adoc[Integrating with SaaS applications]
-* link:nzd-sap.adoc[Near Zero Downtime Maintenance for SAP]
-* link:omnichannel.adoc[Omnichannel customer experience]
-* link:remote-management.adoc[Remote server management]
-* link:self-healing.adoc[Self-Healing Infrastructure]
-* link:sap-smart-management.adoc[Smart management for SAP]
+[cols="1,1,1"]
+|===
+|General architectures | Vertical architectures | Product demo architectures
 
-=== Vertical
-* link:edge-utility.adoc[Energy]
-* link:financial-services.adoc[Financial services]
-* link:healthcare.adoc[Healthcare]
-* link:edge-ai-ml.adoc[Manufacturing]
-* link:retail.adoc[Retail]
-* link:telco.adoc[Telco]
+|link:batch-modernisation.adoc[Batch modernisation]
+|link:edge-utility.adoc[Energy]
+|link:demos.adoc[Product demos]
 
-=== Product demo
-* link:demos.adoc[Product demos]
+|link:cloud-adoption.adoc[Cloud adoption]
+|link:financial-services.adoc[Financial services]
+|
+
+|link:cloud-factory.adoc[Cloud factory]
+|link:healthcare.adoc[Healthcare]
+|
+
+|link:cnd.adoc[Cloud native development]
+|link:edge-ai-ml.adoc[Manufacturing]
+|
+
+|link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
+|link:retail.adoc[Retail]
+|
+
+|link:integrated-saas.adoc[Integrating with SaaS applications]
+|link:telco.adoc[Telco]
+|
+
+|link:nzd-sap.adoc[Near Zero Downtime Maintenance for SAP]
+|
+|
+
+|link:omnichannel.adoc[Omnichannel customer experience]
+|
+|
+
+|link:remote-management.adoc[Remote server management]
+|
+|
+
+|link:self-healing.adoc[Self-Healing Infrastructure]
+|
+|
+
+|link:sap-smart-management.adoc[Smart management for SAP]
+|
+|
+|===
