@@ -1,51 +1,66 @@
-= Edge AI/ML Manufacturing
+= Edge AI/ML Solutions
+
+This page contains solutions that follow the pattern of a single datacenter and multiple smaller edge locations that run small application clusters.
+
+Currently there are two use cases:
+
+[start=1]
+. Manufacturing Factory Anomoly Detection
+. Medical Facility Medical Diagnosis
+
+== Edge AI/ML Industrial Edge
+
  Ishu Verma  @ishuverma, William Henry @ipbabble,
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
 
+The manufacturing industry has consistently used technology to fuel innovation, production optimization and operations. Now, with the combination of edge computing and AI/ML, manufacturers can benefit from bringing processing power closer to data that, when put into action faster, can help to proactively discover of potential errors at the assembly line, help improve product quality, and even reduce potential downtime through predictive maintenance and in the unlikely event of a drop in communications with a central/core site, individual manufacturing plants can continue to operate. Red Hat's has successfully implemented AI/ML at the edge in manufacturing using OpenShift, Application Services  including AMQ, Kafka and Camel K, Quay Container Registry and OpenShift Container Storage.
 
-The manufacturing industry has consistently used technology to fuel innovation, production optimization and operations. Now, with
-the combination of edge computing and AI/ML, manufacturers can benefit from bringing processing power closer to data that, when put
-into action faster, can help to proactively discover of potential errors at the assembly line, help improve product quality, and
-even reduce potential downtime through predictive maintenance and in the unlikely event of a drop in communications with a
-central/core site, individual manufacturing plants can continue to operate. Red Hat's has successfully implemented AI/ML at the edge
-in manufacturing using OpenShift Container Platform, Application Services  including AMQ, Kafka and Camel K, Quay Container Registry
-and OpenShift Container Storage. 
+Industrial Edge 2.0 is a Red Hat validated pattern. More details can be found http://hybrid-cloud-patterns.io/industrial-edge[here]
 
-Use case: Bringing manufacturers processing power closer to data, helping proactively discover potental errors at the assembly line
-(edge), improve prduct quality, and reduce potential downtime in production line.
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/industrial-edge-v2.drawio[Load Diagram]
 
+
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/industrial-edge-v2.drawio?inline=false[Download Diagram]
+
+== Logical diagrams
+
+image::logical-diagrams/industrial-edge-ld.png[1500,1000]
+
+'''
+
+== Schematic diagrams
+
+image::schematic-diagrams/industrial-edge-devops.png[1500, 1000]
+'''
+image::schematic-diagrams/industrial-edge-gitops.png[1500, 1000]
+
+
+== Detailed diagrams
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/Mfg-AI-ML-0928.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/Mfg-AI-ML-0928.drawio?inline=false[[Download Diagram]]
---
-
---
-image::logical-diagrams/Mfg-Logical_500.png[350,300]
-image::schematic-diagrams/Edge_AI_ML_flow.png[350, 300]
-image::schematic-diagrams/GitOps.png[350, 300]
-image:detail-diagrams/Mfg-AI-ML/AMQ-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Anomaly-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Anomaly-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/CI_CD-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Dashbrd-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Dashbrd-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Dist-Strm-CDC.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Dist-Strm-Detl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Edge AI ML flow.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/GitOps-agent-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/GitOps-contrlr-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Gitrepo-CDC-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Gitrepo-Fact-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/ImageRegistry-CDC-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/ImageRegistry-Cloud-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/ImageRegistry-Fact-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Line-server-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Mqtt-intg-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Msg-consm-Dtl.png[250, 200]
-image:detail-diagrams/Mfg-AI-ML/Strm-proc-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/AMQ-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Anomaly-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Anomaly-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/CI_CD-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Dashbrd-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Dashbrd-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Dist-Strm-CDC.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Dist-Strm-Detl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Edge AI ML flow.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/GitOps-agent-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/GitOps-contrlr-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/ACM.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Gitrepo-CDC-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Gitrepo-Fact-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/ImageRegistry-CDC-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/ImageRegistry-Cloud-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/ImageRegistry-Fact-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Line-server-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Mqtt-intg-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Msg-consm-Dtl.png[450, 300]
+image:detail-diagrams/Mfg-AI-ML/Strm-proc-Dtl.png[450, 300]
 --
 
