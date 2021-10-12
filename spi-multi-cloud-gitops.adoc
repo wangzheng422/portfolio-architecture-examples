@@ -4,7 +4,7 @@ Christia Lin @christina_wm
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
-:toc:
+:toc: left
 
 This architecture covers hybrid and Multicloud management with GitOps. The customer was looking for a stabilize and simplify container platform that was secure and supports a hybrid environment and being able to run on multiple cloud solution for its developers and engineers. With automated infrastructure as code approach that manages the versioning and being able to deploy according to the configuration.
 
