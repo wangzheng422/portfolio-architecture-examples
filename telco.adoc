@@ -27,8 +27,8 @@ less than 1 lost packet in 105 packets.
 ==== Diagrams
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-5G-rev6.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-5G-rev6.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-5G.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-5G.drawio?inline=false[[Download Diagram]]
 --
 
 --
@@ -59,8 +59,8 @@ image:detail-diagrams/telco-5g-up.png[250, 200]
 === Use case 2 (Public Cloud): These diagrams is how telco service providers can partner with hyperscalers to create a solution for 5G Core network.
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco5GC-generic-7.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco5GC-generic-7.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco5GC-generic.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco5GC-generic.drawio?inline=false[[Download Diagram]]
 --
 
 --
@@ -95,8 +95,8 @@ image:detail-diagrams/telco5GC-storage-1.png[250, 200]
 === Use case 3: These diagrams is how to create Open Radio Access Networks.
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-ran-pb-v25.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb-v25.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-ran-pb.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb.drawio?inline=false[[Download Diagram]]
 --
 
 --

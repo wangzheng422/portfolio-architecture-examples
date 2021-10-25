@@ -22,10 +22,8 @@ Industrial Edge 2.0 is a Red Hat validated pattern. More details can be found ht
 
 ==== Diagrams
 
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/industrial-edge-v2.drawio[Load Diagram]
-
-
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/industrial-edge-v2.drawio?inline=false[Download Diagram]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/industrial-edge.drawio[Load Diagram]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/industrial-edge.drawio?inline=false[Download Diagram]
 
 *Logical Diagram* +
 
