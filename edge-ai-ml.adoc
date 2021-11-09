@@ -20,6 +20,8 @@ The manufacturing industry has consistently used technology to fuel innovation, 
 
 Industrial Edge 2.0 is a Red Hat validated pattern. More details can be found http://hybrid-cloud-patterns.io/industrial-edge[here]
 
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/industrial-edge-v2.drawio[Load Diagram]
+
 ==== Diagrams
 
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/industrial-edge.drawio[Load Diagram]
@@ -41,18 +43,15 @@ image:schematic-diagrams/industrial-edge-gitops.png[1500, 1000]
 
 *Detail Diagrams* +
 
+image:detail-diagrams/Mfg-AI-ML/ACM.png[450, 300]
 image:detail-diagrams/Mfg-AI-ML/AMQ-Dtl.png[450, 300]
-image:detail-diagrams/Mfg-AI-ML/Anomaly-Dtl.png[450, 300]
 image:detail-diagrams/Mfg-AI-ML/Anomaly-Dtl.png[450, 300]
 image:detail-diagrams/Mfg-AI-ML/CI_CD-Dtl.png[450, 300]
 image:detail-diagrams/Mfg-AI-ML/Dashbrd-Dtl.png[450, 300]
-image:detail-diagrams/Mfg-AI-ML/Dashbrd-Dtl.png[450, 300]
 image:detail-diagrams/Mfg-AI-ML/Dist-Strm-CDC.png[450, 300]
 image:detail-diagrams/Mfg-AI-ML/Dist-Strm-Detl.png[450, 300]
-image:detail-diagrams/Mfg-AI-ML/Edge AI ML flow.png[450, 300]
 image:detail-diagrams/Mfg-AI-ML/GitOps-agent-Dtl.png[450, 300]
 image:detail-diagrams/Mfg-AI-ML/GitOps-contrlr-Dtl.png[450, 300]
-image:detail-diagrams/Mfg-AI-ML/ACM.png[450, 300]
 image:detail-diagrams/Mfg-AI-ML/Gitrepo-CDC-Dtl.png[450, 300]
 image:detail-diagrams/Mfg-AI-ML/Gitrepo-Fact-Dtl.png[450, 300]
 image:detail-diagrams/Mfg-AI-ML/ImageRegistry-CDC-Dtl.png[450, 300]
