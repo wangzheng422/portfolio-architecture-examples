@@ -20,6 +20,10 @@ https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/
 --
 
 --
+image:intro-marketectures/[750,700]
+--
+
+--
 image:logical-diagrams/sap-smart-management.png[350, 300]
 image:schematic-diagrams/sap-smart-management-network-sd.png[350, 300]
 image:schematic-diagrams/sap-smart-management-data-sd.png[350, 300]
