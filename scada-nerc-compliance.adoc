@@ -19,18 +19,3 @@ https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/scada-nerc-compliance.drawio?inline=false[[Download Diagram]]
 --
 
---
-image:intro-marketectures/[750,700]
---
-
---
-image:logical-diagrams/sap-smart-management.png[350, 300]
-image:schematic-diagrams/sap-smart-management-network-sd.png[350, 300]
-image:schematic-diagrams/sap-smart-management-data-sd.png[350, 300]
-image:detail-diagrams/rsm-smart-management.png[250, 200]
-image:detail-diagrams/rsm-automation.png[250, 200]
-image:detail-diagrams/sap-hana-detail.png[250, 200]
-image:detail-diagrams/sap-anydb-detail.png[250, 200]
-image:detail-diagrams/sap-s4hana-detail.png[250, 200]
-image:detail-diagrams/sap-netweaver-detail.png[250, 200]
---
