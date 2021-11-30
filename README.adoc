@@ -22,7 +22,7 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 
 [cols="1,1,1"]
 |===
-|General architectures | | | 
+|General architectures | |
 
 |link:batch-modernisation.adoc[Batch modernisation]
 |link:omnichannel.adoc[Omnichannel customer experience]
@@ -53,7 +53,7 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 |
 |===
 
-[cols="1,1,"]
+[cols="1,1"]
 |===
 | Vertical architectures | Product demo examples
 
