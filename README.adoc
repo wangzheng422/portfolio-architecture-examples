@@ -20,42 +20,60 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 
 == Portfolio Architecture Project Index
 
-[cols="1,1,1,1"]
+[cols="1,1,1"]
 |===
-|General architectures | General architectures | Verticals | Product examples
+|General architectures | | | 
 
 |link:batch-modernisation.adoc[Batch modernisation]
 |link:omnichannel.adoc[Omnichannel customer experience]
-|link:edge-utility.adoc[Energy]
-|link:demos.adoc[Product demos]
+|
 
 |link:cloud-adoption.adoc[Cloud adoption]
 |link:remote-management.adoc[Remote server management]
-|link:financial-services.adoc[Financial services]
 |
 
 |link:cloud-factory.adoc[Cloud factory]
 |link:scada-nerc-compliance.adoc[SCADA interface modernization for NERC compliance]
-|link:healthcare.adoc[Healthcare]
 |
 
 |link:cnd.adoc[Cloud native development]
 |link:self-healing.adoc[Self-Healing Infrastructure]
-|link:edge-ai-ml.adoc[Manufacturing]
 |
 
 |link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
 |link:sap-smart-management.adoc[Smart management for SAP]
-|link:retail.adoc[Retail]
 |
 
 |link:integrated-saas.adoc[Integrating with SaaS applications]
 |
-|link:telco.adoc[Telco]
 |
 
 |link:nzd-sap.adoc[Near Zero Downtime Maintenance for SAP]
 |
 |
+|===
+
+[cols="1,1,"]
+|===
+| Vertical architectures | Product demo examples
+
+|link:edge-utility.adoc[Energy]
+|link:demos.adoc[Product demos]
+
+|link:financial-services.adoc[Financial services]
+|
+
+|link:healthcare.adoc[Healthcare]
+|
+
+|link:edge-ai-ml.adoc[Manufacturing]
+|
+
+|link:retail.adoc[Retail]
+|
+
+|link:telco.adoc[Telco]
 |
 |===
+
+
