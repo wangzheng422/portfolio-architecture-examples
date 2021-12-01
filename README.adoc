@@ -33,7 +33,7 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 |link:financial-services.adoc[Financial services]
 
 |link:cloud-factory.adoc[Cloud factory]
-|link:scada-nerc-compliance.adoc[SCADA NERC compliance for SAP]
+|link:scada-nerc-compliance.adoc[SCADA NERC compliance]
 |link:healthcare.adoc[Healthcare]
 
 |link:cnd.adoc[Cloud native development]

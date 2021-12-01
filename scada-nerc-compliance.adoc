@@ -1,4 +1,4 @@
-= SCADA NERC compliance for SAP
+= SCADA NERC compliance
 Ricardo Garcia Cavero @ipbabble
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
