@@ -23,5 +23,5 @@ https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/scada-nerc-compliance.draw.io?inline=false[[Download Diagram]]
 --
 --
-image:intro-marketectures/scada-nerc.png[750,700]
+image:intro-marketectures/scada-nerc-compliance-marketing-slide.png[750,700]
 --
