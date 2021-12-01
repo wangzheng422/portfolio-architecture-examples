@@ -53,11 +53,17 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 |
 |===
 
-[cols="1"]
+[cols="1,1"]
 |===
-| Product demo examples
+| Other architecture examples |
 
-|link:demos.adoc[Product demos]
+|link:demo-mortgage-process.adoc[Mortgage process demo]
+|link:demo-signal-markeing-process.adoc[Signal marketing process demo] 
+
+|link:demo-quick-loan-bank-process.adoc[Quick loan bank process demo]
+|link:demo-hazard-streaming.adoc[Event streaming hazard demo]
+
+|link:demo-process-automation-install.adoc[Process automation install]
+|link:demo-decision-management-install.adoc[Decision management install]
 |===
-
 
