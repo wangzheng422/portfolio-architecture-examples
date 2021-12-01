@@ -55,7 +55,7 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 
 [cols="1,1,1"]
 |===
-| Other architecture examples |
+| Other architecture examples | |
 
 |link:demo-mortgage-process.adoc[Mortgage process demo]
 |link:demo-signal-markeing-process.adoc[Signal marketing process demo] 
