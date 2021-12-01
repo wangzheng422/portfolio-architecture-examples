@@ -1,0 +1,26 @@
+= Quick loan bank process demo 
+ Eric D. Schabell @eschabell
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+
+=== CodeReady Containers with Red Hat Quick Loan Bank Demo
+
+Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
+content.
+
+Use case: Process automation with front end integration, human tasks, rules, and DMN.
+
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/crc-rhdm-quick-loan-bank-demo.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/product-demos/crc-rhdm-quick-loan-bank-demo.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:product-demo-diagrams/crc-quick-loan-bank-demo.png[350, 300]
+--
+

@@ -1,0 +1,26 @@
+= Event streaming hazard demo
+ Christina Lin @clin
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+
+== Agile Integration Event Streaming Hazard Demo 
+
+Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
+content.
+
+Use case: Agile integration using integration products.
+
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/event-streaming-hazard-demo.drawio[[Load Diagram]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/product-demos/event-streaming-hazard-demo.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:product-demo-diagrams/event-streaming-hazard-demo.png[350, 300]
+--
+
