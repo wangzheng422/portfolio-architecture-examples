@@ -20,8 +20,8 @@ the 'Download Diagram' link. The images below can be used to browse the availabl
 Use case: Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/industrial-edge.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/industrial-edge.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/edge-manufacturing-efficiency.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/edge-manufacturing-efficiency.drawio?inline=false[[Download Diagram]]
 --
 
 --
