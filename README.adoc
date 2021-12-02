@@ -38,7 +38,7 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 
 |link:cnd.adoc[Cloud native development]
 |link:self-healing.adoc[Self-Healing Infrastructure]
-|link:edge-ai-ml.adoc[Manufacturing]
+|link:manufacturing.adoc[Manufacturing]
 
 |link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
 |link:sap-smart-management.adoc[Smart management for SAP]

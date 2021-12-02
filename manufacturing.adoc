@@ -1,0 +1,57 @@
+= Manufacturing 
+Ishu Verma  @ishuverma, William Henry @ipbabble,
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+
+The manufacturing industry has consistently used technology to fuel innovation, production optimization and operations. Now, with the combination of edge computing and AI/ML, manufacturers can benefit from bringing processing power closer to data that, when put into action faster, can help to proactively discover of potential errors at the assembly line, help improve product quality, and even reduce potential downtime through predictive maintenance and in the unlikely event of a drop in communications with a central/core site, individual manufacturing plants can continue to operate. Red Hat's has successfully implemented AI/ML at the edge in manufacturing using OpenShift, Application Services  including AMQ, Kafka and Camel K, Quay Container Registry and OpenShift Container Storage.
+
+This document is a collection of various architectures in the retail domain. Each case is detailed below with a definition of the 
+use case along with logical, schematic, and detailed diagrams.
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+
+
+== Edge manufacturing efficiency
+
+Use case: Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/industrial-edge.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/industrial-edge.drawio?inline=false[[Download Diagram]]
+--
+
+--
+TODO: add marketecture diagram here...
+--
+
+--
+image:logical-diagrams/industrial-edge-ld.png[350, 300]
+image:schematic-diagrams/industrial-edge-devops-sd.png[350, 300]
+image:schematic-diagrams/industrial-edge-gitops-sd.png[350, 300]
+--
+
+--
+image:detail-diagrams/Mfg-AI-ML/ACM.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/AMQ-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/Anomaly-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/CI_CD-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/Dashbrd-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/Dist-Strm-CDC.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/Dist-Strm-Detl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/GitOps-agent-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/GitOps-contrlr-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/Gitrepo-CDC-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/Gitrepo-Fact-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/ImageRegistry-CDC-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/ImageRegistry-Cloud-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/ImageRegistry-Fact-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/Line-server-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/Mqtt-intg-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/Msg-consm-Dtl.png[250, 200]
+image:detail-diagrams/Mfg-AI-ML/Strm-proc-Dtl.png[250, 200]
+--
+
