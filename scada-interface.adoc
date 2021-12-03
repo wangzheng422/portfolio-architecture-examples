@@ -19,8 +19,8 @@ the 'Download Diagram' link. The images below can be used to browse the availabl
 
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/scada-nerc-compliance.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/scada-nerc-compliance.draw.io?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/scada-interface.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/scada-interface.draw.io?inline=false[[Download Diagram]]
 --
 --
 image:intro-marketectures/scada-interface-marketing-slide.png[750,700]
