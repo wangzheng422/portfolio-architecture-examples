@@ -34,6 +34,7 @@ image:intro-marketectures/idaas-marketing-slide.png[750,700]
 
 --
 image:logical-diagrams/idaas-ld.png[350, 300]
+image:schematic-diagrams/idaas-sd.png[350, 300]
 --
 
 
@@ -54,9 +55,6 @@ image:intro-marketectures/edge-medical-diagnosis-marketing-slide.png[750,700]
 --
 image:logical-diagrams/edge-medical-diagnosis-ld.png[350, 300]
 image:logical-diagrams/edge-medical-diagnosis-details-ld.png[350, 300]
---
-
---
 image:schematic-diagrams/edge-medical-diagnosis-network-sd.png[350, 300]
 image:schematic-diagrams/edge-medical-diagnosis-data-sd.png[350, 300]
 image:schematic-diagrams/edge-medical-diagnosis-gitops-sd.png[350, 300]
