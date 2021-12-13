@@ -48,6 +48,7 @@ image:detail-diagrams/idaas-connect-event.png[250, 200]
 image:detail-diagrams/idaas-event-builder.png[250, 200]
 image:detail-diagrams/idaas-connect-microservices.png[250, 200]
 image:detail-diagrams/idaas-integration-data.png[250, 200]
+image:detail-diagrams/idaas-connect-data-distribution.png[250,200]
 image:detail-diagrams/idaas-msg-transformation.png[250, 200]
 --
 
