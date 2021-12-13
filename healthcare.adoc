@@ -37,6 +37,7 @@ image:logical-diagrams/idaas-ld.png[350, 300]
 image:schematic-diagrams/idaas-sd.png[350, 300]
 image:schematic-diagrams/idaas-data-sd.png[350, 300]
 image:schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
+image:schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
 image:schematic-diagrams/idaas-knowledge-insight-sd.png[350, 300]
 --
 
