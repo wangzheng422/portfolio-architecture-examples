@@ -36,6 +36,15 @@ image:intro-marketectures/idaas-marketing-slide.png[750,700]
 image:logical-diagrams/idaas-ld.png[350, 300]
 image:schematic-diagrams/idaas-sd.png[350, 300]
 image:schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
+image:schematic-diagrams/idaas-knowledge-insight-sd.png[350, 300]
+--
+
+--
+image:detail-diagrams/idaas-api-management.png[250, 200]
+image:detail-diagrams/idaas-connect-event.png[250, 200]
+image:detail-diagrams/idaas-connect-microservices.png[250, 200]
+image:detail-diagrams/idaas-integration-data.png[250, 200]
+image:detail-diagrams/idaas-msg-transformation.png[250, 200]
 --
 
 
