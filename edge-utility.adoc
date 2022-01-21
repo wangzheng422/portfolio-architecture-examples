@@ -18,7 +18,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image::logical-diagrams/snam-5-ld.png[350,300]
+image::logical-diagrams/snam-ld.png[350,300]
 
 --
 
