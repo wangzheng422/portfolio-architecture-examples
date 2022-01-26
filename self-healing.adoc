@@ -23,7 +23,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/blob/main
 --
 
 --
-image:intro-marketectures/self-healing-infra-marketing-slide.png[750,700]
+image:intro-marketectures/self-healing-market-slide.png[750,700]
 --
 
 --
