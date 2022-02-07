@@ -25,3 +25,25 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 image:intro-marketectures/scada-interface-marketing-slide.png[750,700]
 --
+
+--
+image:logical-diagrams/scada-interfaces-ld.png[350, 300]
+image:schematic-diagrams/scada-interfaces-network-sd.png[350, 300]
+image:schematic-diagrams/scada-interfaces-data-sd.png[350, 300]
+--
+
+--
+image:detail-diagrams/scada-detail.png[250, 200]
+image:detail-diagrams/scada-service-interruption-detail.png[250, 200]
+image:detail-diagrams/scada-service-provisioning.png[250, 200]
+image:detail-diagrams/scada-data-acquisition.png[250, 200]
+image:detail-diagrams/scada-network-information.png[250, 200]
+image:detail-diagrams/scada-business-applications.png[250, 200]
+image:detail-diagrams/sso.png[250, 200]
+image:detail-diagrams/acm.png[250, 200]
+image:detail-diagrams/acs.png[250, 200]
+image:detail-diagrams/amq-broker.png[250, 200]
+image:detail-diagrams/amq-message-queue.png[250, 200]
+image:detail-diagrams/amq-bridge.png[250, 200]
+image:detail-diagrams/3scale-control-point.png[250, 200]
+--
