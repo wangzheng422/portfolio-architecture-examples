@@ -44,6 +44,6 @@ image:detail-diagrams/acm.png[250, 200]
 image:detail-diagrams/acs.png[250, 200]
 image:detail-diagrams/amq-broker.png[250, 200]
 image:detail-diagrams/amq-message-queue.png[250, 200]
-image:detail-diagrams/amq-bridge.png[250, 200]
+image:detail-diagrams/secured-connectivity.png[250, 200]
 image:detail-diagrams/3scale-control-point.png[250, 200]
 --
