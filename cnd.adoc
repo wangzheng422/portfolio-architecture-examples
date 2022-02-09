@@ -30,6 +30,15 @@ https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-native-development.drawio?inline=false[[Download Diagram]]
 --
 
+== Cloud native development animations
+
+--
+image:animations/cnd-local-containers-animation.gif[750,700]
+image:animations/cnd-remote-containers-animation.gif[750,700]
+image:animations/cnd-deployment-animation.gif[750,700]
+image:animations/cnd-enterprise-deployment-animation.gif[750,700]
+--
+
 --
 image:intro-marketectures/cnd-marketing-slide.png[750,700]
 --
