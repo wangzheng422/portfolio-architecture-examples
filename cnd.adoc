@@ -33,10 +33,15 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 == Cloud native development animations
 
 --
-image:animations/cnd-local-containers-animation.gif[750,700]
-image:animations/cnd-remote-containers-animation.gif[750,700]
-image:animations/cnd-deployment-animation.gif[750,700]
-image:animations/cnd-enterprise-deployment-animation.gif[750,700]
+
+image::animations/cnd-local-containers-animation.gif[750,700]
+
+image::animations/cnd-remote-containers-animation.gif[750,700]
+
+image::animations/cnd-deployment-animation.gif[750,700]
+
+image::animations/cnd-enterprise-deployment-animation.gif[750,700]
+
 --
 
 --
