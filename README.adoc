@@ -25,32 +25,28 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 |General architectures | | Vertical architectures
 
 |link:batch-modernisation.adoc[Batch modernisation]
-|link:omnichannel.adoc[Omnichannel customer experience]
+|link:nzd-sap.adoc[Near Zero Downtime Maintenance for SAP]
 |link:financial-services.adoc[Financial services]
 
 |link:cloud-adoption.adoc[Cloud adoption]
-|link:remote-management.adoc[Remote server management]
+|link:omnichannel.adoc[Omnichannel customer experience]
 |link:healthcare.adoc[Healthcare]
 
 |link:cloud-factory.adoc[Cloud factory]
-|link:scada-interface.adoc[SCADA interface modernisation]
+|link:remote-management.adoc[Remote server management]
 |link:manufacturing.adoc[Manufacturing]
 
 |link:cnd.adoc[Cloud native development]
-|link:self-healing.adoc[Self-Healing Infrastructure]
+|link:scada-interface.adoc[SCADA interface modernisation]
 |link:retail.adoc[Retail]
 
 |link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
-|link:sap-smart-management.adoc[Smart management for SAP]
+|link:self-healing.adoc[Self-Healing Infrastructure]
 |link:telco.adoc[Telco]
 
 |link:integrated-saas.adoc[Integrating with SaaS applications]
-|
+|link:sap-smart-management.adoc[Smart management for SAP]
 |link:utility.adoc[Utility]
-
-|link:nzd-sap.adoc[Near Zero Downtime Maintenance for SAP]
-|
-|
 |===
 
 [cols="1,1,1"]
