@@ -26,7 +26,7 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 
 |link:batch-modernisation.adoc[Batch modernisation]
 |link:omnichannel.adoc[Omnichannel customer experience]
-|link:edge-utility.adoc[Energy]
+|link:utility.adoc[Energy]
 
 |link:cloud-adoption.adoc[Cloud adoption]
 |link:remote-management.adoc[Remote server management]
