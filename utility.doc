@@ -1,4 +1,4 @@
-= From Data Center to Edge
+= Utility
  Ishu Verma  @ishuverma, Francesco Rossi
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
@@ -6,31 +6,32 @@
 :source-highlighter: prettify
 
 
-The energy infrastructure companies operate across vast geographical area that connects the upstream drilling operations with downstream fuel processing and delivery to customers.
-These companies need to monitor the condition of pipeline and other infrastructure for operational safety and optimization. Increasingly, companies are using Edge computing to process data closer to the data source.
+The energy (utility) infrastructure companies operate across vast geographical area that connects the upstream drilling operations with
+downstream fuel processing and delivery to customers. These companies need to monitor the condition of pipeline and other
+infrastructure for operational safety and optimization. Increasingly, companies are using Edge computing to process data closer to
+the data source.
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
 == Data Center to Edge
 
-Use case: Bringing computing closer to the edge by monitoring for potential issues with gas pipeline
-(edge).
+Use case: Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
 
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/snam.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/snam.drawio?inline=false[[Download Diagram]]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/edge-to-datacenter.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/edge-to-datacenter.drawio?inline=false[[Download Diagram]]
 --
 
 --
-image:intro-marketectures/energy-business-diagram.png[750,700]
+image:intro-marketectures/edge-to-datacenter-marketing-slide.png[750,700]
 --
 
 --
-image::logical-diagrams/snam-ld.png[350,300]
-image::schematic-diagrams/snam-data-streaming-sd.png[350,300]
-image::schematic-diagrams/snam-management-sd.png[350,300]
+image::logical-diagrams/edge-to-datacenter-ld.png[350,300]
+image::schematic-diagrams/edge-to-datacenter-data-sd.png[350,300]
+image::schematic-diagrams/edge-to-datacenter-management-sd.png[350,300]
 --
 
 --
@@ -52,3 +53,4 @@ image:detail-diagrams/snam-sql-database-dtl.png[250, 200]
 image:detail-diagrams/snam-object-storage-dtl.png[250, 200]
 image:detail-diagrams/snam-scada-dtl.png[250, 200]
 --
+
