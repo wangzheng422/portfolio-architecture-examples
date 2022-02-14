@@ -113,7 +113,7 @@ image:logical-diagrams/telco-ran-ld.png[350, 300]
 
 *Schematic Diagram* +
 image:schematic-diagrams/telco-ran-mgmt-sd.png[350, 300]
-image:schematic-diagrams/telco-d-ran-8-sd.png[350, 300]
+image:schematic-diagrams/telco-ran-sd.png[350, 300]
 
 *Detail Diagrams* +
 image:detail-diagrams/telco-ran-cu-cp-1.png[250, 200]
