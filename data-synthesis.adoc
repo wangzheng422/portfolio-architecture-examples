@@ -23,8 +23,8 @@ image:intro-marketectures/data-synthesis-marketing-slide.png[750,700]
 --
 
 --
-image:logical-diagrams/data-sythesis-ld.png[350, 300]
-image:schematic-diagrams/data-sythesis-sd.png[350, 300]
+//image:logical-diagrams/data-sythesis-ld.png[350, 300]
+//image:schematic-diagrams/data-sythesis-sd.png[350, 300]
 //image:schematic-diagrams/idaas-data-sd.png[350, 300]
 //image:schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
 //image:schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
