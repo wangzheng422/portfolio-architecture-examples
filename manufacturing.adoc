@@ -25,7 +25,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-TODO: add marketecture diagram here...
+image:intro-marketectures/edge-manufacturing-efficency-marketing-slide.png[750,700]
 --
 
 --
