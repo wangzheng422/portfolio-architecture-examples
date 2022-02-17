@@ -1,0 +1,46 @@
+= Modernising Testing with Data Synthesis
+Eric D. Schabell @eschabell
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+
+Use case: Modernising testing with data synthesis is a testing innovation with focus around enabling massive amounts of data to be
+available for both business users and developers in a secure and scalable manner.
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/data-synthesis.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/data-synthesis.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:intro-marketectures/data-synthesis-marketing-slide.png[750,700]
+--
+
+--
+image:logical-diagrams/data-sythesis-ld.png[350, 300]
+image:schematic-diagrams/data-sythesis-sd.png[350, 300]
+//image:schematic-diagrams/idaas-data-sd.png[350, 300]
+//image:schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
+//image:schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
+//image:schematic-diagrams/idaas-knowledge-insight-sd.png[350, 300]
+//image:schematic-diagrams/idaas-knowledge-insight-data-sd.png[350, 300]
+--
+
+--
+//image:detail-diagrams/idaas-api-management.png[250, 200]
+//image:detail-diagrams/idaas-connect-event.png[250, 200]
+//image:detail-diagrams/idaas-event-builder.png[250, 200]
+//image:detail-diagrams/idaas-connect-microservices.png[250, 200]
+//image:detail-diagrams/idaas-integration-data.png[250, 200]
+//image:detail-diagrams/idaas-connect-data-distribution.png[250,200]
+//image:detail-diagrams/idaas-external-reporting-service.png[250,200]
+//image:detail-diagrams/idaas-intelligent-data-router.png[250,200]
+//image:detail-diagrams/idaas-msg-transformation.png[250, 200]
+--
+

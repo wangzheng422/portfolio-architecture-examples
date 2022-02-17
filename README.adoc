@@ -40,13 +40,17 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 |link:scada-interface.adoc[SCADA interface modernisation]
 |link:retail.adoc[Retail]
 
-|link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
+|link:data-synthesis.adoc[Modernising testing with data synthesis]
 |link:self-healing.adoc[Self-Healing Infrastructure]
 |link:telco.adoc[Telco]
 
-|link:integrated-saas.adoc[Integrating with SaaS applications]
+|link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
 |link:sap-smart-management.adoc[Smart management for SAP]
 |link:utility.adoc[Utility]
+
+|link:integrated-saas.adoc[Integrating with SaaS applications]
+|
+|
 |===
 
 [cols="1,1,1"]
