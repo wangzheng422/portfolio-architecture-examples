@@ -1,4 +1,4 @@
-= iDaaS
+= Intelligent data as a service (iDaaS)
 Eric D. Schabell @eschabell
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
@@ -10,14 +10,11 @@ Our world transformed overnight, and healthcare had to respond immediately. Now 
 and unlimited scale, and to design and modify decisioning, processes, and workflows for specific situations—without being
 vendor-dependent. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help with a flexible, open approach.
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
-
-
-== Intelligent data as a service (iDaaS)
-
 Use case: Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
 manner while driving data needs for moving towards consumerisation in healthcare.
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/idaas.drawio[[Load Diagram]]
