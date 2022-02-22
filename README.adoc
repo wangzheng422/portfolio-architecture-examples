@@ -16,7 +16,7 @@ TIP: Learn how to use the draw.io tool to create portfolio architecture diagrams
 TIP: Learn how to develop your own blueprint project and add to this examples reposiotry with https://redhatdemocentral.gitlab.io/portfolio-architecture-template[Beginners guide to deveoping an architecture blueprint]
 
 == Portfolio Architecture Project Index
-[cols="4,6"]
+[cols="3,7"]
 |===
 |Title | Description
 
