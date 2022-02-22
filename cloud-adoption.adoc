@@ -70,16 +70,13 @@ image:schematic-diagrams/cloud-adoption-data-sd.png[350, 300]
 * This is an overview look at cloud adoption, providing the solution details and the elements described above
 in both a network and data centric view:
 
-** The infrastructure starts with a deployment head, where the definitive software library is maintained through
-development and connections to the Red Hat content delivery network. Ansible is used to maintain and deliver playbooks
-based infrastructure automation delivery to as many detached deployment heads as needed. There is also centralised
-montoring and logging within this deployment head.
+** It starts in the core data center where images are built and deployed out to the image registry found in a
+pysical data center, a private cloud, or in any public clouds desired. Quay is used to sync these registries.
 
-** In our research the deployment head and detached deployment heads all ran on some form of virtualisation platforms.
-They were also supported by network services like DNS and other security services.
-
-** The detached deployment heads were used to then roll out and support the necessary cloud environments, using
-OpenStack Director to maintain compute nodes and controllers for both compute and storage.
+** Infrastructure management uses smart management to monitor all deployments and locations, leveraging input from
+the cloud services provided by insights and automation repositories. If needed, remediation can be triggered by
+smart management and automation orchestration will take action as defined in the automation playbooks to fix
+deployments.
 
 == Extra detail
 
