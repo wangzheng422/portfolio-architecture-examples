@@ -13,7 +13,7 @@ transformed overnight, and healthcare had to respond immediately. Now more than 
 and unlimited scale, and to design and modify decisioning, processes, and workflows for specific situations—without being
 vendor-dependent. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help with a flexible, open approach.
 
-Use case: Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
+*Use case:* Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
 manner while driving data needs for moving towards consumerisation in healthcare.
 
 --
@@ -98,9 +98,19 @@ image:schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
 image:schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
 --
 
-. TODO: describe this sd...
+* In this schematic the details are exposed as to an exmaple of integration through iDaaS Connect features around HL7
+and FHIR healthcare messaging standards:
 
-. More details...
+** First, the iDaaS knowledge and insight elements were left out of this schematic to reduce diagram complexity. They
+return in the section below.
+
+** The rest of this diagram remains the same as the previous section with one exception, the iDaaS Connect collection
+is now focusing only on the elements for integrating HL7 and FHIR protocols.
+
+** There are two elements featuring microservice collections designed to provide messaging between incoming HL7 and FHIR
+messages to the rest of the systems. Message transformation microservices are needed to ensure integration with its
+destination. These transformations happen incoming to the event system and outgoing before delivering back to the
+originating source.
 
 
 == iDaaS knowledge and insight
@@ -109,14 +119,26 @@ image:schematic-diagrams/idaas-knowledge-insight-sd.png[350, 300]
 image:schematic-diagrams/idaas-knowledge-insight-data-sd.png[350, 300]
 --
 
-. TODO: describe this sd...
+* The focus of this schematic is to clarify how knowledge and insight are used to provide for near real-time
+understanding of the data across the organisation:
 
-. More details...
+** First note that the iDaaS Connect collection has been reduced down to just a single integration and transformation
+story using FHIR messages to simplify the diagrams.
+
+** The rest of this diagram remains the same as the first section with the focus and expansion of the knowledge and
+insight elements where we turn to now.
+
+** The iDaaS knowledge insight element plugs into the processes and decision being taken centrally in the iDaaS Dream
+collection. This ensures a near real-time view can be given on all events driven data processing through the organisation.
+
+** In the iDaaS knowledge conformance element one finds the insights exposed for an organisations review / reporting
+around their data compliance needs. It also shows the access given to an organisation's compliance officer for monitoring
+and reporting.
 
 
 == Extra detail
 
-These are a few of the detailed diagrams that zoom into specific elements found in the physical (schematic) diagrams above.
+These are the detailed diagrams for specific elements from the schematic diagrams above:
 
 --
 image:detail-diagrams/idaas-api-management.png[250, 200]
