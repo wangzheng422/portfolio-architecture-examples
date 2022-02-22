@@ -29,7 +29,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 
-== The Technology
+== The technology
 --
 image:logical-diagrams/idaas-ld.png[350, 300]
 --
@@ -53,7 +53,7 @@ image:logical-diagrams/idaas-ld.png[350, 300]
 ** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
 
 
-== iDaaS Overview
+== iDaaS overview
 --
 image:schematic-diagrams/idaas-sd.png[350, 300]
 image:schematic-diagrams/idaas-data-sd.png[350, 300]
@@ -92,7 +92,7 @@ image:schematic-diagrams/idaas-data-sd.png[350, 300]
 ** *iDaaS Data Hub:* the AI/ML aspects for use in data solutions.
 
 
-== iDaaS Connect for HL7 FHIR
+== iDaaS connect for HL7 FHIR
 --
 image:schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
 image:schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
@@ -103,7 +103,7 @@ image:schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
 . More details...
 
 
-== iDaaS Knowledge and Insight
+== iDaaS knowledge and insight
 --
 image:schematic-diagrams/idaas-knowledge-insight-sd.png[350, 300]
 image:schematic-diagrams/idaas-knowledge-insight-data-sd.png[350, 300]
@@ -114,7 +114,7 @@ image:schematic-diagrams/idaas-knowledge-insight-data-sd.png[350, 300]
 . More details...
 
 
-== The Details
+== Extra detail
 
 These are a few of the detailed diagrams that zoom into specific elements found in the physical (schematic) diagrams above.
 
