@@ -10,13 +10,10 @@ Our world transformed overnight, and healthcare had to respond immediately. Now 
 and unlimited scale, and to design and modify decisioning, processes, and workflows for specific situations—without being
 vendor-dependent. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help with a flexible, open approach.
 
+Use case: Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
+
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
-
-
-== Edge medical diagnosis
-
-Use case: Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/edge-medical-diagnosis.drawio[[Load Diagram]]
