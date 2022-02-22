@@ -35,9 +35,22 @@ image:logical-diagrams/idaas-ld.png[350, 300]
 --
 
 * The following technology was chosen for this solution:
-** This tech
-** That tech
-** More tech...
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share data with high throughput and low latency. 
+
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
+
+** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds.
+
+** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of applications, the cloud-native way. Built on proven open source technologies, it also provides development teams multiple modernization options to enable a smooth transition to the cloud for existing applications.
+
+** *Red Hat Business Automation* is an application development platform that enables developers and business experts to create cloud-native applications that automate business operations.
+
+** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize your APIs on an infrastructure platform built for performance, customer control, and future growth.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
 
 
 == iDaaS Overview
@@ -46,12 +59,40 @@ image:schematic-diagrams/idaas-sd.png[350, 300]
 image:schematic-diagrams/idaas-data-sd.png[350, 300]
 --
 
-. TODO: describe this sd...
+* This is an overview look at iDaaS, providing the solution details and the elements described above in both a network and data centric view: 
 
-. More details...
+** *HL7 FHIR:* FHIR is a standard for health care data exchange, published by HL7.
+
+** *Third-party data providers:* noSQL, devices, edge devices, backend systems, SQL, Cloudera, Apache Kafka
+
+** *iDaaS Connect Clinical:* connector for clinical industry standards.
+
+** *iDaaS Connect Financial:* connector for financial industry standards.
+
+** *iDaaS Connect Third-party:* connectory for industry third-party data sources and event streams.
+
+** *iDaaS Event Builder:* used with industry and business models
+
+** *Clinical data tagging:* data tagged with relevant clinical information, enriching data.
+
+** *aiDoc:* Assigned Insights for Disease, Outbreaks, and Conditions.
+
+** *Terminology mediation:* terminology mediation and cross mapping, data transformation.
+
+** *iDaaS Intelligent Data Router:* specific data routing with AI/ML decision logic foundations.
+
+** *ER real-time wait detector & remediation:* component to manage emergency room waiting times.
+
+** *Dynamic data transformation:* data transformation components.
+
+** *iDaaS UI:* user interface for users and administrators.
+
+** *iDaaS API:* management for API landscape.
+
+** *iDaaS Data Hub:* the AI/ML aspects for use in data solutions.
 
 
-== iDaaS HL7 and FHIR Connect
+== iDaaS Connect for HL7 FHIR
 --
 image:schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
 image:schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
@@ -62,7 +103,7 @@ image:schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
 . More details...
 
 
-== iDaaS Knowledge and Insights
+== iDaaS Knowledge and Insight
 --
 image:schematic-diagrams/idaas-knowledge-insight-sd.png[350, 300]
 image:schematic-diagrams/idaas-knowledge-insight-data-sd.png[350, 300]
