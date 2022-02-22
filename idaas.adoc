@@ -8,20 +8,22 @@ Eric D. Schabell @eschabell
 :toclevels: 5
 
 
-This architecture covers the use case around using intelligent data as a service (iDaaS) in the healthcare industry. Our world
-transformed overnight, and healthcare had to respond immediately. Now more than ever, it's critical to have access to data 
-and unlimited scale, and to design and modify decisioning, processes, and workflows for specific situations—without being
-vendor-dependent. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help with a flexible, open approach.
+This architecture covers the use case around using intelligent data as a service (iDaaS) in the healthcare industry.
+Our world  transformed overnight, and healthcare had to respond immediately. Now more than ever, it's critical to have
+access to data and unlimited scale, and to design and modify decisioning, processes, and workflows for specific
+situations without being vendor-dependent. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help
+with a flexible, open approach.
 
-*Use case:* Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
-manner while driving data needs for moving towards consumerisation in healthcare.
+*Use case:* Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure
+and scalable manner while driving data needs for moving towards consumerisation in healthcare.
 
 --
 image:intro-marketectures/idaas-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/idaas.drawio[[Load Diagram]]
