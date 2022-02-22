@@ -8,8 +8,8 @@ Eric Schabell @eschabell, Marty Wesley @mwesley_redhat, William Henry @ipbabble,
 == Overview
 This repository provides examples of customer researched based general architectures based on usage of the Red Hat
 product portfolio. All architectural diagrams are created using the open source tool draw.io. The examples provide for
-*Logical* diagrams, more in-depth view of how the various components and services work together in
-*Schematic* diagrams and examples of services or elements in *Detailed* diagrams.
+*Logical* diagrams, more in-depth view of how the solution works in *Schematic* diagrams and closer looks at
+elements in *Detailed* diagrams.
 
 TIP: Learn how to use the draw.io tool to create portfolio architecture diagrams with https://gitlab.com/redhatdemocentral/portfolio-architecture-workshops[Portfolio Architecture Workshop]
 
