@@ -1,4 +1,4 @@
-= Healthcare
+= Portfolio Architecture Healthcare Index
 Eric D. Schabell @eschabell
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
@@ -11,8 +11,6 @@ and unlimited scale, and to design and modify decisioning, processes, and workfl
 vendor-dependent. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help with a flexible, open approach.
 
 This document is a collection of various architectures in the healthcare domain. 
-
-== Portfolio Architecture Healthcare Index
 
 [cols="1,1"]
 |===
