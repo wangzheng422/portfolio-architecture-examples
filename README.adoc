@@ -6,13 +6,10 @@ Eric Schabell @eschabell, Marty Wesley @mwesley_redhat, William Henry @ipbabble,
 :source-highlighter: prettify
 
 == Overview
-This repository provides examples of customer implementations using Red Hat product portfolio. These architectural blueprints can be
-used as is or adapted to meet the customer requirements. The architectural diagrams are created using the open source tool draw.io.
-
-The examples include high level *Logical* diagrams, more in-depth view of how the various components and services work together in
-*Schematic* diagrams and core functions associated with a particular service or component in *Detailed* diagrams. 
-
-Select any Portfolio Architecture link in the table below to explore their diagrams.
+This repository provides examples of customer researched based general architectures based on usage of the Red Hat
+product portfolio. All architectural diagrams are created using the open source tool draw.io. The examples provide for
+*Logical* diagrams, more in-depth view of how the various components and services work together in
+*Schematic* diagrams and examples of services or elements in *Detailed* diagrams.
 
 TIP: Learn how to use the draw.io tool to create portfolio architecture diagrams with https://gitlab.com/redhatdemocentral/portfolio-architecture-workshops[Portfolio Architecture Workshop]
 
