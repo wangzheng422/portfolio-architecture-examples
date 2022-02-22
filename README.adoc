@@ -24,45 +24,32 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 |===
 |General architectures | | Architecture groups
 
-|link:batch-modernisation.adoc[Batch modernisation]
+|link:cloud-adoption.adoc[Cloud adoption]
 |link:nzd-sap.adoc[Near Zero Downtime Maintenance for SAP]
 |link:edge.adoc[Edge]
 
-|link:cloud-adoption.adoc[Cloud adoption]
+|link:cloud-factory.adoc[Cloud factory]
 |link:omnichannel.adoc[Omnichannel customer experience]
 |link:financial-services.adoc[Financial]
 
-|link:cloud-factory.adoc[Cloud factory]
+|link:cnd.adoc[Cloud native development]
 |link:remote-management.adoc[Remote server management]
 |link:healthcare.adoc[Healthcare]
 
-|link:cnd.adoc[Cloud native development]
+|link:data-synthesis.adoc[Modernising testing with data synthesis]
 |link:scada-interface.adoc[SCADA interface modernisation]
 |link:manufacturing.adoc[Manufacturing]
 
-|link:data-synthesis.adoc[Modernising testing with data synthesis]
+|link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
 |link:self-healing.adoc[Self-Healing Infrastructure]
 |link:retail.adoc[Retail]
 
-|link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
+|link:integrated-saas.adoc[Integrating with SaaS applications]
 |link:sap-smart-management.adoc[Smart management for SAP]
 |link:telco.adoc[Telco]
 
-|link:integrated-saas.adoc[Integrating with SaaS applications]
+|
 |
 |link:utility.adoc[Utility]
-|===
-
-[cols="1,1,1"]
-|===
-| Other architecture examples | |
-
-|link:demo-mortgage-process.adoc[Mortgage process demo]
-|link:demo-signal-markeing-process.adoc[Signal marketing process demo] 
-|link:demo-process-automation-install.adoc[Process automation install]
-
-|link:demo-quick-loan-bank-process.adoc[Quick loan bank process demo]
-|link:demo-hazard-streaming.adoc[Event streaming hazard demo]
-|link:demo-decision-management-install.adoc[Decision management install]
 |===
 
