@@ -32,15 +32,10 @@ inventories).
 |Cloud native development is an approach to building and running applications to fully exploit the advantages of the
 cloud computing model (i.e. responsive, elastic and resilient applications).
 
-|link:data-synthesis.adoc[Modernising testing with data synthesis]
-|Modernising testing with data synthesis is a testing innovation with focus around enabling massive amounts of data to
-be available for both business users and developers in a secure and scalable manner.
-
 |link:edge.adoc[Edge]
 |This is a *collection of various architectures* for edge computing. Customers are increasing looking to edge
 computing to improve operational efficiencies, enhance end-user experiences, meet data residency requirements, and run
 resilient, semi-autonomous applications.
-
 
 |link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
 |Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
@@ -50,12 +45,10 @@ resilient, semi-autonomous applications.
 understand that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere,
 and are therefore accelerating adoption of digital technologies to enable a variety of new offerings.
 
-
 |link:healthcare.adoc[Healthcare]
 |This is a *collection of various architectures* in the healthcare domain. Our world transformed overnight, and
 healthcare had to respond immediately. Now more than ever, it's critical to have access to data and unlimited scale,
 and to design and modify decisioning, processes, and workflows for specific situations—without being vendor-dependent.
-
 
 |link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
 |Manage hybrid and multicloud cluster lifecycle, secure configuration and credentials. GitOps for Infrastructure as
@@ -70,6 +63,9 @@ technology to fuel innovation, production optimization and operations. Now, with
 AI/ML, manufacturers can benefit from bringing processing power closer to data. This helps actions be taken faster on
 things like errors and predictive maintenance.
 
+|link:data-synthesis.adoc[Modernising testing with data synthesis]
+|Modernising testing with data synthesis is a testing innovation with focus around enabling massive amounts of data to
+be available for both business users and developers in a secure and scalable manner.
 
 |link:nzd-sap.adoc[Near Zero Downtime Maintenance for SAP]
 |Minimizing the downtime of the maintenances on SAP hosts so that users and processes can continue to work
