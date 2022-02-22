@@ -6,13 +6,13 @@
 :source-highlighter: prettify
 
 
-This document is a collection of various architectures for edge computing.
-Customers are increasing looking to edge computing to improve operational efficiencies, enhance end-user experiences, meet data residency requirements, and run resilient, semi-autonomous applications.
-Edge computing places compute, storage, and networking services out of the datacenter—closer to data-generating sources and users—across a variety of edge locations.
-Edge deployments can vary widely across different industry verticals and use cases.
+This is a collection of various architectures for edge computing. Customers are increasing looking to edge
+computing to improve operational efficiencies, enhance end-user experiences, meet data residency requirements, and run
+resilient, semi-autonomous applications.
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
 
 == Use case 1: Bringing cloud like capabilities to the edge locations
 

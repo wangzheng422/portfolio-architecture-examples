@@ -6,13 +6,13 @@ Eric D. Schabell @eschabell
 :source-highlighter: prettify
 
 
-Our world transformed overnight, and healthcare had to respond immediately. Now more than ever, it's critical to have access to data
-and unlimited scale, and to design and modify decisioning, processes, and workflows for specific situations—without being
-vendor-dependent. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help with a flexible, open approach.
+This is a collection of various architectures in the healthcare domain. Our world transformed overnight, and
+healthcare had to respond immediately. Now more than ever, it's critical to have access to data and unlimited scale,
+and to design and modify decisioning, processes, and workflows for specific situations—without being vendor-dependent.
 
-This document is a collection of various architectures in the healthcare domain. 
 
-[cols="1,1"]
+
+[cols="3,7"]
 |===
 |Title | Description   
 

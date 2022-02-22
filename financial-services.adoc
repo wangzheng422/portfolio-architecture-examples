@@ -6,12 +6,10 @@ Eric D. Schabell @eschabell, Ramon Villarreal @rvillarr
 :source-highlighter: prettify
 
 
-Financial services institutions understand that today’s banking customers expect fast, easy-to-use services they
-can tap into anytime, anywhere, and are therefore accelerating adoption of digital technologies to enable a variety
-of new offerings. 
+This is a collection of various architectures in the financial services domain. Financial services institutions
+understand that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere,
+and are therefore accelerating adoption of digital technologies to enable a variety of new offerings.
 
-This document is a collection of various architectures in the finaincial services domain. Each case is detailed below with a
-definition of the use case along with logical, schematic, and detailed diagrams.
 
 == Payments
 

@@ -7,14 +7,15 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 
 
 This architecture covers remote server management. As more and more enterprises are deployed across different data
-centers and public and/or private clouds, it is important to provide consistency and security in an automated way across all of the
-the servers in order to reduce risk and costs. 
+centers and public and/or private clouds, it is important to provide consistency and security in an automated way
+across all of the the servers in order to reduce risk and costs.
 
-Use case: Providing remote management for a consist server estate across hybrid cloud and data centers with remote management,
-security, and  data protection for full lifecycle.
+Use case: Providing remote management for a consist server estate across hybrid cloud and data centers with remote
+management, security, and  data protection for full lifecycle.
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
 
 
 --

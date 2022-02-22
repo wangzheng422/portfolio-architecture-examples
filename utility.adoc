@@ -6,10 +6,10 @@
 :source-highlighter: prettify
 
 
-The energy (utility) infrastructure companies operate across vast geographical area that connects the upstream drilling operations with
-downstream fuel processing and delivery to customers. These companies need to monitor the condition of pipeline and other
-infrastructure for operational safety and optimization. Increasingly, companies are using Edge computing to process data closer to
-the data source.
+This is a collection of various architectures in the utility domain.The energy (utility) infrastructure companies
+operate across vast geographical area that connects the upstream drilling operations with downstream fuel processing
+and delivery to customers. These companies need to monitor the condition of pipeline and other infrastructure for
+operational safety and optimization.
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
