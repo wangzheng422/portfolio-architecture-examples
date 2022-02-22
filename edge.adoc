@@ -1,0 +1,53 @@
+= Edge
+ Ishu Verma  @ishuverma
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+
+This document is a collection of various architectures for edge computing.
+Customers are increasing looking to edge computing to improve operational efficiencies, enhance end-user experiences, meet data residency requirements, and run resilient, semi-autonomous applications.
+Edge computing places compute, storage, and networking services out of the datacenter—closer to data-generating sources and users—across a variety of edge locations.
+Edge deployments can vary widely across different industry verticals and use cases.
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+
+== Use case 1: Bringing cloud like capabilities to the edge locations
+
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/datacenter-to-edge.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/datacenter-to-edge.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image:intro-marketectures/datacenter-to-edge-marketing-slide.png[750,700]
+--
+
+--
+image::logical-diagrams/datacenter-to-edge-ld.png[350,300]
+image::schematic-diagrams/datacenter-to-edge-data-sd.png[350,300]
+image::schematic-diagrams/datacenter-to-edge-management-sd.png[350,300]
+--
+
+--
+image:detail-diagrams/datacenter-to-edge-amq-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-app-monitoring-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-block-storage-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-cntr-storage-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-event-strm-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-file-storage-dtl.png[250,200]
+image:detail-diagrams/datacenter-to-edge-gtwy-dtl.png[250,200]
+image:detail-diagrams/datacenter-to-edge-imageregistry-cdc-dtl.png[250,200]
+image:detail-diagrams/datacenter-to-edge-imageregistry-cloud-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-mgmt-agent-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-mgmt-contrlr-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-microservice-core-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-microservice-edge-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-nosql-database-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-sql-database-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-object-storage-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-scada-dtl.png[250, 200]
+--
