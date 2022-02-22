@@ -6,18 +6,15 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :source-highlighter: prettify
 
 
-Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to earn a profit.
-Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied where a service provider fills
-the small orders of many individuals, who are end-users, rather than large orders of a small number of wholesale, corporate or
-government clientele. Shopping generally refers to the act of buying products. Sometimes this is done to obtain final goods,
-including necessities such as food and clothing; sometimes it takes place as a recreational activity. Recreational shopping often
-involves window shopping and browsing: it does not always result in a purchase.
+This is a collection of various architectures in the retail domain. Retail is the process of selling consumer
+goods or services to customers through multiple channels of distribution to earn a profit. Retailers satisfy demand
+identified through a supply chain. The term "retailer" is typically applied where a service provider fills the small
+orders of many individuals, who are end-users, rather than large orders of a small number of wholesale, corporate or
+government clientele.
 
-This document is a collection of various architectures in the retail domain. Each case is detailed below with a definition of the 
-use case along with logical, schematic, and detailed diagrams.
-
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
 
 
 == Supply chain integration
