@@ -30,7 +30,7 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 
 |link:cloud-adoption.adoc[Cloud adoption]
 |link:omnichannel.adoc[Omnichannel customer experience]
-|link:financial-services.adoc[Financial services]
+|link:financial-services.adoc[Financial]
 
 |link:cloud-factory.adoc[Cloud factory]
 |link:remote-management.adoc[Remote server management]
