@@ -4,9 +4,12 @@ Eric D. Schabell @eschabell
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
+:toc: left
+:toclevels: 5
 
 
-Our world transformed overnight, and healthcare had to respond immediately. Now more than ever, it's critical to have access to data
+This architecture covers the use case around using intelligent data as a service (iDaaS) in the healthcare industry. Our world
+transformed overnight, and healthcare had to respond immediately. Now more than ever, it's critical to have access to data 
 and unlimited scale, and to design and modify decisioning, processes, and workflows for specific situations—without being
 vendor-dependent. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help with a flexible, open approach.
 
@@ -25,15 +28,54 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:intro-marketectures/idaas-marketing-slide.png[750,700]
 --
 
+
+== The Technology
 --
 image:logical-diagrams/idaas-ld.png[350, 300]
+--
+
+* The following technology was chosen for this solution:
+** This tech
+** That tech
+** More tech...
+
+
+== iDaaS Overview
+--
 image:schematic-diagrams/idaas-sd.png[350, 300]
 image:schematic-diagrams/idaas-data-sd.png[350, 300]
+--
+
+. TODO: describe this sd...
+
+. More details...
+
+
+== iDaaS HL7 and FHIR Connect
+--
 image:schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
 image:schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
+--
+
+. TODO: describe this sd...
+
+. More details...
+
+
+== iDaaS Knowledge and Insights
+--
 image:schematic-diagrams/idaas-knowledge-insight-sd.png[350, 300]
 image:schematic-diagrams/idaas-knowledge-insight-data-sd.png[350, 300]
 --
+
+. TODO: describe this sd...
+
+. More details...
+
+
+== The Details
+
+These are a few of the detail diagrams that zoom into specific elements found in the physical (schematic) diagrams above.
 
 --
 image:detail-diagrams/idaas-api-management.png[250, 200]
