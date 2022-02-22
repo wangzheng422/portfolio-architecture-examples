@@ -22,7 +22,7 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 
 [cols="1,1,1"]
 |===
-|General architectures | | Vertical architectures
+|General architectures | | Architecture groups
 
 |link:batch-modernisation.adoc[Batch modernisation]
 |link:nzd-sap.adoc[Near Zero Downtime Maintenance for SAP]
