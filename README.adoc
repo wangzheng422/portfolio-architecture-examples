@@ -26,31 +26,31 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 
 |link:batch-modernisation.adoc[Batch modernisation]
 |link:nzd-sap.adoc[Near Zero Downtime Maintenance for SAP]
-|link:financial-services.adoc[Financial services]
+|link:edge.adoc[Edge]
 
 |link:cloud-adoption.adoc[Cloud adoption]
 |link:omnichannel.adoc[Omnichannel customer experience]
-|link:healthcare.adoc[Healthcare]
+|link:financial-services.adoc[Financial services]
 
 |link:cloud-factory.adoc[Cloud factory]
 |link:remote-management.adoc[Remote server management]
-|link:manufacturing.adoc[Manufacturing]
+|link:healthcare.adoc[Healthcare]
 
 |link:cnd.adoc[Cloud native development]
 |link:scada-interface.adoc[SCADA interface modernisation]
-|link:retail.adoc[Retail]
+|link:manufacturing.adoc[Manufacturing]
 
 |link:data-synthesis.adoc[Modernising testing with data synthesis]
 |link:self-healing.adoc[Self-Healing Infrastructure]
-|link:telco.adoc[Telco]
+|link:retail.adoc[Retail]
 
 |link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
 |link:sap-smart-management.adoc[Smart management for SAP]
-|link:utility.adoc[Utility]
+|link:telco.adoc[Telco]
 
 |link:integrated-saas.adoc[Integrating with SaaS applications]
 |
-|
+|link:utility.adoc[Utility]
 |===
 
 [cols="1,1,1"]
