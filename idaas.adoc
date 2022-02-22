@@ -16,16 +16,16 @@ vendor-dependent. https://www.redhat.com/en/solutions/healthcare[Red Hat] is her
 Use case: Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
 manner while driving data needs for moving towards consumerisation in healthcare.
 
+--
+image:intro-marketectures/idaas-marketing-slide.png[750,700]
+--
+
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/idaas.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/idaas.drawio?inline=false[[Download Diagram]]
---
-
---
-image:intro-marketectures/idaas-marketing-slide.png[750,700]
 --
 
 
@@ -75,7 +75,7 @@ image:schematic-diagrams/idaas-knowledge-insight-data-sd.png[350, 300]
 
 == The Details
 
-These are a few of the detail diagrams that zoom into specific elements found in the physical (schematic) diagrams above.
+These are a few of the detailed diagrams that zoom into specific elements found in the physical (schematic) diagrams above.
 
 --
 image:detail-diagrams/idaas-api-management.png[250, 200]
