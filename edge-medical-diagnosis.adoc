@@ -4,35 +4,110 @@ Eric D. Schabell @eschabell
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
+:toc: left
+:toclevels: 5
 
+This architecture covers the use case around edge medical diagnosis in the healthcare industry.
 
-Our world transformed overnight, and healthcare had to respond immediately. Now more than ever, it's critical to have access to data
-and unlimited scale, and to design and modify decisioning, processes, and workflows for specific situations—without being
-vendor-dependent. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help with a flexible, open approach.
+*Use case:* Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
 
-Use case: Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
+--
+image:intro-marketectures/edge-medical-diagnosis-marketing-slide.png[750,700]
+--
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/edge-medical-diagnosis.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/edge-medical-diagnosis.drawio?inline=false[[Download Diagram]]
 --
 
---
-image:intro-marketectures/edge-medical-diagnosis-marketing-slide.png[750,700]
---
-
+== The technology
 --
 image:logical-diagrams/edge-medical-diagnosis-ld.png[350, 300]
 image:logical-diagrams/edge-medical-diagnosis-details-ld.png[350, 300]
+--
+
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
+built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
+enforcing policies across multiple clusters at scale.
+
+** *Red Hat OpenShift Serverless* helps developers to build, deploy and run event-driven applications that will start
+based on an event trigger, scale up resources as needed, then scale to zero after resource burst.
+
+** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
+the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
+data with high throughput and low latency.
+
+** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
+quickly and efficiently across clouds.
+
+** *Red Hat OpenShift Data Science* is a managed cloud service for data scientists and developers of intelligent
+applications. It provides a fully supported sandbox in which to rapidly develop, train, and test machine learning (ML)
+models in the public cloud before deploying in production.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
+
+
+== Edge medical diagnosis overview
+--
 image:schematic-diagrams/edge-medical-diagnosis-network-sd.png[350, 300]
 image:schematic-diagrams/edge-medical-diagnosis-data-sd.png[350, 300]
+--
+
+* This is an overview look at edge medical diagnosis, providing the solution details and the elements described above
+in both a network and data centric view:
+
+** The overview splits the solution into two distinct locations; the diagnostic facility where the medical staff and
+the edge x-ray devices are located and the medical data center where development and monitoring of the solution takes
+place.
+
+** Initial images are sent into the diagnostic facility image receiver and registering an event to start the processing
+for automated diagnosis. These images are stored locally, anonymized, and automatically evaluated for possible
+disease detection. A notification is generated for the medical staff, either automated detection, non-detection, or
+an edge case needing qualified medical staff review.
+
+** In the process of image capture and processing, the images are sent back to the medical data center to be added
+to the collection used for model training and development. The applications, machine learning models, data science
+development and dashboards for monitoring the processes are all in constant evolution. Developers and operations
+teams are maintaining code and infrastructure manifests for full GitOps deployment of the architectural elements.
+
+== Edge medical diagnosis with GitOps
+--
 image:schematic-diagrams/edge-medical-diagnosis-gitops-sd.png[350, 300]
 image:schematic-diagrams/edge-medical-diagnosis-gitops-data-sd.png[350, 300]
-
 --
+
+* GitOps delivery and development are essential to a fully automated cloud hosted solution:
+
+** This schematic diagram features the elements focusing only on development and deployment of the edge medical
+diagnosis elements needed for this solution. It removes the patient facing medial staff and the edge image
+capturing, instead featuring developer and IT operations staff on the back end.
+
+** In the medical data center developers deliver code projects into the CI/CD pipelines and trigger eventual container
+image builds put into the registry. The same is happening on the IT operations side, where system configuration and
+manifest code is maintained in their repository.
+
+** The developer image registry is replicated out to the image registry in the remote diagnostic facility and the
+source code repository for IT operations is also replicated out to the remote location. These both are setup to
+trigger the GitOps pipelines to sync updates to the image registry and the operations source code repository to the
+OpenShift platform. This means it's deploying, configuring, and applying manifests to the applications and services
+used to process the medical diagnosis imaging solution.
+
+
+== Extra detail
+
+These are the detailed diagrams for specific elements from the schematic diagrams above:
 
 --
 image:detail-diagrams/edge-medical-diagnosis-xray-server.png[250, 200]
@@ -50,4 +125,3 @@ image:detail-diagrams/edge-medical-diagnosis-gitops-controller.png[250, 200]
 image:detail-diagrams/edge-medical-diagnosis-gitops.png[250, 200]
 image:detail-diagrams/edge-medical-diagnosis-database.png[250, 200]
 --
-
