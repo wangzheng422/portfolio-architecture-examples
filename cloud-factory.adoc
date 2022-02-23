@@ -74,13 +74,3 @@ They were also supported by network services like DNS and other security service
 ** The detached deployment heads were used to then roll out and support the necessary cloud environments, using
 OpenStack Director to maintain compute nodes and controllers for both compute and storage.
 
-== Extra detail
-
-These are the detailed diagrams for specific elements from the schematic diagrams above:
-
---
-image:detail-diagrams/cloud-factory-automation-orchestration.png[250, 200]
-image:detail-diagrams/cloud-factory-monitoring-logging.png[250, 200]
-image:detail-diagrams/cloud-factory-social-coding.png[250, 200]
-image:detail-diagrams/cloud-factory-definitive-sw-library.png[250, 200]
---

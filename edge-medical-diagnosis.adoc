@@ -103,25 +103,3 @@ source code repository for IT operations is also replicated out to the remote lo
 trigger the GitOps pipelines to sync updates to the image registry and the operations source code repository to the
 OpenShift platform. This means it's deploying, configuring, and applying manifests to the applications and services
 used to process the medical diagnosis imaging solution.
-
-
-== Extra detail
-
-These are the detailed diagrams for specific elements from the schematic diagrams above:
-
---
-image:detail-diagrams/edge-medical-diagnosis-xray-server.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-notification.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-ml-cicd.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-detection.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-streaming-datacenter.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-streaming-facility.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-registry-cloud.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-registry-datacenter.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-registry-edge.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-scm-datacenter.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-scm.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-gitops-controller.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-gitops.png[250, 200]
-image:detail-diagrams/edge-medical-diagnosis-database.png[250, 200]
---

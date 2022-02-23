@@ -136,21 +136,3 @@ collection. This ensures a near real-time view can be given on all events driven
 ** In the iDaaS knowledge conformance element one finds the insights exposed for an organisations review / reporting
 around their data compliance needs. It also shows the access given to an organisation's compliance officer for monitoring
 and reporting.
-
-
-== Extra detail
-
-These are the detailed diagrams for specific elements from the schematic diagrams above:
-
---
-image:detail-diagrams/idaas-api-management.png[250, 200]
-image:detail-diagrams/idaas-connect-event.png[250, 200]
-image:detail-diagrams/idaas-event-builder.png[250, 200]
-image:detail-diagrams/idaas-connect-microservices.png[250, 200]
-image:detail-diagrams/idaas-integration-data.png[250, 200]
-image:detail-diagrams/idaas-connect-data-distribution.png[250,200]
-image:detail-diagrams/idaas-external-reporting-service.png[250,200]
-image:detail-diagrams/idaas-intelligent-data-router.png[250,200]
-image:detail-diagrams/idaas-msg-transformation.png[250, 200]
---
-
