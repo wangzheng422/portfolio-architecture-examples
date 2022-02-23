@@ -77,15 +77,3 @@ pysical data center, a private cloud, or in any public clouds desired. Quay is u
 the cloud services provided by insights and automation repositories. If needed, remediation can be triggered by
 smart management and automation orchestration will take action as defined in the automation playbooks to fix
 deployments.
-
-== Extra detail
-
-These are the detailed diagrams for specific elements from the schematic diagrams above:
-
---
-image:detail-diagrams/cloud-adoption-smart-management.png[250, 200]
-image:detail-diagrams/cloud-adoption-automation.png[250, 200]
-image:detail-diagrams/cloud-adoption-scm.png[250, 200]
-image:detail-diagrams/cloud-adoption-image-store.png[250, 200]
---
-
