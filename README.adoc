@@ -46,7 +46,7 @@ resilient, semi-autonomous applications.
 |link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
 |Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
 
-|link:financial-services.adoc[Financial]
+|link:finance.adoc[Finance]
 |This is a *collection of various architectures* in the financial services domain. Financial services institutions
 understand that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere,
 and are therefore accelerating adoption of digital technologies to enable a variety of new offerings.
@@ -80,6 +80,12 @@ without perceiving any interruption.
 |link:omnichannel.adoc[Omnichannel customer experience]
 |Omnichannel implies integration and orchestration of channels such that the experience of engaging across all the
 channels someone chooses to use.
+
+//|link:openbanking.adoc[Open banking]
+//|*TODO:* add open banking definition...
+
+|link:payments.adoc[Payments]
+|Financial institutions enabling customers with fast, easy to use, and safe payment services available anytime, anywhere.
 
 |link:retail.adoc[Retail]
 |This is a *collection of various architectures* in the retail domain. Retail is the process of selling consumer

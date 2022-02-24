@@ -1,0 +1,86 @@
+= Payments
+Eric D. Schabell @eschabell, Ramon Villarreal @rvillarr
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
+
+This architecture covers the use case around using payments architecture in the financial services domain. An offering
+of (near) real-time payments lets businesses, consumers, and even governments send and accept funds that provide both
+availability to the recipient and instant confirmation to the sender. Enabling real-time - or at least faster - payments
+that improve the speed of online payment experiences to customers has the potential to give banks a greater opportunity
+to win, serve, and retain their customers. By building solutions that capture real-time payment business, banks also
+can drive higher payment volumes, ideally at lower costs as well as engage new customer segments.
+
+*Use case:* Financial institutions enabling customers with fast, easy to use, and safe payment services available
+anytime, anywhere.
+
+--
+image:intro-marketectures/payments-marketing-slide.png[750,700]
+--
+
+Open the  diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
+content.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/fsi-payments.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/fsi-payments.drawio?inline=false[[Download Diagram]]
+--
+
+== The technology
+--
+image:logical-diagrams/fsi-payments-ld.png[350,300]
+--
+
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of applications, the cloud-native way. Built on proven open source technologies, it also provides development teams multiple modernization options to enable a smooth transition to the cloud for existing applications.
+
+** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize your APIs on an infrastructure platform built for performance, customer control, and future growth.
+
+** *Red Hat Business Automation* is an application development platform that enables developers and business experts to create cloud-native applications that automate business operations.
+
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
+
+** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
+quickly and efficiently across clouds.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
+
+== Payment calculations
+--
+image:schematic-diagrams/fsi-payments-calculations-sd.png[350,300]
+--
+
+*TODO:* description...
+
+== Immediate payments
+--
+image:schematic-diagrams/fsi-payments-immediate-payments-sd.png[350,300]
+image:schematic-diagrams/fsi-payments-immediate-payments-data-sd.png[350,300]
+--
+
+*TODO:* description...
+
+== Anti-money laundering (AML)
+--
+image:schematic-diagrams/fsi-payments-anti-money-laundering-sd.png[350,300]
+--
+
+*TODO:* description...
+
+== Fraud detection
+--
+image:schematic-diagrams/fsi-payments-fraud-detection-sd.png[350,300]
+--
+
+*TODO:* description...

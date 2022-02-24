@@ -1,0 +1,40 @@
+= Open banking
+Ramon Villarreal @rvillarr
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
+
+This architecture covers the use case around using open banking in financial services institutions. They understand
+that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere, and are therefore
+accelerating adoption of digital technologies to enable a variety of new offerings.
+
+*Use case:* TODO, add open banking use case definition.
+
+*TODO:* add marketecture image...
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/fsi-openbanking.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/fsi-openbanking.drawio?inline=false[[Download Diagram]]
+--
+
+== The technology
+--
+image:logical-diagrams/fsi-openbanking-ld.png[350,300]
+--
+
+*TODO:* add description...
+
+== An overview
+--
+image:schematic-diagrams/fsi-openbanking-sd.png[350,300]
+image:schematic-diagrams/fsi-openbanking-data-sd.png[350,300]
+--
+
+*TODO:* add description...
