@@ -4,7 +4,8 @@
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
-
+:toc: left
+:toclevels: 5
 
 Cloud native development is an approach to building and running applications to fully use the advantages of the
 cloud computing model (i.e., responsive, elastic, and resilient applications). Red Hat empowers organizations to
@@ -20,45 +21,155 @@ the foundation for newer development models such as serverless computing and Fun
 Use case: Cloud native development is an approach to building and running applications to fully exploit the
 advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams
-use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
-content.
+--
+image:intro-marketectures/cnd-marketing-slide.png[750,700]
+--
 
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-native-development.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-native-development.drawio?inline=false[[Download Diagram]]
 --
 
---
-image:intro-marketectures/cnd-marketing-slide.png[750,700]
---
-
+== The technology
 --
 image:logical-diagrams/cloud-native-development-ld.png[350, 300]
 image:logical-diagrams/cloud-native-development-details-ld.png[350,300]
+--
+
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of applications, the cloud-native way. Built on proven open source technologies, it also provides development teams multiple modernization options to enable a smooth transition to the cloud for existing applications.
+
+** *Red Hat Business Automation* is an application development platform that enables developers and business experts to create cloud-native applications that automate business operations.
+
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
+
+** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
+quickly and efficiently across clouds.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
+
+== Development with local containers
+--
 image:schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[350, 300]
 image:schematic-diagrams/cloud-native-development-local-containers-process-sd.png[350, 300]
+--
+
+The first diagram is for simple application with runtimes and integration, the second is one leveraging business
+automation. Both are examples of a cloud native developer working on a stack including tooling such as Git source code
+management system, maven, container tooling such as Docker or Podman, and a collection of integration tooling (here
+Java, Process Automation, and Integration). Initial testing and development continues on the local machine and once the
+developer is satisfied one of several options are available to start the push of her code to the central development
+infrastructure. This can be one of several methods as depicted (hooks, plugins, or uploads) to start a CI/CD image
+build. Once built and development testing passed, image tagged as a devImage and placed into the image registry.
+Registry management tooling such as community project Skopeo then generates a copy to the test infrastructure after
+CI/CD testing passed (not shown in detail here), tagging image as testImage and copied as shown. All test tagged images
+can then be deployed in the test infrastructure OpenShift Container Platform for further testing on the road to
+production.
+
+== Development with remote containers
+--
 image:schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png[350, 300]
 image:schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[350, 300]
+--
+
+The first diagram is for simple application with runtimes and integration, the second is one leveraging business
+automation. Both are examples of a cloud native developer working on a stack including tooling such as Git source code
+management system, maven, container tooling from OpenShift client, and a collection of runtimes (here Java, Spring Boot,
+and Integration). Initial testing and development continues on the local machine and once the developer is satisfied
+one of several options are available to start the push of her code to the central CI/CD cluster. This can be one of
+several methods as depicted (hooks, plugins, or uploads) to start a CI/CD image build. Once built the image is tagged
+as a ‘devImage’ it’s pushed to the development image registry for deployment to the central development infrastructure
+cluster. Testing via CI/CD on development image eventually passes and image tagged as a ‘testImage’ and placed into the
+test infrastructure cluster for deployment. The process continues (outside this diagram to further test on the road to
+production.
+
+
+== Development deployments
+--
 image:schematic-diagrams/cloud-native-development-deployment-sd.png[350, 300]
+--
+
+This is an example of a cloud native deployment with a developer working on a stack and pushing work to the CI/CD
+platform using OpenShift client tooling [1]. The CI / CD platform takes the code and initiates a source-to-image
+workflow [2] building the container image to specification provided in a build configuration. When the build completes,
+a dev image is tagged and placed into a transient image registry [3] that collects development images. The central
+enterprise registry is managed by Red Hat Quay, pulling development images into the enterprise registry as they become
+available [4] and pushes them out to the development infrastructure image registry (Dev cluster) [5] for further
+deployment and testing [6].
+
+As testing passes in the development infrastructure using CI / CD platform, the image is then tagged for testing and
+pulled into the enterprise registry [7]. All test tagged images are then pushed to the test infrastructure clusters
+image registry [8] for further deployment and testing [9]. Finally, after testing passes in CI / CD platform for
+testing infrastructure the image is then tagged for production and pulled into the enterprise registry [10]. All
+production tagged images are then pushed to the prod infrastructure clusters image registry [11] for further deployment
+and use [12].
+
+== Development enterprise deployments
+--
 image:schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[350, 300]
+--
+
+Here is an example of a cloud native deployment with a developer working on a stack and pushing work to the CI/CD
+platform using their preferred tooling, such as OpenShift client tooling [1]. The CI / CD platform takes the code and
+initiates building the container image to specification. When the build completes, a dev image is tagged and placed
+into a transient image registry [2] that collects development images. The central enterprise registry is managed by
+Red Hat Quay, pulling development images into the sandbox registry as they become available [3]. Here in the sandbox
+registry all untrusted and third-party images are collected for testing before exposing them to the organization beyond
+development infrastructure. The sandbox development image is pushed out to the development infrastructure cluster image
+registry [5] for further deployment and testing [6].  As testing passes in the development infrastructure using CI/CD
+platform (this might include for example security checks), the image is then tagged for testing and pulled into the
+enterprise registry [7]. All test tagged images are then pushed to the test infrastructure clusters image registry [8]
+for further deployment and testing [9]. Finally, after testing passes in CI / CD platform for testing infrastructure
+the image is then tagged for production and pushed to the production infrastructure cluster image registry [10] for
+further deployment and use [11].
+
+== Development and deployment with Python
+--
 image:schematic-diagrams/cloud-native-development-deployment-with-python.png[350, 300]
+--
+
+Now an example of a cloud native deployment for Python projects: Python developer starts working on a stack. To test
+applications an image can be built using OpenShift client tooling to test in the developer environment [1]. Then it can
+be deployed in the dev environment of the developer [2]. Once a developer is satisfied can push changes using Git in
+the repository where all source code is saved and shared [3]. The CI/CD platform takes the code and initiates a
+source-to-image workflow once a new tag is created [4], [5], building the container image to specification provided
+in a build configuration. When the build completes, an image is tagged and placed into a transient image registry [6]
+that collects development images. The central enterprise registry is managed by Red Hat Quay, images into the
+enterprise registry will have a tag and Git repository will be updated with new tagged images created [7]. Using CD
+platform (e.g. ArgoCD) images can be automatically synced in test infrastructure registry and deployed [9], [10], [11].
+Once the test environment is stable, developers can decide to update Git repository and add tag to image for stage.
+The CD platform will automatically sync everything in the cluster. Finally once the application works as expected, it
+can be moved to prod using a similar approach. [9], [10], [11].
+
+== Development with Python and AI support
+--
 image:schematic-diagrams/cloud-native-development-deployment-with-thoth.png[350, 300]
 --
 
---
-image:detail-diagrams/developer-ide.png[250, 200]
-image:detail-diagrams/maven-repo.png[250, 200]
-image:detail-diagrams/scm-system.png[250, 200]
-image:detail-diagrams/runtimes-frameworks.png[250, 200]
-image:detail-diagrams/integration-frameworks.png[250, 200]
-image:detail-diagrams/container-tooling.png[250, 200]
-image:detail-diagrams/ci-cd-platform.png[250, 200]
-image:detail-diagrams/image-registry.png[250, 200]
-image:detail-diagrams/registry-management.png[250, 200]
-image:detail-diagrams/s2i-workflow.png[250, 200]
-image:detail-diagrams/sandbox-registry.png[250, 200]
-image:detail-diagrams/enterprise-registry.png[250, 200]
---
-
+Finally, an example of a cloudnative deployment for Python projects with AI support (Project Thoth): Python developer
+starts working on a stack. To test applications an image can be built using OpenShift client tooling to test in the
+developer environment [1]. Then it can be deployed in the dev environment of the developer [2]. Once a developer is
+satisfied can push changes using Git in the repository where all source code is saved and shared [3]. Project Thoth
+services for developers (CLI, Jupyter tools) can be used to enhance developer dependency management to receive a stack
+that satisfies requirements of the user in terms of type of recommendation, runtime environment). Project Thoth
+services through Bots can be used to maintain software stacks fresh and updated, avoiding CVE and providing
+recommendation to users. The CI / CD delivery platform takes the code and initiates a source-to-image workflow once a
+new tag is created [4], [5], building the container image to specification provided in a build configuration. When
+any of the pipelines finishes, an image or images are tagged and placed into a transient image registry [6] that
+collects development images. The central enterprise registry is managed by Red Hat Quay, images into the enterprise
+registry will have a tag and Git repository will be updated with new tagged images created [7]. Using CD platform
+(e.g. Openshift GitOps) images can be automatically synced in test infrastructure registry and deployed [9], [10], [11].
+Once the test environment is stable, developers can decide to update Git repository and add tag to image for stage.
+The CD platform will automatically sync everything in the cluster. Finally once the application works as expected, it
+can be moved to prod using a similar approach [9], [10], [11].
