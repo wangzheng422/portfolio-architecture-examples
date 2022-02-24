@@ -32,8 +32,9 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 == The technology
 --
-image:logical-diagrams/omnichannel-customer-experience-ld.png[350,300]
-image:logical-diagrams/omnichannel-customer-experience-details-ld.png[350,300]
+image:logical-diagrams/omnichannel-customer-experience-ld.png[750,700]
+
+image:logical-diagrams/omnichannel-customer-experience-details-ld.png[750,700]
 --
 
 * The following technology was chosen for this solution:
@@ -60,7 +61,7 @@ virtual, container, and all types of cloud environments.
 
 == Process integration example
 --
-image:schematic-diagrams/omnichannel-process-integration-sd.png[350,300]
+image:schematic-diagrams/omnichannel-process-integration-sd.png[750,700]
 --
 
 Example of a process application deployed in a mobile applications making calls through the API Gateway to leverage
@@ -70,7 +71,7 @@ storage as an example. Not showing monitoring.
 
 == Mobile integration example
 --
-image:schematic-diagrams/omnichannel-mobile-integration-sd.png[350,300]
+image:schematic-diagrams/omnichannel-mobile-integration-sd.png[750,700]
 --
 
 Example of a mobile application making calls through the API Gateway to leverage both Frontend Microservices and Mobile
@@ -79,7 +80,7 @@ Container Native Storage shown as the data source for mobile data consumption in
 
 == Integration service example
 --
-image:schematic-diagrams/omnichannel-integration-service-sd.png[350,300]
+image:schematic-diagrams/omnichannel-integration-service-sd.png[750,700]
 --
 
 Example use of integration microservices with web ui making calls through the API Gateway to leverage Frontend
@@ -89,7 +90,7 @@ monitoring.
 
 == Integration data service example
 --
-image:schematic-diagrams/omnichannel-integration-data-service-sd.png[350,300]
+image:schematic-diagrams/omnichannel-integration-data-service-sd.png[750,700]
 --
 
 Example use of integration microservices with web ui making calls through the API Gateway to leverage Frontend
@@ -99,7 +100,7 @@ Not showing monitoring.
 
 == Process integration with third-party
 --
-image:schematic-diagrams/omnichannel-integration-3rd-party-service-sd.png[350,300]
+image:schematic-diagrams/omnichannel-integration-3rd-party-service-sd.png[750,700]
 --
 
 Example of a process application deployed in a mobile applications making calls through the API Gateway to leverage
@@ -109,7 +110,7 @@ as an example. Not showing monitoring.
 
 == Integration third-party services
 --
-image:schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.png[350,300]
+image:schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.png[750,700]
 --
 
 Example use of integration microservices with web ui making calls through the API Gateway to leverage Frontend

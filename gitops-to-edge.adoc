@@ -24,14 +24,14 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 == The technology
 --
-image::logical-diagrams/cloud-edge-ld.png[350,300]
+image::logical-diagrams/cloud-edge-ld.png[750,700]
 --
 *TODO:* insert technology listing.
 
 
 == Bringing cloud like capabilities to the edge locations
 --
-image::schematic-diagrams/cloud-edge-gitops-sd.png[350,300]
-image::schematic-diagrams/cloud-edge-gitops-network-sd.png[350,300]
+//image::schematic-diagrams/cloud-edge-gitops-sd.png[750,700]
+image::schematic-diagrams/cloud-edge-gitops-network-sd.png[750,700]
 --
 *TODO:* insert descriptions of the SD's.

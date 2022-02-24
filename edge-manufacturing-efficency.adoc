@@ -30,7 +30,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 == The technology
 --
-image:logical-diagrams/industrial-edge-ld.png[350, 300]
+image:logical-diagrams/industrial-edge-ld.png[750, 700]
 --
 * The following technology was chosen for this solution:
 
@@ -62,12 +62,12 @@ virtual, container, and all types of cloud environments.
 
 == Edge manufacturing with messaging and ML
 --
-image:schematic-diagrams/industrial-edge-devops-sd.png[350, 300]
+image:schematic-diagrams/industrial-edge-devops-sd.png[750, 700]
 --
 *TODO:* description here...
 
 == Edge manufacturing with GitOps
 --
-image:schematic-diagrams/industrial-edge-gitops-sd.png[350, 300]
+image:schematic-diagrams/industrial-edge-gitops-sd.png[750, 700]
 --
 *TODO:* description here...
