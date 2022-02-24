@@ -32,10 +32,16 @@ inventories).
 |Cloud native development is an approach to building and running applications to fully exploit the advantages of the
 cloud computing model (i.e. responsive, elastic and resilient applications).
 
+|link:datacenter-to-edge.adoc[Data center to edge]
+|Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
+
 |link:edge.adoc[Edge]
 |This is a *collection of various architectures* for edge computing. Customers are increasing looking to edge
 computing to improve operational efficiencies, enhance end-user experiences, meet data residency requirements, and run
 resilient, semi-autonomous applications.
+
+|link:edge-manufacturing-efficency.adoc[Edge manufacturing efficiency]
+|Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
 
 |link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
 |Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.

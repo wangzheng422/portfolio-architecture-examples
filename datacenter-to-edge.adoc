@@ -1,0 +1,37 @@
+= Data center to edge
+ Ishu Verma  @ishuverma, Francesco Rossi
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
+
+This architecture covers the use case around data center to edge where the energy (utility) infrastructure companies
+operate across vast geographical area that connects the upstream drilling operations with downstream fuel processing
+and delivery to customers. These companies need to monitor the condition of pipeline and other infrastructure for
+operational safety and optimization.
+
+*Use case:* Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
+
+--
+image:intro-marketectures/datacenter-to-edge-marketing-slide.png[750,700]
+--
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/datacenter-to-edge.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/datacenter-to-edge.drawio?inline=false[[Download Diagram]]
+--
+
+== The technology
+--
+image::logical-diagrams/datacenter-to-edge-ld.png[350,300]
+--
+
+--
+image::schematic-diagrams/datacenter-to-edge-data-sd.png[350,300]
+image::schematic-diagrams/datacenter-to-edge-management-sd.png[350,300]
+--
