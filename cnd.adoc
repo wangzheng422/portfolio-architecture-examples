@@ -36,8 +36,8 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 == The technology
 --
-image:logical-diagrams/cloud-native-development-ld.png[350, 300]
-image:logical-diagrams/cloud-native-development-details-ld.png[350,300]
+image:logical-diagrams/cloud-native-development-ld.png[750, 700]
+//image:logical-diagrams/cloud-native-development-details-ld.png[750,700]
 --
 
 * The following technology was chosen for this solution:
@@ -61,8 +61,8 @@ virtual, container, and all types of cloud environments.
 
 == Development with local containers
 --
-image:schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[350, 300]
-image:schematic-diagrams/cloud-native-development-local-containers-process-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[750, 700]
+//image:schematic-diagrams/cloud-native-development-local-containers-process-sd.png[750, 700]
 --
 
 The first diagram is for simple application with runtimes and integration, the second is one leveraging business
@@ -79,8 +79,8 @@ production.
 
 == Development with remote containers
 --
-image:schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png[350, 300]
-image:schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png[750, 700]
+//image:schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[350, 300]
 --
 
 The first diagram is for simple application with runtimes and integration, the second is one leveraging business
@@ -97,7 +97,7 @@ production.
 
 == Development deployments
 --
-image:schematic-diagrams/cloud-native-development-deployment-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-deployment-sd.png[750, 700]
 --
 
 This is an example of a cloud native deployment with a developer working on a stack and pushing work to the CI/CD
@@ -117,7 +117,7 @@ and use [12].
 
 == Development enterprise deployments
 --
-image:schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[350, 300]
+image:schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[750, 700]
 --
 
 Here is an example of a cloud native deployment with a developer working on a stack and pushing work to the CI/CD
@@ -136,7 +136,7 @@ further deployment and use [11].
 
 == Development and deployment with Python
 --
-image:schematic-diagrams/cloud-native-development-deployment-with-python.png[350, 300]
+image:schematic-diagrams/cloud-native-development-deployment-with-python.png[750, 700]
 --
 
 Now an example of a cloud native deployment for Python projects: Python developer starts working on a stack. To test
@@ -154,7 +154,7 @@ can be moved to prod using a similar approach. [9], [10], [11].
 
 == Development with Python and AI support
 --
-image:schematic-diagrams/cloud-native-development-deployment-with-thoth.png[350, 300]
+image:schematic-diagrams/cloud-native-development-deployment-with-thoth.png[750, 700]
 --
 
 Finally, an example of a cloudnative deployment for Python projects with AI support (Project Thoth): Python developer

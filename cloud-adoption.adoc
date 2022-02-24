@@ -29,7 +29,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 == The technology
 --
-image:logical-diagrams/cloud-adoption-ld.png[350, 300]
+image:logical-diagrams/cloud-adoption-ld.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -63,8 +63,8 @@ virtual, container, and all types of cloud environments.
 
 == Cloud adoption overview
 --
-image:schematic-diagrams/cloud-adoption-network-sd.png[350, 300]
-image:schematic-diagrams/cloud-adoption-data-sd.png[350, 300]
+//image:schematic-diagrams/cloud-adoption-network-sd.png[750, 700]
+image:schematic-diagrams/cloud-adoption-data-sd.png[750, 700]
 --
 
 * This is an overview look at cloud adoption, providing the solution details and the elements described above

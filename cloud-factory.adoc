@@ -28,7 +28,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 == The technology
 --
-image:logical-diagrams/cloud-factory-ld.png[350, 300]
+image:logical-diagrams/cloud-factory-ld.png[750, 700]
 --
 * The following technology was chosen for this solution:
 
@@ -57,8 +57,8 @@ virtual, container, and all types of cloud environments.
 
 == Cloud factory overview
 --
-image:schematic-diagrams/cloud-factory-data-sd.png[350, 300]
-image:schematic-diagrams/cloud-factory-sd.png[350, 300]
+image:schematic-diagrams/cloud-factory-data-sd.png[750, 700]
+//image:schematic-diagrams/cloud-factory-sd.png[750, 700]
 --
 * This is an overview look at cloud factory, providing the solution details and the elements described above
 in both a network and data centric view:

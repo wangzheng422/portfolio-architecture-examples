@@ -28,10 +28,15 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 == The technology
 --
-image::logical-diagrams/datacenter-to-edge-ld.png[350,300]
+image::logical-diagrams/datacenter-to-edge-ld.png[750,700]
 --
 
+== Data center to edge
 --
-image::schematic-diagrams/datacenter-to-edge-data-sd.png[350,300]
-image::schematic-diagrams/datacenter-to-edge-management-sd.png[350,300]
+image::schematic-diagrams/datacenter-to-edge-data-sd.png[750,700]
+--
+
+== Data center to edge management
+--
+image::schematic-diagrams/datacenter-to-edge-management-sd.png[750,700]
 --

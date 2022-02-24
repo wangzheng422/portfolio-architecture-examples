@@ -61,8 +61,8 @@ virtual, container, and all types of cloud environments.
 
 == Edge medical diagnosis overview
 --
-image:schematic-diagrams/edge-medical-diagnosis-network-sd.png[350, 300]
-image:schematic-diagrams/edge-medical-diagnosis-data-sd.png[350, 300]
+image:schematic-diagrams/edge-medical-diagnosis-network-sd.png[750, 700]
+//image:schematic-diagrams/edge-medical-diagnosis-data-sd.png[750, 700]
 --
 
 * This is an overview look at edge medical diagnosis, providing the solution details and the elements described above
@@ -84,8 +84,8 @@ teams are maintaining code and infrastructure manifests for full GitOps deployme
 
 == Edge medical diagnosis with GitOps
 --
-image:schematic-diagrams/edge-medical-diagnosis-gitops-sd.png[350, 300]
-image:schematic-diagrams/edge-medical-diagnosis-gitops-data-sd.png[350, 300]
+image:schematic-diagrams/edge-medical-diagnosis-gitops-sd.png[750, 700]
+//image:schematic-diagrams/edge-medical-diagnosis-gitops-data-sd.png[750, 700]
 --
 
 * GitOps delivery and development are essential to a fully automated cloud hosted solution:
