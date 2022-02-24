@@ -27,9 +27,16 @@ image:intro-marketectures/scada-interface-marketing-slide.png[750,700]
 --
 
 --
-image:logical-diagrams/scada-interfaces-ld.png[350, 300]
-image:schematic-diagrams/scada-interfaces-network-sd.png[350, 300]
-image:schematic-diagrams/scada-interfaces-data-sd.png[350, 300]
+image:logical-diagrams/scada-interfaces-ld-general.png[350, 300]
+image:logical-diagrams/scada-interfaces-ld-nerc.png[350, 300]
+image:logical-diagrams/scada-interfaces-ld-enterprise.png[350, 300]
+image:logical-diagrams/scada-interfaces-ld-control.png[350, 300]
+image:schematic-diagrams/scada-interfaces-network-sd-general.png[350, 300]
+image:schematic-diagrams/scada-interfaces-network-sd-enterprise.png[350, 300]
+image:schematic-diagrams/scada-interfaces-network-sd-nerc.png[350, 300]
+image:schematic-diagrams/scada-interfaces-data-sd-general.png[350, 300]
+image:schematic-diagrams/scada-interfaces-data-sd-enterprise.png[350, 300]
+image:schematic-diagrams/scada-interfaces-data-sd-nerc.png[350, 300]
 --
 
 --
