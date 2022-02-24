@@ -22,4 +22,8 @@ resilient, semi-autonomous applications.
 
 |link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
 |Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
+
+|link:scada-interface.adoc[SCADA interface modernisation]
+|Provide interfaces with SCADA systems that are compliant with NERC regulations, creating different layers of API
+gateways to protect business service depending on the network zones.
 |===
