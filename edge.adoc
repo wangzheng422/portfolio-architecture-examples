@@ -10,28 +10,16 @@ This is a collection of various architectures for edge computing. Customers are 
 computing to improve operational efficiencies, enhance end-user experiences, meet data residency requirements, and run
 resilient, semi-autonomous applications.
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
+[cols="3,7"]
+|===
+|Title | Description
 
-== Use case 1: Bringing cloud like capabilities to the edge locations
+|link:datacenter-to-edge.adoc[Data center to edge]
+|Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
 
+|link:edge-manufacturing-efficency.adoc[Edge manufacturing efficiency]
+|Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
 
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-edge.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-edge.drawio?inline=false[[Download Diagram]]
---
-
---
-image::logical-diagrams/cloud-edge-ld.png[350,300]
-image::schematic-diagrams/cloud-edge-gitops-sd.png[350,300]
-image::schematic-diagrams/cloud-edge-gitops-network-sd.png[350,300]
---
-
---
-image:detail-diagrams/datacenter-to-edge-imageregistry-cdc-dtl.png[250,200]
-image:detail-diagrams/datacenter-to-edge-imageregistry-cloud-dtl.png[250, 200]
-image:detail-diagrams/datacenter-to-edge-mgmt-agent-dtl.png[250, 200]
-image:detail-diagrams/datacenter-to-edge-mgmt-contrlr-dtl.png[250, 200]
-image:detail-diagrams/datacenter-to-edge-microservice-edge-dtl.png[250, 200]
---
+|link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
+|Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
+|===

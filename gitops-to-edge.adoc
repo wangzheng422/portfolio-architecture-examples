@@ -1,0 +1,37 @@
+= GitOps to the Edge
+ Ishu Verma  @ishuverma
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
+
+This is an architecture for edge computing that focuses on delivery and operations based on GitOps. Customers are
+increasing looking to edge computing to improve operational efficiencies, enhance end-user experiences, meet data
+residency requirements, and run resilient, semi-autonomous applications.
+
+*TODO:* insert marketecture
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-edge.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-edge.drawio?inline=false[[Download Diagram]]
+--
+
+== The technology
+--
+image::logical-diagrams/cloud-edge-ld.png[350,300]
+--
+*TODO:* insert technology listing.
+
+
+== Bringing cloud like capabilities to the edge locations
+--
+image::schematic-diagrams/cloud-edge-gitops-sd.png[350,300]
+image::schematic-diagrams/cloud-edge-gitops-network-sd.png[350,300]
+--
+*TODO:* insert descriptions of the SD's.

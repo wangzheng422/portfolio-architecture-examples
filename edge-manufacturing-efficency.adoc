@@ -1,0 +1,73 @@
+= Edge Manufacturing Efficiency
+Ishu Verma  @ishuverma, William Henry @ipbabble,
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
+
+This architecture covers edge manufacturing efficiency. The manufacturing industry has consistently used technology to
+fuel innovation, production optimization and operations. Now, with the combination of edge computing and AI/ML,
+manufacturers can benefit from bringing processing power closer to data. This helps actions be taken faster on things
+like errors and predictive maintenance.
+
+*Use case:* Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out
+to the edge.
+
+--
+image:intro-marketectures/edge-manufacturing-efficency-marketing-slide.png[750,700]
+--
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/edge-manufacturing-efficiency.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/edge-manufacturing-efficiency.drawio?inline=false[[Download Diagram]]
+--
+
+== The technology
+--
+image:logical-diagrams/industrial-edge-ld.png[350, 300]
+--
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
+provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
+applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
+multiple modernization options to enable a smooth transition to the cloud for existing applications.
+
+** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
+the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
+data with high throughput and low latency.
+
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+data across hybrid infrastructures.
+
+** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
+quickly and efficiently across clouds.
+
+** *Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
+built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
+enforcing policies across multiple clusters at scale.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
+
+== Edge manufacturing with messaging and ML
+--
+image:schematic-diagrams/industrial-edge-devops-sd.png[350, 300]
+--
+*TODO:* description here...
+
+== Edge manufacturing with GitOps
+--
+image:schematic-diagrams/industrial-edge-gitops-sd.png[350, 300]
+--
+*TODO:* description here...
