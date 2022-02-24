@@ -18,7 +18,7 @@ Combined with robust automation, they allow businesses to make high-impact appli
 and predictably with minimal effort and risk. Additionally, cloud native architecture and technologies provide
 the foundation for newer development models such as serverless computing and Functions-as-a-Service.
 
-Use case: Cloud native development is an approach to building and running applications to fully exploit the
+*Use case:* Cloud native development is an approach to building and running applications to fully exploit the
 advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).
 
 --
