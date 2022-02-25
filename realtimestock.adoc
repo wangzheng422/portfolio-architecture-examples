@@ -32,11 +32,43 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:logical-diagrams/retail-stock-control-ld.png[750, 700]
 --
 
-*TODO:* add tech...
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+data across hybrid infrastructures.
+
+** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
+the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
+data with high throughput and low latency.
+
+** *Red Hat Business Automation* is an application development platform that enables developers and business experts
+to create cloud-native applications that automate business operations.
+
+** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
+your APIs on an infrastructure platform built for performance, customer control, and future growth.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
 
 == Real-time stock control example
 --
 image:schematic-diagrams/retail-stock-control-sd.png[750, 700]
 --
 
-*TODO:* add description...
+Stock control changes are needed anytime interactions happen with customers, store associates, vendors, suppliers, and
+partners. Customer purchase stock, triggering changes to be made to the inventory lists. Vendors delivery shipments
+to warehouses that require updating and processing of orders both in the warehouse inventory and to notify store of the
+stock availability. Just a few examples of this architecture in action. The update or change request comes into the
+API management and is processed by the available to sell services which trigger events. The event streams can kick off
+long running processes that can, over time, require input from the external sources. The promotions and payments
+services both are used to update their respective activities; a sale of an item of stock, or the inclusion of a
+promotion on an item of stock.
+
+The vendors, suppliers, and partners are shown with access to integration services that modify catalog management
+systems, logistics systems, supply chain systems, and order management systems that can be anywhere external to the
+organisation. Integration data services provide connectinos to the
+link:retaildataframework.adoc[retail data framework architecture].

@@ -20,7 +20,7 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 |===
 |Title | Description
 
-|link:businessoptimization.adoc[Business optimisation]]
+|link:businessoptimization.adoc[Business optimisation]
 |Optimizing delivery routing, automating rostering of staff, and improving efficiency of tasks across multiple stores.
 
 |link:cloud-adoption.adoc[Cloud adoption]
