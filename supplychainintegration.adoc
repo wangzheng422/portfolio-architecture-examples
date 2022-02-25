@@ -33,38 +33,34 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:logical-diagrams/retail-supply-chain-ld.png[750, 700]
 --
 
-*TODO:* add tech...
+* The following technology was chosen for this solution:
 
-*Container Platform*
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-The container platform provides for one consistent environment for developers and operations to manage services, applications, integration points, process integration, planning services, and security.
-Supply chain microservices is used for centralizing all interactions with supply chain relevant systems of record and provides access to other services. An api management element for well defined access to services and events, and both message transformation and event streaming services to react and transform communication messages across the platform. 
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+data across hybrid infrastructures.
 
-*Infrastructure Services*
+** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
+the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
+data with high throughput and low latency.
 
-Single-sign-on (SSO) ensures a smooth interaction between processes, authorization, authentication, and integration services. The AI / Machine Learning platform, can be any modern data platform managed and deployed in an organization's infrastructure to support the retail usage of AI / ML by ensuring access to supply chain data.
+** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
+your APIs on an infrastructure platform built for performance, customer control, and future growth.
 
-*External Systems*
-
-Any third party backend system used by the customer.
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
 
 == Example supply chain integration
 --
 image:schematic-diagrams/retail-supply-chain-sd.png[750, 700]
 --
 
-*TODO:* add description...
-
-*Example* 
-
-There are suppliers, order managers, warehouse management staff, and any number of third-party supply chain systems that need to have access to providing data to and from the supply chain systems. 
-
-Using API management regulates the authorization and authentication before access is granted to the integration framework. The use of event streams indicates there is an attempt to provide quick processing and action around events in the supply chain lifecycle. This allows for up-to-the-minute reporting on data, supply volumes, and other interesting data for the retail organization.
-
-Message transformation is a core need when connecting systems and data messages through an integration backend, as not all messages are going to map easily from one system to another, or from one microservice to another. Using a transformation service allows for a consistent data model for the organization regardless of the destination endpoint needs. 
-
-The core integration framework is found in the supply chain microservices, a collection of microservice integrations that manages all the needs of the actors directly providing or requesting information around the retail supply chain.
-
-Supporting access to the Retail Data Framework you'll find integration data microservices specifically helping with data access and processing.  Integration microservices tie together all external systems such as third-party supply chain systems and any eventual use of an AI / Machine Learning platform.
-
-The core to supply chain integration remains a solid fundamental need for cloud-native integration technologies and ongoing maintenance structures in a retail organization to support them.
+Access to the supply chain is via devices and applications used by suppliers, vendors, warehouse inventory, and order
+management. They are channeled through API management and generate an event stream that triggers any number of supply
+chain services to achieve the updates needed. These messages might need transforming before they are able to continue
+onwards through integration or data integration services to backend systems. In this diagram several external platforms
+are show being leveraged by this retail organisation; an AI/ML platform and a generic placeholder for any third-party
+supply chain systems of record. Finally, the data integration is connecting to the
+link:retaildataframework.adoc[retail data framework architecture].

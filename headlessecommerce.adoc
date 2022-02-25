@@ -33,49 +33,79 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:logical-diagrams/retail-headless-ecommerce-ld.png[750, 700]
 --
 
-*TODO:* add tech...
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
+applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
+multiple modernization options to enable a smooth transition to the cloud for existing applications.
+
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+data across hybrid infrastructures.
+
+** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
+the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
+data with high throughput and low latency.
+
+** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
+your APIs on an infrastructure platform built for performance, customer control, and future growth.
+
+** *Red Hat Business Automation* is an application development platform that enables developers and business experts
+to create cloud-native applications that automate business operations.
+
+** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
+quickly and efficiently across clouds.
+
+** *Red Hat Ceph Storage* is an open, massively scalable, simplified storage solution for modern data pipelines.
+Engineered for data analytics, artificial intelligence/machine learning (AI/ML), and emerging workloads, it delivers
+software-defined storage on your choice of industry-standard hardware.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
 
 == Headless e-commerce local development
 --
 image:schematic-diagrams/retail-headless-ecommerce-local-sd.png[750, 700]
 --
 
-*TODO:* add description...
+The developer is central to delivering the components used in this architecture. The developer IDE is the tooling the
+developer codes in. A source code management repository is used in some form. For this a Git-based repository was used.
+Integration is based on Camel, Fuse, and often a collection of Java runtimes. All the work is done using local
+container tooling and triggers builds with git hooks, maven plugins, or file uploads.
+
+A container platform hosting the continuous integration (CI) and continuous development (CD) tooling is the main
+element in the dev infrastructure. The SCM repository represents the connection between developer nd collecting project
+artifacts for use in the container CI/CD platform for testing , tagging, and finalising of images for the image
+management to process out into the test infrastructure.
+
+The test environment is used to roll out the entire headless e-commerce suite of services, web application, and
+messaging. These are tied to external integration services and the testing web application. The process continues on
+through more environments until the organisation is satisfied to push to production, which is not shown in this diagram
+due to space.
 
 == Headless e-commerce remote development
 --
 image:schematic-diagrams/retail-headless-ecommerce-remote-sd.png[750, 700]
 --
 
-*TODO:* add description...
+The developer is central to delivering the components used in this architecture. The developer IDE is the tooling the
+developer codes in. A source code management repository is used in some form. For this a Git-based repository was used.
+Integration is based on Camel, Fuse, and often a collection of Java runtimes. All the work is done using remote
+container tooling and triggers builds with git hooks, maven plugins, or OpenShift client tooling.
 
+A container platform hosting the continuous integration (CI) and continuous development (CD) tooling is the main
+element in the dev infrastructure. The SCM repository represents the connection between developer nd collecting project
+artifacts for use in the container CI/CD platform for testing , tagging, and finalising of images for the image
+management to process out into the test infrastructure. A source-to-image process is triggered by the remote tooling
+and the code it pulled into a container build process, which is then pushed into the CI/CD testing for eventual tagging.
+Once tagged it is placed in the container platform registry which rolls out a dev environment of the headless
+e-commerce for developer testing. Once satisfied, it's tagged for test, the next step.
 
-*Developer*
-
-The developer is central to delivering the components used in this architecture. The developer IDE is the tooling the developer codes in. A source code management repository is used in some form. For this a Git-based repository was used. Integration is based on Camel, Fuse, and often a collection of Java runtimes.
-
-*Container Platform CI/CD*
-
-A container platform hosting the continuous integration (CI) and continuous development (CD) tooling is the main element in this group. The SCM repository represents the connection between developer nd collecting project artifacts for use in the container CI/CD platform for testing , tagging, and rolling out to various infrastructure environments in a retail organization.
-
-*Presentation Tier*
-
-This tier is used to collect the elements used for front end presentation for the headless e-commerce suite. This can be any number of applications used to interact with the e-commerce platform, but also third parties allowed to interact with the platform.
-
-All of these applications can be found in the generic element web applications, with a secondary element called frontend microservices that represent integration points for applications into the headless e-commerce platform.
-
-*Container Platform*
-
-A core element of any integration platform is to provide some form of messaging to ensure that both communication and transformation of that communication is possible across the headless e-commerce platform.
-
-Integration microservices and integration data microservices are elements that consistently provide access to backend organisational systems, data sources, and other aspects of the retail organisation such as real-time stock control solutions or the retail data framework.
-
-Customer brand adapter microservices that ensure specific focus on creating a brand connection with the customer on the platform. Customer composite microservices focus on coarser grained interactions with customers on their shopping journey in an online store. Customer anti-corruption microservices are a grouping related to the processes around payments for customers that might need access to processes around anti-money laundering or other fraud related detection mechanisms.
-
-*Infrastructure Services*
-
-The integration element here is outside of the container platform integration elements discussed above and has a focus on more legacy integration aspects of an existing retail organization.
-
-The API management element is for access to the headless e-commerce platform both by customers and also for third party connectivity.
-
-Single-sign-on (SSO) server is essential for tying in the organizational tooling for authorization and authentication to make use of components in the architecture.
+The image is pushed to the test environment and rolls out the entire headless e-commerce suite of services, web
+application, and messaging. These are tied to external integration services and the testing web application. The
+process continues on through more environments until the organisation is satisfied to push to production, which is
+not shown in this diagram due to space.

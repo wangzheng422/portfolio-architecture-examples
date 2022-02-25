@@ -32,7 +32,35 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:logical-diagrams/retail-data-framework-ld.png[750, 700]
 --
 
-*TODO:* add tech...
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
+applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
+multiple modernization options to enable a smooth transition to the cloud for existing applications.
+
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+data across hybrid infrastructures.
+
+** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
+your APIs on an infrastructure platform built for performance, customer control, and future growth.
+
+** *Red Hat Business Automation* is an application development platform that enables developers and business experts
+to create cloud-native applications that automate business operations.
+
+** *Red Hat OpenShift Data Science* is a managed cloud service for data scientists and developers of intelligent
+applications. It provides a fully supported sandbox in which to rapidly develop, train, and test machine learning (ML)
+models in the public cloud before deploying in production.
+
+** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
+quickly and efficiently across clouds.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
 
 == Example retail data framework
 --
@@ -41,4 +69,16 @@ image:schematic-diagrams/retail-data-framework-sd.png[750, 700]
 image:schematic-diagrams/retail-data-framework-data-sd.png[750, 700]
 --
 
-*TODO:* add description...
+This is a complex data story where many aspects of the retail organisation are linked to, feeding and leveraging output
+from this data framework; stores, central offices, colleagues, store associates, IoT devices, shopper insights,
+customer analytics, point of sale analytics, and much more. All of this input arrives through the API management by way
+of web applications (to simplify by grouping all access together) and is processed through data validation
+microservices. Data is also cached here for performance reasons, keeping it close to the application for access. The
+data is persisted in some form, shown here going through the data integration services to many different forms of data
+storage. The incoming data sets up and event stream, to process the messages through the process that is relating to
+this specific data request. The process will ensure message transformation if needed, do all the compliance validation
+checks before leveraging the integration services to access the core platform or data science platform as needed.
+
+The core platform can be seen as the central IT location for other compliance and regulatory tooling, data governance
+tooling, auditing tooling, and centralised authentication and authorisation tooling. The data science platform is
+where the business intelligence tooling, data visualisation tooling, and data science tooling is found.

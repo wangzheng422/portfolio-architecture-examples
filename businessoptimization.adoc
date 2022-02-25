@@ -34,18 +34,44 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image:logical-diagrams/retail-business-optimisation-ld.png[750, 700]
 --
 
-*TODO:* add tech...
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+data across hybrid infrastructures.
+
+** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
+your APIs on an infrastructure platform built for performance, customer control, and future growth.
+
+** *Red Hat Business Automation* is an application development platform that enables developers and business experts
+to create cloud-native applications that automate business operations.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
 
 == Business optimisation
 --
 image:schematic-diagrams/retail-business-optimisation-sd.png[750, 700]
 --
 
-*TODO:* add description...
+The business owners and developers are providing the goals, constraints, and resources to the retail planning services
+which then take any external triggers, external input, and data constraints from the
+link:retaildataframework.adoc[retail data framework] that might apply. Processes and data decisions might be needed to
+finalise any optimisation planning and then all of this is used to generate the planning. This plan is then sent
+to the integration services to then push to eventual external third-party systems and the retail systems for further
+processing out to the stores.
 
 == Vaccine optimisation
 --
 image:schematic-diagrams/retail-business-optimisation-vaccines-sd.png[750, 700]
 --
 
-*TODO:* add description...
+The business owners and developers are providing the goals, constraints, and resources to the vaccine planning services
+which then take any external triggers, external input, and data constraints from the vaccine centre data, vaccine
+supply data, and patient (customer) data that might apply. The external planners need to have a view of the status of
+the planning calculations and the scheduling process so they are given access through and API management element. The
+final vaccine schedule is then sent to the integration services to then ensure the vaccine appointments are sent the
+new schedule in a mobile application for the consumer to be notified.
