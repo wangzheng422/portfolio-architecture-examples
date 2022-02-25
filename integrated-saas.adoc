@@ -4,44 +4,91 @@ Eric D. Schabell @eschabell
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
+:toc: left
+:toclevels: 5
 
+Integrating with Software-as-a-Service (SaaS) applications is the process of operationally connecting SaaS solutions
+to other separate computer systems or applications into a single larger system, allowing each solution to functionally
+work together.
 
-Use case: Providing integration with SaaS applications, platforms, and services empowers organizations to build and run scalable
-applications in modern, dynamic environments such as public, private, and hybrid clouds. 
+*Use case:* Providing integration with SaaS applications, platforms, and services empowers organizations to build and
+run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
+
+--
+image:intro-marketectures/saas-integration-marketing-slide.png[750,700]
+--
 
 Open the  diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
 the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
 content.
-
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/integrate-saas-applications.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/integrate-saas-applications.drawio?inline=false[[Download Diagram]]
 --
 
+== The technology
 --
-image:intro-marketectures/saas-integration-marketing-slide.png[750,700]
+image:logical-diagrams/integrating-with-saas-applications-ld.png[750,700]
+
+image:logical-diagrams/integrating-with-saas-applications-details-ld.png[750,700]
 --
 
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of applications, the cloud-native way. Built on proven open source technologies, it also provides development teams multiple modernization options to enable a smooth transition to the cloud for existing applications.
+
+** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize your APIs on an infrastructure platform built for performance, customer control, and future growth.
+
+** *Red Hat Business Automation* is an application development platform that enables developers and business experts to create cloud-native applications that automate business operations.
+
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
+
+== External CRM integration
 --
-image:logical-diagrams/integrating-with-saas-applications-ld.png[350,300]
-image:logical-diagrams/integrating-with-saas-applications-details-ld.png[350,300]
-image:schematic-diagrams/saas-external-crm-integration-sd.png[350,300]
-image:schematic-diagrams/saas-external-crm-connector-sd.png[350,300]
-image:schematic-diagrams/saas-integration-3rd-party-platform-sd.png[350,300]
-image:schematic-diagrams/saas-integration-3rd-party-process-sd.png[350,300]
+image:schematic-diagrams/saas-external-crm-integration-sd.png[750,700]
 --
 
+The external request enters through some form of an API gateway that is backed by front end microservices used to
+access the process services. The request triggers process activity that needs to use integration microservices to
+communicate with an external SaaS CRM offering. The SSO for authentication and authorisation is added to show the
+ability to connect to existing organisational directory services.
+
+== External CRM integration connector
 --
-image:detail-diagrams/external-saas-crm.png[250,200]
-image:detail-diagrams/crm-connector.png[250,200]
-image:detail-diagrams/web-app.png[250,200]
-image:detail-diagrams/api-management.png[250,200]
-image:detail-diagrams/front-end-microservices.png[250,200]
-image:detail-diagrams/process-facade-microservices.png[250,200]
-image:detail-diagrams/integration-microservices.png[250,200]
-image:detail-diagrams/integration-data-microservices.png[250,200]
-image:detail-diagrams/sso-server.png[250,200]
-image:detail-diagrams/3rd-party-platform-services.png[250,200]
+image:schematic-diagrams/saas-external-crm-connector-sd.png[750,700]
 --
 
+The external request enters through some form of an API gateway that is backed by front end microservices used to
+access the process services. The request triggers process activity that needs to use integration microservices to
+with leverage a specialized connector to communicate with an external SaaS CRM offering. The SSO for authentication
+and authorisation is added to show the ability to connect to existing organisational directory services.
+
+== Integration third-party platform
+--
+image:schematic-diagrams/saas-integration-3rd-party-platform-sd.png[750,700]
+--
+
+The external request enters through some form of an API gateway that is backed by front end microservices used to
+access the backend systems. The request triggers the use of integration microservices to communicate with an external
+SaaS platforms services. The SSO for authentication and authorisation is added to show the ability to connect to
+existing organisational directory services.
+
+
+== Integration third-party platform process
+--
+image:schematic-diagrams/saas-integration-3rd-party-process-sd.png[750,700]
+--
+
+The external request enters through some form of an API gateway that is backed by front end microservices used to
+access the process services. The request triggers process activity that needs to use integration microservices to
+communicate with an external SaaS platforms services. It's essential that the integration services can work in both
+directions offering the SaaS platforms services the ability to trigger process activity as needed. The SSO for
+authentication and authorisation is added to show the ability to connect to existing organisational directory services.

@@ -31,12 +31,48 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 image::logical-diagrams/datacenter-to-edge-ld.png[750,700]
 --
 
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat Application Services* helps organizations use the cloud delivery model and simplify continuous delivery of
+applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
+multiple modernization options to enable a smooth transition to the cloud for existing applications.
+
+** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
+The platform includes all the tools needed to implement enterprise-wide automation.
+
+** *Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
+built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
+enforcing policies across multiple clusters at scale.
+
+** *Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
+ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
+Linux, from physical machines to hybrid multiclouds.
+
+** *Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your
+images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
+
+** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
+quickly and efficiently across clouds.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
+
+
 == Data center to edge
 --
 image::schematic-diagrams/datacenter-to-edge-data-sd.png[750,700]
 --
 
+*TODO:* add description...
+
 == Data center to edge management
 --
 image::schematic-diagrams/datacenter-to-edge-management-sd.png[750,700]
 --
+
+*TODO:* add description...

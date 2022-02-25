@@ -5,118 +5,22 @@
 :icons: font
 :source-highlighter: prettify
 
-This is a collection of various architectures in the telco domain. Some of the telco use cases cover broadband technology
-evolution like 5G while others cover infrastructure modernization like Radio Access Network.
+This is a collection of various architectures in the telco domain. Some of the telco use cases cover broadband
+technology evolution like 5G while others cover infrastructure modernization.
 
-= Telco 5G Core
+[cols="3,7"]
+|===
+|Title | Description
 
-5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge:
+|link:telco-on-premise.adoc[Telco 5G core: on-premise]
+|Ultra-reliable, immersive experiences for people and objects when and where it matters most.
 
-- Enhanced mobile broadband (eMBB)
-* 5G enhances data speeds and experiences with new radio capabilities like mmWave frequency spectrum for higher bandwidth allocation and theoretical throughput up to 20Gbps.
-- Ultra-reliable, low-latency communication (uRLLC)
-* 5G supports vertical industry requirements, including sub-millisecond latency with
-less than 1 lost packet in 105 packets.
-- Massive machine type communications (mMTC)
-* 5G supports cost-efficient and robust connection for up to 1 million mMTC, NB-IOT, and LTE-M devices per square kilometer without network overloading.
+|link:telco-5g-with-hyperscalers.adoc[Telco 5G with hyperscalers]
+|Build an adaptable, on-demand infrastructure services for 5G Core that can deliver across diverse use cases with
+minimal CAPEX and OPEX.
 
+|link:telco-radio-access-networks.adoc[Telco radio access networks]
+|The digital transformation of mobile networks  is accelerating and cloudification is increasing. Following the core
+network, radio access network (RAN) solutions are now taking advantage of the benefits of cloud computing.
+|===
 
-=== Use case 1 (On-Premise Deployment): These diagrams is how service providers can create on-premise solution for 5G Core network.
-
-==== Diagrams
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-5G.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-5G.drawio?inline=false[[Download Diagram]]
---
-
---
-image:intro-marketectures/telco-5g-on-premise-marketing-slide.png[750,700]
---
-
---
-'''
-*Logical Diagram* +
-image:logical-diagrams/telco-5g-ld.png[350, 300]
-
-
-*Schematic Diagram* +
-image:schematic-diagrams/telco-5g-sd.png[350, 300]
-image:schematic-diagrams/telco-5g-network-sd.png[350, 300]
-
-*Detail Diagrams* +
-image:detail-diagrams/telco-5g-dashboards.png[250, 200]
-image:detail-diagrams/telco-5g-database.png[250, 200]
-image:detail-diagrams/telco-5g-eventstream.png[250, 200]
-image:detail-diagrams/telco-5g-orchestration.png[250, 200]
-image:detail-diagrams/telco-5g-registry.png[250, 200]
-image:detail-diagrams/telco-5g-storage.png[250, 200]
-image:detail-diagrams/telco-5g-sba.png[250, 200]
-image:detail-diagrams/telco-5g-up.png[250, 200]
---
-
-=== Use case 2 (Public Cloud): These diagrams is how telco service providers can partner with hyperscalers to create a solution for 5G Core network.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco5GC-generic.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco5GC-generic.drawio?inline=false[[Download Diagram]]
---
-
---
-image:intro-marketectures/telco-5g-core-hyperscalers-marketing-slide.png[750,700]
---
-
-==== Resources:
-5G Core Project repo: https://github.com/fenar/cnvopen5gcore
-
-==== Diagrams
-
---
-'''
-*Logical Diagram* +
-image:logical-diagrams/telco5GC-generic-7-ld.png[350, 300]
-
-
-*Schematic Diagram* +
-image:schematic-diagrams/telco5GC-generic-7-sd.png[350, 300]
-
-*Detail Diagrams* +
-image:detail-diagrams/telco5GC-dashboard-1.png[250, 200]
-image:detail-diagrams/telco5GC-database-1.png[250, 200]
-image:detail-diagrams/telco5GC-ecr-1.png[250, 200]
-image:detail-diagrams/telco5GC-eventstream-1.png[250, 200]
-image:detail-diagrams/telco5GC-orchestration-1.png[250, 200]
-image:detail-diagrams/telco5GC-storage-1.png[250, 200]
---
-
-== Radio Access Networks
-
-=== Use case 3: These diagrams is how to create Open Radio Access Networks.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-ran-pb.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb.drawio?inline=false[[Download Diagram]]
---
-
---
-image:intro-marketectures/telco-ran-marketing-slide.png[750,700]
---
-
-==== Diagrams
-
---
-'''
-*Logical Diagram* +
-image:logical-diagrams/telco-ran-ld.png[350, 300]
-
-
-*Schematic Diagram* +
-image:schematic-diagrams/telco-ran-mgmt-sd.png[350, 300]
-image:schematic-diagrams/telco-ran-sd.png[350, 300]
-
-*Detail Diagrams* +
-image:detail-diagrams/telco-ran-cu-cp-1.png[250, 200]
-image:detail-diagrams/telco-ran-cu-up-1.png[250, 200]
-image:detail-diagrams/telco-ran-du-1.png[250, 200]
-image:detail-diagrams/telco-ran-ru.png[250, 200]
---
