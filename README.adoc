@@ -20,6 +20,9 @@ TIP: Learn how to develop your own blueprint project and add to this examples re
 |===
 |Title | Description
 
+|link:businessoptimization.adoc[Business optimisation]]
+|Optimizing delivery routing, automating rostering of staff, and improving efficiency of tasks across multiple stores.
+
 |link:cloud-adoption.adoc[Cloud adoption]
 |Accelerating cloud adoption with effective automation for deploying and managing workloads across multiple cloud
 infrastructures according to performance, security, compliance, and cost requirements.
@@ -50,6 +53,9 @@ resilient, semi-autonomous applications.
 |This is a *collection of various architectures* in the financial services domain. Financial services institutions
 understand that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere,
 and are therefore accelerating adoption of digital technologies to enable a variety of new offerings.
+
+|link:headlessecommerce.adoc[Headless e-commerce]
+|Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce platform.
 
 |link:healthcare.adoc[Healthcare]
 |This is a *collection of various architectures* in the healthcare domain. Our world transformed overnight, and
@@ -92,6 +98,17 @@ channels someone chooses to use.
 |link:payments.adoc[Payments]
 |Financial institutions enabling customers with fast, easy to use, and safe payment services available anytime, anywhere.
 
+|link:pointofsale.adoc[Point of sale]
+| Simplifying and modernizing central management of distributed point-of-sale devices with built in support for
+container based applications.
+
+|link:realtimestock.adoc[Real-time stock control]
+|Providing (near) real-time stock positions and dynamic pricing promotions information to retailer omnichannels.
+
+|link:remote-management.adoc[Remote server management]
+|Providing remote management for a consist server estate across hybrid cloud and data centers with remote management,
+security, and  data protection for full lifecycle.
+
 |link:retail.adoc[Retail]
 |This is a *collection of various architectures* in the retail domain. Retail is the process of selling consumer
 goods or services to customers through multiple channels of distribution to earn a profit. Retailers satisfy demand
@@ -99,9 +116,8 @@ identified through a supply chain. The term "retailer" is typically applied wher
 orders of many individuals, who are end-users, rather than large orders of a small number of wholesale, corporate or
 government clientele.
 
-|link:remote-management.adoc[Remote server management]
-|Providing remote management for a consist server estate across hybrid cloud and data centers with remote management,
-security, and  data protection for full lifecycle.
+|link:retaildataframework.adoc[Retail data framework]
+|Creating a framework for access to retail data from customers, stock, stores, and staff across multiple internal teams.
 
 |link:scada-interface.adoc[SCADA interface modernisation]
 |Provide interfaces with SCADA systems that are compliant with NERC regulations, creating different layers of API
@@ -113,6 +129,13 @@ gateways to protect business service depending on the network zones.
 |link:sap-smart-management.adoc[Smart management for SAP]
 |Managing security, policy and patches for all the servers in the SAP ecosystem (on-premise, public, private and
 hybrid cloud), making sure they are compliant with SAP and Red Hat's recommendations through their entire lifecycle.
+
+|link:storehealthandsafety.adoc[Store health and safety]
+|Managing effective in-store compliance, health & safety, and employee checks and procedures.
+
+|link:supplychainintegration.adoc[Supply chain integration]
+|Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other
+third-party interactions.
 
 |link:telco-on-premise.adoc[Telco 5G core: on-premise]
 |Ultra-reliable, immersive experiences for people and objects when and where it matters most.

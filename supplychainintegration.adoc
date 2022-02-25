@@ -1,0 +1,70 @@
+= Supply Chain Integration
+Eric D. Schabell @eschabell, Iain Boyle @iainboy
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
+
+Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
+earn a profit. Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied
+where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
+small number of wholesale, corporate or government clientele.
+
+*Use case:* Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other third-party interactions.
+
+--
+image:intro-marketectures/supply-chain-integration-marketing-slide.png[750,700]
+--
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-supply-chain.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-supply-chain.drawio?inline=false[[Download Diagram]]
+--
+
+
+== The technology
+--
+image:logical-diagrams/retail-supply-chain-ld.png[750, 700]
+--
+
+*TODO:* add tech...
+
+*Container Platform*
+
+The container platform provides for one consistent environment for developers and operations to manage services, applications, integration points, process integration, planning services, and security.
+Supply chain microservices is used for centralizing all interactions with supply chain relevant systems of record and provides access to other services. An api management element for well defined access to services and events, and both message transformation and event streaming services to react and transform communication messages across the platform. 
+
+*Infrastructure Services*
+
+Single-sign-on (SSO) ensures a smooth interaction between processes, authorization, authentication, and integration services. The AI / Machine Learning platform, can be any modern data platform managed and deployed in an organization's infrastructure to support the retail usage of AI / ML by ensuring access to supply chain data.
+
+*External Systems*
+
+Any third party backend system used by the customer.
+
+== Example supply chain integration
+--
+image:schematic-diagrams/retail-supply-chain-sd.png[750, 700]
+--
+
+*TODO:* add description...
+
+*Example* 
+
+There are suppliers, order managers, warehouse management staff, and any number of third-party supply chain systems that need to have access to providing data to and from the supply chain systems. 
+
+Using API management regulates the authorization and authentication before access is granted to the integration framework. The use of event streams indicates there is an attempt to provide quick processing and action around events in the supply chain lifecycle. This allows for up-to-the-minute reporting on data, supply volumes, and other interesting data for the retail organization.
+
+Message transformation is a core need when connecting systems and data messages through an integration backend, as not all messages are going to map easily from one system to another, or from one microservice to another. Using a transformation service allows for a consistent data model for the organization regardless of the destination endpoint needs. 
+
+The core integration framework is found in the supply chain microservices, a collection of microservice integrations that manages all the needs of the actors directly providing or requesting information around the retail supply chain.
+
+Supporting access to the Retail Data Framework you'll find integration data microservices specifically helping with data access and processing.  Integration microservices tie together all external systems such as third-party supply chain systems and any eventual use of an AI / Machine Learning platform.
+
+The core to supply chain integration remains a solid fundamental need for cloud-native integration technologies and ongoing maintenance structures in a retail organization to support them.

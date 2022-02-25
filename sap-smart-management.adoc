@@ -4,7 +4,8 @@ Ricardo Garcia Cavero @ipbabble
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
-
+:toc: left
+:toclevels: 5
 
 This architecture covers Smart Management for RHEL servers hosting SAP workloads. SAP landscapes are usually very
 complex with a high number of servers and lots of dependencies. Besides, SAP workloads are really performance demanding
@@ -15,33 +16,65 @@ combination of Red Hat Insights with all its SAP specific rules to detect potent
 Platform to remediate them before they occur and Red Hat Satellite to manage the servers' lifecycle is a very powerful
 and robust tool to make sure that the SAP workloads will be healthy and operate smooth and performantly.
 
-Use case: Managing security, policy and patches for all the servers in the SAP ecosystem (on-premise, public, private
+*Use case:* Managing security, policy and patches for all the servers in the SAP ecosystem (on-premise, public, private
 and hybrid cloud), making sure they are compliant with SAP and Red Hat's recommendations through their entire lifecycle.
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+--
+image:intro-marketectures/smart-management-for-SAP-marketing-slide.png[750,700]
+--
 
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/smart-management-sap.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/smart-management-sap.draw.io?inline=false[[Download Diagram]]
 --
 
+== The tecnology
 --
-image:intro-marketectures/smart-management-for-SAP-marketing-slide.png[750,700]
---
-
---
-image:logical-diagrams/sap-smart-management.png[350, 300]
-image:schematic-diagrams/sap-smart-management-network-sd.png[350, 300]
-image:schematic-diagrams/sap-smart-management-data-sd.png[350, 300]
+image:logical-diagrams/sap-smart-management.png[750, 700]
 --
 
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
+The platform includes all the tools needed to implement enterprise-wide automation.
+
+** *Red Hat Insights* continuously analyzes platforms and applications to predict risk, recommend actions, and track
+costs so enterprises can better manage hybrid cloud environments.
+
+** *Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
+ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
+Linux, from physical machines to hybrid multiclouds.
+
+** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
+quickly and efficiently across clouds.
+
+** *Red Hat Satellite* is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
+environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
+
+** *Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your
+images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments
+
+** *Red Hat Enterprise Linux for SAP Solutions* is combining an intelligent operating system with predictive management
+tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
+available foundation for business-critical SAP and non-SAP workloads.
+
+== SAP smart management
 --
-image:detail-diagrams/rsm-smart-management.png[250, 200]
-image:detail-diagrams/rsm-automation.png[250, 200]
-image:detail-diagrams/sap-hana-detail.png[250, 200]
-image:detail-diagrams/sap-anydb-detail.png[250, 200]
-image:detail-diagrams/sap-s4hana-detail.png[250, 200]
-image:detail-diagrams/sap-netweaver-detail.png[250, 200]
+image:schematic-diagrams/sap-smart-management-network-sd.png[750, 700]
+
+image:schematic-diagrams/sap-smart-management-data-sd.png[750, 700]
 --
+
+*TODO:* add description...

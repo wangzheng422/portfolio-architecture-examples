@@ -11,7 +11,6 @@ operate across vast geographical area that connects the upstream drilling operat
 and delivery to customers. These companies need to monitor the condition of pipeline and other infrastructure for
 operational safety and optimization.
 
-
 [cols="3,7"]
 |===
 |Title | Description
