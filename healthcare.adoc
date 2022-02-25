@@ -10,8 +10,6 @@ This is a collection of various architectures in the healthcare domain. Our worl
 healthcare had to respond immediately. Now more than ever, it's critical to have access to data and unlimited scale,
 and to design and modify decisioning, processes, and workflows for specific situations—without being vendor-dependent.
 
-
-
 [cols="3,7"]
 |===
 |Title | Description   

@@ -60,8 +60,13 @@ and to design and modify decisioning, processes, and workflows for specific situ
 |Manage hybrid and multicloud cluster lifecycle, secure configuration and credentials. GitOps for Infrastructure as
 code approach. Cross cluster governance and application lifecycle management.
 
+|link:integrated-saas.adoc[Integrating withh SaaS applictions]
+|Providing integration with SaaS applications, platforms, and services empowers organizations to build and run scalable
+applications in modern, dynamic environments such as public, private, and hybrid clouds.
+
 |link:idaas.adoc[Intelligent data as a service (iDaaS)]
-|Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable manner while driving data needs for moving towards consumerisation in healthcare.
+|Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
+manner while driving data needs for moving towards consumerisation in healthcare.
 
 |link:manufacturing.adoc[Manufacturing]
 |This is a *collection of various architectures* in the retail domain. The manufacturing industry has consistently used
@@ -109,9 +114,20 @@ gateways to protect business service depending on the network zones.
 |Managing security, policy and patches for all the servers in the SAP ecosystem (on-premise, public, private and
 hybrid cloud), making sure they are compliant with SAP and Red Hat's recommendations through their entire lifecycle.
 
+|link:telco-on-premise.adoc[Telco 5G core: on-premise]
+|Ultra-reliable, immersive experiences for people and objects when and where it matters most.
+
+|link:telco-5g-with-hyperscalers.adoc[Telco 5G with hyperscalers]
+|Build an adaptable, on-demand infrastructure services for 5G Core that can deliver across diverse use cases with
+minimal CAPEX and OPEX.
+
+|link:telco-radio-access-networks.adoc[Telco radio access networks]
+|The digital transformation of mobile networks  is accelerating and cloudification is increasing. Following the core
+network, radio access network (RAN) solutions are now taking advantage of the benefits of cloud computing.
+
 |link:telco.adoc[Telco]
-|This is a *collection of various architectures* in the telco domain. Some of the telco use cases cover broadband technology
-evolution like 5G while others cover infrastructure modernization like Radio Access Network.
+|This is a *collection of various architectures* in the telco domain. Some of the telco use cases cover broadband
+technology evolution like 5G while others cover infrastructure modernization like Radio Access Network.
 
 |link:utility.adoc[Utility]
 |This is a *collection of various architectures* in the utility domain.The energy (utility) infrastructure companies

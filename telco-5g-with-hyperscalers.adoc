@@ -1,0 +1,95 @@
+= Telco 5G with Hyperscalers
+ Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  @ishuverma, William Henry @ipbabble,
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:description: 5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge
+:Keywords: Telco 5G, OpenShift, Ansible, Hybrid Cloud, Linux, Automation, Mobile Broadband
+:toc: left
+:toclevels: 5
+
+
+5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge:
+
+* Enhanced mobile broadband (eMBB)
+** 5G enhances data speeds and experiences with new radio capabilities like mmWave frequency spectrum for higher bandwidth allocation and theoretical throughput up to 20Gbps.
+* Ultra-reliable, low-latency communication (uRLLC)
+** 5G supports vertical industry requirements, including sub-millisecond latency with
+less than 1 lost packet in 105 packets.
+* Massive machine type communications (mMTC)
+** 5G supports cost-efficient and robust connection for up to 1 million mMTC, NB-IOT, and LTE-M devices per square kilometer without network overloading.
+
+*Use case:* Build an adaptable, on-demand infrastructure services for 5G Core that can deliver across diverse use
+cases with minimal CAPEX and OPEX.
+
+--
+image:intro-marketectures/telco-5g-core-hyperscalers-marketing-slide.png[750,700]
+--
+
+Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
+the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
+content.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco5GC-generic-7.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco5GC-generic-7.drawio?inline=false[[Download Diagram]]
+--
+
+
+== The technology
+--
+image:logical-diagrams/telco5GC-generic-7-ld.png[750, 700]
+--
+
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
+provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
+The platform includes all the tools needed to implement enterprise-wide automation.
+
+** *Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
+built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
+enforcing policies across multiple clusters at scale.
+
+** *Red Hat Identity Management* provides a centralized and unified way to manage identity stores, authentication,
+policies, and authorization policies in a Linux-based domain.
+
+** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
+quickly and efficiently across clouds.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
+
+
+== Telco 5G with hyperscalers
+--
+image:schematic-diagrams/telco5GC-generic-7-sd.png[750, 700]
+--
+
+*Infrastructure*: The infrastrusture includes core services like; compute , network , storage , infrastructure
+sub-utilities (ex ntp source), additive network functions (ex firewall / load balancers etc) as well as add-on software
+services such as identity management, infrastructure automation toolbox and base image catalogs.
+
+*Application Platform*: Application platform is the core “engine” that runs the 5G application. The key components
+provided such as container execution and orchestration platform, application sub-utilities (dashboards, apis, pluggable
+resources etc) , additive devops and platform-management toolboxes. Application platform is not necessarily a singleton
+instance but a distributed highly available, resilient open source software stack.
+
+*Applications*: 5G applications can be sub-categorized into:
+
+* Main functions that deliver 3GPP 5G Core functionality for device/user registration and session management.
+* Supplementary functions that deliver device/user subscription and value added services.
+* Management function(s) deliver operations support system (oss) and business support systems (bss) duties.
+
+*Platform Management and Application Orchestration*: The best practice, to achieve smooth and consistent platform
+creation, management as well as application stack delivery, is leveraging the GitOps pattern. Using git as a single
+source of truth, both for platform configurations as well as application/function stacks, is the only way to achieve
+homogeneous and scalable 5G Core across on-premise and hyperscalers.
+
+
+

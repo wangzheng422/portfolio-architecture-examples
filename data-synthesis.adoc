@@ -4,13 +4,22 @@ Eric D. Schabell @eschabell
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
+:toc: left
+:toclevels: 5
 
+DataSynthesis is about enabling innovation with a focus around enabling massive amounts of data to be available for
+business users and developers needs in a secure and scalable manner.
 
-Use case: Modernising testing with data synthesis is a testing innovation with focus around enabling massive amounts of data to be
-available for both business users and developers in a secure and scalable manner.
+*Use case:* Modernising testing with data synthesis is a testing innovation with focus around enabling massive amounts
+of data to be available for both business users and developers in a secure and scalable manner.
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
+--
+image:intro-marketectures/data-synthesis-marketing-slide.png[750,700]
+--
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
 
 
 --
@@ -18,12 +27,32 @@ https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/data-synthesis.drawio?inline=false[[Download Diagram]]
 --
 
+== The technology
 --
-image:intro-marketectures/data-synthesis-marketing-slide.png[750,700]
+*TODO:* add marketecture
+//image:logical-diagrams/data-sythesis-ld.png[350, 300]
 --
 
---
-//image:logical-diagrams/data-sythesis-ld.png[350, 300]
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share data with high throughput and low latency.
+
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
+
+** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds.
+
+** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of applications, the cloud-native way. Built on proven open source technologies, it also provides development teams multiple modernization options to enable a smooth transition to the cloud for existing applications.
+
+** *Red Hat Business Automation* is an application development platform that enables developers and business experts to create cloud-native applications that automate business operations.
+
+** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize your APIs on an infrastructure platform built for performance, customer control, and future growth.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
+
+== TODO: add schematic diagrams
+//--
 //image:schematic-diagrams/data-sythesis-sd.png[350, 300]
 //image:schematic-diagrams/idaas-data-sd.png[350, 300]
 //image:schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
@@ -31,16 +60,3 @@ image:intro-marketectures/data-synthesis-marketing-slide.png[750,700]
 //image:schematic-diagrams/idaas-knowledge-insight-sd.png[350, 300]
 //image:schematic-diagrams/idaas-knowledge-insight-data-sd.png[350, 300]
 --
-
---
-//image:detail-diagrams/idaas-api-management.png[250, 200]
-//image:detail-diagrams/idaas-connect-event.png[250, 200]
-//image:detail-diagrams/idaas-event-builder.png[250, 200]
-//image:detail-diagrams/idaas-connect-microservices.png[250, 200]
-//image:detail-diagrams/idaas-integration-data.png[250, 200]
-//image:detail-diagrams/idaas-connect-data-distribution.png[250,200]
-//image:detail-diagrams/idaas-external-reporting-service.png[250,200]
-//image:detail-diagrams/idaas-intelligent-data-router.png[250,200]
-//image:detail-diagrams/idaas-msg-transformation.png[250, 200]
---
-
