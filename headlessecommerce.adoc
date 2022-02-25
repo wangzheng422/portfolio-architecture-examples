@@ -1,0 +1,81 @@
+= Headless eCommerce
+Eric D. Schabell @eschabell, Iain Boyle @iainboy
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
+
+Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
+earn a profit. Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied
+where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
+small number of wholesale, corporate or government clientele.
+
+*Use case:* Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce
+platform.
+
+--
+image:intro-marketectures/headless-ecommerce-marketing-slide.png[750,700]
+--
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-headless-ecommerce.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-headless-ecommerce.drawio?inline=false[[Download Diagram]]
+--
+
+== The technology
+--
+image:logical-diagrams/retail-headless-ecommerce-ld.png[750, 700]
+--
+
+*TODO:* add tech...
+
+== Headless e-commerce local development
+--
+image:schematic-diagrams/retail-headless-ecommerce-local-sd.png[750, 700]
+--
+
+*TODO:* add description...
+
+== Headless e-commerce remote development
+--
+image:schematic-diagrams/retail-headless-ecommerce-remote-sd.png[750, 700]
+--
+
+*TODO:* add description...
+
+
+*Developer*
+
+The developer is central to delivering the components used in this architecture. The developer IDE is the tooling the developer codes in. A source code management repository is used in some form. For this a Git-based repository was used. Integration is based on Camel, Fuse, and often a collection of Java runtimes.
+
+*Container Platform CI/CD*
+
+A container platform hosting the continuous integration (CI) and continuous development (CD) tooling is the main element in this group. The SCM repository represents the connection between developer nd collecting project artifacts for use in the container CI/CD platform for testing , tagging, and rolling out to various infrastructure environments in a retail organization.
+
+*Presentation Tier*
+
+This tier is used to collect the elements used for front end presentation for the headless e-commerce suite. This can be any number of applications used to interact with the e-commerce platform, but also third parties allowed to interact with the platform.
+
+All of these applications can be found in the generic element web applications, with a secondary element called frontend microservices that represent integration points for applications into the headless e-commerce platform.
+
+*Container Platform*
+
+A core element of any integration platform is to provide some form of messaging to ensure that both communication and transformation of that communication is possible across the headless e-commerce platform.
+
+Integration microservices and integration data microservices are elements that consistently provide access to backend organisational systems, data sources, and other aspects of the retail organisation such as real-time stock control solutions or the retail data framework.
+
+Customer brand adapter microservices that ensure specific focus on creating a brand connection with the customer on the platform. Customer composite microservices focus on coarser grained interactions with customers on their shopping journey in an online store. Customer anti-corruption microservices are a grouping related to the processes around payments for customers that might need access to processes around anti-money laundering or other fraud related detection mechanisms.
+
+*Infrastructure Services*
+
+The integration element here is outside of the container platform integration elements discussed above and has a focus on more legacy integration aspects of an existing retail organization.
+
+The API management element is for access to the headless e-commerce platform both by customers and also for third party connectivity.
+
+Single-sign-on (SSO) server is essential for tying in the organizational tooling for authorization and authentication to make use of components in the architecture.

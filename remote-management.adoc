@@ -4,39 +4,68 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
-
+:toc: left
+:toclevels: 5
 
 This architecture covers remote server management. As more and more enterprises are deployed across different data
 centers and public and/or private clouds, it is important to provide consistency and security in an automated way
 across all of the the servers in order to reduce risk and costs.
 
-Use case: Providing remote management for a consist server estate across hybrid cloud and data centers with remote
+*Use case:* Providing remote management for a consist server estate across hybrid cloud and data centers with remote
 management, security, and  data protection for full lifecycle.
+
+--
+image:intro-marketectures/rsm-marketing-slide.png[750,700]
+--
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
 these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
 be embedded into your content.
-
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remote-server-management.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/remote-server-management.drawio?inline=false[[Download Diagram]]
 --
 
---
-image:intro-marketectures/rsm-marketing-slide.png[750,700]
---
-
+== The technology
 --
 image:logical-diagrams/rsm-ld.png[350, 300]
-image:schematic-diagrams/rsm-network-sd.png[350, 300]
-image:schematic-diagrams/rsm-data-sd.png[350, 300]
 --
 
+* The following technology was chosen for this solution:
+
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
+The platform includes all the tools needed to implement enterprise-wide automation.
+
+** *Red Hat Insights* continuously analyzes platforms and applications to predict risk, recommend actions, and track
+costs so enterprises can better manage hybrid cloud environments.
+
+** *Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
+ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
+Linux, from physical machines to hybrid multiclouds.
+
+** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
+quickly and efficiently across clouds.
+
+** *Red Hat Satellite* is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
+environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
+
+** *Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your
+images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
+
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
+
+== Remote server management
 --
-image:detail-diagrams/rsm-smart-management.png[250, 200]
-image:detail-diagrams/rsm-automation.png[250, 200]
-image:detail-diagrams/rsm-image-store.png[250, 200]
-image:detail-diagrams/rsm-scm.png[250, 200]
+image:schematic-diagrams/rsm-network-sd.png[750, 700]
+
+image:schematic-diagrams/rsm-data-sd.png[750, 700]
 --
 
+*TODO:* add description...

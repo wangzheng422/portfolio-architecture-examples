@@ -4,53 +4,88 @@ Ricardo Garcia Cavero @ipbabble
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
+:toc: left
+:toclevels: 5
 
+This Portfolio Architecture targets energy providers in North America that need to be compliant with NERC regulations
+and in order to achieve this they decide to modernize the interfaces between their business applications and their
+SCADA systems also for a better consumption of information that can be used in combination with AI/ML and decision
+management tools to better address customer needs.
 
-This Portfolio Architecture targets energy providers in North America that need to be compliant with NERC regulations and in order
-to achieve this they decide to modernize the interfaces between their business applications and their SCADA systems also for a
-better consumption of information that can be used in combination with AI/ML and decision management tools to better address
-customer needs.
+*Use case:* Provide interfaces with SCADA systems that are compliant with NERC regulations, creating different layers
+of API gateways to protect business service depending on the network zones.
 
-Use case: Provide interfaces with SCADA systems that are compliant with NERC regulations, creating different layers of API gateways
-to protect business service depending on the network zones.
+--
+image:intro-marketectures/scada-interface-marketing-slide.png[750,700]
+--
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
-
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/scada-interface.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/scada-interface.draw.io?inline=false[[Download Diagram]]
 --
+
+== The technology
 --
-image:intro-marketectures/scada-interface-marketing-slide.png[750,700]
+image:logical-diagrams/scada-interfaces-ld-general.png[750, 700]
+
+image:logical-diagrams/scada-interfaces-ld-nerc.png[750, 700]
+
+image:logical-diagrams/scada-interfaces-ld-enterprise.png[750, 700]
+
+image:logical-diagrams/scada-interfaces-ld-control.png[750, 700]
 --
 
+* The following technology was chosen for this solution:
+
+** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
+The platform includes all the tools needed to implement enterprise-wide automation.
+
+** *Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
+ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
+Linux, from physical machines to hybrid multiclouds.
+
+** *Red Hat Satellite* is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
+environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
+
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
+
+** *Red Hat Enterprise Linux for SAP Solutions* is combining an intelligent operating system with predictive management
+tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
+available foundation for business-critical SAP and non-SAP workloads.
+
+
+== SCADA interfaces network
 --
-image:logical-diagrams/scada-interfaces-ld-general.png[350, 300]
-image:logical-diagrams/scada-interfaces-ld-nerc.png[350, 300]
-image:logical-diagrams/scada-interfaces-ld-enterprise.png[350, 300]
-image:logical-diagrams/scada-interfaces-ld-control.png[350, 300]
-image:schematic-diagrams/scada-interfaces-network-sd-general.png[350, 300]
-image:schematic-diagrams/scada-interfaces-network-sd-enterprise.png[350, 300]
-image:schematic-diagrams/scada-interfaces-network-sd-nerc.png[350, 300]
-image:schematic-diagrams/scada-interfaces-data-sd-general.png[350, 300]
-image:schematic-diagrams/scada-interfaces-data-sd-enterprise.png[350, 300]
-image:schematic-diagrams/scada-interfaces-data-sd-nerc.png[350, 300]
+image:schematic-diagrams/scada-interfaces-network-sd-general.png[750, 700]
 --
 
+*TODO:* add description...
+
+== SCADA interfaces enterprise network
 --
-image:detail-diagrams/scada-detail.png[250, 200]
-image:detail-diagrams/scada-service-interruption-detail.png[250, 200]
-image:detail-diagrams/scada-service-provisioning.png[250, 200]
-image:detail-diagrams/scada-data-acquisition.png[250, 200]
-image:detail-diagrams/scada-network-information.png[250, 200]
-image:detail-diagrams/scada-business-applications.png[250, 200]
-image:detail-diagrams/sso.png[250, 200]
-image:detail-diagrams/acm.png[250, 200]
-image:detail-diagrams/acs.png[250, 200]
-image:detail-diagrams/amq-broker.png[250, 200]
-image:detail-diagrams/amq-message-queue.png[250, 200]
-image:detail-diagrams/secured-connectivity.png[250, 200]
-image:detail-diagrams/3scale-control-point.png[250, 200]
+image:schematic-diagrams/scada-interfaces-network-sd-enterprise.png[750, 700]
 --
+
+*TODO:* add description...
+
+== SCADA interfaces nerc network
+--
+image:schematic-diagrams/scada-interfaces-network-sd-nerc.png[750, 700]
+--
+
+*TODO:* add description...
+
+== SCADA interfaces data
+--
+image:schematic-diagrams/scada-interfaces-data-sd-general.png[750, 700]
+
+image:schematic-diagrams/scada-interfaces-data-sd-nerc.png[750, 700]
+
+image:schematic-diagrams/scada-interfaces-data-sd-enterprise.png[750, 700]
+--
+
+*TODO:* add description...

@@ -12,236 +12,30 @@ identified through a supply chain. The term "retailer" is typically applied wher
 orders of many individuals, who are end-users, rather than large orders of a small number of wholesale, corporate or
 government clientele.
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
+[cols="3,7"]
+|===
+|Title | Description
 
+|link:businessoptimization.adoc[Business optimisation]]
+|Optimizing delivery routing, automating rostering of staff, and improving efficiency of tasks across multiple stores.
 
-== Supply chain integration
+|link:headlessecommerce.adoc[Headless e-commerce]
+|Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce platform.
 
-Use case: Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other third-party interactions.
+|link:pointofsale.adoc[Point of sale]
+| Simplifying and modernizing central management of distributed point-of-sale devices with built in support for
+container based applications.
 
+|link:realtimestock.adoc[Real-time stock control]
+|Providing (near) real-time stock positions and dynamic pricing promotions information to retailer omnichannels.
 
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-supply-chain.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-supply-chain.drawio?inline=false[[Download Diagram]]
---
+|link:retaildataframework.adoc[Retail data framework]
+|Creating a framework for access to retail data from customers, stock, stores, and staff across multiple internal teams.
 
---
-image:intro-marketectures/supply-chain-integration-marketing-slide.png[750,700]
---
+|link:storehealthandsafety.adoc[Store health and safety]
+|Managing effective in-store compliance, health & safety, and employee checks and procedures.
 
---
-image:logical-diagrams/retail-supply-chain-ld.png[350, 300]
-image:schematic-diagrams/retail-supply-chain-sd.png[350, 300]
---
-
---
-image:detail-diagrams/retail-supply-chain-ai-ml.png[250, 200]
-image:detail-diagrams/retail-supply-chain-api-management.png[250, 200]
-image:detail-diagrams/retail-supply-chain-event-streams.png[250, 200]
-image:detail-diagrams/retail-supply-chain-integration-data.png[250, 200]
-image:detail-diagrams/retail-supply-chain-integration-microservices.png[250, 200]
-image:detail-diagrams/retail-supply-chain-message-transformation.png[250, 200]
-image:detail-diagrams/retail-supply-chain-microservices.png[250, 200]
-image:detail-diagrams/retail-supply-chain-third-party.png[250, 200]
---
-
-
-== Point of sale
-
-Use case: Simplifying and modernizing central management of distributed point-of-sale devices with built in support for container based applications.
-
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-pos.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-pos.drawio?inline=false[[Download Diagram]]
---
-
---
-image:intro-marketectures/pos-marketing-slide.png[750,700]
---
-
---
-image:logical-diagrams/retail-pos-ld.png[350, 300]
-image:schematic-diagrams/retail-pos-sd.png[350, 300]
---
-
---
-image:detail-diagrams/retail-scm.png[250, 200]
-image:detail-diagrams/retail-pos-ci-cd-platform.png[250, 200]
-image:detail-diagrams/retail-pos-image-registry.png[250, 200]
-image:detail-diagrams/retail-pos-image-data-store.png[250, 200]
-image:detail-diagrams/retail-pos-sales-data-integration-aggregation.png[250, 200]
-image:detail-diagrams/retail-pos-sku-catalog.png[250, 200]
---
-
-
-== Headless eCommerce
-
-Use case: Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce platform.
-
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-headless-ecommerce.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-headless-ecommerce.drawio?inline=false[[Download Diagram]]
---
-
---
-image:intro-marketectures/headless-ecommerce-marketing-slide.png[750,700]
---
-
---
-image:logical-diagrams/retail-headless-ecommerce-ld.png[350, 300]
-image:schematic-diagrams/retail-headless-ecommerce-local-sd.png[350, 300]
-image:schematic-diagrams/retail-headless-ecommerce-remote-sd.png[350, 300]
---
-
---
-image:detail-diagrams/developer-ide.png[250, 200]
-image:detail-diagrams/scm-system.png[250, 200]
-image:detail-diagrams/maven-repo.png[250, 200]
-image:detail-diagrams/runtimes-frameworks.png[250, 200]
-image:detail-diagrams/ci-cd-platform.png[250, 200]
-image:detail-diagrams/s2i-workflow.png[250, 200]
-image:detail-diagrams/container-tooling.png[250, 200]
-image:detail-diagrams/retail-headless-image-registry.png[250, 200]
-image:detail-diagrams/registry-management.png[250, 200]
-image:detail-diagrams/retail-headless-integration-services.png[250, 200]
-image:detail-diagrams/retail-headless-api-management.png[250, 200]
---
-
-
-== Business optimisation
-
-Use case: Optimising delivery routing, automating rostering of staff, and improving efficiency of tasks across multiple stores.
-
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-business-optimisation.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-business-optimisation.drawio?inline=false[[Download Diagram]]
---
-
---
-image:intro-marketectures/business-optimisation-marketing-slide.png[750,700]
---
-
---
-image:logical-diagrams/retail-business-optimisation-ld.png[350, 300]
-image:schematic-diagrams/retail-business-optimisation-sd.png[350, 300]
-image:schematic-diagrams/retail-business-optimisation-vaccines-sd.png[350, 300]
---
-
---
-image:detail-diagrams/retail-optimising-api-management.png[250, 200]
-image:detail-diagrams/retail-optimising-decision-microservices.png[250, 200]
-image:detail-diagrams/retail-optimising-retail-processes.png[250, 200]
-image:detail-diagrams/retail-optimising-planning-services.png[250, 200]
-image:detail-diagrams/retail-optimising-integration-microservices.png[250, 200]
-image:detail-diagrams/retail-optimising-integration-data-microservices.png[250, 200]
-image:detail-diagrams/retail-optimising-external-systems.png[250, 200]
-image:detail-diagrams/retail-optimising-retail-systems.png[250, 200]
---
-
-
-== Store health and safety
-
-Use case: Managing effective in-store compliance, health & safety, and employee checks and procedures.
-
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-store-health-and-safety.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-store-health-and-safety.drawio?inline=false[[Download Diagram]]
---
-
---
-image:intro-marketectures/store-health-safety-marketing-slide.png[750,700]
---
-
---
-image:logical-diagrams/retail-store-safety-ld.png[350, 300]
-image:schematic-diagrams/retail-store-safety-sd.png[350, 300]
-image:schematic-diagrams/retail-store-safety-data-sd.png[350, 300]
---
-
---
-image:detail-diagrams/retail-store-safety-api-management.png[250, 200]
-image:detail-diagrams/retail-store-safety-health-processes.png[250, 200]
-image:detail-diagrams/retail-store-safety-health-rules.png[250, 200]
-image:detail-diagrams/retail-store-safety-processes.png[250, 200]
-image:detail-diagrams/retail-store-safety-local-store-rules.png[250, 200]
-image:detail-diagrams/retail-store-safety-integration-microservices.png[250, 200]
-image:detail-diagrams/retail-stock-control-integration-data-microservices.png[250, 200]
-image:detail-diagrams/retail-store-safety-external-systems.png[250, 200]
---
-
-
-== Real-time stock control
-
-Use case: Providing (near) real-time stock positions and dynamic pricing promotions information to retailer omnichannels.
-
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-stock-control.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-stock-control.drawio?inline=false[[Download Diagram]]
---
-
---
-image:intro-marketectures/real-time-stock-control-marketing-slide.png[750,700]
---
-
---
-image:logical-diagrams/retail-stock-control-ld.png[350, 300]
-image:schematic-diagrams/retail-stock-control-sd.png[350, 300]
---
-
---
-image:detail-diagrams/retail-stock-control-api-management.png[250, 200]
-image:detail-diagrams/retail-stock-control-avail-to-sell-microservices.png[250, 200]
-image:detail-diagrams/retail-stock-control-event-streams.png[250, 200]
-image:detail-diagrams/retail-stock-control-external-systems.png[250, 200]
-image:detail-diagrams/retail-stock-control-integration-data-microservices.png[250, 200]
-image:detail-diagrams/retail-stock-control-integration-microservices.png[250, 200]
-image:detail-diagrams/retail-stock-control-payments-microservices.png[250, 200]
-image:detail-diagrams/retail-stock-control-promotions-microservices.png[250, 200]
-image:detail-diagrams/retail-stock-control-retail-processes.png[250, 200]
---
-
-
-== Retail data framework
-
-Use case: Creating a framework for access to retail data from customers, stock, stores, and staff across multiple internal teams.
-
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-data-framework.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-data-framework.drawio?inline=false[[Download Diagram]]
---
-
---
-image:intro-marketectures/retail-data-framework-marketing-slide.png[750,700]
---
-
---
-image:logical-diagrams/retail-data-framework-ld.png[350, 300]
-image:schematic-diagrams/retail-data-framework-sd.png[350, 300]
-image:schematic-diagrams/retail-data-framework-data-sd.png[350, 300]
---
-
---
-image:detail-diagrams/retail-data-framework-api-management.png[250, 200]
-image:detail-diagrams/retail-data-framework-web-apps.png[250, 200]
-image:detail-diagrams/retail-data-framework-data-caching.png[250, 200]
-image:detail-diagrams/retail-data-framework-business-automation.png[250, 200]
-image:detail-diagrams/retail-data-framework-event-processing.png[250, 200]
-image:detail-diagrams/retail-data-framework-messaging.png[250, 200]
-image:detail-diagrams/retail-data-framework-compliance-rules.png[250, 200]
-image:detail-diagrams/retail-data-framework-integration-microservices.png[250, 200]
-image:detail-diagrams/retail-data-framework-data-visualisation.png[250, 200]
-image:detail-diagrams/retail-data-framework-integration-data-microservices.png[250, 200]
-image:detail-diagrams/retail-data-framework-businesss-intelligence.png[250, 200]
-image:detail-diagrams/retail-data-framework-data-visualisation-tooling.png[250, 200]
-image:detail-diagrams/retail-data-framework-data-science.png[250, 200]
-image:detail-diagrams/retail-data-framework-core-platform.png[250, 200]
---
-
+|link:supplychainintegration.adoc[Supply chain integration]
+|Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other
+third-party interactions.
+|===

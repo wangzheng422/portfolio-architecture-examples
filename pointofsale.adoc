@@ -1,0 +1,58 @@
+= Point of Sale
+Eric D. Schabell @eschabell, Iain Boyle @iainboy
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
+
+Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
+earn a profit. Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied
+where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
+small number of wholesale, corporate or government clientele.
+
+*Use case:* Simplifying and modernizing central management of distributed point-of-sale devices with built in support for container based applications.
+
+--
+image:intro-marketectures/pos-marketing-slide.png[750,700]
+--
+
+Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
+these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
+be embedded into your content.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-pos.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-pos.drawio?inline=false[[Download Diagram]]
+--
+
+== The technology
+--
+image:logical-diagrams/retail-pos-ld.png[750, 700]
+--
+
+*TODO:* add tech...
+
+== Point of sale image delivery
+--
+image:schematic-diagrams/retail-pos-sd.png[750, 700]
+--
+
+*TODO:* add description...
+
+*Example*
+
+The above diagram demonstrates a solution to deliver images of point of sale devices and store applications across diverse retail landscapes. It tackles the challenges of standardizing how to support both legacy infrastructure needs at the point of sale, as well as positioning a retail organization for the cloud native development future of their business.
+--
+
+
+
+*Point of Sale*
+
+The SKU Catalog is maintained with available items for sale in the running inventory. he sales data cache is where all sales activities are collected and held for sharing to the retail organization. Point of sale is an onsite application and is the main focus of providing an end point application image pipeline for use throughout the retail organiztion.
+
+*Store Server*
+
+The store server is a part of the infrastructure that hosts the elements needed to facilitate on site point of sale image pipelines and the daily management of communication, sales data, and stock control information. The SKU Catalog takes input from each posint of sale stations in the store. The image cache hosts the retail organizations centrally developed collection of point of sale images.
+
