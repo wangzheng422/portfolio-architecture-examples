@@ -64,10 +64,18 @@ virtual, container, and all types of cloud environments.
 --
 image:schematic-diagrams/industrial-edge-devops-sd.png[750, 700]
 --
-*TODO:* description here...
+Data coming from sensors is transmitted over MQTT to Red Hat AMQ, which routes sensor data for two purposes: model development in the core data center and live inferencing in the factory data centers. The data is then relayed on to Red Hat AMQ Streams (Kafka) for further distribution within the factory datacenter and out to the core data center.
+
+The lightweight Apache Camel K provides MQTT (Message Queuing Telemetry Transport) integration that normalizes and routes sensor data to the other components.
+
+That sensor data is mirrored into a data lake that is provided by Red Hat Open Container Storage. Data scientists then use various tools from the open source project Open Data Hub to perform model development and training, pulling and analyzing content from the data lake into notebooks where they can apply ML frameworks.
+
+Once the models have been tuned and are deemed ready for production, the artifacts are committed to git which kicks off an image build of the model using OpenShift Pipelines (Tekton).
+
+The model image is pushed into the integrated registry of OpenShift running in the core data center which is pushed back down to the factory data center for use in inferencing.
 
 == Edge manufacturing with GitOps
 --
 image:schematic-diagrams/industrial-edge-gitops-sd.png[750, 700]
 --
-*TODO:* description here...
+For the manufacturing environments, GitOps provides a consistent, declarative approach to managing individual cluster changes and upgrades across the centralzied and edge sites. Any changes to configuration and applications can be automatically pushed into operational systems at the factory.
