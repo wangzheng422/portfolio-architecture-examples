@@ -10,15 +10,7 @@
 :toclevels: 5
 
 
-5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge:
-
-* Enhanced mobile broadband (eMBB)
-** 5G enhances data speeds and experiences with new radio capabilities like mmWave frequency spectrum for higher bandwidth allocation and theoretical throughput up to 20Gbps.
-* Ultra-reliable, low-latency communication (uRLLC)
-** 5G supports vertical industry requirements, including sub-millisecond latency with
-less than 1 lost packet in 105 packets.
-* Massive machine type communications (mMTC)
-** 5G supports cost-efficient and robust connection for up to 1 million mMTC, NB-IOT, and LTE-M devices per square kilometer without network overloading.
+5G is the latest evolution of wireless mobile technology. In this portfolio architecture we'll discuss an 5G solution built with open source technologies at core, that can work across any hyperscaler.
 
 *Use case:* Build an adaptable, on-demand infrastructure services for 5G Core that can deliver across diverse use
 cases with minimal CAPEX and OPEX.
@@ -44,52 +36,56 @@ image:logical-diagrams/telco5GC-generic-7-ld.png[750, 700]
 
 * The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
-provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. OpenShift enables 5G core by supporting functionalities and operational features like automated deployment, intelligent workload placement, dynamic scaling, hitless upgrades, and self healing.
 
 ** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
-The platform includes all the tools needed to implement enterprise-wide automation.
+The platform includes all the tools needed to implement enterprise-wide automation. It enables cluster and network operations administrators to automate deployment of functional components across hybrid cloud.
+
 
 ** *Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
 built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
 enforcing policies across multiple clusters at scale.
 
-** *Red Hat Identity Management* provides a centralized and unified way to manage identity stores, authentication,
-policies, and authorization policies in a Linux-based domain.
-
 ** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
-quickly and efficiently across clouds.
+quickly and efficiently across clouds. Its used for persistent storage across  clusters across hybrid cloud.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments.
+Conceptually, the 5G solution stack with hyperscalers can be categorized into:
 
+** *Infrastructure*
+
+** *Application Platform*
+
+** *Applications*
+
+** *Platform Management and Application Orchestration*
+
+Infrastructure provides necessary compute, network and storage resources to the application platform. Application platform accommodates the applications with declarative desired state consistency with facilities to perform scaling, healing and monitoring. Applications provides the business logic they are aimed to deliver in a homogenous performant way (ie wider, stronger, faster 5G). Management and orchestration allows dynamic scaling of end-to-end 5G solution, across multiple locations with automation.
 
 == Telco 5G with hyperscalers
 --
 image:schematic-diagrams/telco5GC-generic-7-sd.png[750, 700]
 --
+The messages from endpoints and Radio Access Network (RAN) are routed to the OpenShift clusters running on AWS and on AWS Outposts in user plane/multi-access edge.
 
-*Infrastructure*: The infrastrusture includes core services like; compute , network , storage , infrastructure
-sub-utilities (ex ntp source), additive network functions (ex firewall / load balancers etc) as well as add-on software
-services such as identity management, infrastructure automation toolbox and base image catalogs.
+User Plane Function (UPF) is responsible for packet processing and traffic aggregation of user traffic.
 
-*Application Platform*: Application platform is the core “engine” that runs the 5G application. The key components
-provided such as container execution and orchestration platform, application sub-utilities (dashboards, apis, pluggable
-resources etc) , additive devops and platform-management toolboxes. Application platform is not necessarily a singleton
-instance but a distributed highly available, resilient open source software stack.
+Access and Mobility Management Function (AMF) and Session Management Function (SMF) are part of the control plane. AMF is responsible for handling connections and mobility management tasks while SMF handles session management. AMF receives connection and session-related info from the end devices, passing the session info to SMF, which establishes sessions by using UPF.
 
-*Applications*: 5G applications can be sub-categorized into:
+Policy Control Function (PCF) provides a framework for creating policies to be consumed by the other control plane network functions.
 
-* Main functions that deliver 3GPP 5G Core functionality for device/user registration and session management.
-* Supplementary functions that deliver device/user subscription and value added services.
-* Management function(s) deliver operations support system (oss) and business support systems (bss) duties.
+Authentication Server Function (AUSF) provides authentication and Unified Data Management (UDM) ensuring user identification, authorization and subscription management.
 
-*Platform Management and Application Orchestration*: The best practice, to achieve smooth and consistent platform
-creation, management as well as application stack delivery, is leveraging the GitOps pattern. Using git as a single
-source of truth, both for platform configurations as well as application/function stacks, is the only way to achieve
-homogeneous and scalable 5G Core across on-premise and hyperscalers.
+The following components provide the supplementary services:
 
+Network Repository Function (NRF) is used by AMF to select the correct SMF out of the available pool.
 
+NRF and Network Slice Selection Function (NSSF) work together to support network slicing capabilities.
 
+Network Exposure Function (NEF) exposes 5G services and resources so third-party apps can more securely access 5G services.
+
+Application Function (AF) exposes an application layer for interacting with 5G network resources, retrieving resource info from PCF and exposing them.
+
+The management service is provided by Element Management System/Container Network Function Manager (EMS/CNFM) is responsible for the application’s life cycle: provisioning, configuration, scaling, updates, etc. This component would be application-specific, and depending on the vendor implementation, would interact with the platform and the application over open or proprietary API interfaces. This component is optional and its functionality might be rolled into the Orchestrator or implemented using Operators.
+
+OpenShift Service Mesh is used for service discovery and exposure, and as a mechanism for specialized network handling, certificate management, etc.

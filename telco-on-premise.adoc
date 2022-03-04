@@ -45,6 +45,10 @@ the Apache Kafka project. AMQ Streams enables exchange of telemetry and control/
 ** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
 The platform includes all the tools needed to implement enterprise-wide automation. It enables cluster and network operations administrators to automate deployment of functional components.
 
+** *Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
+built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
+enforcing policies across multiple clusters at scale.
+
 ** *Red Hat Quay* is a private container registry that stores, builds, and deploys container images. Its used to store container image repositories for platform and application images, DevOps or GitOps pipelines, and automation tools for deployment across various clusters.
 
 
@@ -58,7 +62,7 @@ quickly and efficiently across clouds. Its used for persistent storage across mu
 
 Conceptually, the 5G solution stack can be categorized into:
 
-Individual cluster components comprising platform-related cloud native components, 5G Core functions, 5G supplementary functions and 5G management functions.
+** *Individual cluster components* (platform-related cloud native components, 5G Core functions, 5G supplementary functions and 5G management functions)
 
 ** *Shared cluster platform services*
 
