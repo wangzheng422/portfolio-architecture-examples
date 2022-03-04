@@ -60,7 +60,7 @@ Conceptually, the 5G solution stack can be categorized into:
 
 Individual cluster components comprising platform-related cloud native components, 5G Core functions, 5G supplementary functions and 5G management functions.
 
-** Shared cluster platform services*
+** *Shared cluster platform services*
 
 ** *External services*
 
