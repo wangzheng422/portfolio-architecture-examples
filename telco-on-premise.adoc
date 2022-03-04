@@ -1,4 +1,4 @@
-= Telco 5G Core: On Premise 
+= Telco 5G Core: On Premise
  Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  @ishuverma, William Henry @ipbabble,
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
@@ -9,17 +9,11 @@
 :toc: left
 :toclevels: 5
 
-5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge:
+5G is the latest evolution of wireless mobile technology that aims to enable the delivery of highly immersive experiences for people and ultra reliable, low latency communication between devices. At the heart of each 5G network lies the 5G Core (5GC).
 
-* Enhanced mobile broadband (eMBB)
-** 5G enhances data speeds and experiences with new radio capabilities like mmWave frequency spectrum for higher
-bandwidth allocation and theoretical throughput up to 20Gbps.
-* Ultra-reliable, low-latency communication (uRLLC)
-** 5G supports vertical industry requirements, including sub-millisecond latency with
-less than 1 lost packet in 105 packets.
-* Massive machine type communications (mMTC)
-** 5G supports cost-efficient and robust connection for up to 1 million mMTC, NB-IOT, and LTE-M devices per square
-kilometer without network overloading.
+This portfolio architecture conceives 5G Core as a set of disaggregated, cloud native applications that communicate internally and externally over well defined standard interfaces.
+
+Each 5GC component is implemented as a container-based application and is referred to as cloud-native network function (CNF).
 
 *Use case:* Ultra-reliable, immersive experiences for people and objects when and where it matters most.
 
@@ -43,33 +37,36 @@ image:logical-diagrams/telco-5g-ld.png[750, 700]
 
 * The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
-provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. OpenShift enables 5GC by supporting functionalities and operational features like automated deployment, intelligent workload placement, dynamic scaling, hitless upgrades, and self healing.
 
 ** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
-the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
-data with high throughput and low latency.
+the Apache Kafka project. AMQ Streams enables exchange of telemetry and control/management data with back end and operational systems.
 
 ** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
-The platform includes all the tools needed to implement enterprise-wide automation.
+The platform includes all the tools needed to implement enterprise-wide automation. It enables cluster and network operations administrators to automate deployment of functional components.
 
-** *Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
-ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
-Linux, from physical machines to hybrid multiclouds.
+** *Red Hat Quay* is a private container registry that stores, builds, and deploys container images. Its used to store container image repositories for platform and application images, DevOps or GitOps pipelines, and automation tools for deployment across various clusters.
 
-** *Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your
-images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
 
 ** *Red Hat Identity Management* provides a centralized and unified way to manage identity stores, authentication,
-policies, and authorization policies in a Linux-based domain.
+policies, and authorization policies in a Linux-based domain. This is part of the common datacenter services applicable to network applications running on cloud platforms.
 
 ** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
-quickly and efficiently across clouds.
+quickly and efficiently across clouds. Its used for persistent storage across multiple clusters.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments.
+
+Conceptually, the 5G solution stack can be categorized into:
+
+Individual cluster components comprising platform-related cloud native components, 5G Core functions, 5G supplementary functions and 5G management functions.
+
+** Shared cluster platform services*
+
+** *External services*
+
+** *External network infrastructure*
+
+** *Management and orchestration*
 
 == Telco 5G on premise
 --
@@ -77,81 +74,26 @@ image:schematic-diagrams/telco-5g-sd.png[750, 700]
 
 image:schematic-diagrams/telco-5g-network-sd.png[750, 700]
 --
+The messages from end devices and Radio Access Network (RAN) are routed to the following components in the Service Based Architecture (SBA) and user plane:
 
-*Dedicated Cluster*: The purpose of the dedicated cluster is to provide resources to the applications and the tools
-for the service provider to manage these applications. Containerized 5GC applications can be deployed by the service
-providers on-premise in their own datacenters on a horizontal cloud platform. Red Hat OpenShift Container Platform is
-well-suited for this purpose, supporting multiple applications from different vendors on the same infrastructure. It
-can be deployed on bare metal on top of certified hardware with a network underlay of the operator’s choosing. It also
-offers several options for integrated overlay networks, including Open vSwitch-based software-defined network (SDN) and
-third-party SDNs using Container Network Interface (CNI). Red Hat OpenShift also provides access to shared storage with
-Red Hat OpenShift Data Foundation or, alternatively, through supported third-party enterprise storage solutions that
-can be plugged in using Container Storage Interface (CSI).
+User Plane Function (UPF) is responsible for packet processing and traffic aggregation of user traffic.
 
-*Cloud Native Components*: Each OpenShift-based cluster provides components that are used by the applications or the
-service provider teams for Day 0, Day 1, and Day 2 operational tasks. They include:
+Access and Mobility Management Function (AMF) and Session Management Function (SMF) are part of the control plane. AMF is responsible for handling connections and mobility management tasks while SMF handles session management. AMF receives connection and session-related info from the end devices, passing the session info to SMF, which establishes sessions by using UPF.
 
-* Kubernetes operators for life-cycle management of the platform and platform services. Application vendors may also
-provide operators for managing their application products.
+Policy Control Function (PCF) provides a framework for creating policies to be consumed by the other control plane network functions.
 
-* Service assurance tools for logging and monitoring, which can be integrated with existing operations systems to
-provide visibility into the functioning of the platform and applications.
+Authentication Server Function (AUSF) provides authentication and Unified Data Management (UDM) ensuring user identification, authorization and subscription management.
 
-* OpenShift Service Mesh for service discovery and exposure, and as a mechanism for specialized network handling,
-certificate management, etc.
+The following components provide the supplementary services:
 
-* Integrated networking and storage interfaces providing access to the corresponding resources.
+Network Repository Function (NRF) is used by AMF to select the correct SMF out of the available pool.
 
-* Cluster console to provide visibility into an individual cluster configuration and status and the details of its
-workloads.
+NRF and Network Slice Selection Function (NSSF) work together to support network slicing capabilities.
 
-*5G Core Functions*: 5G Core follows the control and user plane separation (CUPS) strategy that was introduced in 3GPP
-Release 14. CUPS decouples control and user plane functions, enabling data forwarding components to be decentralized.
+Network Exposure Function (NEF) exposes 5G services and resources so third-party apps can more securely access 5G services.
 
-* User Plane Function (UPF) is responsible for packet processing and traffic aggregation of user traffic. Since this
-functionality is decoupled from the control component, it can be placed closer to the network edge near the end user
-or device, increasing bandwidth efficiencies and resulting in higher data rates and lower latencies.
+Application Function (AF) exposes an application layer for interacting with 5G network resources, retrieving resource info from PCF and exposing them.
 
-* Access and Mobility Management Function (AMF) and Session Management Function (SMF) are part of the control plane.
-AMF is responsible for handling connections and mobility management tasks while SMF handles session management. AMF
-receives connection and session-related info from the end devices, passing the session info to SMF, which establishes
-sessions by using UPF.
+The management service is provided by Element Management System/Container Network Function Manager (EMS/CNFM) is responsible for the application’s life cycle: provisioning, configuration, scaling, updates, etc. This component would be application-specific, and depending on the vendor implementation, would interact with the platform and the application over open or proprietary API interfaces. This component is optional and its functionality might be rolled into the Orchestrator or implemented using Operators.
 
-* Policy Control Function (PCF) provides a framework for creating policies to be consumed by the other control plane
-network functions. Examples include policies for QoS, network slicing management, and subscribers, applications, and
-network resources management.
-
-* Authentication Server Function (AUSF) provides authentication and Unified Data Management (UDM) ensuring user
-identification, authorization and subscription management.
-
-*5G Supplementary Functions*:
-
-* Network Repository Function (NRF) is used by AMF to select the correct SMF out of the available pool.
-
-* NRF and Network Slice Selection Function (NSSF) work together to support network slicing capabilities. 
-
-* Network Exposure Function (NEF) exposes 5G services and resources so third-party apps can more securely access 5G
-services.
-
-* Application Function (AF) exposes an application layer for interacting with 5G network resources, retrieving resource
-info from PCF and exposing them.
-
-*5G Management Funtion*: Most complex telco applications, such as 5GC, include their own management component
-responsible for the application’s life cycle: provisioning, configuration, scaling, updates, etc. This component would
-be application-specific, and depending on the vendor implementation, would interact with the platform and the
-application over open or proprietary API interfaces. This component is optional and its functionality might be rolled
-into the Orchestrator or implemented using Operators.
-
-*Shared Services*: Common cluster-external services can be shared across multiple clusters and are not
-application-specific. They provide such things as shared storage, underlay networking, container image repositories
-for platform and application images, DevOps or GitOps pipelines, and automation tools.
-
-*External Services*: Common datacenter services applicable to network applications running on cloud platforms would
-include Domain Name Service (DNS), identity management, and Network Time Protocol (NTP).
-
-*External Network Infrastructure*: This component of the solution stack includes key network infrastructure
-capabilities such as security, load balancing and datacenter fabric.
-
-*Management and Application Orchestration*: Management and orchestration allows dynamic scaling of end-to-end 5G
-solution, across multiple clusters with automation.
-
+OpenShift Service Mesh is used for service discovery and exposure, and as a mechanism for specialized network handling, certificate management, etc.
