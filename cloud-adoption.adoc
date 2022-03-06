@@ -9,8 +9,8 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 
 
 As enterprises adopt to public and/or private clouds, it is important to
-provide automation to manage and scale server deployments and to provide the capability to transition servers between data centers
-and cloud providers. This provides flexibility and portability.
+provide automation to manage and scale server deployments and to provide the capability to transition servers between
+data centers and cloud providers. This provides flexibility and portability.
 
 *Use case:* Accelerating cloud adoption with effective automation for deploying and managing workloads across multiple
 cloud infrastructures according to performance, security, compliance, and cost requirements.
@@ -30,63 +30,74 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 
 The following technology was chosen for this solution:
 
-*Red Hat Satellite* the smart management element in this architecture, used for tracking, managing, auditing, and collecting data on the entire infrastructure to ensure that baselines are met.
+*Red Hat Satellite* the smart management element in this architecture, used for tracking, managing, auditing, and
+collecting data on the entire infrastructure to ensure that baselines are met.
 
-*Red Hat Smart Management* to provide a cloud experience, existing physical data center resources might be the starting point to be offered to the organization with a cloud-like experience. This combines the flexible and powerful infrastructure management capabilities with the
-ability to execute remediation plans. It helps to securely manage any environment supported by Red Hat Enterprise Linux, from physical machines to hybrid multiclouds.
+*Red Hat Smart Management* to provide a cloud experience, existing physical data center resources might be the starting
+point to be offered to the organization with a cloud-like experience. This combines the flexible and powerful
+infrastructure management capabilities with the ability to execute remediation plans. It helps to securely manage any
+environment supported by Red Hat Enterprise Linux, from physical machines to hybrid multiclouds.
 
-*Red Hat Ansible Automation Platform* facilitates consistent,repeatable,and tested infrastructure automation tasks as needed by the other elements managing the hybrid cloud. This element is directed to execute based on the findings of the smart management element.
+*Red Hat Ansible Automation Platform* facilitates consistent,repeatable,and tested infrastructure automation tasks as
+needed by the other elements managing the hybrid cloud. This element is directed to execute based on the findings of
+the smart management element.
 
-*Red Hat Quay* part of Core Data Center, it is a private container registry that stores, builds, and deploys container images. It analyzes your
-images for security vulnerabilities, identifying potential issues that can help you mitigate security risks. 
+*Red Hat Quay* part of Core Data Center, it is a private container registry that stores, builds, and deploys container
+images. It analyzes your images for security vulnerabilities, identifying potential issues that can help you mitigate
+security risks.
 
-*Red Hat Enterprise Linux* (RHEL) host element with an image registry to facilitate the deployment of infrastructure, services, and applications across the entire hybrid cloud infrastructure.
+*Red Hat Enterprise Linux* (RHEL) host element with an image registry to facilitate the deployment of infrastructure,
+services, and applications across the entire hybrid cloud infrastructure.
 
-*Red Hat Insights* is the key to monitoring and data collection around the entire hybrid cloud infrastructure. Based on this data and working together with insights services, automated actions can take place around updates, security patches, infrastructure rollouts, workload management, and workload migrations. This is the key to an organisations ability to successfully adopt a truly hybrid cloud infrastructure.
-
+*Red Hat Insights* is the key to monitoring and data collection around the entire hybrid cloud infrastructure. Based on
+this data and working together with insights services, automated actions can take place around updates, security patches,
+infrastructure rollouts, workload management, and workload migrations. This is the key to an organisations ability to
+successfully adopt a truly hybrid cloud infrastructure.
 
 
 == Cloud adoption overview
 --
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-network-sd.png[750, 700]
+--
+
+This overview looks at cloud adoption, providing the solution details and the elements described above in both a
+network and data centric view:
+
+* It starts in the core data center where images are built (where the application source code are located in a
+_source code management system_ (SCM)) and deployed out to the image registry found in a physical data center, a private
+cloud, or in any public clouds desired. Quay is used to sync these registries.
+
+* Cloud services assist with analyzing the data to help manage responses and maintain a repository of automated actions.
+Result of the analyzed data react to specific insights with plans that can be used to support th infrastructure
+management.
+
+* Infrastructure management uses smart management to monitor all deployments and locations, leveraging input from the
+cloud services provided by insights and automation repositories. If needed, remediation can be triggered by smart
+management and automation orchestration will take action as defined in the automation playbooks to fix deployments.
+
+* Infrastructure management also uses the gained workload insights to deploy new updates and manage security patches
+across all infrastructure destinations,. Roll out extra resources for surging demand on specific workloads.
+
+
+== Cloud adoption data overview
+--
 image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-data-sd.png[750, 700]
 --
 
+This is an overview as above, but with a focus on the data flowing through the cloud adoption architectere. It's
+providing the solution details and the elements described above in both a network and data centric view:
 
-This is an overview look at cloud adoption, providing the solution details and the elements described above
-in both a network and data centric view:
+* It starts in the core data center where images are built (where the application source code are located in a
+_source code management system_ (SCM)) and deployed out to the image registry found in a physical data center, a
+private cloud, or in any public clouds desired. Quay is used to sync these registries.
 
-* It starts in the core data center where images are built (where the application source code are located in a _source code management system_ (SCM)) and deployed out to the image registry found in a
-pysical data center, a private cloud, or in any public clouds desired. Quay is used to sync these registries.
+* Cloud services assist with analyzing the data to help manage responses and maintain a repository of automated actions.
+Result of the analyzed data react to specific insights with plans that can be used to support th infrastructure
+management.
 
-* Cloud services assist with analyzing the data to help manage responses and maintain a repository of automated actions. Result of the analyzed data react to specific insights with plans that can be used to support th infrastructure management.
+* Infrastructure management uses smart management to monitor all deployments and locations, leveraging input from the
+cloud services provided by insights and automation repositories. If needed, remediation can be triggered by smart
+management and automation orchestration will take action as defined in the automation playbooks to fix deployments.
 
-* Infrastructure management uses smart management to monitor all deployments and locations, leveraging input from
-the cloud services provided by insights and automation repositories. If needed, remediation can be triggered by
-smart management and automation orchestration will take action as defined in the automation playbooks to fix
-deployments.
-
-* Infrastructure management also uses the gained workload insights to deploy new updates and manage security patches across all infrastructure destinations,. Roll out extra resources for surging demand on specific workloads.
-
-
-== Cloud Adoption Data
---
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-data-sd.png[750, 700]
---
-
-The Infrastructure Nodes are any RHEL based hosts, bare metal or otherwise.
-
-The sequence is :
-
-* RHEL Hosts register with Satellite once.
-* RHEL hosts send anonymized data to Smart Management node through Insights client. 
-* Smart Management secures a connection to INsights Platform through Cloud Connector
-* Smart Management sends anonymized data to Insights Platform.
-* Insights Platform makes the data available to the services subscribed to by the customer
-* The services provides a remediation plan back to Insights Platform. 
-* When Smart Management is ready to download remediation from Insights the Insights Platform 1. converts the plan into a Remediation Playbook.
-* The remediation playbooks is downloaded.
-* The Remediation Playbook is run by Ansible Automation Platform.
-
-
-
-
+* Infrastructure management also uses the gained workload insights to deploy new updates and manage security patches
+across all infrastructure destinations,. Roll out extra resources for surging demand on specific workloads.
