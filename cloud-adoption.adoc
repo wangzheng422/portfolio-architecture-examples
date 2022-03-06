@@ -7,73 +7,86 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toc: left
 :toclevels: 5
 
-This architecture covers cloud adoption. As enterprises adopt to public and/or private clouds, it is important to
-provide automation to manage and scale server deployments and to provide the capability to transition servers between
-data centers and cloud providers. This provides flexibility and portability.
+
+As enterprises adopt to public and/or private clouds, it is important to
+provide automation to manage and scale server deployments and to provide the capability to transition servers between data centers
+and cloud providers. This provides flexibility and portability.
 
 *Use case:* Accelerating cloud adoption with effective automation for deploying and managing workloads across multiple
 cloud infrastructures according to performance, security, compliance, and cost requirements.
 
 --
-image:intro-marketectures/cloud-adoption-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloud-adoption-marketing-slide.png[750,700]
+--
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-adoption.drawio[[Open all diagrams in Tooling]]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-adoption.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-adoption.drawio?inline=false[[Download Diagram]]
---
 
 == The technology
 --
-image:logical-diagrams/cloud-adoption-ld.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-adoption-ld.png[750, 700]
 --
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+*Red Hat Satellite* the smart management element in this architecture, used for tracking, managing, auditing, and collecting data on the entire infrastructure to ensure that baselines are met.
 
-** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
-The platform includes all the tools needed to implement enterprise-wide automation.
+*Red Hat Smart Management* to provide a cloud experience, existing physical data center resources might be the starting point to be offered to the organization with a cloud-like experience. This combines the flexible and powerful infrastructure management capabilities with the
+ability to execute remediation plans. It helps to securely manage any environment supported by Red Hat Enterprise Linux, from physical machines to hybrid multiclouds.
 
-** *Red Hat Insights* continuously analyzes platforms and applications to predict risk, recommend actions, and track
-costs so enterprises can better manage hybrid cloud environments.
+*Red Hat Ansible Automation Platform* facilitates consistent,repeatable,and tested infrastructure automation tasks as needed by the other elements managing the hybrid cloud. This element is directed to execute based on the findings of the smart management element.
 
-** *Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
-ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
-Linux, from physical machines to hybrid multiclouds.
+*Red Hat Quay* part of Core Data Center, it is a private container registry that stores, builds, and deploys container images. It analyzes your
+images for security vulnerabilities, identifying potential issues that can help you mitigate security risks. 
 
-** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
-services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
-quickly and efficiently across clouds.
+*Red Hat Enterprise Linux* (RHEL) host element with an image registry to facilitate the deployment of infrastructure, services, and applications across the entire hybrid cloud infrastructure.
 
-** *Red Hat Satellite* is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
-environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
+*Red Hat Insights* is the key to monitoring and data collection around the entire hybrid cloud infrastructure. Based on this data and working together with insights services, automated actions can take place around updates, security patches, infrastructure rollouts, workload management, and workload migrations. This is the key to an organisations ability to successfully adopt a truly hybrid cloud infrastructure.
 
-** *Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your
-images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments.
 
 == Cloud adoption overview
 --
-//image:schematic-diagrams/cloud-adoption-network-sd.png[750, 700]
-image:schematic-diagrams/cloud-adoption-data-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-data-sd.png[750, 700]
 --
 
-* This is an overview look at cloud adoption, providing the solution details and the elements described above
+
+This is an overview look at cloud adoption, providing the solution details and the elements described above
 in both a network and data centric view:
 
-** It starts in the core data center where images are built and deployed out to the image registry found in a
+* It starts in the core data center where images are built (where the application source code are located in a _source code management system_ (SCM)) and deployed out to the image registry found in a
 pysical data center, a private cloud, or in any public clouds desired. Quay is used to sync these registries.
 
-** Infrastructure management uses smart management to monitor all deployments and locations, leveraging input from
+* Cloud services assist with analyzing the data to help manage responses and maintain a repository of automated actions. Result of the analyzed data react to specific insights with plans that can be used to support th infrastructure management.
+
+* Infrastructure management uses smart management to monitor all deployments and locations, leveraging input from
 the cloud services provided by insights and automation repositories. If needed, remediation can be triggered by
 smart management and automation orchestration will take action as defined in the automation playbooks to fix
 deployments.
+
+* Infrastructure management also uses the gained workload insights to deploy new updates and manage security patches across all infrastructure destinations,. Roll out extra resources for surging demand on specific workloads.
+
+
+== Cloud Adoption Data
+--
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-data-sd.png[750, 700]
+--
+
+The Infrastructure Nodes are any RHEL based hosts, bare metal or otherwise.
+
+The sequence is :
+
+* RHEL Hosts register with Satellite once.
+* RHEL hosts send anonymized data to Smart Management node through Insights client. 
+* Smart Management secures a connection to INsights Platform through Cloud Connector
+* Smart Management sends anonymized data to Insights Platform.
+* Insights Platform makes the data available to the services subscribed to by the customer
+* The services provides a remediation plan back to Insights Platform. 
+* When Smart Management is ready to download remediation from Insights the Insights Platform 1. converts the plan into a Remediation Playbook.
+* The remediation playbooks is downloaded.
+* The Remediation Playbook is run by Ansible Automation Platform.
+
+
+
+
