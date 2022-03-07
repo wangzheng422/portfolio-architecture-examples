@@ -4,7 +4,8 @@ Ricardo Garcia Cavero @ipbabble
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
-
+:toc: left
+:toclevels: 5
 
 This architecture covers Near Zero Downtime Maintenance for RHEL servers hosting SAP workloads. SAP workloads are
 critical in the company and the maintenance windows are very strict, sometimes making it difficult for the system
@@ -28,27 +29,35 @@ https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/nzd-sap.drawio?inline=false[[Download Diagram]]
 --
 
+
 == The technology
 --
-image:logical-diagrams/nzd-sap.png[350, 300]
+image:logical-diagrams/nzd-sap.png[750, 700]
 --
+* The following technology was chosen for this solution:
+
 * The following technology was chosen for this solution:
 
 ** *Red Hat Enterprise Linux for SAP Solutions* is combining an intelligent operating system with predictive management
 tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
 available foundation for business-critical SAP and non-SAP workloads.
 
-** *Red Hat Satellite* manages the lifecycle of the SAP hosts and makes sure there is consistency across the SAP estate, with the same level of patches and security fixes in all the servers.
+*Red Hat Satellite* the smart management element in this architecture, used for tracking, managing, auditing, and
+collecting data on the entire infrastructure to ensure that baselines are met.
 
-** *Red Hat High Availability Add-on* makes the creation of clusters possible on both the DB and the application side. It features lock management, cluster management, fencing mechanisms (STONITH and SBD) and specific resources for ASCS and ERS instances and for all the SAP supported DBs, namely for SAP HANA which is the one used in this solution.
+** *Red Hat Smart Management*, which includes Satellite and Cloud Connector, provides the capability to gather
+anonymized configuration information from the SAP hosts and send that anonymized data to Insights Platform (on Red
+Hat’s SaaS). Satellite manages the lifecycle of the SAP servers, applying the packages, security fixes, etc., that
+they need to be compliant with SAP’s and Red Hat’s recommendations and consistent between them.
 
-** *Red Hat Ansible Automation Platform* is the component that orchestrates the solution using Ansible playbooks that will automate the whole process of the maintenance (OS kernel upgrade, OS parameter change, package update, security fix application, SAP HANA revision update, SAP HANA parameter change, SAP kernel upgrade, etc.).
+** *Red Hat Ansible Automation Platform* is the framework used in this solution to run the remediation Ansible
+playbooks in the hosts that will correct the situations that could lead to a failure or issue, for example modifying
+a kernel memory parameter that can cause a bad performance of the SAP HANA DB or applying a certain level of an OS
+package that is needed for a particular version of SAP Netweaver.
 
-It is also the central point from where all the SAP estate can be managed following the Infrastructure as Code approach, with inventories for the different types of servers, departments in the company, etc., and adding a very granular layer of security with Role Based Access Control.
-
-== Near Zero Downtime Maintenance for SAP overview
+== Near zero downtime network overview
 --
-image:schematic-diagrams/nzd-sap-network-sd.png[350, 300]
+image:schematic-diagrams/nzd-sap-network-sd.png[750, 700]
 --
 SAP HANA is the only DB for which this solution has been implemented by customers. However it could potentially be implemented for other DBs supported by SAP like DB2 using its HADR capability and triggering the failover of the resources with Ansible playbooks just as it is done in this implementation with SAP HANA.
 
@@ -56,6 +65,9 @@ On the application side we can have any SAP Netweaver based application (either 
 
 == Near Zero Downtime Maintenance for SAP data flow overview
 
+*TODO:* add description...
+
+== Near zero downtime data overview
 --
 image:schematic-diagrams/nzd-sap-data-sd.png[350, 300]
 --
