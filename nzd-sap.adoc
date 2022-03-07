@@ -12,36 +12,70 @@ administrators to finish the update tasks properly in time. This solution allows
 updates, DB patches and new versions and SAP kernel updates while users can continue to work inside SAP, not perceiving
 any disruption.
 
-Use case: Minimizing the downtime of the maintenances on SAP hosts so that users and processes can continue to work
+*Use case:* Minimizing the downtime of the maintenances on SAP hosts so that users and processes can continue to work
 without perceiving any interruption.
 
+--
+image:intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing.png[750,700]
+--
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
 these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
 be embedded into your content.
-
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/nzd-sap.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/nzd-sap.drawio?inline=false[[Download Diagram]]
 --
 
---
-image:intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing.png[750,700]
---
-
+== The technology
 --
 image:logical-diagrams/nzd-sap.png[350, 300]
+--
+* The following technology was chosen for this solution:
+
+** *Red Hat Enterprise Linux for SAP Solutions* is combining an intelligent operating system with predictive management
+tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
+available foundation for business-critical SAP and non-SAP workloads.
+
+** *Red Hat Satellite* manages the lifecycle of the SAP hosts and makes sure there is consistency across the SAP estate, with the same level of patches and security fixes in all the servers.
+
+It takes care of the following aspects:
+
+Content Management - It uses a content repository which is curated prior to its distribution to hosts.
+Patch Management - Satellite reports on hosts that need patches, fixes or enhancements and applies them automatically when approved.
+Provision Management - It provisions to bare metal, private, public and hybrid clouds and uses Ansible roles to automate post-provisioning steps.
+Subscription Management - Manages centrally the subscriptions of all the SAP hosts and keeps track of their subscription consumption.
+
+** *Red Hat High Availability Add-on* makes the creation of clusters possible on both the DB and the application side. It features lock management, cluster management, fencing mechanisms (STONITH and SBD) and specific resources for ASCS and ERS instances and for all the SAP supported DBs, namely for SAP HANA which is the one used in this solution.
+
+** *Red Hat Ansible Automation Platform* is the component that orchestrates the solution using Ansible playbooks that will automate the whole process of the maintenance (OS kernel upgrade, OS parameter change, package update, security fix application, SAP HANA revision update, SAP HANA parameter change, SAP kernel upgrade, etc.).
+
+It is also the central point from where all the SAP estate can be managed following the Infrastructure as Code approach, with inventories for the different types of servers, departments in the company, etc., and adding a very granular layer of security with Role Based Access Control.
+
+== Near Zero Downtime Maintenance for SAP overview
+--
 image:schematic-diagrams/nzd-sap-network-sd.png[350, 300]
+--
+SAP HANA is the only DB for which this solution has been implemented by customers. However it could potentially be implemented for other DBs supported by SAP like DB2 using its HADR capability and triggering the failover of the resources with Ansible playbooks just as it is done in this implementation with SAP HANA.
+
+On the application side we can have any SAP Netweaver based application (either the new suite built on SAP S/4HANA or legacy systems based on SAP Netweaver like SAP Netweaver itself, SAP BW, SAP PO/PI, etc.). The application hosts are connected with the SAP HANA DB hosts and all these servers that host SAP workloads are connected with those belonging to the Infrastructure Management tier, to both the Automation Orchestration (or Ansible Automation Platform) and to Satellite.
+
+== Near Zero Downtime Maintenance for SAP data flow overview
+
+--
 image:schematic-diagrams/nzd-sap-data-sd.png[350, 300]
 --
 
---
-image:detail-diagrams/satellite.png[250, 200]
-image:detail-diagrams/ansible-automation-platform.png[250, 200]
-image:detail-diagrams/ha-add-on.png[250, 200]
-image:detail-diagrams/sap-hana-detail.png[250, 200]
-image:detail-diagrams/sap-s4hana-detail.png[250, 200]
-image:detail-diagrams/sap-netweaver-detail.png[250, 200]
---
+All the SAP hosts are sending status data to Satellite that is in charge of their lifecycle management. The DB tier, the application tier or both are clustered. So we have Pacemaker cluster of the SAP HANA DB (the deployment of the DB can be scale-up - with just two servers with the exact same instance being replicated in real-time - or scale-out - with the different services of the DB spread across multiple nodes in order to have larger resources - both models can be clustered) and Pacemaker cluster of the application (SAP S/4HANA or any other SAP Netweaver based one).The RHEL HA Add-On based on Pacemaker has specific resources for SAP HANA and also for the application tier.
+
+The flow represented in this schematic diagram is the following:
+
+- The Satellite server applies the packages, security fixes, etc., in the primary node of the target cluster (DB cluster or application cluster - SAP Netweaver or SAP S/4HANA). If the intervention is a SAP HANA upgrade (DB cluster) or a SAP kernel upgrade (application cluster - the SAP kernel is different form the OS kernel, it is another layer of binaries specific to the SAP application) it will be the Automation Orchestration (Ansible Tower) who will run a playbook for this upgrade in the primary node of the target cluster.
+
+- If the maintenance is in the SAP HANA hosts, once the intervention is finished in the primary node, the Automation Orchestration runs a playbook in any of the nodes of the cluster to move the virtual IP to the other node so that the application servers can connect to it and keep working and since the SAP application ‘suspend DB connection’ feature is used, no transactions will be committed to the DB until the virtual IP failover is done, this takes less than one second so users will not perceive any disconnection. The Automation Orchestration will also run another playbook on any of the cluster nodes to change the direction of the SAP HANA System Replication, so that the node where the maintenance has already been done becomes the primary of this replication (primary node). If the maintenance is in the SAP application (Netweaver or S/4HANA) cluster the cluster resources that will be moved while the primary node is under maintenance will be the SAP instance (ASCS or ERS, depending on the one that is in the node) and the filesystems with the work and profile directories of the instance.
+
+- The Satellite server performs the intervention in the former primary node of the cluster. As in step 1, if the intervention is a SAP HANA upgrade or a SAP kernel upgrade it will be the Automation Orchestration who will run a playbook for it to be done in the former primary node of the cluster.
+
+
 
