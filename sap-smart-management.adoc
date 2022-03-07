@@ -39,36 +39,15 @@ image:logical-diagrams/sap-smart-management.png[750, 700]
 
 * The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
-
-** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
-The platform includes all the tools needed to implement enterprise-wide automation.
-
-** *Red Hat Insights* continuously analyzes platforms and applications to predict risk, recommend actions, and track
-costs so enterprises can better manage hybrid cloud environments.
-
-** *Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
-ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
-Linux, from physical machines to hybrid multiclouds.
-
-** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
-services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
-quickly and efficiently across clouds.
-
-** *Red Hat Satellite* is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
-environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
-
-** *Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your
-images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
-
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments
-
 ** *Red Hat Enterprise Linux for SAP Solutions* is combining an intelligent operating system with predictive management
 tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
 available foundation for business-critical SAP and non-SAP workloads.
+
+** *Red Hat Insights* receives the anonymized data of the SAP hosts from Smart Management and makes it available to the Insights services the customer is subscribed to. It is a rule-based SaaS and it has dedicated rules for SAP hosts that are based on SAP's and Red Hat's recommendations and it detects and alerts when a host is not compliant with all these recommendations.
+
+** *Red Hat Smart Management*, which includes Satellite and Cloud Connector, provides the capability to gather anonymized configuration information from the SAP hosts and send that anonymized data to Insights Platform (on Red Hat’s SaaS). Satellite manages the lifecycle of the SAP servers, applying the packages, security fixes, etc., that they need to be compliant with SAP’s and Red Hat’s recommendations and consistent between them.
+
+** *Red Hat Ansible Automation Platform* is the framework used in this solution to run the remediation Ansible playbooks in the hosts that will correct the situations that could lead to a failure or issue, for example modifying a kernel memory parameter that can cause a bad performance of the SAP HANA DB or applying a certain level of an OS package that is needed for a particular version of SAP Netweaver.
 
 == SAP smart management overview
 --
