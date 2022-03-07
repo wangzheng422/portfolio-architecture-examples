@@ -40,13 +40,6 @@ available foundation for business-critical SAP and non-SAP workloads.
 
 ** *Red Hat Satellite* manages the lifecycle of the SAP hosts and makes sure there is consistency across the SAP estate, with the same level of patches and security fixes in all the servers.
 
-It takes care of the following aspects:
-
-Content Management - It uses a content repository which is curated prior to its distribution to hosts.
-Patch Management - Satellite reports on hosts that need patches, fixes or enhancements and applies them automatically when approved.
-Provision Management - It provisions to bare metal, private, public and hybrid clouds and uses Ansible roles to automate post-provisioning steps.
-Subscription Management - Manages centrally the subscriptions of all the SAP hosts and keeps track of their subscription consumption.
-
 ** *Red Hat High Availability Add-on* makes the creation of clusters possible on both the DB and the application side. It features lock management, cluster management, fencing mechanisms (STONITH and SBD) and specific resources for ASCS and ERS instances and for all the SAP supported DBs, namely for SAP HANA which is the one used in this solution.
 
 ** *Red Hat Ansible Automation Platform* is the component that orchestrates the solution using Ansible playbooks that will automate the whole process of the maintenance (OS kernel upgrade, OS parameter change, package update, security fix application, SAP HANA revision update, SAP HANA parameter change, SAP kernel upgrade, etc.).
