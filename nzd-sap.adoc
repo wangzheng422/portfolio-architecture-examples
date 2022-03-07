@@ -4,7 +4,8 @@ Ricardo Garcia Cavero @ipbabble
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
-
+:toc: left
+:toclevels: 5
 
 This architecture covers Near Zero Downtime Maintenance for RHEL servers hosting SAP workloads. SAP workloads are
 critical in the company and the maintenance windows are very strict, sometimes making it difficult for the system
@@ -12,36 +13,57 @@ administrators to finish the update tasks properly in time. This solution allows
 updates, DB patches and new versions and SAP kernel updates while users can continue to work inside SAP, not perceiving
 any disruption.
 
-Use case: Minimizing the downtime of the maintenances on SAP hosts so that users and processes can continue to work
+*Use case:* Minimizing the downtime of the maintenances on SAP hosts so that users and processes can continue to work
 without perceiving any interruption.
 
+--
+image:intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing.png[750,700]
+--
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
 these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
 be embedded into your content.
-
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/nzd-sap.drawio[[Load Diagram]]
 https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/nzd-sap.drawio?inline=false[[Download Diagram]]
 --
 
+
+== The technology
 --
-image:intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing.png[750,700]
+image:logical-diagrams/nzd-sap.png[750, 700]
 --
 
+* The following technology was chosen for this solution:
+
+** *Red Hat Enterprise Linux for SAP Solutions* is combining an intelligent operating system with predictive management
+tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
+available foundation for business-critical SAP and non-SAP workloads.
+
+*Red Hat Satellite* the smart management element in this architecture, used for tracking, managing, auditing, and
+collecting data on the entire infrastructure to ensure that baselines are met.
+
+** *Red Hat Smart Management*, which includes Satellite and Cloud Connector, provides the capability to gather
+anonymized configuration information from the SAP hosts and send that anonymized data to Insights Platform (on Red
+Hat’s SaaS). Satellite manages the lifecycle of the SAP servers, applying the packages, security fixes, etc., that
+they need to be compliant with SAP’s and Red Hat’s recommendations and consistent between them.
+
+** *Red Hat Ansible Automation Platform* is the framework used in this solution to run the remediation Ansible
+playbooks in the hosts that will correct the situations that could lead to a failure or issue, for example modifying
+a kernel memory parameter that can cause a bad performance of the SAP HANA DB or applying a certain level of an OS
+package that is needed for a particular version of SAP Netweaver.
+
+== Near zero downtime network overview
 --
-image:logical-diagrams/nzd-sap.png[350, 300]
-image:schematic-diagrams/nzd-sap-network-sd.png[350, 300]
-image:schematic-diagrams/nzd-sap-data-sd.png[350, 300]
+image:schematic-diagrams/nzd-sap-network-sd.png[750, 700]
 --
 
+*TODO:* add description...
+
+== Near zero downtime data overview
 --
-image:detail-diagrams/satellite.png[250, 200]
-image:detail-diagrams/ansible-automation-platform.png[250, 200]
-image:detail-diagrams/ha-add-on.png[250, 200]
-image:detail-diagrams/sap-hana-detail.png[250, 200]
-image:detail-diagrams/sap-s4hana-detail.png[250, 200]
-image:detail-diagrams/sap-netweaver-detail.png[250, 200]
+image:schematic-diagrams/nzd-sap-data-sd.png[750, 700]
 --
 
+*TODO:* add description...

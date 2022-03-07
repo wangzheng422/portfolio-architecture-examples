@@ -51,7 +51,8 @@ Linux, from physical machines to hybrid multiclouds.
 ** *Red Hat Satellite* is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
 environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
+** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+data across hybrid infrastructures.
 
 ** *Red Hat Enterprise Linux for SAP Solutions* is combining an intelligent operating system with predictive management
 tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
