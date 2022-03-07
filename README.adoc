@@ -13,9 +13,9 @@ elements in *Detailed* diagrams.
 
 TIP: Learn how to use the draw.io tool to create portfolio architecture diagrams with https://gitlab.com/redhatdemocentral/portfolio-architecture-workshops[Portfolio Architecture Workshop]
 
-TIP: Learn how to develop your own blueprint project and add to this examples reposiotry with https://redhatdemocentral.gitlab.io/portfolio-architecture-template[Beginners guide to deveoping an architecture blueprint]
+TIP: Learn how to develop your own blueprint project and add to this examples repository with https://redhatdemocentral.gitlab.io/portfolio-architecture-template[Beginners guide to deveoping an architecture blueprint]
 
-== Portfolio Architecture Project Index
+== Portfolio Architecture project index
 [cols="3,7"]
 |===
 |Title | Description
@@ -66,7 +66,7 @@ and to design and modify decisioning, processes, and workflows for specific situ
 |Manage hybrid and multicloud cluster lifecycle, secure configuration and credentials. GitOps for Infrastructure as
 code approach. Cross cluster governance and application lifecycle management.
 
-|link:integrated-saas.adoc[Integrating withh SaaS applictions]
+|link:integrated-saas.adoc[Integrating with SaaS applications]
 |Providing integration with SaaS applications, platforms, and services empowers organizations to build and run scalable
 applications in modern, dynamic environments such as public, private, and hybrid clouds.
 
