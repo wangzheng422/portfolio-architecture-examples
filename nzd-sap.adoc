@@ -67,13 +67,9 @@ connected with the SAP HANA DB hosts and all these servers that host SAP workloa
 to the Infrastructure Management tier, to both the Automation Orchestration (or Ansible Automation Platform) and to
 Satellite.
 
-== Near Zero Downtime Maintenance for SAP data flow overview
-
-*TODO:* add description...
-
 == Near zero downtime data overview
 --
-image:schematic-diagrams/nzd-sap-data-sd.png[350, 300]
+image:schematic-diagrams/nzd-sap-data-sd.png[750, 700]
 --
 
 All the SAP hosts are sending status data to Satellite that is in charge of their lifecycle management. The DB tier,
@@ -105,6 +101,3 @@ with the work and profile directories of the instance.
 - The Satellite server performs the intervention in the former primary node of the cluster. As in step 1, if the
 intervention is a SAP HANA upgrade or a SAP kernel upgrade it will be the Automation Orchestration who will run a
 playbook for it to be done in the former primary node of the cluster.
-
-
-
