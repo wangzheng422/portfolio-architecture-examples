@@ -55,13 +55,10 @@ image:schematic-diagrams/sap-smart-management-network-sd.png[750, 700]
 --
 The prerequisites to implement the solution are the following:
 
-    All the servers that will host SAP workloads need to be registered with the RHEL for SAP Solutions subscription.
-
-    Insights client will be deployed in all of them.
-
-    Smart Management will be deployed in the customer’s infrastructure (either in the same location/infrastructure where the SAP ecosystem is or in a different one).
-
-    Ansible Automation Platform will also be deployed in the customer’s infrastructure.
+- All the servers that will host SAP workloads need to be registered with the RHEL for SAP Solutions subscription.
+- Insights client will be deployed in all of them.
+- Smart Management will be deployed in the customer’s infrastructure (either in the same location/infrastructure where the SAP ecosystem is or in a different one).
+- Ansible Automation Platform will also be deployed in the customer’s infrastructure.   
 
 In the SAP landscape there can be classic SAP Netweaver applications that can run on AnyDB or SAP HANA (thus the dotted connection in the diagram) and SAP S/4HANA applications that will only run on SAP HANA. Smart Management can be applied to any of those scenarios thus covering all the deployments supported by SAP.
 
