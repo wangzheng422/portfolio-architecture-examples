@@ -76,6 +76,8 @@ image:schematic-diagrams/sap-smart-management-network-sd.png[750, 700]
 --
 In the SAP landscape there can be classic SAP Netweaver applications that can run on AnyDB or SAP HANA (thus the dotted connection in the diagram) and SAP S/4HANA applications that will only run on SAP HANA. Smart Management can be applied to any of those scenarios thus covering all the deployments supported by SAP.
 
+*We are using SAP’s terminology when we mention “AnyDB” meaning any of the DBs on which SAP workloads can run other than SAP HANA (Oracle, DB2, Sybase, SQL Server, MaxDB)
+
 == SAP smart management data flow overview
 --
 image:schematic-diagrams/sap-smart-management-data-sd.png[750, 700]
