@@ -13,8 +13,9 @@ and are therefore accelerating adoption of digital technologies to enable a vari
 |===
 |Title | Description
 
-//|link:openbanking.adoc[Open banking]
-//|*TODO:* add open banking definition...
+|link:openbanking.adoc[Open banking]
+|A cloud ready, modular open source approach offering a wide range of technology options and allows
+low-effort integration covering all aspects of an Open Banking implementation.
 
 |link:payments.adoc[Payments]
 |Financial institutions enabling customers with fast, easy to use, and safe payment services available anytime, anywhere.
