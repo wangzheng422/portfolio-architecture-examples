@@ -44,9 +44,6 @@ data across hybrid infrastructures.
 the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
 data with high throughput and low latency.
 
-** *Red Hat Business Automation* is an application development platform that enables developers and business experts
-to create cloud-native applications that automate business operations.
-
 ** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
 your APIs on an infrastructure platform built for performance, customer control, and future growth.
 
@@ -70,5 +67,5 @@ promotion on an item of stock.
 
 The vendors, suppliers, and partners are shown with access to integration services that modify catalog management
 systems, logistics systems, supply chain systems, and order management systems that can be anywhere external to the
-organisation. Integration data services provide connectinos to the
+organisation. Integration data services provide connections to the
 link:retaildataframework.adoc[retail data framework architecture].
