@@ -1,9 +1,0 @@
-[user]
-email = iverma@redhat.com
-name = Ishu Verma
- 
-[gitlab]
-user = “ishuverma”
- 
-[core]
-sshCommand = “ssh -i ~/.ssh/id_ed25519”
