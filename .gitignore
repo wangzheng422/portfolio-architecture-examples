@@ -2,6 +2,7 @@
 .idea/
 *.swp
 *~
+.gitconfig.ishu
 
 # ignore generated files
 *.pdf
