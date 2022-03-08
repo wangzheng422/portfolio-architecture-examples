@@ -11,7 +11,8 @@ This architecture covers the use case around using open banking in financial ser
 that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere, and are therefore
 accelerating adoption of digital technologies to enable a variety of new offerings.
 
-*Use case:* TODO, add open banking use case definition.
+*Use case:* A cloud ready, modular open source approach offering a wide range of technology options and allows
+low-effort integration covering all aspects of an Open Banking implementation.
 
 *TODO:* add marketecture image...
 
