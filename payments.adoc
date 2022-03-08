@@ -46,8 +46,6 @@ It provides a consistent application platform to manage hybrid cloud, multicloud
 
 ** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share data with high throughput and low latency.
 
-** *Red Hat Business Automation* is an application development platform that enables developers and business experts to create cloud-native applications that automate business operations.
-
 ** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
 
 ** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
@@ -69,7 +67,7 @@ The overview of immediate payments starts with a payment request through the fro
 validated, then used to trigger an event in the payments event stream. At this point we assume that all the checks
 are triggered, which is not always the case, so that we can describe all of the detailed architectural elements in
 this diagram. From the events stream both anti-money laundering and fraud detection services are used to ensure this
-is a valid payment request and not something negligent. If they clear those checks, an event triggers the clearning
+is a valid payment request and not something negligent. If they clear those checks, an event triggers the clearing
 of the payment to process it through those services before routing services are event triggered to send the final
 payment instructions ot the external payments network. The first diagram is of a network based architecture and the
 second focuses on the data flow.
@@ -115,6 +113,6 @@ image:schematic-diagrams/fsi-payments-calculations-sd.png[750,700]
 The financial calculations diagram lays our an architecture that is in the payments realm, but more designed to
 determine the payment to be requested through a billing system of a customer. The request for calculating a payment
 comes into the architecture in the form of a message from the front facing API's. This message is processed through
-various message queues, first validation of the request, then processed through detailed calculations using rule based
-validation to determine the payment needed, through integration services connecting the organisation to their eventual
+various message queues, first validation of the request, then processed through detailed calculations using rule
+services to determine the payment needed, through integration services connecting the organisation to their eventual
 billing systems to issue the payment invoice.
