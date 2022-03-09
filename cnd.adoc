@@ -40,9 +40,6 @@ It provides a consistent application platform to manage hybrid cloud, multicloud
 applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
 multiple modernization options to enable a smooth transition to the cloud for existing applications.
 
-** *Red Hat Business Automation* is an application development platform that enables developers and business experts to
-create cloud-native applications that automate business operations.
-
 ** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
@@ -57,7 +54,8 @@ virtual, container, and all types of cloud environments.
 == Development with local containers
 --
 image:schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[750, 700]
-//image:schematic-diagrams/cloud-native-development-local-containers-process-sd.png[750, 700]
+
+image:schematic-diagrams/cloud-native-development-local-containers-process-sd.png[750, 700]
 --
 
 The first diagram is for simple application with runtimes and integration, the second is one leveraging business
@@ -75,7 +73,8 @@ production.
 == Development with remote containers
 --
 image:schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png[750, 700]
-//image:schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[350, 300]
+
+image:schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[750, 700]
 --
 
 The first diagram is for simple application with runtimes and integration, the second is one leveraging business
