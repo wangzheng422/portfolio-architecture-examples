@@ -16,7 +16,7 @@ like errors and predictive maintenance.
 to the edge.
 
 --
-image:intro-marketectures/edge-manufacturing-efficency-marketing-slide.png[750,700]
+image:intro-marketectures/edge-manufacturing-efficiency-marketing-slide.png[750,700]
 --
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
@@ -35,7 +35,6 @@ image:logical-diagrams/industrial-edge-ld.png[750, 700]
 * The following technology was chosen for this solution:
 
 ** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
-provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
 ** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
 applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
@@ -62,7 +61,7 @@ virtual, container, and all types of cloud environments.
 
 == Edge manufacturing with messaging and ML
 --
-image:schematic-diagrams/industrial-edge-devops-sd.png[750, 700]
+image:schematic-diagrams/edge-mfg-devops-sd.png[750, 700]
 --
 Data coming from sensors is transmitted over MQTT to Red Hat AMQ, which routes sensor data for two purposes: model
 development in the core data center and live inference in the factory data centers. The data is then relayed on to Red
@@ -83,8 +82,14 @@ back down to the factory data center for use in inference.
 
 == Edge manufacturing with GitOps
 --
-image:schematic-diagrams/industrial-edge-gitops-sd.png[750, 700]
+image:schematic-diagrams/edge-mfg-gitops-sd.png[750, 700]
 --
 For the manufacturing environments, GitOps provides a consistent, declarative approach to managing individual cluster
 changes and upgrades across the centralized and edge sites. Any changes to configuration and applications can be
 automatically pushed into operational systems at the factory.
+
+== Secrets exchange and management
+--
+image:schematic-diagrams/edge-mfg-security-sd.png[750, 700]
+--
+Authenticiation is used to securily deploy and update components across mutliple locations. The credentials are stored using a secrets management solution like Hashicorp vault. External Secrets component is used to integrate various secrets management tools (AWS Secrets Manager, Google Secrets Manager, Azure Key Vault). These secrets are then passed to ACM which uses it's policy to push the secrets to the ACM agent at the edge clusters. The ACM is also responsible for providing secrets to OpenShift GitOps.
