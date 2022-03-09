@@ -7,23 +7,17 @@ Eric Lavarde @L1
 :toc: left
 :toclevels: 5
 
-This architecture covers deploying in an automated manner multiple instance of an OpenStack and Ceph based cloud,
-following the principles of Infrastructure as Code.
+Instead of buying a cloud, large enterprise wants cloud factory, being able to deploy and manage the cloud in a modern and automated manner. This architecture covers deploying in an automated manner multiple instance of an OpenStack and Ceph based cloud, following the principles of *Infrastructure as Code*.
 
-*Use case:* Deploy multiple private clouds based on the same (infrastructure as) code using different parametrization
-(Ansible inventories).
+*Use case:* Deploy multiple private clouds based on the same (infrastructure as) code using different parametrization (Ansible inventories).
 
 --
-image:intro-marketectures/cloud-factory-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloud-factory-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-factory.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-factory.drawio?inline=false[[Download Diagram]]
 --
 
 == The technology
@@ -32,45 +26,54 @@ image:logical-diagrams/cloud-factory-ld.png[750, 700]
 --
 * The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+*Red Hat OpenStack Platform* essential part of the factory where it virtualize resources from hardware, organizes those resources into clouds, and manages them.  So automation can be done on top of it allowing access hardwares what they need—when they need it.
 
-** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
-The platform includes all the tools needed to implement enterprise-wide automation.
+*Red Hat Ceph Storage* Software-defined storage solution that is simple to setup, supports automation, and easy to scale and manage. It's a good cloud factory choice because it's ability to store data as objects that can be easily shared across a network. 
 
-** *Red Hat OpenStack Platform* is a cloud computing platform that virtualizes resources from industry-standard
-hardware, organizes those resources into clouds, and manages them so users can access what they need—when they need it.
+*Red Hat Ansible Automation Platform* For building and operating automation as code. The platform act as the centralized control to execute the code for deploymenet and remediation base on the anaylsis of collected environment data.   
 
-** *Red Hat Virtualisation* is an enterprise virtualization platform that supports key virtualization workloads
-including resource-intensive and critical applications, built on Red Hat Enterprise Linux and KVM.
+*Red Hat Satellite* Manages the infrastructure, provides versioning and management of trusted softwares for containers, RPMs or libraries used in applications. 
 
-** *Red Hat Ceph Storage* is an open, massively scalable, simplified storage solution for modern data pipelines.
-Engineered for data analytics, artificial intelligence/machine learning (AI/ML), and emerging workloads, it delivers
-software-defined storage on your choice of industry-standard hardware.
+*Red Hat Enterprise Linux* Enterprise Linux platform. Host virtual, container, and all types of cloud environments.
 
-** *Red Hat Identity Management* provides a centralized and unified way to manage identity stores, authentication,
-policies, and authorization policies in a Linux-based domain.
+*Red Hat Virtualisation* virtualization workloads built on Red Hat Enterprise Linux and KVM.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments.
+*Red Hat OpenShift* the Kubernetes container platform that provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments. 
 
-== Cloud factory overview
+*Red Hat Identity Management* for applying centralized and unified identity management authentication, policies, and authorization policies to all cloud built. 
+
+
+== Cloud factory 
 --
-image:schematic-diagrams/cloud-factory-data-sd.png[750, 700]
-//image:schematic-diagrams/cloud-factory-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-factory-data-sd.png[750, 700]
 --
-* This is an overview look at cloud factory, providing the solution details and the elements described above
-in both a network and data centric view:
 
-** The infrastructure starts with a deployment head, where the definitive software library is maintained through
-development and connections to the Red Hat content delivery network. Ansible is used to maintain and deliver playbooks
-based infrastructure automation delivery to as many detached deployment heads as needed. There is also centralised
-montoring and logging within this deployment head.
+* This is an overview look at cloud factory, providing the solution details and the elements described above in both a network and data centric view:
 
-** In our research the deployment head and detached deployment heads all ran on some form of virtualisation platforms.
-They were also supported by network services like DNS and other security services.
+** The infrastructure starts with a deployment head, where the definitive software library is maintained through development and connections to the Red Hat content delivery network. Ansible is used to maintain and deliver playbooks based infrastructure automation delivery to as many detached deployment heads as needed. There is also centralised montoring and logging within this deployment head.
+
+** In our research the deployment head and detached deployment heads all ran on some form of virtualisation platforms.They were also supported by network services like DNS and other security services.
 
 ** The detached deployment heads were used to then roll out and support the necessary cloud environments, using
 OpenStack Director to maintain compute nodes and controllers for both compute and storage.
 
+
+== Cloud Factory Network
+
+--
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-factory-sd.png[750, 700]
+--
+* This example shows two cloud deployments. The first is the detached deployment head and the second is a cloud enviroment.
+
+** Detached Head Deployment
+*** Compute Deployment - The Openstack Platform is used to enable further computer nodes in deployed cloud environments.
+** Softare Proxy - Pulls all the images from the deployment head and ensures that only trusted images are being rolled out in the variouscloud environments_ of choice.
+** Cloud Enviroment
+*** The focus is on the main elements found in the deployments, such as the OpenStack compute controllers managing the compute nodes. A tenant of these nodes is shown as the OpenShift Container Platform providing a container-based Platform-as-a-Service (PaaS).
+
+
+== Download diagrams
+--
+View and download all of the diagrams above in our open source tooling site.
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-factory.drawio[Diagram Access]
+--
