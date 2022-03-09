@@ -40,9 +40,6 @@ multiple modernization options to enable a smooth transition to the cloud for ex
 ** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
 your APIs on an infrastructure platform built for performance, customer control, and future growth.
 
-** *Red Hat Business Automation* is an application development platform that enables developers and business experts
-to create cloud-native applications that automate business operations.
-
 ** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
@@ -61,9 +58,9 @@ image:schematic-diagrams/omnichannel-process-integration-sd.png[750,700]
 --
 
 Example of a process application deployed in a mobile applications making calls through the API Gateway to leverage
-both Frontend Microservices and Process Facade Microservices to access functionality in the Process Server and
-integration with backend systems through the Integration Microservices. Container Native Storage shown used for process
-storage as an example. Not showing monitoring.
+both Frontend Microservices and Process Microservices to access functionality in the Process Server and integration
+with backend systems through the Integration Microservices. Container Native Storage shown used for process storage
+as an example. Not showing monitoring.
 
 == Mobile integration example
 --
@@ -100,9 +97,8 @@ image:schematic-diagrams/omnichannel-integration-3rd-party-service-sd.png[750,70
 --
 
 Example of a process application deployed in a mobile applications making calls through the API Gateway to leverage
-both Frontend Microservices and Process Facade Microservices to access functionality in the Process Server and
-integration with systems through the Integration Microservices. Container Native Storage shown used for process storage
-as an example. Not showing monitoring.
+both Frontend Microservices, Process Microservices, and integration with systems through the Integration Microservices.
+Container Native Storage shown used for process storage as an example. Not showing monitoring.
 
 == Integration third-party services
 --
