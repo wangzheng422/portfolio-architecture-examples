@@ -12,16 +12,7 @@ infrastructure safe and compliant is a challenge for many organizations. One of 
 today is the combination of using insights based on historical data, and automation tools for applying remediation across hundreds
 or thousands of hosts in a targeted and prioritized manner. 
 
-Use case: Managing security, policy and patches for a large number of servers in data centers or public/private clouds.
-
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
-
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remediation.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/remediation.drawio?inline=false[[Download Diagram]]
---
+*Use case:* Managing security, policy and patches for a large number of servers in data centers or public/private clouds.
 
 --
 image:logical-diagrams/remediation-ld.png[350, 300]
@@ -29,4 +20,11 @@ image:schematic-diagrams/remediation-network-sd.png[350, 300]
 image:schematic-diagrams/remediation-dataflow-sd.png[350, 300]
 image:detail-diagrams/remediation-detail-smartmanagement.png[250, 200]
 image:detail-diagrams/remediation-detail-automationorchestration.png[250, 200]
+--
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remediation.drawio[[Open Diagrams]]
 --

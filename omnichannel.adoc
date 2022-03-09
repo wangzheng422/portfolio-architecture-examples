@@ -21,15 +21,6 @@ all the channels someone chooses to use.
 image:intro-marketectures/omnichannel-marketing-slide.png[750,700]
 --
 
-Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
-content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/omnichannel-customer-experience.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/omnichannel-customer-experience.drawio?inline=false[ [Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/omnichannel-customer-experience-ld.png[750,700]
@@ -122,3 +113,9 @@ Example use of integration microservices with web ui making calls through the AP
 Microservices that in turn call to various integration with backend systems through an Integration Microservice. SSO
 server shown with integration to existing company backend Active Directory Server for authentication. Not showing
 monitoring.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/omnichannel-customer-experience.drawio[[Open Diagrams]]
+--

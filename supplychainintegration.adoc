@@ -18,16 +18,6 @@ small number of wholesale, corporate or government clientele.
 image:intro-marketectures/supply-chain-integration-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-supply-chain.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-supply-chain.drawio?inline=false[[Download Diagram]]
---
-
-
 == The technology
 --
 image:logical-diagrams/retail-supply-chain-ld.png[750, 700]
@@ -64,3 +54,10 @@ onwards through integration or data integration services to backend systems. In 
 are show being leveraged by this retail organisation; an AI/ML platform and a generic placeholder for any third-party
 supply chain systems of record. Finally, the data integration is connecting to the
 link:retaildataframework.adoc[retail data framework architecture].
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-supply-chain.drawio[[Open Diagrams]]
+--
+

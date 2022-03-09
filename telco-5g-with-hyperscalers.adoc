@@ -20,16 +20,6 @@ cases with minimal CAPEX and OPEX.
 image:intro-marketectures/telco-5g-core-hyperscalers-marketing-slide.png[750,700]
 --
 
-Open the diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
-content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco5GC-generic-7.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco5GC-generic-7.drawio?inline=false[[Download Diagram]]
---
-
-
 == The technology
 --
 image:logical-diagrams/telco5GC-generic-7-ld.png[750, 700]
@@ -110,3 +100,10 @@ into the Orchestrator or implemented using Operators.
 
 OpenShift Service Mesh is used for service discovery and exposure, and as a mechanism for specialized network handling,
 certificate management, etc.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco5GC-generic-7.drawio[[Open Diagrams]]
+--
+

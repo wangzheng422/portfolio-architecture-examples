@@ -13,15 +13,6 @@ residency requirements, and run resilient, semi-autonomous applications.
 
 *TODO:* insert marketecture
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-edge.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-edge.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image::logical-diagrams/cloud-edge-ld.png[750,700]
@@ -35,3 +26,9 @@ image::logical-diagrams/cloud-edge-ld.png[750,700]
 image::schematic-diagrams/cloud-edge-gitops-network-sd.png[750,700]
 --
 *TODO:* insert descriptions of the SD's.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-edge.drawio[[Open Diagrams]]
+--

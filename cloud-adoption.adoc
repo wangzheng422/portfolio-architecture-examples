@@ -18,10 +18,6 @@ cloud infrastructures according to performance, security, compliance, and cost r
 --
 image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloud-adoption-marketing-slide.png[750,700]
 --
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-adoption.drawio[[Open all diagrams in Tooling]]
---
-
 
 == The technology
 --
@@ -101,3 +97,9 @@ management and automation orchestration will take action as defined in the autom
 
 * Infrastructure management also uses the gained workload insights to deploy new updates and manage security patches
 across all infrastructure destinations,. Roll out extra resources for surging demand on specific workloads.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-adoption.drawio[[Open Diagrams]]
+--

@@ -19,15 +19,6 @@ infrastructure as code approach. Cross cluster governance and application lifecy
 image:intro-marketectures/hybrid-multicloud-management-gitops-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/spi-multi-cloud-gitops.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/spi-multi-cloud-gitops.drawio[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/spi-multi-cloud-gitops-ld-simple.png[750, 700]
@@ -114,3 +105,9 @@ image:schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[750, 750]
 . Grafana dashboard in Hub cluster display logs via requesting:
   .. Real-time display (tail) with WebSocket.
   .. Time-series-based query with HTTP.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/spi-multi-cloud-gitops.drawio[[Open Diagrams]]
+--

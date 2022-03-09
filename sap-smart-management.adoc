@@ -23,15 +23,6 @@ and hybrid cloud), making sure they are compliant with SAP and Red Hat's recomme
 image:intro-marketectures/smart-management-for-SAP-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/smart-management-sap.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/smart-management-sap.draw.io?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/sap-smart-management.png[750, 700]
@@ -95,3 +86,9 @@ remediation playbooks in the SAP servers
 With the packages, security fixes, etc., applied to the hosts in the SAP Landscape we make sure that they are all up to
 date and at the same level (according to Red Hat and SAP’s recommendations) so there is no drift between them that can
 cause issues.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/smart-management-sap.drawio[[Open Diagrams]]
+--

@@ -16,15 +16,6 @@ low-effort integration covering all aspects of an Open Banking implementation.
 
 *TODO:* add marketecture image...
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/fsi-openbanking.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/fsi-openbanking.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/fsi-openbanking-ld.png[750,700]
@@ -40,3 +31,9 @@ image:schematic-diagrams/fsi-openbanking-data-sd.png[750,700]
 --
 
 *TODO:* add description...
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/fsi-openbanking.drawio[[Open Diagrams]]
+--

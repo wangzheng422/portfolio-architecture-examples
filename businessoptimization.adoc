@@ -19,15 +19,6 @@ multiple stores.
 image:intro-marketectures/business-optimisation-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-business-optimisation.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-business-optimisation.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/retail-business-optimisation-ld.png[750, 700]
@@ -71,3 +62,9 @@ supply data, and patient (customer) data that might apply. The external planners
 the planning calculations and the scheduling process so they are given access through and API management element. The
 final vaccine schedule is then sent to the integration services to then ensure the vaccine appointments are sent the
 new schedule in a mobile application for the consumer to be notified.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-business-optimisation.drawio[[Open Diagrams]]
+--

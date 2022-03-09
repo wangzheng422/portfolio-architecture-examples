@@ -19,15 +19,6 @@ to the edge.
 image:intro-marketectures/edge-manufacturing-efficiency-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/edge-manufacturing-efficiency.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/edge-manufacturing-efficiency.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/industrial-edge-ld.png[750, 700]
@@ -92,4 +83,14 @@ automatically pushed into operational systems at the factory.
 --
 image:schematic-diagrams/edge-mfg-security-sd.png[750, 700]
 --
-Authenticiation is used to securily deploy and update components across mutliple locations. The credentials are stored using a secrets management solution like Hashicorp vault. External Secrets component is used to integrate various secrets management tools (AWS Secrets Manager, Google Secrets Manager, Azure Key Vault). These secrets are then passed to ACM which uses it's policy to push the secrets to the ACM agent at the edge clusters. The ACM is also responsible for providing secrets to OpenShift GitOps.
+Authentication is used to securely deploy and update components across multiple locations. The credentials are stored
+using a secrets management solution like Hashicorp vault. External Secrets component is used to integrate various
+secrets management tools (AWS Secrets Manager, Google Secrets Manager, Azure Key Vault). These secrets are then passed
+to ACM which uses it's policy to push the secrets to the ACM agent at the edge clusters. The ACM is also responsible
+for providing secrets to OpenShift GitOps.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/edge-manufacturing-efficiency.drawio[[Open Diagrams]]
+--

@@ -25,15 +25,6 @@ advantages of the cloud computing model (i.e. responsive, elastic and resilient 
 image:intro-marketectures/cnd-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-native-development.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-native-development.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/cloud-native-development-ld.png[750, 700]
@@ -177,3 +168,9 @@ registry will have a tag and Git repository will be updated with new tagged imag
 Once the test environment is stable, developers can decide to update Git repository and add tag to image for stage.
 The CD platform will automatically sync everything in the cluster. Finally once the application works as expected, it
 can be moved to prod using a similar approach [9], [10], [11].
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-native-development.drawio[[Open Diagrams]]
+--
