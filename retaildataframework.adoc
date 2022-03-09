@@ -12,7 +12,8 @@ earn a profit. Retailers satisfy demand identified through a supply chain. The t
 where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
 small number of wholesale, corporate or government clientele.
 
-*Use case:* Creating a framework for access to retail data from customers, stock, stores, and staff across multiple internal teams.
+*Use case:* Creating a framework for access to retail data from customers, stock, stores, and staff across multiple
+internal teams.
 
 --
 image:intro-marketectures/retail-data-framework-marketing-slide.png[750,700]
@@ -53,11 +54,9 @@ quickly and efficiently across clouds.
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
-== Example retail data framework
+== Retail data framework network overview
 --
 image:schematic-diagrams/retail-data-framework-sd.png[750, 700]
-
-image:schematic-diagrams/retail-data-framework-data-sd.png[750, 700]
 --
 
 This is a complex data story where many aspects of the retail organisation are linked to, feeding and leveraging output
@@ -73,6 +72,14 @@ checks before leveraging the integration services to access the core platform or
 The core platform can be seen as the central IT location for other compliance and regulatory tooling, data governance
 tooling, auditing tooling, and centralised authentication and authorisation tooling. The data science platform is
 where the business intelligence tooling, data visualisation tooling, and data science tooling is found.
+
+== Retail data framework data overview
+--
+image:schematic-diagrams/retail-data-framework-data-sd.png[750, 700]
+--
+
+This is the data flow overview with an example of data entrering from the various external sources shown. For details
+on the elements and what's happening, see the network overview above.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
