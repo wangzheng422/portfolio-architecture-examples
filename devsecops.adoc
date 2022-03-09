@@ -22,19 +22,15 @@ solutions that enable teams to quickly find and fix vulnerabilities and defects 
 application behavior. With a combination of industry-leading tools, services, and expertise, Synopsys helps organizations optimize
 security and quality in DevSecOps and throughout the software development life cycle. 
 
-Use case: Building secure, high-qulaity containerized solutions using OpenShift platform using DevSecOps in the development life
+*Use case:* Building secure, high-qulaity containerized solutions using OpenShift platform using DevSecOps in the development life
 cycle.
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your content.
-
-
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schmatic-diagrams-devsecops-synopsys.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/schmatic-diagrams-devsecops-synopsys.drawio?inline=false[[Download Diagram]]
+image:schematic-diagrams/devsecops-synopsis-dataflow.png[750, 700]
 --
 
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
 --
-image:schematic-diagrams/devsecops-synopsis-dataflow.png[350, 300]
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/schmatic-diagrams-devsecops-synopsys.drawio[[Open Diagrams]]
 --
-

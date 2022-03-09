@@ -18,15 +18,6 @@ run scalable applications in modern, dynamic environments such as public, privat
 image:intro-marketectures/saas-integration-marketing-slide.png[750,700]
 --
 
-Open the  diagrams in the diagram tooling using 'Load Diagram' link. To download the project file for these diagrams use
-the 'Download Diagram' link. The images below can be used to browse the available diagrams and can be embedded into your
-content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/integrate-saas-applications.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/integrate-saas-applications.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/integrating-with-saas-applications-ld.png[750,700]
@@ -92,3 +83,9 @@ access the process services. The request triggers process activity that needs to
 communicate with an external SaaS platforms services. It's essential that the integration services can work in both
 directions offering the SaaS platforms services the ability to trigger process activity as needed. The SSO for
 authentication and authorisation is added to show the ability to connect to existing organisational directory services.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/integrate-saas-applications.drawio[[Open Diagrams]]
+--

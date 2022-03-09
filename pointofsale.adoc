@@ -18,15 +18,6 @@ small number of wholesale, corporate or government clientele.
 image:intro-marketectures/pos-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-pos.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-pos.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/retail-pos-ld.png[750, 700]
@@ -74,3 +65,9 @@ The store server is a part of the infrastructure that hosts the elements needed 
 image pipelines and the daily management of communication, sales data, and stock control information. The SKU Catalog
 takes input from each point of sale in the store. The image cache hosts the retail organizations centrally developed
 collection of point of sale images.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-pos.drawio[[Open Diagrams]]
+--

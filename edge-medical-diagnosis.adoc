@@ -15,15 +15,6 @@ This architecture covers the use case around edge medical diagnosis in the healt
 image:intro-marketectures/edge-medical-diagnosis-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/edge-medical-diagnosis.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/edge-medical-diagnosis.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/edge-medical-diagnosis-ld.png[350, 300]
@@ -103,3 +94,9 @@ source code repository for IT operations is also replicated out to the remote lo
 trigger the GitOps pipelines to sync updates to the image registry and the operations source code repository to the
 OpenShift platform. This means it's deploying, configuring, and applying manifests to the applications and services
 used to process the medical diagnosis imaging solution.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/edge-medical-diagnosis.drawio[[Open Diagrams]]
+--

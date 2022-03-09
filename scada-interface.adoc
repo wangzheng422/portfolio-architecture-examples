@@ -19,15 +19,6 @@ of API gateways to protect business service depending on the network zones.
 image:intro-marketectures/scada-interface-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/scada-interface.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/scada-interface.draw.io?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/scada-interfaces-ld-general.png[750, 700]
@@ -90,3 +81,9 @@ image:schematic-diagrams/scada-interfaces-data-sd-enterprise.png[750, 700]
 --
 
 *TODO:* add description...
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/scada-interface.drawio[[Open Diagrams]]
+--

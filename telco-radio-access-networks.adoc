@@ -29,11 +29,6 @@ the core network, radio access network (RAN) solutions are now taking advantage 
 image:intro-marketectures/telco-ran-marketing-slide.png[750,700]
 --
 
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-ran-pb-v25.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb-v25.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/telco-ran-ld.png[750, 700]
@@ -71,7 +66,7 @@ quickly and efficiently across clouds.
 virtual, container, and all types of cloud environments.
 
 == Telco 5G radio access networks
-
+--
 image:schematic-diagrams/telco-ran-sd.png[750, 700]
 
 image:schematic-diagrams/telco-ran-mgmt-sd.png[750, 700]
@@ -80,3 +75,9 @@ image:schematic-diagrams/telco-ran-mgmt-sd.png[750, 700]
 This architecture supports the following Open Radio Access Network deployment scenarios such as decentralized, where
 the Distributed Units are located at the cell site and centralized, where the Distributed Units are located at the edge
 site and Central Units located at the regional data center.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/telco-ran-pb-v25.drawio[[Open Diagrams]]
+--

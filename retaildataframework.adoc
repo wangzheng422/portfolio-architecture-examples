@@ -18,15 +18,6 @@ small number of wholesale, corporate or government clientele.
 image:intro-marketectures/retail-data-framework-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-data-framework.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-data-framework.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/retail-data-framework-ld.png[750, 700]
@@ -82,3 +73,9 @@ checks before leveraging the integration services to access the core platform or
 The core platform can be seen as the central IT location for other compliance and regulatory tooling, data governance
 tooling, auditing tooling, and centralised authentication and authorisation tooling. The data science platform is
 where the business intelligence tooling, data visualisation tooling, and data science tooling is found.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-data-framework.drawio[[Open Diagrams]]
+--

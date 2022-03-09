@@ -18,15 +18,6 @@ automation tools for applying remediation across a scaling estate of hosts in a 
 image:intro-marketectures/self-healing-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/self-healing.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/blob/main/diagrams/self-healing.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/self-healing-ld.png[750, 700]
@@ -91,3 +82,9 @@ configuration is outlined in the remediation plan in the Satellite.
 * RHEL remediation plans can also be manually synced to the automation controller (optional).
 7. Ansible’s automation controller can be used to deliver the additional remediation synced (optional) in tandem with
 it’s normal automation workflow.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/self-healing.drawio[[Open Diagrams]]
+--

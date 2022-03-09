@@ -18,15 +18,6 @@ small number of wholesale, corporate or government clientele.
 image:intro-marketectures/store-health-safety-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-store-health-and-safety.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-store-health-and-safety.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/retail-store-safety-ld.png[750, 700]
@@ -65,3 +56,9 @@ new fire extinguishers or safety equipment using the supplier microservices. Act
 systems can be local to the store, internal to the organisation but remote to the store, or to some remote third-party
 system using integration microservices. Finally, data for the retail organisation uses data integration microservices
 to access the link:retaildataframework.adoc[retail data framework architecture].
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-store-health-and-safety.drawio[[Open Diagrams]]
+--

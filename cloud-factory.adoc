@@ -91,7 +91,7 @@ They were also supported by network services like DNS and other security service
 OpenStack Director to maintain compute nodes and controllers for both compute and storage.
 
 == Download diagrams
---
 View and download all of the diagrams above in our open source tooling site.
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-factory.drawio[Diagram Access]
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-factory.drawio[Open Diagrams]
 --

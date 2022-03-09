@@ -19,15 +19,6 @@ platform.
 image:intro-marketectures/headless-ecommerce-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-headless-ecommerce.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/retail-headless-ecommerce.drawio?inline=false[[Download Diagram]]
---
-
 == The technology
 --
 image:logical-diagrams/retail-headless-ecommerce-ld.png[750, 700]
@@ -106,3 +97,9 @@ The image is pushed to the test environment and rolls out the entire headless e-
 application, and messaging. These are tied to external integration services and the testing web application. The
 process continues on through more environments until the organisation is satisfied to push to production, which is
 not shown in this diagram due to space.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-headless-ecommerce.drawio[[Open Diagrams]]
+--
