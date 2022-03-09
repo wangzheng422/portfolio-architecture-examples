@@ -1,4 +1,4 @@
-= Data center to edge
+= Cloud to edge
  Ishu Verma  @ishuverma, Francesco Rossi
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
@@ -7,7 +7,7 @@
 :toc: left
 :toclevels: 5
 
-This architecture covers the use case of bringing cloud capabilities to edge  with multiple mobile locations (transportation, defense, etc.). The OpenShift clusters at edge locations can be deployed on top of existing infrastructure. The application developed in cloud can be deployed remotely from central repository to multiple edge registry repositories and from there to edge clusters on demand and automatically.
+This architecture covers the use case of providing a consistent infrastructure experience from cloud to edge and enabling modern containerized applications at edge.
 
 
 == Use case: Bringing cloud like capabilities to the edge locations
