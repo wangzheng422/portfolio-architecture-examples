@@ -1,0 +1,33 @@
+= Data center to edge
+ Ishu Verma  @ishuverma, Francesco Rossi
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
+
+This architecture covers the use case of bringing cloud capabilities to edge  with multiple mobile locations (transportation, defense, etc.). The OpenShift clusters at edge locations can be deployed on top of existing infrastructure. The application developed in cloud can be deployed remotely from central repository to multiple edge registry repositories and from there to edge clusters on demand and automatically.
+
+
+== Use case: Bringing cloud like capabilities to the edge locations
+
+
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-edge.drawio[[Load Diagram]]
+https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-edge.drawio?inline=false[[Download Diagram]]
+--
+
+--
+image::logical-diagrams/edge-cloud-ld.png[350,300]
+image::schematic-diagrams/edge-cloud-gitops-sd.png[350,300]
+image::schematic-diagrams/edge-cloud-gitops-network-sd.png[350,300]
+--
+
+--
+image:detail-diagrams/datacenter-to-edge-imageregistry-cdc-dtl.png[250,200]
+image:detail-diagrams/datacenter-to-edge-imageregistry-cloud-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-mgmt-agent-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-mgmt-contrlr-dtl.png[250, 200]
+image:detail-diagrams/datacenter-to-edge-microservice-edge-dtl.png[250, 200]
+--
