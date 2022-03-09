@@ -20,6 +20,9 @@ resilient, semi-autonomous applications.
 |link:edge-manufacturing-efficency.adoc[Edge manufacturing efficiency]
 |Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
 
+|link:edge-cloud.adoc[Cloud to edge]
+|Providing a consistent infrastructure experience from cloud to edge and enabling modern containerized applications at edge.
+
 |link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
 |Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
 
