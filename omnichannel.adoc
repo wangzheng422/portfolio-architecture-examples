@@ -7,64 +7,56 @@ Eric D. Schabell @eschabell
 :toc: left
 :toclevels: 5
 
-An omnichannel approach provides a unified customer experience across platforms, creating a single view for customers to
-interact with their own information. Red Hat provides a foundation for IT teams to develop and deliver omnichannel
-services through a combination of integration and process automation technologies. Agile integration defines how
-organizations are transforming and delivering on their digital promise to customers by integrating applications and
-services across on-premise infrastructure and cloud environments. Business automation, in the form of process
-integrations, are captured to enable access to complex process services.
+An omnichannel approach provides a unified customer experience across platforms, creating a single view for
+customers to interact with their own information.
 
-*Use case:* Omnichannel implies integration and orchestration of channels such that the experience of engaging across
+Red Hat provides a foundation for IT teams to develop and deliver omnichannel services through a combination
+of integration and process automation technologies. Agile integration defines how organizations are transforming
+and delivering on their digital promise to customers by integrating applications and services across on-premise
+infrastructure and cloud environments. Business automation, in the form of process integrations, are captured to
+enable access to complex process services.
+
+--
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/omnichannel-marketing-slide.png[750,700]
+--
+
+Use case: Omnichannel implies integration and orchestration of channels such that the experience of engaging across
 all the channels someone chooses to use.
 
---
-image:intro-marketectures/omnichannel-marketing-slide.png[750,700]
---
 
 == The technology
 --
-image:logical-diagrams/omnichannel-customer-experience-ld.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/omnichannel-customer-experience-ld.png[750,700]
 
-image:logical-diagrams/omnichannel-customer-experience-details-ld.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/omnichannel-customer-experience-details-ld.png[750,700]
 --
 
 * The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+*Red Hat Integration* Manage APIs. Share, secure, distribute, control, and monetize
+APIs as connecting endpoint from Web UI, Mobile applications and third party. Frameworks and connectors to integrate consumer applications with backend systems or third party services. With support for connecting both API and real-time data streams.
 
-** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
-applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
-multiple modernization options to enable a smooth transition to the cloud for existing applications.
+*Red Hat OpenShift Data Foundations* software-defined storage for containers. For real-time data storage and analysis, realizations of logical storage definitions as needed by applications, processes or services.
 
-** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
-your APIs on an infrastructure platform built for performance, customer control, and future growth.
+*Red Hat OpenShift Runtimes* Foundation to build microservices. Support cloud native development strategy with built-in build and deployment support. Also includes Single Sign On solution that can  be tied into existing organizational directories. 
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
-data across hybrid infrastructures.
-
-** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
-services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
-quickly and efficiently across clouds.
-
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments.
+*Red Hat OpenShift* Kubernetes container platform for orchestrating, managing, handling deployments, auto scaling of the containerized application.  
 
 
 == Process integration example
 --
-image:schematic-diagrams/omnichannel-process-integration-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/omnichannel-process-integration-sd.png[750,700]
 --
 
 Example of a process application deployed in a mobile applications making calls through the API Gateway to leverage
-both Frontend Microservices and Process Microservices to access functionality in the Process Server and integration
-with backend systems through the Integration Microservices. Container Native Storage shown used for process storage
-as an example. Not showing monitoring.
+both Frontend Microservices and Process Facade Microservices to access functionality in the Process Server and
+integration with backend systems through the Integration Microservices. Container Native Storage shown used for process
+storage as an example. Not showing monitoring.
+
 
 == Mobile integration example
 --
-image:schematic-diagrams/omnichannel-mobile-integration-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/omnichannel-mobile-integration-sd.png[750,700]
 --
 
 Example of a mobile application making calls through the API Gateway to leverage both Frontend Microservices and Mobile
@@ -73,7 +65,7 @@ Container Native Storage shown as the data source for mobile data consumption in
 
 == Integration service example
 --
-image:schematic-diagrams/omnichannel-integration-service-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/omnichannel-integration-service-sd.png[750,700]
 --
 
 Example use of integration microservices with web ui making calls through the API Gateway to leverage Frontend
@@ -83,7 +75,7 @@ monitoring.
 
 == Integration data service example
 --
-image:schematic-diagrams/omnichannel-integration-data-service-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/omnichannel-integration-data-service-sd.png[750,700]
 --
 
 Example use of integration microservices with web ui making calls through the API Gateway to leverage Frontend
@@ -91,27 +83,13 @@ Microservices that in turn call to various integration with a customer contact d
 Microservice. SSO server shown with integration to existing company backend Active Directory Server for authentication.
 Not showing monitoring.
 
-== Process integration with third-party
---
-image:schematic-diagrams/omnichannel-integration-3rd-party-service-sd.png[750,700]
---
 
-Example of a process application deployed in a mobile applications making calls through the API Gateway to leverage
-both Frontend Microservices, Process Microservices, and integration with systems through the Integration Microservices.
-Container Native Storage shown used for process storage as an example. Not showing monitoring.
 
 == Integration third-party services
 --
-image:schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.png[750,700]
 --
 
 Example use of integration microservices with web ui making calls through the API Gateway to leverage Frontend
-Microservices that in turn call to various integration with backend systems through an Integration Microservice. SSO
-server shown with integration to existing company backend Active Directory Server for authentication. Not showing
+Microservices that in turn call to various integration with third-party service through an Integration Microservice. SSO server shown with integration to existing company backend Active Directory Server for authentication. Not showing
 monitoring.
-
-== Download diagrams
-View and download all of the diagrams above in our open source tooling site.
---
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/omnichannel-customer-experience.drawio[[Open Diagrams]]
---
