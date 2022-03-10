@@ -7,27 +7,37 @@
 :toc: left
 :toclevels: 5
 
-This architecture covers the use case of providing a consistent infrastructure experience from cloud to edge and enabling modern containerized applications at edge.
+This architecture covers the use case of providing a consistent infrastructure experience from cloud to edge and
+enabling modern containerized applications at edge.
 
+*Use case:* Bringing cloud like capabilities to the edge locations.
 
-== Use case: Bringing cloud like capabilities to the edge locations
+*TODO:* Add marketecture image...
 
-
+== The technology
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-edge.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/cloud-edge.drawio?inline=false[[Download Diagram]]
---
-
---
-image::logical-diagrams/edge-cloud-ld.png[350,300]
-image::schematic-diagrams/edge-cloud-gitops-sd.png[350,300]
-image::schematic-diagrams/edge-cloud-gitops-network-sd.png[350,300]
+image::logical-diagrams/edge-cloud-ld.png[750,700]
 --
 
+*TODO:* Add description...
+
+== Cloud to edge network
 --
-image:detail-diagrams/datacenter-to-edge-imageregistry-cdc-dtl.png[250,200]
-image:detail-diagrams/datacenter-to-edge-imageregistry-cloud-dtl.png[250, 200]
-image:detail-diagrams/datacenter-to-edge-mgmt-agent-dtl.png[250, 200]
-image:detail-diagrams/datacenter-to-edge-mgmt-contrlr-dtl.png[250, 200]
-image:detail-diagrams/datacenter-to-edge-microservice-edge-dtl.png[250, 200]
+image::schematic-diagrams/edge-cloud-gitops-network-sd.png[750,700]
+--
+
+*TODO:* Add description...
+
+== Cloud to edge data
+--
+image::schematic-diagrams/edge-cloud-gitops-sd.png[750,700]
+--
+
+*TODO:* Add description...
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/cloud-edge.drawio[[Open Diagrams]]
+
 --
