@@ -134,11 +134,12 @@ story using FHIR messages to simplify the diagrams.
 insight elements where we turn to now.
 
 ** The iDaaS knowledge insight element plugs into the processes and decision being taken centrally in the iDaaS Dream
-collection. This ensures a near real-time view can be given on all events driven data processing through the organisation.
+collection. This ensures a near real-time view can be given on all events driven data processing through the
+organisation.
 
 ** In the iDaaS knowledge conformance element one finds the insights exposed for an organisations review / reporting
-around their data compliance needs. It also shows the access given to an organisation's compliance officer for monitoring
-and reporting.
+around their data compliance needs. It also shows the access given to an organisation's compliance officer for
+monitoring and reporting.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.

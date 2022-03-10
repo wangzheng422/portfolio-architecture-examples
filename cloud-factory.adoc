@@ -15,7 +15,7 @@ Ceph based cloud, following the principles of *Infrastructure as Code*.
 (Ansible inventories).
 
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloud-factory-marketing-slide.png[750,700]
+image:intro-marketectures/cloud-factory-marketing-slide.png[750,700]
 --
 
 == The technology
@@ -51,7 +51,7 @@ authorization policies to all cloud built.
 
 == Cloud factory network overview
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-factory-sd.png[750, 700]
+image:schematic-diagrams/cloud-factory-sd.png[750, 700]
 --
 
 * This example shows two cloud deployments. The first is the detached deployment head and the second is a cloud
@@ -73,7 +73,7 @@ Platform-as-a-Service (PaaS).
 
 == Cloud factory data overview
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-factory-data-sd.png[750, 700]
+image:schematic-diagrams/cloud-factory-data-sd.png[750, 700]
 --
 
 * This is an overview look at cloud factory, providing the solution details and the elements described above in both a

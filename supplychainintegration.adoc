@@ -12,7 +12,8 @@ earn a profit. Retailers satisfy demand identified through a supply chain. The t
 where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
 small number of wholesale, corporate or government clientele.
 
-*Use case:* Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other third-party interactions.
+*Use case:* Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and
+other third-party interactions.
 
 --
 image:intro-marketectures/supply-chain-integration-marketing-slide.png[750,700]

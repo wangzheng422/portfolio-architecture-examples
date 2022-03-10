@@ -12,7 +12,8 @@ earn a profit. Retailers satisfy demand identified through a supply chain. The t
 where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
 small number of wholesale, corporate or government clientele.
 
-*Use case:* Simplifying and modernizing central management of distributed point-of-sale devices with built in support for container based applications.
+*Use case:* Simplifying and modernizing central management of distributed point-of-sale devices with built in support
+for container based applications.
 
 --
 image:intro-marketectures/pos-marketing-slide.png[750,700]
