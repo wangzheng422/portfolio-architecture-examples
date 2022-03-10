@@ -28,62 +28,89 @@ image:logical-diagrams/spi-multi-cloud-gitops-ld-public.png[750, 750]
 
 * In the case study, customers have chosen several the following technologies and the reason why: 
 
-** *Red Hat OpenShift Platform* Instead of directly using and learning the offering from all vendors, or even learning the subtle differences between the Kubernetes offering, using a platform offering sits on top across data centers, private and public cloud will provide a unified way to deploy, monitor, and automate all the clusters.
+** *Red Hat OpenShift Platform* Instead of directly using and learning the offering from all vendors, or even learning
+the subtle differences between the Kubernetes offering, using a platform offering sits on top across data centers,
+private and public cloud will provide a unified way to deploy, monitor, and automate all the clusters.
 
-** *OpenShift GitOps*  Automate delivery through DevOps practices across multicluster OpenShift and Kubernetes infrastructure, with the choice of either automatically or manually synchronizing the deployment of clusters according to what’s in the repository.
+** *OpenShift GitOps*  Automate delivery through DevOps practices across multicluster OpenShift and Kubernetes
+infrastructure, with the choice of either automatically or manually synchronizing the deployment of clusters according
+to what’s in the repository.
 
-** *Core Monitoring*  OpenShift has a pre-configured, pre-installed, and self-updating monitoring stack that provides monitoring for core platform components. On top of that, we can also define monitoring for user-defined projects as well.
+** *Core Monitoring*  OpenShift has a pre-configured, pre-installed, and self-updating monitoring stack that provides
+monitoring for core platform components. On top of that, we can also define monitoring for user-defined projects as
+well.
 
-** *Grafana Loki*  Horizontally scalable and better log aggregation system, and more cost-effective and easy to operate especially in a multi-cluster environment.
+** *Grafana Loki*  Horizontally scalable and better log aggregation system, and more cost-effective and easy to operate
+especially in a multi-cluster environment.
 
-** *External Secret*  Enable use of external secret management systems (like HashiCorp Vault in this case) to securely add secrets into the OpenShift platform.
+** *External Secret*  Enable use of external secret management systems (like HashiCorp Vault in this case) to securely
+add secrets into the OpenShift platform.
 
-** *Red Hat Advanced Cluster Management for Kubernetes*  Controls clusters and applications from a single unified management hub console, with built-in security policies, provisioning cluster, and application lifecycles. Especially important when it comes to managing on top of multi-clouds.
+** *Red Hat Advanced Cluster Management for Kubernetes*  Controls clusters and applications from a single unified
+management hub console, with built-in security policies, provisioning cluster, and application lifecycles. Especially
+important when it comes to managing on top of multi-clouds.
 
 ** *Red Hat Ansible Automation*  Used to automate the configuration and installation of the management hub.
 
-** *Hashicorp Vault*  Secure centralized store for dynamic infrastructure and application across clusters. For low trust networks between clouds and data centers.
+** *Hashicorp Vault*  Secure centralized store for dynamic infrastructure and application across clusters. For low
+trust networks between clouds and data centers.
 
 == Bootstrapping the management hub
 --
 image:schematic-diagrams/spi-multi-cloud-gitops-sd-install.png[750, 750]
 --
 
-. Set up the Red Hat OpenShift Platform (OpenShift) that hosts the Management Hub. By using the OpenShift installation program, it provides flexible ways to get OpenShift installed. Ansible playbook was used to kick off the installation with configurations.
+. Set up the Red Hat OpenShift Platform (OpenShift) that hosts the Management Hub. By using the OpenShift installation
+program, it provides flexible ways to get OpenShift installed. Ansible playbook was used to kick off the installation
+with configurations.
 
-. Ansible playbooks are again used to deploy and configure Red Hat Advanced Cluster Management for Kubernetes (RHACM) and later other supporting components (External secret management) on top of the provisioned OpenShift cluster. 
+. Ansible playbooks are again used to deploy and configure Red Hat Advanced Cluster Management for Kubernetes (RHACM)
+and later other supporting components (External secret management) on top of the provisioned OpenShift cluster.
 
-. Install Vault with Ansible playbook. The vault we choose is from our partner Hashicorp, the vault is to manage secrets for all the Openshift clusters.
+. Install Vault with Ansible playbook. The vault we choose is from our partner Hashicorp, the vault is to manage
+secrets for all the Openshift clusters.
 
-. Ansible playbook is used again to configure and trigger the Openshift Gitops operator on the hub cluster. And deploy the Openshift Gitops instance for continuous delivery. 
+. Ansible playbook is used again to configure and trigger the Openshift Gitops operator on the hub cluster. And deploy
+the Openshift Gitops instance for continuous delivery.
 
 == Hybrid multicloud GitOps
 --
 image:schematic-diagrams/spi-multi-cloud-gitops-sd-security.png[750, 750]
 --
 
-. Manifest and configuration are set as code template in the form of “Kustomization” yaml. It describes the end desire state of how the managed cluster is going to be like. When done, it is pushed into the source control management repository with version assigned to each update. 
+. Manifest and configuration are set as code template in the form of “Kustomization” yaml. It describes the end desire
+state of how the managed cluster is going to be like. When done, it is pushed into the source control management
+repository with version assigned to each update.
 
 . OpenShift GitOps watches the repository and detects changes in the repository.  
 
 . OpenShift GitOps creates/updates the manifest by creating Kuberenet objects on top of RHACM.
 
-. ACM provision/update/delete managed clusters and configuration according to the manifest. In the manifest, you can configure what cloud provider the cluster will be on, the name of the cluster, infra node details and worker node. Governance policy can also be applied as well as provision an agent in the cluster as the bridge between the control center and the managed cluster. 
+. ACM provision/update/delete managed clusters and configuration according to the manifest. In the manifest, you can
+configure what cloud provider the cluster will be on, the name of the cluster, infra node details and worker node.
+Governance policy can also be applied as well as provision an agent in the cluster as the bridge between the control
+center and the managed cluster.
 
-.. OpenShift GitOps will continuously watch between the code repository and status of the clusters reported back to RHACM. Any configuration drift or in case of any failure, it will automatically try to remediate by applying the manifest (Or showing alerts for manual intervention).
+.. OpenShift GitOps will continuously watch between the code repository and status of the clusters reported back to
+RHACM. Any configuration drift or in case of any failure, it will automatically try to remediate by applying the
+manifest (Or showing alerts for manual intervention).
 
 == Dynamic security management
 --
 image:schematic-diagrams/spi-multi-cloud-gitops-sd-gitops.png[750, 750]
 --
 
-. During setup, the token to securely access HashiCorp Vault is stored in Ansible Vault. It is encrypted to protect sensitive content.
+. During setup, the token to securely access HashiCorp Vault is stored in Ansible Vault. It is encrypted to protect
+sensitive content.
 
-. Red Hat Advanced Cluster Management for Kubernetes (RHACM) allows us to have centralized control over the managing clusters. It acquires the token from Ansible Vault during install and distributes it among the clusters.
+. Red Hat Advanced Cluster Management for Kubernetes (RHACM) allows us to have centralized control over the managing
+clusters. It acquires the token from Ansible Vault during install and distributes it among the clusters.
 
-. To allow the cluster access to the external vault, we need to set up the external secret management (with Helm in this study). OpenShift Gitops is used to deploy the external secret object to a managed cluster.
+. To allow the cluster access to the external vault, we need to set up the external secret management (with Helm in
+this study). OpenShift Gitops is used to deploy the external secret object to a managed cluster.
 
-. External secret management fetches secrets from HashiCorp Vault using the token we created in step b and constantly watches for updates.
+. External secret management fetches secrets from HashiCorp Vault using the token we created in step b and constantly
+watches for updates.
 
 . Secrets are created in each namespace, where applications can use.
 
@@ -92,7 +119,8 @@ image:schematic-diagrams/spi-multi-cloud-gitops-sd-gitops.png[750, 750]
 image:schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[750, 750]
 --
 
-. Queries from the Grafana dashboard in Hub cluster, the central Querier component in Observatorium process the PromQL queries and aggregate the results.
+. Queries from the Grafana dashboard in Hub cluster, the central Querier component in Observatorium process the PromQL
+queries and aggregate the results.
 
 . Prometheus scraps metrics in the local cluster, Thano sidecar pushes metrics to Observatorium to persist in storage.
 
@@ -100,7 +128,8 @@ image:schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[750, 750]
 
 . Promtail is used to collect logs and push to Loki API (Observatorium).
 
-. In Observatorium, the Loki distributor sends logs in batches to ingester, where they will be persisted. A couple of things to beware of: both ingester and querier require large memory consumption, will need more replicas.
+. In Observatorium, the Loki distributor sends logs in batches to ingester, where they will be persisted. A couple of
+things to beware of: both ingester and querier require large memory consumption, will need more replicas.
 
 . Grafana dashboard in Hub cluster display logs via requesting:
   .. Real-time display (tail) with WebSocket.
