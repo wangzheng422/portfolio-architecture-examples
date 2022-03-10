@@ -31,7 +31,7 @@ image:logical-diagrams/nzd-sap.png[750, 700]
 tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
 available foundation for business-critical SAP and non-SAP workloads.
 
-*Red Hat Satellite* the smart management element in this architecture, used for tracking, managing, auditing, and
+** *Red Hat Satellite* the smart management element in this architecture, used for tracking, managing, auditing, and
 collecting data on the entire infrastructure to ensure that baselines are met.
 
 ** *Red Hat Smart Management*, which includes Satellite and Cloud Connector, provides the capability to gather
@@ -67,7 +67,7 @@ All the SAP hosts are sending status data to Satellite that is in charge of thei
 the application tier or both are clustered. So we have Pacemaker cluster of the SAP HANA DB (the deployment of the DB
 can be scale-up - with just two servers with the exact same instance being replicated in real-time - or scale-out -
 with the different services of the DB spread across multiple nodes in order to have larger resources - both models can
-be clustered) and Pacemaker cluster of the application (SAP S/4HANA or any other SAP Netweaver based one).The RHEL HA
+be clustered) and/or Pacemaker cluster of the application (SAP S/4HANA or any other SAP Netweaver based one).The RHEL HA
 Add-On based on Pacemaker has specific resources for SAP HANA and also for the application tier.
 
 The flow represented in this schematic diagram is the following:
@@ -92,6 +92,9 @@ with the work and profile directories of the instance.
 - The Satellite server performs the intervention in the former primary node of the cluster. As in step 1, if the
 intervention is a SAP HANA upgrade or a SAP kernel upgrade it will be the Automation Orchestration who will run a
 playbook for it to be done in the former primary node of the cluster.
+
+After the intervention has been finished we can revert to the initial configuration of primary and secondary nodes 
+of the cluster or keep the current one.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
