@@ -57,14 +57,14 @@ virtual, container, and all types of cloud environments.
 
 == Data center to edge
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic--diagrams/datacenter-to-edge-data-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/datacenter-to-edge-data-sd.png[750,700]
 --
 
 *TODO:* add description...
 
 == Data center to edge management
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic--diagrams/datacenter-to-edge-management-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/datacenter-to-edge-management-sd.png[750,700]
 --
 
 *TODO:* add description...

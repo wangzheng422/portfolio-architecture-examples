@@ -23,7 +23,7 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 
 == Cloud to edge network
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic--diagrams/edge-cloud-network-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-cloud-network-sd.png[750,700]
 --
 
 *TODO:* Add description...
@@ -31,14 +31,14 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 
 == Cloud to edge GitOps network
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic--diagrams/edge-cloud-gitops-network-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-cloud-gitops-network-sd.png[750,700]
 --
 
 *TODO:* Add description...
 
 == Cloud to edge GitOps data
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic--diagrams/edge-cloud-gitops-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-cloud-gitops-sd.png[750,700]
 --
 
 *TODO:* Add description...

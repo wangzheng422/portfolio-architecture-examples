@@ -40,7 +40,7 @@ rules, and Vulnerability assesses any security risks that may be currently activ
 
 == Self-healing infrastructure (network)
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-net.png[350, 300]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-net.png[750, 700]
 --
 
 *Client hosts register to Satellite which initially collects RHEL system data for Red Hat Insights.
@@ -53,7 +53,7 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 
 == Self-healing infrastructure (data)
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-data.png[350, 300]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-data.png[750, 700]
 --
 
 The data path starting from the hosts, deliver to the Satellite. Here, both the automation controller and satellite
