@@ -23,12 +23,20 @@ image::logical-diagrams/edge-cloud-ld.png[750,700]
 
 == Cloud to edge network
 --
+image::schematic-diagrams/edge-cloud-network-sd.png[750,700]
+--
+
+*TODO:* Add description...
+
+
+== Cloud to edge GitOps network
+--
 image::schematic-diagrams/edge-cloud-gitops-network-sd.png[750,700]
 --
 
 *TODO:* Add description...
 
-== Cloud to edge data
+== Cloud to edge GitOps data
 --
 image::schematic-diagrams/edge-cloud-gitops-sd.png[750,700]
 --
