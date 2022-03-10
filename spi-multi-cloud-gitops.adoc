@@ -16,14 +16,14 @@ and being able to deploy according to the configuration.
 infrastructure as code approach. Cross cluster governance and application lifecycle management.
 
 --
-image:intro-marketectures/hybrid-multicloud-management-gitops-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/hybrid-multicloud-management-gitops-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:logical-diagrams/spi-multi-cloud-gitops-ld-simple.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/spi-multi-cloud-gitops-ld-simple.png[750, 700]
 
-image:logical-diagrams/spi-multi-cloud-gitops-ld-public.png[750, 750]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/spi-multi-cloud-gitops-ld-public.png[750, 750]
 --
 
 * In the case study, customers have chosen several the following technologies and the reason why: 
@@ -57,7 +57,7 @@ trust networks between clouds and data centers.
 
 == Bootstrapping the management hub
 --
-image:schematic-diagrams/spi-multi-cloud-gitops-sd-install.png[750, 750]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-install.png[750, 750]
 --
 
 . Set up the Red Hat OpenShift Platform (OpenShift) that hosts the Management Hub. By using the OpenShift installation
@@ -75,7 +75,7 @@ the Openshift Gitops instance for continuous delivery.
 
 == Hybrid multicloud GitOps
 --
-image:schematic-diagrams/spi-multi-cloud-gitops-sd-security.png[750, 750]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-security.png[750, 750]
 --
 
 . Manifest and configuration are set as code template in the form of “Kustomization” yaml. It describes the end desire
@@ -97,7 +97,7 @@ manifest (Or showing alerts for manual intervention).
 
 == Dynamic security management
 --
-image:schematic-diagrams/spi-multi-cloud-gitops-sd-gitops.png[750, 750]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-gitops.png[750, 750]
 --
 
 . During setup, the token to securely access HashiCorp Vault is stored in Ansible Vault. It is encrypted to protect
@@ -116,7 +116,7 @@ watches for updates.
 
 == Observability in hybrid multicloud environment
 --
-image:schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[750, 750]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[750, 750]
 --
 
 . Queries from the Grafana dashboard in Hub cluster, the central Querier component in Observatorium process the PromQL

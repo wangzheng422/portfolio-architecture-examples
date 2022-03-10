@@ -15,7 +15,7 @@ across all of the the servers in order to reduce risk and costs.
 management, security, and  data protection for full lifecycle.
 
 --
-image:intro-marketectures/rsm-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/rsm-marketing-slide.png[750,700]
 --
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
@@ -29,7 +29,7 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 
 == The technology
 --
-image:logical-diagrams/rsm-ld.png[350, 300]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/rsm-ld.png[350, 300]
 --
 
 * The following technology was chosen for this solution:
@@ -63,9 +63,9 @@ virtual, container, and all types of cloud environments.
 
 == Remote server management
 --
-image:schematic-diagrams/rsm-network-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-network-sd.png[750, 700]
 
-image:schematic-diagrams/rsm-data-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-data-sd.png[750, 700]
 --
 
 *TODO:* add description...

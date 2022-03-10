@@ -16,12 +16,12 @@ small number of wholesale, corporate or government clientele.
 for container based applications.
 
 --
-image:intro-marketectures/pos-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/pos-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:logical-diagrams/retail-pos-ld.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-pos-ld.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -49,7 +49,7 @@ virtual, container, and all types of cloud environments.
 
 == Point of sale image delivery
 --
-image:schematic-diagrams/retail-pos-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-pos-sd.png[750, 700]
 --
 
 The above diagram demonstrates a solution to deliver images of point of sale devices and store applications across

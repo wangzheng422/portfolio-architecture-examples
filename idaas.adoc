@@ -18,12 +18,12 @@ with a flexible, open approach.
 and scalable manner while driving data needs for moving towards consumerisation in healthcare.
 
 --
-image:intro-marketectures/idaas-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/idaas-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:logical-diagrams/idaas-ld.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/idaas-ld.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -56,9 +56,9 @@ virtual, container, and all types of cloud environments.
 
 == iDaaS overview
 --
-image:schematic-diagrams/idaas-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-sd.png[750, 700]
 
-image:schematic-diagrams/idaas-data-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-data-sd.png[750, 700]
 --
 
 * This is an overview look at iDaaS, providing the solution details and the elements described above in both a network
@@ -97,9 +97,9 @@ and data centric view:
 
 == iDaaS connect for HL7 FHIR
 --
-image:schematic-diagrams/idaas-connect-hl7-fhir-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-connect-hl7-fhir-sd.png[750, 700]
 
-image:schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[750, 700]
 --
 
 * In this schematic the details are exposed as to an exmaple of integration through iDaaS Connect features around HL7
@@ -119,9 +119,9 @@ originating source.
 
 == iDaaS knowledge and insight
 --
-image:schematic-diagrams/idaas-knowledge-insight-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-knowledge-insight-sd.png[750, 700]
 
-image:schematic-diagrams/idaas-knowledge-insight-data-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-knowledge-insight-data-sd.png[750, 700]
 --
 
 * The focus of this schematic is to clarify how knowledge and insight are used to provide for near real-time

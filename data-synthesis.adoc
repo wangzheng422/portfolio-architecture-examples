@@ -14,13 +14,13 @@ business users and developers needs in a secure and scalable manner.
 of data to be available for both business users and developers in a secure and scalable manner.
 
 --
-image:intro-marketectures/data-synthesis-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/data-synthesis-marketing-slide.png[750,700]
 --
 
 == The technology
 --
 *TODO:* add marketecture
-//image:logical-diagrams/data-sythesis-ld.png[350, 300]
+//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/data-sythesis-ld.png[350, 300]
 --
 
 * The following technology was chosen for this solution:
@@ -43,12 +43,12 @@ image:intro-marketectures/data-synthesis-marketing-slide.png[750,700]
 
 == TODO: add schematic diagrams
 //--
-//image:schematic-diagrams/data-sythesis-sd.png[350, 300]
-//image:schematic-diagrams/idaas-data-sd.png[350, 300]
-//image:schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
-//image:schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
-//image:schematic-diagrams/idaas-knowledge-insight-sd.png[350, 300]
-//image:schematic-diagrams/idaas-knowledge-insight-data-sd.png[350, 300]
+//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/data-sythesis-sd.png[350, 300]
+//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-data-sd.png[350, 300]
+//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
+//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
+//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-knowledge-insight-sd.png[350, 300]
+//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-knowledge-insight-data-sd.png[350, 300]
 //--
 
 == Download diagrams

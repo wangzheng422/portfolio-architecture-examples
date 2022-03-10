@@ -15,12 +15,12 @@ small number of wholesale, corporate or government clientele.
 *Use case:* Managing effective in-store compliance, health & safety, and employee checks and procedures.
 
 --
-image:intro-marketectures/store-health-safety-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/store-health-safety-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:logical-diagrams/retail-store-safety-ld.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-store-safety-ld.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -40,9 +40,9 @@ virtual, container, and all types of cloud environments.
 
 == Example store health and safety
 --
-image:schematic-diagrams/retail-store-safety-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-store-safety-sd.png[750, 700]
 
-image:schematic-diagrams/retail-store-safety-data-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-store-safety-data-sd.png[750, 700]
 --
 
 The retail store and health safety is a case of capturing compliancy and processes for a broad range of store locations

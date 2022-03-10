@@ -22,12 +22,12 @@ function (CNF).
 *Use case:* Ultra-reliable, immersive experiences for people and objects when and where it matters most.
 
 --
-image:intro-marketectures/telco-5g-on-premise-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-on-premise-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:logical-diagrams/telco-5g-ld.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-5g-ld.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -77,9 +77,9 @@ functions and 5G management functions)
 
 == Telco 5G on premise
 --
-image:schematic-diagrams/telco-5g-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-sd.png[750, 700]
 
-image:schematic-diagrams/telco-5g-network-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-network-sd.png[750, 700]
 --
 The messages from end devices and Radio Access Network (RAN) are routed to the following components in the Service
 Based Architecture (SBA) and user plane:

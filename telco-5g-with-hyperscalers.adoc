@@ -17,12 +17,12 @@ built with open source technologies at core, that can work across any hyperscale
 cases with minimal CAPEX and OPEX.
 
 --
-image:intro-marketectures/telco-5g-core-hyperscalers-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-core-hyperscalers-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:logical-diagrams/telco5GC-generic-7-ld.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco5GC-generic-7-ld.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -62,7 +62,7 @@ across multiple locations with automation.
 
 == Telco 5G with hyperscalers
 --
-image:schematic-diagrams/telco5GC-generic-7-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco5GC-generic-7-sd.png[750, 700]
 --
 The messages from endpoints and Radio Access Network (RAN) are routed to the OpenShift clusters running on AWS and on
 AWS Outposts in user plane/multi-access edge.

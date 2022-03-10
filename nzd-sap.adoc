@@ -17,12 +17,12 @@ any disruption.
 without perceiving any interruption.
 
 --
-image:intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing.png[750,700]
 --
 
 == The technology
 --
-image:logical-diagrams/nzd-sap.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/nzd-sap.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -46,7 +46,7 @@ package that is needed for a particular version of SAP Netweaver.
 
 == Near zero downtime network overview
 --
-image:schematic-diagrams/nzd-sap-network-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/nzd-sap-network-sd.png[750, 700]
 --
 SAP HANA is the only DB for which this solution has been implemented by customers. However it could potentially be
 implemented for other DBs supported by SAP like DB2 using its HADR capability and triggering the fail-over of the
@@ -60,7 +60,7 @@ Satellite.
 
 == Near zero downtime data overview
 --
-image:schematic-diagrams/nzd-sap-data-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/nzd-sap-data-sd.png[750, 700]
 --
 
 All the SAP hosts are sending status data to Satellite that is in charge of their lifecycle management. The DB tier,
