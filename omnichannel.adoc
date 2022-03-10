@@ -16,12 +16,12 @@ and delivering on their digital promise to customers by integrating applications
 infrastructure and cloud environments. Business automation, in the form of process integrations, are captured to
 enable access to complex process services.
 
+*Use case:* Omnichannel implies integration and orchestration of channels such that the experience of engaging across
+all the channels someone chooses to use.
+
 --
 image:intro-marketectures/omnichannel-marketing-slide.png[750,700]
 --
-
-Use case: Omnichannel implies integration and orchestration of channels such that the experience of engaging across
-all the channels someone chooses to use.
 
 == The technology
 --
