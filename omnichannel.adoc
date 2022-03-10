@@ -23,7 +23,6 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 Use case: Omnichannel implies integration and orchestration of channels such that the experience of engaging across
 all the channels someone chooses to use.
 
-
 == The technology
 --
 image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/omnichannel-customer-experience-ld.png[750,700]
@@ -34,14 +33,23 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 * The following technology was chosen for this solution:
 
 *Red Hat Integration* Manage APIs. Share, secure, distribute, control, and monetize
-APIs as connecting endpoint from Web UI, Mobile applications and third party. Frameworks and connectors to integrate consumer applications with backend systems or third party services. With support for connecting both API and real-time data streams.
+APIs as connecting endpoint from Web UI, Mobile applications and third party. Frameworks and connectors to integrate
+consumer applications with backend systems or third party services. With support for connecting both API and real-time
+data streams.
 
-*Red Hat OpenShift Data Foundations* software-defined storage for containers. For real-time data storage and analysis, realizations of logical storage definitions as needed by applications, processes or services.
+*Red Hat OpenShift Data Foundations* software-defined storage for containers. For real-time data storage and analysis,
+realizations of logical storage definitions as needed by applications, processes or services.
 
-*Red Hat OpenShift Runtimes* Foundation to build microservices. Support cloud native development strategy with built-in build and deployment support. Also includes Single Sign On solution that can  be tied into existing organizational directories. 
+*Red Hat OpenShift Runtimes* Foundation to build microservices. Support cloud native development strategy with built-in
+build and deployment support. Also includes Single Sign On solution that can  be tied into existing organizational
+directories.
 
-*Red Hat OpenShift* Kubernetes container platform for orchestrating, managing, handling deployments, auto scaling of the containerized application.  
+*Red Hat OpenShift* Kubernetes container platform for orchestrating, managing, handling deployments, auto scaling of
+the containerized application.
 
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
 
 == Process integration example
 --
@@ -83,13 +91,18 @@ Microservices that in turn call to various integration with a customer contact d
 Microservice. SSO server shown with integration to existing company backend Active Directory Server for authentication.
 Not showing monitoring.
 
-
-
 == Integration third-party services
 --
 image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.png[750,700]
 --
 
 Example use of integration microservices with web ui making calls through the API Gateway to leverage Frontend
-Microservices that in turn call to various integration with third-party service through an Integration Microservice. SSO server shown with integration to existing company backend Active Directory Server for authentication. Not showing
+Microservices that in turn call to various integration with third-party service through an Integration Microservice.
+SSO server shown with integration to existing company backend Active Directory Server for authentication. Not showing
 monitoring.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/omnichannel-customer-experience.drawio[[Open Diagrams]]
+--
