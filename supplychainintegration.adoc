@@ -16,12 +16,12 @@ small number of wholesale, corporate or government clientele.
 other third-party interactions.
 
 --
-image:intro-marketectures/supply-chain-integration-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/supply-chain-integration-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:logical-diagrams/retail-supply-chain-ld.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-supply-chain-ld.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -45,7 +45,7 @@ virtual, container, and all types of cloud environments.
 
 == Example supply chain integration
 --
-image:schematic-diagrams/retail-supply-chain-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-supply-chain-sd.png[750, 700]
 --
 
 Access to the supply chain is via devices and applications used by suppliers, vendors, warehouse inventory, and order

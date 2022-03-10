@@ -16,18 +16,18 @@ management tools to better address customer needs.
 of API gateways to protect business service depending on the network zones.
 
 --
-image:intro-marketectures/scada-interface-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/scada-interface-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:logical-diagrams/scada-interfaces-ld-general.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-general.png[750, 700]
 
-image:logical-diagrams/scada-interfaces-ld-nerc.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-nerc.png[750, 700]
 
-image:logical-diagrams/scada-interfaces-ld-enterprise.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-enterprise.png[750, 700]
 
-image:logical-diagrams/scada-interfaces-ld-control.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-control.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -52,32 +52,32 @@ available foundation for business-critical SAP and non-SAP workloads.
 
 == SCADA interfaces network
 --
-image:schematic-diagrams/scada-interfaces-network-sd-general.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-general.png[750, 700]
 --
 
 *TODO:* add description...
 
 == SCADA interfaces enterprise network
 --
-image:schematic-diagrams/scada-interfaces-network-sd-enterprise.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-enterprise.png[750, 700]
 --
 
 *TODO:* add description...
 
 == SCADA interfaces nerc network
 --
-image:schematic-diagrams/scada-interfaces-network-sd-nerc.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-nerc.png[750, 700]
 --
 
 *TODO:* add description...
 
 == SCADA interfaces data
 --
-image:schematic-diagrams/scada-interfaces-data-sd-general.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-data-sd-general.png[750, 700]
 
-image:schematic-diagrams/scada-interfaces-data-sd-nerc.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-data-sd-nerc.png[750, 700]
 
-image:schematic-diagrams/scada-interfaces-data-sd-enterprise.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-data-sd-enterprise.png[750, 700]
 --
 
 *TODO:* add description...

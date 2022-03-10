@@ -18,16 +18,16 @@ low-effort integration covering all aspects of an Open Banking implementation.
 
 == The technology
 --
-image:logical-diagrams/fsi-openbanking-ld.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/fsi-openbanking-ld.png[750,700]
 --
 
 *TODO:* add description...
 
 == An overview
 --
-image:schematic-diagrams/fsi-openbanking-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/fsi-openbanking-sd.png[750,700]
 
-image:schematic-diagrams/fsi-openbanking-data-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/fsi-openbanking-data-sd.png[750,700]
 --
 
 *TODO:* add description...

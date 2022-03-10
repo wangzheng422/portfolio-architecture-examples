@@ -15,15 +15,15 @@ residency requirements, and run resilient, semi-autonomous applications.
 
 == The technology
 --
-image::logical-diagrams/cloud-edge-ld.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-edge-ld.png[750,700]
 --
 *TODO:* insert technology listing.
 
 
 == Bringing cloud like capabilities to the edge locations
 --
-//image::schematic-diagrams/cloud-edge-gitops-sd.png[750,700]
-image::schematic-diagrams/cloud-edge-gitops-network-sd.png[750,700]
+//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic--diagrams/cloud-edge-gitops-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic--diagrams/cloud-edge-gitops-network-sd.png[750,700]
 --
 *TODO:* insert descriptions of the SD's.
 

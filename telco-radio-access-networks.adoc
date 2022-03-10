@@ -26,12 +26,12 @@ kilometer without network overloading.
 the core network, radio access network (RAN) solutions are now taking advantage of the benefits of cloud computing.
 
 --
-image:intro-marketectures/telco-ran-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-ran-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:logical-diagrams/telco-ran-ld.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-ran-ld.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -67,9 +67,9 @@ virtual, container, and all types of cloud environments.
 
 == Telco 5G radio access networks
 --
-image:schematic-diagrams/telco-ran-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-sd.png[750, 700]
 
-image:schematic-diagrams/telco-ran-mgmt-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-mgmt-sd.png[750, 700]
 --
 
 This architecture supports the following Open Radio Access Network deployment scenarios such as decentralized, where

@@ -15,12 +15,12 @@ operational safety and optimization.
 *Use case:* Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
 
 --
-image:intro-marketectures/datacenter-to-edge-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/datacenter-to-edge-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image::logical-diagrams/datacenter-to-edge-ld.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/datacenter-to-edge-ld.png[750,700]
 --
 
 * The following technology was chosen for this solution:
@@ -57,14 +57,14 @@ virtual, container, and all types of cloud environments.
 
 == Data center to edge
 --
-image::schematic-diagrams/datacenter-to-edge-data-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic--diagrams/datacenter-to-edge-data-sd.png[750,700]
 --
 
 *TODO:* add description...
 
 == Data center to edge management
 --
-image::schematic-diagrams/datacenter-to-edge-management-sd.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic--diagrams/datacenter-to-edge-management-sd.png[750,700]
 --
 
 *TODO:* add description...

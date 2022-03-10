@@ -16,12 +16,12 @@ data centers and cloud providers. This provides flexibility and portability.
 cloud infrastructures according to performance, security, compliance, and cost requirements.
 
 --
-image:intro-marketectures/cloud-adoption-marketing-slide.png[750,700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloud-adoption-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:logical-diagrams/cloud-adoption-ld.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-adoption-ld.png[750, 700]
 --
 
 The following technology was chosen for this solution:
@@ -53,7 +53,7 @@ successfully adopt a truly hybrid cloud infrastructure.
 
 == Cloud adoption overview
 --
-image:schematic-diagrams/cloud-adoption-network-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-network-sd.png[750, 700]
 --
 
 This overview looks at cloud adoption, providing the solution details and the elements described above in both a
@@ -77,7 +77,7 @@ across all infrastructure destinations,. Roll out extra resources for surging de
 
 == Cloud adoption data overview
 --
-image:schematic-diagrams/cloud-adoption-data-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-data-sd.png[750, 700]
 --
 
 This is an overview as above, but with a focus on the data flowing through the cloud adoption architectere. It's

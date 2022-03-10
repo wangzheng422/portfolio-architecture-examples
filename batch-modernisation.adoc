@@ -20,10 +20,10 @@ https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/
 --
 
 --
-image:logical-diagrams/batch-modernisation-ld.png[350, 300]
-image:logical-diagrams/batch-modernisation-details-ld.png[350, 300]
-image:schematic-diagrams/batch-modernisation-sd.png[350, 300]
-image:schematic-diagrams/batch-modernisation-appA-sd.png[350, 300]
-image:schematic-diagrams/batch-modernisation-appB-sd.png[350, 300]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/batch-modernisation-ld.png[350, 300]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/batch-modernisation-details-ld.png[350, 300]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/batch-modernisation-sd.png[350, 300]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/batch-modernisation-appA-sd.png[350, 300]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/batch-modernisation-appB-sd.png[350, 300]
 --
 
