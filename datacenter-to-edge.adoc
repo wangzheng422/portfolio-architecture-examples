@@ -45,7 +45,7 @@ images for security vulnerabilities, identifying potential issues that can help 
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
 quickly and efficiently across clouds.
 
-** * Red Hat Enterprise Linux is the world’s leading enterprise Linux platform. It’s an open source operating system
+** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
