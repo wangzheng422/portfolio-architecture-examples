@@ -32,7 +32,7 @@ It provides a consistent application platform to manage hybrid cloud, multicloud
 applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
 multiple modernization options to enable a smooth transition to the cloud for existing applications.
 
-** * Red Hat AMQ Streams data streaming platform with high throughput and low latency. Streams sensor data to corresponding microservices to automated diagnosis.
+** *Red Hat AMQ Streams* data streaming platform with high throughput and low latency. Streams sensor data to corresponding microservices to automated diagnosis.
 
 ** *Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
 built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
