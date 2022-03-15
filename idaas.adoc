@@ -28,26 +28,19 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 
 * The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
-provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+** *Red Hat Integration* utilize the connectors for HL7 and FHIR, interoperate in/out of clinic systems, and connect to
+third-party data sources. Establish and manage API and connectors to clinical and financial entities. Integrate and
+streams real-time data and events securely between systems. Also provide high throughput receiver for  edge signal and
+events.
 
-** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
-the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
-data with high throughput and low latency.
+** *Red Hat OpenShift Data Foundations* software-defined storage for health records, images, events and knowledge base
+repositories. Easily scale across data-center and clouds.
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
-data across hybrid infrastructures.
+** *Red Hat OpenShift Runtimes* simplify continuous delivery of applications with frameworks such as Spring Boot and
+Quarkus. Full stack kubernetes-native Java framework for microservices and native compilation.
 
-** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
-services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
-quickly and efficiently across clouds.
-
-** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
-applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
-multiple modernization options to enable a smooth transition to the cloud for existing applications.
-
-** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
-your APIs on an infrastructure platform built for performance, customer control, and future growth.
+** *Red Hat OpenShift* base platform for iDaaS, an enterprise-ready Kubernetes container orchestration and management
+platform. It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
 ** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,

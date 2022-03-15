@@ -7,7 +7,9 @@ Eric D. Schabell @eschabell
 :toc: left
 :toclevels: 5
 
-This architecture covers the use case around edge medical diagnosis in the healthcare industry.
+This architecture covers the use case around edge medical diagnosis in the healthcare industry. It Accelerates medical
+diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
+
 
 *Use case:* Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
 
@@ -23,32 +25,21 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 
 * The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+*Red Hat OpenShift Data Foundations* software-defined storage services for X-ray images, continuous deployment models, analytics, AI/ML datasets and models, provisioned across multi-cloud environment.
 
-** *Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
-built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
-enforcing policies across multiple clusters at scale.
+*Red Hat OpenShift Data Science*  develop, train, and test for AI/ML modeling and visualization in sandbox environment. Diagnosis models is being continuously trained and update, this streamline workflow allows a more rapid, agile application lifecycle.
 
-** *Red Hat OpenShift Serverless* helps developers to build, deploy and run event-driven applications that will start
-based on an event trigger, scale up resources as needed, then scale to zero after resource burst.
+*Red Hat AMQ Streams* data streaming platform with high throughput and low latency. Streams images and registration event to corresponding microservices to automated diagnosis. Relay diagnosis result for further process, and broadcast notifications.
 
-** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
-the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
-data with high throughput and low latency.
+*Red Hat OpenShift Serverless* event-driven functions, scale up based on an event trigger. Medical application scales down to zero for resource optimization, and start up with minimal bootstrap time when it is required.
 
-** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
-services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
-quickly and efficiently across clouds.
+*Red Hat OpenShift GitOps* automate the deployment of the edge medical diagnosis elements, pick up changes from code repository into the CI/CD pipelines and trigger image build and deploys into clouds.
 
-** *Red Hat OpenShift Data Science* is a managed cloud service for data scientists and developers of intelligent
-applications. It provides a fully supported sandbox in which to rapidly develop, train, and test machine learning (ML)
-models in the public cloud before deploying in production.
+*Red Hat OpenShift* Kubernetes container platform with both Serverless and GitOps mention above. It provides a consistent application platform to manage, supports for full automated workflow and flexible scalable resource usage.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
-
 
 == Edge medical diagnosis overview
 --
