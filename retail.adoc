@@ -16,7 +16,7 @@ government clientele.
 |===
 |Title | Description
 
-|link:businessoptimization.adoc[Business optimisation]]
+|link:businessoptimization.adoc[Business optimisation]
 |Optimizing delivery routing, automating rostering of staff, and improving efficiency of tasks across multiple stores.
 
 |link:headlessecommerce.adoc[Headless e-commerce]
