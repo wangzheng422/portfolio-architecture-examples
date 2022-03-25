@@ -1,14 +1,11 @@
-= Portfolio Architecture Edge Collection
- Ishu Verma  @ishuverma
+= Portfolio Architecture Data Engineering Collection
+Eric D. Schabell @eschabell
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
 
-
-This is a collection of various architectures for edge computing. Customers are increasing looking to edge
-computing to improve operational efficiencies, enhance end-user experiences, meet data residency requirements, and run
-resilient, semi-autonomous applications.
+This is a collection of various architectures featuring data engineering solutions.
 
 [cols="3,7"]
 |===
@@ -26,7 +23,18 @@ resilient, semi-autonomous applications.
 |link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
 |Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
 
+|link:idaas.adoc[Intelligent data as a service (iDaaS)]
+|Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
+manner while driving data needs for moving towards consumerisation in healthcare.
+
+|link:payments.adoc[Payments]
+|Financial institutions enabling customers with fast, easy to use, and safe payment services available anytime, anywhere.
+
+|link:retaildataframework.adoc[Retail data framework]
+|Creating a framework for access to retail data from customers, stock, stores, and staff across multiple internal teams.
+
 |link:scada-interface.adoc[SCADA interface modernisation]
 |Provide interfaces with SCADA systems that are compliant with NERC regulations, creating different layers of API
 gateways to protect business service depending on the network zones.
 |===
+

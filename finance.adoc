@@ -1,4 +1,4 @@
-= Finance
+= Portfolio Architecture Finance Collection
 Eric D. Schabell @eschabell, Ramon Villarreal @rvillarr
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images

@@ -1,10 +1,9 @@
-= Retail
+= Portfolio Architecture Retail Collection
 Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
-
 
 This is a collection of various architectures in the retail domain. Retail is the process of selling consumer
 goods or services to customers through multiple channels of distribution to earn a profit. Retailers satisfy demand
