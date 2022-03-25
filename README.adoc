@@ -21,7 +21,7 @@ Create a Portfolio Architecture in Just 4 Steps]
 [cols="1,1,1,1,1,1,1"]
 
 |===
-|link:edge.adoc[Application development]
+|link:app-dev.adoc[Application development]
 |link:automation.adoc[Automation]
 |link:data-engineering.adoc[Data engineering]
 |link:edge.adoc[Edge]
