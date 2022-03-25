@@ -1,4 +1,4 @@
-= Utility
+= Portfolio Architecture Utility Collection
  Ishu Verma  @ishuverma, Francesco Rossi
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
@@ -17,6 +17,5 @@ operational safety and optimization.
 
 |link:datacenter-to-edge.adoc[Data center to edge]
 |Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
-
 |===
 

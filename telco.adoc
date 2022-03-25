@@ -1,4 +1,4 @@
-= Telco
+= Portfolio Architecture Telco Collection
  Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  @ishuverma, William Henry @ipbabble,
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
 :imagesdir: images
