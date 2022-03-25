@@ -18,19 +18,18 @@ TIP: Try the workshop: https://redhatdemocentral.gitlab.io/portfolio-architectur
 Create a Portfolio Architecture in Just 4 Steps]
 
 == Portfolio Architecture Collections
-[cols="1,1,1,1"]
+[cols="1,1,1,1,1"]
 
 |===
 |link:edge.adoc[Application development]
 |link:edge.adoc[Automation]
 |link:edge.adoc[Data engineering]
 |link:edge.adoc[Edge]
-
 |link:finance.adoc[Finance]
 |link:healthcare.adoc[Healthcare]
+
 |link:edge.adoc[Infrastructure]
 |link:manufacturing.adoc[Manufacturing]
-
 |link:retail.adoc[Retail]
 |link:telco.adoc[Telco]
 |link:utility.adoc[Utility]
