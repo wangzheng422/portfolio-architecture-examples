@@ -18,7 +18,7 @@ TIP: Try the workshop: https://redhatdemocentral.gitlab.io/portfolio-architectur
 Create a Portfolio Architecture in Just 4 Steps]
 
 == Portfolio Architecture Collections
-[cols="1,1,1,1,1"]
+[cols="1,1,1,1,1,1"]
 
 |===
 |link:edge.adoc[Application development]
