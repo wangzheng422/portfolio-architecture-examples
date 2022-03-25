@@ -18,61 +18,24 @@ TIP: Try the workshop: https://redhatdemocentral.gitlab.io/portfolio-architectur
 Create a Portfolio Architecture in Just 4 Steps]
 
 == Portfolio Architecture Collections
-[cols="3,7"]
+[cols="1,1,1"]
 
 |===
-|Title | Description
-
 |link:edge.adoc[Application development]
-|This is a *collection of various architectures* featuring application development solutions.
-
 |link:edge.adoc[Automation]
-|This is a *collection of various architectures* featuring automation solutions.
-
 |link:edge.adoc[Data engineering]
-|This is a *collection of various architectures* featuring data engineering solutions.
 
 |link:edge.adoc[Edge]
-|This is a *collection of various architectures* featuring edge computing. Customers are increasing looking to edge
-computing to improve operational efficiencies, enhance end-user experiences, meet data residency requirements, and run
-resilient, semi-autonomous applications.
-
 |link:finance.adoc[Finance]
-|This is a *collection of various architectures* in the financial services domain. Financial services institutions
-understand that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere,
-and are therefore accelerating adoption of digital technologies to enable a variety of new offerings.
-
 |link:healthcare.adoc[Healthcare]
-|This is a *collection of various architectures* in the healthcare domain. Our world transformed overnight, and
-healthcare had to respond immediately. Now more than ever, it's critical to have access to data and unlimited scale,
-and to design and modify decisioning, processes, and workflows for specific situations—without being vendor-dependent.
 
 |link:edge.adoc[Infrastructure]
-|This is a *collection of various architectures* featuring infrastructure solutions.
-
 |link:manufacturing.adoc[Manufacturing]
-|This is a *collection of various architectures* in the manufacturing domain. The manufacturing industry has
-consistently used technology to fuel innovation, production optimization and operations. Now, with the combination of
-edge computing and AI/ML, manufacturers can benefit from bringing processing power closer to data. This helps actions
-be taken faster on things like errors and predictive maintenance.
-
 |link:retail.adoc[Retail]
-|This is a *collection of various architectures* in the retail domain. Retail is the process of selling consumer
-goods or services to customers through multiple channels of distribution to earn a profit. Retailers satisfy demand
-identified through a supply chain. The term "retailer" is typically applied where a service provider fills the small
-orders of many individuals, who are end-users, rather than large orders of a small number of wholesale, corporate or
-government clientele.
 
 |link:telco.adoc[Telco]
-|This is a *collection of various architectures* in the telco domain. Some of the telco use cases cover broadband
-technology evolution like 5G while others cover infrastructure modernization like Radio Access Network.
-
 |link:utility.adoc[Utility]
-|This is a *collection of various architectures* in the utility domain.The energy (utility) infrastructure companies
-operate across vast geographical area that connects the upstream drilling operations with downstream fuel processing
-and delivery to customers. These companies need to monitor the condition of pipeline and other infrastructure for
-operational safety and optimization.
-
+|
 |===
 
 == Portfolio Architecture Individual Index
