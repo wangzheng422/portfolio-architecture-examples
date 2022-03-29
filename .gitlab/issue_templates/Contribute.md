@@ -1,4 +1,3 @@
-[logo]: https://gitlab.com/osspa/osspa-site/-/raw/main/asset/architect/portfolio/images/Logo-RedHat.png "Contribute to Portfolio Architecture"
 
 ### Full Name
 
