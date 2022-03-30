@@ -1,6 +1,6 @@
 = Self-Healing Infrastructure
 Camry Fedei @cfedei
-:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
@@ -15,12 +15,12 @@ automation tools for applying remediation across a scaling estate of hosts in a 
 *Use case:* Managing security, policy and patches for a large number of servers in data centers or public/private clouds.
 
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/self-healing-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/self-healing-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/self-healing-ld.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/self-healing-ld.png[750, 700]
 --
 
 *Data Center or Public Cloud*::
@@ -40,7 +40,7 @@ rules, and Vulnerability assesses any security risks that may be currently activ
 
 == Self-healing infrastructure (network)
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-net.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-net.png[750, 700]
 --
 
 *Client hosts register to Satellite which initially collects RHEL system data for Red Hat Insights.
@@ -53,7 +53,7 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 
 == Self-healing infrastructure (data)
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-data.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-data.png[750, 700]
 --
 
 The data path starting from the hosts, deliver to the Satellite. Here, both the automation controller and satellite

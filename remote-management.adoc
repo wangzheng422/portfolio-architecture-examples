@@ -1,6 +1,6 @@
 = Remote server management
 Eric D. Schabell @eschabell, Iain Boyle @iainboy
-:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
@@ -15,7 +15,7 @@ across all of the the servers in order to reduce risk and costs.
 management, security, and  data protection for full lifecycle.
 
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/rsm-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/rsm-marketing-slide.png[750,700]
 --
 
 Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
@@ -24,12 +24,12 @@ be embedded into your content.
 
 --
 https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remote-server-management.drawio[[Load Diagram]]
-https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/diagrams/remote-server-management.drawio?inline=false[[Download Diagram]]
+https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/remote-server-management.drawio?inline=false[[Download Diagram]]
 --
 
 == The technology
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/rsm-ld.png[350, 300]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/rsm-ld.png[350, 300]
 --
 
 * The following technology was chosen for this solution:
@@ -63,9 +63,9 @@ virtual, container, and all types of cloud environments.
 
 == Remote server management
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-network-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-network-sd.png[750, 700]
 
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-data-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-data-sd.png[750, 700]
 --
 
 *TODO:* add description...

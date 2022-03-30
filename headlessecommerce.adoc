@@ -1,6 +1,6 @@
 = Headless eCommerce
 Eric D. Schabell @eschabell, Iain Boyle @iainboy
-:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
@@ -16,12 +16,12 @@ small number of wholesale, corporate or government clientele.
 platform.
 
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/headless-ecommerce-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/headless-ecommerce-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-headless-ecommerce-ld.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-headless-ecommerce-ld.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -57,7 +57,7 @@ virtual, container, and all types of cloud environments.
 
 == Headless e-commerce local development
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-headless-ecommerce-local-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-headless-ecommerce-local-sd.png[750, 700]
 --
 
 The developer is central to delivering the components used in this architecture. The developer IDE is the tooling the
@@ -77,7 +77,7 @@ due to space.
 
 == Headless e-commerce remote development
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-headless-ecommerce-remote-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-headless-ecommerce-remote-sd.png[750, 700]
 --
 
 The developer is central to delivering the components used in this architecture. The developer IDE is the tooling the

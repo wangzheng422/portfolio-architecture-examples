@@ -1,6 +1,6 @@
 = Edge Medical Diagnosis
 Eric D. Schabell @eschabell
-:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
@@ -14,13 +14,13 @@ diagnosis using condition detection in medical imagery with AI/ML at medical fac
 *Use case:* Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
 
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-medical-diagnosis-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-medical-diagnosis-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/edge-medical-diagnosis-ld.png[350, 300]
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/edge-medical-diagnosis-details-ld.png[350, 300]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/edge-medical-diagnosis-ld.png[350, 300]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/edge-medical-diagnosis-details-ld.png[350, 300]
 --
 
 * The following technology was chosen for this solution:
@@ -43,8 +43,8 @@ virtual, container, and all types of cloud environments.
 
 == Edge medical diagnosis overview
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-network-sd.png[750, 700]
-//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-data-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-network-sd.png[750, 700]
+//image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-data-sd.png[750, 700]
 --
 
 * This is an overview look at edge medical diagnosis, providing the solution details and the elements described above
@@ -66,8 +66,8 @@ teams are maintaining code and infrastructure manifests for full GitOps deployme
 
 == Edge medical diagnosis with GitOps
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-gitops-sd.png[750, 700]
-//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-gitops-data-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-gitops-sd.png[750, 700]
+//image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-gitops-data-sd.png[750, 700]
 --
 
 * GitOps delivery and development are essential to a fully automated cloud hosted solution:
