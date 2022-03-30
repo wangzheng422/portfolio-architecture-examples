@@ -7,7 +7,7 @@ Ricardo Garcia Cavero @ipbabble
 :toc: left
 :toclevels: 5
 
-This architecture covers Near Zero Downtime Maintenance for RHEL servers hosting SAP workloads. SAP workloads are
+SAP workloads are
 critical in the company and the maintenance windows are very strict, sometimes making it difficult for the system
 administrators to finish the update tasks properly in time. This solution allows for application of OS patches, fixes,
 updates, DB patches and new versions and SAP kernel updates while users can continue to work inside SAP, not perceiving
@@ -19,27 +19,27 @@ without perceiving any interruption.
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing.png[750,700]
 --
-
+---
 == The technology
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/nzd-sap.png[750, 700]
 --
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat Enterprise Linux for SAP Solutions* is combining an intelligent operating system with predictive management
+*Red Hat Enterprise Linux for SAP Solutions* is combining an intelligent operating system with predictive management
 tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
 available foundation for business-critical SAP and non-SAP workloads.
 
-** *Red Hat Satellite* the smart management element in this architecture, used for tracking, managing, auditing, and
+*Red Hat Satellite* the smart management element in this architecture, used for tracking, managing, auditing, and
 collecting data on the entire infrastructure to ensure that baselines are met.
 
-** *Red Hat Smart Management*, which includes Satellite and Cloud Connector, provides the capability to gather
+*Red Hat Smart Management*, which includes Satellite and Cloud Connector, provides the capability to gather
 anonymized configuration information from the SAP hosts and send that anonymized data to Insights Platform (on Red
 Hat’s SaaS). Satellite manages the lifecycle of the SAP servers, applying the packages, security fixes, etc., that
 they need to be compliant with SAP’s and Red Hat’s recommendations and consistent between them.
 
-** *Red Hat Ansible Automation Platform* is the framework used in this solution to run the remediation Ansible
+*Red Hat Ansible Automation Platform* is the framework used in this solution to run the remediation Ansible
 playbooks in the hosts that will correct the situations that could lead to a failure or issue, for example modifying
 a kernel memory parameter that can cause a bad performance of the SAP HANA DB or applying a certain level of an OS
 package that is needed for a particular version of SAP Netweaver.
@@ -72,13 +72,13 @@ Add-On based on Pacemaker has specific resources for SAP HANA and also for the a
 
 The flow represented in this schematic diagram is the following:
 
-- The Satellite server applies the packages, security fixes, etc., in the primary node of the target cluster (DB
+The Satellite server applies the packages, security fixes, etc., in the primary node of the target cluster (DB
 cluster or application cluster - SAP Netweaver or SAP S/4HANA). If the intervention is a SAP HANA upgrade (DB cluster)
 or a SAP kernel upgrade (application cluster - the SAP kernel is different form the OS kernel, it is another layer of
 binaries specific to the SAP application) it will be the Automation Orchestration (Ansible Tower) who will run a
 playbook for this upgrade in the primary node of the target cluster.
 
-- If the maintenance is in the SAP HANA hosts, once the intervention is finished in the primary node, the Automation
+If the maintenance is in the SAP HANA hosts, once the intervention is finished in the primary node, the Automation
 Orchestration runs a playbook in any of the nodes of the cluster to move the virtual IP to the other node so that the
 application servers can connect to it and keep working and since the SAP application ‘suspend DB connection’ feature
 is used, no transactions will be committed to the DB until the virtual IP failover is done, this takes less than one
@@ -89,7 +89,7 @@ SAP application (Netweaver or S/4HANA) cluster the cluster resources that will b
 under maintenance will be the SAP instance (ASCS or ERS, depending on the one that is in the node) and the filesystems
 with the work and profile directories of the instance.
 
-- The Satellite server performs the intervention in the former primary node of the cluster. As in step 1, if the
+The Satellite server performs the intervention in the former primary node of the cluster. As in step 1, if the
 intervention is a SAP HANA upgrade or a SAP kernel upgrade it will be the Automation Orchestration who will run a
 playbook for it to be done in the former primary node of the cluster.
 
