@@ -1,6 +1,6 @@
 = Business Optimization
 Eric D. Schabell @eschabell, Iain Boyle @iainboy
-:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
@@ -16,12 +16,12 @@ small number of wholesale, corporate or government clientele.
 multiple stores.
 
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/business-optimisation-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/business-optimisation-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-business-optimisation-ld.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-business-optimisation-ld.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -41,7 +41,7 @@ virtual, container, and all types of cloud environments.
 
 == Business optimisation
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-business-optimisation-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-business-optimisation-sd.png[750, 700]
 --
 
 The business owners and developers are providing the goals, constraints, and resources to the retail planning services
@@ -53,7 +53,7 @@ processing out to the stores.
 
 == Vaccine optimisation
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-business-optimisation-vaccines-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-business-optimisation-vaccines-sd.png[750, 700]
 --
 
 The business owners and developers are providing the goals, constraints, and resources to the vaccine planning services

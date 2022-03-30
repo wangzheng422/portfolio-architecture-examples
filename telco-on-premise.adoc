@@ -1,6 +1,6 @@
 = Telco 5G Core: On Premise
  Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  @ishuverma, William Henry @ipbabble,
-:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
@@ -22,12 +22,12 @@ function (CNF).
 *Use case:* Ultra-reliable, immersive experiences for people and objects when and where it matters most.
 
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-on-premise-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-on-premise-marketing-slide.png[750,700]
 --
 
 == The technology
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-5g-ld.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-5g-ld.png[750, 700]
 --
 
 * The following technology was chosen for this solution:
@@ -77,9 +77,9 @@ functions and 5G management functions)
 
 == Telco 5G on premise
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-sd.png[750, 700]
 
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-network-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-network-sd.png[750, 700]
 --
 The messages from end devices and Radio Access Network (RAN) are routed to the following components in the Service
 Based Architecture (SBA) and user plane:
