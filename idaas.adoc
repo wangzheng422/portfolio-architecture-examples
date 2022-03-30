@@ -1,4 +1,4 @@
-= Intelligent data as a service (iDaaS)
+= Intelligent Data as a Service (iDaaS)
 Eric D. Schabell @eschabell
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
@@ -8,14 +8,12 @@ Eric D. Schabell @eschabell
 :toclevels: 5
 
 
-This architecture covers the use case around using intelligent data as a service (iDaaS) in the healthcare industry.
-Our world  transformed overnight, and healthcare had to respond immediately. Now more than ever, it's critical to have
-access to data and unlimited scale, and to design and modify decisioning, processes, and workflows for specific
-situations without being vendor-dependent. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help
+Our world  transformed overnight, and healthcare had to respond immediately. Now more than ever, it's critical to have access to data and unlimited scale, and to design and modify decisioning, processes, and workflows for specific
+situations without being vendor-dependent. The solution presented here covers the use case around using intelligent data as a service in the healthcare industry. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help
 with a flexible, open approach.
 
 *Use case:* Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure
-and scalable manner while driving data needs for moving towards consumerisation in healthcare.
+and scalable manner while driving data needs for moving towards consumerization in healthcare.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/idaas-marketing-slide.png[750,700]
@@ -26,23 +24,23 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/idaas-ld.png[750, 700]
 --
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat Integration* utilize the connectors for HL7 and FHIR, interoperate in/out of clinic systems, and connect to
+*Red Hat Integration* utilizes the connectors for HL7 and FHIR, interoperate in/out of clinic systems, and connect to
 third-party data sources. Establish and manage API and connectors to clinical and financial entities. Integrate and
 streams real-time data and events securely between systems. Also provide high throughput receiver for  edge signal and
 events.
 
-** *Red Hat OpenShift Data Foundations* software-defined storage for health records, images, events and knowledge base
+*Red Hat OpenShift Data Foundations* software-defined storage for health records, images, events and knowledge base
 repositories. Easily scale across data-center and clouds.
 
-** *Red Hat OpenShift Runtimes* simplify continuous delivery of applications with frameworks such as Spring Boot and
+*Red Hat OpenShift Runtimes* simplifies continuous delivery of applications with frameworks such as Spring Boot and
 Quarkus. Full stack kubernetes-native Java framework for microservices and native compilation.
 
-** *Red Hat OpenShift* base platform for iDaaS, an enterprise-ready Kubernetes container orchestration and management
+*Red Hat OpenShift* is the base platform for iDaaS, an enterprise-ready Kubernetes container orchestration and management
 platform. It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
@@ -51,60 +49,37 @@ virtual, container, and all types of cloud environments.
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-sd.png[750, 700]
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-data-sd.png[750, 700]
 --
 
-* This is an overview look at iDaaS, providing the solution details and the elements described above in both a network
+This is an overview look at iDaaS, providing the solution details and the elements described above in both a network
 and data centric view:
 
-** *HL7 FHIR:* FHIR is a standard for health care data exchange, published by HL7.
+All requests enter through the API management element, used to secure and authenticate access to internal services and applications. The first collection of elements is iDaaS Connect where the integration services for specific communication channels are located. The individual integration service elements handle both the message standards and transformation needed between systems and those standards.
 
-** *Third-party data providers:* noSQL, devices, edge devices, backend systems, SQL, Cloudera, Apache Kafka
+The iDaaS Connect services register events and receive event notification from the iDaaS connect events. This is a central hub that ensures all events undergo registration, management, and notifications are sent when needed to the appropriate elements in the iDaaS architecture.
 
-** *iDaaS Connect Clinical:* connector for clinical industry standards.
+Events will often trigger elements of the iDaaS DREAM collection through the iDaaS event builder which captures business automation activities and the iDaaS intelligent data router. The data router can manage where specific data needs to be sent, both inbound to sources and outbound to application or service destinations. It's assisted by the iDaaS connect data distribution element which ensures integration with many data sources which might be in local or remote locations such as a public cloud.
 
-** *iDaaS Connect Financial:* connector for financial industry standards.
+The iDaaS architecture provides both conformance and insights into the knowledge being managed by the offered solutions. The iDaaS knowledge insight element manages analytics and insights into the data available across the live platform. This can  provide near-realtime gathering and reporting as organizational needs require. 
 
-** *iDaaS Connect Third-party:* connectory for industry third-party data sources and event streams.
-
-** *iDaaS Event Builder:* used with industry and business models
-
-** *Clinical data tagging:* data tagged with relevant clinical information, enriching data.
-
-** *aiDoc:* Assigned Insights for Disease, Outbreaks, and Conditions.
-
-** *Terminology mediation:* terminology mediation and cross mapping, data transformation.
-
-** *iDaaS Intelligent Data Router:* specific data routing with AI/ML decision logic foundations.
-
-** *ER real-time wait detector & remediation:* component to manage emergency room waiting times.
-
-** *Dynamic data transformation:* data transformation components.
-
-** *iDaaS UI:* user interface for users and administrators.
-
-** *iDaaS API:* management for API landscape.
-
-** *iDaaS Data Hub:* the AI/ML aspects for use in data solutions.
-
+The iDaaS knowledge conformance element is a set of applications and tools that allow for any organization to automate compliancy and regulation adherence using rule systems customized to their own local needs.
 
 == iDaaS connect for HL7 FHIR
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-connect-hl7-fhir-sd.png[750, 700]
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[750, 700]
 --
 
-* In this schematic the details are exposed as to an exmaple of integration through iDaaS Connect features around HL7
+In this schematic the details are exposed as to an examaple of integration through iDaaS Connect features around HL7
 and FHIR healthcare messaging standards:
 
-** First, the iDaaS knowledge and insight elements were left out of this schematic to reduce diagram complexity. They
+First, the iDaaS knowledge and insight elements were left out of this schematic to reduce diagram complexity. They
 return in the section below.
 
-** The rest of this diagram remains the same as the previous section with one exception, the iDaaS Connect collection
+The rest of this diagram remains the same as the previous section with one exception, the iDaaS Connect collection
 is now focusing only on the elements for integrating HL7 and FHIR protocols.
 
-** There are two elements featuring microservice collections designed to provide messaging between incoming HL7 and FHIR
+There are two elements featuring microservice collections designed to provide messaging between incoming HL7 and FHIR
 messages to the rest of the systems. Message transformation microservices are needed to ensure integration with its
 destination. These transformations happen incoming to the event system and outgoing before delivering back to the
 originating source.
@@ -114,25 +89,20 @@ originating source.
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-knowledge-insight-sd.png[750, 700]
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-knowledge-insight-data-sd.png[750, 700]
 --
 
-* The focus of this schematic is to clarify how knowledge and insight are used to provide for near real-time
-understanding of the data across the organisation:
+The focus of this schematic is to clarify how knowledge and insight are used to provide for near real-time understanding of the data across the organization:
 
-** First note that the iDaaS Connect collection has been reduced down to just a single integration and transformation
-story using FHIR messages to simplify the diagrams.
+First, note that the iDaaS Connect collection has been reduced down to just a single integration and transformation story using FHIR messages to simplify the diagrams.
 
-** The rest of this diagram remains the same as the first section with the focus and expansion of the knowledge and
+The rest of this diagram remains the same as the first section with the focus and expansion of the knowledge and
 insight elements where we turn to now.
 
-** The iDaaS knowledge insight element plugs into the processes and decision being taken centrally in the iDaaS Dream
-collection. This ensures a near real-time view can be given on all events driven data processing through the
-organisation.
+The iDaaS knowledge insight element plugs into the processes and decisions being taken centrally in the iDaaS Dream collection. This ensures a near real-time view can be on all events driven data processing through the organization.
 
-** In the iDaaS knowledge conformance element one finds the insights exposed for an organisations review / reporting
-around their data compliance needs. It also shows the access given to an organisation's compliance officer for
-monitoring and reporting.
+In the iDaaS knowledge conformance element, one finds the insights exposed for an organization's review / reporting of their data compliance needs. It also shows the access given to an organization's compliance officer for monitoring and reporting.
+
+
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
