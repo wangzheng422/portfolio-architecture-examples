@@ -1,25 +1,22 @@
-= Cloud native development
+= Cloud Native Development
  Eric D. Schabell @eschabell
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
 :toc: left
-:toclevels: 5
 
-Cloud native development is an approach to building and running applications to fully use the advantages of the
-cloud computing model (i.e., responsive, elastic, and resilient applications). Red Hat empowers organizations to
+
+Cloud native development is an approach to building and running applications to fully use the advantages of the cloud computing model. Red Hat empowers organizations to
 build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
 
-Containers and orchestration, DevOps and continuous delivery, microservices and service meshes, and declarative
-application programming interfaces (APIs) are key building blocks of cloud-native application development. These
+The key building blocks of cloud-native application development are containers and orchestration, DevOps and continuous delivery, microservices and service meshes, and declarative application programming interfaces (APIs). These
 technologies and techniques deliver loosely coupled systems that are resilient, manageable, and observable.
 Combined with robust automation, they allow businesses to make high-impact application improvements frequently
 and predictably with minimal effort and risk. Additionally, cloud native architecture and technologies provide
 the foundation for newer development models such as serverless computing and Functions-as-a-Service.
 
-*Use case:* Cloud native development is an approach to building and running applications to fully exploit the
-advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).
+*Use case:* Cloud native development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cnd-marketing-slide.png[750,700]
@@ -51,12 +48,14 @@ microservices with support for creating API, API management and messaging or str
 *Source code management system* use for cross developer code production and management
 
 
-== Development with local containers
+== Development with remote and local containers
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[750, 700]
 //image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-local-containers-process-sd.png[750, 700]
---
 
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png[750, 700]
+//image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[750, 700]
+--
 The first diagram is for simple application with runtimes and integration, the second is one leveraging business
 automation. Both are examples of a cloud native developer working on a stack including tooling such as Git source code
 management system, maven, container tooling such as Docker or Podman, and a collection of integration tooling (here
@@ -69,23 +68,8 @@ CI/CD testing passed (not shown in detail here), tagging image as testImage and 
 can then be deployed in the test infrastructure OpenShift Container Platform for further testing on the road to
 production.
 
-== Development with remote containers
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-remote-containers-runtimes-sd.png[750, 700]
-//image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-remote-containers-process-sd.png[750, 700]
 --
-
-The first diagram is for simple application with runtimes and integration, the second is one leveraging business
-automation. Both are examples of a cloud native developer working on a stack including tooling such as Git source code
-management system, maven, container tooling from OpenShift client, and a collection of runtimes (here Java, Spring Boot,
-and Integration). Initial testing and development continues on the local machine and once the developer is satisfied
-one of several options are available to start the push of her code to the central CI/CD cluster. This can be one of
-several methods as depicted (hooks, plugins, or uploads) to start a CI/CD image build. Once built the image is tagged
-as a ‘devImage’ it’s pushed to the development image registry for deployment to the central development infrastructure
-cluster. Testing via CI/CD on development image eventually passes and image tagged as a ‘testImage’ and placed into the
-test infrastructure cluster for deployment. The process continues (outside this diagram to further test on the road to
-production.
-
 
 == Development deployments
 --
@@ -112,7 +96,7 @@ and use [12].
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[750, 700]
 --
 
-Here is an example of a cloud native deployment with a developer working on a stack and pushing work to the CI/CD
+This illustrates a cloud native deployment with a developer working on a stack and pushing work to the CI/CD
 platform using their preferred tooling, such as OpenShift client tooling [1]. The CI / CD platform takes the code and
 initiates building the container image to specification. When the build completes, a dev image is tagged and placed
 into a transient image registry [2] that collects development images. The central enterprise registry is managed by
@@ -131,8 +115,7 @@ further deployment and use [11].
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-deployment-with-python.png[750, 700]
 --
 
-Now an example of a cloud native deployment for Python projects: Python developer starts working on a stack. To test
-applications an image can be built using OpenShift client tooling to test in the developer environment [1]. Then it can
+To test applications an image can be built using OpenShift client tooling to test in the developer environment [1]. Then it can
 be deployed in the dev environment of the developer [2]. Once a developer is satisfied can push changes using Git in
 the repository where all source code is saved and shared [3]. The CI/CD platform takes the code and initiates a
 source-to-image workflow once a new tag is created [4], [5], building the container image to specification provided
@@ -149,7 +132,7 @@ can be moved to prod using a similar approach. [9], [10], [11].
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-deployment-with-thoth.png[750, 700]
 --
 
-Finally, an example of a cloudnative deployment for Python projects with AI support (Project Thoth): Python developer
+A Python developer
 starts working on a stack. To test applications an image can be built using OpenShift client tooling to test in the
 developer environment [1]. Then it can be deployed in the dev environment of the developer [2]. Once a developer is
 satisfied can push changes using Git in the repository where all source code is saved and shared [3]. Project Thoth
