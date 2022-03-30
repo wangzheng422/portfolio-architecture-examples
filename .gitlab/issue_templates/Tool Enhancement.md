@@ -2,8 +2,8 @@ The portfolio architecture tools provided allow you to build your own architectu
 
 ### What has been your experience using the diagram tool?
 
-### What could we do to enhance the tool and do you have examples?
+### What could we do to enhance the tool? 
 
-<!-- Please provide contact information if you would like us to contact you about your suggestions.!-->
+### Do you have any examples?
 
-### What is your email address?
+
