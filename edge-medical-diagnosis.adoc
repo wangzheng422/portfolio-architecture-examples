@@ -6,7 +6,7 @@ Eric D. Schabell @eschabell
 :source-highlighter: prettify
 :toc: left
 
-This architecture covers the use case around edge medical diagnosis in the healthcare industry. The solution provides a way to increase efficiency of a medical facility by reducing time spent on routine diagnosis and medical diagnosis of disease. This gives the medical expert time to focus on the difficult cases.
+This architecture covers the use case around Edge Medical Diagnosis in the healthcare industry. The solution provides a way to increase efficiency of a medical facility by reducing time spent on routine diagnosis and medical diagnosis of disease. This gives the medical expert time to focus on the difficult cases.
 
 
 *Use case:* Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
@@ -40,12 +40,12 @@ The following technology was chosen for this solution:
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
-== Edge medical diagnosis overview
+== Edge Medical Diagnosis overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-network-sd.png[750, 700]
 --
 
-This is an overview look at edge medical diagnosis, providing the solution details and the elements described above in both a network and data centric view.
+This is an overview look at Edge Medical Diagnosis, providing the solution details and the elements described above in both a network and data centric view.
 
 The overview splits the solution into two distinct locations; the diagnostic facility where the medical staff and
 the edge x-ray devices are located and the medical data center where development and monitoring of the solution takes
@@ -61,13 +61,13 @@ to the collection used for model training and development. The applications, mac
 development and dashboards for monitoring the processes are all in constant evolution. Developers and operations
 teams are maintaining code and infrastructure manifests for full GitOps deployment of the architectural elements.
 
-== Edge medical diagnosis with GitOps
+== Edge Medical Diagnosis with GitOps
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-gitops-sd.png[750, 700]
 
 --
 
-GitOps delivery and development are essential to a fully automated cloud hosted solution. This schematic diagram features the elements focusing only on development and deployment of the edge medical diagnosis elements needed for this solution. It removes the patient facing medical staff and the edge image capturing, instead featuring developer and IT operations staff on the back end.
+GitOps delivery and development are essential to a fully automated cloud hosted solution. This schematic diagram features the elements focusing only on development and deployment of the Edge Medical Diagnosis elements needed for this solution. It removes the patient facing medical staff and the edge image capturing, instead featuring developer and IT operations staff on the back end.
 
 In the medical data center, developers deliver code projects into the CI/CD pipelines and trigger eventual container image builds put into the registry. The same is happening on the IT operations side, where system configuration and
 manifest code is maintained in their repository.
