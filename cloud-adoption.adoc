@@ -5,7 +5,7 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :icons: font
 :source-highlighter: prettify
 :toc: left
-:toclevels: 5
+
 
 
 As enterprises transition to public and/or private clouds, it is important to
@@ -51,12 +51,12 @@ infrastructure rollouts, workload management, and workload migrations. This is t
 successfully adopt a truly hybrid cloud infrastructure.
 
 
-== Cloud adoption overview
+== Cloud Adoption overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-network-sd.png[750, 700]
 --
 
-This overview looks at cloud adoption, providing the solution details and the elements described above in both a
+This overview looks at Cloud Adoption, providing the solution details and the elements described above in both a
 network and data centric view:
 
 * It starts in the core data center where images are built (where the application source code are located in a
@@ -75,7 +75,7 @@ management and automation orchestration will take action as defined in the autom
 across all infrastructure destinations,. Roll out extra resources for surging demand on specific workloads.
 
 
-== Cloud adoption data overview
+== Cloud Adoption data overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-data-sd.png[750, 700]
 --
