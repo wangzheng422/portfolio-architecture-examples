@@ -6,7 +6,7 @@ Eric Lavarde @L1
 :source-highlighter: prettify
 :toc: left
 
-Large enterprises want cloud factory in order to deploy and manage the cloud in a modern and automated manner. This architecture covers the deployment based on one code base using the principles of Infrastructure as Code. This addresses specific needs with specific cloud creating an efficient repeatable cloud deployment. 
+Large enterprises want Cloud Factory in order to deploy and manage the cloud in a modern and automated manner. This architecture covers the deployment based on one code base using the principles of Infrastructure as Code. This addresses specific needs with specific cloud creating an efficient repeatable cloud deployment. 
 
 *Use case:* Deploy multiple private clouds based on the same (infrastructure as) code using different parametrization
 (Ansible inventories).
@@ -45,7 +45,7 @@ cloud, multicloud, and edge deployments.
 authorization policies to all cloud builds.
 
 
-== Cloud factory network overview
+== Cloud Factory network overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-factory-sd.png[750, 700]
 --
@@ -67,12 +67,12 @@ compute nodes. A tenant of these nodes is shown as the OpenShift Container Platf
 Platform-as-a-Service (PaaS).
 
 
-== Cloud factory data overview
+== Cloud Factory data overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-factory-data-sd.png[750, 700]
 --
 
-This is an overview look at cloud factory, providing the solution details and the elements described above in both a
+This is an overview look at Cloud Factory, providing the solution details and the elements described above in both a
 network and data centric view:
 
 The infrastructure starts with a deployment head, where the definitive software library is maintained through development and connections to the Red Hat content delivery network. Ansible is used to maintain and deliver playbooks
