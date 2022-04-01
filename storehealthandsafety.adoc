@@ -8,9 +8,8 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toclevels: 5
 
 Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
-earn a profit. Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied
-where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
-small number of wholesale, corporate or government clientele.
+earn a profit. Store health and safety is all about managing risks to protect workers and stores. In a global context,
+health and safety is also an essential part of the movement towards sustainable operational growth.
 
 *Use case:* Managing effective in-store compliance, health & safety, and employee checks and procedures.
 
