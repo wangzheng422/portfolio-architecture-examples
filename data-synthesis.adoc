@@ -19,7 +19,7 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 
 == The technology
 --
-*TODO:* add marketecture
+*TODO:* add logical diagram
 //image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/data-sythesis-ld.png[350, 300]
 --
 
@@ -34,8 +34,6 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 ** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds.
 
 ** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of applications, the cloud-native way. Built on proven open source technologies, it also provides development teams multiple modernization options to enable a smooth transition to the cloud for existing applications.
-
-** *Red Hat Business Automation* is an application development platform that enables developers and business experts to create cloud-native applications that automate business operations.
 
 ** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize your APIs on an infrastructure platform built for performance, customer control, and future growth.
 
