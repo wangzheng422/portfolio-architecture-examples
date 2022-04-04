@@ -52,5 +52,6 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/data-synthesis.drawio[[Open Diagrams]]
+TODO: add diagam files
+//https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/data-synthesis.drawio[[Open Diagrams]]
 --
