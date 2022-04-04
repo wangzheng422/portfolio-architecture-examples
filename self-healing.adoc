@@ -36,7 +36,7 @@ another means of distributing remediation throughout an estate.
 
 
 
-== Self-healing infrastructure (network)
+== Self-Healing Infrastructure (network)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-net.png[750, 700]
 --
@@ -60,7 +60,7 @@ RHEL remediation plans can also be manually synced to the automation controller 
 it’s normal automation workflow.
 
 
-== Self-healing infrastructure (data)
+== Self-Healing Infrastructure (data)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-data.png[750, 700]
 --
