@@ -18,7 +18,7 @@ cloud infrastructures according to performance, security, compliance, and cost r
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloud-adoption-marketing-slide.png[750,700]
 --
-
+---
 == The technology
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-adoption-ld.png[750, 700]
@@ -26,10 +26,10 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-*Red Hat Satellite* the smart management element in this architecture, used for tracking, managing, auditing, and
+*Red Hat Satellite*  is the smart management element in this architecture, used for tracking, managing, auditing, and
 collecting data on the entire infrastructure to ensure that baselines are met.
 
-*Red Hat Smart Management* to provide a cloud experience, existing physical data center resources might be the starting
+*Red Hat Smart Management* provides a cloud experience, existing physical data center resources might be the starting
 point to be offered to the organization with a cloud-like experience. This combines the flexible and powerful
 infrastructure management capabilities with the ability to execute remediation plans. It helps to securely manage any
 environment supported by Red Hat Enterprise Linux, from physical machines to hybrid multiclouds.
@@ -38,65 +38,47 @@ environment supported by Red Hat Enterprise Linux, from physical machines to hyb
 needed by the other elements managing the hybrid cloud. This element is directed to execute based on the findings of
 the smart management element.
 
-*Red Hat Quay* part of Core Data Center, it is a private container registry that stores, builds, and deploys container
+*Red Hat Quay* is part of the Core Data Center, it is a private container registry that stores, builds, and deploys container
 images. It analyzes your images for security vulnerabilities, identifying potential issues that can help you mitigate
 security risks.
 
-*Red Hat Enterprise Linux* (RHEL) host element with an image registry to facilitate the deployment of infrastructure,
+*Red Hat Enterprise Linux* (RHEL) is the host element with an image registry to facilitate the deployment of infrastructure,
 services, and applications across the entire hybrid cloud infrastructure.
 
 *Red Hat Insights* is the key to monitoring and data collection around the entire hybrid cloud infrastructure. Based on
 this data and working together with insights services, automated actions can take place around updates, security patches,
-infrastructure rollouts, workload management, and workload migrations. This is the key to an organisations ability to
+infrastructure rollouts, workload management, and workload migrations. This is the key to an organizations ability to
 successfully adopt a truly hybrid cloud infrastructure.
 
 
-== Cloud Adoption overview
+== Cloud adoption overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-network-sd.png[750, 700]
 --
 
-This overview looks at Cloud Adoption, providing the solution details and the elements described above in both a
+This overview looks at cloud adoption, providing the solution details and the elements described above in both a
 network and data centric view:
 
-* It starts in the core data center where images are built (where the application source code are located in a
-_source code management system_ (SCM)) and deployed out to the image registry found in a physical data center, a private
+It starts in the core data center where images are built (where the application source code are in a
+source code management system (SCM)) and deployed out to the image registry found in a physical data center, a private
 cloud, or in any public clouds desired. Quay is used to sync these registries.
 
-* Cloud services assist with analyzing the data to help manage responses and maintain a repository of automated actions.
-Result of the analyzed data react to specific insights with plans that can be used to support th infrastructure
+Cloud services assist with analyzing the data to help manage responses and maintain a repository of automated actions.
+Result of the analyzed data react to specific insights with plans that can be used to support the infrastructure
 management.
 
-* Infrastructure management uses smart management to monitor all deployments and locations, leveraging input from the
+Infrastructure management uses smart management to monitor all deployments and locations, leveraging input from the
 cloud services provided by insights and automation repositories. If needed, remediation can be triggered by smart
 management and automation orchestration will take action as defined in the automation playbooks to fix deployments.
 
-* Infrastructure management also uses the gained workload insights to deploy new updates and manage security patches
-across all infrastructure destinations,. Roll out extra resources for surging demand on specific workloads.
+Infrastructure management also uses the gained workload insights to deploy new updates and manage security patches
+across all infrastructure destinations. 
 
 
-== Cloud Adoption data overview
+== Cloud adoption data overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-data-sd.png[750, 700]
 --
-
-This is an overview as above, but with a focus on the data flowing through the cloud adoption architectere. It's
-providing the solution details and the elements described above in both a network and data centric view:
-
-* It starts in the core data center where images are built (where the application source code are located in a
-_source code management system_ (SCM)) and deployed out to the image registry found in a physical data center, a
-private cloud, or in any public clouds desired. Quay is used to sync these registries.
-
-* Cloud services assist with analyzing the data to help manage responses and maintain a repository of automated actions.
-Result of the analyzed data react to specific insights with plans that can be used to support th infrastructure
-management.
-
-* Infrastructure management uses smart management to monitor all deployments and locations, leveraging input from the
-cloud services provided by insights and automation repositories. If needed, remediation can be triggered by smart
-management and automation orchestration will take action as defined in the automation playbooks to fix deployments.
-
-* Infrastructure management also uses the gained workload insights to deploy new updates and manage security patches
-across all infrastructure destinations,. Roll out extra resources for surging demand on specific workloads.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
