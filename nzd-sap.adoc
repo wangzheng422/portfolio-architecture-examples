@@ -19,6 +19,10 @@ without perceiving any interruption.
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing.png[750,700]
 --
+
+video::ChPVIf1xrR0[youtube]
+
+
 ---
 == The technology
 --
