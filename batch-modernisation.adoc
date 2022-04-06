@@ -15,7 +15,7 @@ the 'Download Diagram' link. The images below can be used to browse the availabl
 
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/batch-moderisation.drawio[[Load Diagram]]
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/batch-moderisation.drawio[[Load Diagram]]
 https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/batch-modernisation.drawio?inline=false[[Download Diagram]]
 --
 

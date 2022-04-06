@@ -101,5 +101,5 @@ not shown in this diagram due to space.
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-headless-ecommerce.drawio[[Open Diagrams]]
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/retail-headless-ecommerce.drawio[[Open Diagrams]]
 --
