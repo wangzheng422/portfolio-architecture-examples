@@ -51,12 +51,12 @@ infrastructure rollouts, workload management, and workload migrations. This is t
 successfully adopt a truly hybrid cloud infrastructure.
 
 
-== Cloud adoption overview
+== Cloud Adoption overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-network-sd.png[750, 700]
 --
 
-This overview looks at cloud adoption, providing the solution details and the elements described above in both a
+This overview looks at Cloud Adoption, providing the solution details and the elements described above in both a
 network and data centric view:
 
 It starts in the core data center where images are built (where the application source code are in a
@@ -75,7 +75,7 @@ Infrastructure management also uses the gained workload insights to deploy new u
 across all infrastructure destinations. 
 
 
-== Cloud adoption data overview
+== Cloud Adoption data overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-data-sd.png[750, 700]
 --
