@@ -7,7 +7,7 @@ Ricardo Garcia Cavero @ipbabble
 :toc: left
 :toclevels: 5
 
-== Overview and Video
+== Overview and solution video
 SAP workloads are
 critical in the company and the maintenance windows are very strict, sometimes making it difficult for the system
 administrators to finish the update tasks properly in time. This solution allows for application of OS patches, fixes,
