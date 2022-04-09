@@ -85,3 +85,9 @@ View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/cloud-adoption.drawio[[Open Diagrams]]
 --
+
+== Provide feedback on this architecture
+--
+You can help correct or enhance this architecture by filing an [issue or submitting a merge request against this Portfolio Architecture product in GitLab](cloud-adoption.adoc).
+--
+
