@@ -7,9 +7,9 @@ Ricardo Garcia Cavero
 :toc: left
 :toclevels: 5
 
-== Solution overview and video
+== Solution overview
 SAP workloads are critical to a company and the maintenance windows are often very strict, sometimes making it difficult for the system
-administrators to finish update and maintenance tasks properly in time. This solution allows for application of OS patches, fixes,
+administrators to finish updates and maintenance tasks properly in time. This solution allows for application of OS patches, fixes,
 and system updates, as well as database patching and version updates, and SAP kernel updates. With this portfolio architecture implemented users can continue to work inside SAP, without noticing
 any disruption.
 
@@ -78,7 +78,7 @@ The flow represented in this schematic diagram is the following:
 
 The Satellite server applies the packages, security fixes, etc., in the primary node of the target cluster (DB
 cluster or application cluster - SAP Netweaver or SAP S/4HANA). If the intervention is a SAP HANA upgrade (DB cluster)
-or a SAP kernel upgrade (application cluster - the SAP kernel is different form the OS kernel, it is another layer of
+or a SAP kernel upgrade (application cluster - the SAP kernel is different from the OS kernel, it is another layer of
 binaries specific to the SAP application) it will be the Automation Orchestration (Ansible Tower) who will run a
 playbook for this upgrade in the primary node of the target cluster.
 
