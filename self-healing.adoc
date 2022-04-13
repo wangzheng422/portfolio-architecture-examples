@@ -17,7 +17,8 @@ automation tools for applying remediation across a scaling estate of hosts in a 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/self-healing-marketing-slide.png[750,700]
 --
-
+video::JOT8If4F27k[youtube]
+---
 == The technology
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/self-healing-ld.png[750, 700]
