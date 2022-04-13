@@ -17,6 +17,8 @@ and hybrid cloud), making sure they are compliant with SAP and Red Hat's recomme
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/smart-management-for-SAP-marketing-slide.png[750,700]
 --
+
+== Summary video
 video::vBzXn-EiXtQ[youtube]
 ---
 == The technology
