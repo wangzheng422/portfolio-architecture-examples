@@ -21,13 +21,14 @@ the foundation for newer development models such as serverless computing and Fun
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cnd-marketing-slide.png[750,700]
 --
 
-== The technology
---
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-native-development-ld.png[750, 700]
-//image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-native-development-details-ld.png[750,700]
---
 
-* The following technology was chosen for this solution:
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-native-development-ld.png[750, 700]
+
+
+== The technology
+
+
+The following technology was chosen for this solution:
 
 *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform to orchestrate the containerized applications,
 enable agile DevOps development with automated CI/CD workflows, for shorter lead time for change, mean time to recovery.
@@ -153,3 +154,6 @@ View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/cloud-native-development.drawio[[Open Diagrams]]
 --
+
+== Provide feedback on this architecture
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/cnd.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
