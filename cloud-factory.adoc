@@ -6,6 +6,7 @@ Eric Lavarde @L1
 :source-highlighter: prettify
 :toc: left
 
+== Solution overview
 Large enterprises may use this Cloud Factory architecture in order to deploy and manage their cloud in a modern and automated manner. This architecture covers the deployment pertaining to one code base using the principles of Infrastructure as Code. This architecture addresses adapting to needs with specific clouds creating an efficient repeatable cloud deployment. 
 
 *Use case:* Deploy multiple private clouds based on the same infrastructure as code using different parameters and Ansible inventories.
