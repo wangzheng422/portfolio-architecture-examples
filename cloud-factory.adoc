@@ -6,7 +6,7 @@ Eric Lavarde @L1
 :source-highlighter: prettify
 :toc: left
 
-Large enterprises may use this Cloud Factory architecture in order to deploy and manage their cloud in a modern and automated manner. This architecture covers the deployment based on one code base using the principles of Infrastructure as Code. This architecture can addresses adapting to needs with specific clouds creating an efficient repeatable cloud deployment. 
+Large enterprises may use this Cloud Factory architecture in order to deploy and manage their cloud in a modern and automated manner. This architecture covers the deployment based on one code base using the principles of Infrastructure as Code. This architecture  addresses adapting to needs with specific clouds creating an efficient repeatable cloud deployment. 
 
 *Use case:* Deploy multiple private clouds based on the same infrastructure as code using different parameters and Ansible inventories.
 
@@ -14,10 +14,13 @@ Large enterprises may use this Cloud Factory architecture in order to deploy and
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloud-factory-marketing-slide.png[750,700]
 --
 
-== The technology
---
+
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-factory-ld.png[750, 700]
---
+
+
+
+== The technology
+
 The following technology was chosen for this solution:
 
 *Red Hat OpenStack Platform* is an essential part of the factory where it virtualizes resources from hardware, organizes those
@@ -87,3 +90,7 @@ View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/cloud-factory.drawio[Open Diagrams]
 --
+
+== Provide feedback on this architecture
+You can offer to help correct or enhance this architecture by filing an issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories.
+
