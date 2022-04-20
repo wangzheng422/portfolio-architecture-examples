@@ -6,6 +6,8 @@ Eric D. Schabell @eschabell
 :source-highlighter: prettify
 :toc: left
 
+== Solution overview
+
 This architecture covers the use case around Edge Medical Diagnosis in the healthcare industry. The solution provides a way to increase efficiency of a medical facility by reducing time spent on routine diagnosis and medical diagnosis of disease. This gives the medical expert time to focus on the difficult cases.
 
 
