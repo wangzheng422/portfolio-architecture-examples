@@ -5,7 +5,7 @@ Christia Lin @christina_wm
 :icons: font
 :source-highlighter: prettify
 :toc: left
-:toclevels: 5
+
 
 This architecture covers hybrid and multicloud management with GitOps. The customer was looking for a stabilize and
 simplify container platform that was secure and supports a hybrid environment and being able to run on multiple cloud
@@ -19,40 +19,39 @@ infrastructure as code approach. Cross cluster governance and application lifecy
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/hybrid-multicloud-management-gitops-marketing-slide.png[750,700]
 --
 
-== The technology
---
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/spi-multi-cloud-gitops-ld-simple.png[750, 700]
 
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/spi-multi-cloud-gitops-ld-public.png[750, 750]
---
 
-* In the case study, customers have chosen several the following technologies and the reason why: 
 
-** *Red Hat OpenShift Platform* Instead of directly using and learning the offering from all vendors, or even learning
+== The technology
+
+In the case study, customers have chosen several the following technologies and the reason why: 
+
+*Red Hat OpenShift Platform* Instead of directly using and learning the offering from all vendors, or even learning
 the subtle differences between the Kubernetes offering, using a platform offering sits on top across data centers,
 private and public cloud will provide a unified way to deploy, monitor, and automate all the clusters.
 
-** *OpenShift GitOps*  Automate delivery through DevOps practices across multicluster OpenShift and Kubernetes
+*OpenShift GitOps*  Automate delivery through DevOps practices across multicluster OpenShift and Kubernetes
 infrastructure, with the choice of either automatically or manually synchronizing the deployment of clusters according
 to what’s in the repository.
 
-** *Core Monitoring*  OpenShift has a pre-configured, pre-installed, and self-updating monitoring stack that provides
+*Core Monitoring*  OpenShift has a pre-configured, pre-installed, and self-updating monitoring stack that provides
 monitoring for core platform components. On top of that, we can also define monitoring for user-defined projects as
 well.
 
-** *Grafana Loki*  Horizontally scalable and better log aggregation system, and more cost-effective and easy to operate
+*Grafana Loki*  Horizontally scalable and better log aggregation system, and more cost-effective and easy to operate
 especially in a multi-cluster environment.
 
-** *External Secret*  Enable use of external secret management systems (like HashiCorp Vault in this case) to securely
+*External Secret*  Enable use of external secret management systems (like HashiCorp Vault in this case) to securely
 add secrets into the OpenShift platform.
 
-** *Red Hat Advanced Cluster Management for Kubernetes*  Controls clusters and applications from a single unified
+*Red Hat Advanced Cluster Management for Kubernetes*  Controls clusters and applications from a single unified
 management hub console, with built-in security policies, provisioning cluster, and application lifecycles. Especially
 important when it comes to managing on top of multi-clouds.
 
-** *Red Hat Ansible Automation*  Used to automate the configuration and installation of the management hub.
+*Red Hat Ansible Automation*  Used to automate the configuration and installation of the management hub.
 
-** *Hashicorp Vault*  Secure centralized store for dynamic infrastructure and application across clusters. For low
+*Hashicorp Vault*  Secure centralized store for dynamic infrastructure and application across clusters. For low
 trust networks between clouds and data centers.
 
 == Bootstrapping the management hub
@@ -140,3 +139,6 @@ View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/spi-multi-cloud-gitops.drawio[[Open Diagrams]]
 --
+
+== Provide feedback on this architecture
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/spi-multi-cloud-gitops.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
