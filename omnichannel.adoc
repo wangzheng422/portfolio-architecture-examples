@@ -23,14 +23,12 @@ all the channels someone chooses to use.
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/omnichannel-marketing-slide.png[750,700]
 --
 
-== The technology
---
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/omnichannel-customer-experience-ld.png[750,700]
-
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/omnichannel-customer-experience-details-ld.png[750,700]
---
 
-* The following technology was chosen for this solution:
+
+== The technology
+
+The following technology was chosen for this solution:
 
 *Red Hat Integration* Manage APIs. Share, secure, distribute, control, and monetize
 APIs as connecting endpoint from Web UI, Mobile applications and third party. Frameworks and connectors to integrate
@@ -106,3 +104,6 @@ View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/omnichannel-customer-experience.drawio[[Open Diagrams]]
 --
+
+== Provide feedback on this architecture
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/omnichannel.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
