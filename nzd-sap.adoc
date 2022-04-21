@@ -6,7 +6,7 @@ Ricardo Garcia Cavero
 :source-highlighter: prettify
 :toc: left
 
-== Solution overview
+== Solution summary
 SAP workloads are critical to a company and the maintenance windows are often very strict, sometimes making it difficult for the system
 administrators to finish updates and maintenance tasks properly in time. This solution allows for application of OS patches, fixes,
 and system updates, as well as database patching and version updates, and SAP kernel updates. With this portfolio architecture implemented users can continue to work inside SAP, without noticing
