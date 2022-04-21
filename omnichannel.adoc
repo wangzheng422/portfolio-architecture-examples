@@ -7,6 +7,8 @@ Eric D. Schabell @eschabell
 :toc: left
 :toclevels: 5
 
+
+== Solution summary
 An omnichannel approach provides a unified customer experience across platforms, creating a single view for
 customers to interact with their own information.
 Red Hat provides a foundation for IT teams to develop and deliver omnichannel services through a combination
