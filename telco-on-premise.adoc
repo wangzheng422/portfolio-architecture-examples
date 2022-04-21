@@ -70,7 +70,7 @@ functions and 5G management functions)
 
 *Shared cluster platform services*
 
-**External services*
+*External services*
 
 *External network infrastructure*
 
