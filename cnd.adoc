@@ -6,6 +6,7 @@
 :source-highlighter: prettify
 :toc: left
 
+== Solution overview
 
 Red Hat empowers organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
 
