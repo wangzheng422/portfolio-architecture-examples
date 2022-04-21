@@ -5,8 +5,8 @@ Camry Fedei @cfedei
 :icons: font
 :source-highlighter: prettify
 :toc: left
-:toclevels: 5
 
+== Solution summary
 Modern application infrastructure has become more complex as it has become more powerful and easy to
 consume. Keeping infrastructure safe and compliant is a challenge for many organizations. One of the most powerful
 approaches to infrastructure management today is the combination of using historical data-driven insights and
@@ -20,24 +20,19 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 == Summary video
 video::JOT8If4F27k[youtube]
----
-== The technology
---
+
+
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/self-healing-ld.png[750, 700]
---
 
-*Data Center or Public Cloud*::
 
-*Smart Management* Securely manage any environment supported by Red Hat Enterprise Linux.
+== The technology
+
+*Smart Management* securely manages any environment supported by Red Hat Enterprise Linux.
 
 *Ansible* is used for adding a powerful layer of automation to a customer's environment, and can be leveraged as
 another means of distributing remediation throughout an estate.
 
-*Red Hat Hybrid Cloud*::
-
 *Red Hat Insights* services each perform their individual functions, and the customer can choose which services fit their specific needs. For example, Compliance will assess a systems status against a set of compliance rules, and Vulnerability assesses any security risks that may be currently active in the environment.
-
-
 
 == Self-Healing Infrastructure (network)
 --
@@ -83,3 +78,6 @@ View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/self-healing.drawio[[Open Diagrams]]
 --
+
+== Provide feedback 
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/self-healing.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
