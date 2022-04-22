@@ -1,0 +1,39 @@
+= Portfolio Architecture Infrastructure Collection
+Eric D. Schabell @eschabell
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+This is a collection of various architectures featuring infrastructure solutions.
+
+[cols="3,7"]
+|===
+|Title | Description
+
+|link:edge-cloud.adoc[Cloud to edge]
+|Providing a consistent infrastructure experience from cloud to edge and enabling modern containerized applications at edge.
+
+|link:datacenter-to-edge.adoc[Data center to edge]
+|Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
+
+|link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
+|Manage hybrid and multicloud cluster lifecycle, secure configuration and credentials. GitOps for Infrastructure as
+code approach. Cross cluster governance and application lifecycle management.
+
+|link:scada-interface.adoc[SCADA interface modernisation]
+|Provide interfaces with SCADA systems that are compliant with NERC regulations, creating different layers of API
+gateways to protect business service depending on the network zones.
+
+|link:telco-on-premise.adoc[Telco 5G core: on-premise]
+|Ultra-reliable, immersive experiences for people and objects when and where it matters most.
+
+|link:telco-5g-with-hyperscalers.adoc[Telco 5G with hyperscalers]
+|Build an adaptable, on-demand infrastructure services for 5G Core that can deliver across diverse use cases with
+minimal CAPEX and OPEX.
+
+|link:telco-radio-access-networks.adoc[Telco radio access networks]
+|The digital transformation of mobile networks  is accelerating and cloudification is increasing. Following the core
+network, radio access network (RAN) solutions are now taking advantage of the benefits of cloud computing.
+|===
+

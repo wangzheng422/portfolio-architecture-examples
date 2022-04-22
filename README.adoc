@@ -11,9 +11,32 @@ product portfolio. All architectural diagrams are created using the open source 
 *Logical* diagrams, more in-depth view of how the solution works in *Schematic* diagrams and closer looks at
 elements in *Detailed* diagrams.
 
-TIP: Learn how to use the draw.io tool to create portfolio architecture diagrams with https://gitlab.com/redhatdemocentral/portfolio-architecture-workshops[Portfolio Architecture Workshop]
+TIP: Learn hands-on how to https://gitlab.com/redhatdemocentral/portfolio-architecture-workshops[Design Your Best
+Architectural Diagrams]
 
-TIP: Learn how to develop your own blueprint project and add to this examples repository with https://redhatdemocentral.gitlab.io/portfolio-architecture-template[Beginners guide to deveoping an architecture blueprint]
+TIP: Try the workshop: https://redhatdemocentral.gitlab.io/portfolio-architecture-template[A Beginners Guide, How to
+Create a Portfolio Architecture in Just 4 Steps]
+
+== Portfolio Architecture Collections
+[cols="1,1,1,1,1,1,1"]
+
+|===
+|link:app-dev.adoc[Application development]
+|link:automation.adoc[Automation]
+|link:data-engineering.adoc[Data engineering]
+|link:edge.adoc[Edge]
+|link:finance.adoc[Finance]
+|link:healthcare.adoc[Healthcare]
+|link:infrastructure.adoc[Infrastructure]
+
+|link:manufacturing.adoc[Manufacturing]
+|link:retail.adoc[Retail]
+|link:telco.adoc[Telco]
+|link:utility.adoc[Utility]
+|
+|
+|
+|===
 
 == Portfolio Architecture project index
 [cols="3,7"]
