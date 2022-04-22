@@ -1,0 +1,40 @@
+= Portfolio Architecture Data Engineering Collection
+Eric D. Schabell @eschabell
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+This is a collection of various architectures featuring data engineering solutions.
+
+[cols="3,7"]
+|===
+|Title | Description
+
+|link:edge-cloud.adoc[Cloud to edge]
+|Providing a consistent infrastructure experience from cloud to edge and enabling modern containerized applications at edge.
+
+|link:datacenter-to-edge.adoc[Data center to edge]
+|Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
+
+|link:edge-manufacturing-efficency.adoc[Edge manufacturing efficiency]
+|Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
+
+|link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
+|Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
+
+|link:idaas.adoc[Intelligent data as a service (iDaaS)]
+|Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
+manner while driving data needs for moving towards consumerisation in healthcare.
+
+|link:payments.adoc[Payments]
+|Financial institutions enabling customers with fast, easy to use, and safe payment services available anytime, anywhere.
+
+|link:retaildataframework.adoc[Retail data framework]
+|Creating a framework for access to retail data from customers, stock, stores, and staff across multiple internal teams.
+
+|link:scada-interface.adoc[SCADA interface modernisation]
+|Provide interfaces with SCADA systems that are compliant with NERC regulations, creating different layers of API
+gateways to protect business service depending on the network zones.
+|===
+
