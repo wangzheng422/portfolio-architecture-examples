@@ -61,7 +61,7 @@ environment.
 Compute Deployment - The Openstack Platform is used to enable further computer nodes in deployed cloud environments.
 
 Software Proxy - Pulls all the images from the deployment head and ensures that only trusted images are being rolled
-out in the various cloud environments_ of choice.
+out in the various cloud environments of choice.
 
 *Cloud Environment*
 
@@ -92,6 +92,6 @@ View and download all of the diagrams above in our open source tooling site.
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/cloud-factory.drawio[Open Diagrams]
 --
 
-== Provide feedback on this architecture
+== Provide feedback 
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/cloud-factory.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
 
