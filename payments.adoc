@@ -7,15 +7,9 @@ Eric D. Schabell @eschabell, Ramon Villarreal @rvillarr
 :toc: left
 :toclevels: 5
 
-This architecture covers the use case around using payments architecture in the financial services domain. An offering
-of (near) real-time payments lets businesses, consumers, and even governments send and accept funds that provide both
-availability to the recipient and instant confirmation to the sender. Enabling real-time - or at least faster - payments
-that improve the speed of online payment experiences to customers has the potential to give banks a greater opportunity
-to win, serve, and retain their customers. By building solutions that capture real-time payment business, banks also
-can drive higher payment volumes, ideally at lower costs as well as engage new customer segments.
+This architecture covers the use case around using payments architecture in the financial services domain. An offering of (near) real-time payments allows businesses, consumers, and governments to send and accept funds that provide both availability to the recipient and instant confirmation to the sender. Enabling real-time payments improves the speed of the online payment experiences to customers and gives banks a greater opportunity to win, serve, and retain their customers. By building solutions that capture real-time payment business, banks also can drive higher payment volumes, ideally at lower costs as well as engage new customer segments.
 
-*Use case:* Financial institutions enabling customers with fast, easy to use, and safe payment services available
-anytime, anywhere.
+*Use case:* Financial institutions enabling customers with fast, easy to use, and safe payment services available anytime, anywhere.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/payments-marketing-slide.png[750,700]
@@ -26,30 +20,30 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/fsi-payments-ld.png[750,700]
 --
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
+*Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
 applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
 multiple modernization options to enable a smooth transition to the cloud for existing applications.
 
-** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
+*Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
 your APIs on an infrastructure platform built for performance, customer control, and future growth.
 
-** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
+*Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
 the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
 data with high throughput and low latency.
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+*Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
-** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+*Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
 quickly and efficiently across clouds.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
@@ -60,59 +54,32 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/fsi-payments-immediate-payments-data-sd.png[750,700]
 --
 
-The overview of immediate payments starts with a payment request through the front facing payments API, which is then
-validated, then used to trigger an event in the payments event stream. At this point we assume that all the checks
+The overview of immediate payments starts with a payment request through the front-facing payments API, which is then validated, then used to trigger an event in the payments event stream. At this point we assume that all the checks
 are triggered, which is not always the case, so that we can describe all of the detailed architectural elements in
 this diagram. From the events stream both anti-money laundering and fraud detection services are used to ensure this
-is a valid payment request and not something negligent. If they clear those checks, an event triggers the clearing
-of the payment to process it through those services before routing services are event triggered to send the final
-payment instructions ot the external payments network. The first diagram is of a network based architecture and the
-second focuses on the data flow.
+is a valid payment request and not something negligent. If they clear those checks, an event triggers the clearing of the payment to process it through those services before routing services are triggered to send the final payment instructions to the external payments network. The first diagram is of a network based architecture and the second focuses on the data flow.
 
 == Anti-money laundering (AML)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/fsi-payments-anti-money-laundering-sd.png[750,700]
 --
 
-This example zooms into the first diagram, looking at the anti-money laundering element in more detail. For this reason
-the payments API is left out of the diagram for focus on event streaming and the anti-money laundering activities in
-this architecture. We see that the events stream triggers the start of an anti-money laundering check, which is taking
-a look at the payment transaction to score it and add labels as needed. These are scoring and labelling decisions are
-based on the use of a AI/ML model that is shown in the bottom right being updated and trained using know your customer
-data maintained in external systems at a financial institution. Once the sorcing is done, rules are used to ensure that
-the payment is not transgressing any anti-money laundering rules. If it is a good payment request, that event is sent
-back to the event stream for processing through to payment as described in the previous diagrams. If bad intent
-is detected, an event is sent the to malicious activity streams element so that a case can be opened for further
-investigation and suspicious activity processes can be started to report the final outcomes.
+This example zooms into the first diagram, looking at the anti-money laundering element in more detail. For this reason the payments API is left out of the diagram to focus on event streaming and the anti-money laundering activities in this architecture. The events stream triggers the start of an anti-money laundering check, which is taking a look at the payment transaction to score it and add labels as needed. These scoring and labeling decisions are based on the use of an AI/ML model that is shown in the bottom right being updated and trained using know your customer data maintained in external systems at a financial institution. Once the sourcing is done, rules are used to ensure that the payment is not transgressing any anti-money laundering rules. If it is a good payment request, that event is sent back to the event stream for processing through to payment as described in the previous diagrams. If bad intent is detected, an event is sent to the malicious activity streams element so that a case can be opened for further investigation and suspicious activity processes can be started to report the final outcomes.
 
 == Fraud detection
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/fsi-payments-fraud-detection-sd.png[750,700]
 --
 
-This example zooms into the first diagram, looking at the fraud detection element in more detail. For this reason
-the payments API is left out of the diagram for focus on event streaming and the fraud detection activities in
-this architecture. We see that the events stream triggers the start of a fraud detection check, which is taking
-a look at the payment transaction to score it and add labels as needed. These are scoring and labelling decisions are
-based on the use of a AI/ML model that is shown in the bottom right being updated and trained using know your customer
-data maintained in external systems at a financial institution. Once the sorcing is done, rules are used to ensure that
-the payment is not transgressing any fraud rules. If it is a good payment request, that event is sent
-back to the event stream for processing through to payment as described in the previous diagrams. If potential fraud
-was detected, an event is sent the to malicious activity streams element so that a fraud prevention process starts. The
-eventual outcome of this process is delivered back to the event steams for processing only if the detection was
-determined to be wrong.
+This example zooms into the first diagram, looking at the fraud detection element in more detail. For this reason the payments API is left out of the diagram to focus on event streaming and the fraud detection activities in this architecture. We see that the events stream triggers the start of a fraud detection check, which is taking a look at the payment transaction to score it and add labels as needed. These scoring and labeling decisions are based on the use of an AI/ML model that is shown in the bottom right being updated and trained using know your customer data maintained in external systems at a financial institution. Once the sourcing is done, rules are used to ensure that the payment is not transgressing any fraud rules. If it is a good payment request, that event is sent back to the event stream for processing through to payment as described in the previous diagrams. If potential fraud was detected, an event is sent to the malicious activity streams element so that a fraud prevention process starts. The eventual outcome of this process is delivered back to the event streams for processing only if the detection was determined to be wrong.
 
 == Financial calculations
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/fsi-payments-calculations-sd.png[750,700]
 --
 
-The financial calculations diagram lays our an architecture that is in the payments realm, but more designed to
-determine the payment to be requested through a billing system of a customer. The request for calculating a payment
-comes into the architecture in the form of a message from the front facing API's. This message is processed through
-various message queues, first validation of the request, then processed through detailed calculations using rule
-services to determine the payment needed, through integration services connecting the organisation to their eventual
-billing systems to issue the payment invoice.
+The financial calculations diagram lays out an architecture that is in the payments realm, but more designed to determine the payment to be requested through a billing system of a customer. The request for calculating a payment
+comes into the architecture in the form of a message from the front facing API's. This message is processed through various message queues, first validation of the request, then processed through detailed calculations using rule services to determine the payment needed, through integration services connecting the organization to their eventual billing systems to issue the payment invoice.
 
 
 == Download diagrams
@@ -120,3 +87,6 @@ View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/fsi-payments.drawio[[Open Diagrams]]
 --
+
+== Provide feedback 
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/payments.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
