@@ -28,3 +28,18 @@ Business Automation Workflow (BAW) drives the claims flow. The domain knowledge 
 
 === Customer Info:
 TBD
+
+
+=== Solution Summary
+Insurance companies now increasingly depended on digital technology to provide customers with a satisfying and faster claim experience. As digitalization in the technology world accelerates, Insurance companies found themselves relying on old legacy system and processes, which drive up the cost and resource to maintain the redundant systems they accumulates throughout the years. To achieve the full benefits of digitalization requires real-time data access via open and secured interfaces. Introducing artificial intelligence and automation can reduce manual involvement that leads to smooth workload. Modernizing a legacy IT platform can be difficult. 
+
+This Portfolio Architecture, introducing the strangler pattern, it will utilized the existing core system, as well as slowing migrating service and process to the cloud. Automate the deployment process for developers and IT Teams. Introduce standard business automation software package that integrate between legacy and new cloud native services. Lastly it includes machine learning and artificial intelligence to streamline and accelerate the claims process, that improved operational efficiency and consistency of claim reviews. Reduced skills required by claims processing adjusters or Customer Service Representatives, automated fraud risk detection for reduction of processing costs, and a heightened customer engagement experience.
+
+
+
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/weimeilin/portfolio-architecture-examples/-/raw/IBM_Automation_Claim/workingdir/intelligent-auto-claim.drawio[[Open Diagrams]]
+--
