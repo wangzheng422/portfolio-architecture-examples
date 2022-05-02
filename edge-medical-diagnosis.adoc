@@ -11,7 +11,7 @@ Eric D. Schabell @eschabell
 This architecture covers the use case around Edge Medical Diagnosis in the healthcare industry. The solution provides a way to increase efficiency of a medical facility by reducing time spent on routine diagnosis and medical diagnosis of disease. This gives the medical expert time to focus on the difficult cases.
 
 
-*Use case:* Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
+*Use case:* Accelerating medical diagnosis using condition detection in medical imagery with AI/ML in Edge computing at medical facilities.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-medical-diagnosis-marketing-slide.png[750,700]
