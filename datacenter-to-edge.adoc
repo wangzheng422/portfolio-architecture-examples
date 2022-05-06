@@ -23,29 +23,29 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/datacenter-to-edge-ld.png[750,700]
 --
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-** *Red Hat Application Services* helps organizations use the cloud delivery model and simplify continuous delivery of
+*Red Hat Application Services* helps organizations use the cloud delivery model and simplify continuous delivery of
 applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
 multiple modernization options to enable a smooth transition to the cloud for existing applications.
 
-** *Red Hat AMQ Streams* data streaming platform with high throughput and low latency. Streams sensor data to corresponding microservices to automated diagnosis.
+*Red Hat AMQ Streams* data streaming platform with high throughput and low latency. Streams sensor data to corresponding microservices to automated diagnosis.
 
-** *Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
+*Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
 built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
 enforcing policies across multiple clusters at scale.
 
-** *Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your
+*Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your
 images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
 
-** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+*Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
 quickly and efficiently across clouds.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
@@ -72,3 +72,7 @@ View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/datacenter-to-edge.drawio[[Open Diagrams]]
 --
+
+== Provide feedback 
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/datacenter-to-edge.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+
