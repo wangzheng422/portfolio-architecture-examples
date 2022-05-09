@@ -29,43 +29,49 @@ https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/rem
 
 == The technology
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/rsm-ld.png[350, 300]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/rsm-ld.png[750, 700]
 --
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
+*Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
 The platform includes all the tools needed to implement enterprise-wide automation.
 
-** *Red Hat Insights* continuously analyzes platforms and applications to predict risk, recommend actions, and track
+*Red Hat Insights* continuously analyzes platforms and applications to predict risk, recommend actions, and track
 costs so enterprises can better manage hybrid cloud environments.
 
-** *Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
+*Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
 ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
 Linux, from physical machines to hybrid multiclouds.
 
-** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+*Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
 quickly and efficiently across clouds.
 
-** *Red Hat Satellite* is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
+*Red Hat Satellite* is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
 environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
 
-** *Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your
+*Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your
 images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
-== Remote server management
+== Remote Server Management
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-network-sd.png[750, 700]
 
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-data-sd.png[750, 700]
 --
 
-*TODO:* add description...
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/remote-server-management.drawio[[Open Diagrams]]
+
+== Provide feedback 
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/remote-management.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
