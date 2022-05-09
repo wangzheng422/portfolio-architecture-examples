@@ -25,57 +25,55 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/integrating-with-saas-applications-details-ld.png[750,700]
 --
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
+*Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
 applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
 multiple modernization options to enable a smooth transition to the cloud for existing applications.
 
-** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
+*Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
 your APIs on an infrastructure platform built for performance, customer control, and future growth.
 
-** *Red Hat Business Automation* is an application development platform that enables developers and business experts to
+*Red Hat Business Automation* is an application development platform that enables developers and business experts to
 create cloud-native applications that automate business operations.
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+*Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments.
+virtual, container, and all many of cloud environments.
 
 == External CRM integration
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/saas-external-crm-integration-sd.png[750,700]
 --
 
-The external request enters through some form of an API gateway that is backed by front end microservices used to
-access the process services. The request triggers process activity that needs to use integration microservices to
-communicate with an external SaaS CRM offering. The SSO for authentication and authorisation is added to show the
-ability to connect to existing organisational directory services.
+The external request enters through an API gateway that is backed by front end microservices used to
+access the process services. The request triggers process activity uses integration microservices to
+communicate with an external SaaS CRM offering. The SSO for authentication and authorization is added to show the
+ability to connect to existing organizational directory services.
 
 == External CRM integration connector
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/saas-external-crm-connector-sd.png[750,700]
 --
 
-The external request enters through some form of an API gateway that is backed by front end microservices used to
-access the process services. The request triggers process activity that needs to use integration microservices to
-with leverage a specialized connector to communicate with an external SaaS CRM offering. The SSO for authentication
-and authorisation is added to show the ability to connect to existing organisational directory services.
+The external request enters through an API gateway that is backed by front end microservices used to
+access the process services. The request triggers process activity that uses integration microservices to
+leverage a specialized connector to communicate with an external SaaS CRM offering. The SSO for authentication
+and authorization is added to show the ability to connect to existing organisational directory services.
 
 == Integration third-party platform
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/saas-integration-3rd-party-platform-sd.png[750,700]
 --
 
-The external request enters through some form of an API gateway that is backed by front end microservices used to
-access the backend systems. The request triggers the use of integration microservices to communicate with an external
-SaaS platforms services. The SSO for authentication and authorisation is added to show the ability to connect to
-existing organisational directory services.
+The external request enters through an API gateway that is backed by front end microservices used to
+access the backend systems. The request triggers the use of integration microservices to communicate with an external SaaS platforms services. The SSO for authentication and authorization is added to show the ability to connect to existing organizational directory services.
 
 
 == Integration third-party platform process
@@ -83,14 +81,14 @@ existing organisational directory services.
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/saas-integration-3rd-party-process-sd.png[750,700]
 --
 
-The external request enters through some form of an API gateway that is backed by front end microservices used to
-access the process services. The request triggers process activity that needs to use integration microservices to
-communicate with an external SaaS platforms services. It's essential that the integration services can work in both
-directions offering the SaaS platforms services the ability to trigger process activity as needed. The SSO for
-authentication and authorisation is added to show the ability to connect to existing organisational directory services.
+The external request enters through an API gateway that is backed by front end microservices used to
+access the process services. The request triggers process activity that needs to use integration microservices to communicate with an external SaaS platforms services. It's essential that the integration services can work in both directions offering the SaaS platforms services the ability to trigger process activity as needed. The SSO for authentication and authorization is added to show the ability to connect to existing organizational directory services.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/integrate-saas-applications.drawio[[Open Diagrams]]
 --
+
+== Provide feedback 
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/integrated-saas.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
