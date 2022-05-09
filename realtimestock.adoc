@@ -35,7 +35,7 @@ The following technology was chosen for this solution:
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
-== Real-time stock control example
+== Real-Time Stock Control example
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-stock-control-sd.png[750, 700]
 --
