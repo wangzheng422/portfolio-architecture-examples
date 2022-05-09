@@ -19,11 +19,12 @@ platform.
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/headless-ecommerce-marketing-slide.png[750,700]
 --
 
-== The technology
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-headless-ecommerce-ld.png[750, 700]
 --
 
+== The technology
 The following technology was chosen for this solution:
 
 *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
