@@ -16,15 +16,10 @@ run scalable applications in modern, dynamic environments such as public, privat
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/saas-integration-marketing-slide.png[750,700]
---
-
-== The technology
---
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/integrating-with-saas-applications-ld.png[750,700]
 
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/integrating-with-saas-applications-details-ld.png[750,700]
 --
-
+== The technology
 The following technology was chosen for this solution:
 
 *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
