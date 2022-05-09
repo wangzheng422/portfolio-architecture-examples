@@ -56,7 +56,7 @@ software-defined storage on your choice of industry-standard hardware.
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
-== Headless e-commerce local development
+== Headless E-commerce local development
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-headless-ecommerce-local-sd.png[750, 700]
 --
@@ -68,7 +68,7 @@ element in the dev infrastructure. The SCM repository represents the connection 
 
 The test environment is used to roll out the entire headless e-commerce suite of services, web application, and messaging. These are tied to external integration services and the testing web application. The process continues on through more environments until the organization is satisfied to push to production.
 
-== Headless e-commerce remote development
+== Headless E-commerce remote development
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-headless-ecommerce-remote-sd.png[750, 700]
 --
