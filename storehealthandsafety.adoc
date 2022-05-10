@@ -18,47 +18,40 @@ small number of wholesale, corporate or government clientele.
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/store-health-safety-marketing-slide.png[750,700]
 --
 
-== The technology
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-store-safety-ld.png[750, 700]
 --
 
-* The following technology was chosen for this solution:
+== The technology
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+The following technology was chosen for this solution:
+
+*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+*Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
-** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
+*Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
 your APIs on an infrastructure platform built for performance, customer control, and future growth.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
-== Example store health and safety
+== Store Health and Safety Example
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-store-safety-sd.png[750, 700]
 
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-store-safety-data-sd.png[750, 700]
 --
 
-The retail store and health safety is a case of capturing compliancy and processes for a broad range of store locations
-across the organisation. It requires input from suppliers, customers, store associates, and vendors that can be both
-internal and external to the stores themselves. Access via applications, web front ends, and devices uses API
-management to access the store processes. Triggering a process often triggers some sub-set of the health and safety
-processes that lean on the local store rules and helath and safety rules for determining actions needed. Should
-processes require human task intervention, then the API management provides the external parties access to complete
-their tasks. Processes might need to take action in the direction of health and safety suppliers, for example, ordering
-new fire extinguishers or safety equipment using the supplier microservices. Actions taken towards external backend
-systems can be local to the store, internal to the organisation but remote to the store, or to some remote third-party
-system using integration microservices. Finally, data for the retail organisation uses data integration microservices
-to access the link:retaildataframework.adoc[retail data framework architecture].
+The retail store and health safety is a case of capturing compliancy and processes for a broad range of store locations across the organization. It requires input from suppliers, customers, store associates, and vendors that can be both internal and external to the stores themselves. Access via applications, web front ends, and devices uses API management to access the store processes. Triggering a process often triggers a subset of the health and safety processes that lean on the local store rules and health and safety rules for determining actions needed. Should processes require human task intervention, then the API management provides the external parties access to complete their tasks. Processes might need to take action toward health and safety suppliers, for example, ordering new fire extinguishers or safety equipment using the supplier microservices. Actions taken towards external backend systems can be local to the store, internal to the organization but remote to the store, or to some remote third-party system using integration microservices.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/retail-store-health-and-safety.drawio[[Open Diagrams]]
 --
+== Provide feedback 
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/storehealthandsafety.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
