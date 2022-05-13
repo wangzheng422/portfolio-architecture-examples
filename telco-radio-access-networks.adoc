@@ -10,62 +10,52 @@
 :toclevels: 5
 
 
-5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge:
+5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge including enhanced mobile broadband (eMBB), Ultra-reliable low lantency communication(uRLLC), and massive machine type communications (mMTC).
 
-* Enhanced mobile broadband (eMBB)
-** 5G enhances data speeds and experiences with new radio capabilities like mmWave frequency spectrum for higher
-bandwidth allocation and theoretical throughput up to 20Gbps.
-* Ultra-reliable, low-latency communication (uRLLC)
-** 5G supports vertical industry requirements, including sub-millisecond latency with
-less than 1 lost packet in 105 packets.
-* Massive machine type communications (mMTC)
-** 5G supports cost-efficient and robust connection for up to 1 million mMTC, NB-IOT, and LTE-M devices per square
-kilometer without network overloading.
-
-*Use case:* The digital transformation of mobile networks  is accelerating and cloudification is increasing. Following
-the core network, radio access network (RAN) solutions are now taking advantage of the benefits of cloud computing.
+*Use case:* The digital transformation of mobile networks is accelerating and cloudification is increasing. Following the core network, radio access network (RAN) solutions are now taking advantage of the benefits of cloud computing.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-ran-marketing-slide.png[750,700]
 --
 
-== The technology
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-ran-ld.png[750, 700]
 --
+== The technology
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
+*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
 provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
+*Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
 the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
 data with high throughput and low latency.
 
-** *Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
+*Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
 ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
 Linux, from physical machines to hybrid multiclouds.
 
-** *Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
+*Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
 built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
 enforcing policies across multiple clusters at scale.
 
-** *Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your
+*Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your
 images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
 
-** *Red Hat Identity Management* provides a centralized and unified way to manage identity stores, authentication,
+*Red Hat Identity Management* provides a centralized and unified way to manage identity stores, authentication,
 policies, and authorization policies in a Linux-based domain.
 
-** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+*Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
 quickly and efficiently across clouds.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
-== Telco 5G radio access networks
+== Telco 5G Radio Access Networks
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-sd.png[750, 700]
 
@@ -81,3 +71,6 @@ View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb-v25.drawio[[Open Diagrams]]
 --
+
+== Provide feedback 
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/telco-radio-access-networks.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
