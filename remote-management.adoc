@@ -18,19 +18,10 @@ management, security, and  data protection for full lifecycle.
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/rsm-marketing-slide.png[750,700]
 --
 
-Open the diagrams below directly in the diagram tooling using 'Load Diagram' link. To download the project file for
-these diagrams use the 'Download Diagram' link. The images below can be used to browse the available diagrams and can
-be embedded into your content.
-
---
-https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/remote-server-management.drawio[[Load Diagram]]
-https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/remote-server-management.drawio?inline=false[[Download Diagram]]
---
-
-== The technology
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/rsm-ld.png[750, 700]
 --
+== The technology
 
 The following technology was chosen for this solution:
 
@@ -72,6 +63,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/remote-server-management.drawio[[Open Diagrams]]
+
 
 == Provide feedback 
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/remote-management.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
