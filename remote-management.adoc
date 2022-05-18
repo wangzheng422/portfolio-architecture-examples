@@ -55,7 +55,26 @@ virtual, container, and all types of cloud environments.
 == Remote Server Management
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-network-sd.png[750, 700]
+--
 
+This overview looks at Remote Server Managment, providing the solution details and the elements described above in both a
+network and data centric view:
+
+The architecture is designed to automate the deployment and managment of servers no matter their location in your chosen cloud
+architecture. The core data center is where an organizations images are built (where the application source code are in a
+source code management system (SCM)) and deployed to the image store found in the core data center.
+
+Infrastructure management uses automation orchestration together with smart management to automate the delivery of images to the
+desired cloud infrastructure destinations (physical data center, private cloud, or public cloud). There the OpenShift platform 
+ensures the images are deployed for use. Note that this diagram also features edge or remote deployments, ensuring through the use
+of automation orchestration that the edge applications and edge devices are managed alongside the rest of the cloud infrastructure.
+
+Cloud services from Red Hat provide centralized automation analytics, insights into the core services across the deployed cloud
+architecture, and management insights used to maintain the catalog of activites used in automating the management of all remote
+infrastructure.
+
+== Remote Server Management data view
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-data-sd.png[750, 700]
 --
 
