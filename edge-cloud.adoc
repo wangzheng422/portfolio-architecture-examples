@@ -1,5 +1,5 @@
-= Cloud to edge
- Ishu Verma  @ishuverma, Francesco Rossi
+= Cloudlets at edge
+ Ishu Verma  @ishuverma, Anoel Yakoubov
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
@@ -8,40 +8,65 @@
 :toclevels: 5
 
 This architecture covers the use case of providing a consistent infrastructure experience from cloud to edge and
-enabling modern containerized applications at edge.
+enabling modern containerized applications at edge. The edge sites could be fixed or mobile and need to continue to operate even when disconnected from core data center. This architecture is applicable across a number of verticals including public sector, transportation, defense etc.
 
 *Use case:* Bringing cloud like capabilities to the edge locations.
 
-*TODO:* Add marketecture image...
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-cloudlet-marketing-slide.png[750,700]
 
-== The technology
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/edge-cloud-ld.png[750,700]
 --
 
-*TODO:* Add description...
+edge-cloudlet-marketing-slide
 
-== Cloud to edge network
---
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-cloud-network-sd.png[750,700]
---
-
-*TODO:* Add description...
+== The technology
 
 
-== Cloud to edge GitOps network
+The following technology was chosen for this solution:
+
+
+Red Hat OpenShift is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
+Red Hat Advanced Cluster Management for Kubernetes controls clusters and applications from a single console, with
+built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
+enforcing policies across multiple clusters at scale.
+
+
+Red Hat Quay is a private container registry that stores, builds, and deploys container images. It analyzes your
+images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
+
+
+
+
+Red Hat Enterprise Linux is the world’s leading enterprise Linux platform. It’s an open source operating system
+(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+virtual, container, and all types of cloud environments.
+
+
+== Cloudlets at edge GitOps (network)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-cloud-gitops-network-sd.png[750,700]
 --
 
 *TODO:* Add description...
 
-== Cloud to edge GitOps data
+
+*TODO:* Add description...
+
+== Cloudlets at edge GitOps (data)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-cloud-gitops-sd.png[750,700]
 --
 
 *TODO:* Add description...
+
+== Cloudlets at edge cluster management
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-cloud-gitops-mgmt-data-sd.png[750,700]
+--
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
