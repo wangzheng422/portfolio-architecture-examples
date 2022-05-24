@@ -97,9 +97,11 @@ playbook for it to be done in the former primary node of the cluster.
 After the intervention has been finished we can revert to the initial configuration of primary and secondary nodes 
 of the cluster or keep the current one.
 
-== Download diagrams
-https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/nzd-sap.drawio[View and download all of the diagrams above in our open source tooling site.]
-
+== Download solution diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/nzd-sap.drawio[[Open Diagrams]]
+--
 
 == Provide feedback 
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/nzd-sap.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
