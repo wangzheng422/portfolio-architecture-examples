@@ -36,6 +36,9 @@ applications in modern, dynamic environments such as public, private, and hybrid
 |Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
 manner while driving data needs for moving towards consumerisation in healthcare.
 
+|link:intelligent-automation-workflow-for-claims.adoc[Intelligent Automation Workflow for Claims]
+|TODO: description...
+
 |link:data-synthesis.adoc[Modernising testing with data synthesis]
 |Modernising testing with data synthesis is a testing innovation with focus around enabling massive amounts of data to
 be available for both business users and developers in a secure and scalable manner.
