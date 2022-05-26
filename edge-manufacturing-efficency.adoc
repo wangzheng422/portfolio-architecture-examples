@@ -1,4 +1,4 @@
-= Edge Manufacturing Efficiency
+= Industrial Edge
 Ishu Verma  @ishuverma, William Henry @ipbabble,
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
@@ -7,7 +7,7 @@ Ishu Verma  @ishuverma, William Henry @ipbabble,
 :toc: left
 :toclevels: 5
 
-This architecture covers edge manufacturing efficiency. The manufacturing industry has consistently used technology to
+This architecture covers industrial edge that's applicable across a number of verticals including manufacturing. The manufacturing industry has consistently used technology to
 fuel innovation, production optimization and operations. Now, with the combination of edge computing and AI/ML,
 manufacturers can benefit from bringing processing power closer to data. This helps actions be taken faster on things
 like errors and predictive maintenance.
@@ -52,7 +52,7 @@ virtual, container, and all types of cloud environments.
 
 == Edge manufacturing with messaging and ML
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-devops-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-devops-data-sd.png[750, 700]
 --
 Data coming from sensors is transmitted over MQTT to Red Hat AMQ, which routes sensor data for two purposes: model
 development in the core data center and live inference in the factory data centers. The data is then relayed on to Red
@@ -70,6 +70,12 @@ an image build of the model using OpenShift Pipelines (Tekton).
 
 The model image is pushed into the integrated registry of OpenShift running in the core data center which is pushed
 back down to the factory data center for use in inference.
+
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-devops-network-sd.png[750, 700]
+--
+In order to protect the factories and operations infrastructure from cyber attacks, the operations network needs to be segregated from the enterprise IT network and public internet.
+The factory machinery, controllers and devices need to be further segregated from the factory data center and need to be protected behind a firewall.
 
 == Edge manufacturing with GitOps
 --
