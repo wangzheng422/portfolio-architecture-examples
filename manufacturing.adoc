@@ -1,6 +1,6 @@
 = Portfolio Architecture Manufacturing Colection
  Ishu Verma  @ishuverma
-:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify

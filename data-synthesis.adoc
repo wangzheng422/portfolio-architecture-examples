@@ -1,6 +1,6 @@
 = Modernising Testing with Data Synthesis
 Eric D. Schabell @eschabell
-:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
@@ -14,13 +14,18 @@ business users and developers needs in a secure and scalable manner.
 of data to be available for both business users and developers in a secure and scalable manner.
 
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/data-synthesis-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/data-synthesis-marketing-slide.png[750,700]
 --
 
 == The technology
 --
+<<<<<<< HEAD
 *TODO:* add logical diagram
 //image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/data-sythesis-ld.png[350, 300]
+=======
+*TODO:* add marketecture
+//image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/data-sythesis-ld.png[350, 300]
+>>>>>>> 3b62abe46caaf0f2f321b4c954605529e8c3e7e8
 --
 
 * The following technology was chosen for this solution:
@@ -41,17 +46,21 @@ image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw
 
 == TODO: add schematic diagrams
 //--
-//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/data-sythesis-sd.png[350, 300]
-//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-data-sd.png[350, 300]
-//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
-//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
-//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-knowledge-insight-sd.png[350, 300]
-//image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-knowledge-insight-data-sd.png[350, 300]
+//image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/data-sythesis-sd.png[350, 300]
+//image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-data-sd.png[350, 300]
+//image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-connect-hl7-fhir-sd.png[350, 300]
+//image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-connect-hl7-fhir-data-sd.png[350, 300]
+//image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-knowledge-insight-sd.png[350, 300]
+//image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-knowledge-insight-data-sd.png[350, 300]
 //--
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
+<<<<<<< HEAD
 TODO: add diagam files
 //https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/data-synthesis.drawio[[Open Diagrams]]
+=======
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/data-synthesis.drawio[[Open Diagrams]]
+>>>>>>> 3b62abe46caaf0f2f321b4c954605529e8c3e7e8
 --

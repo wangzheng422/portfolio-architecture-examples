@@ -1,6 +1,10 @@
 = Portfolio Architecture Data Engineering Collection
 Eric D. Schabell @eschabell
+<<<<<<< HEAD
 :homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+=======
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
+>>>>>>> 3b62abe46caaf0f2f321b4c954605529e8c3e7e8
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify

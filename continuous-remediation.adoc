@@ -1,6 +1,6 @@
 = Continuous Remediation
 William Henry @ipbabble
-:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
@@ -15,9 +15,9 @@ or thousands of hosts in a targeted and prioritized manner.
 *Use case:* Managing security, policy and patches for a large number of servers in data centers or public/private clouds.
 
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/remediation-ld.png[350, 300]
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/remediation-network-sd.png[350, 300]
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/remediation-dataflow-sd.png[350, 300]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/remediation-ld.png[350, 300]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/remediation-network-sd.png[350, 300]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/remediation-dataflow-sd.png[350, 300]
 image:detail-diagrams/remediation-detail-smartmanagement.png[250, 200]
 image:detail-diagrams/remediation-detail-automationorchestration.png[250, 200]
 --
@@ -26,5 +26,5 @@ image:detail-diagrams/remediation-detail-automationorchestration.png[250, 200]
 View and download all of the diagrams above in our open source tooling site.
 
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/remediation.drawio[[Open Diagrams]]
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/remediation.drawio[[Open Diagrams]]
 --

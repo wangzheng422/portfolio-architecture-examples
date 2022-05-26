@@ -1,63 +1,63 @@
 = Hybrid Multicloud management with GitOps
 Christia Lin @christina_wm
-:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
 :toc: left
-:toclevels: 5
 
-This architecture covers hybrid and multicloud management with GitOps. The customer was looking for a stabilize and
-simplify container platform that was secure and supports a hybrid environment and being able to run on multiple cloud
-solution for its developers and engineers. With automated infrastructure as code approach that manages the versioning
-and being able to deploy according to the configuration.
+== Solution summary
+This architecture covers hybrid and multicloud management with GitOps. The solution incorporates a stabilized and
+simplified container platform that secures and supports a hybrid environment
+across multiple cloud solutions. The automated infrastructure as code approach can manage the versioning and deploy according to the
+configuration.
+
 
 *Use case:* Manage hybrid and multicloud cluster lifecycle, secure configuration and credentials. GitOps for
 infrastructure as code approach. Cross cluster governance and application lifecycle management.
 
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/hybrid-multicloud-management-gitops-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/hybrid-multicloud-management-gitops-marketing-slide.png[750,700]
 --
+
+
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/spi-multi-cloud-gitops-ld-public.png[750, 750]
+
 
 == The technology
---
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/spi-multi-cloud-gitops-ld-simple.png[750, 700]
 
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/spi-multi-cloud-gitops-ld-public.png[750, 750]
---
+In the case study, customers have chosen the listed technologies for following reasons:
 
-* In the case study, customers have chosen several the following technologies and the reason why: 
-
-** *Red Hat OpenShift Platform* Instead of directly using and learning the offering from all vendors, or even learning
+*Red Hat OpenShift Platform* Instead of directly using and learning the offering from all vendors, or even learning
 the subtle differences between the Kubernetes offering, using a platform offering sits on top across data centers,
 private and public cloud will provide a unified way to deploy, monitor, and automate all the clusters.
 
-** *OpenShift GitOps*  Automate delivery through DevOps practices across multicluster OpenShift and Kubernetes
+*OpenShift GitOps*  Automate delivery through DevOps practices across multicluster OpenShift and Kubernetes
 infrastructure, with the choice of either automatically or manually synchronizing the deployment of clusters according
 to what’s in the repository.
 
-** *Core Monitoring*  OpenShift has a pre-configured, pre-installed, and self-updating monitoring stack that provides
+*Core Monitoring*  OpenShift has a pre-configured, pre-installed, and self-updating monitoring stack that provides
 monitoring for core platform components. On top of that, we can also define monitoring for user-defined projects as
 well.
 
-** *Grafana Loki*  Horizontally scalable and better log aggregation system, and more cost-effective and easy to operate
+*Grafana Loki*  Horizontally scalable and better log aggregation system, and more cost-effective and easy to operate
 especially in a multi-cluster environment.
 
-** *External Secret*  Enable use of external secret management systems (like HashiCorp Vault in this case) to securely
+*External Secret*  Enable use of external secret management systems (like HashiCorp Vault in this case) to securely
 add secrets into the OpenShift platform.
 
-** *Red Hat Advanced Cluster Management for Kubernetes*  Controls clusters and applications from a single unified
+*Red Hat Advanced Cluster Management for Kubernetes*  Controls clusters and applications from a single unified
 management hub console, with built-in security policies, provisioning cluster, and application lifecycles. Especially
 important when it comes to managing on top of multi-clouds.
 
-** *Red Hat Ansible Automation*  Used to automate the configuration and installation of the management hub.
+*Red Hat Ansible Automation*  Used to automate the configuration and installation of the management hub.
 
-** *Hashicorp Vault*  Secure centralized store for dynamic infrastructure and application across clusters. For low
+*Hashicorp Vault*  Secure centralized store for dynamic infrastructure and application across clusters. For low
 trust networks between clouds and data centers.
 
 == Bootstrapping the management hub
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-install.png[750, 750]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-install.png[750, 750]
 --
 
 . Set up the Red Hat OpenShift Platform (OpenShift) that hosts the Management Hub. By using the OpenShift installation
@@ -75,7 +75,7 @@ the Openshift Gitops instance for continuous delivery.
 
 == Hybrid multicloud GitOps
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-security.png[750, 750]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-security.png[750, 750]
 --
 
 . Manifest and configuration are set as code template in the form of “Kustomization” yaml. It describes the end desire
@@ -97,7 +97,7 @@ manifest (Or showing alerts for manual intervention).
 
 == Dynamic security management
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-gitops.png[750, 750]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-gitops.png[750, 750]
 --
 
 . During setup, the token to securely access HashiCorp Vault is stored in Ansible Vault. It is encrypted to protect
@@ -116,7 +116,7 @@ watches for updates.
 
 == Observability in hybrid multicloud environment
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[750, 750]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[750, 750]
 --
 
 . Queries from the Grafana dashboard in Hub cluster, the central Querier component in Observatorium process the PromQL
@@ -138,5 +138,8 @@ things to beware of: both ingester and querier require large memory consumption,
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/spi-multi-cloud-gitops.drawio[[Open Diagrams]]
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/spi-multi-cloud-gitops.drawio[[Open Diagrams]]
 --
+
+== Provide feedback on this architecture
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/spi-multi-cloud-gitops.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].

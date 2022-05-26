@@ -1,6 +1,6 @@
 = Point of Sale
 Eric D. Schabell @eschabell, Iain Boyle @iainboy
-:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
@@ -16,40 +16,41 @@ system is the hardware and software that enables your business to make those sal
 for container based applications.
 
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/pos-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/pos-marketing-slide.png[750,700]
 --
+
+
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-pos-ld.png[750, 700]
+
 
 == The technology
---
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-pos-ld.png[750, 700]
---
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
+*Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
 The platform includes all the tools needed to implement enterprise-wide automation.
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+*Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
-** *Red Hat Satellite* is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
+*Red Hat Satellite* is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
 environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
 
-** *Red Hat Ceph Storage* is an open, massively scalable, simplified storage solution for modern data pipelines.
+*Red Hat Ceph Storage* is an open, massively scalable, simplified storage solution for modern data pipelines.
 Engineered for data analytics, artificial intelligence/machine learning (AI/ML), and emerging workloads, it delivers
 software-defined storage on your choice of industry-standard hardware.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
 
 == Point of sale image delivery
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-pos-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-pos-sd.png[750, 700]
 --
 
 The above diagram demonstrates a solution to deliver images of point of sale devices and store applications across
@@ -60,7 +61,7 @@ business.
 The SKU Catalog is maintained with available items for sale in the running inventory. The sales data cache is where
 all sales activities are collected and held for sharing to the retail organization. Point of sale is an onsite
 application and is the main focus of providing an end point application image pipeline for use throughout the retail
-organisation.
+organization.
 
 The store server is a part of the infrastructure that hosts the elements needed to facilitate on site point of sale
 image pipelines and the daily management of communication, sales data, and stock control information. The SKU Catalog
@@ -70,5 +71,8 @@ collection of point of sale images.
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
-https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/index.html?#/portfolio-architecture-examples/projects/retail-pos.drawio[[Open Diagrams]]
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/retail-pos.drawio[[Open Diagrams]]
 --
+
+== Provide feedback 
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/pointofsale.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
