@@ -1,10 +1,6 @@
 = Portfolio Architecture Application Development Collection
 Eric D. Schabell @eschabell
-<<<<<<< HEAD
-:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
-=======
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
->>>>>>> 3b62abe46caaf0f2f321b4c954605529e8c3e7e8
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
@@ -14,6 +10,9 @@ This is a collection of various architectures featuring application development 
 [cols="3,7"]
 |===
 |Title | Description
+
+|link:api-management-platform-for-sap.adoc[API management platform for SAP]
+|TODO: description...
 
 |link:businessoptimization.adoc[Business optimisation]
 |Optimizing delivery routing, automating rostering of staff, and improving efficiency of tasks across multiple stores.
@@ -40,12 +39,9 @@ applications in modern, dynamic environments such as public, private, and hybrid
 |Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
 manner while driving data needs for moving towards consumerisation in healthcare.
 
-<<<<<<< HEAD
-=======
 |link:intelligent-automation-workflow-for-claims.adoc[Intelligent automation workflow for claims]
 |TODO: description...
 
->>>>>>> 3b62abe46caaf0f2f321b4c954605529e8c3e7e8
 |link:data-synthesis.adoc[Modernising testing with data synthesis]
 |Modernising testing with data synthesis is a testing innovation with focus around enabling massive amounts of data to
 be available for both business users and developers in a secure and scalable manner.
