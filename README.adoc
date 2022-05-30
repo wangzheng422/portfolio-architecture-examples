@@ -75,6 +75,9 @@ resilient, semi-autonomous applications.
 |link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
 |Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
 
+|link:event-driven-automation.adoc[Event driven automation]
+|TODO: description...
+
 |link:finance.adoc[Finance]
 |This is a *collection of various architectures* in the financial services domain. Financial services institutions
 understand that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere,
