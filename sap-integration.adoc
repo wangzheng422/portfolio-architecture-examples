@@ -12,7 +12,7 @@ This architecture covers API management platform for SAP. Typically SAP systems 
 *Use case:* Integrate SAP and non-SAP applications seamlessly with an API first approach, adopting cloud native and microservices development patterns for new applications and stop developing inside SAP so that a basic core is kept, which dramatically speeds up and simplifies the upgrades.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/api-platform-for-SAP-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/api-platform-for-sap-marketing-slide.png[750,700]
 --
 
 == The technology
@@ -39,13 +39,13 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 == Retrieve data from SAP use case
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/sap-integration/images/schematic-diagrams/sap-integration-retrieve-data.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-retrieve-data.png[750, 700]
 --
 
 
 == Utilize cached data from SAP for BI use case
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/sap-integration/images/schematic-diagrams/sap-integration-cached-data.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-cached-data.png[750, 700]
 --
 
 == Download diagrams
