@@ -13,7 +13,7 @@ enabling modern containerized applications at edge. The edge sites could be fixe
 *Use case:* Bringing cloud like capabilities to the edge locations.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloudlets-at-edge--marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloudlets-at-edge-marketing-slide.png[750,700]
 --
 
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloudlets-at-edge-ld.png[750,700]
