@@ -69,7 +69,7 @@ than SAP HANA (Oracle, DB2, Sybase, SQL Server, MaxDB)
 
 == API management platform for SAP data flow overview
 --
-image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-smart-management-data-sd.png[750, 700]
+image:https://gitlab.com/redhatdemocentral/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-invoke-data.png[750, 700]
 --
 All the SAP hosts (DB and application) are sending information about their configuration and status to the Smart
 Management server The Smart Management server sends anonymized information about the SAP hosts to the Insights Service
