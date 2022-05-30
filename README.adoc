@@ -80,6 +80,9 @@ resilient, semi-autonomous applications.
 understand that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere,
 and are therefore accelerating adoption of digital technologies to enable a variety of new offerings.
 
+|link:guide-self-service-streaming.adoc[Guide to self-service streaming]
+|TODO: description...
+
 |link:headlessecommerce.adoc[Headless e-commerce]
 |Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce platform.
 
