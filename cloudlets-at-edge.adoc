@@ -13,10 +13,10 @@ enabling modern containerized applications at edge. The edge sites could be fixe
 *Use case:* Bringing cloud like capabilities to the edge locations.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-cloudlet-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloudlets-at-edge--marketing-slide.png[750,700]
 --
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/edge-cloud-ld.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloudlets-at-edge-ld.png[750,700]
 
 
 == The technology
@@ -41,7 +41,7 @@ virtual, container, and all types of cloud environments.
 
 == Cloudlets at edge GitOps (network)
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-cloud-gitops-network-sd.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloudlets-gitops-network-sd.png[750,700]
 --
 
 *TODO:* Add description...
@@ -49,7 +49,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 == Cloudlets at edge GitOps (data)
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-cloud-gitops-sd.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloudlets-gitops-sd.png[750,700]
 --
 
 *TODO:* Add description...
@@ -57,12 +57,11 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 == Cloudlets at edge cluster management
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-cloud-mgmt-data-sd.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloudlets-mgmt-data-sd.png[750,700]
 --
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/cloudlets-at-edge.drawio[[Open Diagrams]]
-
 --
