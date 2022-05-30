@@ -8,9 +8,9 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toclevels: 5
 
 Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
-earn a profit. Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied
-where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
-small number of wholesale, corporate or government clientele.
+earn a profit. A point of sale, or point of purchase, is where you ring up customers. When customers check out online,
+walk up to your counter, or pick out an item from your stand or booth, they're at the point of sale. Your point-of-sale
+system is the hardware and software that enables your business to make those sales.
 
 *Use case:* Simplifying and modernizing central management of distributed point-of-sale devices with built in support
 for container based applications.

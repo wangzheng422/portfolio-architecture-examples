@@ -1,4 +1,4 @@
-= Finance
+= Portfolio Architecture Finance Collection
 Eric D. Schabell @eschabell, Ramon Villarreal @rvillarr
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images

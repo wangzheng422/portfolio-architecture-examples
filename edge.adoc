@@ -1,4 +1,4 @@
-= Edge
+= Portfolio Architecture Edge Collection
  Ishu Verma  @ishuverma
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images

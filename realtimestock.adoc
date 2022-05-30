@@ -7,7 +7,10 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toc: left
 :toclevels: 5
 
-Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to earn a profit. Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a small number of wholesale, corporate or government clientele.
+Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
+earn a profit. Real-time inventory management is an automated process of recording sales and purchases through the use
+of software. It gives you a complete picture of what's happening with inventory, allowing your business to react
+quickly to supply chain needs.
 
 *Use case:* Providing (near) real-time stock positions and dynamic pricing promotions information to retailer
 omnichannels.

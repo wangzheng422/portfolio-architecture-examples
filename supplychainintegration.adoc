@@ -8,9 +8,9 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toclevels: 5
 
 Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
-earn a profit. Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied
-where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
-small number of wholesale, corporate or government clientele.
+earn a profit. Supply chain integration is a large-scale business strategy that brings as many links of the chain as
+possible into a closer working relationship with each other. The goal is to improve response time, production time, and
+reduce costs and waste.
 
 *Use case:* Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other third-party interactions.
 

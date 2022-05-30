@@ -8,9 +8,9 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toclevels: 5
 
 Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
-earn a profit. Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied
-where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
-small number of wholesale, corporate or government clientele.
+earn a profit. A data framework refers to the process of managing enterprise retail data. The framework or system sets
+the guidelines and rules of engagement for business and management activities, especially those that deal with or
+result in the creation and manipulation of data.
 
 *Use case:* Creating a framework for access to retail data from customers, stock, stores, and staff across multiple
 internal teams.

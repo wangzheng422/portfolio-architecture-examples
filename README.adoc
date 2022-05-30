@@ -7,9 +7,9 @@ Eric Schabell @eschabell, Marty Wesley @mwesley_redhat, William Henry @ipbabble,
 
 == Overview
 This repository provides examples of customer researched based general architectures based on usage of the Red Hat
-product portfolio. All architectural diagrams are created using the open source tool draw.io. The examples provide for
-*Logical* diagrams, more in-depth view of how the solution works in *Schematic* diagrams and closer looks at
-elements in *Detailed* diagrams.
+product portfolio. The architectures detail three different levels of detail starting with *Logical* diagrams, then
+a more in-depth view of how the solution works in *Schematic* diagrams, and finally by diving in for a closer look 
+with  *Detailed* diagrams.
 
 TIP: Learn hands-on how to https://gitlab.com/redhatdemocentral/portfolio-architecture-workshops[Design Your Best
 Architectural Diagrams]
@@ -38,8 +38,9 @@ Create a Portfolio Architecture in Just 4 Steps]
 |
 |===
 
-== Portfolio Architecture project index
+== Portfolio Architecture Individual Index
 [cols="3,7"]
+
 |===
 |Title | Description
 
@@ -64,10 +65,9 @@ cloud computing model (i.e. responsive, elastic and resilient applications).
 |link:datacenter-to-edge.adoc[Data center to edge]
 |Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
 
-|link:edge.adoc[Edge]
-|This is a *collection of various architectures* for edge computing. Customers are increasing looking to edge
-computing to improve operational efficiencies, enhance end-user experiences, meet data residency requirements, and run
-resilient, semi-autonomous applications.
+|link:omnichannel.adoc[Designing an omnichannel customer experience]
+|Omnichannel implies integration and orchestration of channels such that the experience of engaging across all the
+channels someone chooses to use.
 
 |link:edge-manufacturing-efficency.adoc[Edge manufacturing efficiency]
 |Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
@@ -75,24 +75,8 @@ resilient, semi-autonomous applications.
 |link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
 |Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
 
-|link:event-driven-automation.adoc[Event driven automation]
-|TODO: description...
-
-|link:finance.adoc[Finance]
-|This is a *collection of various architectures* in the financial services domain. Financial services institutions
-understand that today’s banking customers expect fast, easy-to-use services they can tap into anytime, anywhere,
-and are therefore accelerating adoption of digital technologies to enable a variety of new offerings.
-
-|link:guide-self-service-streaming.adoc[Guide to self-service streaming]
-|TODO: description...
-
 |link:headlessecommerce.adoc[Headless e-commerce]
 |Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce platform.
-
-|link:healthcare.adoc[Healthcare]
-|This is a *collection of various architectures* in the healthcare domain. Our world transformed overnight, and
-healthcare had to respond immediately. Now more than ever, it's critical to have access to data and unlimited scale,
-and to design and modify decisioning, processes, and workflows for specific situations—without being vendor-dependent.
 
 |link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
 |Manage hybrid and multicloud cluster lifecycle, secure configuration and credentials. GitOps for Infrastructure as
@@ -123,10 +107,6 @@ be available for both business users and developers in a secure and scalable man
 |Minimizing the downtime of the maintenances on SAP hosts so that users and processes can continue to work
 without perceiving any interruption.
 
-|link:omnichannel.adoc[Omnichannel customer experience]
-|Omnichannel implies integration and orchestration of channels such that the experience of engaging across all the
-channels someone chooses to use.
-
 |link:openbanking.adoc[Open banking]
 |A cloud ready, modular open source approach offering a wide range of technology options and allows
 low-effort integration covering all aspects of an Open Banking implementation.
@@ -144,13 +124,6 @@ container based applications.
 |link:remote-management.adoc[Remote server management]
 |Providing remote management for a consist server estate across hybrid cloud and data centers with remote management,
 security, and  data protection for full lifecycle.
-
-|link:retail.adoc[Retail]
-|This is a *collection of various architectures* in the retail domain. Retail is the process of selling consumer
-goods or services to customers through multiple channels of distribution to earn a profit. Retailers satisfy demand
-identified through a supply chain. The term "retailer" is typically applied where a service provider fills the small
-orders of many individuals, who are end-users, rather than large orders of a small number of wholesale, corporate or
-government clientele.
 
 |link:retaildataframework.adoc[Retail data framework]
 |Creating a framework for access to retail data from customers, stock, stores, and staff across multiple internal teams.
@@ -183,14 +156,4 @@ minimal CAPEX and OPEX.
 |link:telco-radio-access-networks.adoc[Telco radio access networks]
 |The digital transformation of mobile networks  is accelerating and cloudification is increasing. Following the core
 network, radio access network (RAN) solutions are now taking advantage of the benefits of cloud computing.
-
-|link:telco.adoc[Telco]
-|This is a *collection of various architectures* in the telco domain. Some of the telco use cases cover broadband
-technology evolution like 5G while others cover infrastructure modernization like Radio Access Network.
-
-|link:utility.adoc[Utility]
-|This is a *collection of various architectures* in the utility domain.The energy (utility) infrastructure companies
-operate across vast geographical area that connects the upstream drilling operations with downstream fuel processing
-and delivery to customers. These companies need to monitor the condition of pipeline and other infrastructure for
-operational safety and optimization.
 |===

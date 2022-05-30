@@ -1,10 +1,9 @@
-= Manufacturing
+= Portfolio Architecture Manufacturing Colection
  Ishu Verma  @ishuverma
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
-
 
 This is a collection of various architectures for manufacturing.The manufacturing industry has consistently used technology to
 fuel innovation, production optimization and operations. Now, with the combination of edge computing and AI/ML,
@@ -17,5 +16,4 @@ like errors and predictive maintenance.
 
 |link:edge-manufacturing-efficency.adoc[Edge manufacturing efficiency]
 |Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
-
 |===

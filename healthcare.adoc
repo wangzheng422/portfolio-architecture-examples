@@ -1,4 +1,4 @@
-= Portfolio Architecture Healthcare Index
+= Portfolio Architecture Healthcare Collection
 Eric D. Schabell @eschabell
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
@@ -15,7 +15,8 @@ and to design and modify decisioning, processes, and workflows for specific situ
 |Title | Description   
 
 |link:idaas.adoc[Intelligent data as a service (iDaaS)]
-|Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable manner while driving data needs for moving towards consumerisation in healthcare.
+|Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
+manner while driving data needs for moving towards consumerisation in healthcare.
 
 |link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
 |Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
