@@ -11,7 +11,7 @@ This is a collection of various architectures featuring infrastructure solutions
 |===
 |Title | Description
 
-|link:edge-cloud.adoc[Cloud to edge]
+|link:cloudlets-at-edge.adoc[Cloudlets at edge]
 |Providing a consistent infrastructure experience from cloud to edge and enabling modern containerized applications at edge.
 
 |link:datacenter-to-edge.adoc[Data center to edge]

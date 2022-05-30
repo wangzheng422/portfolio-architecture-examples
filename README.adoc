@@ -59,7 +59,7 @@ inventories).
 |Cloud native development is an approach to building and running applications to fully exploit the advantages of the
 cloud computing model (i.e. responsive, elastic and resilient applications).
 
-|link:edge-cloud.adoc[Cloud to edge]
+|link:cloudlets-at-edge.adoc[Cloudlets at edge]
 |Providing a consistent infrastructure experience from cloud to edge and enabling modern containerized applications at edge.
 
 |link:datacenter-to-edge.adoc[Data center to edge]
