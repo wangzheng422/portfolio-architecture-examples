@@ -32,13 +32,6 @@ It provides a consistent application platform to manage hybrid cloud, multicloud
 *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
-*Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
-the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
-data with high throughput and low latency.
-
-*Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
-your APIs on an infrastructure platform built for performance, customer control, and future growth.
-
 *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
