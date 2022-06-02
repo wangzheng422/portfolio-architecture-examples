@@ -36,7 +36,6 @@ workload placement, dynamic scaling, hitless upgrades, and self healing.
 The platform includes all the tools needed to implement enterprise-wide automation. It enables cluster and network
 operations administrators to automate deployment of functional components across hybrid cloud.
 
-
 *Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
 built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
 enforcing policies across multiple clusters at scale.
@@ -47,16 +46,18 @@ quickly and efficiently across clouds. Its used for persistent storage across  c
 
 Conceptually, the 5G solution stack with hyperscalers can be categorized into:
 
-*Infrastructure*
+* Infrastructure
 
-*Application Platform*
+* Application Platform
 
-*Applications*
+* Applications
 
-*Platform Management and Application Orchestration*
+* Platform Management and Application Orchestration
 
-Infrastructure provides necessary compute, network and storage resources to the application platform. Application platform accommodates the applications with declarative desired state consistency with facilities to perform scaling, healing and monitoring. Applications provide the business logic they are aimed to deliver in a homogenous performant way (i.e. wider, stronger, faster 5G). Management and orchestration allows dynamic scaling of end-to-end 5G solution,
-across multiple locations with automation.
+Infrastructure provides necessary compute, network and storage resources to the application platform. Application platform
+accommodates the applications with declarative desired state consistency with facilities to perform scaling, healing and monitoring.
+Applications provide the business logic they are aimed to deliver in a homogenous performant way (i.e. wider, stronger, faster 5G).
+Management and orchestration allows dynamic scaling of end-to-end 5G solution, across multiple locations with automation.
 
 
 == Telco 5G with Hyperscalers
@@ -68,7 +69,9 @@ AWS Outposts in user plane/multi-access edge.
 
 User Plane Function (UPF) handles packet processing and traffic aggregation of user traffic.
 
-Access and Mobility Management Function (AMF) and Session Management Function (SMF) are part of the control plane. AMF handles connections and mobility management tasks while SMF handles session management. AMF receives connection and session-related info from the end devices, passing the session info to SMF, which establishes sessions by using UPF.
+Access and Mobility Management Function (AMF) and Session Management Function (SMF) are part of the control plane. AMF handles
+connections and mobility management tasks while SMF handles session management. AMF receives connection and session-related info
+from the end devices, passing the session info to SMF, which establishes sessions by using UPF.
 
 Policy Control Function (PCF) provides a framework for creating policies to be consumed by the other control plane network functions.
 
@@ -77,22 +80,22 @@ identification, authorization, and subscription management.
 
 The following components provide the supplementary services:
 
-Network Repository Function (NRF) is used by AMF to select the correct SMF out of the ‌pool.
+* Network Repository Function (NRF) is used by AMF to select the correct SMF out of the pool.
 
-NRF and Network Slice Selection Function (NSSF) work together to support network slicing capabilities.
+* NRF and Network Slice Selection Function (NSSF) work together to support network slicing capabilities.
 
-Network Exposure Function (NEF) exposes 5G services and resources so third-party apps can more securely access 5G
-services.
+* Network Exposure Function (NEF) exposes 5G services and resources so third-party apps can more securely access 5G services.
 
-Application Function (AF) exposes an application layer for interacting with 5G network resources, retrieving resource
-info from PCF and exposing them.
+* Application Function (AF) exposes an application layer for interacting with 5G network resources, retrieving resource info from
+  PCF and exposing them. 
 
-The management service is provided by the Element Management System/Container Network Function Manager (EMS/CNFM) is
-responsible for the application’s life cycle: provisioning, configuration, scaling, updates, etc. This component would be application specific, and depending on the vendor implementation, would interact with the platform and the application over open or proprietary API interfaces. This component is optional and its functionality might be rolled into the Orchestrator or implemented using Operators.
+The management service is provided by the Element Management System/Container Network Function Manager (EMS/CNFM) is responsible for
+the application’s life cycle: provisioning, configuration, scaling, updates, etc. This component would be application specific, and
+depending on the vendor implementation, would interact with the platform and the application over open or proprietary API
+interfaces. This component is optional and its functionality might be rolled into the Orchestrator or implemented using Operators.
 
-OpenShift Service Mesh is used for service discovery and exposure, and as a mechanism for specialized network handling, certificate management, etc.
-
-
+OpenShift Service Mesh is used for service discovery and exposure, and as a mechanism for specialized network handling, certificate
+management, etc. 
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
