@@ -31,22 +31,22 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-*Red Hat Integration* Manage APIs. Share, secure, distribute, control, and monetize
+https://www.redhat.com/en/products/integration[*Red Hat Integration*] Manage APIs. Share, secure, distribute, control, and monetize
 APIs as connecting endpoint from Web UI, Mobile applications and third party. Frameworks and connectors to integrate
 consumer applications with backend systems or third party services. With support for connecting both API and real-time
 data streams.
 
-*Red Hat OpenShift Data Foundations* software-defined storage for containers. For real-time data storage and analysis,
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation[*Red Hat OpenShift Data Foundations*] software-defined storage for containers. For real-time data storage and analysis,
 realizations of logical storage definitions as needed by applications, processes or services.
 
-*Red Hat OpenShift Runtimes* Foundation to build microservices. Support cloud native development strategy with built-in
+https://www.redhat.com/en/products/runtimes[*Red Hat OpenShift Runtimes*] Foundation to build microservices. Support cloud native development strategy with built-in
 build and deployment support. Also includes Single Sign On solution that can  be tied into existing organizational
 directories.
 
-*Red Hat OpenShift* Kubernetes container platform for orchestrating, managing, handling deployments, auto scaling of
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] Kubernetes container platform for orchestrating, managing, handling deployments, auto scaling of
 the containerized application.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
