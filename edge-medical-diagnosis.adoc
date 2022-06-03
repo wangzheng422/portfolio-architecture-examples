@@ -25,7 +25,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-*Red Hat OpenShift Data Foundations* is a software-defined storage services for X-ray images, continuous deployment models, analytics, AI/ML datasets and models, provisioned across multi-cloud environments.
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation[*Red Hat OpenShift Data Foundations*] is a software-defined storage services for X-ray images, continuous deployment models, analytics, AI/ML datasets and models, provisioned across multi-cloud environments.
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation[*Red Hat OpenShift Data Foundations*] develops, trains, and tests for AI/ML modeling and visualization in sandbox environment. Diagnosis models are being continuously trained and updated, this streamline workflow allows a more rapid, agile application lifecycle.
 
