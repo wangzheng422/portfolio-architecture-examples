@@ -26,13 +26,13 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-*Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+https://www.redhat.com/en/products/integration[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
-*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
 == Supply Chain Integration example
