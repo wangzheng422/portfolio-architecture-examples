@@ -33,32 +33,32 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 OpenShift enables 5GC by supporting functionalities and operational features like automated deployment, intelligent
 workload placement, dynamic scaling, hitless upgrades, and self healing.
 
-*Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
+https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4[*Red Hat AMQ Streams*] is a massively scalable, distributed, and high-performance data streaming platform based on
 the Apache Kafka project. AMQ Streams enables exchange of telemetry and control/management data with back end and
 operational systems.
 
-*Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
+https://www.redhat.com/en/technologies/management/ansible[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization.
 The platform includes all the tools needed to implement enterprise-wide automation. It enables cluster and network
 operations administrators to automate deployment of functional components.
 
-*Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
+https://www.redhat.com/en/technologies/management/advanced-cluster-management[*Red Hat Advanced Cluster Management*] for Kubernetes controls clusters and applications from a single console, with
 built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
 enforcing policies across multiple clusters at scale.
 
-*Red Hat Quay* is a private container registry that stores, builds, and deploys container images. Its used to store
+https://www.redhat.com/en/technologies/cloud-computing/quay[*Red Hat Quay*] is a private container registry that stores, builds, and deploys container images. Its used to store
 container image repositories for platform and application images, DevOps or GitOps pipelines, and automation tools for
 deployment across various clusters.
 
 
-*Red Hat Identity Management* provides a centralized and unified way to manage identity stores, authentication,
+https://access.redhat.com/products/identity-management[*Red Hat Identity Management*] provides a centralized and unified way to manage identity stores, authentication,
 policies, and authorization policies in a Linux-based domain. This is part of the common datacenter services applicable
 to network applications running on cloud platforms.
 
-*Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
 quickly and efficiently across clouds. Its used for persistent storage across multiple clusters.
 

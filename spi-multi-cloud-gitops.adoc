@@ -28,7 +28,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 In the case study, customers have chosen the listed technologies for following reasons:
 
-*Red Hat OpenShift Platform* Instead of directly using and learning the offering from all vendors, or even learning
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift Platform*] Instead of directly using and learning the offering from all vendors, or even learning
 the subtle differences between the Kubernetes offering, using a platform offering sits on top across data centers,
 private and public cloud will provide a unified way to deploy, monitor, and automate all the clusters.
 
@@ -46,11 +46,11 @@ especially in a multi-cluster environment.
 *External Secret*  Enable use of external secret management systems (like HashiCorp Vault in this case) to securely
 add secrets into the OpenShift platform.
 
-*Red Hat Advanced Cluster Management for Kubernetes*  Controls clusters and applications from a single unified
+https://www.redhat.com/en/technologies/management/advanced-cluster-management[*Red Hat Advanced Cluster Management for Kubernetes*] Controls clusters and applications from a single unified
 management hub console, with built-in security policies, provisioning cluster, and application lifecycles. Especially
 important when it comes to managing on top of multi-clouds.
 
-*Red Hat Ansible Automation*  Used to automate the configuration and installation of the management hub.
+https://www.redhat.com/en/technologies/management/ansible[*Red Hat Ansible Automation*]  Used to automate the configuration and installation of the management hub.
 
 *Hashicorp Vault*  Secure centralized store for dynamic infrastructure and application across clusters. For low
 trust networks between clouds and data centers.
