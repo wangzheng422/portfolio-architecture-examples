@@ -9,7 +9,7 @@ Ricardo Garcia Cavero @ipbabble
 
 = Solution summary
 
-This architecture covers Azure OpenShift Implementation. 
+This architecture covers Azure OpenShift Implementation.
 
 *Use case:* Adopt cloud native development technologies and mindset using a container platform without having to manage it and controlling its costs and use all the services offered by cloud providers to create more innovative and useful applications
 
@@ -56,7 +56,7 @@ View and download all of the diagrams above in our open source tooling site.
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/sap-integration.drawio[[Open Diagrams]]
 --
 
-== Provide feedback 
+== Provide feedback
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sap-integration.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
 
 
