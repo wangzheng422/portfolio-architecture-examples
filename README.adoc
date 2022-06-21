@@ -45,7 +45,9 @@ Create a Portfolio Architecture in Just 4 Steps]
 |Title | Description
 
 |link:api-management-platform-for-sap.adoc[API management platform for SAP]
-|TODO: description...
+|Integrate SAP and non-SAP applications seamlessly with an API first approach, adopting cloud native and microservices development
+patterns for new applications and stop developing inside SAP so that a basic core is kept, which dramatically speeds up and
+simplifies the upgrades.
 
 |link:businessoptimization.adoc[Business optimisation]
 |Optimizing delivery routing, automating rostering of staff, and improving efficiency of tasks across multiple stores.
