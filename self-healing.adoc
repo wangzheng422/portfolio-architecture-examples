@@ -34,12 +34,31 @@ another means of distributing remediation throughout an estate.
 
 https://www.redhat.com/en/technologies/management/insights[*Red Hat Insights*] services each perform their individual functions, and the customer can choose which services fit their specific needs. For example, Compliance will assess a systems status against a set of compliance rules, and Vulnerability assesses any security risks that may be currently active in the environment.
 
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
 == Self-Healing Infrastructure (network)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-net.png[750, 700]
 --
 
+In this network configuration, you can see the internal network depicted in light blue, where all that is required on the customer estate is the hosted client systems, Red Hat Smart Management, and Red Hat Ansible Automation Platform. These are able to simply communicate amongst themselves on an internal network. From here, Ansible and Smart Management connect on a secure network out to Red Hat, where the data is then processed by Red Hat Insights, and displayed on the Hybrid Cloud Console, of which they communicate to each other internally within Red Hat's network. Once processed, that data is passed back to Ansible and Smart Management on the same channel as originally. 
 
+
+== Self-Healing Infrastructure (data)
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-data.png[750, 700]
+--
+
+The data path, starting from the hosts, delivers data to Red Hat Satellite. Here, both Ansible's automation controller and Satellite
+transmit the anonymized data to Red Hat where the cloud services internally analyze what issues might be present,
+what solutions are available, and what remediation plan we have to move forward with.
+
+From there, these remediation plans, and any associated playbooks, are passed back to the customer's environment, where
+Satellite will orchestrate the application of which issues have automated solutions, as well as what package updates
+will be delivered to any applicable Red Hat Enterprise Linux (RHEL) system(s), and the automation controller will apply any
+remediations to Ansible Automation Platform.
+
+Explicitly stepping through the process:
 1. Client hosts register to Satellite which initially collects RHEL system data for Red Hat Insights.
 2. Smart Management and Ansible Automation Platform secure connections to the Hybrid Cloud Console.
 3. Anonymized data is analyzed by Red Hat:
@@ -56,22 +75,6 @@ Ansible remediation is delivered to Ansible Automation Platform
 RHEL remediation plans can also be manually synced to the automation controller (optional).
 7. Ansible’s automation controller can be used to deliver the additional remediation synced (optional) in tandem with
 it’s normal automation workflow.
-
-
-== Self-Healing Infrastructure (data)
---
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-data.png[750, 700]
---
-
-The data path, starting from the hosts, delives to the Satellite. Here, both the automation controller and satellite
-transmits the anonymized data to Red Hat where the cloud services internally analyze what issues might be present,
-what solutions are available, and what remediation plan we have to move forward with.
-
-From there, these remediation plans, and any associated playbooks, are passed back to the customer's environment, where
-the satellite will orchestrate the application of which issues have automated solutions, as well as what package updates
-will be delivered to any applicable Red Hat Enterprise Linux system, and the automation controller will apply any
-remediation to Ansible Automation Platform.
-
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
