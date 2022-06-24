@@ -30,6 +30,8 @@ https://access.redhat.com/products/red-hat-amq/[*Red Hat AMQ*] is a lightweight,
 
 https://www.redhat.com/en/technologies/jboss-middleware/fuse[*Red Hat Fuse*] enables collaborative, agile building of applications using microservices and containers. Since aggregation is necessary for an Event Driven solution such as this, it’s even more powerful as Fuse provides this aggregation out of the box. 
 
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+
 == Event Driven Automation (network)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/eda-sd-net.png[750, 700]
