@@ -7,8 +7,9 @@ Ishu Verma  @ishuverma, William Henry @ipbabble,
 :toc: left
 :toclevels: 5
 
+== Solution overview
 This architecture covers industrial edge that's applicable across a number of verticals including manufacturing. The manufacturing industry has consistently used technology to
-fuel innovation, production optimization and operations. Now, with the combination of edge computing and AI/ML,
+fuel innovation, production optimization, and operations. Now, with the combination of edge computing and AI/ML,
 manufacturers can benefit from bringing processing power closer to data. This helps actions be taken faster on things
 like errors and predictive maintenance.
 
@@ -23,31 +24,30 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/industrial-edge-ld.png[750, 700]
 --
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
+*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
 
-** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
+*Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
 applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
 multiple modernization options to enable a smooth transition to the cloud for existing applications.
 
-** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
+*Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
 the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
 data with high throughput and low latency.
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+*Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
-** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+*Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
 quickly and efficiently across clouds.
 
-** *Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
+*Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
 built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
 enforcing policies across multiple clusters at scale.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
 == Edge manufacturing with messaging and ML
@@ -100,3 +100,6 @@ View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/edge-manufacturing-efficiency.drawio[[Open Diagrams]]
 --
+
+== Provide feedback on this architecture
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/cloud-adoption.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
