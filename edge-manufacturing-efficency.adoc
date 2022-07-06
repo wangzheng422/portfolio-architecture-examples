@@ -26,7 +26,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 --
 The following technology was chosen for this solution:
 
-*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
+*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
 *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
 applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
