@@ -74,9 +74,6 @@ cloud computing model (i.e. responsive, elastic and resilient applications).
 |Omnichannel implies integration and orchestration of channels such that the experience of engaging across all the
 channels someone chooses to use.
 
-|link:edge-manufacturing-efficency.adoc[Edge manufacturing efficiency]
-|Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
-
 |link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
 |Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
 
@@ -97,6 +94,9 @@ and to design and modify decisioning, processes, and workflows for specific situ
 |link:spi-multi-cloud-gitops.adoc[Hybrid multicloud management with GitOps]
 |Manage hybrid and multicloud cluster lifecycle, secure configuration and credentials. GitOps for Infrastructure as
 code approach. Cross cluster governance and application lifecycle management.
+
+|link:industtrial-edge.adoc[Industrial Edge]
+|Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
 
 |link:integrated-saas.adoc[Integrating with SaaS applications]
 |Providing integration with SaaS applications, platforms, and services empowers organizations to build and run scalable

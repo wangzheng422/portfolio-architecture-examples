@@ -14,6 +14,6 @@ like errors and predictive maintenance.
 |===
 |Title | Description
 
-|link:edge-manufacturing-efficency.adoc[Edge manufacturing efficiency]
+|link:industrial-edge.adoc[Industrial edge]
 |Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
 |===
