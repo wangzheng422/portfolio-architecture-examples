@@ -15,9 +15,6 @@ With the growing complexity of our modern infrastructures, the importance of aut
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/eda-marketecture-slide.png[750,700]
 --
 
-== Summary video
-<Insert Video Here Once Available>
-
 
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/eda-ld.png[750, 700]
 

@@ -78,7 +78,7 @@ channels someone chooses to use.
 |Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
 
 |link:event-driven-automation.adoc[Event driven automation]
-|TODO: description...
+|Automating event response for configuration changes, security preparedness, or emergency incident handling across a scaling estate, whether on-premises in physical data centers or in public/private clouds.
 
 |link:guide-self-service-streaming.adoc[Guide to self-service streaming]
 |TODO: description...
