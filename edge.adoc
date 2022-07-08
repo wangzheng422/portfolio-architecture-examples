@@ -20,11 +20,11 @@ resilient, semi-autonomous applications.
 |link:datacenter-to-edge.adoc[Data center to edge]
 |Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
 
-|link:edge-manufacturing-efficency.adoc[Edge manufacturing efficiency]
-|Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
-
 |link:edge-medical-diagnosis.adoc[Edge medical diagnosis]
 |Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
+
+|link:industrial-edge.adoc[Industrial edge]
+|Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out to the edge.
 
 |link:scada-interface.adoc[SCADA interface modernisation]
 |Provide interfaces with SCADA systems that are compliant with NERC regulations, creating different layers of API
