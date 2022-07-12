@@ -9,7 +9,7 @@ Ricardo Garcia Cavero @ipbabble
 
 = Solution summary
 
-This architecture covers API management platform for SAP. Typically SAP systems interact with a large number of heterogeneous applications that use different protocols and formats. To ensure transparency for users and business continuity a solution is needed that translates the data from SAP into the formats that the 3rd party applications will understand and viceversa, while abstracting those details so that developers and application users do not need to know the structure of the data in SAP. This also plays a very important role in the move of custom code out of the core of SAP, which is one of the main premises of the migration to SAP S/4HANA, to keep the core clean, greatly simplifying the migration process since prior to it all that custom code can be moved out but kept connected to the core with the API integration
+This architecture covers API management platform for SAP. Typically SAP systems interact with a large number of heterogeneous applications that use different protocols and formats. To ensure transparency for users and business continuity a solution is needed that translates the data from SAP into the formats that the 3rd party applications will understand and vice versa, while abstracting those details so that developers and application users do not need to know the structure of the data in SAP. This also plays a very important role in the move of custom code out of the core of SAP, which is one of the main premises of the migration to SAP S/4HANA, to keep the core clean, greatly simplifying the migration process since prior to it all that custom code can be moved out but kept connected to the core with the API integration
 
 *Use case:* Integrate SAP and non-SAP applications seamlessly with an API first approach, adopting cloud native and microservices development patterns for new applications and stop developing inside SAP so that a basic core is kept, which dramatically speeds up and simplifies the upgrades.
 
@@ -22,16 +22,16 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/sap-integration-ld.png[750, 700]
 --
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat Enterprise Linux for SAP Solutions* is combining an intelligent operating system with predictive management
+*Red Hat Enterprise Linux for SAP Solutions* is combines an intelligent operating system with predictive management
 tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
 available foundation for business-critical SAP and non-SAP workloads.
 
-** *Red Hat Openshift* is a Kubernetes container platform for orchestrating, managing, handling deployments, auto scaling of
+*Red Hat Openshift* is a Kubernetes container platform for orchestrating, managing, handling deployments, auto scaling of
 the containerized application. It provides the foundation for Red Hat Integration which has the components needed to communicate SAP and non-SAP workloads, apart from being the platform on which new cloud native applications that talk to the SAP core can be developed. In this PA Red Hat Openshift also provides a PostgreSQL DB that is used to cache data from SAP that will be used by BI applications for reporting.
 
-** *Red Hat Integration* is a set of integration and messaging technologies in the form of containerized and API-centric solution. It runs on Red Hat Openshift and among the many integration components it has some specific to SAP. *Red Hat Fuse* is one of its elements. It uses Camel, namely its SAP Netweaver component, to allow SAP and non-SAP applications to connect to SAP Netweaver based instances (classic Netweaver or SAP S/4HANA) using RFC, iDoc and OData protocols by means of which function modules and BAPIs (Business APIs) can be triggered in the SAP core and also data structures can be accessed directly. All this is achieved by creating and exposing API endpoints. *Red Hat 3Scale* is another component of Red Hat Integration used in this PA to manage the access of the satellite systems and applications to the APIs exposed by Red Hat Fuse.
+*Red Hat Integration* is a set of integration and messaging technologies in the form of containerized and API-centric solution. It runs on Red Hat Openshift and among the many integration components it has some specific to SAP. *Red Hat Fuse* is one of its elements. It uses Camel, namely its SAP Netweaver component, to allow SAP and non-SAP applications to connect to SAP Netweaver based instances (classic Netweaver or SAP S/4HANA) using RFC, iDoc and OData protocols by means of which function modules and BAPIs (Business APIs) can be triggered in the SAP core and also data structures can be accessed directly. All this is achieved by creating and exposing API endpoints. *Red Hat 3Scale* is another component of Red Hat Integration used in this PA to manage the access of the satellite systems and applications to the APIs exposed by Red Hat Fuse.
 
 == Invoke SAP functions use case
 --
