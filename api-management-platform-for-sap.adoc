@@ -49,11 +49,11 @@ The satellite systems can be applications running anywhere, on-premise, on cloud
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-retrieve-data.png[750, 700]
 --
 
-In the second use case the satellite systems access data directly in SAP. Theyalso communicate exclusively with Red Hat 3Scale. Here there is an additional layer of access control, it is not only the access to the APIs regulated by Red Hat 3Scale but also the access to the different tenants in teh SAP backend (called clients). For this additional control Red Hat Fuse connects to a DB with the authorization tables.
+In the second use case the satellite systems access data directly in SAP. They also communicate exclusively with Red Hat 3Scale. Here there is an additional layer of access control, it is not only the access to the APIs regulated by Red Hat 3Scale but also the access to the different tenants in the SAP backend (called clients). For this additional control Red Hat Fuse connects to a DB with the authorization tables.
 
 When accessing data structures in SAP the protocol used is OData and Red Hat Fuse will again convert the data in the format used by the satellite systems to OData and back again. These data structures are exposed in the SAP system (classical Netweaver or SAP S/4HANA) using the SAP Netweaver Gateway.
 
-Also in this case the satellite systems can be applications running anywhere, on-premise, on cloud or on the OpenShift container platform.
+Also, in this case the satellite systems can be applications running anywhere, on-premise, on cloud or on the OpenShift container platform.
 
 == Utilize cached data from SAP for BI use case
 --
