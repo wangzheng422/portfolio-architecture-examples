@@ -1,4 +1,4 @@
-= API management platform for SAP
+= API Management Platform for SAP
 Ricardo Garcia Cavero @ipbabble
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples/
 :imagesdir: images
