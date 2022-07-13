@@ -38,17 +38,31 @@ the containerized application. It provides the foundation for Red Hat Integratio
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-invoke-data.png[750, 700]
 --
 
+In this use case the satellite systems communicate only with Red Hat 3Scale where all the business functions (BAPIs) that are published in the SAP backend (clasical Netweaver or SAP S/4HANA) have an API that can be called. The RBAC implemented in Red Hat 3Scale will ensure that each business function in SAP will only be triggered by the satellite systems that have permissions to do it.
+
+The protocol used to cmmunicate with the SAP systems is RFC (Remote Function Call). It is Red Hat Fuse that does the data conversion from the protocol used by the satellite systems to the one used by SAP and vice-versa.
+
+The satellite systems can be applications running anywhere, on-premise, on cloud or on the OpenShift container platform.
 
 == Retrieve data from SAP use case
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-retrieve-data.png[750, 700]
 --
 
+In the second use case the satellite systems access data directly in SAP. Theyalso communicate exclusively with Red Hat 3Scale. Here there is an additional layer of access control, it is not only the access to the APIs regulated by Red Hat 3Scale but also the access to the different tenants in teh SAP backend (called clients). For this additional control Red Hat Fuse connects to a DB with the authorization tables.
+
+When accessing data structures in SAP the protocol used is OData and Red Hat Fuse will again convert the data in the format used by the satellite systems to OData and back again. These data structures are exposed in the SAP system (classical Netweaver or SAP S/4HANA) using the SAP Netweaver Gateway.
+
+Also in this case the satellite systems can be applications running anywhere, on-premise, on cloud or on the OpenShift container platform.
 
 == Utilize cached data from SAP for BI use case
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-cached-data.png[750, 700]
 --
+
+This use case shows how data from SAP BW that is frequently accessed can be cached to avoid performance bottlenecks, since the queries in SAP BW systems are usually quite resource demanding. Here only the JDBC/ODBC connector is used for the satellite systems to connect to the SAP backend. The JDBC/ODBC connector uses the Python OData library to establish connections to the SAP systems and extract the data in OData protocol. This data is stored in a PostgreSQL DB that acts as a cache for the satellite systems.
+
+As in the previous use cases the satellite systems can be applications running anywhere, on-premise, on cloud or on the OpenShift container platform.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
