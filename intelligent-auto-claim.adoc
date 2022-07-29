@@ -28,8 +28,14 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 == The technology
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/intelligent-auto-claim-ld-detail.png[750, 700]
---
-The following technology was chosen for this solution:
+-- +
+
+IBM and Red Hat together provide cutting-edge technologies to facilitate and accelerate digital transformation with intelligent solutions in hybrid and multi-cloud environments. In this study, the client achieved intelligent automated business processes using  IBM Cloud Pak® for Business Automation and  IBM Cloud Pak® for Integration deployed on Red Hat OpenShift on the IBM Cloud. Additionally, IBM Watson® services on the IBM Cloud infused AI/ML into the applications with conversational chatbots in the claims processing, leveraged AutoAI to determine best models for scoring claims based on complexity and risk, automating decisions and processes, and optimizing adjuster's time. +
+
+IT service management (ITSM) is introduced to establish processes and practices to optimize the use of the IT services. Combine with Automated processes using Red Hat Ansible to replace manual work with more compliant and effective operations, while reducing the labor cost, consistent and dynamic adjustment and enforcing guardrails to deliver infrastructure service increases agility allowing enterprise to scale to meet growth. +
+
+
+The following technology was chosen for this solution: +
 
 ====
 *Red Hat OpenShift* Kubernetes offering, the hybrid platform offering allow deployment across data centers,
