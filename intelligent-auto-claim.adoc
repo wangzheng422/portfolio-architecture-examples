@@ -6,9 +6,9 @@ Christina Lin @Christina_wm, Thalia Hooker
 :source-highlighter: prettify
 :toc: left
 :toclevels: 5
+:hardbreaks:
 
 Insurance companies now increasingly depended on digital technology to provide customers with a satisfying and faster claim experience. As digitalization in the technology world accelerates, Insurance companies found themselves relying on old legacy system and processes, which drive up the cost and resource to maintain the redundant systems they accumulates throughout the years. To achieve the full benefits of digitalization requires real-time data access via open and secured interfaces. Introducing artificial intelligence and automation can reduce manual involvement that leads to smooth workload. Modernizing a legacy IT platform can be difficult. 
-
 
 ====
 *Why Intelligent Automation Workflow ?*
@@ -20,6 +20,7 @@ Insurance companies now increasingly depended on digital technology to provide c
 
 *Use case:* The architecture is based on a study of claims systems in insurance companies that automate existing manual processes, tasks, and workflows successfully by introducing Robotic Process Automation, AI/ML to assist business processes. Established hybrid platforms and reusing legacy systems as well as improve IT infrastructure management efficiency.
 
+<<<
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/intelligent-auto-claim-marketing-slide.png[750,700]
 --
@@ -29,6 +30,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/intelligent-auto-claim-ld-detail.png[750, 700]
 --
 The following technology was chosen for this solution:
+
 ====
 *Red Hat OpenShift* Kubernetes offering, the hybrid platform offering allow deployment across data centers,
 private and public clouds as it brings choices and flexible for hosting system and services.
@@ -39,12 +41,14 @@ private and public clouds as it brings choices and flexible for hosting system a
 
 *IBM Cloud Pak for Data* unify and simplify the collection, organization and analysis of data. 
 ====
+
+<<<
 == Intelligent, smart automation for claims(AI/ML workflow)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-aiml-workflow.png[750,700]
 --
 
-There are two personas supported in this schematic: Customer / Claimant and the Insurer End User such as Adjuster / CSR / Admin.
+There are two personas supported in this schematic:
  
 The *Customer / Claimant* high-level steps of this intelligent claims processing are:
 
@@ -62,11 +66,8 @@ The *Insurer End User such as Adjuster / CSR / Admin* high-level steps of this i
 . Similarly, the Claims Service interacts with a Dashboard message consumer (IBM Event Streams, Red Hat Streams, Kafka) that implements the Event Streaming Architecture
 
 
-== Intelligent, smart automation for claims(AI/ML workflow)
---
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-strangler-pattern.png[750,700]
---
 
+<<<
 == Co-existing with Legacy and Accelerate with New
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-strangler-pattern.png[750,700]
@@ -85,6 +86,7 @@ E. Customizing services for specific enterprise needs, are common and implemente
 F. An unify dashboard is created for seamless user experience, enhanced real-time features were provided to customers via website and Apps. Open API give partner availability to amplify and provide better services. 
 
 
+<<<
 == Operation efficiency 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-itsm.png[750,700]
