@@ -1,5 +1,5 @@
 = Intelligent Automation Workflow for Claims
-Christina Lin @Christina_wm
+Christina Lin @Christina_wm, Thalia Hooker
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
@@ -9,6 +9,14 @@ Christina Lin @Christina_wm
 
 Insurance companies now increasingly depended on digital technology to provide customers with a satisfying and faster claim experience. As digitalization in the technology world accelerates, Insurance companies found themselves relying on old legacy system and processes, which drive up the cost and resource to maintain the redundant systems they accumulates throughout the years. To achieve the full benefits of digitalization requires real-time data access via open and secured interfaces. Introducing artificial intelligence and automation can reduce manual involvement that leads to smooth workload. Modernizing a legacy IT platform can be difficult. 
 
+
+====
+*Why Intelligent Automation Workflow ?*
+
+. Streamlined processing to deliver  hassle-free, seamless, and accurate customer claim experience
+. Enhanced fraud detection and prevention, reduced skills required for associates and limits the amount of manual work.
+. Improved operational efficiency, and simplify workflow automation to reduce ongoing maintenance cost.
+====
 
 *Use case:* The architecture is based on a study of claims systems in insurance companies that automate existing manual processes, tasks, and workflows successfully by introducing Robotic Process Automation, AI/ML to assist business processes. Established hybrid platforms and reusing legacy systems as well as improve IT infrastructure management efficiency.
 
@@ -21,7 +29,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/intelligent-auto-claim-ld-detail.png[750, 700]
 --
 The following technology was chosen for this solution:
-
+====
 *Red Hat OpenShift* Kubernetes offering, the hybrid platform offering allow deployment across data centers,
 private and public clouds as it brings choices and flexible for hosting system and services.
 
@@ -30,6 +38,29 @@ private and public clouds as it brings choices and flexible for hosting system a
 *Business Automation Workflow* automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. 
 
 *IBM Cloud Pak for Data* unify and simplify the collection, organization and analysis of data. 
+====
+== Intelligent, smart automation for claims(AI/ML workflow)
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-aiml-workflow.png[750,700]
+--
+
+There are two personas supported in this schematic: Customer / Claimant and the Insurer End User such as Adjuster / CSR / Admin.
+ 
+The *Customer / Claimant* high-level steps of this intelligent claims processing are:
+
+. Customer / Claimant may use their mobile device to file a claim through a conversational (chatbot) implemented as Intelligent Virtual Agent implemented with IBM Watson Assistant and its associated Data Science Tooling. The Orchestrator (microservice) is initiated by this chatbot UI in the mobile device.
+. The Orchestrator uses Digital Workers that can take actions on behalf of the human workers and thus off-load manual and repetitive work of the humans, such as:
+Retrieving Weather data based on the accident location, date, and time
+* Uploading pictures submitted by users in the mobile device to Image Recognition service
+* Invoke Machine Learning (ML) to score / triage these claims as: Low, Medium, and Complex. This ML was implemented as an IBM Auto Claims Routing Accelerator developed with Data Science Tooling in IBM Watson Studio and AutoAI capabilities.
+. Digital Workers update the Claims Service (microservice) that in turn, leverage integrations with the Legacy Claims systems and new Cloud-native applications. They can also implement Event Streaming Architectures – when events are coming in from chatbot, claims systems, underwriting, etc.
+ 
+The *Insurer End User such as Adjuster / CSR / Admin* high-level steps of this intelligent claims processing are:
+
+. Their entry point is the Claims Admin Dashboard web app that interacts through the Claims Service and similar technologies and integrations as the end user flow
+. The Claims Admin Dashboard interacts with a Message consumer (IBM Event Streams, Red Hat Streams, Kafka) that implements the Event Streaming Architecture
+. Similarly, the Claims Service interacts with a Dashboard message consumer (IBM Event Streams, Red Hat Streams, Kafka) that implements the Event Streaming Architecture
+
 
 == Intelligent, smart automation for claims(AI/ML workflow)
 --
