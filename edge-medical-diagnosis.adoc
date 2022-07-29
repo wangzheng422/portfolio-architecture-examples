@@ -11,7 +11,7 @@ Eric D. Schabell @eschabell
 This architecture covers the use case around Edge Medical Diagnosis in the healthcare industry. The solution provides a way to increase efficiency of a medical facility by reducing time spent on routine diagnosis and medical diagnosis of disease. This gives the medical expert time to focus on the difficult cases.
 
 
-*Use case:* Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities.
+*Use case:* Accelerating medical diagnosis using condition detection in medical imagery with AI/ML in Edge computing at medical facilities.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-medical-diagnosis-marketing-slide.png[750,700]
@@ -25,19 +25,19 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-*Red Hat OpenShift Data Foundations* is a software-defined storage services for X-ray images, continuous deployment models, analytics, AI/ML datasets and models, provisioned across multi-cloud environments.
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation[*Red Hat OpenShift Data Foundations*] is a software-defined storage services for X-ray images, continuous deployment models, analytics, AI/ML datasets and models, provisioned across multi-cloud environments.
 
-*Red Hat OpenShift Data Science*  develops, trains, and tests for AI/ML modeling and visualization in sandbox environment. Diagnosis models are being continuously trained and updated, this streamline workflow allows a more rapid, agile application lifecycle.
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation[*Red Hat OpenShift Data Foundations*] develops, trains, and tests for AI/ML modeling and visualization in sandbox environment. Diagnosis models are being continuously trained and updated, this streamline workflow allows a more rapid, agile application lifecycle.
 
-*Red Hat AMQ Streams* is a data streaming platform with high throughput and low latency. Streams images and registration events to corresponding microservices to automated diagnosis. Relay diagnosis result for further process, and broadcast notifications.
+https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4[*Red Hat AMQ Streams*] is a data streaming platform with high throughput and low latency. Streams images and registration events to corresponding microservices to automated diagnosis. Relay diagnosis result for further process, and broadcast notifications.
 
-*Red Hat OpenShift Serverless* provides event-driven functions and scales up based on an event trigger. Medical application scales down to zero for resource optimization, and starts up with minimal bootstrap time when it is required.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift Serverless*] provides event-driven functions and scales up based on an event trigger. Medical application scales down to zero for resource optimization, and starts up with minimal bootstrap time when it is required.
 
-*Red Hat OpenShift GitOps* automates the deployment of the edge medical diagnosis elements, pick up changes from code repository into the CI/CD pipelines and trigger image build and deploys into clouds.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift GitOps*] automates the deployment of the edge medical diagnosis elements, pick up changes from code repository into the CI/CD pipelines and trigger image build and deploys into clouds.
 
-*Red Hat OpenShift* Kubernetes container platform with both Serverless and GitOps mentioned above. It provides a consistent application platform to manage supports for full automated workflow and flexible, scalable resource usage.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] Kubernetes container platform with both Serverless and GitOps mentioned above. It provides a consistent application platform to manage supports for full automated workflow and flexible, scalable resource usage.
 
-*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 

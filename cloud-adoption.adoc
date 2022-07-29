@@ -28,26 +28,26 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-*Red Hat Satellite*  is the smart management element in this architecture, used for tracking, managing, auditing, and
+https://www.redhat.com/en/technologies/management/satellite[*Red Hat Satellite*]  is the smart management element in this architecture, used for tracking, managing, auditing, and
 collecting data on the entire infrastructure to ensure that baselines are met.
 
-*Red Hat Smart Management* provides a cloud experience, existing physical data center resources might be the starting
+https://www.redhat.com/en/technologies/management/smart-management[*Red Hat Smart Management*] provides a cloud experience, existing physical data center resources might be the starting
 point to be offered to the organization with a cloud-like experience. This combines the flexible and powerful
 infrastructure management capabilities with the ability to execute remediation plans. It helps to securely manage any
 environment supported by Red Hat Enterprise Linux, from physical machines to hybrid multiclouds.
 
-*Red Hat Ansible Automation Platform* facilitates consistent,repeatable,and tested infrastructure automation tasks as
+https://www.redhat.com/en/technologies/management/ansible[*Red Hat Ansible Automation Platform*] facilitates consistent,repeatable,and tested infrastructure automation tasks as
 needed by the other elements managing the hybrid cloud. This element is directed to execute based on the findings of
 the smart management element.
 
-*Red Hat Quay* is part of the Core Data Center, it is a private container registry that stores, builds, and deploys container
+https://www.redhat.com/en/technologies/cloud-computing/quay[*Red Hat Quay*] is part of the Core Data Center, it is a private container registry that stores, builds, and deploys container
 images. It analyzes your images for security vulnerabilities, identifying potential issues that can help you mitigate
 security risks.
 
-*Red Hat Enterprise Linux* (RHEL) is the host element with an image registry to facilitate the deployment of infrastructure,
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] (RHEL) is the host element with an image registry to facilitate the deployment of infrastructure,
 services, and applications across the entire hybrid cloud infrastructure.
 
-*Red Hat Insights* is the key to monitoring and data collection around the entire hybrid cloud infrastructure. Based on
+https://www.redhat.com/en/technologies/management/insights[*Red Hat Insights*] is the key to monitoring and data collection around the entire hybrid cloud infrastructure. Based on
 this data and working together with insights services, automated actions can take place around updates, security patches,
 infrastructure rollouts, workload management, and workload migrations. This is the key to an organizations ability to
 successfully adopt a truly hybrid cloud infrastructure.
@@ -83,7 +83,10 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 --
 
 == Download solution diagrams
-https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/cloud-adoption.drawio[View and download all of the diagrams above in our open source tooling site.]
+View and download all of the diagrams above in our open source tooling site.
+--
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/cloud-adoption.drawio[[Open Diagrams]]
+--
 
 == Provide feedback on this architecture
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/cloud-adoption.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].

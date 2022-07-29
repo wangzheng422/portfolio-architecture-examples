@@ -62,6 +62,10 @@ The *Insurer End User such as Adjuster / CSR / Admin* high-level steps of this i
 . Similarly, the Claims Service interacts with a Dashboard message consumer (IBM Event Streams, Red Hat Streams, Kafka) that implements the Event Streaming Architecture
 
 
+== Intelligent, smart automation for claims(AI/ML workflow)
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-strangler-pattern.png[750,700]
+--
 
 == Co-existing with Legacy and Accelerate with New
 --

@@ -17,50 +17,43 @@ multiple stores.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/business-optimisation-marketing-slide.png[750,700]
---
 
-== The technology
---
+
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-business-optimisation-ld.png[750, 700]
 --
 
-* The following technology was chosen for this solution:
+== The technology
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+The following technology was chosen for this solution:
+
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+https://www.redhat.com/en/products/integration[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
-** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
+https://www.redhat.com/en/technologies/jboss-middleware/3scale[*Red Hat 3scale API Management*] makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
 your APIs on an infrastructure platform built for performance, customer control, and future growth.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
-== Business optimisation
+== Business optimization
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-business-optimisation-sd.png[750, 700]
 --
 
-The business owners and developers are providing the goals, constraints, and resources to the retail planning services
-which then take any external triggers, external input, and data constraints from the
-link:retaildataframework.adoc[retail data framework] that might apply. Processes and data decisions might be needed to
-finalise any optimisation planning and then all of this is used to generate the planning. This plan is then sent
-to the integration services to then push to eventual external third-party systems and the retail systems for further
-processing out to the stores.
+The business owners and developers are providing the goals, constraints, and resources to the retail planning services which then take any external triggers, external input, and data constraints from the
+retail data framework that might apply. Processes and data decisions might be needed to complete any optimization planning and then used to generate the planning. This plan is then sent
+to the integration services to push to eventual external third-party systems and the retail systems for further processing out to the stores.
 
-== Vaccine optimisation
+== Vaccine optimization
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-business-optimisation-vaccines-sd.png[750, 700]
 --
 
-The business owners and developers are providing the goals, constraints, and resources to the vaccine planning services
-which then take any external triggers, external input, and data constraints from the vaccine centre data, vaccine
-supply data, and patient (customer) data that might apply. The external planners need to have a view of the status of
-the planning calculations and the scheduling process so they are given access through and API management element. The
-final vaccine schedule is then sent to the integration services to then ensure the vaccine appointments are sent the
+Business owners and developers are providing the goals, constraints, and resources to the vaccine planning services which then take any external triggers, external input, and data constraints from the vaccine center data, vaccine supply data, and patient (customer) data that might apply. The external planners need to have a view of the status of the planning calculations and the scheduling process so they are given access through and API management element. The final vaccine schedule is then sent to the integration services to then ensure the vaccine appointments are sent the
 new schedule in a mobile application for the consumer to be notified.
 
 == Download diagrams
@@ -68,3 +61,6 @@ View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/retail-business-optimisation.drawio[[Open Diagrams]]
 --
+
+== Provide feedback 
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/businessoptimization.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].

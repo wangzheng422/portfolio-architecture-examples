@@ -8,9 +8,9 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toclevels: 5
 
 Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
-earn a profit. Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied
-where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
-small number of wholesale, corporate or government clientele.
+earn a profit. Real-time inventory management is an automated process of recording sales and purchases through the use
+of software. It gives you a complete picture of what's happening with inventory, allowing your business to react
+quickly to supply chain needs.
 
 *Use case:* Providing (near) real-time stock positions and dynamic pricing promotions information to retailer
 omnichannels.
@@ -24,46 +24,35 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-stock-control-ld.png[750, 700]
 --
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
-data across hybrid infrastructures.
+https://www.redhat.com/en/products/integration[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures.
 
-** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
-the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
-data with high throughput and low latency.
+https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4[*Red Hat AMQ Streams*] is a massively scalable, distributed, and high-performance data streaming platform based on the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share data with high throughput and low latency.
 
-** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
-your APIs on an infrastructure platform built for performance, customer control, and future growth.
+https://www.redhat.com/en/technologies/jboss-middleware/3scale[*Red Hat 3scale API Management*] makes it easy to manage your APIs. Share, secure, distribute, control, and monetize your APIs on an infrastructure platform built for performance, customer control, and future growth.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
-== Real-time stock control example
+== Real-Time Stock Control example
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-stock-control-sd.png[750, 700]
 --
 
-Stock control changes are needed anytime interactions happen with customers, store associates, vendors, suppliers, and
-partners. Customer purchase stock, triggering changes to be made to the inventory lists. Vendors delivery shipments
-to warehouses that require updating and processing of orders both in the warehouse inventory and to notify store of the
-stock availability. Just a few examples of this architecture in action. The update or change request comes into the
-API management and is processed by the available to sell services which trigger events. The event streams can kick off
-long running processes that can, over time, require input from the external sources. The promotions and payments
-services both are used to update their respective activities; a sale of an item of stock, or the inclusion of a
-promotion on an item of stock.
+Stock control changes are needed anytime interactions happen with customers, store associates, vendors, suppliers, and partners. Customers purchase stock, triggering changes to be made to the inventory lists. Vendors deliver shipments to warehouses that require updating and processing of orders both in the warehouse inventory and to notify store of the stock availability. Just a few examples of this architecture in action. The update or change request comes into the API management and is processed by the available to sell services which trigger events. The event streams can kick off
+long running processes that can, over time, require input from the external sources. The promotions and payments services both are used to update their respective activities; a sale of an item of stock, or the inclusion of a promotion on an item of stock.
 
-The vendors, suppliers, and partners are shown with access to integration services that modify catalog management
-systems, logistics systems, supply chain systems, and order management systems that can be anywhere external to the
-organisation. Integration data services provide connections to the
-link:retaildataframework.adoc[retail data framework architecture].
+The vendors, suppliers, and partners are shown with access to integration services that modify catalog management systems, logistics systems, supply chain systems, and order management systems that can be anywhere external to the organization. 
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/retail-stock-control.drawio[[Open Diagrams]]
 --
+
+== Provide feedback 
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/realtimestock.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].

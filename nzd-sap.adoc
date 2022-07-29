@@ -28,19 +28,19 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 == The technology
 The following technology was chosen for this solution:
 
-*Red Hat Enterprise Linux for SAP Solutions* is combining an intelligent operating system with predictive management
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux for SAP Solutions*] is combining an intelligent operating system with predictive management
 tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
 available foundation for business-critical SAP and non-SAP workloads.
 
-*Red Hat Satellite* the smart management element in this architecture, used for tracking, managing, auditing, and
+https://www.redhat.com/en/technologies/management/satellite[*Red Hat Satellite*] the smart management element in this architecture, used for tracking, managing, auditing, and
 collecting data on the entire infrastructure to ensure that baselines are met.
 
-*Red Hat Smart Management*, which includes Satellite and Cloud Connector, provides the capability to gather
+https://www.redhat.com/en/technologies/management/smart-management[*Red Hat Smart Management*], which includes Satellite and Cloud Connector, provides the capability to gather
 anonymized configuration information from the SAP hosts and send that anonymized data to Insights Platform (on Red
 Hat’s SaaS). Satellite manages the lifecycle of the SAP servers, applying the packages, security fixes, etc., that
 they need to be compliant with SAP’s and Red Hat’s recommendations and consistent between them.
 
-*Red Hat Ansible Automation Platform* is the framework used in this solution to run the remediation Ansible
+https://www.redhat.com/en/technologies/management/ansible[*Red Hat Ansible Automation Platform*] is the framework used in this solution to run the remediation Ansible
 playbooks in the hosts that will correct the situations that could lead to a failure or issue, for example modifying
 a kernel memory parameter that can cause a bad performance of the SAP HANA DB or applying a certain level of an OS
 package that is needed for a particular version of SAP Netweaver.
@@ -97,9 +97,11 @@ playbook for it to be done in the former primary node of the cluster.
 After the intervention has been finished we can revert to the initial configuration of primary and secondary nodes 
 of the cluster or keep the current one.
 
-== Download diagrams
-https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/nzd-sap.drawio[View and download all of the diagrams above in our open source tooling site.]
-
+== Download solution diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/nzd-sap.drawio[[Open Diagrams]]
+--
 
 == Provide feedback 
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/nzd-sap.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].

@@ -8,9 +8,9 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toclevels: 5
 
 Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
-earn a profit. Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied
-where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
-small number of wholesale, corporate or government clientele.
+earn a profit. A data framework refers to the process of managing enterprise retail data. The framework or system sets
+the guidelines and rules of engagement for business and management activities, especially those that deal with or
+result in the creation and manipulation of data.
 
 *Use case:* Creating a framework for access to retail data from customers, stock, stores, and staff across multiple
 internal teams.
@@ -19,38 +19,39 @@ internal teams.
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/retail-data-framework-marketing-slide.png[750,700]
 --
 
-== The technology
---
+
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-data-framework-ld.png[750, 700]
---
 
-* The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+== The technology
+
+The following technology was chosen for this solution:
+
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-** *Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
+https://www.redhat.com/en/products/runtimes[*Red Hat OpenShift Runtimes*] helps organizations use the cloud delivery model and simplify continuous delivery of
 applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
 multiple modernization options to enable a smooth transition to the cloud for existing applications.
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+https://www.redhat.com/en/products/integration[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
-** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
+https://www.redhat.com/en/technologies/jboss-middleware/3scale[*Red Hat 3scale API Management*] makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
 your APIs on an infrastructure platform built for performance, customer control, and future growth.
 
-** *Red Hat Business Automation* is an application development platform that enables developers and business experts
+https://www.redhat.com/en/technologies/jboss-middleware/process-automation-manager[*Red Hat Business Automation*] is an application development platform that enables developers and business experts
 to create cloud-native applications that automate business operations.
 
-** *Red Hat OpenShift Data Science* is a managed cloud service for data scientists and developers of intelligent
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift Data Science*] is a managed cloud service for data scientists and developers of intelligent
 applications. It provides a fully supported sandbox in which to rapidly develop, train, and test machine learning (ML)
 models in the public cloud before deploying in production.
 
-** *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
 quickly and efficiently across clouds.
 
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
@@ -59,7 +60,7 @@ virtual, container, and all types of cloud environments.
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-data-framework-sd.png[750, 700]
 --
 
-This is a complex data story where many aspects of the retail organisation are linked to, feeding and leveraging output
+This is a complex data story where many aspects of the retail organization are linked to, feeding and leveraging output
 from this data framework; stores, central offices, colleagues, store associates, IoT devices, shopper insights,
 customer analytics, point of sale analytics, and much more. All of this input arrives through the API management by way
 of web applications (to simplify by grouping all access together) and is processed through data validation
@@ -70,19 +71,21 @@ this specific data request. The process will ensure message transformation if ne
 checks before leveraging the integration services to access the core platform or data science platform as needed.
 
 The core platform can be seen as the central IT location for other compliance and regulatory tooling, data governance
-tooling, auditing tooling, and centralised authentication and authorisation tooling. The data science platform is
-where the business intelligence tooling, data visualisation tooling, and data science tooling is found.
+tooling, auditing tooling, and centralized authentication and authorisation tooling. The data science platform is
+where the business intelligence tooling, data visualization tooling, and data science tooling is found.
 
 == Retail data framework data overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-data-framework-data-sd.png[750, 700]
 --
 
-This is the data flow overview with an example of data entrering from the various external sources shown. For details
-on the elements and what's happening, see the network overview above.
+This is the data flow overview with an example of data entrering from the various external sources shown. 
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/retail-data-framework.drawio[[Open Diagrams]]
 --
+
+== Provide feedback 
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/retaildataframework.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].

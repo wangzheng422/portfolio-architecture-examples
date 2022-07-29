@@ -11,6 +11,11 @@ This is a collection of various architectures featuring application development 
 |===
 |Title | Description
 
+|link:api-management-platform-for-sap.adoc[API management platform for SAP]
+|Integrate SAP and non-SAP applications seamlessly with an API first approach, adopting cloud native and microservices development
+patterns for new applications and stop developing inside SAP so that a basic core is kept, which dramatically speeds up and
+simplifies the upgrades.
+
 |link:businessoptimization.adoc[Business optimisation]
 |Optimizing delivery routing, automating rostering of staff, and improving efficiency of tasks across multiple stores.
 
@@ -35,6 +40,9 @@ applications in modern, dynamic environments such as public, private, and hybrid
 |link:idaas.adoc[Intelligent data as a service (iDaaS)]
 |Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure and scalable
 manner while driving data needs for moving towards consumerisation in healthcare.
+
+|link:intelligent-automation-workflow-for-claims.adoc[Intelligent automation workflow for claims]
+|TODO: description...
 
 |link:data-synthesis.adoc[Modernising testing with data synthesis]
 |Modernising testing with data synthesis is a testing innovation with focus around enabling massive amounts of data to

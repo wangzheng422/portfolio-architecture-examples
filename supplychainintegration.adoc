@@ -8,53 +8,41 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toclevels: 5
 
 Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
-earn a profit. Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied
-where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
-small number of wholesale, corporate or government clientele.
+earn a profit. Supply chain integration is a large-scale business strategy that brings as many links of the chain as
+possible into a closer working relationship with each other. The goal is to improve response time, production time, and
+reduce costs and waste.
 
-*Use case:* Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and
-other third-party interactions.
+*Use case:* Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other third-party interactions.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/supply-chain-integration-marketing-slide.png[750,700]
 --
 
-== The technology
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-supply-chain-ld.png[750, 700]
 --
+== The technology
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
-** *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+https://www.redhat.com/en/products/integration[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
-** *Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
-the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
-data with high throughput and low latency.
-
-** *Red Hat 3scale API Management* makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
-your APIs on an infrastructure platform built for performance, customer control, and future growth.
-
-** *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
-== Example supply chain integration
+== Supply Chain Integration example
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-supply-chain-sd.png[750, 700]
 --
 
-Access to the supply chain is via devices and applications used by suppliers, vendors, warehouse inventory, and order
-management. They are channeled through API management and generate an event stream that triggers any number of supply
-chain services to achieve the updates needed. These messages might need transforming before they are able to continue
-onwards through integration or data integration services to backend systems. In this diagram several external platforms
-are show being leveraged by this retail organisation; an AI/ML platform and a generic placeholder for any third-party
-supply chain systems of record. Finally, the data integration is connecting to the
-link:retaildataframework.adoc[retail data framework architecture].
+Access to the supply chain is via devices and applications used by suppliers, vendors, warehouse inventory, and order management. They are channeled through API management and generate an event stream that triggers any number of supply chain services to achieve the updates needed. These messages might need transforming before they can continue
+onwards through integration or data integration services to backend systems. In this diagram several external platforms are show being leveraged by this retail organization; an AI/ML platform and a generic placeholder for any third-party
+supply chain systems of record.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
@@ -62,3 +50,5 @@ View and download all of the diagrams above in our open source tooling site.
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/retail-supply-chain.drawio[[Open Diagrams]]
 --
 
+== Provide feedback 
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/supplychainintegration.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
