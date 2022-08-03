@@ -71,9 +71,9 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 By decoupling RAN software from the underlying hardware platforms, commodity hardware platforms can be used for deploying RAN components like CU (Central Units) and the DU (Distributed Units). This architecture supports the Open Radio Access Network deployment scenario, where the Distributed Units are located at the edge sites and Central Units located at the regional data center.
 The Radio Unit is deployed at the cell site.
 
-The regional data center hosts operators needed for deployment and operations of various infrastructure components like Intel wireless FEC accelerator, SR-IOV NIC accelerator, PTP, storage, logging, cluster management and GitOps.
+The regional data center hosts operators needed for deployment and operations of various infrastructure components like Intel wireless FEC accelerator, SR-IOV NIC accelerator, PTP, storage, logging, cluster management, and GitOps.
 
-Central data center hosts 5G core components and others management functions (cluster management, code/configuration repository) etc.
+The central data center hosts 5G core components and other management functions (cluster management, code/configuration repository) etc.
 
 O-RAN alliance defines the usage of the interfaces between:
 
@@ -94,11 +94,11 @@ As service providers deploy applications across multiple sites, new operational 
 * Overwhelming to verify components.
 * Difficulty in managing configurations, policies, and compliance.
 
-GitOps is the preferred solution  to manage such complex operational scenarios.
+GitOps is the preferred solution to manage such complex operational scenarios.
 
 GitOps Operator enables management of C-RAN and D-RAN components with GitOps workflows across multiple sites.
 
-The various components of RAN solution are orchestrated in a standardized manner using Kubernetes primitives and ACM. The event streaming data for various metrics and logs is enabled with Kafka.
+The various components of the RAN solution are orchestrated in a standardized manner using Kubernetes primitives and ACM. The event streaming data for various metrics and logs is enabled with Kafka.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
