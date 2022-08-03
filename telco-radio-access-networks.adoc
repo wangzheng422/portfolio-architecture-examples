@@ -29,8 +29,6 @@ Using this approach:
 * Increases flexibility
 * Provides the ability to spin workloads up and down with minimal effort
 * Allows resources to be scaled elastically to address changing network demands
-
-
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-ran-ld.png[750, 700]
 --
@@ -85,6 +83,9 @@ O-RAN alliance defines the usage of the interfaces between:
 * DU-RU (radio unit) – Open FrontHaul.
 * Orchestrator and Cloud Platform (O-Cloud) – O2 Interface.
 
+--
+== Radio Access Networks management and orchestration 
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-mgmt-sd.png[750, 700]
 --
 
