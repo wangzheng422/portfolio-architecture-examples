@@ -1,16 +1,16 @@
 = Telco 5G: Radio Access Networks
- Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  @ishuverma, William Henry @ipbabble,
+ Ishu Verma  @ishuverma, Hanen Garcia
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
-:description: 5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge
-:Keywords: Telco 5G, OpenShift, Ansible, Hybrid Cloud, Linux, Automation, Mobile Broadband
+:description: 5G RAN modernization by taking advantage of latest cloud technology
+:Keywords: Telco 5G, OpenShift, Ansible, Hybrid Cloud, Linux, Automation, Mobile Broadband, Radio Access Network
 :toc: left
 :toclevels: 5
 
 
-5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge including enhanced mobile broadband (eMBB), Ultra-reliable low lantency communication(uRLLC), and massive machine type communications (mMTC).
+Radio access network (RAN) is the part of a mobile network that connects end-user devices, like smartphones, to the cloud. For telecommunications network operators, RANs account for significant overall network expenses and key focus area as more edge and 5G use cases emerge for telco customers.
 
 *Use case:* The digital transformation of mobile networks is accelerating and cloudification is increasing. Following the core network, radio access network (RAN) solutions are now taking advantage of the benefits of cloud computing.
 
@@ -22,16 +22,13 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-ran-ld.png[750, 700]
 --
+
 == The technology
 
 The following technology was chosen for this solution:
 
 *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
 provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
-
-*Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
-the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
-data with high throughput and low latency.
 
 *Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
 ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
@@ -55,22 +52,59 @@ quickly and efficiently across clouds.
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
+The traditional RAN solution is getting disaggregated by:
+
+* Splitting the remote radio head and baseband unit → radio unit, distributed unit and centralized unit (user and control plane)
+* Decoupling the dedicated hardware → COTS and general purpose hardware available with CSPs
+
+Using this approach:
+
+* Uses less (and less expensive) hardware
+* Increases flexibility
+* Provides the ability to spin workloads up and down with minimal effort
+* Allows resources to be scaled elastically to address changing network demands
+
 == Telco 5G Radio Access Networks
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-sd.png[750, 700]
 
+By decoupling RAN software from the underlying hardware platforms, commodity hardware platforms can be used for deploying RAN components like CU (Central Units) and the DU (Distributed Units). This architecture supports the Open Radio Access Network deployment scenario, where the Distributed Units are located at the edge sites and Central Units located at the regional data center.
+The Radio Unit is deployed at the cell site.
+
+The regional data center hosts operators needed for deployment and operations of various infrastructure components like Intel wireless FEC accelerator, SR-IOV NIC accelerator, PTP, storage, logging, cluster management and GitOps.
+
+Central data center hosts 5G core components and others management functions (cluster management, code/configuration repository) etc.
+
+O-RAN alliance defines the usage of the interfaces between:
+
+* Orchestrator and RAN components – A1 interface.
+* RIC (RAN Intelligent Controller) and CU/DU – E2 Interface.
+* CU-CP (control plane) and CU-UP (user plane) – E1 Interface.
+* CU-DU – F1 interface.
+* DU-RU (radio unit) – Open FrontHaul.
+* Orchestrator and Cloud Platform (O-Cloud) – O2 Interface.
+
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-mgmt-sd.png[750, 700]
 --
 
-This architecture supports the following Open Radio Access Network deployment scenarios such as decentralized, where
-the Distributed Units are located at the cell site and centralized, where the Distributed Units are located at the edge
-site and Central Units located at the regional data center.
+As service providers deploy applications across multiple sites, new operational & business challenges arise. Some of those challenges include the following:
+
+* Apps are difficult to manage at scale and error prone.
+* Inconsistency with security controls across environments.
+* Overwhelming to verify components.
+* Difficulty in managing configurations, policies, and compliance.
+
+GitOps is the preferred solution  to manage such complex operational scenarios.
+
+GitOps Operator enables management of C-RAN and D-RAN components with GitOps workflows across multiple sites.
+
+The various components of RAN solution are orchestrated in a standardized manner using Kubernetes primitives and ACM. The event streaming data for various metrics and logs is enabled with Kafka.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
-https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb-v25.drawio[[Open Diagrams]]
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/telco-ran-pb.drawio[[Open Diagrams]]
 --
 
-== Provide feedback 
+== Provide feedback
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/telco-radio-access-networks.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
