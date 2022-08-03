@@ -10,7 +10,7 @@
 :toclevels: 5
 
 
-Radio access network (RAN) is the part of a mobile network that connects end-user devices, like smartphones, to the cloud for telecommunications network operators and RANs accounts for significant overall network expenses and key focus area as more edge and 5G use cases emerge for telco customers.
+Radio access network (RAN) is the part of a mobile network that connects end-user devices, like smartphones, to the cloud for telecommunications network operators and RANs accounts for significant overall network expenses and key focus areas as more edge and 5G use cases emerge for telco customers.
 
 *Use case:* The digital transformation of mobile networks is accelerating and cloudification is increasing. Following the core network, radio access network (RAN) solutions are now taking advantage of the benefits of cloud computing.
 
@@ -40,7 +40,7 @@ The following technology was chosen for this solution:
 *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It
 provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-*Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
+*Red Hat Smart Management* combines flexible and powerful infrastructure management capabilities with the
 ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
 Linux, from physical machines to hybrid multiclouds.
 
