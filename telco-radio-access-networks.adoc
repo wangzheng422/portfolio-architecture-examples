@@ -18,6 +18,18 @@ Radio access network (RAN) is the part of a mobile network that connects end-use
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-ran-marketing-slide.png[750,700]
 --
 
+The traditional RAN solution is getting disaggregated by:
+
+* Splitting the remote radio head and baseband unit → radio unit, distributed unit and centralized unit (user and control plane)
+* Decoupling the dedicated hardware → COTS and general purpose hardware available with CSPs
+
+Using this approach:
+
+* Uses less (and less expensive) hardware
+* Increases flexibility
+* Provides the ability to spin workloads up and down with minimal effort
+* Allows resources to be scaled elastically to address changing network demands
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-ran-ld.png[750, 700]
@@ -52,17 +64,6 @@ quickly and efficiently across clouds.
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 
-The traditional RAN solution is getting disaggregated by:
-
-* Splitting the remote radio head and baseband unit → radio unit, distributed unit and centralized unit (user and control plane)
-* Decoupling the dedicated hardware → COTS and general purpose hardware available with CSPs
-
-Using this approach:
-
-* Uses less (and less expensive) hardware
-* Increases flexibility
-* Provides the ability to spin workloads up and down with minimal effort
-* Allows resources to be scaled elastically to address changing network demands
 
 == Telco 5G Radio Access Networks
 --
