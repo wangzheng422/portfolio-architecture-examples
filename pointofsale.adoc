@@ -14,6 +14,7 @@ system is the hardware and software that enables your business to make those sal
 
 ====
 *Business Drivers for Point of Sale*
+
 . Remote management of all PoS 
 . Consistency of PoS estate; security and updates
 . Automated build, manage, and deployment

@@ -13,6 +13,7 @@ Being such critical systems, the need to prevent potential issues is of the utmo
 
 ====
 *Smart Management for SAP*
+
 . Full lifecycle management of all SAP hosts 
 . Minimization of maintenance downtimes
 . Proactive detection and automatic remediation of potential issues

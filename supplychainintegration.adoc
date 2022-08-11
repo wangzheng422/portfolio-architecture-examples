@@ -14,6 +14,7 @@ reduce costs and waste.
 
 ====
 *Supply Chain Integration*
+
 . Connect multiple 3rd party systems within supply chain
 . Integrate AI/ML information with data passed to 3rd party supply chain systems
 . Reuse existing 3rd party systems whilst transitioning to new systems

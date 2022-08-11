@@ -14,6 +14,7 @@ operational safety and optimization.
 
 ====
 *Data center to edge*
+
 . Modernize operations from data center to edge
 . Real time access to IoT data
 . Dynamic energy management in response to customer demand

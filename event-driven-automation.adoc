@@ -11,6 +11,7 @@ With the growing complexity of our modern infrastructures, the importance of aut
 
 ====
 *Why Event Driven Automation?*
+
 . Automate the remediation of events from monitored hosts
 . Scalable patching and security compliance updates
 . Security and compliance enforcement and emergency response

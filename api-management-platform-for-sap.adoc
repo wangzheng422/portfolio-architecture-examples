@@ -13,6 +13,7 @@ This architecture covers API management platform for SAP. Typically SAP systems 
 
 ====
 *Why API Management Platform for SAP ?*
+
 . Increase development efficiency by consolidating system integration functions
 . Avoid modifications to business processes  derived from the format changes introduced by the migration  to SAP S/4HANA 
 . Reduce maintenance costs by minimizing development of SAP add-ons and more generally not creating custom developments in the SAP core

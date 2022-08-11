@@ -11,6 +11,7 @@ Large enterprises may use this Cloud Factory architecture in order to deploy and
 
 ====
 *Cloud Factory*
+
 . Efficient and repeatable cloud deployment
 . Have a life-cycle for the cloud itself
 . Address specific needs with specific cloud

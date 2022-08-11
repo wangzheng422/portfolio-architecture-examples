@@ -13,6 +13,7 @@ across all of the the servers in order to reduce risk and costs.
 
 ====
 *Why Remote Server Management?*
+
 . Consistency of RHEL estate across all public clouds and datacenters
 . Full lifecycle management 
 . Remote management and automation

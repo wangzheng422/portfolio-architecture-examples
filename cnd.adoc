@@ -18,6 +18,7 @@ the foundation for newer development models such as serverless computing and Fun
 
 ====
 *Cloud Native Development*
+
 . Consistent development workflow for local and remote container platform
 . Hybrid cloud development and deployment strategy
 . Consistent enterprise image registry strategy

@@ -13,6 +13,7 @@ individuals to buy and sell goods and services over the Internet.
 
 ====
 *Why Headless eCommerce?*
+
 . Consistency across multiple customers channels or brands
 . Dynamic scaling to match customer demand
 . Reduce reaction time to changing market conditions
