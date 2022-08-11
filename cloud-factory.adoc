@@ -24,28 +24,30 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-https://www.redhat.com/en/technologies/linux-platforms/openstack-platform[*Red Hat OpenStack Platform*] is an essential part of the factory where it virtualizes resources from hardware, organizes those
+====
+https://www.redhat.com/en/technologies/linux-platforms/openstack-platform?intcmp=7013a00000318EWAAY[*Red Hat OpenStack Platform*] is an essential part of the factory where it virtualizes resources from hardware, organizes those
 resources into clouds, and manages them.  So automation can be done on top of it allowing access to hardware when they need it.
 
-https://www.redhat.com/en/technologies/storage/ceph[*Red Hat Ceph Storage*] is a software-defined storage solution that is simple to set up, supports automation, and easy to
+https://www.redhat.com/en/technologies/storage/ceph?intcmp=7013a00000318EWAAY[*Red Hat Ceph Storage*] is a software-defined storage solution that is simple to set up, supports automation, and easy to
 scale and manage. It's a good cloud factory choice because it's ability to store data as objects that can be easily
 shared across a network.
 
-https://www.redhat.com/en/technologies/management/ansible[*Red Hat Ansible Automation Platform*] builds and operates automation as code. The platform acts as the centralized
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] builds and operates automation as code. The platform acts as the centralized
 control to execute the code for deployment and remediation based on the analysis of collected environment data.
 
-https://www.redhat.com/en/technologies/management/satellite[*Red Hat Satellite*] manages the infrastructure, provides versioning and management of trusted softwares for containers,
+https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] manages the infrastructure, provides versioning and management of trusted softwares for containers,
 RPMs or libraries used in applications.
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] hosts virtual, container, and many types of cloud environments.
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] hosts virtual, container, and many types of cloud environments.
 
-https://www.redhat.com/en/technologies/virtualization/enterprise-virtualization[*Red Hat Virtualisation*] virtualization workloads built on Red Hat Enterprise Linux and KVM.
+https://www.redhat.com/en/technologies/virtualization/enterprise-virtualization?intcmp=7013a00000318EWAAY[*Red Hat Virtualisation*] virtualization workloads built on Red Hat Enterprise Linux and KVM.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] the Kubernetes container platform that provides a consistent application platform to manage hybrid
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] the Kubernetes container platform that provides a consistent application platform to manage hybrid
 cloud, multicloud, and edge deployments.
 
-https://access.redhat.com/products/identity-management[*Red Hat Identity Management*] is used for applying centralized and unified identity management authentication, policies, and
+https://access.redhat.com/products/identity-management?intcmp=7013a00000318EWAAY[*Red Hat Identity Management*] is used for applying centralized and unified identity management authentication, policies, and
 authorization policies to all cloud builds.
+====
 
 
 == Cloud Factory network overview

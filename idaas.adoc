@@ -26,23 +26,25 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-https://www.redhat.com/en/products/integration[*Red Hat Integration*] utilizes the connectors for HL7 and FHIR, interoperate in/out of clinic systems, and connect to
+====
+https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] utilizes the connectors for HL7 and FHIR, interoperate in/out of clinic systems, and connect to
 third-party data sources. Establish and manage API and connectors to clinical and financial entities. Integrate and
 streams real-time data and events securely between systems. Also provide high throughput receiver for  edge signal and
 events.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation[*Red Hat OpenShift Data Foundations*] software-defined storage for health records, images, events and knowledge base
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] software-defined storage for health records, images, events and knowledge base
 repositories. Easily scale across data-center and clouds.
 
-https://www.redhat.com/en/products/runtimes[*Red Hat OpenShift Runtimes*] simplifies continuous delivery of applications with frameworks such as Spring Boot and
+https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] simplifies continuous delivery of applications with frameworks such as Spring Boot and
 Quarkus. Full stack kubernetes-native Java framework for microservices and native compilation.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] is the base platform for iDaaS, an enterprise-ready Kubernetes container orchestration and management
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is the base platform for iDaaS, an enterprise-ready Kubernetes container orchestration and management
 platform. It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
+====
 
 
 == iDaaS overview
