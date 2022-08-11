@@ -25,32 +25,34 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+====
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-https://www.redhat.com/en/technologies/management/ansible[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization.
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization.
 The platform includes all the tools needed to implement enterprise-wide automation.
 
-https://www.redhat.com/en/technologies/management/insights[*Red Hat Insights*] continuously analyzes platforms and applications to predict risk, recommend actions, and track
+https://www.redhat.com/en/technologies/management/insights?intcmp=7013a00000318EWAAY[*Red Hat Insights*] continuously analyzes platforms and applications to predict risk, recommend actions, and track
 costs so enterprises can better manage hybrid cloud environments.
 
-https://www.redhat.com/en/technologies/management/smart-management[*Red Hat Smart Management*] combines the flexible and powerful infrastructure management capabilities with the
+https://www.redhat.com/en/technologies/management/smart-management?intcmp=7013a00000318EWAAY[*Red Hat Smart Management*] combines the flexible and powerful infrastructure management capabilities with the
 ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
 Linux, from physical machines to hybrid multiclouds.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
 quickly and efficiently across clouds.
 
-https://www.redhat.com/en/technologies/management/satellite[*Red Hat Satellite*] is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
+https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
 environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
 
-https://www.redhat.com/en/technologies/cloud-computing/quay[*Red Hat Quay*] is a private container registry that stores, builds, and deploys container images. It analyzes your
+https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318EWAAY[*Red Hat Quay*] is a private container registry that stores, builds, and deploys container images. It analyzes your
 images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
+====
 
 == Remote Server Management
 --

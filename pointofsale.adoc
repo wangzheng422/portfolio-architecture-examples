@@ -27,26 +27,27 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
+====
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-https://www.redhat.com/en/technologies/management/ansible[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization.
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization.
 The platform includes all the tools needed to implement enterprise-wide automation.
 
-https://www.redhat.com/en/products/integration[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and
+https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
-https://www.redhat.com/en/technologies/management/satellite[*Red Hat Satellite*] is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
+https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
 environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
 
-https://www.redhat.com/en/technologies/storage/ceph[*Red Hat Ceph Storage*] is an open, massively scalable, simplified storage solution for modern data pipelines.
+https://www.redhat.com/en/technologies/storage/ceph?intcmp=7013a00000318EWAAY[*Red Hat Ceph Storage*] is an open, massively scalable, simplified storage solution for modern data pipelines.
 Engineered for data analytics, artificial intelligence/machine learning (AI/ML), and emerging workloads, it delivers
 software-defined storage on your choice of industry-standard hardware.
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
-
+====
 
 == Point of sale image delivery
 --

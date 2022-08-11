@@ -50,7 +50,7 @@ private and public clouds as it brings choices and flexible for hosting system a
 *IBM Cloud Pak for Data* unify and simplify the collection, organization and analysis of data. 
 ====
 
-<<<
+
 == Intelligent, smart automation for claims(AI/ML workflow)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-aiml-workflow.png[750,700]
@@ -75,7 +75,7 @@ The *Insurer End User such as Adjuster / CSR / Admin* high-level steps of this i
 
 
 
-<<<
+
 == Co-existing with Legacy and Accelerate with New
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-strangler-pattern.png[750,700]

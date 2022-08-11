@@ -23,7 +23,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-
+====
 *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
 It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
@@ -37,6 +37,7 @@ images for security vulnerabilities, identifying potential issues that can help 
 *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
+====
 
 
 == Cloudlets at edge GitOps (network)
