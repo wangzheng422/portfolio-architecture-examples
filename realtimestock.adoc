@@ -12,6 +12,13 @@ earn a profit. Real-time inventory management is an automated process of recordi
 of software. It gives you a complete picture of what's happening with inventory, allowing your business to react
 quickly to supply chain needs.
 
+====
+*Real-Time Stock Control*
+. Maintain accurate stock levels across all channels
+. Real-time stock inventory visible to customers, business and 3rd parties
+. Avoid under or over stocking
+====
+
 *Use case:* Providing (near) real-time stock positions and dynamic pricing promotions information to retailer
 omnichannels.
 

@@ -12,6 +12,13 @@ Our world  transformed overnight, and healthcare had to respond immediately. Now
 situations without being vendor-dependent. The solution presented here covers the use case around using intelligent data as a service in the healthcare industry. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help
 with a flexible, open approach.
 
+====
+*Intelligent Data as a Service*
+. Getting access to data from our disparate systems
+. Finding better ways to take action based on real-time data
+. Focus on data where it lives for reusability, scalability and extensibility
+====
+
 *Use case:* Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure
 and scalable manner while driving data needs for moving towards consumerization in healthcare.
 

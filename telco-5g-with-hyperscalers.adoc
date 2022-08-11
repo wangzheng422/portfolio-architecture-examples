@@ -13,6 +13,13 @@
 5G is the latest evolution of wireless mobile technology. In this portfolio architecture we'll discuss a 5G solution
 built with open source technologies at core, that can work across any hyperscaler.
 
+====
+*Telco 5G with Hyperscalers*
+. Cloud native, disaggregated, scalable and  agile 5G core
+. Custom networks with unique characteristics on a shared infrastructure
+. Cost effective, highly scalable, automatable with minimal ROI risk
+====
+
 *Use case:* Build an adaptable, on-demand infrastructure services for 5G Core that can deliver across diverse use
 cases with minimal CAPEX and OPEX.
 

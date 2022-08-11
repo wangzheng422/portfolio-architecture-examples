@@ -12,6 +12,14 @@ As enterprises transition to public and/or private clouds, it is important to
 provide automation to manage and scale server deployments and to provide the capability to transition servers between
 data centers and cloud providers. This provides flexibility and portability.
 
+====
+*Cloud Adoption*
+. Consistency of RHEL estate across all public clouds and datacenters
+. Quickly scale cloud deployments 
+. Remote management and automation
+====
+
+
 *Use case:* Accelerating cloud adoption with effective automation for deploying and managing workloads across multiple
 cloud infrastructures according to performance, security, compliance, and cost requirements.
 

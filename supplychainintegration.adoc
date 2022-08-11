@@ -12,6 +12,13 @@ earn a profit. Supply chain integration is a large-scale business strategy that 
 possible into a closer working relationship with each other. The goal is to improve response time, production time, and
 reduce costs and waste.
 
+====
+*Supply Chain Integration*
+. Connect multiple 3rd party systems within supply chain
+. Integrate AI/ML information with data passed to 3rd party supply chain systems
+. Reuse existing 3rd party systems whilst transitioning to new systems
+====
+
 *Use case:* Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other third-party interactions.
 
 --

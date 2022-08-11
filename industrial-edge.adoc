@@ -13,6 +13,14 @@ fuel innovation, production optimization, and operations. Now, with the combinat
 manufacturers can benefit from bringing processing power closer to data. This helps actions be taken faster on things
 like errors and predictive maintenance.
 
+====
+*Industrial Edge*
+. Provides real-time insights from edge to centralized sites
+. Reducing maintenance costs 
+. Secure GitOps and DevOps management  across core and factory sites 
+====
+
+
 *Use case:* Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out
 to the edge.
 

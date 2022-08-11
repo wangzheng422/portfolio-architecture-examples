@@ -9,6 +9,13 @@ Eric D. Schabell @eschabell, Ramon Villarreal @rvillarr
 
 This architecture covers the use case around using payments architecture in the financial services domain. An offering of (near) real-time payments allows businesses, consumers, and governments to send and accept funds that provide both availability to the recipient and instant confirmation to the sender. Enabling real-time payments improves the speed of the online payment experiences to customers and gives banks a greater opportunity to win, serve, and retain their customers. By building solutions that capture real-time payment business, banks also can drive higher payment volumes, ideally at lower costs as well as engage new customer segments.
 
+====
+*Business driver for Payments*
+. Better transparency into actual account balances
+. Improved ability to monitor payments for fraud
+. Generation of real-time payments data for analytics
+====
+
 *Use case:* Financial institutions enabling customers with fast, easy to use, and safe payment services available anytime, anywhere.
 
 --

@@ -12,6 +12,13 @@
 
 Radio access network (RAN) is the part of a mobile network that connects end-user devices, like smartphones, to the cloud for telecommunications network operators and RANs accounts for significant overall network expenses and key focus areas as more edge and 5G use cases emerge for telco customers.
 
+====
+*Telco 5G: Radio Access Networks*
+. Cloud native, disaggregated, scalable and agile Radio Access Network
+. Custom networks with unique characteristics on a shared infrastructure
+. Cost effective, security conscious and use case adoptable
+====
+
 *Use case:* The digital transformation of mobile networks is accelerating and cloudification is increasing. Following the core network, radio access network (RAN) solutions are now taking advantage of the benefits of cloud computing.
 
 --

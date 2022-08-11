@@ -11,6 +11,12 @@ Ricardo Garcia Cavero @ipbabble
 This architecture covers Smart Management for RHEL servers hosting SAP workloads. SAP landscapes are usually very complex with a high number of servers and dependencies. SAP workloads are really performance demanding and new recommendations need to be applied whenever a new release of the OS or the workload is certified. Maintaining all the servers in these landscapes aligned and up to date with the latest recommendations can be really challenging.
 Being such critical systems, the need to prevent potential issues is of the utmost importance. The combination of Red Hat Insights with all its SAP specific rules to detect potential problems, Red Hat Automation Platform to remediate them before they occur and Red Hat Satellite to manage the servers' lifecycle is a ‌powerful tool to make sure that the SAP workloads will be healthy and operate smoothly.
 
+====
+*Smart Management for SAP*
+. Full lifecycle management of all SAP hosts 
+. Minimization of maintenance downtimes
+. Proactive detection and automatic remediation of potential issues
+====
 
 *Use case:* Managing security, policy and patches for all the servers in the SAP ecosystem (on-premise, public, private
 and hybrid cloud), making sure they are compliant with SAP and Red Hat's recommendations through their entire lifecycle.

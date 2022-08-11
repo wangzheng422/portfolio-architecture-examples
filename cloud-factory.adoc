@@ -9,6 +9,13 @@ Eric Lavarde @L1
 == Solution summary
 Large enterprises may use this Cloud Factory architecture in order to deploy and manage their cloud in a modern and automated manner. This architecture covers the deployment pertaining to one code base using the principles of Infrastructure as Code. This architecture addresses adapting to needs with specific clouds creating an efficient repeatable cloud deployment. 
 
+====
+*Cloud Factory*
+. Efficient and repeatable cloud deployment
+. Have a life-cycle for the cloud itself
+. Address specific needs with specific cloud
+====
+
 *Use case:* Deploy multiple private clouds based on the same infrastructure as code using different parameters and Ansible inventories.
 
 --
@@ -45,8 +52,6 @@ https://www.redhat.com/en/technologies/virtualization/enterprise-virtualization?
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] the Kubernetes container platform that provides a consistent application platform to manage hybrid
 cloud, multicloud, and edge deployments.
 
-https://access.redhat.com/products/identity-management?intcmp=7013a00000318EWAAY[*Red Hat Identity Management*] is used for applying centralized and unified identity management authentication, policies, and
-authorization policies to all cloud builds.
 ====
 
 

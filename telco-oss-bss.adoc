@@ -12,6 +12,10 @@
 
 OSS and BSS aim to enable network operators to efficiently and reliably  offer existing services with lower cost and the new services with better revenue models. In this portfolio architecture we'll discuss next generation cloud ready OSS and BSS for next generation communication solutions (e.g. 5G/6G). It enables service providers to deliver the right set of capabilities with a multi-cloud approach while leveraging common platform layers with various options and open-source platform solutions, backed with enterprise service level agreements (SLA)
 
+====
+*Telco OSS/BSS Modernization*
+
+====
 
 *Use case:* Build an adaptable, on-demand infrastructure services for OSS/BSS that can deliver across diverse use
 cases with minimal CAPEX and OPEX.

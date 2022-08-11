@@ -10,6 +10,13 @@
 This architecture covers the use case of providing a consistent infrastructure experience from cloud to edge and
 enabling modern containerized applications at edge. The edge sites could be fixed or mobile and need to continue to operate even when disconnected from core data center. This architecture is applicable across a number of verticals including public sector, transportation, defense etc.
 
+====
+*Why Cloudlets at Edge?*
+. 
+. 
+. 
+====
+
 *Use case:* Bringing cloud like capabilities to the edge locations.
 
 --

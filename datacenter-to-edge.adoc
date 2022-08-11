@@ -12,6 +12,13 @@ operate across vast geographical area that connects the upstream drilling operat
 and delivery to customers. These companies need to monitor the condition of pipeline and other infrastructure for
 operational safety and optimization.
 
+====
+*Data center to edge*
+. Modernize operations from data center to edge
+. Real time access to IoT data
+. Dynamic energy management in response to customer demand
+====
+
 *Use case:* Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
 
 --

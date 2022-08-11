@@ -12,6 +12,13 @@ administrators to finish updates and maintenance tasks properly in time. This so
 and system updates, as well as database patching and version updates, and SAP kernel updates. With this portfolio architecture implemented users can continue to work inside SAP, without noticing
 any disruption.
 
+====
+*Near Zero Downtime Maintenance for SAP*
+. Full lifecycle management of all SAP hosts 
+. Keep the SAP landscape compliant and consistent
+. Avoid disruptions during maintenance
+====
+
 *Use case:* Minimizing the downtime of the maintenance on SAP hosts so that users and processes can continue to work
 without perceiving any interruption.
 
