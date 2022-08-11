@@ -12,6 +12,13 @@ earn a profit. Retailers satisfy demand identified through a supply chain. The t
 where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
 small number of wholesale, corporate or government clientele.
 
+====
+*Business Optimization*
+. Consistency of planning results across stores and businesses
+. Remove manual changes and colleagues from planning problems 
+. Improve efficiency of planning problem challenges
+====
+
 *Use case:* Optimizing delivery routing, automating rostering of staff, and improving efficiency of tasks across
 multiple stores.
 

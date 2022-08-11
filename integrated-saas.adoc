@@ -11,6 +11,13 @@ Integrating with Software-as-a-Service (SaaS) applications is the process of ope
 to other separate computer systems or applications into a single larger system, allowing each solution to functionally
 work together.
 
+====
+*Integrating with SaaS applications*
+. Managing updates to SaaS applications back into processes
+. Integration with SaaS applications
+. Integration with SaaS platforms
+====
+
 *Use case:* Providing integration with SaaS applications, platforms, and services empowers organizations to build and
 run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
 

@@ -12,6 +12,13 @@ consume. Keeping infrastructure safe and compliant is a challenge for many organ
 approaches to infrastructure management today is the combination of using historical data-driven insights and
 automation tools for applying remediation across a scaling estate of hosts in a targeted and prioritized manner.
 
+====
+*Cloud Factory*
+. System consistency across hybrid cloud estates
+. Full lifecycle, content, and compliance management 
+. Automated detection and remediation with remote management
+====
+
 *Use case:* Managing security, policy and patches for a large number of servers in data centers or public/private clouds.
 
 --

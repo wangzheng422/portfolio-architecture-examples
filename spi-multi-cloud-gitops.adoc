@@ -12,6 +12,12 @@ simplified container platform that secures and supports a hybrid environment
 across multiple cloud solutions. The automated infrastructure as code approach can manage the versioning and deploy according to the
 configuration.
 
+====
+*Why Hybrid Multicloud management with GitOps ?*
+. Unify management across cloud environments.
+. Dynamic infrastructure security.
+. Infrastructural continuous delivery best practices.
+====
 
 *Use case:* Manage hybrid and multicloud cluster lifecycle, secure configuration and credentials. GitOps for
 infrastructure as code approach. Cross cluster governance and application lifecycle management.

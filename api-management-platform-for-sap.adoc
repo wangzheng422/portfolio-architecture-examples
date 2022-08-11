@@ -11,6 +11,13 @@ Ricardo Garcia Cavero @ipbabble
 
 This architecture covers API management platform for SAP. Typically SAP systems interact with a large number of heterogeneous applications that use different protocols and formats. To ensure transparency for users and business continuity a solution is needed that translates the data from SAP into the formats that the 3rd party applications will understand and vice versa, while abstracting those details so that developers and application users do not need to know the structure of the data in SAP. This also plays a very important role in the move of custom code out of the core of SAP, which is one of the main premises of the migration to SAP S/4HANA, to keep the core clean, greatly simplifying the migration process since prior to it all that custom code can be moved out but kept connected to the core with the API integration
 
+====
+*Why API Management Platform for SAP ?*
+. Increase development efficiency by consolidating system integration functions
+. Avoid modifications to business processes  derived from the format changes introduced by the migration  to SAP S/4HANA 
+. Reduce maintenance costs by minimizing development of SAP add-ons and more generally not creating custom developments in the SAP core
+====
+
 *Use case:* Integrate SAP and non-SAP applications seamlessly with an API first approach, adopting cloud native and microservices development patterns for new applications and stop developing inside SAP so that a basic core is kept, which dramatically speeds up and simplifies the upgrades.
 
 --

@@ -11,6 +11,13 @@ Retail is the process of selling consumer goods or services to customers through
 earn a profit. Store health and safety is all about managing risks to protect workers and stores. In a global context,
 health and safety is also an essential part of the movement towards sustainable operational growth.
 
+====
+*Store Health and Safety*
+. Ensure consistency of actions across stores
+. Reduce manual effort on store operations, health and safety
+. Free up colleagues to focus on customers
+====
+
 *Use case:* Managing effective in-store compliance, health & safety, and employee checks and procedures.
 
 --

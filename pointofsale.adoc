@@ -12,6 +12,13 @@ earn a profit. A point of sale, or point of purchase, is where you ring up custo
 walk up to your counter, or pick out an item from your stand or booth, they're at the point of sale. Your point-of-sale
 system is the hardware and software that enables your business to make those sales.
 
+====
+*Business Drivers for Point of Sale*
+. Remote management of all PoS 
+. Consistency of PoS estate; security and updates
+. Automated build, manage, and deployment
+====
+
 *Use case:* Simplifying and modernizing central management of distributed point-of-sale devices with built in support
 for container based applications.
 

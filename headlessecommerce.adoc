@@ -11,6 +11,13 @@ Retail is the process of selling consumer goods or services to customers through
 earn a profit. The term electronic commerce (e-commerce) refers to a business model that allows companies and
 individuals to buy and sell goods and services over the Internet.
 
+====
+*Why Headless eCommerce?*
+. Consistency across multiple customers channels or brands
+. Dynamic scaling to match customer demand
+. Reduce reaction time to changing market conditions
+====
+
 *Use case:* Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce
 platform.
 

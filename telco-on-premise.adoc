@@ -19,6 +19,13 @@ internally and externally over well defined standard interfaces.
 Each 5GC component is implemented as a container-based application and is referred to as cloud-native network
 function (CNF).
 
+====
+*Telco 5G Core: On Premise*
+. Cloud native, disaggregated, scalable and  agile 5G core
+. Custom networks with unique characteristics on a shared infrastructure
+. Cost effective, security conscious and use case adoptable
+====
+
 *Use case:* Ultra-reliable, immersive experiences for people and objects when and where it matters most.
 
 --

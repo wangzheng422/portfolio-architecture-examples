@@ -12,6 +12,13 @@ earn a profit. A data framework refers to the process of managing enterprise ret
 the guidelines and rules of engagement for business and management activities, especially those that deal with or
 result in the creation and manipulation of data.
 
+====
+*Retail Data Framework*
+. Accurate data available to all business areas
+. Data stored in most appropriate location
+. Reduce impact of incorrect data on business
+====
+
 *Use case:* Creating a framework for access to retail data from customers, stock, stores, and staff across multiple
 internal teams.
 
