@@ -12,6 +12,7 @@ enabling modern containerized applications at edge. The edge sites could be fixe
 
 ====
 *Why Cloudlets at Edge?*
+
 . 
 . 
 . 

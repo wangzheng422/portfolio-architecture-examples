@@ -21,6 +21,7 @@ function (CNF).
 
 ====
 *Telco 5G Core: On Premise*
+
 . Cloud native, disaggregated, scalable and  agile 5G core
 . Custom networks with unique characteristics on a shared infrastructure
 . Cost effective, security conscious and use case adoptable

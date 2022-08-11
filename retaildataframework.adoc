@@ -14,6 +14,7 @@ result in the creation and manipulation of data.
 
 ====
 *Retail Data Framework*
+
 . Accurate data available to all business areas
 . Data stored in most appropriate location
 . Reduce impact of incorrect data on business

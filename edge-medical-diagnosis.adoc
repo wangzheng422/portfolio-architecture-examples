@@ -12,6 +12,7 @@ This architecture covers the use case around Edge Medical Diagnosis in the healt
 
 ====
 *Why Edge Medical Diagnosis?*
+
 . Need for faster medical diagnosis of diseases
 . Provide expert-assist to medical experts to reduce time spent on routine diagnosis
 . Focus medical expert time on most difficult to interpret cases

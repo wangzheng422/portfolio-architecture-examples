@@ -15,6 +15,7 @@ built with open source technologies at core, that can work across any hyperscale
 
 ====
 *Telco 5G with Hyperscalers*
+
 . Cloud native, disaggregated, scalable and  agile 5G core
 . Custom networks with unique characteristics on a shared infrastructure
 . Cost effective, highly scalable, automatable with minimal ROI risk

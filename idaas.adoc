@@ -14,6 +14,7 @@ with a flexible, open approach.
 
 ====
 *Intelligent Data as a Service*
+
 . Getting access to data from our disparate systems
 . Finding better ways to take action based on real-time data
 . Focus on data where it lives for reusability, scalability and extensibility

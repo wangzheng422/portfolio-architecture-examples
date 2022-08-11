@@ -19,6 +19,7 @@ enable access to complex process services.
 
 ====
 *Omnichannel Customer Experience*
+
 . Data management, security, and user access
 . Multiple protocol support through different integration technologies
 . Distributed deployments, non-centralized integration

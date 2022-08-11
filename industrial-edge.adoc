@@ -15,6 +15,7 @@ like errors and predictive maintenance.
 
 ====
 *Industrial Edge*
+
 . Provides real-time insights from edge to centralized sites
 . Reducing maintenance costs 
 . Secure GitOps and DevOps management  across core and factory sites 

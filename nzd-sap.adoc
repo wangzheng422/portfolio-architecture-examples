@@ -14,6 +14,7 @@ any disruption.
 
 ====
 *Near Zero Downtime Maintenance for SAP*
+
 . Full lifecycle management of all SAP hosts 
 . Keep the SAP landscape compliant and consistent
 . Avoid disruptions during maintenance

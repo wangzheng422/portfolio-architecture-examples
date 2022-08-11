@@ -14,6 +14,7 @@ data centers and cloud providers. This provides flexibility and portability.
 
 ====
 *Cloud Adoption*
+
 . Consistency of RHEL estate across all public clouds and datacenters
 . Quickly scale cloud deployments 
 . Remote management and automation
