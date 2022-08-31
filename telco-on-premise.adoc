@@ -8,6 +8,7 @@
 :Keywords: Telco 5G, OpenShift, Ansible, Hybrid Cloud, Linux, Automation, Mobile Broadband
 :toc: left
 
+== Solution Summary
 
 5G is the latest evolution of wireless mobile technology that aims to enable the delivery of highly immersive
 experiences for people and ultra reliable, low latency communication between devices. At the heart of each 5G network
