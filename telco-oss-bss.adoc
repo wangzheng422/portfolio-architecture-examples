@@ -1,5 +1,5 @@
 = Telco OSS/BSS Modernization
- Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  @ishuverma, Fatih Nar, Partrick Farley, Aviv Guetta
+Fatih Nar https://www.linkedin.com/in/fenar/  Ishu Verma  @IoT_Ishu, Fatih Nar, Partrick Farley, Aviv Guetta
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
@@ -10,15 +10,16 @@
 :toclevels: 5
 
 
-OSS and BSS aim to enable network operators to efficiently and reliably  offer existing services with lower cost and the new services with better revenue models. In this portfolio architecture we'll discuss next generation cloud ready OSS and BSS for next generation communication solutions (e.g. 5G/6G). It enables service providers to deliver the right set of capabilities with a multi-cloud approach while leveraging common platform layers with various options and open-source platform solutions, backed with enterprise service level agreements (SLA)
+Cloud-ready OSS and BSS architectures can help telco network operators provide next-gen 5G and 6G communication solutions more efficiently and reliably.
+Operational support systems (OSS) are the information processing systems that manage communications networks. These systems allow an organization to coordinate customers, services, resources, processes, and activities. They assist service providers in designing, building, operating, and maintaining communications networks.
+Business support systems (BSS) provide business and customer-facing functionality. BSS tools allow an organization to connect with partners and customers (using services called customer relationship management, or CRM), create offerings, issue bills to customers, and generate inter-business transactions such as settlements and point-of-interconnect.
 
 ====
 *Telco OSS/BSS Modernization*
 
 ====
 
-*Use case:* Build an adaptable, on-demand infrastructure services for OSS/BSS that can deliver across diverse use
-cases with minimal CAPEX and OPEX.
+*Use case:* Build next-generation cloud-ready OSS and BSS solution that can can offer next-generation communication solutions with a multi-cloud approach
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-oss-bss-marketing-slide.png[750,700]
@@ -34,7 +35,7 @@ The following technology was chosen for this solution:
 
 ====
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-OpenShift enables 5G core by supporting functionalities and operational features like automated deployment, intelligent
+OpenShift enables OSS/BSS by supporting functionalities and operational features like automated deployment, intelligent
 workload placement, dynamic scaling, hitless upgrades, and self healing.
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization.
@@ -50,58 +51,40 @@ services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps
 quickly and efficiently across clouds. Its used for persistent storage across  clusters across hybrid cloud.
 ====
 
-Conceptually, the 5G solution stack with hyperscalers can be categorized into:
+The OSS and BSS portfolio architecture is based the following design principles:
 
-* Infrastructure
+*Layered solution*: The solution separates OSS and BSS applications from a common platform (enterprise-grade Kubernetes-based application platform) and infrastructure (on-premises private cloud and hyperscalers). This approach captures OSS/BSS value within the application layer enriched by the platform and powered by infrastructure.
 
-* Application Platform
+*Break down and build up*: OSS/BSS functions are implemented in an atomic fashion (such as fault management, performance management, alert management, and accounting) so that enriched and more complex value-added services can be built using these as constructs (such as service assurance, revenue assurance, mediation, and AI/ML-driven operations).
 
-* Applications
-
-* Platform Management and Application Orchestration
-
-Infrastructure provides necessary compute, network and storage resources to the application platform. Application platform
-accommodates the applications with declarative desired state consistency with facilities to perform scaling, healing and monitoring.
-Applications provide the business logic they are aimed to deliver in a homogenous performant way (i.e. wider, stronger, faster 5G).
-Management and orchestration allows dynamic scaling of end-to-end 5G solution, across multiple locations with automation.
+*Self-organized autonomous systems*: Self-aware and self-scaling complete OSS/BSS solutions, from infrastructure to platform to OSS/BSS application set, are integral to the design.
 
 
-== Telco 5G with Hyperscalers
+
+
+== OSS/BSS with Hyperscalers
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/.png[750, 700]
 --
-The messages from endpoints and Radio Access Network (RAN) are routed to the OpenShift clusters running on AWS and on
-AWS Outposts in user plane/multi-access edge.
 
-User Plane Function (UPF) handles packet processing and traffic aggregation of user traffic.
+*Layered solution*
+This solution recommends creating an abstracted, layered approach based on these application-set placement locations:
+Core: This is where the OSS/BSS solution core is deployed, leveraging on-demand high availability with a low-cost cloud multiregion, multizone infrastructure. The network fabric design part of the solution blueprint is architected to avoid well-known networking drawbacks (such as latency or replication durations). Using integrated cloud-native networking constructs and facilities (for example, unicast IPs, geoload balancers), the solution delivers the best experience with on-demand autoscaling when and where needed.
+Edge: This layer covers OSS/BSS solution extensions (such as element management systems [EMS], distributed API gateways, or data ingest proxies), benefiting from hyperscaler edge (local zones) as a proximity-based availability and nearby bursting option.
+Far edge: This layer operates on ingress data and interacts with the 5G/OSS/BSS solution core and on-premises low-latency solutions. This is where applications, probes, and agents are located, such as xAPPs (software tools used by the RAN intelligent controller, or RIC, to manage network functions in real time) and rAPPs (which manage non-real-time events within the RIC).
+Device edge: Similar to the far edge layer, this layer deals with interaction and interworking with edge components, including Internet of Things (IoT) devices, manufacturing facilities, and other network subscribers, ingressing data from these devices towards the OSS/BSS core.
 
-Access and Mobility Management Function (AMF) and Session Management Function (SMF) are part of the control plane. AMF handles
-connections and mobility management tasks while SMF handles session management. AMF receives connection and session-related info
-from the end devices, passing the session info to SMF, which establishes sessions by using UPF.
+*Break down and build-up*
+To address the challenges with distributed and complex OSS/BSS solutions, we have applied some of the best practices from 5G core deployments and operations (distributed microservices with higher levels of automation and standards guidance). The result is a consistent model across different layers of an end-to-end 5G solution.
+Within the 5G solution, each OSS and BSS microservice can either be integrated with a 5G core service over Kubernetes service exposure or implement an abstraction layer via an element management system (EMS, shown in Figure 4) and perform functional and logical breakdown underneath. Such an abstraction layer reduces integration points and network traffic complexity for OSS and BSS deployment and management and enables a single data governance point.
 
-Policy Control Function (PCF) provides a framework for creating policies to be consumed by the other control plane network functions.
+*Self-organized autonomous systems*
+As organizations deploy more applications across multiple clouds, new operational and business challenges arise.
+GitOps helps manage such complex operational scenarios. GitOps is a means of accelerating and simplifying application deployments, infrastructure management, and overall operations tasks using Git version control as your system's "source of truth" and using Git pull requests to manage, automate, and track changes.
+Abilities like multicluster management, end-to-end secure software pipelines, and extendable automation platforms provide a solid foundation for applying GitOps-style workflows to various use cases within the OSS/BSS service provider application framework. Using Git-based business operations, you can declaratively manage supply chain security, cluster lifecycle management and compliance, policy management, application delivery on edge, AI/ML workload through MLOps, and more.
 
-Authentication Server Function (AUSF) provides authentication and Unified Data Management (UDM) ensuring user
-identification, authorization, and subscription management.
 
-The following components provide the supplementary services:
 
-* Network Repository Function (NRF) is used by AMF to select the correct SMF out of the pool.
-
-* NRF and Network Slice Selection Function (NSSF) work together to support network slicing capabilities.
-
-* Network Exposure Function (NEF) exposes 5G services and resources so third-party apps can more securely access 5G services.
-
-* Application Function (AF) exposes an application layer for interacting with 5G network resources, retrieving resource info from
-  PCF and exposing them.
-
-The management service is provided by the Element Management System/Container Network Function Manager (EMS/CNFM) is responsible for
-the application’s life cycle: provisioning, configuration, scaling, updates, etc. This component would be application specific, and
-depending on the vendor implementation, would interact with the platform and the application over open or proprietary API
-interfaces. This component is optional and its functionality might be rolled into the Orchestrator or implemented using Operators.
-
-OpenShift Service Mesh is used for service discovery and exposure, and as a mechanism for specialized network handling, certificate
-management, etc.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
