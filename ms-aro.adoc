@@ -1,4 +1,4 @@
-= Azure Red Hat OpenShift implementation
+= Azure Red Hat OpenShift Implementation
 Ricardo Garcia Cavero @ipbabble
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples/
 :imagesdir: images
