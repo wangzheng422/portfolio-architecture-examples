@@ -7,16 +7,9 @@ Ricardo Garcia Cavero @ipbabble
 :toc: left
 :toclevels: 5
 
-= Solution summary
+== Solution summary
 
 This architecture covers Azure OpenShift Implementation.
-
-====
-*Cloud Factory*
-. 
-. 
-. 
-====
 
 *Use case:* Adopt cloud native development technologies and mindset using a container platform without having to manage it and controlling its costs and use all the services offered by cloud providers to create more innovative and useful applications
 
@@ -44,8 +37,6 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 == MS ARO egress traffic configuration
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/ms-aro-egress.png[750, 700]
---
-
 --
 
 == Download diagrams
