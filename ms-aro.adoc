@@ -20,11 +20,12 @@ The Azure Red Hat Openshift Implementation architecture tackles the challenge of
 
 ====
 
-*Use case:* Adopt cloud native development technologies and mindset using a container platform without having to manage it and controlling its costs and use all the services offered by cloud providers to create more innovative and useful applications
+*Use case:* Adopt cloud native development technologies and mindset using a container platform without having to manage it and controlling its costs and use all the services offered by cloud providers to create more innovative and useful applications.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/ms-aro-marketing-slide.png[750,700]
 --
+This solution is based on the ARO Landing Zone Accelerator.
 
 == The technology
 --
