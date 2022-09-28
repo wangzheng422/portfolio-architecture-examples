@@ -22,12 +22,12 @@ This architecture covers API management platform for SAP. Typically SAP systems 
 *Use case:* Integrate SAP and non-SAP applications seamlessly with an API first approach, adopting cloud native and microservices development patterns for new applications and stop developing inside SAP so that a basic core is kept, which dramatically speeds up and simplifies the upgrades.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/api-platform-for-sap-marketing-slide.png[750,700][alt="Integration platform for SAP based on API-first approach", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/api-platform-for-sap-marketing-slide.png[alt="Integration platform for SAP based on API-first approach", width=700]
 --
 
 == The technology
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/sap-integration-ld.png[750, 700][alt="SAP backend connects t non-SAP systems via integration platform running on a container platform", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/sap-integration-ld.png[alt="SAP backend connects t non-SAP systems via integration platform running on a container platform", width=700]
 --
 
 The following technology was chosen for this solution:
@@ -45,7 +45,7 @@ the containerized application. It provides the foundation for Red Hat Integratio
 
 == Invoke SAP functions use case
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-invoke-data.png[750, 700][alt="Non-SAP systems invoke functions via BAPIs in the SAP backend using APIs created in Red Hat Fuse and exposed in Red Hat 3Scale as API gateway", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-invoke-data.png[alt="Non-SAP systems invoke functions via BAPIs in the SAP backend using APIs created in Red Hat Fuse and exposed in Red Hat 3Scale as API gateway", width=700]
 --
 
 In this use case the satellite systems communicate only with Red Hat 3Scale where all the business functions (BAPIs) that are published in the SAP backend (clasical Netweaver or SAP S/4HANA) have an API that can be called. The RBAC implemented in Red Hat 3Scale will ensure that each business function in SAP will only be triggered by the satellite systems that have permissions to do it.
@@ -56,7 +56,7 @@ The satellite systems can be applications running anywhere, on-premise, on cloud
 
 == Retrieve data from SAP use case
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-retrieve-data.png[750, 700][alt="Non-SAP systems access data in the SAP backend exposed using Netweaver Gateway (in OData format), utilizing APIs created in Red Hat Fuse and exposed in Red Hat 3Scale as API gateway", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-retrieve-data.png[alt="Non-SAP systems access data in the SAP backend exposed using Netweaver Gateway (in OData format), utilizing APIs created in Red Hat Fuse and exposed in Red Hat 3Scale as API gateway", width=700]
 --
 
 In the second use case the satellite systems access data directly in SAP. Theyalso communicate exclusively with Red Hat 3Scale. Here there is an additional layer of access control, it is not only the access to the APIs regulated by Red Hat 3Scale but also the access to the different tenants in teh SAP backend (called clients). For this additional control Red Hat Fuse connects to a DB with the authorization tables.
@@ -67,7 +67,7 @@ Also in this case the satellite systems can be applications running anywhere, on
 
 == Utilize cached data from SAP for BI use case
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-cached-data.png[750, 700][alt="Non-SAP systems access SAP BW data using JDBC/ODBC connector (part of Red Hat Integration) directly and Python RFC library and the data is cached in a PostgreSQL DB to avoid processing bottlenecks in BW system", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-cached-data.png[alt="Non-SAP systems access SAP BW data using JDBC/ODBC connector (part of Red Hat Integration) directly and Python RFC library and the data is cached in a PostgreSQL DB to avoid processing bottlenecks in BW system", width=700]
 --
 
 This use case shows how data from SAP BW that is frequently accessed can be cached to avoid performance bottlenecks, since the queries in SAP BW systems are usually quite resource demanding. Here only the JDBC/ODBC connector is used for the satellite systems to connect to the SAP backend. The JDBC/ODBC connector uses the Python OData library to establish connections to the SAP systems and extract the data in OData protocol. This data is stored in a PostgreSQL DB that acts as a cache for the satellite systems.
