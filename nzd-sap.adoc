@@ -24,13 +24,13 @@ any disruption.
 without perceiving any interruption.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing.png[alt="Architecture based on HA to achieve Near Zero Downtime in maintenance of RHEL servers running SAP workloads", width=700]
 --
 == Summary video
 video::87lISBZZc6w[youtube]
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/nzd-sap.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/nzd-sap.png[alt="RHEL servers hosting SAP workloads, Red Hat Satellite and Red Hat Ansible Automation Platform on premise, private, public or hybrid cloud and ", width=700]
 --
 
 == The technology
@@ -57,7 +57,7 @@ package that is needed for a particular version of SAP Netweaver.
 
 == Near zero downtime network overview
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/nzd-sap-network-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/nzd-sap-network-sd.png[alt="Network connections from Red Hat Satellite and Red Hat Ansible Automation Platform servers to RHEL servers hosting SAP HANA and SAP S/4HANA or SAP Netweaver", width=700]
 --
 SAP HANA is the only DB for which this solution has been implemented by customers. However it could potentially be
 implemented for other DBs supported by SAP like DB2 using its HADR capability and triggering the fail-over of the
@@ -71,7 +71,7 @@ Satellite.
 
 == Near zero downtime data overview
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/nzd-sap-data-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/nzd-sap-data-sd.png[alt="Workflow for Near Zero Downtown Maintenance on SAP HANA and SAP S/4HANA or SAP Netweaver RHEL servers orchestrated by Red Hat Ansible Automation Platform and using Red Hat Satellite and Red Hat HA Add-On to operate Red Hat Pacemaker clusters", width=700]
 --
 
 All the SAP hosts are sending status data to Satellite that is in charge of their lifecycle management. The DB tier,
