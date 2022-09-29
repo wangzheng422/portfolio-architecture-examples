@@ -23,7 +23,7 @@ Being such critical systems, the need to prevent potential issues is of the utmo
 and hybrid cloud), making sure they are compliant with SAP and Red Hat's recommendations through their entire lifecycle.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/smart-management-for-SAP-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/smart-management-for-SAP-marketing-slide.png[alt="Architecture for Smart Management for SAP on RHEL servers", width=700]
 --
 
 == Summary video
@@ -31,7 +31,7 @@ video::vBzXn-EiXtQ[youtube]
 ---
 == The technology
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/sap-smart-management.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/sap-smart-management.png[alt="RHEL servers hosting SAP workloads, Red Hat Smart Management and Red Hat Automation Platform on premise, on private, public or hybrid cloud and Red Hat Insights SaaS", width=700]
 --
 
 The following technology was chosen for this solution:
@@ -59,7 +59,7 @@ package that is needed for a particular version of SAP Netweaver.
 
 == SAP smart management overview
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-smart-management-network-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-smart-management-network-sd.png[alt="Network connections between Red Hat Smart Management, Red Hat Ansible Automation Platform, Red Hat Insights and RHEL hosted SAP workloads", width=700]
 --
 The prerequisites to implement the solution are the following:
 
@@ -78,7 +78,7 @@ than SAP HANA (Oracle, DB2, Sybase, SQL Server, MaxDB)
 
 == SAP smart management data flow overview
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-smart-management-data-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-smart-management-data-sd.png[alt="Red Hat Insights makes sure that all RHEL servers hosting SAP workloads are compliant with SAP and Red Hat's recommendations, if some are missing it triggers a remediation playbook from Red Hat Ansible Automation Platform that will apply the recommendation directly or through Red Hat Smart Management", width=700]
 --
 All the SAP hosts (DB and application) are sending information about their configuration and status to the Smart
 Management server The Smart Management server sends anonymized information about the SAP hosts to the Insights Service
