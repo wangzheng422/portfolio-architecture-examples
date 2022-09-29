@@ -24,18 +24,18 @@ management tools to better address customer needs.
 of API gateways to protect business service depending on the network zones.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/scada-interface-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/scada-interface-marketing-slide.png[alt="Architecture of an API based integration platform for interaction with SCADA devices for electricity providers", width=700]
 --
 
 == The technology
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-general.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-general.png[alt="Overall view of Red Hat OpenShift clusters in the different separated network zones", width=700]
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-nerc.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-nerc.png[alt="Red Hat OpenShift cluster in the NERC/electric network zone that connects to the SCADA devices", width=700]
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-enterprise.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-enterprise.png[alt="Red Hat OpenShift cluster in the enterprise/internal network zone that gets the data from the NERC/electric zone", width=700]
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-control.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-control.png[alt="Red Hat OpenShift cluster control plane with RHACM and RHACS", width=700]
 --
 
 * The following technology was chosen for this solution:
@@ -61,32 +61,32 @@ available foundation for business-critical SAP and non-SAP workloads.
 
 == SCADA interfaces network
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-general.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-general.png[alt="Overall network connections between the Red Hat OpenShift clusters", width=700]
 --
 
 *TODO:* add description...
 
 == SCADA interfaces enterprise network
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-enterprise.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-enterprise.png[alt="Network connections in the NERC/electric zone", width=700]
 --
 
 *TODO:* add description...
 
 == SCADA interfaces nerc network
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-nerc.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-nerc.png[alt="Network connections in the enterprise/internal zone", width=700]
 --
 
 *TODO:* add description...
 
 == SCADA interfaces data
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-data-sd-general.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-data-sd-general.png[alt="Data flow trhough the Red Hat OpenShift clusters including the control plane", width=700]
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-data-sd-nerc.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-data-sd-nerc.png[alt="Data flow between the SCADA devices and the NERC/electric zone Red Hat OpenShift cluster", width=700]
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-data-sd-enterprise.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-data-sd-enterprise.png[alt="Data flow between the NERC/electric zone and the enterprise/internal zone Red Hat OpenShift clusters", width=700]
 --
 
 *TODO:* add description...
