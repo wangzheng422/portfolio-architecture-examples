@@ -23,13 +23,13 @@ The Azure Red Hat Openshift Implementation architecture tackles the challenge of
 *Use case:* Adopt cloud native development technologies and mindset using a container platform without having to manage it and controlling its costs and use all the services offered by cloud providers to create more innovative and useful applications.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/ms-aro-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/ms-aro-marketing-slide.png[alt="Deployment of Red Hat OpenShift on MS Azure", width=700]
 --
 This solution is based on the ARO Landing Zone Accelerator.
 
 == The technology
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/ms-aro-ld.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/ms-aro-ld.png[alt="Red Hat OpenShift on public cloud generic components ", width=700]
 --
 
 * The following technology was chosen for this solution:
@@ -40,7 +40,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 == MS ARO ingress traffic configuration
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/ms-aro-ingress.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/ms-aro-ingress.png[alt="Ingress traffic configuration for Azure Red Hat OpenShift (ARO)", width=700]
 --
 
 This schematic diagram shows the recommended network configuration for the ingress traffic into the ARO cluster together with the main Azure services that will connect to it. 
@@ -52,7 +52,7 @@ Connection to Azure Arc logging and monitoring services is recommended for clust
 
 == MS ARO egress traffic configuration
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/ms-aro-egress.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/ms-aro-egress.png[alt="Egress traffic configuration for Azure Red Hat OpenShift (ARO)", width=700]
 --
 
 Here we can see the recommended configuration for the egress traffic from the ARO cluster to the Internet. To filter this traffic the choice for the implementation is to use Azure Firewall service.
