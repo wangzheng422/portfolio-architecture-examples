@@ -23,14 +23,14 @@ automation tools for applying remediation across a scaling estate of hosts in a 
 *Use case:* Managing security, policy and patches for a large number of servers in data centers or public/private clouds.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/self-healing-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/self-healing-marketing-slide.png[alt="A self healing architecture designed to improve operational efficiency by introducing automated detection, remediation, and management of a hybrid cloud environment", width=700]
 --
 
 == Summary video
 video::JOT8If4F27k[youtube]
 
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/self-healing-ld.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/self-healing-ld.png[alt="A self healing architecture consists of automation orchestration, smart system management, and your managed infrastructure", width=700]
 
 
 == The technology
@@ -48,7 +48,7 @@ https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7
 
 == Self-Healing Infrastructure (network)
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-net.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-net.png[alt="All that is needed to enable efficient communications in a self healing architecture is a very simple network mapping between the managed infrastructure, the automation and management tools, and Red Hat", width=700]
 --
 
 In this network configuration, you can see the internal network depicted in light blue, where all that is required on the customer estate is the hosted client systems, Red Hat Smart Management, and Red Hat Ansible Automation Platform. These are able to simply communicate amongst themselves on an internal network. From here, Ansible and Smart Management connect on a secure network out to Red Hat, where the data is then processed by Red Hat Insights, and displayed on the Hybrid Cloud Console, of which they communicate to each other internally within Red Hat's network. Once processed, that data is passed back to Ansible and Smart Management on the same channel as originally. 
@@ -56,7 +56,7 @@ In this network configuration, you can see the internal network depicted in ligh
 
 == Self-Healing Infrastructure (data)
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-data.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-data.png[alt="A self healing architecture has a simple data flow organized by the smart system management tool, through Red Hat, and back out to the managed infrastructure and automation controller", width=700]
 --
 
 The data path, starting from the hosts, delivers data to Red Hat Satellite. Here, both Ansible's automation controller and Satellite
