@@ -1,0 +1,20 @@
+= Red Hat Portfolio Architecture Examples
+Marty Wesley @mwesley_redhat, Will Nix @tronik, Christina Lin @weimeilin, Ricardo Garcia Cavero @rgarciac, Camry Fedei @cfedei 
+:homepage: https://gitlab.com/redhatdemocentral/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+
+== Overview
+This repository provides examples of customer researched based general architectures based on usage of the Red Hat
+product portfolio. The architectures detail three different levels of detail starting with *Logical* diagrams, then
+a more in-depth view of how the solution works in *Schematic* diagrams, and finally by diving in for a closer look 
+with  *Detailed* diagrams.
+
+TIP: Learn hands-on how to https://gitlab.com/redhatdemocentral/portfolio-architecture-workshops[Design Your Best
+Architectural Diagrams]
+
+TIP: Try the workshop: https://redhatdemocentral.gitlab.io/portfolio-architecture-template[A Beginners Guide, How to
+Create a Portfolio Architecture in Just 4 Steps]
+
+
