@@ -25,6 +25,9 @@ This architecture covers API management platform for SAP. Typically SAP systems 
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/api-platform-for-sap-marketing-slide.png[alt="Integration platform for SAP based on API-first approach", width=700]
 --
 
+== Summary video
+video::wGUJ8xJB3yA[youtube]
+
 == The technology
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/sap-integration-ld.png[alt="SAP backend connects t non-SAP systems via integration platform running on a container platform", width=700]
