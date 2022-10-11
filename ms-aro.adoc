@@ -27,6 +27,10 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 --
 This solution is based on the ARO Landing Zone Accelerator.
 
+
+== Summary video
+video::QbqbsqZAHBs[youtube]
+
 == The technology
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/ms-aro-ld.png[alt="Red Hat OpenShift on public cloud generic components ", width=700]
