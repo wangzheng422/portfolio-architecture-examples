@@ -29,7 +29,7 @@ This solution is based on the ARO Landing Zone Accelerator.
 
 
 == Summary video
-video::QbqbsqZAHBs[youtube]
+video::ZKa2ZoV89uI[youtube]
 
 == The technology
 --
