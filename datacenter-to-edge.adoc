@@ -23,12 +23,12 @@ operational safety and optimization.
 *Use case:* Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/datacenter-to-edge-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/datacenter-to-edge-marketing-slide.png[alt="High level view of solution", width=700]
 --
 
 == The technology
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/datacenter-to-edge-ld.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/datacenter-to-edge-ld.png[alt="Conceptual view of solution components deployed at various locations", width=700]
 --
 
 The following technology was chosen for this solution:
@@ -61,7 +61,7 @@ virtual, container, and all types of cloud environments.
 
 == Data center to edge
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/datacenter-to-edge-data-sd.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/datacenter-to-edge-data-sd.png[alt="Data interaction of centralized and edge components", width=700]
 --
 
 At the edge locations, the telemetry data from sensors is transmitted Edge Microservice application for protocol conversion/normalization and then forwarded to Red Hat AMQ message broker, which then routes it to Message Gateway which is a SpringBoot application for sending this data to the core data center.
@@ -72,7 +72,7 @@ Red Hat AMQ Streams and sent to Core Microservices for further processing. The c
 
 == Data center to edge management
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/datacenter-to-edge-management-sd.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/datacenter-to-edge-management-sd.png[alt="Cluster and applicationnlifecycle management using ACM and DevOps", width=700]
 --
 
 In order to centrally manage the geographically dispersed edge clusters, a consistent approach is needed. Red Hat ACM provides cluster lifecycle management for edge and centralized clusters. For DevOps, the OpenShift Pipelines enables the CI/CD workflow with the containerized applications delivered to Red Hat Quay image registry in the cloud. The application monitoring provided by Dynatrace enables the application optimization across edge and core sites.
@@ -83,6 +83,5 @@ View and download all of the diagrams above in our open source tooling site.
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/datacenter-to-edge.drawio[[Open Diagrams]]
 --
 
-== Provide feedback 
+== Provide feedback
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/datacenter-to-edge.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
-

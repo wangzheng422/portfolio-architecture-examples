@@ -17,8 +17,8 @@ like errors and predictive maintenance.
 *Industrial Edge*
 
 . Provides real-time insights from edge to centralized sites
-. Reducing maintenance costs 
-. Secure GitOps and DevOps management  across core and factory sites 
+. Reducing maintenance costs
+. Secure GitOps and DevOps management  across core and factory sites
 ====
 
 
@@ -26,12 +26,12 @@ like errors and predictive maintenance.
 to the edge.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-manufacturing-efficiency-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-manufacturing-efficiency-marketing-slide.png[alt="High level view of Industrial Edge", width=700]
 --
 
 == The technology
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/industrial-edge-ld.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/industrial-edge-ld.png[alt="Conceptual view of Industrial Edge deployed at various locations", width=700]
 --
 The following technology was chosen for this solution:
 
@@ -63,7 +63,7 @@ virtual, container, and all types of cloud environments.
 
 == Edge manufacturing with messaging and ML
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-devops-data-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-devops-data-sd.png[alt="Data interaction of various Industrial Edge components", width=700]
 --
 Data coming from sensors is transmitted over MQTT to Red Hat AMQ, which routes sensor data for two purposes: model
 development in the core data center and live inference in the factory data centers. The data is then relayed on to Red
@@ -83,14 +83,14 @@ The model image is pushed into the integrated registry of OpenShift running in t
 back down to the factory data center for use in inference.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-devops-network-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-devops-network-sd.png[alt="Using network segragation to protect factories and operations infrastructure from cyber attacks", width=700]
 --
 In order to protect the factories and operations infrastructure from cyber attacks, the operations network needs to be segregated from the enterprise IT network and public internet.
 The factory machinery, controllers and devices need to be further segregated from the factory data center and need to be protected behind a firewall.
 
 == Edge manufacturing with GitOps
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-gitops-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-gitops-sd.png[alt="Using GitOps for managing any changes to clusters and applications", width=700]
 --
 For the manufacturing environments, GitOps provides a consistent, declarative approach to managing individual cluster
 changes and upgrades across the centralized and edge sites. Any changes to configuration and applications can be
@@ -98,7 +98,7 @@ automatically pushed into operational systems at the factory.
 
 == Secrets exchange and management
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-security-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-security-sd.png[alt="Secret exchange and management", width=700]
 --
 Authentication is used to securely deploy and update components across multiple locations. The credentials are stored
 using a secrets management solution like Hashicorp vault. External Secrets component is used to integrate various

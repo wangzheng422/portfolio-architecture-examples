@@ -31,11 +31,11 @@ function (CNF).
 *Use case:* Ultra-reliable, immersive experiences for people and objects when and where it matters most.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-on-premise-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-on-premise-marketing-slide.png[alt="High level view of 5G core solution deployed on-premise", width=700]
 --
 
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-5g-ld.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-5g-ld.png[alt="Generic common architectural elements of 5G solution for conceptual guidance", width=700]
 
 
 == The technology
@@ -88,9 +88,9 @@ functions and 5G management functions)
 
 == Telco 5G on premise
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-sd.png[alt="Solution topology of 5G solution with functional components", width=700]
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-network-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-network-sd.png[alt="Solution topology of 5G solution with network interactions ", width=700]
 --
 The messages from end devices and Radio Access Network (RAN) are routed to the following components in the Service
 Based Architecture (SBA) and user plane:
@@ -135,5 +135,5 @@ View and download all of the diagrams above in our open source tooling site.
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/telco-5G.drawio[[Open Diagrams]]
 --
 
-== Provide feedback 
+== Provide feedback
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/telco-on-premise.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
