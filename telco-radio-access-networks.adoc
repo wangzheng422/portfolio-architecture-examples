@@ -23,7 +23,7 @@ Radio access network (RAN) is the part of a mobile network that connects end-use
 *Use case:* The digital transformation of mobile networks is accelerating and cloudification is increasing. Following the core network, radio access network (RAN) solutions are now taking advantage of the benefits of cloud computing.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-ran-marketing-slide.png["High level view of Radio Access Network", 750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-ran-marketing-slide.png[alt="High level view of Radio Access Network", width=700]
 --
 
 The traditional RAN solution is getting disaggregated by:
@@ -38,7 +38,7 @@ Using this approach:
 * Provides the ability to spin workloads up and down with minimal effort
 * Allows resources to be scaled elastically to address changing network demands
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-ran-ld.png["Conceptual view of Radio Access Network deployed at various locations", 750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-ran-ld.png[alt="Conceptual view of Radio Access Network deployed at various locations", width=700]
 --
 
 == The technology
@@ -74,7 +74,7 @@ virtual, container, and all types of cloud environments.
 
 == Telco 5G Radio Access Networks
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-sd.png[alt="Network topology of network components", 750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-sd.png[alt="Network topology of network components", width=700]
 
 By decoupling RAN software from the underlying hardware platforms, commodity hardware platforms can be used for deploying RAN components like CU (Central Units) and the DU (Distributed Units). This architecture supports the Open Radio Access Network deployment scenario, where the Distributed Units are located at the edge sites and Central Units located at the regional data center.
 The Radio Unit is deployed at the cell site.
@@ -95,7 +95,7 @@ O-RAN alliance defines the usage of the interfaces between:
 --
 == Radio Access Networks management and orchestration
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-mgmt-sd.png[alt="Management and Orchestration of RAN components", 750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-mgmt-sd.png[alt="Management and Orchestration of RAN components", width=700]
 --
 
 As service providers deploy applications across multiple sites, new operational & business challenges arise. Some of those challenges include the following:
