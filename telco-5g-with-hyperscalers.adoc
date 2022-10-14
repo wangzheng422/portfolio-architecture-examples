@@ -25,12 +25,12 @@ built with open source technologies at core, that can work across any hyperscale
 cases with minimal CAPEX and OPEX.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-core-hyperscalers-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-core-hyperscalers-marketing-slide.png[alt="High level view of 5G core solution with hyperscalers", width=700]
 --
 
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco5GC-generic-7-ld.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco5GC-generic-7-ld.png[alt="Generic common architectural elements of 5G solution for conceptual guidance", width=700]
 --
 
 == The technology
@@ -72,7 +72,7 @@ Management and orchestration allows dynamic scaling of end-to-end 5G solution, a
 
 == Telco 5G with Hyperscalers
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco5GC-generic-7-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco5GC-generic-7-sd.png[alt="Solution topology of 5G solution with functional components", width=700]
 --
 The messages from endpoints and Radio Access Network (RAN) are routed to the OpenShift clusters running on AWS and on
 AWS Outposts in user plane/multi-access edge.
