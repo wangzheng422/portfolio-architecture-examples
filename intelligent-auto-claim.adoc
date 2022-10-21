@@ -8,107 +8,129 @@ Christina Lin @Christina_wm, Thalia Hooker
 :toclevels: 5
 :hardbreaks:
 
-Insurance companies now increasingly depend on digital technology to provide customers with a satisfying and faster claim experience. As digitalization in the technology world accelerates, Insurance companies found themselves relying on old legacy systems and processes, which drive up the cost and resources to maintain the redundant systems they accumulate throughout the years. To achieve the full benefits of digitalization requires real-time data access via open and secured interfaces. Introducing artificial intelligence and automation can reduce manual involvement that leads to a smooth workload. Modernizing a legacy IT platform can be difficult. 
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case. This architecture is based on a study of claims systems at insurance companies._
+
+*Use case:* Implement an insurance claims system that automates existing manual processes, tasks, and workflows by introducing Robotic Process Automation (RPA) and Artificial Intelligence (AI)/Machine Learning (ML) to improve business processes. It deploys hybrid platforms, reuses legacy systems, and improves IT infrastructure management efficiency.
+
+
+*Background:*  Insurance companies now increasingly depend on digital technology to provide customers with a satisfying and faster claim experience. 
+As digitization accelerated, Insurance companies found themselves relying on old legacy systems and processes. The redundant systems they had accumulated over the years drove up the cost and the resources needed to operate them. To achieve the full benefits of digitization required real-time data access via open and secured interfaces. Introducing AI/ML and automation reduced manual interventions leading to a smoother workflow. 
+But modernizing a legacy IT platform can be difficult. Claims needed an Intelligent Automation Workflow in order to achieve:
+
 
 ====
-*Why Intelligent Automation Workflow ?*
-
-. Streamlined processing to deliver  hassle-free, seamless, and accurate customer claim experience
-. Enhanced fraud detection and prevention, reduced skills required for associates and limits the amount of manual work.
-. Improved operational efficiency, and simplify workflow automation to reduce ongoing maintenance cost.
+. Streamlined processing to deliver a hassle-free, seamless, and accurate customer claim experience;
+. Enhanced fraud detection and prevention;
+. Reduced skills required for associates and less manual work; and
+. Improved operational efficiency and simplified workflow automation to reduce ongoing maintenance costs.
 ====
 
-*Use case:* The architecture is based on a study of claims systems in insurance companies that automate existing manual processes, tasks, and workflows successfully by introducing Robotic Process Automation, AI/ML to assist business processes. Established hybrid platforms and reusing legacy systems as well as improve IT infrastructure management efficiency.
+Figure 1 provides an overview of the Intelligent Automation Workflow and Figure 2 provides a more detailed logical view.
 
-<<<
+
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/intelligent-auto-claim-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/intelligent-auto-claim-marketing-slide.png[alt="Intelligent Automation Workflow solution overview", width=700]
 --
+Figure 1. Intelligent Automation Workflow solution overview.
+
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/intelligent-auto-claim-ld-detail.png[alt="Intelligent Automation Workflow solution, as logically and physically distributed across multiple locations", width=700]
+--
+Figure 2. Intelligent Automation Workflow solution, as logically and physically distributed across multiple locations.
+
 
 == The technology
---
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/intelligent-auto-claim-ld-detail.png[750, 700]
---
-
-IBM and Red Hat together provide cutting-edge technologies to facilitate and accelerate digital transformation with intelligent solutions in hybrid and multi-cloud environments. In this study, the client achieved intelligent automated business processes using  IBM Cloud Pak® for Business Automation and  IBM Cloud Pak® for Integration deployed on Red Hat OpenShift on the IBM Cloud. Additionally, IBM Watson® services on the IBM Cloud infused AI/ML into the applications with conversational chatbots in the claims processing, leveraged AutoAI to determine the best models for scoring claims based on complexity and risk, automating decisions and processes, and optimizing adjuster's time. 
 
 
-IT service management (ITSM) is introduced to establish processes and practices to optimize the use of the IT services. Combine with Automated processes using Red Hat Ansible to replace manual work with more compliant and effective operations, while reducing the labor cost, consistent and dynamic adjustment, and enforcing guardrails to deliver infrastructure service increases agility allowing enterprise to scale to meet growth. 
+IBM and Red Hat together provide cutting-edge technologies to facilitate and accelerate digital transformation with intelligent solutions in hybrid and multi-cloud environments. In this architecture, the client achieved intelligent automated business processes using IBM Cloud Pak® for Business Automation and IBM Cloud Pak® for Integration deployed on Red Hat OpenShift on the IBM Cloud. Additionally, IBM Watson® services on the IBM Cloud infused AI/ML into the applications with conversational chatbots in the claims processing. AutoAI within IBM Watson Studio determined the best models for scoring claims based on complexity and risk, automating decisions and processes, and optimizing adjusters’ time.
+
+IT service management (ITSM) was introduced to establish processes and practices to optimize the use of the IT services. This was combined with automated processes using Red Hat Ansible Automation Platform. This enabled replacing manual work with more compliant and effective operations. Doing so reduced the labor cost, allowed for consistent and dynamic adjustments, and created guardrails to deliver more scalable infrastructure.
 
 
 
 The following technology was chosen for this solution:
 
 ====
-*Red Hat OpenShift* Kubernetes offering, the hybrid platform offering allow deployment across data centers,
-private and public clouds as it brings choices and flexible for hosting system and services.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*]  is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud,  and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. 
 
-*Red Hat Ansible Automation Platform* operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and  integrated with ITSM.  
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale, from hybrid cloud to the edge. Ansible Automation Platform enables users across an organization to create, share, and manage automation—from development and operations to security and network teams. It tracks changes in an update inventory, which can be used to prevent configuration drift, and is integrated with ITSM.
 
-*Business Automation Workflow* automate business processes, case work, task automation with Robotic Process Automation (RPA) and Intelligent Automation such as conversation intelligence. 
+*Business Automation Workflow* automates business processes, case work, task automation with Robotic Process Automation (RPA), and Intelligent Automation such as conversational intelligence.
 
-*IBM Cloud Pak for Data* unify and simplify the collection, organization and analysis of data. 
+*IBM Cloud Pak for Data* unifies and simplifies the collection, organization, and analysis of data.
+
+*ServiceNow* is the IT services management software to track IT service requests, events, incidents, and provide context about the issues. It also provides full visibility into the infrastructure resources.
+
 ====
 
 
 == Intelligent, smart automation for claims(AI/ML workflow)
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-aiml-workflow.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-aiml-workflow.png[alt="Schematic view of intelligent, smart automation for claims", width=700]
 --
+Figure 3. Schematic view of intelligent, smart automation for claims.
+
 
 There are two personas supported in this schematic:
  
-The *Customer / Claimant* high-level steps of this intelligent claims processing are:
+*The Customer / Claimant high-level steps of this intelligent claims processing are:*
 
-. Customer / Claimant may use their mobile device to file a claim through a conversational (chatbot) implemented as Intelligent Virtual Agent implemented with IBM Watson Assistant and its associated Data Science Tooling. The Orchestrator (microservice) is initiated by this chatbot UI in the mobile device.
-. The Orchestrator uses Digital Workers that can take actions on behalf of the human workers and thus off-load manual and repetitive work of the humans, such as:
+- Customer / Claimant may use their mobile device to file a claim through a conversational (chatbot) implemented as Intelligent Virtual Agent implemented with IBM Watson Assistant and its associated Data Science Tooling. The Orchestrator (microservice) is initiated by this chatbot UI in the mobile device.
+- The Orchestrator uses Digital Workers that can take actions on behalf of the human workers and thus off-load manual and repetitive work of the humans, such as:
 Retrieving Weather data based on the accident location, date, and time
 * Uploading pictures submitted by users in the mobile device to Image Recognition service
 * Invoke Machine Learning (ML) to score / triage these claims as: Low, Medium, and Complex. This ML was implemented as an IBM Auto Claims Routing Accelerator developed with Data Science Tooling in IBM Watson Studio and AutoAI capabilities.
-. Digital Workers update the Claims Service (microservice) that in turn, leverage integrations with the Legacy Claims systems and new Cloud-native applications. They can also implement Event Streaming Architectures – when events are coming in from chatbot, claims systems, underwriting, etc.
+- Digital Workers update the Claims Service (microservice) that in turn, leverage integrations with the Legacy Claims systems and new Cloud-native applications. They can also implement Event Streaming Architectures – when events are coming in from chatbot, claims systems, underwriting, etc.
  
-The *Insurer End User such as Adjuster / CSR / Admin* high-level steps of this intelligent claims processing are:
+*The Insurer End User such as Adjuster / CSR / Admin high-level steps of this intelligent claims processing are:*
 
-. Their entry point is the Claims Admin Dashboard web app that interacts through the Claims Service and similar technologies and integrations as the end user flow
-. The Claims Admin Dashboard interacts with a Message consumer (IBM Event Streams, Red Hat Streams, Kafka) that implements the Event Streaming Architecture
-. Similarly, the Claims Service interacts with a Dashboard message consumer (IBM Event Streams, Red Hat Streams, Kafka) that implements the Event Streaming Architecture
+- Their entry point is the Claims Admin Dashboard web app that interacts through the Claims Service and similar technologies and integrations as the end user flow
+- The Claims Admin Dashboard interacts with a Message consumer (IBM Event Streams, Red Hat Streams, Kafka) that implements the Event Streaming Architecture
+- Similarly, the Claims Service interacts with a Dashboard message consumer (IBM Event Streams, Red Hat Streams, Kafka) that implements the Event Streaming Architecture
 
 
 
 
 == Co-existing with Legacy and Accelerate with New
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-strangler-pattern.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-strangler-pattern.png[alt="Schematic view of how new processes can interact with legacy processes", width=700]
 --
+Figure 4. Schematic view of how new processes can interact with legacy processes.
 
-A. New process can be accessed via API  endpoint, which is managed by an API management platform for security and access control. The new process is a consolidation of new and existing processes (hence this is the interface of the strangler pattern.). When the process kick starts, it will call the other tasks, service and process through using API calls or through events.
+As shown in Figure 4:
 
-B. The digital worker represents an activity. Depending on the needs, activities can be automated with AI where the decision or operation is done by the predetermined data model, a third party service from vendors or existing processes. When applying the strangler pattern, we can simply reuse the legacy processes and replace it with new AI enabled ones. 
+*Line A:*  A new process can be accessed via an API endpoint, which is managed by an API management platform for security and access control. The new process consolidates new and existing processes (hence this is the interface of the strangler pattern.). When the process kickstarts, it will call the other tasks, services, and processes through API calls or through events.
 
-C. Utilizing past investment by calling pre-existing processes. A common problem with calling the existing service or process is translating data formats. A connector here helps transform data input and output to the receiver and requester. The processes are often built in a closed system, to access it, using API or REST endpoints are commonly found, sometimes with much older systems, there might be a need to use a special connector for its protocols. 
+*Line B:*  The Digital Worker represents an activity. Depending on need, activities can be automated with AI whether the decision is made or operation performed by the predetermined data model, a third-party service from vendors, or existing processes. When applying the strangler pattern, legacy processes can be reused but AI-enabled.
 
-D. A big part of needing to transform digitally is taking advantage of AI, the digital worker automatically requests predictions/decisions from a machine learning model from the machine learning platform. 
+*Line C:* Past investments are preserved by calling pre-existing processes. A common problem with calling the existing service or process is translating data formats. A connector helps transform data input and output to the receiver and requester. The processes are often built in a closed system. To access it, API or REST endpoints are commonly used. But sometimes, with much older systems, a special connector might be needed to handle the protocols.
 
-E. Customizing services for specific enterprise needs, are common and implemented with microservices. Digital work can call either a single service or orchestrated services.   
+*Line D:* A big driver for transforming digitally is to take advantage of AI/ML. The Digital Worker automatically requests predictions/decisions from an ML model from the ML platform.
 
-F. A unify dashboard is created for seamless user experience and enhanced real-time features were provided to customers via website and Apps. Open API give partner availability to amplify and provide better services. 
+*Line E:* Customizing services for specific enterprise needs is common and can be implemented with microservices. The Digital Worker can call either a single service or orchestrated microservices.
+
+*Line F:*  A unified dashboard can deliver an intuitive user experience and enhanced real-time features to customers via a website and mobile applications. Open APIs expand access to partners to increase reach and provide better services.
 
 
 <<<
 == Operation efficiency 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-itsm.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-itsm.png[alt="Schematic view of automation and IT Service Management", width=700]
 --
+Figure 5. Schematic view of automation and IT Service Management (ITSM).
 
-A. All infrastructure setup and configurations are stored as code using ansible playbooks, they are stored in a git repository for version control. (IaaS)
+As shown in Figure 5:
 
-B. IT service management (ITSM) system is used to manage & support policies and processes for the IT services. Users can place their request which is automated to kick off a workflow or playbooks, where it will start provision/update or delete the target resource on prem or on cloud. Connected via API. 
 
-C. Credentials and configuration are securely stored in the controller(can be configured to point elsewhere), which can be accessed when executing the playbooks. The automation does not end at the target, follow-ups such as scanning, syncing inventory, starting another business process, adding monitoring pieces and other configuration management, can run concurrently or sequentially with role-based controls. 
+*Line A:* All infrastructure setup and configurations are stored as code using ansible playbooks, they are stored in a git repository for version control. (IaaS)
 
-D. The targets to be created can be any resources on the cloud or in data centers.  Such as kubernete cluster, storage, VM, and network stacks. If a problem or failure occurs during execution, an incident will be created and sync back to ITSM for further tracking or reviewing. Additional components such as smart management were included as part of initial installation to add an extra layer of automated self-healing with incidents also recorded and sent back to ITSM. 
+*Line B:* IT service management (ITSM) system is used to manage & support policies and processes for the IT services. Users can place their request which is automated to kick off a workflow or playbooks, where it will start provision/update or delete the target resource on prem or on cloud. Connected via API. 
 
-E. ServiceNow configuration management database and Ansible repository are in-sync with two way communication, this can keep accurate records of assets across multi-domain, disparate users, and teams. So all infrastructure information is up to date. 
+*Line C:* Credentials and configuration are securely stored in the controller(can be configured to point elsewhere), which can be accessed when executing the playbooks. The automation does not end at the target, follow-ups such as scanning, syncing inventory, starting another business process, adding monitoring pieces and other configuration management, can run concurrently or sequentially with role-based controls. 
+
+*Line D:* The targets to be created can be any resources on the cloud or in data centers.  Such as kubernete cluster, storage, VM, and network stacks. If a problem or failure occurs during execution, an incident will be created and sync back to ITSM for further tracking or reviewing. Additional components such as smart management were included as part of initial installation to add an extra layer of automated self-healing with incidents also recorded and sent back to ITSM. 
+
+*Line E:* ServiceNow configuration management database and Ansible repository are in-sync with two way communication, this can keep accurate records of assets across multi-domain, disparate users, and teams. So all infrastructure information is up to date. 
 
 
 == Download diagrams

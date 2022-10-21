@@ -24,11 +24,11 @@ configuration.
 infrastructure as code approach. Cross cluster governance and application lifecycle management.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/hybrid-multicloud-management-gitops-marketing-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/hybrid-multicloud-management-gitops-marketing-slide.png[alt="Marketecture of Hybrid Multicloud management with GitOps", width=700]
 --
 
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/spi-multi-cloud-gitops-ld-public.png[750, 750]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/spi-multi-cloud-gitops-ld-public.png[alt="Logical view of  Hybrid Multicloud management with GitOps", width=700]
 
 
 == The technology
@@ -40,7 +40,7 @@ the subtle differences between the Kubernetes offering, using a platform offerin
 private and public cloud will provide a unified way to deploy, monitor, and automate all the clusters.
 
 ====
-*OpenShift GitOps*  Automate delivery through DevOps practices across multicluster OpenShift and Kubernetes
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift GitOps*]    Automate delivery through DevOps practices across multicluster OpenShift and Kubernetes
 infrastructure, with the choice of either automatically or manually synchronizing the deployment of clusters according
 to what’s in the repository.
 
@@ -58,7 +58,7 @@ add secrets into the OpenShift platform.
 management hub console, with built-in security policies, provisioning cluster, and application lifecycles. Especially
 important when it comes to managing on top of multi-clouds.
 
-*Red Hat Ansible Automation*  Used to automate the configuration and installation of the management hub.
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] Used to automate the configuration and installation of the management hub.
 
 *Hashicorp Vault*  Secure centralized store for dynamic infrastructure and application across clusters. For low
 trust networks between clouds and data centers.
@@ -66,7 +66,7 @@ trust networks between clouds and data centers.
 
 == Bootstrapping the management hub
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-install.png[750, 750]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-install.png[alt="Schematic view of Bootstrapping the management hub", width=700]
 --
 
 . Set up the Red Hat OpenShift Platform (OpenShift) that hosts the Management Hub. By using the OpenShift installation
@@ -84,7 +84,7 @@ the Openshift Gitops instance for continuous delivery.
 
 == Hybrid multicloud GitOps
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-security.png[750, 750]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-security.png[alt="Schematic view of Hybrid multicloud GitOps", width=700]
 --
 
 . Manifest and configuration are set as code template in the form of “Kustomization” yaml. It describes the end desire
@@ -106,7 +106,7 @@ manifest (Or showing alerts for manual intervention).
 
 == Dynamic security management
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-gitops.png[750, 750]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-gitops.png[alt="Schematic view of Dynamic security management", width=700]
 --
 
 . During setup, the token to securely access HashiCorp Vault is stored in Ansible Vault. It is encrypted to protect
@@ -125,7 +125,7 @@ watches for updates.
 
 == Observability in hybrid multicloud environment
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[750, 750]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[alt="Schematic view of Observability in hybrid multicloud environment", width=700]
 --
 
 . Queries from the Grafana dashboard in Hub cluster, the central Querier component in Observatorium process the PromQL
