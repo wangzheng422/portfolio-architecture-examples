@@ -36,7 +36,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 Figure 2. VRAN architecture, as logically and physically distributed across multiple locations.
 --
 
-*The technology*
+=== The technology
 
 The following technology was chosen for this solution:
 
