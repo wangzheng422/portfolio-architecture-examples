@@ -14,7 +14,9 @@ _Some details will differ based on the requirements of a specific implementation
 
 
 *Background:*  Insurance companies now increasingly depend on digital technology to provide customers with a satisfying and faster claim experience. 
+
 As digitization accelerated, Insurance companies found themselves relying on old legacy systems and processes. The redundant systems they had accumulated over the years drove up the cost and the resources needed to operate them. To achieve the full benefits of digitization required real-time data access via open and secured interfaces. Introducing AI/ML and automation reduced manual interventions leading to a smoother workflow. 
+
 But modernizing a legacy IT platform can be difficult. Claims needed an Intelligent Automation Workflow in order to achieve:
 
 
