@@ -36,8 +36,9 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 Figure 2. VRAN architecture, as logically and physically distributed across multiple locations.
 --
 
-=== The technology
+== The technology
 
+====
 The following technology was chosen for this solution:
 
 *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud,  and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere.
@@ -53,6 +54,7 @@ The following technology was chosen for this solution:
 *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds.
 
 *Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
+====
 
 == Telco 5G Radio Access Networks Overview
 --
