@@ -38,9 +38,10 @@ Figure 2. VRAN architecture, as logically and physically distributed across mult
 
 == The technology
 
-====
+
 The following technology was chosen for this solution:
 
+====
 *Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud,  and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere.
 
 *Red Hat Smart Management* combines flexible and powerful infrastructure management capabilities with the ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise Linux, from physical machines to hybrid clouds.
