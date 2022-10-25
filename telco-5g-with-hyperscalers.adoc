@@ -69,11 +69,11 @@ accommodates the applications with declarative desired state consistency with fa
 Applications provide the business logic they are aimed to deliver in a homogenous performant way (i.e. wider, stronger, faster 5G).
 Management and orchestration allows dynamic scaling of end-to-end 5G solution, across multiple locations with automation.
 
-
-== Telco 5G with Hyperscalers
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco5GC-generic-7-sd.png[alt="Solution topology of 5G solution with functional components", width=700]
 --
+
+====
 The messages from endpoints and Radio Access Network (RAN) are routed to the OpenShift clusters running on AWS and on
 AWS Outposts in user plane/multi-access edge.
 
@@ -106,6 +106,7 @@ interfaces. This component is optional and its functionality might be rolled int
 
 OpenShift Service Mesh is used for service discovery and exposure, and as a mechanism for specialized network handling, certificate
 management, etc.
+====
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
