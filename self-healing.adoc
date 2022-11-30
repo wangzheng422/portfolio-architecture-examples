@@ -73,19 +73,19 @@ Explicitly stepping through the process:
 1. Client hosts register to Satellite which initially collects RHEL system data for Red Hat Insights.  
 2. Smart Management and Ansible Automation Platform secure connections to the Hybrid Cloud Console.  
 3. Anonymized data is analyzed by Red Hat:  
-Insights services analyze data against known issues as well as customer defined parameters.  
-Insights for RHEL generate remediation plans and configures playbooks to return to the Smart Management platform.  
-Insights for Ansible generates remediation to return to the automation controller.  
+        - Insights services analyze data against known issues as well as customer defined parameters.  
+                * Insights for RHEL generate remediation plans and configures playbooks to return to the Smart Management platform.  
+                * Insights for Ansible generates remediation to return to the automation controller.  
 4. Remediation assets download to Satellite from Red Hat hosted Insights, on-demand.  
 5. RHEL remediation is delivered to the client systems.  
-Ansible runner automates running the remediation playbooks on multiple systems at once, and anything requiring manual
+        - Ansible runner automates running the remediation playbooks on multiple systems at once, and anything requiring manual
 configuration is outlined in the remediation plan in the Satellite.  
-Any package updates are pulled from Red Hat Satellite. Remediation status is outlined in the dashboard in the Satellite.  
+        - Any package updates are pulled from Red Hat Satellite. 
+        - Remediation status is outlined in the dashboard in the Satellite.  
 6. Ansible Syncs with Red Hat  
-Ansible remediation is delivered to Ansible Automation Platform  
-RHEL remediation plans can also be manually synced to the automation controller (optional).  
-7. Ansible’s automation controller can be used to deliver the additional remediation synced (optional) in tandem with
-it’s normal automation workflow.  
+        - Ansible remediation is delivered to Ansible Automation Platform  
+        - RHEL remediation plans can also be manually synced to the automation controller (optional).  
+7. Ansible’s automation controller can be used to deliver the additional remediation synced (optional) in tandem with it’s normal automation workflow.  
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
