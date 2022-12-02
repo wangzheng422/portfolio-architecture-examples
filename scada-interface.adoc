@@ -23,11 +23,12 @@ management tools to better address customer needs.
 *Use case:* Provide interfaces with SCADA systems that are compliant with NERC regulations, creating different layers
 of API gateways to protect business service depending on the network zones.
 
+*Background:* SCADA systems are used extensively in many verticals, one of the main adopters and users being utility companies. There are several generation of SCADA devices and they typically coexist in the IT landscapes of companies, so there is a need to be able to communicate with all of them in a seamless, flexible and transparent way that allows developers to create new applications without needing to know the exact details and that can be reused and re not just ad-hoc creations for a particular device. 
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/scada-interface-marketing-slide.png[alt="Architecture of an API based integration platform for interaction with SCADA devices for electricity providers", width=700]
 --
 
-== The technology
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-general.png[alt="Overall view of Red Hat OpenShift clusters in the different separated network zones", width=700]
 
@@ -38,16 +39,17 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-control.png[alt="Red Hat OpenShift cluster control plane with RHACM and RHACS", width=700]
 --
 
+== The technology
 * The following technology was chosen for this solution:
 
 ====
-** *Red Hat OpenShift* provides the platform on which both the applications that are in the electric zone and retrieve data from the SCADA devices and the business apps that are in the enterprise zone run.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] provides the platform on which both the applications that are in the electric zone and retrieve data from the SCADA devices and the business apps that are in the enterprise zone run.
 
-** *Red Hat Integration* makes psossible the communication between the apps in the two separated network zones by using AMQ message queues and brokers. It is delpoyed on top of Red Hat OpenShift.
+https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] makes psossible the communication between the apps in the two separated network zones by using AMQ message queues and brokers. It is delpoyed on top of Red Hat OpenShift.
 
-** *Red Hat Ansible Automation Platform* is used to automate the compliance of the OpenShift clusters with the security policies that are defined.
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is used to automate the compliance of the OpenShift clusters with the security policies that are defined.
 
-** *Red Hat Enterprise Linux* is the foundation for deploying and running the Red Hat OpenShift clusters..
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the foundation for deploying and running the Red Hat OpenShift clusters.
 ====
 
 == SCADA interfaces network
