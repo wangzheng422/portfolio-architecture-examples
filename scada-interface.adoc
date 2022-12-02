@@ -23,11 +23,12 @@ management tools to better address customer needs.
 *Use case:* Provide interfaces with SCADA systems that are compliant with NERC regulations, creating different layers
 of API gateways to protect business service depending on the network zones.
 
+*Background:* SCADA systems are used extensively in many verticals, one of the main adopters and users being utility companies. There are several generation of SCADA devices and they typically coexist in the IT landscapes of companies, so there is a need to be able to communicate with all of them in a seamless, flexible and transparent way that allows developers to create new applications without needing to know the exact details and that can be reused and re not just ad-hoc creations for a particular device. 
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/scada-interface-marketing-slide.png[alt="Architecture of an API based integration platform for interaction with SCADA devices for electricity providers", width=700]
 --
 
-== The technology
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-general.png[alt="Overall view of Red Hat OpenShift clusters in the different separated network zones", width=700]
 
@@ -38,25 +39,17 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-control.png[alt="Red Hat OpenShift cluster control plane with RHACM and RHACS", width=700]
 --
 
+== The technology
 * The following technology was chosen for this solution:
 
 ====
-** *Red Hat Ansible Automation Platform* is a foundation for building and operating automation across an organization.
-The platform includes all the tools needed to implement enterprise-wide automation.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] provides the platform on which both the applications that are in the electric zone and retrieve data from the SCADA devices and the business apps that are in the enterprise zone run.
 
-** *Red Hat Smart Management* combines the flexible and powerful infrastructure management capabilities with the
-ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
-Linux, from physical machines to hybrid multiclouds.
+https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] makes psossible the communication between the apps in the two separated network zones by using AMQ message queues and brokers. It is delpoyed on top of Red Hat OpenShift.
 
-** *Red Hat Satellite* is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
-environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is used to automate the compliance of the OpenShift clusters with the security policies that are defined.
 
-** *Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
-data across hybrid infrastructures.
-
-** *Red Hat Enterprise Linux for SAP Solutions* is combining an intelligent operating system with predictive management
-tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
-available foundation for business-critical SAP and non-SAP workloads.
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the foundation for deploying and running the Red Hat OpenShift clusters.
 ====
 
 == SCADA interfaces network
@@ -64,21 +57,21 @@ available foundation for business-critical SAP and non-SAP workloads.
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-general.png[alt="Overall network connections between the Red Hat OpenShift clusters", width=700]
 --
 
-*TODO:* add description...
+There are two segregated networks, one where the SCADA devices and the applications that talk to them reside (NERC or electric zone) and another one where the business applications are (enterprise or internal zone).
 
 == SCADA interfaces enterprise network
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-enterprise.png[alt="Network connections in the NERC/electric zone", width=700]
 --
 
-*TODO:* add description...
+The Red Hat OpenShift cluster deployed here hosts the business application that consume data from the applications in the electric zone, mainly for analytics use.
 
-== SCADA interfaces nerc network
+== SCADA interfaces electric network
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-nerc.png[alt="Network connections in the enterprise/internal zone", width=700]
 --
 
-*TODO:* add description...
+The SCADA devices are in this network and also the Red Hat OpenShift cluster where the applications that obtain data directly from them are.
 
 == SCADA interfaces data
 --
@@ -89,7 +82,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-data-sd-enterprise.png[alt="Data flow between the NERC/electric zone and the enterprise/internal zone Red Hat OpenShift clusters", width=700]
 --
 
-*TODO:* add description...
+The Red Hat OpenShift clusters in both networks have a replica of the AMQ message queue and they use a message broker to manage it. When the business applications need to request data fom the SCADA devices, they create a message in the AMQ queue in the enterprise zone that is replicated inn the queue in the electric zone. That message is read by the application it is aimed for and the application will retrieve the needed data from the relevant SCADA device, then it will put it in the AMQ queue and the message will be replicated back to the one in the enterprise zone and finally read by the business app that originated the request.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
