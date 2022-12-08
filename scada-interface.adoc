@@ -1,5 +1,5 @@
 = SCADA interface modernisation
-Ricardo Garcia Cavero @ipbabble
+Ricardo Garcia Cavero @rgarciac
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
