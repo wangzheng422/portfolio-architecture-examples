@@ -1,16 +1,11 @@
 = SCADA interface modernisation
-Ricardo Garcia Cavero @ipbabble
+Ricardo Garcia Cavero @rgarciac
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
 :toc: left
 :toclevels: 5
-
-This Portfolio Architecture targets energy providers in North America that need to be compliant with NERC regulations
-and in order to achieve this they decide to modernize the interfaces between their business applications and their
-SCADA systems also for a better consumption of information that can be used in combination with AI/ML and decision
-management tools to better address customer needs.
 
 ====
 *SCADA interface modernisation*
@@ -25,9 +20,20 @@ of API gateways to protect business service depending on the network zones.
 
 *Background:* SCADA systems are used extensively in many verticals, one of the main adopters and users being utility companies. There are several generation of SCADA devices and they typically coexist in the IT landscapes of companies, so there is a need to be able to communicate with all of them in a seamless, flexible and transparent way that allows developers to create new applications without needing to know the exact details and that can be reused and re not just ad-hoc creations for a particular device. 
 
+== Solution summary
+This Portfolio Architecture targets energy providers in North America that need to be compliant with NERC regulations
+and in order to achieve this they decide to modernize the interfaces between their business applications and their
+SCADA systems also for a better consumption of information that can be used in combination with AI/ML and decision
+management tools to better address customer needs.
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/scada-interface-marketing-slide.png[alt="Architecture of an API based integration platform for interaction with SCADA devices for electricity providers", width=700]
 --
+
+== Summary video
+video::-q66NGNGq-s[youtube]
+
+== Logical diagrams
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/scada-interfaces-ld-general.png[alt="Overall view of Red Hat OpenShift clusters in the different separated network zones", width=700]
@@ -89,3 +95,6 @@ View and download all of the diagrams above in our open source tooling site.
 --
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/scada-interface.drawio[[Open Diagrams]]
 --
+
+== Provide feedback
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/telco-5g-with-hyperscalers.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].

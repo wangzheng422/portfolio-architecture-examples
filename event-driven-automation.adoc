@@ -26,7 +26,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 == Summary video
 video::W_M2KV-GV4k[youtube]
 
-
+== Logical diagrams
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/eda-ld.png[alt="An event driven architecture is made up of an event source, message broker, microservices, and automation orchestration", width=700]
 
 
