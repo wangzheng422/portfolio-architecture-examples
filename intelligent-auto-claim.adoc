@@ -31,13 +31,18 @@ But modernizing a legacy IT platform can be difficult. Claims needed an Intellig
 . Improved operational efficiency and simplified workflow automation to reduce ongoing maintenance costs.
 ====
 
-Figure 1 provides an overview of the Intelligent Automation Workflow and Figure 2 provides a more detailed logical view.
+Figure 1 provides an overview of the Intelligent Automation Workflow
 
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/intelligent-auto-claim-marketing-slide.png[alt="Intelligent Automation Workflow solution overview", width=700]
 --
 Figure 1. Intelligent Automation Workflow solution overview.
+
+
+
+== Logical diagram
+Figure 2 provides a more detailed logical view
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/intelligent-auto-claim-ld-detail.png[alt="Intelligent Automation Workflow solution, as logically and physically distributed across multiple locations", width=700]
