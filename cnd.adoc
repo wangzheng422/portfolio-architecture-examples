@@ -6,15 +6,21 @@
 :source-highlighter: prettify
 :toc: left
 
-== Solution summary
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Cloud Native Development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).
+
+*Background:* The key building blocks of Cloud Native Development are containers and orchestration, DevOps and continuous delivery, microservices and service meshes, and declarative application programming interfaces (APIs). These
+technologies and techniCombined with robust automation, they allow businesses to make high-impact application improvements frequently
+ques deliver loosely coupled systems that are resilient, manageable, and observable.
+and predictably with minimal effort and risk. Additionally, cloud native architecture and technologies provide
+the foundation for newer development models such as serverless computing and Functions-as-a-Service.
+
+
+== Solution overview
 
 Red Hat empowers organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
 
-The key building blocks of Cloud Native Development are containers and orchestration, DevOps and continuous delivery, microservices and service meshes, and declarative application programming interfaces (APIs). These
-technologies and techniques deliver loosely coupled systems that are resilient, manageable, and observable.
-Combined with robust automation, they allow businesses to make high-impact application improvements frequently
-and predictably with minimal effort and risk. Additionally, cloud native architecture and technologies provide
-the foundation for newer development models such as serverless computing and Functions-as-a-Service.
 
 ====
 *Cloud Native Development*
@@ -24,15 +30,16 @@ the foundation for newer development models such as serverless computing and Fun
 . Consistent enterprise image registry strategy
 ====
 
-*Use case:* Cloud Native Development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cnd-marketing-slide.png[750,700]
 --
 
 
+== Logical diagram
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-native-development-ld.png[750, 700]
-
+--
 
 == The technology
 
@@ -59,8 +66,8 @@ microservices with support for creating API, API management and messaging or str
 ====
 
 
-
-== Development with remote and local containers
+== Architectures
+=== Development with remote and local containers
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-local-containers-runtimes-sd.png[750, 700]
 //image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-local-containers-process-sd.png[750, 700]
@@ -83,7 +90,7 @@ production.
 --
 --
 
-== Development deployments
+=== Development deployments
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-deployment-sd.png[750, 700]
 --
@@ -103,7 +110,7 @@ testing infrastructure the image is then tagged for production and pulled into t
 production tagged images are then pushed to the prod infrastructure clusters image registry [11] for further deployment
 and use [12].
 
-== Development enterprise deployments
+=== Development enterprise deployments
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-deployment-enterprise-registry-sd.png[750, 700]
 --
@@ -122,7 +129,7 @@ for further deployment and testing [9]. Finally, after testing passes in CI / CD
 the image is then tagged for production and pushed to the production infrastructure cluster image registry [10] for
 further deployment and use [11].
 
-== Development and deployment with Python
+=== Development and deployment with Python
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-deployment-with-python.png[750, 700]
 --
@@ -139,7 +146,7 @@ Once the test environment is stable, developers can decide to update Git reposit
 The CD platform will automatically sync everything in the cluster. Finally once the application works as expected, it
 can be moved to prod using a similar approach. [9], [10], [11].
 
-== Development with Python and AI support
+=== Development with Python and AI support
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-native-development-deployment-with-thoth.png[750, 700]
 --
