@@ -65,7 +65,7 @@ We can also see how the SREs and the customers connect to the cluster in a secur
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
-https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/ms-aro.drawio[[Open Diagrams]]
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/aws-rosa.drawio[[Open Diagrams]]
 --
 
 == Provide feedback
