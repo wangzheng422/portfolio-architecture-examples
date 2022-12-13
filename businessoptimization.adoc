@@ -7,10 +7,17 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toc: left
 :toclevels: 5
 
-Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Optimizing delivery routing, automating rostering of staff, and improving efficiency of tasks across
+multiple stores.
+
+*Background:* Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
 earn a profit. Retailers satisfy demand identified through a supply chain. The term "retailer" is typically applied
 where a service provider fills the small orders of many individuals, who are end-users, rather than large orders of a
 small number of wholesale, corporate or government clientele.
+
+== Solution overview
 
 ====
 *Business Optimization*
@@ -20,13 +27,14 @@ small number of wholesale, corporate or government clientele.
 . Improve efficiency of planning problem challenges
 ====
 
-*Use case:* Optimizing delivery routing, automating rostering of staff, and improving efficiency of tasks across
-multiple stores.
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/business-optimisation-marketing-slide.png[750,700]
+--
 
-
+== Logical diagram
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-business-optimisation-ld.png[750, 700]
 --
 
@@ -49,7 +57,8 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all types of cloud environments.
 ====
 
-== Business optimization
+== Architectures
+=== Business optimization
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-business-optimisation-sd.png[750, 700]
 --
@@ -58,7 +67,7 @@ The business owners and developers are providing the goals, constraints, and res
 retail data framework that might apply. Processes and data decisions might be needed to complete any optimization planning and then used to generate the planning. This plan is then sent
 to the integration services to push to eventual external third-party systems and the retail systems for further processing out to the stores.
 
-== Vaccine optimization
+=== Vaccine optimization
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-business-optimisation-vaccines-sd.png[750, 700]
 --
