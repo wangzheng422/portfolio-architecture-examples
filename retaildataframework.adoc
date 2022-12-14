@@ -7,11 +7,17 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toc: left
 :toclevels: 5
 
-Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Creating a framework for access to retail data from customers, stock, stores, and staff across multiple
+internal teams.
+
+*Background:* Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
 earn a profit. A data framework refers to the process of managing enterprise retail data. The framework or system sets
 the guidelines and rules of engagement for business and management activities, especially those that deal with or
 result in the creation and manipulation of data.
 
+== Solution overview
 ====
 *Retail Data Framework*
 
@@ -20,16 +26,16 @@ result in the creation and manipulation of data.
 . Reduce impact of incorrect data on business
 ====
 
-*Use case:* Creating a framework for access to retail data from customers, stock, stores, and staff across multiple
-internal teams.
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/retail-data-framework-marketing-slide.png[750,700]
 --
 
-
+== Logical diagram
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-data-framework-ld.png[750, 700]
-
+--
 
 == The technology
 
@@ -65,7 +71,8 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all types of cloud environments.
 ====
 
-== Retail data framework network overview
+== Architectures
+=== Retail data framework network overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-data-framework-sd.png[750, 700]
 --
@@ -84,7 +91,7 @@ The core platform can be seen as the central IT location for other compliance an
 tooling, auditing tooling, and centralized authentication and authorisation tooling. The data science platform is
 where the business intelligence tooling, data visualization tooling, and data science tooling is found.
 
-== Retail data framework data overview
+=== Retail data framework data overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-data-framework-data-sd.png[750, 700]
 --
