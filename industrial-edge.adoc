@@ -7,11 +7,21 @@ Ishu Verma  @ishuverma, William Henry @ipbabble,
 :toc: left
 :toclevels: 5
 
-== Solution overview
-This architecture covers industrial edge that's applicable across a number of verticals including manufacturing. The manufacturing industry has consistently used technology to
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+
+*Use case:* Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out
+to the edge.
+
+*Background:* The manufacturing industry has consistently used technology to
 fuel innovation, production optimization, and operations. Now, with the combination of edge computing and AI/ML,
 manufacturers can benefit from bringing processing power closer to data. This helps actions be taken faster on things
 like errors and predictive maintenance.
+
+
+== Solution overview
+This architecture covers industrial edge that's applicable across a number of verticals including manufacturing. 
+
 
 ====
 *Industrial Edge*
@@ -22,46 +32,48 @@ like errors and predictive maintenance.
 ====
 
 
-*Use case:* Boosting manufacturing efficiency and product quality with artificial intelligence and machine learning out
-to the edge.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-manufacturing-efficiency-marketing-slide.png[alt="High level view of Industrial Edge", width=700]
 --
 
-== The technology
+== Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/industrial-edge-ld.png[alt="Conceptual view of Industrial Edge deployed at various locations", width=700]
 --
+
+== The technology
+
 The following technology was chosen for this solution:
 
 ====
-*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 
-*Red Hat OpenShift Runtimes* helps organizations use the cloud delivery model and simplify continuous delivery of
+https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] helps organizations use the cloud delivery model and simplify continuous delivery of
 applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
 multiple modernization options to enable a smooth transition to the cloud for existing applications.
 
-*Red Hat AMQ Streams* is a massively scalable, distributed, and high-performance data streaming platform based on
+https://www.redhat.com/en/technologies/jboss-middleware/amq?intcmp=7013a00000318EWAAY[*Red Hat AMQ Streams*] is a massively scalable, distributed, and high-performance data streaming platform based on
 the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
 data with high throughput and low latency.
 
-*Red Hat Integration* is a comprehensive set of integration and messaging technologies to connect applications and
+https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and
 data across hybrid infrastructures.
 
-*Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
 quickly and efficiently across clouds.
 
-*Red Hat Advanced Cluster Management* for Kubernetes controls clusters and applications from a single console, with
+https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management*] for Kubernetes controls clusters and applications from a single console, with
 built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
 enforcing policies across multiple clusters at scale.
 
-*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments.
 ====
+== Architectures
 
-== Edge manufacturing with messaging and ML
+=== Edge manufacturing with messaging and ML
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-devops-data-sd.png[alt="Data interaction of various Industrial Edge components", width=700]
 --
@@ -88,7 +100,9 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 In order to protect the factories and operations infrastructure from cyber attacks, the operations network needs to be segregated from the enterprise IT network and public internet.
 The factory machinery, controllers and devices need to be further segregated from the factory data center and need to be protected behind a firewall.
 
-== Edge manufacturing with GitOps
+
+
+=== Edge manufacturing with GitOps
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-gitops-sd.png[alt="Using GitOps for managing any changes to clusters and applications", width=700]
 --
@@ -96,7 +110,7 @@ For the manufacturing environments, GitOps provides a consistent, declarative ap
 changes and upgrades across the centralized and edge sites. Any changes to configuration and applications can be
 automatically pushed into operational systems at the factory.
 
-== Secrets exchange and management
+=== Secrets exchange and management
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-security-sd.png[alt="Secret exchange and management", width=700]
 --
