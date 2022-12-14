@@ -7,10 +7,16 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toc: left
 :toclevels: 5
 
-Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other third-party interactions.
+
+*Background:* Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
 earn a profit. Supply chain integration is a large-scale business strategy that brings as many links of the chain as
 possible into a closer working relationship with each other. The goal is to improve response time, production time, and
 reduce costs and waste.
+
+== Solution overview
 
 ====
 *Supply Chain Integration*
@@ -20,16 +26,16 @@ reduce costs and waste.
 . Reuse existing 3rd party systems whilst transitioning to new systems
 ====
 
-*Use case:* Streamlining integration between different elements of a retail supply chain for on-premise, cloud, and other third-party interactions.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/supply-chain-integration-marketing-slide.png[750,700]
 --
 
-
+== Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-supply-chain-ld.png[750, 700]
 --
+
 == The technology
 
 The following technology was chosen for this solution:
@@ -45,7 +51,8 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all types of cloud environments.
 ====
 
-== Supply Chain Integration example
+== Architectures
+=== Supply Chain Integration example
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-supply-chain-sd.png[750, 700]
 --
