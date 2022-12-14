@@ -6,6 +6,10 @@ Camry Fedei @cfedei
 :source-highlighter: prettify
 :toc: left
 
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+
+
 *Use case:* Automating event response for configuration changes, security preparedness, or emergency incident handling across a scaling estate, whether on-premises in physical data centers or in public/private clouds.
 
 *Background:* With the growing complexity of our modern infrastructures, the importance of automating our day-to-day operations to avoid the costly overhead spent on maintaining this complex environment is increasing rapidly. From something as simple as pushing a configuration change in response to changing security regulations, to something as serious as recognizing and responding to a security threat or emergency, it’s more important than ever that these responses happen as fast as possible, and are consistent and reliable across the entire organization. 
@@ -28,7 +32,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 == Summary video
 video::W_M2KV-GV4k[youtube]
 
-== Logical diagrams
+== Logical diagram
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/eda-ld.png[alt="An event driven architecture is made up of an event source, message broker, microservices, and automation orchestration", width=700]
 
 
