@@ -6,11 +6,16 @@ Eric D. Schabell @eschabell
 :source-highlighter: prettify
 :toc: left
 :toclevels: 5
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-Integrating with Software-as-a-Service (SaaS) applications is the process of operationally connecting SaaS solutions
+*Use case:* Providing integration with SaaS applications, platforms, and services empowers organizations to build and
+run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
+
+*Background:* Integrating with Software-as-a-Service (SaaS) applications is the process of operationally connecting SaaS solutions
 to other separate computer systems or applications into a single larger system, allowing each solution to functionally
 work together.
 
+== Solution overview
 ====
 *Integrating with SaaS applications*
 
@@ -19,14 +24,16 @@ work together.
 . Integration with SaaS platforms
 ====
 
-*Use case:* Providing integration with SaaS applications, platforms, and services empowers organizations to build and
-run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
-
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/saas-integration-marketing-slide.png[750,700]
 
+--
+
+== Logical diagram
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/integrating-with-saas-applications-details-ld.png[750,700]
 --
+
 == The technology
 The following technology was chosen for this solution:
 
@@ -52,7 +59,9 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all many of cloud environments.
 ====
 
-== External CRM integration
+== Architectures
+
+=== External CRM integration
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/saas-external-crm-integration-sd.png[750,700]
 --
@@ -62,7 +71,7 @@ access the process services. The request triggers process activity uses integrat
 communicate with an external SaaS CRM offering. The SSO for authentication and authorization is added to show the
 ability to connect to existing organizational directory services.
 
-== External CRM integration connector
+=== External CRM integration connector
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/saas-external-crm-connector-sd.png[750,700]
 --
@@ -72,7 +81,7 @@ access the process services. The request triggers process activity that uses int
 leverage a specialized connector to communicate with an external SaaS CRM offering. The SSO for authentication
 and authorization is added to show the ability to connect to existing organisational directory services.
 
-== Integration third-party platform
+=== Integration third-party platform
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/saas-integration-3rd-party-platform-sd.png[750,700]
 --
@@ -81,7 +90,7 @@ The external request enters through an API gateway that is backed by front end m
 access the backend systems. The request triggers the use of integration microservices to communicate with an external SaaS platforms services. The SSO for authentication and authorization is added to show the ability to connect to existing organizational directory services.
 
 
-== Integration third-party platform process
+=== Integration third-party platform process
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/saas-integration-3rd-party-process-sd.png[750,700]
 --
