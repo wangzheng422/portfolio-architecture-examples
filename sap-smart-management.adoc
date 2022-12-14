@@ -7,9 +7,17 @@ Ricardo Garcia Cavero @rgarciac
 :toc: left
 :toclevels: 5
 
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Managing security, policy and patches for all the servers in the SAP ecosystem (on-premise, public, private
+and hybrid cloud), making sure they are compliant with SAP and Red Hat's recommendations through their entire lifecycle.
+
+*Background:* SAP landscapes are usually very complex with a high number of servers and dependencies. SAP workloads are really performance demanding and new recommendations need to be applied whenever a new release of the OS or the workload is certified. Maintaining all the servers in these landscapes aligned and up to date with the latest recommendations can be really challenging.
+Being such critical systems, the need to prevent potential issues is of the utmost importance.
+
+
 == Solution summary 
-This architecture covers Smart Management for RHEL servers hosting SAP workloads. SAP landscapes are usually very complex with a high number of servers and dependencies. SAP workloads are really performance demanding and new recommendations need to be applied whenever a new release of the OS or the workload is certified. Maintaining all the servers in these landscapes aligned and up to date with the latest recommendations can be really challenging.
-Being such critical systems, the need to prevent potential issues is of the utmost importance. The combination of Red Hat Insights with all its SAP specific rules to detect potential problems, Red Hat Automation Platform to remediate them before they occur and Red Hat Satellite to manage the servers' lifecycle is a ‌powerful tool to make sure that the SAP workloads will be healthy and operate smoothly.
+This architecture covers Smart Management for RHEL servers hosting SAP workloads.  The combination of Red Hat Insights with all its SAP specific rules to detect potential problems, Red Hat Automation Platform to remediate them before they occur and Red Hat Satellite to manage the servers' lifecycle is a ‌powerful tool to make sure that the SAP workloads will be healthy and operate smoothly.
 
 ====
 *Smart Management for SAP*
@@ -19,8 +27,7 @@ Being such critical systems, the need to prevent potential issues is of the utmo
 . Proactive detection and automatic remediation of potential issues
 ====
 
-*Use case:* Managing security, policy and patches for all the servers in the SAP ecosystem (on-premise, public, private
-and hybrid cloud), making sure they are compliant with SAP and Red Hat's recommendations through their entire lifecycle.
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/smart-management-for-SAP-marketing-slide.png[alt="Architecture for Smart Management for SAP on RHEL servers", width=700]
@@ -29,10 +36,13 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 == Summary video
 video::vBzXn-EiXtQ[youtube]
 ---
-== The technology
+
+== Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/sap-smart-management.png[alt="RHEL servers hosting SAP workloads, Red Hat Smart Management and Red Hat Automation Platform on premise, on private, public or hybrid cloud and Red Hat Insights SaaS", width=700]
 --
+
+== The technology
 
 The following technology was chosen for this solution:
 
@@ -57,7 +67,9 @@ a kernel memory parameter that can cause a bad performance of the SAP HANA DB or
 package that is needed for a particular version of SAP Netweaver.
 ====
 
-== SAP smart management overview
+== Architectures
+
+=== SAP smart management overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-smart-management-network-sd.png[alt="Network connections between Red Hat Smart Management, Red Hat Ansible Automation Platform, Red Hat Insights and RHEL hosted SAP workloads", width=700]
 --
@@ -76,7 +88,7 @@ to any of those scenarios thus covering all the deployments supported by SAP.
 We are using SAP’s terminology when we mention “AnyDB” meaning any of the DBs on which SAP workloads can run other
 than SAP HANA (Oracle, DB2, Sybase, SQL Server, MaxDB)
 
-== SAP smart management data flow overview
+=== SAP smart management data flow overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-smart-management-data-sd.png[alt="Red Hat Insights makes sure that all RHEL servers hosting SAP workloads are compliant with SAP and Red Hat's recommendations, if some are missing it triggers a remediation playbook from Red Hat Ansible Automation Platform that will apply the recommendation directly or through Red Hat Smart Management", width=700]
 --
