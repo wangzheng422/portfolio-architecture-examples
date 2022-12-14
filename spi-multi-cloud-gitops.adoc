@@ -6,7 +6,13 @@ Christia Lin @christina_wm
 :source-highlighter: prettify
 :toc: left
 
-== Solution summary
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Manage hybrid and multicloud cluster lifecycle, secure configuration and credentials. GitOps for
+infrastructure as code approach. Cross cluster governance and application lifecycle management.
+
+
+== Solution overview
 This architecture covers hybrid and multicloud management with GitOps. The solution incorporates a stabilized and
 simplified container platform that secures and supports a hybrid environment
 across multiple cloud solutions. The automated infrastructure as code approach can manage the versioning and deploy according to the
@@ -20,16 +26,16 @@ configuration.
 . Infrastructural continuous delivery best practices.
 ====
 
-*Use case:* Manage hybrid and multicloud cluster lifecycle, secure configuration and credentials. GitOps for
-infrastructure as code approach. Cross cluster governance and application lifecycle management.
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/hybrid-multicloud-management-gitops-marketing-slide.png[alt="Marketecture of Hybrid Multicloud management with GitOps", width=700]
 --
 
-
+== Logical diagram
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/spi-multi-cloud-gitops-ld-public.png[alt="Logical view of  Hybrid Multicloud management with GitOps", width=700]
-
+--
 
 == The technology
 
@@ -64,7 +70,8 @@ https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EW
 trust networks between clouds and data centers.
 ====
 
-== Bootstrapping the management hub
+== Architectures
+=== Bootstrapping the management hub
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-install.png[alt="Schematic view of Bootstrapping the management hub", width=700]
 --
@@ -82,7 +89,7 @@ secrets for all the Openshift clusters.
 . Ansible playbook is used again to configure and trigger the Openshift Gitops operator on the hub cluster. And deploy
 the Openshift Gitops instance for continuous delivery.
 
-== Hybrid multicloud GitOps
+=== Hybrid multicloud GitOps
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-security.png[alt="Schematic view of Hybrid multicloud GitOps", width=700]
 --
@@ -104,7 +111,7 @@ center and the managed cluster.
 RHACM. Any configuration drift or in case of any failure, it will automatically try to remediate by applying the
 manifest (Or showing alerts for manual intervention).
 
-== Dynamic security management
+=== Dynamic security management
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-gitops.png[alt="Schematic view of Dynamic security management", width=700]
 --
@@ -123,7 +130,7 @@ watches for updates.
 
 . Secrets are created in each namespace, where applications can use.
 
-== Observability in hybrid multicloud environment
+=== Observability in hybrid multicloud environment
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/spi-multi-cloud-gitops-sd-monitoring.png[alt="Schematic view of Observability in hybrid multicloud environment", width=700]
 --
