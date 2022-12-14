@@ -7,7 +7,14 @@ Ricardo Garcia Cavero @rgarciac
 :toc: left
 :toclevels: 5
 
-== Solution summary
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Adopt cloud native development technologies and mindset using a container platform without having to manage it and controlling its costs and use all the services offered by cloud providers to create more innovative and useful applications.
+
+
+
+
+== Solution overview
 
 The Azure Red Hat Openshift Implementation architecture tackles the challenge of running many redundant platforms. Instead, all applications can be developed and run on a single platform. 
 
@@ -20,7 +27,6 @@ The Azure Red Hat Openshift Implementation architecture tackles the challenge of
 
 ====
 
-*Use case:* Adopt cloud native development technologies and mindset using a container platform without having to manage it and controlling its costs and use all the services offered by cloud providers to create more innovative and useful applications.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/ms-aro-marketing-slide.png[alt="Deployment of Red Hat OpenShift on MS Azure", width=700]
