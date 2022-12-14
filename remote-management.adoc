@@ -7,9 +7,19 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toc: left
 :toclevels: 5
 
-This architecture covers remote server management. As more and more enterprises are deployed across different data
+
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Providing remote management for a consist server estate across hybrid cloud and data centers with remote
+management, security, and  data protection for full lifecycle.
+
+*Background:* As more and more enterprises are deployed across different data
 centers and public and/or private clouds, it is important to provide consistency and security in an automated way
 across all of the the servers in order to reduce risk and costs.
+
+== Solution overview
+
+This architecture covers remote server management. 
 
 ====
 *Why Remote Server Management?*
@@ -18,17 +28,16 @@ across all of the the servers in order to reduce risk and costs.
 . Full lifecycle management 
 . Remote management and automation
 ====
-
-*Use case:* Providing remote management for a consist server estate across hybrid cloud and data centers with remote
-management, security, and  data protection for full lifecycle.
-
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/rsm-marketing-slide.png[750,700]
 --
 
+
+== Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/rsm-ld.png[750, 700]
 --
+
 == The technology
 
 The following technology was chosen for this solution:
@@ -62,7 +71,8 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all types of cloud environments.
 ====
 
-== Remote Server Management
+== Architectures
+=== Remote Server Management
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-network-sd.png[750, 700]
 --
@@ -83,7 +93,7 @@ Cloud services from Red Hat provide centralized automation analytics, insights i
 architecture, and management insights used to maintain the catalog of activites used in automating the management of all remote
 infrastructure.
 
-== Remote Server Management data view
+=== Remote Server Management data view
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-data-sd.png[750, 700]
 --
