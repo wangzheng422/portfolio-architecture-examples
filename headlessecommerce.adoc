@@ -7,9 +7,16 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toc: left
 :toclevels: 5
 
-Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce
+platform.
+
+*Background:* Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
 earn a profit. The term electronic commerce (e-commerce) refers to a business model that allows companies and
 individuals to buy and sell goods and services over the Internet.
+
+== Solution overview
 
 ====
 *Why Headless eCommerce?*
@@ -19,13 +26,11 @@ individuals to buy and sell goods and services over the Internet.
 . Reduce reaction time to changing market conditions
 ====
 
-*Use case:* Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce
-platform.
-
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/headless-ecommerce-marketing-slide.png[750,700]
 --
 
+== Logical diagram
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-headless-ecommerce-ld.png[750, 700]
@@ -65,7 +70,9 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all types of cloud environments.
 ====
 
-== Headless E-commerce local development
+== Architectures
+
+=== Headless E-commerce local development
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-headless-ecommerce-local-sd.png[750, 700]
 --
@@ -77,7 +84,7 @@ element in the dev infrastructure. The SCM repository represents the connection 
 
 The test environment is used to roll out the entire headless e-commerce suite of services, web application, and messaging. These are tied to external integration services and the testing web application. The process continues on through more environments until the organization is satisfied to push to production.
 
-== Headless E-commerce remote development
+=== Headless E-commerce remote development
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-headless-ecommerce-remote-sd.png[750, 700]
 --
