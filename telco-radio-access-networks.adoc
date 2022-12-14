@@ -32,7 +32,7 @@ An open RAN disaggregates traditional RAN solutions by:
 
 This approach allows for the use of less (and less expensive) hardware. However, it also increases flexibility, provides the ability to spin workloads up and down with minimal effort, and allows workloads to be scaled elastically to address changing network demands.
 
-
+== Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-ran-ld.png[alt="Conceptual view of Radio Access Network deployed at various locations", width=700]
 Figure 2. VRAN architecture, as logically and physically distributed across multiple locations.
