@@ -18,6 +18,8 @@ Some details will differ based on the requirements of a specific implementation 
 One such function is RANs which account for significant overall network expenses and have emerged as a key focus area as more edge and 5G applications are deployed by telco customers. A RAN links user equipment, such as a cellphone, computer, or any remotely controlled machine to the core network, which manages subscriber information, location and more.
 Software-defined open RANs, based on developing industry standards, allow telcos to simplify network operations and improve flexibility, availability, and efficiency—all while serving an increasing number of devices and bandwidth-hungry applications.
 
+== Solution overview
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-ran-marketing-slide.png[alt="High level view of Radio Access Network", width=700]
 Figure 1. RAN overview
@@ -42,22 +44,23 @@ Figure 2. VRAN architecture, as logically and physically distributed across mult
 The following technology was chosen for this solution:
 
 ====
-*Red Hat OpenShift* is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud,  and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud,  and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere.
 
-*Red Hat Smart Management* combines flexible and powerful infrastructure management capabilities with the ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise Linux, from physical machines to hybrid clouds.
+https://www.redhat.com/en/technologies/management/smart-management?intcmp=7013a00000318EWAAY[*Red Hat Smart Management*] combines flexible and powerful infrastructure management capabilities with the ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise Linux, from physical machines to hybrid clouds.
 
-*Red Hat Advanced Cluster Management for Kubernetes* controls clusters and applications from a single console, with built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and enforcing policies across multiple clusters at scale.
+https://www.redhat.com/en/technologies/jboss-middleware/amq?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management for Kubernetes*] controls clusters and applications from a single console, with built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and enforcing policies across multiple clusters at scale.
 
-*Red Hat Quay* is a private container registry that stores, builds, and deploys container images. It analyzes your images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
+https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318EWAAY[*Red Hat Quay*] is a private container registry that stores, builds, and deploys container images. It analyzes your images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
 
-*Red Hat Identity Management* provides a centralized and unified way to manage identity stores, authentication, policies, and authorization policies in a Linux-based domain.
+https://access.redhat.com/products/identity-management?intcmp=7013a00000318EWAAY[*Red Hat Identity Management*] provides a centralized and unified way to manage identity stores, authentication, policies, and authorization policies in a Linux-based domain.
 
 *Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds.
 
-*Red Hat Enterprise Linux* is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
 ====
 
-== Telco 5G Radio Access Networks Overview
+== Architectures
+=== Telco 5G Radio Access Networks Overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-sd.png[alt="Network topology of network components", width=700]
 Figure 3. Schematic diagram of centralized RAN
@@ -78,7 +81,7 @@ The https://www.o-ran.org/[O-RAN Alliance] defines interfaces between components
 - Orchestrator and Cloud Platform (O-Cloud) — O2 Interface.
 
 --
-== Radio Access Networks management and orchestration
+=== Radio Access Networks management and orchestration
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-mgmt-sd.png[alt="Management and Orchestration of RAN components", width=700]
 Figure 4. Schematic diagram of RAN management and orchestration
