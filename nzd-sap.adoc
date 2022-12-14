@@ -6,9 +6,16 @@ Ricardo Garcia Cavero @rgarciac
 :source-highlighter: prettify
 :toc: left
 
-== Solution summary
-SAP workloads are critical to a company and the maintenance windows are often very strict, sometimes making it difficult for the system
-administrators to finish updates and maintenance tasks properly in time. This solution allows for application of OS patches, fixes,
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Minimizing the downtime of the maintenance on SAP hosts so that users and processes can continue to work
+without perceiving any interruption.
+
+*Background:* SAP workloads are critical to a company and the maintenance windows are often very strict, sometimes making it difficult for the system
+administrators to finish updates and maintenance tasks properly in time.
+
+== Solution overview
+This solution allows for application of OS patches, fixes,
 and system updates, as well as database patching and version updates, and SAP kernel updates. With this portfolio architecture implemented users can continue to work inside SAP, without noticing
 any disruption.
 
@@ -20,8 +27,7 @@ any disruption.
 . Avoid disruptions during maintenance
 ====
 
-*Use case:* Minimizing the downtime of the maintenance on SAP hosts so that users and processes can continue to work
-without perceiving any interruption.
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/near-zero-downtime-maintenance-for-sap-marketing.png[alt="Architecture based on HA to achieve Near Zero Downtime in maintenance of RHEL servers running SAP workloads", width=700]
@@ -29,6 +35,8 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 == Summary video
 video::87lISBZZc6w[youtube]
 
+
+== Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/nzd-sap.png[alt="RHEL servers hosting SAP workloads, Red Hat Satellite and Red Hat Ansible Automation Platform on premise, private, public or hybrid cloud and ", width=700]
 --
@@ -55,7 +63,8 @@ a kernel memory parameter that can cause a bad performance of the SAP HANA DB or
 package that is needed for a particular version of SAP Netweaver.
 ====
 
-== Near zero downtime network overview
+== Architectures
+=== Near zero downtime network overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/nzd-sap-network-sd.png[alt="Network connections from Red Hat Satellite and Red Hat Ansible Automation Platform servers to RHEL servers hosting SAP HANA and SAP S/4HANA or SAP Netweaver", width=700]
 --
@@ -69,7 +78,7 @@ connected with the SAP HANA DB hosts and all these servers that host SAP workloa
 to the Infrastructure Management tier, to both the Automation Orchestration (or Ansible Automation Platform) and to
 Satellite.
 
-== Near zero downtime data overview
+=== Near zero downtime data overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/nzd-sap-data-sd.png[alt="Workflow for Near Zero Downtown Maintenance on SAP HANA and SAP S/4HANA or SAP Netweaver RHEL servers orchestrated by Red Hat Ansible Automation Platform and using Red Hat Satellite and Red Hat HA Add-On to operate Red Hat Pacemaker clusters", width=700]
 --
