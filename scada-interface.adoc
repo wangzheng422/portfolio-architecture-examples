@@ -15,7 +15,7 @@ of API gateways to protect business service depending on the network zones.
 
 *Background:* SCADA systems are used extensively in many verticals, one of the main adopters and users being utility companies. There are several generation of SCADA devices and they typically coexist in the IT landscapes of companies, so there is a need to be able to communicate with all of them in a seamless, flexible and transparent way that allows developers to create new applications without needing to know the exact details and that can be reused and re not just ad-hoc creations for a particular device. 
 
-== Solution summary
+== Solution overview
 This Portfolio Architecture targets energy providers in North America that need to be compliant with NERC regulations
 and in order to achieve this they decide to modernize the interfaces between their business applications and their
 SCADA systems also for a better consumption of information that can be used in combination with AI/ML and decision
