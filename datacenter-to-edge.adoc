@@ -7,10 +7,16 @@
 :toc: left
 :toclevels: 5
 
-This architecture covers the use case around data center to edge where the energy (utility) infrastructure companies
-operate across vast geographical area that connects the upstream drilling operations with downstream fuel processing
-and delivery to customers. These companies need to monitor the condition of pipeline and other infrastructure for
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
+
+*Background:* Energy (utility) infrastructure companies operate across vast geographical area that connects the upstream drilling operations with downstream fuel processing and delivery to customers. These companies need to monitor the condition of pipeline and other infrastructure for
 operational safety and optimization.
+
+== Solution overview
+
+This architecture covers the use case around data center to edge. 
 
 ====
 *Data center to edge*
@@ -20,16 +26,18 @@ operational safety and optimization.
 . Dynamic energy management in response to customer demand
 ====
 
-*Use case:* Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/datacenter-to-edge-marketing-slide.png[alt="High level view of solution", width=700]
 --
 
-== The technology
+== Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/datacenter-to-edge-ld.png[alt="Conceptual view of solution components deployed at various locations", width=700]
 --
+
+== The technology
+
 
 The following technology was chosen for this solution:
 
@@ -59,7 +67,10 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all types of cloud environments.
 ====
 
-== Data center to edge
+
+== Architectures
+
+=== Data center to edge
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/datacenter-to-edge-data-sd.png[alt="Data interaction of centralized and edge components", width=700]
 --
@@ -70,7 +81,7 @@ At the core data center, the edge data event stream is received by
 Red Hat AMQ Streams and sent to Core Microservices for further processing. The container and non-container storage components provide long term persistent storage. The data is stored into SQL and no-SQL databases for further access.
 
 
-== Data center to edge management
+=== Data center to edge management
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/datacenter-to-edge-management-sd.png[alt="Cluster and applicationnlifecycle management using ACM and DevOps", width=700]
 --

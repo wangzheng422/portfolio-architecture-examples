@@ -7,10 +7,17 @@ Eric D. Schabell @eschabell
 :toc: left
 :toclevels: 5
 
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-Our world  transformed overnight, and healthcare had to respond immediately. Now more than ever, it's critical to have access to data and unlimited scale, and to design and modify decisioning, processes, and workflows for specific
+
+*Use case:* Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure
+and scalable manner while driving data needs for moving towards consumerization in healthcare.
+
+*Background:* Our world  transformed overnight, and healthcare had to respond immediately. Now more than ever, it's critical to have access to data and unlimited scale, and to design and modify decisioning, processes, and workflows for specific
 situations without being vendor-dependent. The solution presented here covers the use case around using intelligent data as a service in the healthcare industry. https://www.redhat.com/en/solutions/healthcare[Red Hat] is here to help
 with a flexible, open approach.
+
+== Solution overview
 
 ====
 *Intelligent Data as a Service*
@@ -20,17 +27,18 @@ with a flexible, open approach.
 . Focus on data where it lives for reusability, scalability and extensibility
 ====
 
-*Use case:* Intelligent DaaS (Data as a Service) is about building and delivery of systems and platforms in a secure
-and scalable manner while driving data needs for moving towards consumerization in healthcare.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/idaas-marketing-slide.png[750,700]
 --
 
-== The technology
+== Logical diagram
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/idaas-ld.png[750, 700]
 --
+
+== The technology
 
 The following technology was chosen for this solution:
 
@@ -54,8 +62,9 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all types of cloud environments.
 ====
 
+== Architectures
 
-== iDaaS overview
+=== iDaaS overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-sd.png[750, 700]
 
@@ -74,7 +83,7 @@ The iDaaS architecture provides both conformance and insights into the knowledge
 
 The iDaaS knowledge conformance element is a set of applications and tools that allow for any organization to automate compliancy and regulation adherence using rule systems customized to their own local needs.
 
-== iDaaS connect for HL7 FHIR
+=== iDaaS connect for HL7 FHIR
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-connect-hl7-fhir-sd.png[750, 700]
 
@@ -95,7 +104,7 @@ destination. These transformations happen incoming to the event system and outgo
 originating source.
 
 
-== iDaaS knowledge and insight
+=== iDaaS knowledge and insight
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/idaas-knowledge-insight-sd.png[750, 700]
 

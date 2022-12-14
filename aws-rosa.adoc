@@ -1,0 +1,76 @@
+= Azure Red Hat OpenShift Implementation
+Ricardo Garcia Cavero @rgarciac
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples/
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
+
+== Solution summary
+
+The Red Hat Openshift Service on AWS Implementation architecture tackles the challenge of having a highly secured cloud native application development platform but without having to mangae it.
+
+====
+*Red Hat Openshift Service on AWS Implementation*
+
+. Adopt a cloud native solution to migrate applications to and build new ones on, being able to use a hybrid cloud model
+. Make the most of all the services offered by Azure when developing applications by integrating them with the container platform
+. Reduce the cost of having a permanent dedicated on-premise infrastructure for the container platform as well as the cost and need for skills to manage it
+
+====
+
+*Use case:* Modernize the way applications are deployed and run, using microservices and serverless technologies among others as well as adopting DevOps philosophy, not having to take care of the underlying infrastructure or the platform for the applications while prioritizing security
+
+*Background* More and more customers are adopting cloud native development technologies and embracing DevOps philosophy and culture but maintaining a container platform to do that requires a strong investment on infrastructure and a very specialized team of administrators. Both things can constitute an important overhead and create reluctance in customers to adopt container platforms
+
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/aws-rosa-marketing-slide.png[alt="Deployment of Red Hat OpenShift on AWS", width=700]
+--
+
+
+== Summary video
+video::[youtube]
+
+== The technology
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/aws-rosa-ld.png[alt="Red Hat OpenShift on public cloud generic components ", width=700]
+--
+
+* The following technology was chosen for this solution:
+
+https://aws.amazon.com/[*Amazon Web Services Cloud*] is the hyperscaler platform on which the implementation of this solution has been based. In this solution, some of the main services of the cloud platform that interact with the OpenShift clusters are highlighted, like the AWS Container Registry and the AWS Identity and Access Mnagement for certificate management.
+
+https://www.redhat.com/en/technologies/cloud-computing/openshift/aws?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Service on AWS*] is a service on AWS cloud that allows to deploy fully managed OpenShift clusters which provide a Kubernetes container platform. It provides the same functionalities as regular Red Hat Openshift. The support is provided jointly by MS and Red Hat as well as the maintenance operations to keep it up to date and compliant with both MS and Red Hat's recommendations. In this solution, we follow the best practices included in the Azure Landing Zone Accelerator for ARO to deploy it.
+
+== AWS ROSA public cluster
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/aws-rosa-public-sd.png[alt="Public cluster configuration for Red Hat OpenShift Service on AWS (ROSA)", width=700]
+--
+
+In the diagram we can see the best practices to deploy a public facing ROSA cluster.
+
+It shows how the users and the Site Reliability Engineers can access the cluster.
+
+
+== AWS ROSA private cluster
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/aws-rosa-privatelink-sd.png[alt="Private cluster configuration for Red Hat OpenShift Service on AWS (ROSA)", width=700]
+--
+
+This is th recommended implementation for a production cluster, being private and not exposed to Internet.
+
+We can also see how the SREs and the customers connect to the cluster in a secure way.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/aws-rosa.drawio[[Open Diagrams]]
+--
+
+== Provide feedback
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/ms-aro.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+
+
+
+

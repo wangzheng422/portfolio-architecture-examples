@@ -6,8 +6,15 @@ Eric Lavarde @L1
 :source-highlighter: prettify
 :toc: left
 
-== Solution summary
-Large enterprises may use this Cloud Factory architecture in order to deploy and manage their cloud in a modern and automated manner. This architecture covers the deployment pertaining to one code base using the principles of Infrastructure as Code. This architecture addresses adapting to needs with specific clouds creating an efficient repeatable cloud deployment. 
+
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Deploy multiple private clouds based on the same infrastructure as code using different parameters and Ansible inventories.
+
+*Background:* Large enterprises may use this Cloud Factory architecture in order to deploy and manage their cloud in a modern and automated manner. 
+
+== Solution overview
+This architecture covers the deployment pertaining to one code base using the principles of Infrastructure as Code. This architecture addresses adapting to needs with specific clouds creating an efficient repeatable cloud deployment. 
 
 ====
 *Cloud Factory*
@@ -17,15 +24,16 @@ Large enterprises may use this Cloud Factory architecture in order to deploy and
 . Address specific needs with specific cloud
 ====
 
-*Use case:* Deploy multiple private clouds based on the same infrastructure as code using different parameters and Ansible inventories.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloud-factory-marketing-slide.png[750,700]
 --
 
 
+== Logical diagram
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-factory-ld.png[750, 700]
-
+--
 
 
 == The technology
@@ -55,8 +63,8 @@ cloud, multicloud, and edge deployments.
 
 ====
 
-
-== Cloud Factory network overview
+== Architectures
+=== Cloud Factory network overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-factory-sd.png[750, 700]
 --
@@ -78,7 +86,7 @@ compute nodes. A tenant of these nodes is shown as the OpenShift Container Platf
 Platform-as-a-Service (PaaS).
 
 
-== Cloud Factory data overview
+=== Cloud Factory data overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-factory-data-sd.png[750, 700]
 --

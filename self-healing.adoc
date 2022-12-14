@@ -6,10 +6,15 @@ Camry Fedei @cfedei
 :source-highlighter: prettify
 :toc: left
 
-== Solution summary
-Modern application infrastructure has become more complex as it has become more powerful and easy to
-consume. Keeping infrastructure safe and compliant is a challenge for many organizations. One of the most powerful
-approaches to infrastructure management today is the combination of using historical data-driven insights and
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Managing security, policy and patches for a large number of servers in data centers or public/private clouds.
+
+*Background:* Modern application infrastructure has become more complex as it has become more powerful and easy to
+consume. Keeping infrastructure safe and compliant is a challenge for many organizations.
+
+== Solution overview
+One of the most powerful approaches to infrastructure management today is the combination of using historical data-driven insights and
 automation tools for applying remediation across a scaling estate of hosts in a targeted and prioritized manner.
 
 ====
@@ -20,7 +25,6 @@ automation tools for applying remediation across a scaling estate of hosts in a 
 . Automated detection and remediation with remote management
 ====
 
-*Use case:* Managing security, policy and patches for a large number of servers in data centers or public/private clouds.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/self-healing-marketing-slide.png[alt="A self healing architecture designed to improve operational efficiency by introducing automated detection, remediation, and management of a hybrid cloud environment", width=700]
@@ -29,7 +33,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 == Summary video
 video::JOT8If4F27k[youtube]
 
-
+== Logical diagram
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/self-healing-ld.png[alt="A self healing architecture consists of automation orchestration, smart system management, and your managed infrastructure", width=700]
 
 
@@ -46,7 +50,8 @@ https://www.redhat.com/en/technologies/management/insights?intcmp=7013a00000318E
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 ====
 
-== Self-Healing Infrastructure (network)
+== Architectures
+=== Self-Healing Infrastructure (network)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-net.png[alt="All that is needed to enable efficient communications in a self healing architecture is a very simple network mapping between the managed infrastructure, the automation and management tools, and Red Hat", width=700]
 --
@@ -54,7 +59,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 In this network configuration, you can see the internal network depicted in light blue, where all that is required on the customer estate is the hosted client systems, Red Hat Smart Management, and Red Hat Ansible Automation Platform. These are able to simply communicate amongst themselves on an internal network. From here, Ansible and Smart Management connect on a secure network out to Red Hat, where the data is then processed by Red Hat Insights, and displayed on the Hybrid Cloud Console, of which they communicate to each other internally within Red Hat's network. Once processed, that data is passed back to Ansible and Smart Management on the same channel as originally. 
 
 
-== Self-Healing Infrastructure (data)
+=== Self-Healing Infrastructure (data)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-data.png[alt="A self healing architecture has a simple data flow organized by the smart system management tool, through Red Hat, and back out to the managed infrastructure and automation controller", width=700]
 --

@@ -7,7 +7,14 @@ Ricardo Garcia Cavero @rgarciac
 :toc: left
 :toclevels: 5
 
-== Solution summary
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Adopt cloud native development technologies and mindset using a container platform without having to manage it and controlling its costs and use all the services offered by cloud providers to create more innovative and useful applications.
+
+
+
+
+== Solution overview
 
 The Azure Red Hat Openshift Implementation architecture tackles the challenge of running many redundant platforms. Instead, all applications can be developed and run on a single platform. 
 
@@ -20,7 +27,6 @@ The Azure Red Hat Openshift Implementation architecture tackles the challenge of
 
 ====
 
-*Use case:* Adopt cloud native development technologies and mindset using a container platform without having to manage it and controlling its costs and use all the services offered by cloud providers to create more innovative and useful applications.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/ms-aro-marketing-slide.png[alt="Deployment of Red Hat OpenShift on MS Azure", width=700]
@@ -31,18 +37,26 @@ This solution is based on the ARO Landing Zone Accelerator.
 == Summary video
 video::ZKa2ZoV89uI[youtube]
 
-== The technology
+
+== Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/ms-aro-ld.png[alt="Red Hat OpenShift on public cloud generic components ", width=700]
 --
 
-* The following technology was chosen for this solution:
+== The technology
 
-** *MS Azure Cloud* is the hyperscaler platform on which the implementation of this solution has been based. In this solution, some of the main services of the cloud platform that interact with the OpenShift clusters are highlighted, like the Azure Container Registry and the Azure Key Vault for certificate management.
+The following technology was chosen for this solution:
 
-** *Azure Red Hat Openshift* is a service on Azure cloud that allows to deploy fully managed OpenShift clusters which provide a Kubernetes container platform. It provides the same functionalities as regular Red Hat Openshift. The support is provided jointly by MS and Red Hat as well as the maintenance operations to keep it up to date and compliant with both MS and Red Hat's recommendations. In this solution, we follow the best practices included in the Azure Landing Zone Accelerator for ARO to deploy it.
+====
+https://www.redhat.com/en/technologies/cloud-computing/openshift/azure[*MS Azure Cloud*] is the hyperscaler platform on which the implementation of this solution has been based. In this solution, some of the main services of the cloud platform that interact with the OpenShift clusters are highlighted, like the Azure Container Registry and the Azure Key Vault for certificate management.
 
-== MS ARO ingress traffic configuration
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Azure Red Hat Openshift*] is a service on Azure cloud that allows to deploy fully managed OpenShift clusters which provide a Kubernetes container platform. It provides the same functionalities as regular Red Hat Openshift. The support is provided jointly by MS and Red Hat as well as the maintenance operations to keep it up to date and compliant with both MS and Red Hat's recommendations. In this solution, we follow the best practices included in the Azure Landing Zone Accelerator for ARO to deploy it.
+====
+
+
+== Architectures
+
+=== MS ARO ingress traffic configuration
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/ms-aro-ingress.png[alt="Ingress traffic configuration for Azure Red Hat OpenShift (ARO)", width=700]
 --
@@ -54,7 +68,7 @@ It also shows how users can access the APIs for the applications running on the 
 Connection to Azure Arc logging and monitoring services is recommended for cluster performance and usage analysis that will trigger recommendations to improve customer use of their clusters.
 
 
-== MS ARO egress traffic configuration
+=== MS ARO egress traffic configuration
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/ms-aro-egress.png[alt="Egress traffic configuration for Azure Red Hat OpenShift (ARO)", width=700]
 --

@@ -8,11 +8,15 @@
 :Keywords: Telco 5G, OpenShift, Ansible, Hybrid Cloud, Linux, Automation, Mobile Broadband
 :toc: left
 
-== Solution summary
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-5G is the latest evolution of wireless mobile technology that aims to enable the delivery of highly immersive
+*Use case:* Ultra-reliable, immersive experiences for people and objects when and where it matters most.
+
+*Background:* 5G is the latest evolution of wireless mobile technology that aims to enable the delivery of highly immersive
 experiences for people and ultra reliable, low latency communication between devices. At the heart of each 5G network
 lies the 5G Core (5GC).
+
+== Solution overview
 
 This portfolio architecture conceives 5G Core as a set of disaggregated, cloud native applications that communicate
 internally and externally over well defined standard interfaces.
@@ -28,15 +32,16 @@ function (CNF).
 . Cost effective, security conscious and use case adoptable
 ====
 
-*Use case:* Ultra-reliable, immersive experiences for people and objects when and where it matters most.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-on-premise-marketing-slide.png[alt="High level view of 5G core solution deployed on-premise", width=700]
 --
 
+== Logical diagram
 
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-5g-ld.png[alt="Generic common architectural elements of 5G solution for conceptual guidance", width=700]
-
+--
 
 == The technology
 
@@ -75,18 +80,19 @@ quickly and efficiently across clouds. Its used for persistent storage across mu
 
 Conceptually, the 5G solution stack can be categorized into:
 
-*Individual cluster components* (platform-related cloud native components, 5G Core functions, 5G supplementary
+* *Individual cluster components* (platform-related cloud native components, 5G Core functions, 5G supplementary
 functions and 5G management functions)
 
-*Shared cluster platform services*
+* *Shared cluster platform services*
 
-*External services*
+* *External services*
 
-*External network infrastructure*
+* *External network infrastructure*
 
-*Management and orchestration*
+* *Management and orchestration*
 
-== Telco 5G on premise
+== Architectures
+=== Telco 5G on premise
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-sd.png[alt="Solution topology of 5G solution with functional components", width=700]
 
@@ -95,29 +101,29 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 The messages from end devices and Radio Access Network (RAN) are routed to the following components in the Service
 Based Architecture (SBA) and user plane:
 
-User Plane Function (UPF) is responsible for packet processing and traffic aggregation of user traffic.
+* User Plane Function (UPF) is responsible for packet processing and traffic aggregation of user traffic.
 
-Access and Mobility Management Function (AMF) and Session Management Function (SMF) are part of the control plane. AMF
+* Access and Mobility Management Function (AMF) and Session Management Function (SMF) are part of the control plane. AMF
 is responsible for handling connections and mobility management tasks while SMF handles session management. AMF receives
 connection and session-related info from the end devices, passing the session info to SMF, which establishes sessions
 by using UPF.
 
-Policy Control Function (PCF) provides a framework for creating policies to be consumed by the other control plane
+* Policy Control Function (PCF) provides a framework for creating policies to be consumed by the other control plane
 network functions.
 
-Authentication Server Function (AUSF) provides authentication and Unified Data Management (UDM) ensuring user
+* Authentication Server Function (AUSF) provides authentication and Unified Data Management (UDM) ensuring user
 identification, authorization and subscription management.
 
 The following components provide the supplementary services:
 
-Network Repository Function (NRF) is used by AMF to select the correct SMF out of the available pool.
+* Network Repository Function (NRF) is used by AMF to select the correct SMF out of the available pool.
 
-NRF and Network Slice Selection Function (NSSF) work together to support network slicing capabilities.
+* NRF and Network Slice Selection Function (NSSF) work together to support network slicing capabilities.
 
-Network Exposure Function (NEF) exposes 5G services and resources so third-party apps can more securely access 5G
+* Network Exposure Function (NEF) exposes 5G services and resources so third-party apps can more securely access 5G
 services.
 
-Application Function (AF) exposes an application layer for interacting with 5G network resources, retrieving resource
+* Application Function (AF) exposes an application layer for interacting with 5G network resources, retrieving resource
 info from PCF and exposing them.
 
 The management service is provided by Element Management System/Container Network Function Manager (EMS/CNFM) is

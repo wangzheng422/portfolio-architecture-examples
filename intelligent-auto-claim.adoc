@@ -15,7 +15,11 @@ _Some details will differ based on the requirements of a specific implementation
 
 *Background:*  Insurance companies now increasingly depend on digital technology to provide customers with a satisfying and faster claim experience. 
 
-As digitization accelerated, Insurance companies found themselves relying on old legacy systems and processes. The redundant systems they had accumulated over the years drove up the cost and the resources needed to operate them. To achieve the full benefits of digitization required real-time data access via open and secured interfaces. Introducing AI/ML and automation reduced manual interventions leading to a smoother workflow. 
+As digitization accelerated, Insurance companies found themselves relying on old legacy systems and processes. The redundant systems they had accumulated over the years drove up the cost and the resources needed to operate them. 
+
+== Solution overview
+
+To achieve the full benefits of digitization required real-time data access via open and secured interfaces. Introducing AI/ML and automation reduced manual interventions leading to a smoother workflow. 
 
 But modernizing a legacy IT platform can be difficult. Claims needed an Intelligent Automation Workflow in order to achieve:
 
@@ -27,13 +31,18 @@ But modernizing a legacy IT platform can be difficult. Claims needed an Intellig
 . Improved operational efficiency and simplified workflow automation to reduce ongoing maintenance costs.
 ====
 
-Figure 1 provides an overview of the Intelligent Automation Workflow and Figure 2 provides a more detailed logical view.
+Figure 1 provides an overview of the Intelligent Automation Workflow
 
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/intelligent-auto-claim-marketing-slide.png[alt="Intelligent Automation Workflow solution overview", width=700]
 --
 Figure 1. Intelligent Automation Workflow solution overview.
+
+
+
+== Logical diagram
+Figure 2 provides a more detailed logical view
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/intelligent-auto-claim-ld-detail.png[alt="Intelligent Automation Workflow solution, as logically and physically distributed across multiple locations", width=700]
@@ -65,8 +74,9 @@ https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EW
 
 ====
 
+== Architectures
 
-== Intelligent, smart automation for claims(AI/ML workflow)
+=== Intelligent, smart automation for claims(AI/ML workflow)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-aiml-workflow.png[alt="Schematic view of intelligent, smart automation for claims", width=700]
 --
@@ -93,7 +103,7 @@ Retrieving Weather data based on the accident location, date, and time
 
 
 
-== Co-existing with Legacy and Accelerate with New
+=== Co-existing with Legacy and Accelerate with New
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-strangler-pattern.png[alt="Schematic view of how new processes can interact with legacy processes", width=700]
 --
@@ -115,7 +125,7 @@ As shown in Figure 4:
 
 
 <<<
-== Operation efficiency 
+=== Operation efficiency 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligent-auto-claim-sd-itsm.png[alt="Schematic view of automation and IT Service Management", width=700]
 --

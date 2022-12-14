@@ -9,10 +9,15 @@
 :toc: left
 :toclevels: 5
 
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-5G is the latest evolution of wireless mobile technology. In this portfolio architecture we'll discuss a 5G solution
+*Use case:* Build an adaptable, on-demand infrastructure services for 5G Core that can deliver across diverse use
+cases with minimal CAPEX and OPEX.
+
+*Background:* 5G is the latest evolution of wireless mobile technology. In this portfolio architecture we'll discuss a 5G solution
 built with open source technologies at core, that can work across any hyperscaler.
 
+== Solution overview
 ====
 *Telco 5G with Hyperscalers*
 
@@ -21,14 +26,13 @@ built with open source technologies at core, that can work across any hyperscale
 . Cost effective, highly scalable, automatable with minimal ROI risk
 ====
 
-*Use case:* Build an adaptable, on-demand infrastructure services for 5G Core that can deliver across diverse use
-cases with minimal CAPEX and OPEX.
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-core-hyperscalers-marketing-slide.png[alt="High level view of 5G core solution with hyperscalers", width=700]
 --
 
-
+== Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco5GC-generic-7-ld.png[alt="Generic common architectural elements of 5G solution for conceptual guidance", width=700]
 --

@@ -6,12 +6,18 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :source-highlighter: prettify
 :toc: left
 :toclevels: 5
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
+
+*Use case:* Providing (near) real-time stock positions and dynamic pricing promotions information to retailer
+omnichannels.
+
+*Background:* Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
 earn a profit. Real-time inventory management is an automated process of recording sales and purchases through the use
 of software. It gives you a complete picture of what's happening with inventory, allowing your business to react
 quickly to supply chain needs.
 
+== Solution overview
 ====
 *Real-Time Stock Control*
 
@@ -20,17 +26,17 @@ quickly to supply chain needs.
 . Avoid under or over stocking
 ====
 
-*Use case:* Providing (near) real-time stock positions and dynamic pricing promotions information to retailer
-omnichannels.
-
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/real-time-stock-control-marketing-slide.png[750,700]
 --
 
-== The technology
+
+== Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-stock-control-ld.png[750, 700]
 --
+
+== The technology
 
 The following technology was chosen for this solution:
 
@@ -48,7 +54,9 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all types of cloud environments.
 ====
 
-== Real-Time Stock Control example
+== Architectures
+
+=== Real-Time Stock Control example
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-stock-control-sd.png[750, 700]
 --

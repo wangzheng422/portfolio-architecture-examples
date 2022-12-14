@@ -6,7 +6,14 @@ Eric D. Schabell @eschabell
 :source-highlighter: prettify
 :toc: left
 
-== Solution summary
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Accelerating medical diagnosis using condition detection in medical imagery with AI/ML in Edge computing at medical facilities.
+
+
+
+
+== Solution overview
 
 This architecture covers the use case around Edge Medical Diagnosis in the healthcare industry. The solution provides a way to increase efficiency of a medical facility by reducing time spent on routine diagnosis and medical diagnosis of disease. This gives the medical expert time to focus on the difficult cases.
 
@@ -18,15 +25,15 @@ This architecture covers the use case around Edge Medical Diagnosis in the healt
 . Focus medical expert time on most difficult to interpret cases
 ====
 
-*Use case:* Accelerating medical diagnosis using condition detection in medical imagery with AI/ML in Edge computing at medical facilities.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-medical-diagnosis-marketing-slide.png[750,700]
 --
 
-
+== Logical diagram
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/edge-medical-diagnosis-details-ld.png[750, 700]
-
+--
 
 == The technology
 
@@ -50,7 +57,9 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all types of cloud environments.
 ====
 
-== Edge Medical Diagnosis overview
+== Architectures
+
+=== Edge Medical Diagnosis overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-network-sd.png[750, 700]
 --
@@ -71,7 +80,7 @@ to the collection used for model training and development. The applications, mac
 development and dashboards for monitoring the processes are all in constant evolution. Developers and operations
 teams are maintaining code and infrastructure manifests for full GitOps deployment of the architectural elements.
 
-== Edge Medical Diagnosis with GitOps
+=== Edge Medical Diagnosis with GitOps
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-gitops-sd.png[750, 700]
 

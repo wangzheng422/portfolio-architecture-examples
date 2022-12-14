@@ -7,11 +7,17 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toc: left
 :toclevels: 5
 
-Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Simplifying and modernizing central management of distributed point-of-sale devices with built in support
+for container based applications.
+
+*Background:* Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
 earn a profit. A point of sale, or point of purchase, is where you ring up customers. When customers check out online,
 walk up to your counter, or pick out an item from your stand or booth, they're at the point of sale. Your point-of-sale
 system is the hardware and software that enables your business to make those sales.
 
+== Solution overview
 ====
 *Business Drivers for Point of Sale*
 
@@ -20,16 +26,16 @@ system is the hardware and software that enables your business to make those sal
 . Automated build, manage, and deployment
 ====
 
-*Use case:* Simplifying and modernizing central management of distributed point-of-sale devices with built in support
-for container based applications.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/pos-marketing-slide.png[750,700]
 --
 
+== Logical diagram
 
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-pos-ld.png[750, 700]
-
+--
 
 == The technology
 
@@ -57,7 +63,9 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all types of cloud environments.
 ====
 
-== Point of sale image delivery
+== Architectures
+
+=== Point of sale image delivery
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-pos-sd.png[750, 700]
 --

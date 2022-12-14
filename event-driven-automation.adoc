@@ -6,8 +6,15 @@ Camry Fedei @cfedei
 :source-highlighter: prettify
 :toc: left
 
-== Solution summary
-With the growing complexity of our modern infrastructures, the importance of automating our day-to-day operations to avoid the costly overhead spent on maintaining this complex environment is increasing rapidly. From something as simple as pushing a configuration change in response to changing security regulations, to something as serious as recognizing and responding to a security threat or emergency, it’s more important than ever that these responses happen as fast as possible, and are consistent and reliable across the entire organization. 
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+
+
+*Use case:* Automating event response for configuration changes, security preparedness, or emergency incident handling across a scaling estate, whether on-premises in physical data centers or in public/private clouds.
+
+*Background:* With the growing complexity of our modern infrastructures, the importance of automating our day-to-day operations to avoid the costly overhead spent on maintaining this complex environment is increasing rapidly. From something as simple as pushing a configuration change in response to changing security regulations, to something as serious as recognizing and responding to a security threat or emergency, it’s more important than ever that these responses happen as fast as possible, and are consistent and reliable across the entire organization. 
+
+== Solution overview
 
 ====
 *Why Event Driven Automation?*
@@ -17,7 +24,6 @@ With the growing complexity of our modern infrastructures, the importance of aut
 . Security and compliance enforcement and emergency response
 ====
 
-*Use case:* Automating event response for configuration changes, security preparedness, or emergency incident handling across a scaling estate, whether on-premises in physical data centers or in public/private clouds.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/eda-marketecture-slide.png[alt="An event driven architecture designed to improve emergency response while improving automation and management of a hybrid cloud environment", width=700]
@@ -26,7 +32,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 == Summary video
 video::W_M2KV-GV4k[youtube]
 
-== Logical diagrams
+== Logical diagram
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/eda-ld.png[alt="An event driven architecture is made up of an event source, message broker, microservices, and automation orchestration", width=700]
 
 
@@ -43,7 +49,9 @@ https://www.redhat.com/en/technologies/jboss-middleware/fuse?intcmp=7013a0000031
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
 ====
 
-== Event Driven Automation (network)
+== Architectures
+
+=== Event Driven Automation (network)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/eda-sd-net.png[alt="A simple network mapping between the managed infrastructure, event source and the automated solution is required for efficient communication in an event driven architecture", width=700]
 --
@@ -51,7 +59,8 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 In this simplified network diagram, you’ll see that each component is broken down into their own communication channel, where we can define them as dark blue being the Managed Infrastructure, yellow being for Administration, and light blue being an Internal Network for the containers running the application services and routing environment. This is customizable to however fits your needs as long as the components in each channel are able to communicate as depicted above.
 
 
-== Event Driven Automation (data)
+
+=== Event Driven Automation (data)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/eda-sd-data.png[alt="An event driven architecture has a simple data flow from an event source through to the automation orchestrator, while updating status with third-party ticketing systems throughout the process", width=700]
 --
