@@ -8,11 +8,15 @@
 :Keywords: Telco 5G, OpenShift, Ansible, Hybrid Cloud, Linux, Automation, Mobile Broadband
 :toc: left
 
-== Solution summary
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-5G is the latest evolution of wireless mobile technology that aims to enable the delivery of highly immersive
+*Use case:* Ultra-reliable, immersive experiences for people and objects when and where it matters most.
+
+*Background:* 5G is the latest evolution of wireless mobile technology that aims to enable the delivery of highly immersive
 experiences for people and ultra reliable, low latency communication between devices. At the heart of each 5G network
 lies the 5G Core (5GC).
+
+== Solution summary
 
 This portfolio architecture conceives 5G Core as a set of disaggregated, cloud native applications that communicate
 internally and externally over well defined standard interfaces.
@@ -28,15 +32,16 @@ function (CNF).
 . Cost effective, security conscious and use case adoptable
 ====
 
-*Use case:* Ultra-reliable, immersive experiences for people and objects when and where it matters most.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-on-premise-marketing-slide.png[alt="High level view of 5G core solution deployed on-premise", width=700]
 --
 
+== Logical diagram
 
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-5g-ld.png[alt="Generic common architectural elements of 5G solution for conceptual guidance", width=700]
-
+--
 
 == The technology
 
@@ -86,7 +91,8 @@ functions and 5G management functions)
 
 *Management and orchestration*
 
-== Telco 5G on premise
+== Architectures
+=== Telco 5G on premise
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-sd.png[alt="Solution topology of 5G solution with functional components", width=700]
 
