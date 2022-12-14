@@ -6,6 +6,8 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :source-highlighter: prettify
 :toc: left
 :toclevels: 5
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
 
 *Use case:* Providing (near) real-time stock positions and dynamic pricing promotions information to retailer
 omnichannels.
