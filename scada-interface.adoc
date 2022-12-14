@@ -7,13 +7,8 @@ Ricardo Garcia Cavero @rgarciac
 :toc: left
 :toclevels: 5
 
-====
-*SCADA interface modernisation*
 
-. Modernize access to critical network equipments and SCADA systems
-. Compliance to relevant international industry standards
-. Enablement of business agility by standardizing access to old and/or heterogeneous systems using messaging and APIs
-====
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
 *Use case:* Provide interfaces with SCADA systems that are compliant with NERC regulations, creating different layers
 of API gateways to protect business service depending on the network zones.
@@ -25,6 +20,15 @@ This Portfolio Architecture targets energy providers in North America that need 
 and in order to achieve this they decide to modernize the interfaces between their business applications and their
 SCADA systems also for a better consumption of information that can be used in combination with AI/ML and decision
 management tools to better address customer needs.
+
+====
+*SCADA interface modernisation*
+
+. Modernize access to critical network equipments and SCADA systems
+. Compliance to relevant international industry standards
+. Enablement of business agility by standardizing access to old and/or heterogeneous systems using messaging and APIs
+====
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/scada-interface-marketing-slide.png[alt="Architecture of an API based integration platform for interaction with SCADA devices for electricity providers", width=700]
@@ -46,7 +50,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 --
 
 == The technology
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
 ====
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] provides the platform on which both the applications that are in the electric zone and retrieve data from the SCADA devices and the business apps that are in the enterprise zone run.
@@ -58,28 +62,29 @@ https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EW
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the foundation for deploying and running the Red Hat OpenShift clusters.
 ====
 
-== SCADA interfaces network
+== Architectures
+=== SCADA interfaces network
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-general.png[alt="Overall network connections between the Red Hat OpenShift clusters", width=700]
 --
 
 There are two segregated networks, one where the SCADA devices and the applications that talk to them reside (NERC or electric zone) and another one where the business applications are (enterprise or internal zone).
 
-== SCADA interfaces enterprise network
+=== SCADA interfaces enterprise network
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-enterprise.png[alt="Network connections in the NERC/electric zone", width=700]
 --
 
 The Red Hat OpenShift cluster deployed here hosts the business application that consume data from the applications in the electric zone, mainly for analytics use.
 
-== SCADA interfaces electric network
+=== SCADA interfaces electric network
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-network-sd-nerc.png[alt="Network connections in the enterprise/internal zone", width=700]
 --
 
 The SCADA devices are in this network and also the Red Hat OpenShift cluster where the applications that obtain data directly from them are.
 
-== SCADA interfaces data
+=== SCADA interfaces data
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/scada-interfaces-data-sd-general.png[alt="Data flow trhough the Red Hat OpenShift clusters including the control plane", width=700]
 
