@@ -7,10 +7,17 @@ Eric D. Schabell @eschabell
 :toc: left
 :toclevels: 5
 
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-== Solution summary
-An omnichannel approach provides a unified customer experience across platforms, creating a single view for
+
+*Use case:* Omnichannel implies integration and orchestration of channels such that the experience of engaging across
+all the channels someone chooses to use.
+
+*Background:* An omnichannel approach provides a unified customer experience across platforms, creating a single view for
 customers to interact with their own information.
+
+== Solution overview
+
 Red Hat provides a foundation for IT teams to develop and deliver omnichannel services through a combination
 of integration and process automation technologies. Agile integration defines how organizations are transforming
 and delivering on their digital promise to customers by integrating applications and services across on-premise
@@ -25,15 +32,15 @@ enable access to complex process services.
 . Distributed deployments, non-centralized integration
 ====
 
-*Use case:* Omnichannel implies integration and orchestration of channels such that the experience of engaging across
-all the channels someone chooses to use.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/omnichannel-marketing-slide.png[750,700]
 --
 
+== Logical diagram
+--
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/omnichannel-customer-experience-details-ld.png[750,700]
-
+--
 
 == The technology
 
@@ -60,7 +67,8 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all types of cloud environments.
 ====
 
-== Process integration example
+== Architectures
+=== Process integration example
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/omnichannel-process-integration-sd.png[750,700]
 --
@@ -71,7 +79,7 @@ integration with backend systems through the Integration Microservices. Containe
 storage as an example. Not showing monitoring.
 
 
-== Mobile integration example
+=== Mobile integration example
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/omnichannel-mobile-integration-sd.png[750,700]
 --
@@ -80,7 +88,7 @@ Example of a mobile application making calls through the API Gateway to leverage
 Services to serve data to the device and integration with backend systems through the Integration Microservices.
 Container Native Storage shown as the data source for mobile data consumption in this example for simplicity.
 
-== Integration service example
+=== Integration service example
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/omnichannel-integration-service-sd.png[750,700]
 --
@@ -90,7 +98,7 @@ Microservices that in turn call to various integration with backend systems thro
 server shown with integration to existing company backend Active Directory Server for authentication. Not showing
 monitoring.
 
-== Integration data service example
+=== Integration data service example
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/omnichannel-integration-data-service-sd.png[750,700]
 --
@@ -100,7 +108,7 @@ Microservices that in turn call to various integration with a customer contact d
 Microservice. SSO server shown with integration to existing company backend Active Directory Server for authentication.
 Not showing monitoring.
 
-== Integration third-party services
+=== Integration third-party services
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/omnichannel-process-integration-3rd-party-services-sd.png[750,700]
 --
