@@ -7,10 +7,15 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toc: left
 :toclevels: 5
 
-Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Managing effective in-store compliance, health & safety, and employee checks and procedures.
+
+*Background:* Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
 earn a profit. Store health and safety is all about managing risks to protect workers and stores. In a global context,
 health and safety is also an essential part of the movement towards sustainable operational growth.
 
+== Solution overview
 ====
 *Store Health and Safety*
 
@@ -19,12 +24,12 @@ health and safety is also an essential part of the movement towards sustainable 
 . Free up colleagues to focus on customers
 ====
 
-*Use case:* Managing effective in-store compliance, health & safety, and employee checks and procedures.
-
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/store-health-safety-marketing-slide.png[750,700]
 --
 
+
+== Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-store-safety-ld.png[750, 700]
 --
@@ -48,7 +53,8 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 virtual, container, and all types of cloud environments.
 ====
 
-== Store Health and Safety Example
+== Architectures
+=== Store Health and Safety Example
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-store-safety-sd.png[750, 700]
 
