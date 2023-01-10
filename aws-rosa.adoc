@@ -37,7 +37,7 @@ video::[youtube]
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/aws-rosa-ld.png[alt="Red Hat OpenShift on public cloud generic components ", width=700]
 --
 
-* The following technology was chosen for this solution:
+The following technology was chosen for this solution:
 
 https://aws.amazon.com/[*Amazon Web Services Cloud*] is the hyperscaler platform on which the implementation of this solution has been based. In this solution, some of the main services of the cloud platform that interact with the OpenShift clusters are highlighted, like the AWS Container Registry and the AWS Identity and Access Mnagement for certificate management.
 
@@ -58,7 +58,7 @@ It shows how the users and the Site Reliability Engineers can access the cluster
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/aws-rosa-privatelink-sd.png[alt="Private cluster configuration for Red Hat OpenShift Service on AWS (ROSA)", width=700]
 --
 
-This is th recommended implementation for a production cluster, being private and not exposed to Internet.
+This is the recommended implementation for a production cluster, being private and not exposed to Internet.
 
 We can also see how the SREs and the customers connect to the cluster in a secure way.
 
