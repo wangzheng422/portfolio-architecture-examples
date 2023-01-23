@@ -29,6 +29,10 @@ The Red Hat Openshift Service on AWS Implementation architecture tackles the cha
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/aws-rosa-marketing-slide.png[alt="Deployment of Red Hat OpenShift on AWS", width=700]
 --
 
+== Summary video
+video::p4IhqDAxSPA[youtube]
+
+
 == Logical diagrams
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/aws-rosa-ld.png[alt="Red Hat OpenShift on public cloud generic components ", width=700]
