@@ -13,14 +13,14 @@ _Some details will differ based on the requirements of a specific implementation
 
 *Background* More and more customers are adopting cloud native development technologies and embracing DevOps philosophy and culture but maintaining a container platform to do that requires a strong investment on infrastructure and a very specialized team of administrators. Both things can constitute an important overhead and create reluctance in customers to adopt container platforms
 
-== Solution summary
+== Solution overview
 The Red Hat Openshift Service on AWS Implementation architecture tackles the challenge of having a highly secured cloud native application development platform but without having to mangae it.
 
 ====
 *Red Hat Openshift Service on AWS Implementation*
 
-. Adopt a cloud native solution to migrate applications to and build new ones on, being able to use a hybrid cloud model
-. Make the most of all the services offered by Azure when developing applications by integrating them with the container platform
+. Develop new applications faster, in a more flexible way  and with less footprint
+. Improve customer experience and satisfaction being more responsive to market demands adopting DevOps methodologies
 . Reduce the cost of having a permanent dedicated on-premise infrastructure for the container platform as well as the cost and need for skills to manage it
 
 ====
@@ -74,7 +74,7 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/ms-aro.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/aws-rosa.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
 
 
 
