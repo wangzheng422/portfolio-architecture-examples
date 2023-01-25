@@ -37,7 +37,7 @@ video::wGUJ8xJB3yA[youtube]
 
 == Logical diagram
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/sap-integration-ld.png[alt="SAP backend connects t non-SAP systems via integration platform running on a container platform", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/sap-integration-ld.png[alt="SAP backend connects to non-SAP systems via integration platform running on a container platform", width=700]
 --
 
 == The technology
