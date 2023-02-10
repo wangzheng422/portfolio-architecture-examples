@@ -43,9 +43,9 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 The following technology was chosen for this solution:
 
-https://aws.amazon.com/[*Amazon Web Services Cloud*] is the hyperscaler platform on which the implementation of this solution has been based. In this solution, some of the main services of the cloud platform that interact with the OpenShift clusters are highlighted, like the AWS Container Registry and the AWS Identity and Access Mnagement for certificate management.
+https://aws.amazon.com/[*Amazon Web Services Cloud*] is the hyperscaler platform on which the implementation of this solution has been based. In this solution, some of the main services of the cloud platform that interact with the OpenShift clusters are highlighted, like the AWS Container Registry and the AWS Identity and Access Management for certificate management.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/aws?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Service on AWS*] is a service on AWS cloud that allows to deploy fully managed OpenShift clusters which provide a Kubernetes container platform. It provides the same functionalities as regular Red Hat Openshift. The support is provided jointly by MS and Red Hat as well as the maintenance operations to keep it up to date and compliant with both MS and Red Hat's recommendations. In this solution, we follow the best practices included in the Azure Landing Zone Accelerator for ARO to deploy it.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/aws?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Service on AWS*] is a service on AWS cloud that allows to deploy fully managed OpenShift clusters which provide a Kubernetes container platform. It provides the same functionalities as regular Red Hat Openshift. The support is provided jointly by AWS and Red Hat as well as the maintenance operations to keep it up to date and compliant with both AWS and Red Hat's recommendations.
 
 == Architectures
 === AWS ROSA public cluster
