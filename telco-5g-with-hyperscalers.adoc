@@ -58,6 +58,8 @@ services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps
 quickly and efficiently across clouds. Its used for persistent storage across  clusters across hybrid cloud.
 ====
 
+== Architectures
+
 Conceptually, the 5G solution stack with hyperscalers can be categorized into:
 
 * Infrastructure
