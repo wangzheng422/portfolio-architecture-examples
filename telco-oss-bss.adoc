@@ -4,56 +4,31 @@ Fatih Nar https://www.linkedin.com/in/fenar/  Ishu Verma  @IoT_Ishu, Fatih Nar, 
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
+:description: 5G is the latest evolution of wireless mobile technology. It can deliver a number of services from the network edge
+:Keywords: Telco OSS/BSS, 5G, OpenShift, Ansible, Hybrid Cloud, Linux, Automation, GitOps, Hyperscalers
 :toc: left
 :toclevels: 5
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Build next-generation cloud-ready OSS and BSS solution with a hybrid cloud
-
-*Background:* Cloud-ready OSS and BSS architectures can help telco network operators provide next-gen 5G and 6G communication solutions more efficiently and reliably.
+Cloud-ready OSS and BSS architectures can help telco network operators provide next-gen 5G and 6G communication solutions more efficiently and reliably.
 Operational support systems (OSS) are the information processing systems that manage communications networks. These systems allow an organization to coordinate customers, services, resources, processes, and activities. They assist service providers in designing, building, operating, and maintaining communications networks.
 Business support systems (BSS) provide business and customer-facing functionality. BSS tools allow an organization to connect with partners and customers (using services called customer relationship management, or CRM), create offerings, issue bills to customers, and generate inter-business transactions such as settlements and point-of-interconnect.
 
-== Solution overview
-
---
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-oss-bss-marketing-slide.png[alt="High level view of OSS/BSS solution", width=700]
---
-_Figure 1. OSS/BSS solution overview._
-
-Figure 1 provides an overview of the cloud ready OSS/BSS solution.
+====
+*Telco OSS/BSS Modernization*
 
 ====
-This solution:
 
-. Provides cloud-native OSS/BSS architecture with on-demand scaling where and when needed
-. Enable new B2B and B2C revenue streams using cross-value generation with data and service meshes
-. Preserve legacy charging systems usage with a transition to 5G converged charging systems and solutions
-====
+*Use case:* Build next-generation cloud-ready OSS and BSS solution that can can offer next-generation communication solutions with a multi-cloud approach
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-oss-bss-workflow.png[alt="Service Assurance with OSS/BSS solution", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-oss-bss-marketing-slide.png[750,700]
 --
-_Figure 2. Service assurance with next-gen OSS/BSS._
 
-Figure 2 provides a high-level view of service assurance with next-gen OSS/BSS solution.
 
-1. Events, metrics, and log data (mostly in batch) streaming from the customer network in a private secure connection.
-2. High-performance data ingestion and parallel processing.
-3. High-performance event streaming by Apache Kafka.
-4. AI-backed applications enabling flexibility towards new data streams, predictive and reactive automated network management, and analytics.
-
-== Logical diagram
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-oss-bss-ld.png[alt="Logical view of OSS/BSS solution", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-oss-bss-ld.png[750, 700]
 --
-_Figure 3: OSS/BSS solution as logically distributed across multiple functions._
-
-The following technology was chosen for this solution:
-
-== The technology
-
 
 == The technology
 The following technology was chosen for this solution:
@@ -75,11 +50,8 @@ https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
 quickly and efficiently across clouds. Its used for persistent storage across  clusters across hybrid cloud.
 ====
-== Architectures
 
-=== OSS/BSS with Hyperscalers
-
-The OSS and BSS portfolio architecture is based on the following design principles:
+The OSS and BSS portfolio architecture is based the following design principles:
 
 *Layered solution*: The solution separates OSS and BSS applications from a common platform (enterprise-grade Kubernetes-based application platform) and infrastructure (on-premises private cloud and hyperscalers). This approach captures OSS/BSS value within the application layer enriched by the platform and powered by infrastructure.
 
@@ -87,12 +59,20 @@ The OSS and BSS portfolio architecture is based on the following design principl
 
 *Self-organized autonomous systems*: Self-aware and self-scaling complete OSS/BSS solutions, from infrastructure to platform to OSS/BSS application set, are integral to the design.
 
+
+
+
+== OSS/BSS with Hyperscalers
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/.png[750, 700]
+--
+
 *Layered solution*
 This solution recommends creating an abstracted, layered approach based on these application-set placement locations:
-- Core: This is where the OSS/BSS solution core is deployed, leveraging on-demand high availability with a low-cost cloud multiregion, multizone infrastructure. The network fabric design part of the solution blueprint is architected to avoid well-known networking drawbacks (such as latency or replication durations). Using integrated cloud-native networking constructs and facilities (for example, unicast IPs, geoload balancers), the solution delivers the best experience with on-demand autoscaling when and where needed.
-- Edge: This layer covers OSS/BSS solution extensions (such as element management systems [EMS], distributed API gateways, or data ingest proxies), benefiting from hyperscaler edge (local zones) as a proximity-based availability and nearby bursting option.
-- Far edge: This layer operates on ingress data and interacts with the 5G/OSS/BSS solution core and on-premises low-latency solutions. This is where applications, probes, and agents are located, such as xAPPs (software tools used by the RAN intelligent controller, or RIC, to manage network functions in real time) and rAPPs (which manage non-real-time events within the RIC).
-- Device edge: Similar to the far edge layer, this layer deals with interaction and interworking with edge components, including Internet of Things (IoT) devices, manufacturing facilities, and other network subscribers, ingressing data from these devices towards the OSS/BSS core.
+Core: This is where the OSS/BSS solution core is deployed, leveraging on-demand high availability with a low-cost cloud multiregion, multizone infrastructure. The network fabric design part of the solution blueprint is architected to avoid well-known networking drawbacks (such as latency or replication durations). Using integrated cloud-native networking constructs and facilities (for example, unicast IPs, geoload balancers), the solution delivers the best experience with on-demand autoscaling when and where needed.
+Edge: This layer covers OSS/BSS solution extensions (such as element management systems [EMS], distributed API gateways, or data ingest proxies), benefiting from hyperscaler edge (local zones) as a proximity-based availability and nearby bursting option.
+Far edge: This layer operates on ingress data and interacts with the 5G/OSS/BSS solution core and on-premises low-latency solutions. This is where applications, probes, and agents are located, such as xAPPs (software tools used by the RAN intelligent controller, or RIC, to manage network functions in real time) and rAPPs (which manage non-real-time events within the RIC).
+Device edge: Similar to the far edge layer, this layer deals with interaction and interworking with edge components, including Internet of Things (IoT) devices, manufacturing facilities, and other network subscribers, ingressing data from these devices towards the OSS/BSS core.
 
 *Break down and build-up*
 To address the challenges with distributed and complex OSS/BSS solutions, we have applied some of the best practices from 5G core deployments and operations (distributed microservices with higher levels of automation and standards guidance). The result is a consistent model across different layers of an end-to-end 5G solution.
@@ -103,10 +83,8 @@ As organizations deploy more applications across multiple clouds, new operationa
 GitOps helps manage such complex operational scenarios. GitOps is a means of accelerating and simplifying application deployments, infrastructure management, and overall operations tasks using Git version control as your system's "source of truth" and using Git pull requests to manage, automate, and track changes.
 Abilities like multicluster management, end-to-end secure software pipelines, and extendable automation platforms provide a solid foundation for applying GitOps-style workflows to various use cases within the OSS/BSS service provider application framework. Using Git-based business operations, you can declaratively manage supply chain security, cluster lifecycle management and compliance, policy management, application delivery on edge, AI/ML workload through MLOps, and more.
 
---
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-oss-bss-sd.png[alt="Service assurance with public cloud", width=700]
---
-_Figure 4: Service assurance with public cloud shown schematically._
+
+
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
