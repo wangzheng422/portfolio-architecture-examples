@@ -20,7 +20,7 @@ Note: _Operational support systems (OSS) are the information processing systems 
 == Solution overview
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/oss-bss-sa-marketecture.png.png[alt="High level view of OSS/BSS Service Assurance solution", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-oss-bss-sa-marketing.png[alt="High level view of OSS/BSS Service Assurance solution", width=700]
 --
 _Figure 1. OSS/BSS Service Assurance solution overview._
 
@@ -35,7 +35,7 @@ This solution:
 ====
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-oss-bss-workflow.png[alt="Service Assurance with OSS/BSS solution", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-oss-bss-sa-workflow.png[alt="Service Assurance with OSS/BSS solution", width=700]
 --
 _Figure 2. Service assurance with next-gen OSS/BSS._
 
