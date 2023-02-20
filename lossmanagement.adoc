@@ -201,7 +201,7 @@ on a client’s supply chain data using natural language search.
 The following diagram shows the schematic for the understock use case.
 
 
-image::./images/schematic-diagrams/lossmanagement-environmentexception-sd.svg[environmental exception schematic]
+image::./images/schematic-diagrams/lossmanagement-environmentexception-sd.png[environmental exception schematic]
 
 Food Loss - Environmental Exception steps:
 
@@ -233,7 +233,7 @@ use case.
 
 Food Loss - Contamination recall steps:
 
-image::./images/schematic-diagrams/lossmanagement-recall-sd.svg[recall schematic]
+image::./images/schematic-diagrams/lossmanagement-recall-sd.png[recall schematic]
 
 External notification of food safety event
 
