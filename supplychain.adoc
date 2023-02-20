@@ -206,8 +206,8 @@ factors can be transformed:
 * link:./perfectorder.md[Perfect order]
 * link:./intelligentorder.md[Intelligent Order]
 * link:./demandrisk.md[Demand risk]
-* link:./lossmanagement.md[Loss and waste management]
-* link:./timeliness.md[Product timeliness]
+* link:lossmanagement.md[Loss and waste management]
+* link:timeliness.md[Product timeliness]
 * link:./sustainablesupplychain.md[Sustainable supply chain]
 
 The following section explore more details on each of the scenarios.
@@ -320,7 +320,7 @@ The following logical diagram describes a set of personas and
 technologies that provide a platform for some of the biggest potential
 for ideation and breakthroughs with supply chain.
 
-image::./images/logical-diagrams/inventoryoptimisation-ld.svg[logical diagram]
+image::./images/logical-diagrams/inventoryoptimisation-ld.png[logical diagram]
 
 The logical diagram is explained as solution tiers and personas in the
 following sections.
