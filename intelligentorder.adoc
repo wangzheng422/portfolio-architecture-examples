@@ -211,7 +211,7 @@ through Business Automation tools such as Business Automation Workshop.
 The following diagram shows the schematic for the intelligent order use
 case.
 
-image::./images/schematic-diagrams/intelligentorder-sd.svg[last mile delivery schematic]
+image::./images/schematic-diagrams/intelligentorder-sd.png[last mile delivery schematic]
 
 Intelligent order steps:
 
