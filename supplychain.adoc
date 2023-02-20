@@ -206,8 +206,8 @@ factors can be transformed:
 * link:./perfectorder.md[Perfect order]
 * link:./intelligentorder.md[Intelligent Order]
 * link:./demandrisk.md[Demand risk]
-* link:lossmanagement.md[Loss and waste management]
-* link:timeliness.md[Product timeliness]
+* link:./lossmanagement.md[Loss and waste management]
+* link:./timeliness.md[Product timeliness]
 * link:./sustainablesupplychain.md[Sustainable supply chain]
 
 The following section explore more details on each of the scenarios.
