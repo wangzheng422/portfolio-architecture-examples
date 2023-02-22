@@ -116,6 +116,14 @@ identification, authorization and subscription management.
 
 The following components provide the supplementary services:
 
+* Service Communication Proxy (SCP) is responsible for routing and signaling of all control plane messages, load balancing, congestion control, mediation and message filtering.
+
+* Binding Support Function (BSF) is used for binding an application-function request to a specific PCF instance.
+
+* Charging Function (CHF) is part of the Converged Charging System (CCS) and is responsible for providing charging and billing support by collecting charging data from different network functions and nodes.
+
+* Network Slice Selection and Assistance Function (NSSAAF) enables the selection and management of network slices based on specific service requests.
+
 * Network Repository Function (NRF) is used by AMF to select the correct SMF out of the available pool.
 
 * NRF and Network Slice Selection Function (NSSF) work together to support network slicing capabilities.
@@ -125,6 +133,8 @@ services.
 
 * Application Function (AF) exposes an application layer for interacting with 5G network resources, retrieving resource
 info from PCF and exposing them.
+
+* N6 interface provides connectivity between UPF and data networks, including Internet and external public or private clouds.  It provides a mechanism for enabling services, such as Carrier Grade NAT, FWs, QoS, etc.
 
 The management service is provided by Element Management System/Container Network Function Manager (EMS/CNFM) is
 responsible for the application’s life cycle: provisioning, configuration, scaling, updates, etc. This component would
