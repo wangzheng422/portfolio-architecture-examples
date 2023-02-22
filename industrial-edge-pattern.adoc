@@ -38,7 +38,7 @@ Different roles within an organization have different concerns and areas of focu
 - **The factories**. This is where new applications, updates and operational changes are deployed to improve quality and efficiency in the factory..
 
 
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/highleveldemodiagram-vp.png[alt="Mapping of organizational roles to architectural areas", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/ai-ml-architecture-vp.png[alt="Mapping of organizational roles to architectural areas", width=700]
 
 _Figure 2. Mapping of organizational roles to architectural areas._
 
@@ -130,7 +130,7 @@ This scenario is derived from the https://github.com/sa-mw-dach/manuela[MANUela 
 
 The demo has been updated 2021 with an advanced GitOps framework.
 
-[![Demo Scenario](/images/industrial-edge/highleveldemodiagram.png)](/images/industrial-edge/highleveldemodiagram.png)///
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/highleveldemodiagram-vp.png[alt="The specific example is machine condition monitoring based on sensor data in an industrial setting, using AI/ML. It could be easily extended to other use cases such as predictive maintenance, or other verticals", width=700]
 
 _Figure 9. High-level demo summary. The specific example is machine condition monitoring based on sensor data in an industrial setting, using AI/ML. It could be easily extended to other use cases such as predictive maintenance, or other verticals._
 
