@@ -116,7 +116,7 @@ identification, authorization and subscription management.
 
 The following components provide the supplementary services:
 
-* Service Communication Proxy (SCP) is responsible for routing and signaling of all control plane messages, load balancing, congestion control, mediation and message filtering.
+* Service Communication Proxy (SCP) is responsible for routing and signaling of all control plane messages as well as their load balancing, congestion control, mediation and filtering.
 
 * Binding Support Function (BSF) is used for binding an application-function request to a specific PCF instance.
 
