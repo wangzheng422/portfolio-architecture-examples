@@ -50,7 +50,7 @@ https://www.redhat.com/en/technologies/cloud-computing/openshift/aws?intcmp=7013
 https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a set of integration and messaging technologies that uses an API-first approach allowing to create reusable and modular integrations that will make the communication between 3rd party apps and SAP possible, as well as of the extensions and custom code that customers will develop outside of the SAP core. One of the technologies, Camel, has a specific component for SAP (SAP Netweaver) that uses the main protocols utilized by SAP (RFC, iDoc, OData).
 
 == Architectures
-=== AWS ROSA public cluster
+=== Integration of ROSA cluster with the SAP backend
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rosa-int-sd.png[alt="Interconnection of apps and extensions running on ROSA, the SAP backend and SAP BTP", width=700]
 --
