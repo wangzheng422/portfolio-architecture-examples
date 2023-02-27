@@ -1,0 +1,352 @@
+== Perfect order
+
+Managing inventory efficiently is critical to any business that sells
+physical goods, is responsible for maintenance, repair and operations
+(MRO) supplies.
+
+_Inventory management_ encompasses procedures and processes that
+directly or indirectly affect the bottom line ‐ ordering, receiving,
+storing, tracking and accounting for all of the goods a business sells.
+It is a key element of supply chain management.
+
+In this scenario, you will explore the implications of a _perfect and
+imperfect order_ in which inventory:
+
+* Can meet customer expecation.
+* May not have all items available.
+
+=== Business problem
+
+* *Inventory visibility*. Multichannel order fulfillment operations
+typically have inventory spread across many places throughout the supply
+chain. Inventory visibility is knowing what inventory you have and where
+it’s located. Businesses need an accurate view of inventory to guarantee
+fulfillment of customer orders, reduce shipment turnaround times, and
+minimize stockouts, oversells and markdowns.
+* *Orders may not match available inventory*. Inventory may not be on
+hand or in a different location than expected. Multiple and partial
+shipments may be able to solve many customer requests.
+
+=== Business solution
+
+The goal of _inventory management_ is to have the right products in the
+right place at the right time. This requires inventory visibility —
+knowing when to order, how much to order and where to store stock. The
+basic steps of inventory management include:
+
+* *Purchasing inventory*. Ready-to-sell goods are purchased and
+delivered to the warehouse or directly to the point of sale.
+* *Storing inventory*. Inventory is stored until needed. Goods or
+materials are transferred across your fulfillment network until ready
+for shipment.
+* *Profiting from inventory*. The amount of product for sale is
+controlled. Finished goods are pulled to fulfill orders. Products are
+shipped to customers.
+
+=== Use cases
+
+More and more businesses are looking at having sustainable supply chains
+because customers are demanding it.
+
+[width="100%",cols="34%,33%,33%",options="header",]
+|===
+|Use case |Problem statement |Solution
+|Stock on hand |*Inventory visibility* What goods are in stock, how much
+do you have and where are the items? All that information is required to
+fill orders. |An Inventory management system helps provide that
+information and more.
+
+|Forecasting for fulfillment / Demand forecasting |*Forecasting*
+Forecasting is predicting how much inventory you’ll need on hand to meet
+upcoming demand. |Goal of forecasting is to have just enough inventory
+on hand to cover predicted sales for a prescribed period of time.
+
+|Optimal inventory |*Monitor Orders & Inventory* By minimizing lost
+sales, misplaced stock and excess ordering, inventory management boosts
+your profits and can even reduce your taxes. |Optimal inventory level is
+the ideal quantity of product that one should have in a fulfillment
+center(s) at any given time. By optimizing inventory levels, you reduce
+the risk of common inventory issues, from high storage costs to
+out-of-stock items.
+
+|Warehouse location |*Inside the Warehouse* refers to the specific spot,
+such as a shelf or a bin, where a product is located within the four
+walls of a warehouse. It impacts the efficiency and timeliness of
+picking products. |The products most often picked is placed in the most
+efficient spot. As products change and demand for products changes, the
+inventory layout can be updated to ensure continued efficiency.
+
+|Warehouse location |Physical Location of the Warehouse |Choosing the
+site for a warehouse is based on many factors:
+|===
+
+=== Challenges / Business Drivers
+
+*Challenges*
+
+* *Inventory visibility*. Multichannel order fulfillment operations
+typically have inventory spread across many places throughout the supply
+chain. Inventory visibility is knowing what inventory you have and where
+it’s located. Businesses need an accurate view of inventory to guarantee
+fulfillment of customer orders, reduce shipment turnaround times, and
+minimize stockouts, oversells and markdowns.
+* *Orders may not match available inventory*. Inventory may not be on
+hand or in a different location than expected. Multiple and partial
+shipments may be able to solve many customer needs.
+* *Spreadsheets, hand-counted stock levels and manual order placement*
+have largely been replaced by advanced inventory tracking software. An
+inventory management system can simplify the process of ordering,
+storing and using inventory by automating end-to-end production,
+business management, demand forecasting and accounting.
+
+*Drivers*
+
+* Supply chain operators will use technologies that provide significant
+insights into how supply chain performance can be improved. They’ll
+anticipate anomalies in logistics costs and performance before they
+occur and have insights into where automation can deliver significant
+scale advantages
+* Eliminate ``out of stock'' occurrences
+* Optimizes inventory costs by balancing inventory to operational demand
+* Improve stock allocation to improve space utilization
+* Reduce dormant/non-moving inventory
+* Have an accurate assessment of critical spares and the money invested
+in those parts
+* Deliver transparency and visibility to critical and non-critical
+spares inventory for the organization
+* Reduce time spent looking for and ordering parts
+* Accelerate disposal of obsolete materials
+
+=== Business outcomes
+
+* *Decrease waste*. Decrease order fragmentation and waste with decrease
+in packages per order.
+* *Order optimization*. In-stock improvement through holiday season
+using Order Optimizer.
+* *Reduce costs*. Reduced costs and emissions by housing software on the
+cloud more efficiently than on-premises
+* *Minimize disruption*. Gain visibility to minimize disruption to
+business despite supply and demand shocks
+* *Returns optimization*. Returns refurbished to create a revenue stream
+by re-circulation, refurbishment, repairs thereby reducing disposal and
+recycling costs.
+
+=== Solution overview
+
+This solution focuses on _Automation_ and _Modernization_ in our Action
+Guide as shown in the following diagram:
+
+* Increase inventory visibility
+* Monitor the criticality of inventory items to the organization
+* Accelerate automation in extended workflows
+* Amp up AI to make workflows smarter
+* Modernize for modern infrastructures, scale hybrid cloud platforms
+
+image::./images/intro-marketectures/perfectorder-marketing-slide.png[solution overview]
+
+=== Solution principles
+
+*True end-to-end visibility*. Remove data silos and create a unified
+view across supply chain data with a standard data platform.
+Personalized dashboards and insights provide a 360-degreee view of KPIs
+and significant events.
+
+*Manage by exception*. Detect, display, and prioritize work tasks in
+real time. This allows clients to sense and react to issues quickly
+while managing risks and disruptions in a supply chain proactively.
+
+*Intelligent workflows*. Actionable workflows can be customized to meet
+unique requirements and process steps required to automate actions
+within source transactional systems. Make informed decisions with a
+supply chain virtual assistant that provides responses to issues based
+on a client’s supply chain data using natural language search.
+
+=== Perfect order
+
+The following diagram shows the inventory management scenario for an
+perfect order with responses for cases where the order is not perfect.
+
+image::./images/schematic-diagrams/perfectorder-sd.png[prefect order schematic]
+
+Customer places/track/confirm order thru omni channel 
+
+Inventory fulfilment, and delivery tracking information is quicky
+obtained from supply assurance Platform
+
+Access underlying backend system via API Management
+
+Notify various backend systems via the Integration Services
+
+Check with the Inventory Management System if inventory is available
+then lock the items and update the inventory.
+
+Use Store Operations System to determine if store can fulfill order.
+Store can only fulfill partial order. Notify customer about partial
+order fill. If acceptable, package order and get it ready for delivery
+to customer. Go to Step 7. If partial order is not acceptable, get it
+ready to be sent to warehouse. Go to Step 8.
+
+Notify Transport/Logistics System to schedule delivery.
+
+Use Warehouse Management System to find which warehouse can fulfill
+remaining order items. Send alert to warehouse to combine partial orders
+and package itmes and get it ready for delivery. Notify customer and
+update/sync related systems.
+
+Update Transport/Logistics System to schedule delivery.
+
+Cross check with the Fulfilment System to schedule and track the order
+and notify customer.
+
+Provide real-time tracking of the order to customer and upon delivery
+provide POD (electronic or paper) to customer.
+
+=== Technology
+
+The following technology was chosen for this solution:
+
+https://www.redhat.com/en/technologies/cloud-computing/openshift[_Red
+Hat OpenShift_] Kubernetes offering, the hybrid platform offering allow
+deployment across data centers, private and public clouds as it brings
+choices and flexible for hosting system and services.
+
+https://www.redhat.com/en/technologies/management/ansible[_Red Hat
+Ansible Automation Platform_] operate, scale and delegate automate IT
+services, track changes an update inventory, prevent configuration drift
+and integrated with ITSM.
+
+https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[_Red
+Hat OpenShift API Management_] is a managed API traffic control and
+program management service to secure, manage, and monitor APIs at every
+stage of the development lifecycle.
+
+https://www.redhat.com/en/getting-started-devops[_Red Hat OpenShift
+DevOps_] represents an approach to culture, automation and platform
+design intended to deliver increased business value and responsiveness
+through rapid, high-quality service delivery. DevOps means linking
+legacy apps with newer cloud-native apps and infrastructure. A DevOps
+developer can link legacy apps with newer cloud-native apps and
+infrastructure.
+
+https://www.ibm.com/products/business-automation-workflow[_Business
+Automation Workflow_] automate business processes, case work, task
+automation with Robotic Process Automation (RPA) and Intelligent
+Automation such as conversation intelligence.
+
+https://www.ibm.com/products/supply-chain-intelligence-suite[_IBM Supply
+Chain Control Tower_] provides actionable visibility to orchestrate your
+end-to-end supply chain network, identify and understand the impact of
+external events to predict disruptions, and take actions based on
+recommendations to mitigate the upstream and downstream effects.
+
+https://www.ibm.com/products/intelligent-promising[_IBM Sterling
+Intelligent Promising_] provides shoppers with greater certainty, choice
+and transparency across their buying journey. It includes:
+
+* https://www.ibm.com/products/fulfillment-optimizer[_IBM Sterling
+Fulfillment Optimizer with Watson_] to determine the best location from
+which to fulfill an order, based on business rules, cost factors, and
+current inventory levels and placement
+* https://www.ibm.com/products/inventory-visibility[_Sterling Inventory
+Visibility_] to processes inventory supply and demand activity to
+provide accurate and real-time global visibility across selling
+channels.
+
+https://www.ibm.com/products/planning-analytics[_IBM Planning Analytics
+with Watson_] streamlines and integrates financial and operational
+planning across the enterprise.
+
+https://www.ibm.com/products/mro-inventory-optimization[_IBM Maximo MRO
+Inventory Optimization_] can help you optimize your maintenance, repair
+and operations (MRO) inventory by providing an accurate, detailed
+picture of performance.
+
+=== Action guide
+
+From a high-level perspective, there are several main steps your
+organization can take to drive innovation and move toward a digital
+supply chain:
+
+* Automation
+* Sustainability
+* Modernization
+
+[width="100%",cols="34%,33%,33%",options="header",]
+|===
+| |Actionable Step |Implementation details
+|Automation |Monitor the criticality of inventory items to the
+organization |Some are critical to operations or employee safety. Others
+are ``nice to have'' but not urgent. Select a methodology and a solution
+that routinely audit those parameters. For example, any time a new
+transaction is created in the Enterprise Resource Planning (ERP), the
+solution needs to apply that transaction against the material to
+determine if the criticality is still correct.
+
+|Automation |Accelerate automation in extended workflows |Automate the
+response using workflows that are consistant with criticality of the
+inventory items.
+
+|Automation |Provide visibility into the inventory system |When users
+are inspecting inventory items, users can see where they have available
+inventory and receive recommendations about how much inventory can and
+should be transferred to the OOS / AOOS locations. These recommendations
+are based on adding automation and AI to make workflows smarter.
+
+|Automation |Automate the maintenance of scores to each individual item
+|Eliminate data manual entry for criticality with a systems wide
+approach.
+
+|Sustainability |Includes sustainability metrics into decision making
+|Surface sustainability information as part of the inventory management
+processes.
+
+|Modernization |Modernization for modern infrastructures, scale hybrid
+cloud platforms |The decision for a future, Kubernetes-based enterprise
+platform is defining the standards for development, deployment and
+operations tools and processes for years to come and thus represents a
+foundational decision point.
+|===
+
+=== Similar use cases
+
+See:
+
+* link:./demandrisk.md[Demand risk]
+* link:lossmanagement.md[Loss and waste management]
+* link:timeliness.md[Product timeliness]
+* link:./intelligentorder.md[Intelligent order]
+* link:./sustainablesupplychain.md[Sustainable supply chain]
+
+For a comprehensive supply chain overview, see
+link:supplychain.md[Supply Chain Optimization].
+
+=== Downloads
+
+View and download all of the *Inventory Optimization diagrams* shown in
+previous sections in our open source tooling site.
+
+* PowerPoint Solution Overview:
+link:./downloads/SupplyChainOptimization.SolutionOverview.pptx[Open
+Solution Overview]
+* PowerPoint Reference Architecture:
+link:./downloads/SupplyChainOptimization.ReferenceArchitecture.pptx[Open
+Workflow Diagrams]
+* DrawIO: [Open Schematic
+Diagrams](./downloads/SupplyChainOptimization.drawio
+
+=== Reference
+
+* IBM documentation https://www.ibm.com/topics/inventory-management[What
+is inventory management?]
+* Blog
+https://www.ibm.com/blogs/internet-of-things/mro-inventory-spares-criticality/[Understanding
+``Spares Criticality'' in your MRO inventory]
+
+=== Contributors
+
+* Rajeev Shrivastava, Account Technical Lead, IBM
+* Ashok Iyengar, Executive Cloud Architect, IBM
+* Karl Cama, Chief Architect, Red Hat
+* Iain Boyle, Chief Architect, Red Hat
+* Bruce Kyle, Solutions Architect, IBM Client Engineering
+* Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
