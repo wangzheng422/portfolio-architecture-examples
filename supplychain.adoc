@@ -1,4 +1,10 @@
-== Supply Chain Optimization Portfolio Architecture
+= Supply Chain Optimization Portfolio Architecture
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples/
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
 
 == Use Cases
 
