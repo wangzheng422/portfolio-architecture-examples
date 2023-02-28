@@ -36,8 +36,10 @@ This architecture covers generic information on the design of the infrastructure
 * optional: Red Hat Insights
 ** Red Hat Insights detects with SAP specific rules potential problems.
 
+image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[solution overview]
+
 --
-image:./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL servers hosting SAP workloads on IBM Power hardware, PowerVC, RHEL with Red Hat Smart Management, Red Hat Automation Platform on premise and Red Hat Insights SaaS", width=700]
+image:./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
 --
 
 
