@@ -37,7 +37,7 @@ This architecture covers generic information on the design of the infrastructure
 ** Red Hat Insights detects with SAP specific rules potential problems.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL servers hosting SAP workloads on IBM Power hardware, PowerVC, RHEL with Red Hat Smart Management, Red Hat Automation Platform on premise and Red Hat Insights SaaS", width=700]
+image:https://gitlab.com/mschindl1/portfolio-architecture-examples-sap/-/blob/sap-on-power/images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL servers hosting SAP workloads on IBM Power hardware, PowerVC, RHEL with Red Hat Smart Management, Red Hat Automation Platform on premise and Red Hat Insights SaaS", width=700]
 --
 
 
@@ -74,18 +74,18 @@ package that is needed for a particular version of SAP Netweaver.
 
 === Logical overview
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/sap-on-ibm-power-solution-overview.png[alt="RHEL servers hosting SAP workloads on IBM Power hardware, PowerVC, RHEL with Red Hat Smart Management, Red Hat Automation Platform on premise and Red Hat Insights SaaS", width=700]
+image:https://gitlab.com/mschindl1/portfolio-architecture-examples-sap/-/blob/sap-on-power/images/logical-diagrams/sap-on-ibm-power-solution-overview.png[alt="RHEL servers hosting SAP workloads on IBM Power hardware, PowerVC, RHEL with Red Hat Smart Management, Red Hat Automation Platform on premise and Red Hat Insights SaaS", width=700]
 --
 text...
 === Schemtic overview
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-on-ibm-power-schematic.png[alt="RHEL servers hosting SAP workloads on IBM Power hardware, PowerVC, RHEL with Red Hat Smart Management, Red Hat Automation Platform on premise and Red Hat Insights SaaS", width=700]
+image:https://gitlab.com/mschindl1/portfolio-architecture-examples-sap/-/blob/sap-on-power/images/schematic-diagrams/sap-on-ibm-power-schematic.png[alt="RHEL servers hosting SAP workloads on IBM Power hardware, PowerVC, RHEL with Red Hat Smart Management, Red Hat Automation Platform on premise and Red Hat Insights SaaS", width=700]
 --
 text...
 
 == Deployment process
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-on-ibm-power-with-rhel-and-ansible.png[alt="RHEL servers hosting SAP workloads on IBM Power hardware, PowerVC, RHEL with Red Hat Smart Management, Red Hat Automation Platform on premise and Red Hat Insights SaaS", width=700]
+image:https://gitlab.com/mschindl1/portfolio-architecture-examples-sap/-/blob/sap-on-power/images/schematic-diagrams/sap-on-ibm-power-with-rhel-and-ansible.png[alt="RHEL servers hosting SAP workloads on IBM Power hardware, PowerVC, RHEL with Red Hat Smart Management, Red Hat Automation Platform on premise and Red Hat Insights SaaS", width=700]
 --
 text...
 
@@ -98,3 +98,7 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 
 == Provide feedback 
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sap-smart-management.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+
+
+=== BEFORE PUSH to MAIN
+Replace https://gitlab.com/mschindl1/portfolio-architecture-examples-sap/-/blob/sap-on-power/images with https://gitlab.com/mschindl1/portfolio-architecture-examples-sap/-/blob/sap-on-power/images
