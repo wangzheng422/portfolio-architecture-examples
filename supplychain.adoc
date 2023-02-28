@@ -492,7 +492,7 @@ For specific steps on this approach, see *The Action Guide* details in
 https://www.ibm.com/downloads/cas/1BYY6VEM[Own your transformation]
 survey of 1500 CSCOs across 24 industries.
 
-==== Personas
+=== Personas
 
 The following personas within the organization may be stakeholders for one or more aspects of this architecture.
 
@@ -511,56 +511,17 @@ The following represent users of the system outside of the organization.
 * *Business partners*
 * *Vendors*
 
-==== Next steps
+=== Next steps
 
 See _Action Guide_ section in each of the use cases:
 
-* link:./perfectorder.md#action-guide[Perfect order]
-* link:./intelligentorder.md#action-guide[Intelligent order]
-* link:./demandrisk.md#action-guide[Demand risk]
-* link:lossmanagement.md#action-guide[Loss and waste management]
-* link:timeliness.md#action-guide[Product timeliness]
-* link:./sustainablesupplychain.md#action-guide[Sustainable supply
-chain]
+* Perfect order (coming soon)
+* Intelligent order (coming soon)
+* Demand risk (coming soon)
+* Loss and waste management (coming soon)
+* Product timeliness  (coming soon)
+* Sustainable supply  (coming soon)
 
-== References
-
-* McKinsey:
-https://www.mckinsey.com/capabilities/operations/our-insights/how-covid-19-is-reshaping-supply-chains[How
-COVID-19 is reshaping supply chains]
-* Harvard Business Review:
-https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis[Three
-steps to prepare your supply chain for the next crisis]
-* Gartner:
-https://www.gartner.com/en/articles/what-is-a-supply-chain-control-tower-and-what-s-needed-to-deploy-one[What
-is a Supply Chain Control Tower and what’s needed to deploy one]
-* Gartner:
-https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-inventory-poisitioning[Fulfillment
-Forecasting: The Key to Optimizing Retail Inventory Positioning]
-* Gartner:
-https://www.gartner.com/en/supply-chain/insights/supply-chain-risk-management[Supply
-Chain Risk Management (SCRM): What & Why Is It Important]
-* IBM Institute for Business Value:
-https://www.ibm.com/downloads/cas/1BYY6VEM[Own your transfomation]
-* IBM Institute for Business Value:
-https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research[Balancing
-sustainability and profitability]
-* https://www.ibm.com/topics/business-sustainability[What is
-sustainability in business?]
-
-=== Downloads
-
-View and download all of the *Inventory Optimization diagrams* shown in
-previous sections in our open source tooling site.
-
-* PowerPoint Solution Overview:
-link:./downloads/SupplyChainOptimization.SolutionOverview.pptx[Open
-Solution Overview]
-* PowerPoint Reference Architecture:
-link:./downloads/SupplyChainOptimization.ReferenceArchitecture.pptx[Open
-Workflow Diagrams]
-* DrawIO: link:./downloads/SupplyChainOptimization.drawio[Open Schematic
-Diagrams]
 
 == Contributors
 
@@ -576,3 +537,23 @@ Diagrams]
 * Jeric Saez, Senior Solution Architect, IBM
 * Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
 * Ramesh Yerramsetti, Customer Success Architect, IBM
+
+== Downloads
+
+View and download all of the *Inventory Optimization diagrams* shown in
+previous sections in our open source tooling site.
+
+* PowerPoint Solution Overview:
+link:./downloads/SupplyChainOptimization.SolutionOverview.pptx[Open
+Solution Overview]
+* PowerPoint Reference Architecture:
+link:./downloads/SupplyChainOptimization.ReferenceArchitecture.pptx[Open
+Workflow Diagrams]
+* DrawIO: link:./downloads/SupplyChainOptimization.drawio[Open Schematic
+Diagrams]
+
+
+== Provide feedback
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/supplychain.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+
+
