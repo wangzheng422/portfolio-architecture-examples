@@ -38,9 +38,8 @@ This architecture covers generic information on the design of the infrastructure
 
 image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[solution overview]
 
---
-image:./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
---
+[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
+
 
 
 == Hardware and Technology
