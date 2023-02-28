@@ -36,10 +36,7 @@ This architecture covers generic information on the design of the infrastructure
 * optional: Red Hat Insights
 ** Red Hat Insights detects with SAP specific rules potential problems.
 
-image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[solution overview]
-
-[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
-
+image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
 
 
 == Hardware and Technology
@@ -74,20 +71,21 @@ package that is needed for a particular version of SAP Netweaver.
 == Architectures
 
 === Logical overview
---
-image:https://gitlab.com/mschindl1/portfolio-architecture-examples-sap/-/blob/sap-on-power/images/logical-diagrams/sap-on-ibm-power-overview.png[alt="RHEL servers hosting SAP workloads on IBM Power hardware, PowerVC, RHEL with Red Hat Smart Management, Red Hat Automation Platform on premise and Red Hat Insights SaaS", width=700]
---
+
+image::./images/logical-diagrams/sap-on-ibm-power-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
+
 text...
+
 === Schemtic overview
---
-image:https://gitlab.com/mschindl1/portfolio-architecture-examples-sap/-/blob/sap-on-power/images/schematic-diagrams/sap-on-ibm-power-schematic.png[alt="RHEL servers hosting SAP workloads on IBM Power hardware, PowerVC, RHEL with Red Hat Smart Management, Red Hat Automation Platform on premise and Red Hat Insights SaaS", width=700]
---
+
+image::./images/schematic-diagrams/sap-on-ibm-power-schematic.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
+
 text...
 
 == Deployment process
---
-image:https://gitlab.com/mschindl1/portfolio-architecture-examples-sap/-/blob/sap-on-power/images/schematic-diagrams/sap-on-ibm-power-with-rhel-and-ansible.png[alt="RHEL servers hosting SAP workloads on IBM Power hardware, PowerVC, RHEL with Red Hat Smart Management, Red Hat Automation Platform on premise and Red Hat Insights SaaS", width=700]
---
+
+image::./images/schematic-diagrams/sap-on-ibm-power-with-rhel-and-ansible.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
+
 text...
 
 
@@ -102,4 +100,4 @@ You can offer to help correct or enhance this architecture by filing an https://
 
 
 === BEFORE PUSH to MAIN
-Replace https://gitlab.com/mschindl1/portfolio-architecture-examples-sap/-/blob/sap-on-power/images with https://gitlab.com/mschindl1/portfolio-architecture-examples-sap/-/blob/sap-on-power/images
+Replace :./images/intro-marketectures/ with :./images/intro-marketectures/
