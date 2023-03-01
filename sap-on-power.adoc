@@ -46,7 +46,7 @@ image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="
 
 
 *Why should the customer use IBM Power servers?*
-.
+
 * On-premise Cloud Architecture
 * Highly efficient and secure virtualisation
 * Optimal maintenance concept  through Live Partition Mobility
