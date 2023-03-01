@@ -10,18 +10,18 @@
 
 This portfolio architecture addresses several main use cases for transforming supply chain risk factors:
 
-* link:./perfectorder.md[Perfect order]
-* link:./intelligentorder.md[Intelligent Order]
-* link:./demandrisk.md[Demand risk]
-* link:lossmanagement.md[Loss and waste management]
-* link:timeliness.md[Product timeliness]
-* link:./sustainablesupplychain.md[Sustainable supply chain]
+* Perfect order (coming soon)
+* Intelligent order (coming soon)
+* Demand risk (coming soon)
+* Loss and waste management (coming soon)
+* Product timeliness  (coming soon)
+* Sustainable supply  (coming soon)
 
 These risk factors are described in more detail below:
 
 ==== Perfect order
 
-Inventory may not be on hand or may be in a different location than expected.
+Inventory may not be on hand or maybe in a different location than expected.
 Multiple and partial shipments may be able to solve many customer
 requests.
 
@@ -29,20 +29,20 @@ The business can respond to the imperfect order and increase customer
 responsiveness with:
 
 * Intelligent promising
-* Optmization of user expectations with improved demand forecasting
+* Optimization of user expectations with improved demand forecasting
 * Automated responses
 
 For more information and solution details on this scenario, see
-link:./perfectorder.md[Perfect order]
+Perfect order (coming soon)
 
 ==== Intelligent order
 
 If the *last mile delivery* promise is incorrect and a product arrives
-late (perhaps because of incorect tracking information), is damaged, or is never delivered there’s a good chance that the customer will shop with a
+late (perhaps because of incorrect tracking information), is damaged or is never delivered there’s a good chance that the customer will shop with a
 competitor next time.
 
-For more information about the solution details on this scenario, see
-link:./intelligentorder.md[Intelligent order].
+For more information about the solution details in this scenario, see
+Intelligent order (coming soon)
 
 ==== Demand risk
 
@@ -55,8 +55,8 @@ _Overstock_ - holding more stock than required to meet current and
 future demand. This results in additional costs to store and carry on the books, then possibly disposing of
 overstocked items at a discount or even destroying them.
 
-For more information about the solution details on this scenario, see
-link:demandrisk.md[Demand risk].
+For more information about the solution details in this scenario, see
+Demand risk (coming soon)
 
 ==== Loss and waste management
 
@@ -64,32 +64,32 @@ link:demandrisk.md[Demand risk].
 cases of:
 
 * _Shelf life_. Identify and replace items in a timely way as shelf life expires.
-* _Environmental exceptions_. Food expirations, power interruption or
-other disaster affecting the product salability.
-* _Contamination or recall_. Quickly identify, remove contaminated and
+* _Environmental exceptions_. Food expirations, power interruptions or
+other disasters affecting the product salability.
+* _Contamination or recall_. Quickly identify, and remove contaminated and
 recalled items from sale or items that have a contaminated component.
-Proactively provide safe alternative or replacement when safe.
+Proactively provide safe alternatives or replacements when safe.
 
-For more information about the solution details on this scenario, see
-link:lossmanagement.md[Loss and waste management].
+For more information about the solution details in this scenario, see
+Loss and waste management (coming soon)
 
 ==== Product timeliness
 
 *Product timeliness* is having goods and products in the right place at
-the right time, packed correctly and in line with customer expectations.
+the right time, packed correctly, and in line with customer expectations.
 This risk is particular to seasonal goods, fast fashion, drugs,
-cosmetics, grocery and food supply industry. KPIs relevant to product
+cosmetics, grocery, and the food supply industries. KPIs relevant to product
 timeliness include dead stock and inventory days on hand.
 
 * _Shelf life_ defines a set of actions to be taken with products that
 expire on specific dates and must be removed from use or sale. For
 example, food can expire and need to be removed from shelves.
 * _Timeliness_ defines a set of actions that can be taken when products
-expire, but that may be still have some benefit. For example,
-seasonality of clothing can be warehoused until the following year.
+expire, but that may still have some benefit. For example,
+the seasonality of clothing can be warehoused until the following year.
 
 For more information about the solution details on this scenario, see
-link:timeliness.md[Product timeliness].
+Product timeliness (coming soon)
 
 ==== Sustainable supply chain
 
@@ -97,13 +97,13 @@ link:timeliness.md[Product timeliness].
 Yet the business must balance the long-term imperative to protect the
 planet with the immediate need to preserve the bottom line. On a rapidly
 warming planet, companies across sectors have transformed business
-models to forge a sustainable future ‐ one that protects people, planet,
+models to forge a sustainable future ‐ one that protects people, the planet,
 and profits. In the race to reduce emissions, consumption, and waste,
 everything is on the table. Supply chains are being recalibrated. Source
 materials are evolving. Travel requests are carefully scrutinized.
 
 For more information about the solution details on this scenario, see
-link:./sustainablesupplychain.md[Sustainable supply chain].
+Sustainable supply chain (coming soon)
 
 == Background 
 
@@ -154,7 +154,7 @@ typically analyzed against environmental, social, and governance (ESG)
 metrics.
 
 The business goal is to balance the long-term imperative to protect the
-planet with the immediate need to preserve the bottom line.
+the planet with the immediate need to preserve the bottom line.
 
 === Business problem
 
@@ -168,11 +168,11 @@ https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis
 steps to prepare your supply chain for the next crisis]. reports:
 
 ____
-Companies that are well prepared and as a result prosper in a crisis can
+Companies that are well-prepared and as a result prosper in a crisis can
 expect to recover more quickly than their competitors. In a review of
 corporate performance during the past four U.S. downturns (since 1985),
 Boston Consulting Group (BCG) found that 14% of companies
-increased their sales and their profit margin.
+increased their sales and their profit margin.
 
 
 Investors are starting to reward companies that build for the future by
@@ -207,7 +207,7 @@ Inventory optimization is making sure the current and future demand is
 accurately balanced against current and future inventory across the
 enterprise. Getting the balance correct leads to a successful and
 profitable retail business. Getting the balance wrong leads to failure
-and, in the worst case, eventual collapse of the business.
+and, in the worst case, the eventual collapse of the business.
 
 Specifically,
 https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis?autocomplete=true[Harvard
@@ -223,7 +223,7 @@ ____
 
 According to the https://www.ibm.com/downloads/cas/1BYY6VEM[IBM IBV
 study], innovators track well ahead of their peers when it comes to
-AI-enabled workflows for risk management and to handle other
+AI-enabled workflows for risk management and handling other
 predictions. And they expect continued development of these workflows
 and other capabilities over the next three years. Right now, Innovator
 CSCOs report developing digitized workflows and leveraging AI automation
@@ -240,10 +240,10 @@ management and predictive forecasting, 18% more than their peers (76%).
 Directly influence the following KPIs:
 
 * Improve lost sales from stock out 4-8%
-* Solution cost savings 10%
+* Solution cost savings of 10%
 * Increase stock turnover
 * Reduce days on hand
-* Manage lead time (may be leading indicator of stock overage)
+* Manage lead time (maybe leading indicator of stock overage)
 * Reduce holding cost
 * Manage product risk/perishability/age
 * Improve gross margin return on investment
@@ -275,34 +275,34 @@ image::./images/intro-marketectures/supplychain-referencearchitecture.png[portfo
 _Figure 2. Major systems and their relationships._
 
 image::./images/logical-diagrams/inventoryoptimisation-ld.png[logical diagram]
-_Figure 3. The personas and technologies that provide a platform for some of the biggest potential breakthroughs with supply chain._
+_Figure 3. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain._
 
 == The Technology
 
 Specifically, the recommended platform includes:
 
-* https://developers.redhat.com/products/rhel/overview[*Red Hat
+* https://developers.redhat.com/products/rhel/overview?intcmp=7013a00000318EWAAY[*Red Hat
 Enterprise Linux*] is the world’s leading enterprise Linux platform.
 It’s an open-source operating system (OS). It’s the foundation from
 which you can scale existing apps—and roll out emerging
 technologies—across bare-metal, virtual, container, and all types of
 cloud environments.
-* https://www.redhat.com/en/technologies/cloud-computing/openshift)[*Red
+* https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY)[*Red
 Hat OpenShift*] is an enterprise-ready Kubernetes container platform
 built for an open hybrid cloud strategy. It provides a consistent
 application platform to manage hybrid cloud, including edge
 deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform
 design intended to deliver increased business value and responsiveness
 through rapid, high-quality service delivery.
-* https://www.redhat.com/en/resources/integration-cloud-native-connectivity-datasheet)[*Red Hat Integration*] Red Hat Integration provides developers and architects with cloud-native tools for integrating applications and systems. It offers capabilities for application and application programming interface (API) connectivity, API management and security, data transformation, service composition, service orchestration, real-time messaging, data streaming, change data capture, and cross-datacenter consistency to connect applications and data across hybrid cloud infrastructures.
-* https://www.ibm.com/products/business-automation-workflow[*Business
-Automation Workflow*] (IBM) unites information, processes and users to help
-you automate digital workflows on premises or on cloud. Create workflows
+* https://www.redhat.com/en/resources/integration-cloud-native-connectivity-datasheet?intcmp=7013a00000318EWAAY)[*Red Hat Integration*] Red Hat Integration provides developers and architects with cloud-native tools for integrating applications and systems. It offers capabilities for application and application programming interface (API) connectivity, API management and security, data transformation, service composition, service orchestration, real-time messaging, data streaming, change data capture, and cross-datacenter consistency to connect applications and data across hybrid cloud infrastructures.
+* https://www.ibm.com/products/business-automation-workflow?intcmp=7013a00000318EWAAY[*Business
+Automation Workflow*] (IBM) unites information, processes, and users to help
+you automate digital workflows on-premises or on the cloud. Create workflows
 that increase productivity, improve collaboration between teams, and
 gain new insight to resolve cases and drive better business outcomes.
-* https://www.redhat.com/en/technologies/management/ansible[*Red Hat
+* https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat
 Ansible Automation Platform*] Red Hat Ansible Automation Platform provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams.
-* https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[*Red
+* https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift API Management*] is a managed API traffic control and
 program management service to secure, manage, and monitor APIs at every
 stage of the development lifecycle.
@@ -336,23 +336,23 @@ container platform
 
 == Architecture
 
-The technologies in this architecture can be grouped into a variety of categorie and sub-categories:
+The technologies in this architecture can be grouped into a variety of categories and sub-categories:
 
 * *User applications*. Applications where supply chain activities are
 reported and used by customers, colleagues, suppliers, and logistics. In
 particular, the inventory controller interacts with the Inventory
-Optimization Platform, described in a following section.
+Optimization Platform, described in the following section.
 * *Core application systems*. 
 The core application systems can be in-house applications, cloud
 services, or third-party applications. The core applications provide
-data through the foundational technologies (such as API management that
+data through foundational technologies (such as API management that
 provides monitoring and security). They can also respond to automated
 actions based on business rules or from other layers in the system.
 These include services, data, and systems currently used within the organization, such as:
 ** Point of Sale systems
 ** Store operations systems
 ** External data feeds
-** Planning and replentishment system
+** Planning and replenishment system
 ** Warehouse management
 ** Order management
 ** Supply chain system
@@ -380,7 +380,7 @@ and includes:
 ** Mobility and device applications
 ** Social media
 ** Email
-** Parter applications
+** Partner applications
 
 
 ==== Supply Assurance Platform detail
@@ -406,7 +406,7 @@ https://www.gartner.com/en/doc/fulfillment-forecasting-key-to-optimizing-retail-
 forecasting approach], which provides a more accurate view of consumer
 fulfillment choices. This approach enables retailers to accurately gauge
 the right amount of inventory required to meet demand in stores,
-distribution centers and other inventory holding notes throughout the
+distribution centers, and other inventory holding notes throughout the
 retailer’s network. IBM offers
 https://www.ibm.com/products/intelligent-promising[IBM Sterling
 Intelligent Promising] which provides shoppers with greater certainty, choice,
@@ -421,7 +421,7 @@ Fulfillment Optimizer with Watson] as a component of IBM Sterling
 Intelligent Promising.
 
 *Supply risk management*. Gartner says the key tenets of supply
-chain risk management enhance resilience and improve competitiveness.
+chain risk management enhances resilience and improve competitiveness.
 
 * Market disruptions include: natural disasters, pandemics, political
 uncertainty, economic upheaval, cyber and terrorist attacks, third-party
@@ -429,7 +429,7 @@ or supplier threats, and rapid swings in consumer preferences and
 demand.
 * Supply chain transformation also complicates supply chain risk
 management ‐ lean, but complex and globally dispersed operations add
-risks, and the supply chain risk management process is vital to wringing
+risks and the supply chain risk management process is vital to wringing
 out inefficiencies and costs.
 
 *Inventory visibility*. This processes inventory supply and demand
@@ -457,7 +457,7 @@ a strategy and solutions that are specific to your needs. Businesses can
 approach sustainability initiatives by:
 
 * Strategic partnership with Red Hat and IBM.
-* Using environmental, social and governance (ESG) reporting to
+* Using environmental, social, and governance (ESG) reporting to
 integrate data silos. Find new opportunities to drive positive change
 across your operations with https://www.ibm.com/products/envizi[Envisi].
 * To manage assets, you can create a lower-emissions business. Use
@@ -555,5 +555,6 @@ Diagrams]
 
 == Provide feedback
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/supplychain.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+
 
 
