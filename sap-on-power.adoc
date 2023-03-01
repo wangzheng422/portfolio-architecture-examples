@@ -45,7 +45,8 @@ This architecture covers generic information on the design of the infrastructure
 image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
 
 
-. *Why should the customer use IBM Power servers?*
+*Why should the customer use IBM Power servers?*
+.
 * On-premise Cloud Architecture
 * Highly efficient and secure virtualisation
 * Optimal maintenance concept  through Live Partition Mobility
