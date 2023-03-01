@@ -97,8 +97,8 @@ With this solution we provide a lot of day 1 and day 2 taks which helps to achiv
 
 
 *Day2*
-SAP instance system copies
-Spin up/delete new application servers on demand (namely for hyperscalers or service provider)
+. SAP instance system copies
+. Spin up/delete new application servers on demand (namely for hyperscalers or service provider)
 Instance refreshes
 Kernel parameter changes
 SAP kernel upgrade
