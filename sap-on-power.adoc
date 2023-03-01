@@ -90,10 +90,10 @@ The requirements of enterprise customers show that a high level of automation wi
 With this solution we provide a lot of day 1 and day 2 taks which helps to achive the goals.
 
 *Day1*
-- Activation of SAP HANA system replication (or equivalent high-availability feature of other DBs)
-- High-availability Red Hat Enterprise Linux Pacemaker cluster build on both application and DB tiers
-- Red Hat Insights agent activation
-- Migration of SAP workloads from Suse Linux Enterprise Server to Red Hat Enterprise Linux
+* Activation of SAP HANA system replication (or equivalent high-availability feature of other DBs)
+* High-availability Red Hat Enterprise Linux Pacemaker cluster build on both application and DB tiers
+* Red Hat Insights agent activation
+* Migration of SAP workloads from Suse Linux Enterprise Server to Red Hat Enterprise Linux
 
 
 *Day2*
