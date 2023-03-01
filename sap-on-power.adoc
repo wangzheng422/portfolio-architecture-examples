@@ -136,6 +136,7 @@ https://console.redhat.com/ansible/automation-hub/repo/published/redhat/sap_inst
 https://console.redhat.com/ansible/automation-hub/repo/published/sap/sap_operations/content/[[Automation Hub - Partner - SAP Day2]]
 
 https://github.com/sap-linuxlab/demo.sap_install/tree/powervc-v1[[IBM PowerVC - SAP Day2]]
+
 This repository contains the demo for deploying on IBM PowerVC with ansible the community.sap_install collection and how to use this from Red Hat Ansible Controller (or AWX).
 Additional support can be request at IBM.
 
