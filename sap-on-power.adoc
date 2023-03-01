@@ -86,8 +86,41 @@ text...
 
 image::./images/schematic-diagrams/sap-on-ibm-power-with-rhel-and-ansible.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
 
-text...
+The requirements of enterprise customers show that a high level of automation with standardised approaches, such as platform as code, is necessary to ensure availability with the highest possible SLAs. Especially in critical infrastructures, it must be guaranteed and auditable.
+With this solution we provide a lot of day 1 and day 2 taks which helps to achive the goals.
 
+*Day1*
+- Activation of SAP HANA system replication (or equivalent high-availability feature of other DBs)
+- High-availability Red Hat Enterprise Linux Pacemaker cluster build on both application and DB tiers
+- Red Hat Insights agent activation
+- Migration of SAP workloads from Suse Linux Enterprise Server to Red Hat Enterprise Linux
+
+
+*Day2*
+SAP instance system copies
+Spin up/delete new application servers on demand (namely for hyperscalers or service provider)
+Instance refreshes
+Kernel parameter changes
+SAP kernel upgrade
+DB operations
+DB and OS patching
+Resource addition (CPU, memory, disk)
+Cluster management
+DB backup/restore
+Stop/start of SAP instances
+Shutting down of sandbox/pre-production systems to cold storage and pulling them out of storage when needed
+Smart management and proactive issue resolution for SAP servers
+Near-zero downtime maintenance for SAP servers 
+
+
+There are official supportet Ansible collections and playbooks for the complete automation.
+
+https://console.redhat.com/ansible/automation-hub/repo/published/redhat/sap_install/content/[[Automation Hub - Red Hat - SAP RHEL]]
+https://console.redhat.com/ansible/automation-hub/repo/published/sap/sap_operations/content/[[Automation Hub - Partner - SAP Day2]]
+
+https://github.com/sap-linuxlab/demo.sap_install/tree/powervc-v1[[IBM PowerVC - SAP Day2]]
+This repository contains the demo for deploying on IBM PowerVC with ansible the community.sap_install collection and how to use this from Red Hat Ansible Controller (or AWX).
+Additional support can be request at IBM.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
