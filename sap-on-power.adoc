@@ -101,20 +101,19 @@ image::./images/schematic-diagrams/sap-on-ibm-power-with-rhel-and-ansible.png[al
 The requirements of enterprise customers show that a high level of automation with standardised approaches, such as platform as code, is necessary to ensure availability with the highest possible SLAs. Especially in critical infrastructures, it must be guaranteed and auditable.
 With this solution we provide a lot of day 1 and day 2 taks which helps to achive the goals.
 
-.*Day1*
-* Activation of SAP HANA system replication (or equivalent high-availability feature of other DBs)
+===
+*Day1*
 
-* High-availability Red Hat Enterprise Linux Pacemaker cluster build on both application and DB tiers
+. Activation of SAP HANA system replication (or equivalent high-availability feature of other DBs)
+. High-availability Red Hat Enterprise Linux Pacemaker cluster build on both application and DB tiers
+. Red Hat Insights agent activation
+. Migration of SAP workloads from Suse Linux Enterprise Server to Red Hat Enterprise Linux
+===
 
-* Red Hat Insights agent activation
-
-* Migration of SAP workloads from Suse Linux Enterprise Server to Red Hat Enterprise Linux
-
-
+===
 *Day2*
 
 . SAP instance system copies
-
 . Spin up/delete new application servers on demand (namely for hyperscalers or service provider)
 
 Instance refreshes
@@ -129,7 +128,7 @@ Stop/start of SAP instances
 Shutting down of sandbox/pre-production systems to cold storage and pulling them out of storage when needed
 Smart management and proactive issue resolution for SAP servers
 Near-zero downtime maintenance for SAP servers 
-
+===
 
 There are official supportet Ansible collections and playbooks for the complete automation.
 
