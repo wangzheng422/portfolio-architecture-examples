@@ -24,7 +24,7 @@ The purpose of this solution is to completely automate the deployment of SAP HAN
 
 This architecture covers generic information on the design of the infrastructure in a solution pattern:
 
-IBM Power
+.IBM Power
 * IBM Power is known for its scalability and performance with the most demanding workloads.
 
 * IBM PowerVC
