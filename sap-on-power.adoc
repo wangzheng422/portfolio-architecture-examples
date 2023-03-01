@@ -23,9 +23,12 @@ Regardless of the above migration plan on the part of SAP, *Red Hat Virtualizati
 The purpose of this solution is to completely automate the deployment of SAP HANA DB and SAP Application components based on IBM PowerVC, RHEL and pacemaker as high availability solution in a regulated and restricted environment.
 
 This architecture covers generic information on the design of the infrastructure in a solution pattern:
+===
 
 *IBM Power
+
 ** IBM Power is known for its scalability and performance with the most demanding workloads.
+
 * IBM PowerVC
 ** IBM PowerVC provides simplified virtualisation management and cloud deployments
 * Red Hat Enterprise Linux with Smart Management for SAP
