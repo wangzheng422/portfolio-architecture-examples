@@ -26,18 +26,16 @@ This architecture covers generic information on the design of the infrastructure
 
 .IBM Power
 * IBM Power is known for its scalability and performance with the most demanding workloads.
-
-* IBM PowerVC
-** IBM PowerVC provides simplified virtualisation management and cloud deployments
-
-* Red Hat Enterprise Linux with Smart Management for SAP
-** Smart Management for SAP helps about the life cycle management of all SAP hosts with proactive detection and automatic remediation of potential issues
-* Red Hat Satellite
-** Red Hat Satellite manages the servers and 
-* Red Hat Ansible Automation Platform manages the life cycle of the RHEL servers.
-** Red Hat Ansible Automation Platform is used for the automated life cycle of solution for all components, which leads to increased efficiency and stability in production.
-* optional: Red Hat Insights
-** Red Hat Insights detects with SAP specific rules potential problems.
+.IBM PowerVC
+* IBM PowerVC provides simplified virtualisation management and cloud deployments
+.Red Hat Enterprise Linux with Smart Management for SAP
+* Smart Management for SAP helps about the life cycle management of all SAP hosts with proactive detection and automatic remediation of potential issues
+.Red Hat Satellite
+* Red Hat Satellite manages the servers and 
+.Red Hat Ansible Automation Platform manages the life cycle of the RHEL servers.
+* Red Hat Ansible Automation Platform is used for the automated life cycle of solution for all components, which leads to increased efficiency and stability in production.
+.optional: Red Hat Insights
+* Red Hat Insights detects with SAP specific rules potential problems.
 
 image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
 
