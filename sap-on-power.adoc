@@ -19,7 +19,7 @@ Regardless of the above migration plan on the part of SAP, *Red Hat Virtualizati
 [1] S/4HANA is short for SAP Business Suite 4 HANA. As the fourth version of the SAP Business Suite, it is the latest offering from SAP.  It runs only on the HANA database, which is an in-memory database developed and tuned by SAP for faster performance and real-time reporting.
 [2] Maintenance support ends: https://access.redhat.com/support/policy/updates/rhev
 
-== Solution summary 
+== Solution overview 
 The purpose of this solution is to completely automate the deployment of SAP HANA DB and SAP Application components based on IBM PowerVC, RHEL and pacemaker as high availability solution in a regulated and restricted environment.
 
 This architecture covers generic information on the design of the infrastructure in a solution pattern:
@@ -32,14 +32,26 @@ This architecture covers generic information on the design of the infrastructure
 * Red Hat Satellite
 ** Red Hat Satellite manages the servers and 
 * Red Hat Ansible Automation Platform manages the life cycle of the RHEL servers.
-** Red Hat Ansible Automation Platform is used for the automated life cycle of solution for all components.
+** Red Hat Ansible Automation Platform is used for the automated life cycle of solution for all components, which leads to increased efficiency and stability in production.
 * optional: Red Hat Insights
 ** Red Hat Insights detects with SAP specific rules potential problems.
 
 image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
 
 
-== Hardware and Technology
+====
+*Why should the customer use IBM Power servers?*
+On-premise Cloud Architecture
+Highly efficient and secure virtualisation
+
+Optimal maintenance concept  through Live Partition Mobility
+
+Effective use of resources  leads to energy savings
+
+====
+
+
+== Technology
 
 The following hardware and technology was chosen for this solution:
 
@@ -100,8 +112,11 @@ With this solution we provide a lot of day 1 and day 2 taks which helps to achiv
 
 
 *Day2*
+
 . SAP instance system copies
+
 . Spin up/delete new application servers on demand (namely for hyperscalers or service provider)
+
 Instance refreshes
 Kernel parameter changes
 SAP kernel upgrade
