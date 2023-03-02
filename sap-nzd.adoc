@@ -95,7 +95,7 @@ The flow represented in this schematic diagram is the following:
 The Satellite server applies the packages, security fixes, etc., in the primary node of the target cluster (DB
 cluster or application cluster - SAP Netweaver or SAP S/4HANA). If the intervention is a SAP HANA upgrade (DB cluster)
 or a SAP kernel upgrade (application cluster - the SAP kernel is different from the OS kernel, it is another layer of
-binaries specific to the SAP application) it will be the Automation Orchestration (Ansible Tower) who will run a
+binaries specific to the SAP application) it will be the Automation Orchestration (Ansible Controller) who will run a
 playbook for this upgrade in the primary node of the target cluster.
 
 If the maintenance is in the SAP HANA hosts, once the intervention is finished in the primary node, the Automation
@@ -119,7 +119,7 @@ of the cluster or keep the current one.
 == Download solution diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
-https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/nzd-sap.drawio[[Open Diagrams]]
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/sap-nzd.drawio[[Open Diagrams]]
 --
 
 == Provide feedback 
