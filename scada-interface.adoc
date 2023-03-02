@@ -12,7 +12,7 @@ _Some details will differ based on the requirements of a specific implementation
 
 *Use case:* Provide interfaces with supervisory control and data acquisition (SCADA) systems that are compliant with North American Electric Reliability Corporation (NERC) regulations using different layers of API gateways to protect business service across network zones.
 
-*Background:* SCADA systems are used extensively in many verticals, including utility companies. SCADA devices have gone through several generations. Historically, these control systems were mostly “dumb” in that they mostly took actions in response to pre-programmed triggers and heuristics. For example, predictive maintenance commonly took place based on either a set length of time or the number of hours was in service.
+*Background:* SCADA systems are used extensively in many verticals, including utility companies. SCADA devices have gone through several generations. Historically, these control systems were mostly “dumb” in that they mostly took actions in response to pre-programmed triggers and heuristics. For example, predictive maintenance commonly took place based on either a set length of time or the number of hours it was in service.
 
 SCADA systems also historically mostly functioned independently of the company’s information technology (IT) systems. Companies increasingly see the benefit of bridging these operational technology (OT) systems with their IT. Factory systems can be much more flexible as a result. They can also benefit from newer technologies such as AI/ML, thereby allowing for tasks like maintenance to be scheduled based on multiple real-time measurements rather than simple programmed triggers while bringing processing power closer to data.
 
