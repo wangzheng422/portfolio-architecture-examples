@@ -105,7 +105,7 @@ materials are evolving. Travel requests are carefully scrutinized.
 For more information about the solution details on this scenario, see
 Sustainable supply chain (coming soon)
 
-== Background 
+== Background
 
 Retailers, manufacturers, and organizations are exploring ways to better
 understand and act on changes in the market as they occur to
@@ -264,17 +264,23 @@ This solution:
 Figure 1 provides a high-level overview of how systems work
 together for the desired outcomes.
 
-image::./images/intro-marketectures/supplychain-marketing-slide.png[solution overview]
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/supplychain-marketing-slide.png[alt="Solution Overview", width=700]
+--
 _Figure 1. Supply chain optimization overview showing systems, users, and business drivers._
-
-== Logical diagrams
 
 Figure 2 shows the major systems and how they relate to each other. Figure 3 emphasizes the solution tiers and personas. The contents of these figures is discussed in greater detail in the following sections.
 
-image::./images/intro-marketectures/supplychain-referencearchitecture.png[portfolio architecture]
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/supplychain-referencearchitecture.png[alt="Portfolio Architecture", width=700]
+--
 _Figure 2. Major systems and their relationships._
 
-image::./images/logical-diagrams/inventoryoptimisation-ld.png[logical diagram]
+== Logical diagrams
+
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/inventoryoptimisation-ld.png[alt="Logical view", width=700]
+--
 _Figure 3. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain._
 
 == The Technology
@@ -342,7 +348,7 @@ The technologies in this architecture can be grouped into a variety of categorie
 reported and used by customers, colleagues, suppliers, and logistics. In
 particular, the inventory controller interacts with the Inventory
 Optimization Platform, described in the following section.
-* *Core application systems*. 
+* *Core application systems*.
 The core application systems can be in-house applications, cloud
 services, or third-party applications. The core applications provide
 data through foundational technologies (such as API management that
@@ -540,23 +546,12 @@ The following represent users of the system outside of the organization.
 * Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
 * Ramesh Yerramsetti, Customer Success Architect, IBM
 
-== Downloads
-
+== Download diagrams
 View and download all of the *Inventory Optimization diagrams* shown in
 previous sections in our open source tooling site.
-
-* PowerPoint Solution Overview:
-link:./downloads/SupplyChainOptimization.SolutionOverview.pptx[Open
-Solution Overview]
-* PowerPoint Reference Architecture:
-link:./downloads/SupplyChainOptimization.ReferenceArchitecture.pptx[Open
-Workflow Diagrams]
-* DrawIO: link:./downloads/SupplyChainOptimization.drawio[Open Schematic
-Diagrams]
-
+--
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/SupplyChainOptimization.drawio[[Open Diagrams]]
+--
 
 == Provide feedback
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/supplychain.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
-
-
-
