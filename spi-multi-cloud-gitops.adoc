@@ -161,7 +161,7 @@ As detailed below, Figure 7 provides a schematic diagram of integrating a variet
 
 == Additional information
 
-For more implementation demos, please check out the Validated Pattern: https://hybrid-cloud-patterns.io/patterns/multicloud-gitops/
+For more implementation information, please check out the Validated Pattern: https://hybrid-cloud-patterns.io/patterns/multicloud-gitops/
 
 
 == Download diagrams
