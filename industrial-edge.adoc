@@ -7,57 +7,68 @@ Ishu Verma  @ishuverma, William Henry @ipbabble,
 :toc: left
 :toclevels: 5
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+_Red Hat  Validated Patterns are detailed deployments created for different use cases. These pre-defined computing configurations bring together the Red Hat portfolio and technology ecosystem to help you stand up your architectures faster. Example application code is provided as a demonstration, along with the various open source projects and Red Hat products required for the deployment to work. Users can then modify the pattern for their own specific application._
 
+**Use Case:** Boosting manufacturing efficiency and product quality with artificial intelligence/machine learning (AI/ML) out to the edge of the network.
 
-*Use case:* Boosting manufacturing efficiency and product quality with artificial intelligence/machine learning (AI/ML) out to the edge of the network.
-
-*Background:* Microcontrollers and other types of simple computers have long been widely used on factory floors and processing plants to monitor and control the many machines required to implement many modern manufacturing workflows.
+**Background:** Microcontrollers and other types of simple computers have long been widely used on factory floors and processing plants to monitor and control the many machines required to implement the many machines required to implement many modern manufacturing workflows. 
 
 The manufacturing industry has consistently used technology to fuel innovation, production optimization, and operations. However, historically, control systems were mostly “dumb” in that they mostly took actions in response to pre-programmed triggers and heuristics. For example, predictive maintenance commonly took place on either a set length of time or the number of hours was in service.
 
-Supervisory control and data acquisition (SCADA) has often been used to collectively describe these hardware and software systems, which mostly functioned independently of the company’s information technology (IT) systems. Companies increasingly see the benefit of bridging these operational technology (OT) systems with their IT. Factory systems can become much more flexible as a result. They can also benefit from newer technologies such as AI/ML, thereby allowing for tasks like maintenance to be scheduled based on multiple real-time measurements rather than simple programmed triggers while bringing processing power closer to data.
+Supervisory control and data acquisition (SCADA) has often been used to collectively describe these hardware and software systems, which mostly functioned independently of the company’s information technology (IT) systems. Companies increasingly see the benefit of bridging these operational technology (OT) systems with their IT. Factory systems can be much more flexible as a result. They can also benefit from newer technologies such as AI/ML, thereby allowing for tasks like maintenance to be scheduled based on multiple real-time measurements rather than simple programmed triggers while bringing processing power closer to data.
+
 
 == Solution overview
 
---
+
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-manufacturing-efficiency-marketing-slide.png[alt="High level view of Industrial Edge", width=700]
---
+
 _Figure 1. Industrial edge solution overview._
 
-Figure 1 provides an overview of the industrial edge solution. It is applicable across a number of verticals including manufacturing.
+
+Figure 1 provides an overview of the industrial edge solution. It is applicable across a number of verticals including manufacturing. 
 
 ====
+
 This solution:
 
-. Provides real-time insights from the edge to the core datacenter
-. Secures GitOps and DevOps management across core and factory sites
-. Provides AI/ML tools that can reduce maintenance costs
+- Provides real-time insights from the edge to the core datacenter
+- Secures GitOps and DevOps management across core and factory sites
+- Provides AI/ML tools that can reduce maintenance costs
+
 ====
 
---
+Different roles within an organization have different concerns and areas of focus when working with this distributed AL/ML architecture across two logical types of sites: the core datacenter and the factories. (As shown in Figure 2.)
+
+- **The core datacenter**. This is where data scientists, developers, and operations personnel apply the changes to their models, application code, and configurations.
+- **The factories**. This is where new applications, updates and operational changes are deployed to improve quality and efficiency in the factory..
+
+
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/ai-ml-architecture-vp.png[alt="Mapping of organizational roles to architectural areas", width=700]
+
+_Figure 2. Mapping of organizational roles to architectural areas._
+
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-manufacturing-vp.png[alt="Data Flows in Industrial Edge solution", width=700]
---
-_Figure 2. Overall data flows of solution._
 
-Figure 2 provides a different high-level view of the solution with a focus on the two major dataflow streams.
+_Figure 3. Overall data flows of solution._
 
-. Moving sensor data and events from the operational/shop floor edge towards the core. The idea is to centralize as much as possible, but decentralize as needed. For example, sensitive production data might not be allowed to leave the premises. Think of a temperature curve of an industrial oven; it might be considered crucial intellectual property of the customer. Or the sheer amount of raw data (maybe 10,000 events per second) might be too expensive to transfer to a cloud datacenter. In the above diagram, this is shown from left to right. In other diagrams the edge / operational level is usually at the bottom and the enterprise/cloud level at the top. Thus, this is also referred to as northbound traffic.
+Figure 3 provides a different high-level view of the solution with a focus on the two major dataflow streams.
 
-. Push code, configuration, master data, and machine learning models from the core (where development, testing, and training is happening) towards the edge / shop floors. As there might be 100 plants with 1000s of lines, automation and consistency is key. In the above diagram, this is from right to left, in a top/down view, it is called southbound traffic.
+1. Moving sensor data and events from the operational/shop floor edge towards the core. The idea is to centralize as much as possible, but decentralize as needed. For example, sensitive production data might not be allowed to leave the premises. Think of a temperature curve of an industrial oven; it might be considered crucial intellectual property of the customer. Or the sheer amount of raw data (maybe 10,000 events per second) might be too expensive to transfer to a cloud datacenter. In the above diagram, this is from left to right. In other diagrams the edge / operational level is usually at the bottom and the enterprise/cloud level at the top. Thus, this is also referred to as northbound traffic.
+
+2. Push code, configuration, master data, and machine learning models from the core (where development, testing, and training is happening) towards the edge / shop floors. As there might be 100 plants with 1000s of lines, automation and consistency is key. In the above diagram, this is from right to left, in a top/down view, it is called southbound traffic.
 
 
-== Logical diagram
---
+== Logical diagrams
+
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/industrial-edge-ld.png[alt="Conceptual view of Industrial Edge deployed at various locations", width=700]
---
-_Figure 3: Industrial Edge solution as logically and physically distributed across multiple sites._
 
-The following technology was chosen for this solution:
+_Figure 4: Industrial Edge solution as logically and physically distributed across multiple sites._
+
+The following technology was chosen for this solution as depicted logically in Figure 4.
 
 == The technology
 
-====
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud,  and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere.
 
 https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (also sold as Red Hat Integration) includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control.
@@ -78,50 +89,70 @@ https://www.redhat.com/en/technologies/management/advanced-cluster-management?in
 
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
 
-====
 == Architectures
 
 === Edge manufacturing with messaging and ML
---
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-devops-data-sd.png[alt="Data interaction of various Industrial Edge components", width=700]
---
-_Figure 4: Industrial Edge solution showing messaging and ML components schematically._
 
-As shown in Figure 4, data coming from sensors is transmitted over MQTT (Message Queuing Telemetry Transport) to Red Hat AMQ, which routes sensor data for two purposes: model development in the core data center and live inference in the factory data centers. The data is then relayed on to Red Hat AMQ for further distribution within the factory datacenter and out to the core datacenter. MQTT is the most commonly used messaging protocol for Internet of Things (IoT) applications.
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-devops-data-sd.png[alt="Data interaction of various Industrial Edge components", width=700]
+
+_Figure 5: Industrial Edge solution showing messaging and ML components schematically._
+
+As shown in Figure 5, data coming from sensors is transmitted over MQTT (Message Queuing Telemetry Transport) to Red Hat AMQ, which routes sensor data for two purposes: model development in the core data center and live inference in the factory data centers. The data is then relayed on to Red Hat AMQ for further distribution within the factory datacenter and out to the core datacenter. MQTT is the most commonly used messaging protocol for Internet of Things (IoT) applications.
 
 The lightweight Apache Camel K, a lightweight integration framework built on Apache Camel that runs natively on Kubernetes, provides MQTT (Message Queuing Telemetry Transport) integration that normalizes and routes sensor data to the other components.
 
 That sensor data is mirrored into a data lake that is provided by Red Hat OpenShift Data Foundation. Data scientists then use various tools from the open source Open Data Hub project to perform model development and training, pulling and analyzing content from the data lake into notebooks where they can apply ML frameworks.
 
-Once the models have been tuned and are deemed ready for production, the artifacts are committed to git which kicks off an image build of the model using OpenShift Pipelines (based on the upstream Tekton project), a serverless CI/CD system that runs pipelines with all the required dependencies in isolated containers.
+Once the models have been tuned and are deemed ready for production, the artifacts are committed to git which kicks off an image build of the model using OpenShift Pipelines (based on the upstream Tekton), a serverless CI/CD system that runs pipelines with all the required dependencies in isolated containers.
+
 The model image is pushed into OpenShift’s  integrated registry running in the core datacenter which is then pushed back down to the factory datacenter for use in inference.
 
---
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-devops-network-sd.png[alt="Using network segragation to protect factories and operations infrastructure from cyber attacks", width=700]
---
-_Figure 5: Industrial Edge solution showing network flows schematically._
 
-As shown in Figure 5, in order to protect the factories and operations infrastructure from cyber attacks, the operations network needs to be segregated from the enterprise IT network and the public internet. The factory machinery, controllers, and devices need to be further segregated from the factory data center and need to be protected behind a firewall.
+_Figure 6: Industrial Edge solution showing network flows schematically._
 
-
+As shown in Figure 6, in order to protect the factories and operations infrastructure from cyber attacks, the operations network needs to be segregated from the enterprise IT network and the public internet. The factory machinery, controllers, and devices need to be further segregated from the factory data center and need to be protected behind a firewall.
 
 === Edge manufacturing with GitOps
---
+
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-gitops-sd.png[alt="Using GitOps for managing any changes to clusters and applications", width=700]
---
-_Figure 6: Industrial Edge solution showing a schematic view of the GitOps workflows._
+
+_Figure 7: Industrial Edge solution showing a schematic view of the GitOps workflows._
 
 GitOps is an operational framework that takes DevOps best practices used for application development such as version control, collaboration, compliance, and CI/CD, and applies them to infrastructure automation. Figure 6 shows how, for these industrial edge manufacturing environments, GitOps provides a consistent, declarative approach to managing individual cluster changes and upgrades across the centralized and edge sites. Any changes to configuration and applications can be automatically pushed into operational systems at the factory.
 
+### Secrets exchange and management
 
-=== Secrets exchange and management
---
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-mfg-security-sd.png[alt="Secret exchange and management", width=700]
---
-_Figure 7: Schematic view of secrets exchange and management in an Industrial Edge solution._
 
-Authentication is used to securely deploy and update components across multiple locations. The credentials are stored using a secrets management solution like Hashicorp Vault. The external secrets component is used to integrate various secrets management tools (AWS Secrets Manager, Google Secrets Manager, Azure Key Vault). As shown in Figure 7, these secrets are then passed to Red Hat Advanced Cluster Management for Kubernetes (RHACM) which pushes the secrets to the RHACM agent at the edge clusters based on policy. RHACM is also responsible for providing secrets to OpenShift for GitOps workflows (using Tekton and Argo CD).
+_Figure 8: Schematic view of secrets exchange and management in an Industrial Edge solution._
 
+Authentication is used to securely deploy and update components across multiple locations. The credentials are stored using a secrets management solution like Hashicorp Vault. The external secrets component is used to integrate various secrets management tools (AWS Secrets Manager, Google Secrets Manager, Azure Key Vault). As shown in Figure 7, these secrets are then passed to Red Hat Advanced Cluster Management for Kubernetes (RHACM) which pushes the secrets to the RHACM agent at the edge clusters based on policy. RHACM is also responsible for providing secrets to OpenShift for GitOps workflows( using Tekton and Argo CD).
+
+
+== Demo scenario
+
+This scenario is derived from the https://github.com/sa-mw-dach/manuela[MANUela work] done by Red Hat Middleware Solution Architects in Germany in 2019/20. The name MANUela stands for MANUfacturing Edge Lightweight Accelerator, you will see this acronym in a lot of artifacts. It was developed on a platform called https://github.com/stormshift/documentation[stormshift].
+
+The demo has been updated 2021 with an advanced GitOps framework.
+
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/highleveldemodiagram-vp.png[alt="The specific example is machine condition monitoring based on sensor data in an industrial setting, using AI/ML. It could be easily extended to other use cases such as predictive maintenance, or other verticals", width=700]
+
+_Figure 9. High-level demo summary. The specific example is machine condition monitoring based on sensor data in an industrial setting, using AI/ML. It could be easily extended to other use cases such as predictive maintenance, or other verticals._
+
+The demo scenario reflects the data flows described earlier and shown in Figure 3 by having three layers.
+
+**Line Data Server:** the far edge, at the shop floor level.
+
+**Factory Data Center:** the near edge, at the plant, but in a more controlled environment.
+
+**Central Data Center:** the cloud/core, where ML model training, application development, testing, and related work happens. (Along with ERP systems and other centralized functions that are not part of this demo.) 
+
+The northbound traffic of sensor data is visible in Figure 9. It flows from the sensor at the bottom via MQTT to the factory, where it is split into two streams: one to be fed into an ML model for anomaly detection and another one to be streamed up to the central data center via event streaming (using Kafka) to be stored for model training.
+
+The southbound traffic is abstracted  in the App-Dev / Pipeline box at the top. This is where GitOps kicks in to push config or version changes down into the factories.
+
+Industrial edge pattern: https://hybrid-cloud-patterns.io/industrial-edge/
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
