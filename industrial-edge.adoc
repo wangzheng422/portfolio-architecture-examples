@@ -28,10 +28,15 @@ _Figure 1. Industrial edge solution overview._
 
 Figure 1 provides an overview of the industrial edge solution. It is applicable across a number of verticals including manufacturing. 
 
+====
+
 This solution:
+
 - Provides real-time insights from the edge to the core datacenter
 - Secures GitOps and DevOps management across core and factory sites
 - Provides AI/ML tools that can reduce maintenance costs
+
+====
 
 Different roles within an organization have different concerns and areas of focus when working with this distributed AL/ML architecture across two logical types of sites: the core datacenter and the factories. (As shown in Figure 2.)
 
