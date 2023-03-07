@@ -159,9 +159,7 @@ As detailed below, Figure 7 provides a schematic diagram of integrating a variet
 . The Grafana dashboard in Hub cluster display logs via requesting: real-time display (tail) with WebSocket or a time-series-based query with HTTP.
 
 
-== Demo Scenario
-
-High level summary of any demo that has been created associated with the Validated Pattern.
+== Additional information
 
 For more implementation demos, please check out the Validated Pattern: https://hybrid-cloud-patterns.io/patterns/multicloud-gitops/
 
