@@ -116,7 +116,7 @@ With this solution we provide a lot of day 1 and day 2 taks which helps to achiv
 * SAP instance system copies
 * Spin up/delete new application servers on demand (namely for hyperscalers or service provider)
 * Instance refreshes
-* * Kernel parameter changes
+* Kernel parameter changes
 * SAP kernel upgrade
 * DB operations
 * DB and OS patching
@@ -150,5 +150,3 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sap-smart-management.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
 
 
-=== BEFORE PUSH to MAIN
-Replace :./images/intro-marketectures/ with :./images/intro-marketectures/
