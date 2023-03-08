@@ -82,6 +82,9 @@ https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EW
 Red Hat Ansible Automation Platform is used for the automated life cycle of solution for all components, which leads to increased efficiency and stability in production. It is the framework used in this solution to run the remediation Ansible playbooks in the hosts that will correct the situations that could lead to a failure or issue. For example, modifying
 a kernel memory parameter that can cause a bad performance of the SAP HANA DB or applying a certain level of an OS package that is needed for a particular version of SAP Netweaver.
 
+Ansible Collections for IBM Power extend the benefits of Ansible automation to Power enterprise customers.
+Certified Collections are also available for AIX, IBM i, VIOS, HMC and Linux for Power. The Power pipeline includes additional collections to automate PowerHA, SAP HANA (on AIX and IBM i) and Oracle operations.
+
 ====
 
 == Architectures
