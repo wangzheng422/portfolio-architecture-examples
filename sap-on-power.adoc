@@ -178,6 +178,6 @@ https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sap-on-powe
 --
 
 == Provide feedback 
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sap-on-power.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/issues[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
 
 
