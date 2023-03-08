@@ -16,9 +16,9 @@ SAP customers need to migrate to the new suite SAP S/4HANA[1] by 2027. That is a
 
 Regardless of the above migration plan on the part of SAP, *Red Hat Virtualization* customers with SAP or other workloads have to migrate to an alternative hypervisor/solution by August 31, 2024[2].
 
-[1] S/4HANA is short for SAP Business Suite 4 HANA. As the fourth version of the SAP Business Suite, it is the latest offering from SAP.  It runs only on the HANA database, which is an in-memory database developed and tuned by SAP for faster performance and real-time reporting.
+_[1] S/4HANA is short for SAP Business Suite 4 HANA. As the fourth version of the SAP Business Suite, it is the latest offering from SAP.  It runs only on the HANA database, which is an in-memory database developed and tuned by SAP for faster performance and real-time reporting._
 
-[2] Red Hat Virtualization "Maintenance support ends": https://access.redhat.com/support/policy/updates/rhev
+_[2] Red Hat Virtualization "Maintenance support ends": https://access.redhat.com/support/policy/updates/rhev_
 
 
 == Solution overview 
@@ -129,10 +129,10 @@ Explanation from Day0 to Day2:
 
 .*Day0*
 
-* Hardware will be placed at the right place in the data centre
+* Hardware inital setup
 * Each components will be cabled
-* Network switches and inital configuration
-* RHEL and PowerVC will be deployed fully automated with Red Hat Ansible > infrastructure as code
+* Network switches inital setup and configuration
+* RHEL and PowerVC will be deployed fully automated with Red Hat Satellite and Ansible > "infrastructure as code"
 
 .*Day1*
 
