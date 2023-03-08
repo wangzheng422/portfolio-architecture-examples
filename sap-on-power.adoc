@@ -35,7 +35,12 @@ This architecture covers generic information on the design of the infrastructure
 .Red Hat Insights
 All products are described in the technology capture below.
 
+--
 image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
+--
+
+_Figure 1. Overall structure of the solution._
+
 The following view shows which business drivers are to be covered by the solution. In addition, "Scaled SAP in regulated and restricted environments" is a solution that can be reproduced and is used by various customers. It is based on decades of experience with state-of-the-art technology.
 
 
@@ -83,14 +88,23 @@ a kernel memory parameter that can cause a bad performance of the SAP HANA DB or
 
 === Logical overview
 
+Figure 2 provides a diagram of the architecture showing the major components and where they logically reside.
+
+--
 image::./images/logical-diagrams/sap-on-ibm-power-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
+--
+
+_Figure 2. Logical diagram of the architecture._
 
 The logical overview shows that all components function smoothly in a disconnected or air-agapped environment and can be operated according to the highest safety standards.
 Red Hat's and IBM's CDN was included because the packages have to be downloaded and deployed in their own data centre. Access to other websites is not required after the initial deployment.
 
 === Schematic overview
-
+--
 image::./images/schematic-diagrams/sap-on-ibm-power-schematic.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
+--
+
+_Figure 3. Schematic diagram of the architecture._
 
 The schematic overview explains the communication ways between all components and products. One of the importants part is the infrastructure management part, where Ansible Automation Platform, Smart management and the local repository is located.
 If content from the public network / internet for the life cycle propose is needed then the communication goes through the proxy and firewall to the permitted CDNs.
@@ -111,7 +125,7 @@ Explanation from Day0 to Day2:
 
 * Hardware will be placed at the right place in the data centre
 + Each components will be cabled
-* Network Switches preconfiguriered
+* Network switches and inital configuration
 + RHEL and PowerVC will be deployed fully automated with Red Hat Ansible > infrastructure as code
 
 .*Day1*
