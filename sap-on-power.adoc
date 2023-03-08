@@ -18,8 +18,7 @@ Regardless of the above migration plan on the part of SAP, *Red Hat Virtualizati
 
 [1] S/4HANA is short for SAP Business Suite 4 HANA. As the fourth version of the SAP Business Suite, it is the latest offering from SAP.  It runs only on the HANA database, which is an in-memory database developed and tuned by SAP for faster performance and real-time reporting.
 
-[2] Maintenance support ends: https://access.redhat.com/support/policy/updates/rhev
-
+[2] Red Hat Virtualization "Maintenance support ends": https://access.redhat.com/support/policy/updates/rhev
 
 
 == Solution overview 
@@ -33,7 +32,8 @@ This architecture covers generic information on the design of the infrastructure
 .Red Hat Satellite
 .Red Hat Ansible Automation Platform manages the life cycle of the RHEL servers.
 .Red Hat Insights
-All products are described in the technology capture below.
+
+All products are shown in the technology capture below.
 
 --
 image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
@@ -130,9 +130,9 @@ Explanation from Day0 to Day2:
 .*Day0*
 
 * Hardware will be placed at the right place in the data centre
-+ Each components will be cabled
+* Each components will be cabled
 * Network switches and inital configuration
-+ RHEL and PowerVC will be deployed fully automated with Red Hat Ansible > infrastructure as code
+* RHEL and PowerVC will be deployed fully automated with Red Hat Ansible > infrastructure as code
 
 .*Day1*
 
@@ -158,14 +158,15 @@ Explanation from Day0 to Day2:
 * Smart management and proactive issue resolution for SAP servers
 * Near-zero downtime maintenance for SAP servers
 
-===
+== Automation
 
 There are official supportet Ansible collections and playbooks for the complete automation.
 
-https://console.redhat.com/ansible/automation-hub/repo/published/redhat/sap_install/content/[[Automation Hub - Red Hat - SAP RHEL]]
-https://console.redhat.com/ansible/automation-hub/repo/published/sap/sap_operations/content/[[Automation Hub - Partner - SAP Day2]]
+https://console.redhat.com/ansible/automation-hub/repo/published/redhat/sap_install/content/[Automation Hub - Red Hat - SAP RHEL]
 
-https://github.com/sap-linuxlab/demo.sap_install/tree/powervc-v1[[IBM PowerVC - SAP Day2]]
+https://console.redhat.com/ansible/automation-hub/repo/published/sap/sap_operations/content/[Automation Hub - Partner - SAP Day2]
+
+https://github.com/sap-linuxlab/demo.sap_install/tree/powervc-v1[IBM PowerVC - SAP Day2]
 
 This repository contains the demo for deploying on IBM PowerVC with ansible the community.sap_install collection and how to use this from Red Hat Ansible Controller (or AWX).
 Additional support can be request at IBM.
