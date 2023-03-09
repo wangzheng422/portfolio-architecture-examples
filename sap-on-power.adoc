@@ -34,14 +34,13 @@ This architecture covers generic information on the design of the infrastructure
 * Red Hat Insights
 
 All products build the solution stack in the technology capture below.
+The following view shows which business drivers are to be covered by the solution. In addition, "Scaled SAP in regulated and restricted environments" is a solution that can be reproduced and is used by various customers. It is based on decades of experience with state-of-the-art technology.
 
 --
 image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
 --
 
 _Figure 1. Overall structure of the solution._
-
-The following view shows which business drivers are to be covered by the solution. In addition, "Scaled SAP in regulated and restricted environments" is a solution that can be reproduced and is used by various customers. It is based on decades of experience with state-of-the-art technology.
 
 
 *Why customers decide to use IBM Power servers?*
