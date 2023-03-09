@@ -30,10 +30,10 @@ This architecture covers generic information on the design of the infrastructure
 .IBM PowerVC
 .Red Hat Enterprise Linux with Smart Management for SAP
 .Red Hat Satellite
-.Red Hat Ansible Automation Platform manages the life cycle of the RHEL servers.
+.Red Hat Ansible Automation Platform
 .Red Hat Insights
 
-All products are shown in the technology capture below.
+All products build the solution stack in the technology capture below.
 
 --
 image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
@@ -44,12 +44,18 @@ _Figure 1. Overall structure of the solution._
 The following view shows which business drivers are to be covered by the solution. In addition, "Scaled SAP in regulated and restricted environments" is a solution that can be reproduced and is used by various customers. It is based on decades of experience with state-of-the-art technology.
 
 
-*Why should the customer use IBM Power servers?*
+*Why customers decide to use IBM Power servers?*
 
 * On-premise Cloud Architecture
 * Highly efficient and secure virtualisation
-* Optimal maintenance concept  through Live Partition Mobility
-* Effective use of resources  leads to energy savings
+* Optimal maintenance concept through Live Partition Mobility
+* Effective use of resources leads to energy savings
+
+*Why customers decide to use automation?*
+
+* Standardised approaches, such as platform as code and improved SLAs
+* Reproducable architecture
+* Time to market by accelerated life cycle workflows
 
 
 == Technology
@@ -115,17 +121,10 @@ All the data is located on one or several storages which provides for example NF
 
 [3] https://www.sap.com/documents/2020/01/6e88b483-807d-0010-87a3-c30de2ffd8ff.html[*SAP HANA - Storage alternatives for HANA scale-out without Host Auto-Failover*]
 
-== Deployment process
---
-image::./images/schematic-diagrams/sap-on-ibm-power-with-rhel-and-ansible.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
---
-
-_Figure 4. Schematic diagram of the architecture._
-
 The requirements of enterprise customers show that a high level of automation with standardised approaches, such as platform as code, is necessary to ensure availability with the highest possible SLAs. Especially in critical infrastructures, it must be guaranteed and auditable.
 With this solution we provide a lot of day 1 and day 2 taks which helps to achive the goals.
 
-Explanation from Day0 to Day2:
+*In which operational areas have customers seen benefits in the portfolio architecture?*
 
 .*Day0*
 
@@ -158,19 +157,6 @@ Explanation from Day0 to Day2:
 * Smart management and proactive issue resolution for SAP servers
 * Near-zero downtime maintenance for SAP servers
 
-== Automation
-
-There are official supportet Ansible collections and playbooks for the complete automation.
-
-https://console.redhat.com/ansible/automation-hub/repo/published/redhat/sap_install/content/[Automation Hub - Red Hat - SAP RHEL]
-
-https://console.redhat.com/ansible/automation-hub/repo/published/sap/sap_operations/content/[Automation Hub - Partner - SAP Day2]
-
-https://github.com/sap-linuxlab/demo.sap_install/tree/powervc-v1[IBM PowerVC - SAP Day2]
-
-This repository contains the demo for deploying on IBM PowerVC with ansible the community.sap_install collection and how to use this from Red Hat Ansible Controller (or AWX).
-Additional support can be request at IBM.
-
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
@@ -178,6 +164,6 @@ https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sap-on-powe
 --
 
 == Provide feedback 
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/issues[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sap-on-power.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
 
 
