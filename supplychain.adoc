@@ -121,7 +121,7 @@ Given the complexity of supply chains, we start by discussing supply chain conce
 value and then provide actionable automation and
 modernization steps organizations can take to drive
 innovation and move toward a more optimized supply chain. These are based on
-The Action Guide in Own your transformation survey of 1500 CSCOs across
+the "Action Guide" in the "Own Your Transformation" survey of 1500 CSCOs across
 24 industries. Actionable steps will be developed through the lens of
 use cases on how the main risk factors can be transformed.
 
@@ -153,8 +153,7 @@ particular market. An organization’s sustainability practices are
 typically analyzed against environmental, social, and governance (ESG)
 metrics.
 
-The business goal is to balance the long-term imperative to protect the
-the planet with the immediate need to preserve the bottom line.
+The business goal is to balance the long-term imperative to protect the planet with the immediate need to preserve the bottom line.
 
 === Business problem
 
@@ -427,7 +426,7 @@ Fulfillment Optimizer with Watson] as a component of IBM Sterling
 Intelligent Promising.
 
 *Supply risk management*. Gartner says the key tenets of supply
-chain risk management enhances resilience and improve competitiveness.
+chain risk management enhance resilience and improve competitiveness.
 
 * Market disruptions include: natural disasters, pandemics, political
 uncertainty, economic upheaval, cyber and terrorist attacks, third-party
@@ -495,7 +494,7 @@ consumption
 * Increase awareness of cybersecurity vulnerabilities and solutions
 
 For specific steps on this approach, see *The Action Guide* details in
-https://www.ibm.com/downloads/cas/1BYY6VEM[Own your transformation]
+https://www.ibm.com/downloads/cas/1BYY6VEM[Own Your Transformation]
 survey of 1500 CSCOs across 24 industries.
 
 === Next steps
@@ -550,7 +549,7 @@ The following represent users of the system outside of the organization.
 View and download all of the *Inventory Optimization diagrams* shown in
 previous sections in our open source tooling site.
 --
-https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/SupplyChainOptimization.drawio[[Open Diagrams]]
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/supplychain.drawio[[Open Diagrams]]
 --
 
 == Provide feedback
