@@ -29,12 +29,12 @@ This architecture covers the use case around Skin Cancer Detection in the health
 
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/skin-cancer-detection-slide.png[750,700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/skin-cancer-detection-slide.png[alt="Skin Cancer Detection Solution Overview featuring a schematic representation and the business drivers.", width=700]
 --
 
 == Logical diagram
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/skin-cancer-detection-details-ld.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/skin-cancer-detection-details-ld.png[alt="Skin Cancer Detection Logical Diagram dividing the services between frontend services, intelligent services, storage, and deployment and management tools.", width=700]
 --
 
 == The technology
@@ -62,7 +62,7 @@ https://www.ibm.com/cloud/watson-studio[*IBM Watson Studio*] develops, trains, a
 
 === Skin Cancer Detection overview
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/skin-cancer-detection-network-sd.png[750, 700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/skin-cancer-detection-network-sd.png[alt="Skin Cancer Detection Schematic Diagram. Covers the various services and applications that compose the application and how those communicate to each other.", width=700]
 --
 
 This is an overview look at the Skin Cancer Detection architecture, providing the solution details and the elements described above in both a network and data centric view.
