@@ -26,17 +26,12 @@ The purpose of this solution is to completely automate the deployment of SAP HAN
 
 This architecture covers generic information on the design of the infrastructure in a solution pattern:
 
-.IBM Power
-
-.IBM PowerVC
-
-.Red Hat Enterprise Linux with Smart Management for SAP
-
-.Red Hat Satellite
-
-.Red Hat Ansible Automation Platform
-
-.Red Hat Insights
+* IBM Power
+* IBM PowerVC
+* Red Hat Enterprise Linux with Smart Management for SAP
+* Red Hat Satellite
+* Red Hat Ansible Automation Platform
+* Red Hat Insights
 
 All products build the solution stack in the technology capture below.
 
