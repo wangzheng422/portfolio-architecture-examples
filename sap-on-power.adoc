@@ -42,7 +42,6 @@ image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="
 
 _Figure 1. Overall structure of the solution._
 
-
 *Why customers decide to use IBM Power servers?*
 
 * On-premise Cloud Architecture
@@ -55,6 +54,22 @@ _Figure 1. Overall structure of the solution._
 * Standardised approaches, such as platform as code and improved SLAs
 * Reproducable architecture
 * Time to market by accelerated life cycle workflows
+
+== Summary video (soon)
+video::xyz[youtube]
+
+== Logical diagrams
+
+Figure 2 provides a diagram of the architecture showing the major components and where they logically reside.
+
+--
+image::./images/logical-diagrams/sap-on-ibm-power-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
+--
+
+_Figure 2. Logical diagram of the architecture._
+
+The logical overview shows that all components function smoothly in a disconnected or air-agapped environment and can be operated according to the highest safety standards.
+Red Hat's and IBM's CDN was included because the packages have to be downloaded and deployed in their own data centre. Access to other websites is not required after the initial deployment.
 
 
 == Technology
@@ -94,20 +109,6 @@ Certified Collections are also available for AIX, IBM i, VIOS, HMC and Linux for
 
 == Architectures
 
-=== Logical overview
-
-Figure 2 provides a diagram of the architecture showing the major components and where they logically reside.
-
---
-image::./images/logical-diagrams/sap-on-ibm-power-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
---
-
-_Figure 2. Logical diagram of the architecture._
-
-The logical overview shows that all components function smoothly in a disconnected or air-agapped environment and can be operated according to the highest safety standards.
-Red Hat's and IBM's CDN was included because the packages have to be downloaded and deployed in their own data centre. Access to other websites is not required after the initial deployment.
-
-=== Schematic overview
 --
 image::./images/schematic-diagrams/sap-on-ibm-power-schematic.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Smart Management, Automation Platform and Red Hat Insights SaaS", width=700]
 --
