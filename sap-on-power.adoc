@@ -67,7 +67,7 @@ https://www.ibm.com/power[*IBM Power Server*]
 IBM Power is known for its scalability and performance with the most demanding workloads, its superior virtualization and management features for flexibility, its security with better isolation and integrated stack, and its leading availability for 13 years running.
 
 https://www.ibm.com/de-de/products/powervc[*IBM PowerVC Virtualization*]
-IBM PowerVC provides simplified virtualisation management and cloud deployments. IBM PowerVC is based on OpenStack. It provides simplified virtualisation management and cloud deployments for IBM AIX , IBM i and Linux virtual machines (VMs) running on IBM Power® Systems.
+IBM PowerVC provides simplified virtualisation management and cloud deployments. IBM PowerVC is based on OpenStack. It provides simplified virtualisation management and cloud deployments for IBM AIX , IBM i and Linux virtual machines (VMs) running on IBM Power Systems.
 
 Example of SAP on PowerVC Deployment:
 https://mediacenter.ibm.com/media/SAP+HANA+for+IBM+Power+Systems+-+PowerVC+Deployment/1_ohwmudpk[*SAP HANA Deployment on IBM Power and PowerVC*]
