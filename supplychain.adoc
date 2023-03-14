@@ -184,6 +184,7 @@ even if it means lowering earnings-per-share guidance or delivering
 below consensus."
 ____
 
+
 The McKinsey report
 https://www.mckinsey.com/capabilities/operations/our-insights/how-covid-19-is-reshaping-supply-chains[How
 COVID-19 is reshaping supply chains] explains that companies found it
@@ -213,6 +214,7 @@ Specifically,
 https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis?autocomplete=true[Harvard
 Business Review article] recommends:
 
+[quote,Harvard Business Review]
 ____
 CEOs need to invest in risk intelligence and strategic foresight,
 creating a team of procurement super-forecasters equipped with the
