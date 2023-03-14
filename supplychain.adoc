@@ -10,39 +10,14 @@
 
 This portfolio architecture addresses several main use cases for transforming supply chain risk factors:
 
-* Perfect order (coming soon)
-* Intelligent order (coming soon)
 * Demand risk (coming soon)
 * Loss and waste management (coming soon)
 * Product timeliness  (coming soon)
+* Perfect order (coming soon)
+* Intelligent order (coming soon)
 * Sustainable supply  (coming soon)
 
 These risk factors are described in more detail below:
-
-=== Perfect order
-
-Inventory may not be on hand or maybe in a different location than expected.
-Multiple and partial shipments may be able to solve many customer
-requests.
-
-The business can respond to the imperfect order and increase customer
-responsiveness with:
-
-* Intelligent promising
-* Optimization of user expectations with improved demand forecasting
-* Automated responses
-
-For more information and solution details on this scenario, see
-Perfect order (coming soon)
-
-=== Intelligent order
-
-If the *last mile delivery* promise is incorrect and a product arrives
-late (perhaps because of incorrect tracking information), is damaged or is never delivered there’s a good chance that the customer will shop with a
-competitor next time.
-
-For more information about the solution details in this scenario, see
-Intelligent order (coming soon)
 
 === Demand risk
 
@@ -90,6 +65,31 @@ the seasonality of clothing can be warehoused until the following year.
 
 For more information about the solution details on this scenario, see
 Product timeliness (coming soon)
+
+=== Perfect order
+
+Inventory may not be on hand or maybe in a different location than expected.
+Multiple and partial shipments may be able to solve many customer
+requests.
+
+The business can respond to the imperfect order and increase customer
+responsiveness with:
+
+* Intelligent promising
+* Optimization of user expectations with improved demand forecasting
+* Automated responses
+
+For more information and solution details on this scenario, see
+Perfect order (coming soon)
+
+=== Intelligent order
+
+If the *last mile delivery* promise is incorrect and a product arrives
+late (perhaps because of incorrect tracking information), is damaged or is never delivered there’s a good chance that the customer will shop with a
+competitor next time.
+
+For more information about the solution details in this scenario, see
+Intelligent order (coming soon)
 
 === Sustainable supply chain
 
@@ -500,11 +500,11 @@ survey of 1500 CSCOs across 24 industries.
 
 See _Action Guide_ section in each of the use cases:
 
-* Perfect order (coming soon)
-* Intelligent order (coming soon)
 * Demand risk (coming soon)
 * Loss and waste management (coming soon)
 * Product timeliness  (coming soon)
+* Perfect order (coming soon)
+* Intelligent order (coming soon)
 * Sustainable supply  (coming soon)
 
 
