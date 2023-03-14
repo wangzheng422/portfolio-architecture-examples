@@ -41,7 +41,7 @@ This architecture covers generic information on the design of the infrastructure
 The following view shows which business drivers are to be covered by the solution. In addition, "Scaled SAP in regulated and restricted environments" is a solution that can be reproduced and is used by various customers. It is based on decades of experience with state-of-the-art technology.
 
 --
-image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="RHEL for SAP workloads on IBM Power, PowerVC, Satellite, Automation Platform and Red Hat Insights SaaS", width=700]
+image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="Red Hat Enterprise Linux (RHEL) for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
 --
 
 _Figure 1. Overall structure of the solution._
@@ -67,7 +67,7 @@ video::xyz[youtube]
 Figure 2 provides a diagram of the architecture showing the major components and where they logically reside.
 
 --
-image::./images/logical-diagrams/sap-on-ibm-power-overview.png[alt="Red Hat Enterprise Linux for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
+image::./images/logical-diagrams/sap-on-ibm-power-overview.png[alt="Red Hat Enterprise Linux (RHEL) for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
 --
 
 _Figure 2. Logical diagram of the architecture._
@@ -111,16 +111,14 @@ Certified Collections are also available for AIX, IBM i, VIOS, HMC and Linux for
 All products build the solution stack in the technology capture below.
 
 --
-image::./images/schematic-diagrams/sap-on-ibm-power-schematic.png[alt="Red Hat Enterprise Linux for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
+image::./images/schematic-diagrams/sap-on-ibm-power-schematic.png[alt="Red Hat Enterprise Linux (RHEL) for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
 --
 
 _Figure 3. Schematic diagram of the architecture._
 
 The schematic overview explains the communication ways between all components and products. One of the importants part is the infrastructure management part, where Ansible Automation Platform, Satellite and the local repository is located.
 If content from the public network / internet for the life cycle propose is needed then the communication goes through the proxy and firewall to the permitted CDNs.
-All the data is located on one or several storages which provides for example NFS as file storage service and is also need by SAP as shared directory between the SAP instances. [3]
-
-[3] https://www.sap.com/documents/2020/01/6e88b483-807d-0010-87a3-c30de2ffd8ff.html[*SAP HANA - Storage alternatives for HANA scale-out without Host Auto-Failover*]
+All the data is located on one or several storages. The primary storage tier is provided by SAN storage (FC or NVMe-o-Fabric) and the secondary storage tier provides File storage (NFS) as service and is also need by SAP as shared directory between the SAP instances. 
 
 The requirements of enterprise customers show that a high level of automation with standardised approaches, such as platform as code, is necessary to ensure availability with the highest possible SLAs. Especially in critical infrastructures, it must be guaranteed and auditable.
 With this solution we provide a lot of day 1 and day 2 taks which helps to achive the goals.
