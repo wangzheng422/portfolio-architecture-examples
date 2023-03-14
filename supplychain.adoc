@@ -19,7 +19,7 @@ This portfolio architecture addresses several main use cases for transforming su
 
 These risk factors are described in more detail below:
 
-==== Perfect order
+=== Perfect order
 
 Inventory may not be on hand or maybe in a different location than expected.
 Multiple and partial shipments may be able to solve many customer
@@ -35,7 +35,7 @@ responsiveness with:
 For more information and solution details on this scenario, see
 Perfect order (coming soon)
 
-==== Intelligent order
+=== Intelligent order
 
 If the *last mile delivery* promise is incorrect and a product arrives
 late (perhaps because of incorrect tracking information), is damaged or is never delivered there’s a good chance that the customer will shop with a
@@ -44,7 +44,7 @@ competitor next time.
 For more information about the solution details in this scenario, see
 Intelligent order (coming soon)
 
-==== Demand risk
+=== Demand risk
 
 _Understock_ - not holding sufficient inventory to meet current demand.
 This includes not having enough inventory today but also, not having
@@ -58,7 +58,7 @@ overstocked items at a discount or even destroying them.
 For more information about the solution details in this scenario, see
 Demand risk (coming soon)
 
-==== Loss and waste management
+=== Loss and waste management
 
 *Loss and waste management* requires you to take decisive action in
 cases of:
@@ -73,7 +73,7 @@ Proactively provide safe alternatives or replacements when safe.
 For more information about the solution details in this scenario, see
 Loss and waste management (coming soon)
 
-==== Product timeliness
+=== Product timeliness
 
 *Product timeliness* is having goods and products in the right place at
 the right time, packed correctly, and in line with customer expectations.
@@ -91,7 +91,7 @@ the seasonality of clothing can be warehoused until the following year.
 For more information about the solution details on this scenario, see
 Product timeliness (coming soon)
 
-==== Sustainable supply chain
+=== Sustainable supply chain
 
 *Sustainability* provides an opportunity to differentiate your business.
 Yet the business must balance the long-term imperative to protect the
@@ -315,8 +315,7 @@ stage of the development lifecycle.
 
 === The technology capabilities
 
-The
-solution architecture provides for:
+The solution architecture provides for:
 
 * Independently deployable, scaled business services
 * Composable, stateless modular services
@@ -339,7 +338,7 @@ innovation
 container platform
 * Self-service transformation with DevOps/SRE and automated operations
 
-== Architecture
+== Architectures
 
 The technologies in this architecture can be grouped into a variety of categories and sub-categories:
 
@@ -388,7 +387,7 @@ and includes:
 ** Partner applications
 
 
-==== Supply Assurance Platform detail
+=== Supply Assurance Platform detail
 
 Each of the core application systems provides data and responds to
 events through these foundational technologies.
