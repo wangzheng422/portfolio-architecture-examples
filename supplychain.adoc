@@ -10,41 +10,16 @@
 
 This portfolio architecture addresses several main use cases for transforming supply chain risk factors:
 
-* Perfect order (coming soon)
-* Intelligent order (coming soon)
 * Demand risk (coming soon)
 * Loss and waste management (coming soon)
 * Product timeliness  (coming soon)
+* Perfect order (coming soon)
+* Intelligent order (coming soon)
 * Sustainable supply  (coming soon)
 
 These risk factors are described in more detail below:
 
-==== Perfect order
-
-Inventory may not be on hand or maybe in a different location than expected.
-Multiple and partial shipments may be able to solve many customer
-requests.
-
-The business can respond to the imperfect order and increase customer
-responsiveness with:
-
-* Intelligent promising
-* Optimization of user expectations with improved demand forecasting
-* Automated responses
-
-For more information and solution details on this scenario, see
-Perfect order (coming soon)
-
-==== Intelligent order
-
-If the *last mile delivery* promise is incorrect and a product arrives
-late (perhaps because of incorrect tracking information), is damaged or is never delivered there’s a good chance that the customer will shop with a
-competitor next time.
-
-For more information about the solution details in this scenario, see
-Intelligent order (coming soon)
-
-==== Demand risk
+=== Demand risk
 
 _Understock_ - not holding sufficient inventory to meet current demand.
 This includes not having enough inventory today but also, not having
@@ -58,7 +33,7 @@ overstocked items at a discount or even destroying them.
 For more information about the solution details in this scenario, see
 Demand risk (coming soon)
 
-==== Loss and waste management
+=== Loss and waste management
 
 *Loss and waste management* requires you to take decisive action in
 cases of:
@@ -73,7 +48,7 @@ Proactively provide safe alternatives or replacements when safe.
 For more information about the solution details in this scenario, see
 Loss and waste management (coming soon)
 
-==== Product timeliness
+=== Product timeliness
 
 *Product timeliness* is having goods and products in the right place at
 the right time, packed correctly, and in line with customer expectations.
@@ -91,7 +66,32 @@ the seasonality of clothing can be warehoused until the following year.
 For more information about the solution details on this scenario, see
 Product timeliness (coming soon)
 
-==== Sustainable supply chain
+=== Perfect order
+
+Inventory may not be on hand or maybe in a different location than expected.
+Multiple and partial shipments may be able to solve many customer
+requests.
+
+The business can respond to the imperfect order and increase customer
+responsiveness with:
+
+* Intelligent promising
+* Optimization of user expectations with improved demand forecasting
+* Automated responses
+
+For more information and solution details on this scenario, see
+Perfect order (coming soon)
+
+=== Intelligent order
+
+If the *last mile delivery* promise is incorrect and a product arrives
+late (perhaps because of incorrect tracking information), is damaged or is never delivered there’s a good chance that the customer will shop with a
+competitor next time.
+
+For more information about the solution details in this scenario, see
+Intelligent order (coming soon)
+
+=== Sustainable supply chain
 
 *Sustainability* provides an opportunity to differentiate your business.
 Yet the business must balance the long-term imperative to protect the
@@ -121,7 +121,7 @@ Given the complexity of supply chains, we start by discussing supply chain conce
 value and then provide actionable automation and
 modernization steps organizations can take to drive
 innovation and move toward a more optimized supply chain. These are based on
-The Action Guide in Own your transformation survey of 1500 CSCOs across
+the "Action Guide" in the "Own Your Transformation" survey of 1500 CSCOs across
 24 industries. Actionable steps will be developed through the lens of
 use cases on how the main risk factors can be transformed.
 
@@ -153,8 +153,7 @@ particular market. An organization’s sustainability practices are
 typically analyzed against environmental, social, and governance (ESG)
 metrics.
 
-The business goal is to balance the long-term imperative to protect the
-the planet with the immediate need to preserve the bottom line.
+The business goal is to balance the long-term imperative to protect the planet with the immediate need to preserve the bottom line.
 
 === Business problem
 
@@ -316,8 +315,7 @@ stage of the development lifecycle.
 
 === The technology capabilities
 
-The
-solution architecture provides for:
+The solution architecture provides for:
 
 * Independently deployable, scaled business services
 * Composable, stateless modular services
@@ -340,7 +338,7 @@ innovation
 container platform
 * Self-service transformation with DevOps/SRE and automated operations
 
-== Architecture
+== Architectures
 
 The technologies in this architecture can be grouped into a variety of categories and sub-categories:
 
@@ -389,7 +387,7 @@ and includes:
 ** Partner applications
 
 
-==== Supply Assurance Platform detail
+=== Supply Assurance Platform detail
 
 Each of the core application systems provides data and responds to
 events through these foundational technologies.
@@ -427,7 +425,7 @@ Fulfillment Optimizer with Watson] as a component of IBM Sterling
 Intelligent Promising.
 
 *Supply risk management*. Gartner says the key tenets of supply
-chain risk management enhances resilience and improve competitiveness.
+chain risk management enhance resilience and improve competitiveness.
 
 * Market disruptions include: natural disasters, pandemics, political
 uncertainty, economic upheaval, cyber and terrorist attacks, third-party
@@ -495,18 +493,18 @@ consumption
 * Increase awareness of cybersecurity vulnerabilities and solutions
 
 For specific steps on this approach, see *The Action Guide* details in
-https://www.ibm.com/downloads/cas/1BYY6VEM[Own your transformation]
+https://www.ibm.com/downloads/cas/1BYY6VEM[Own Your Transformation]
 survey of 1500 CSCOs across 24 industries.
 
 === Next steps
 
 See _Action Guide_ section in each of the use cases:
 
-* Perfect order (coming soon)
-* Intelligent order (coming soon)
 * Demand risk (coming soon)
 * Loss and waste management (coming soon)
 * Product timeliness  (coming soon)
+* Perfect order (coming soon)
+* Intelligent order (coming soon)
 * Sustainable supply  (coming soon)
 
 
@@ -550,7 +548,7 @@ The following represent users of the system outside of the organization.
 View and download all of the *Inventory Optimization diagrams* shown in
 previous sections in our open source tooling site.
 --
-https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/SupplyChainOptimization.drawio[[Open Diagrams]]
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/supplychain.drawio[[Open Diagrams]]
 --
 
 == Provide feedback

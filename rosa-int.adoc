@@ -64,7 +64,7 @@ https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Ha
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rosa-int-sd.png[alt="Interconnection of apps and extensions running on ROSA, the SAP backend and SAP BTP", width=700]
 --
 
-_Figure 3. Logical diagram of the architecture._
+_Figure 3. Schematic diagram of the architecture._
 
 This diagram shows how the ROSA platform can connect to an SAP installation that resides on AWS as well as how this SAP installation can also connect to SAP BTP and make use of its applications to expand the entire SAP landscape.
 
