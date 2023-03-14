@@ -127,10 +127,11 @@ With this solution we provide a lot of day 1 and day 2 taks which helps to achiv
 
 .*Day0*
 
-* Hardware inital setup
-* Each components will be cabled
-* Network switches inital setup and configuration
-* RHEL and PowerVC will be deployed fully automated with Red Hat Satellite and Ansible > "infrastructure as code"
+* Hardware initial setup
+* Each component is wired
+* Initial setup and configuration of network switches with the connection to the cooperate network
+* Initial setup and configuration of storage systems
+* RHEL and PowerVC will be deployed fully automated with Red Hat Satellite and Ansible via "infrastructure as code"
 
 .*Day1*
 
