@@ -1,104 +1,54 @@
-== Demand risk
+= Demand Risk in Supply Chains Portfolio Architecture
 
-To demonstrate the importance of inventory optimization for any
-business, we will focus on one of the main demand risk use cases:
-understock and overstock. We will start by defining the business problem
-and the two main use cases: understock and overstock, describe the
-challenges and business drivers organizations face. Next, we will
-provide an action guide, provide an overview of the solution, show a
-schematic of the two use cases, understock and overstock, and conclude
-with the technology used in the solution.
+== Use case
 
-For a comprehensive inventory solution overview, see
-link:supplychain.md[Inventory Optimization].
+Reduce and mitigate the effects of two of the main demand risk use cases, *overstock* and *understock* events, in retail and other supply chains.
+
+== Background
+
+A fundamental goal for supply chains of physical goods is matching up available inventory with demand. 
+
+You can have too little of something (understock). Everyone is familiar with this case from during the pandemic whether it involved waiting months for a new car or scrounging all the local markets for toilet paper. These examples illustrate two of the ways in which businesses can fail to align with customer demand. In the case of automobiles, shortages in key components like microprocessors constrained what manufacturers could build. In the case of toilet paper, a spike in consumer demand because people weren’t in offices while also buying whatever and whenever they could was most responsible for the shortfall.
+
+But overstock is bad too. Products or components sitting on a shelf or in a warehouse represent capital that’s sitting idle. Furthermore, products can spoil. This latter problem is most obvious in the case of food and other perishables but it’s not limited to literal spoilage. Clothes can become last year’s style. The 2023 electronics gadget isn’t going to be worth as much once new models are announced at the Consumer Electronics Show the next year.
+
+Therefore, inventory optimization is a critical element of any organization's fulfillment process. It represents a balancing act between two key aspects of that process.
+
+
 
 === Business problem
 
 Inventory optimization is a critical element of any retail
-organisation’s fulfilment process. It represents a balancing act between
-two key viewpoints in the fulfilment process.
+organization’s fulfillment process. It represents a balancing act between
+two key viewpoints in the fulfillment process.
 
 The first viewpoint is *demand*. The business needs to understand their
-current demand for products, goods and services. There are two aspects
-of demand, the ``current'' demand and the ``future'' demand. Current
-demand asks the question, ``how many unsatisfied orders or requests do
-we have in the system at this point in time?'' Future demand asks the
-more difficult question, ``how many orders or requests do we expect to
-have at some point in the future?'' This future point could be measured
-in minutes, hours, days, weeks, months and even years. The further into
+current demand for products, goods, and services. There are two aspects
+of demand, the current demand and the future demand. Current
+demand asks the question: How many unsatisfied orders or requests do
+we have in the system at this point in time? Future demand asks the
+more difficult question: How many orders or requests do we expect to
+have at some point in the future? This future point could be measured
+in minutes, hours, days, weeks, months, and even years. The further into
 the future, the harder it becomes to predict the demand.
 
 The second viewpoint is *inventory*. The business needs to have a clear
-understanding of all the inventory held within their fulfilment system.
+understanding of all the inventory held within their fulfillment system.
 An inventory management provides oversight of current inventory and
-inventory changes due to purchases. Performs analysis on sold products,
-keeps consolidated stock data, and handles stock allocation. Makes
-decision on reallocation of goods between multiple warehouses. Inventory
-is stock or inventory available for sale to customers. As with demand,
-inventory has two aspects, ``current'' and ``future'' inventory. Current
-inventory asks two questions, ``how many items of a particular product
-do I have available at this point in time?'' and ``where are those items
-located?'' Future inventory asks the question, ``how much inventory is
-required at some point in the future''. As with demand, this future
-point could range from minutes to years and becomes increasingly harder
-to predict the further into the future.
+inventory changes due to purchases, performs analysis on sold products,
+keeps consolidated stock data, and handles stock allocation. It also makes
+decisions on reallocating goods between multiple warehouses and/or retail locations. 
 
 _Inventory optimization_ is making sure the current and future demand is
 accurately balanced against current and future inventory. Getting the
 balance correct leads to a successful and profitable retail business.
-Getting the balance wrong leads to failure and in the worst case,
+Getting the balance wrong leads to failure and, in the worst case,
 eventual collapse of the business.
 
 To demonstrate the importance of inventory optimization for any retail
-business, this document will focus on main use cases of demand and
-inventory.
+business, this portfolio architecture will focus on the use cases where demand and inventory get out of balance.
 
-=== Use cases
-
-Two main issues are represented by demand risk.
-
-*Understock* refers to not holding sufficient inventory to meet current
-demand. This includes not having enough inventory today but also, not
-having enough inventory in the very near future that could be used to
-meet the demand. The end result is disappointed customers who order but
-don’t get fulfillment or can’t order due to lack of product. This
-``stock out'' position often represents between 4-8% of total sales
-lost, but can also be a failed opportunity to satisfy customer in other
-ways, through up-sell and cross-sell. KPIs that can help avoid an under
-stock or stock-out position. include inventory turn over rate, days on
-hand and lead time (how long it takes to get more inventory from a
-supplier).
-
-*Overstock* refers to holding more stock than required to meet current
-and future demand. This results in additional costs to store then
-dispose of overstocked items via discounts, selling at a loss or
-destruction. Whilst understock is measured in customer satisfaction and
-loss of future opportunity, overstock has direct impact on the
-bottom-line costs and profitability of the business. KPIS relevant to
-overstock include, holding costs, dead stock (in-stock items failing to
-sell) and inventory turnover rates.
-
-=== Challenges / Business Drivers
-
-*Challenges*
-
-* Maintaining inventory control of high value items to minimize loss and
-associated cost.
-* When stores receive inventory from warehouse or direct from suppliers,
-how to manage direct ship is a real challenge for each store as it has
-to be managed at the store level.
-* Forecasting inventory levels intelligently to meet customer demand.
-* Efficiently handle overstocking and understocking events
-
-*Drivers*
-
-* Inventory turnover - if improve by 2 or 3 times then will drive bigger
-profit
-* Managing capacity - across the enterpriese and with suppliers
-* Enhanced customer experience with inventory matching customer demnd
-* Handling overstock and understock events
-
-==== Responses
+=== Responses
 
 [width="100%",cols="50%,50%",options="header",]
 |===
@@ -121,160 +71,70 @@ sales. |Gain detailed visibility into inventory characteristics at each
 location.
 |===
 
-=== Business outcomes
+== Solution overview
 
-* Improve inventory demand and forecasting
-* Automated processes updating inventory in closer to real time
-* Efficient, consistent decision making of overstock and understock
-
-=== Solution overview
-
-This solution in the following diagram reflects steps in the Action
-Guide:
-
-* Create a world-class sensing and risk-monitoring operation.
-* Accelerate automation in extended workflows
-* Amp up AI to make workflows smarter
-* Include sustainability commitments in decision making
-* Modernize for modern infrastructures, scale hybrid cloud platforms
-
-image::./images/intro-marketectures/demandrisk-marketing-slide.png[solution overview]
-
-The solution uses the following technologies, which can be grouped into
+The solution shown in Figure 1 uses components that can be grouped into
 three main categories as shown in the following diagram:
 
-* Core application systems. Often customer-provided technologies, such
-as order management, facilities management. These systems can be
-stand-alone applications, on premises and cloud services, databases.
-* Foundational infrastructure. The Red Hat/IBM solution is built on Red
-Hat OpenShift. Data is routed through API management. Events are routed
-through Business Automation tools such as Business Automation Workshop.
-* Inventory Optimization platform
+* *Core application systems.* Often customer-provided technologies, such
+as order management or facilities management. These systems can be
+standalone applications, on-premises and cloud services, and databases.
+* *Foundational infrastructure.* The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.
+* *Inventory Optimization platform* consisting of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis & AI.
 
-=== Understock
-
-The following diagram shows the schematic for the understock use case.
-
-image::./images/schematic-diagrams/demandrisk-understock-sd.png[understock schematic]
-
-Understock workflow steps:
-
-Inventory Analysis detects low stock levels and predicts inventory will
-become unavailable sooner than originally expected.
-
-Inventory Control Tower alerted to the understock position.
-
-Inventory Control Tower collects current inventory positions from
-stores, in-transit, warehouses plus future inventory positions
-
-Inventory Control Tower collects future demand requirements from Demand
-Intelligence.
-
-Colleague alerted and asked to take remediation action.
-
-Colleague triggers Business Automation to remediate stock levels using a
-combination of options, including:
-
-Ordering more stock
-
-Adjusting stock positions within existing Supply Chain
-
-Managing inventory held at existing stores or by moving existing
-inventory
-
-Managing inventory held at existing warehouses or by moving existing
-inventory
-
-=== Overstock
-
-The following diagram shows the schematic for the overstock use case.
-
-image::./images/schematic-diagrams/demandrisk-overstock-sd.png[overstock schematic]
-
-Overstock workflow steps:
-
-Inventory Analysis detects high stock levels and predicts inventory will
-not be sold as quickly as expected.
-
-Inventory Control Tower alerted to the overstock position.
-
-Inventory Control Tower collects current inventory positions from
-stores, in-transit, warehouses plus future inventory positions.
-
-Inventory Control Tower collects future demand requirements from Demand
-Intelligence.
-
-Colleague alerted and asked to take remediation action.
-
-Colleague triggers Business Automation to remediate stock levels using a
-combination of options, including:
-
-....
-<ol type="a"><li>Product discounting and promotions.</li>
-<li>Adjust stock positions within stores by moving stock between stores or warehouses to accelerate sales in conjunction with promotions.</li>
-<li>Reduce future inventory requirements to slow down or stop replenishment.</li>
-<li>Offering stock to partners for liquidation, destruction, donation, sale via alternative channels or to food-waste partners.</li>
-</ol>
-....
+image::./images/intro-marketectures/demandrisk-marketing-slide.png[solution overview]
+_Figure 1. Overall view of demand risk solution._
 
 === Technology
 
-The following technology was chosen for this solution:
+The following technologies were chosen for this solution:
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift[_Red
-Hat OpenShift_] Kubernetes offering, the hybrid platform offering allow
-deployment across data centers, private and public clouds as it brings
-choices and flexible for hosting system and services.
+https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red
+Hat OpenShift*] is an enterprise-ready Kubernetes container platform
+built for an open hybrid cloud strategy. It provides a consistent
+application platform to manage hybrid cloud, including edge
+deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform
+design intended to deliver increased business value and responsiveness
+through rapid, high-quality service delivery.
+https://www.redhat.com/en/technologies/management/ansible[*Red Hat
+Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams.
 
-https://www.redhat.com/en/technologies/management/ansible[_Red Hat
-Ansible Automation Platform_] operate, scale and delegate automate IT
-services, track changes an update inventory, prevent configuration drift
-and integrated with ITSM.
-
-https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[_Red
-Hat OpenShift API Management_] is a managed API traffic control and
+https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[*Red
+Hat OpenShift API Management*] is a managed API traffic control and
 program management service to secure, manage, and monitor APIs at every
 stage of the development lifecycle.
 
-https://www.redhat.com/en/getting-started-devops[_Red Hat OpenShift
-DevOps_] represents an approach to culture, automation and platform
-design intended to deliver increased business value and responsiveness
-through rapid, high-quality service delivery. DevOps means linking
-legacy apps with newer cloud-native apps and infrastructure. A DevOps
-developer can link legacy apps with newer cloud-native apps and
-infrastructure.
-
-https://www.ibm.com/products/business-automation-workflow[_Business
-Automation Workflow_] automate business processes, case work, task
+https://www.ibm.com/products/business-automation-workflow[*Business
+Automation Workflow*] automate business processes, case work, task
 automation with Robotic Process Automation (RPA) and Intelligent
 Automation such as conversation intelligence.
 
-https://www.ibm.com/products/supply-chain-intelligence-suite[_IBM Supply
-Chain Control Tower_] provides actionable visibility to orchestrate your
+https://www.ibm.com/products/supply-chain-intelligence-suite[*IBM Supply
+Chain Control Tower*] provides actionable visibility to orchestrate your
 end-to-end supply chain network, identify and understand the impact of
 external events to predict disruptions, and take actions based on
 recommendations to mitigate the upstream and downstream effects.
 
-https://www.ibm.com/products/intelligent-promising[_IBM Sterling
-Intelligent Promising_] provides shoppers with greater certainty, choice
+https://www.ibm.com/products/intelligent-promising[*IBM Sterling
+Intelligent Promising*] provides shoppers with greater certainty, choice
 and transparency across their buying journey. It includes:
 
-* https://www.ibm.com/products/fulfillment-optimizer[_IBM Sterling
-Fulfillment Optimizer with Watson_] to determine the best location from
+* https://www.ibm.com/products/fulfillment-optimizer[*IBM Sterling
+Fulfillment Optimizer with Watson*] to determine the best location from
 which to fulfill an order, based on business rules, cost factors, and
 current inventory levels and placement
-* https://www.ibm.com/products/inventory-visibility[_Sterling Inventory
-Visibility_] to processes inventory supply and demand activity to
+* https://www.ibm.com/products/inventory-visibility[*Sterling Inventory
+Visibility*] to processes inventory supply and demand activity to
 provide accurate and real-time global visibility across selling
 channels.
 
-https://www.ibm.com/products/planning-analytics[_IBM Planning Analytics
-with Watson_] streamlines and integrates financial and operational
+https://www.ibm.com/products/planning-analytics[*IBM Planning Analytics
+with Watson*] streamlines and integrates financial and operational
 planning across the enterprise.
 
-https://www.ibm.com/products/envizi[_Envizi_] simplifies the capture,
+https://www.ibm.com/products/envizi[*Envizi*] simplifies the capture,
 consolidation, management, analysis and reporting of your environmental,
-social and governance (ESG) data.
+social, and governance (ESG) data.
 
 ==== Supply Assurance Platform details
 
@@ -299,7 +159,7 @@ support, and drive operational automation with Control Tower.
 [width="100%",cols="25%,25%,25%,25%",options="header",]
 |===
 |Use Case |The Problem |The Solution |The Benefits and Implications
-|Reduce out of stock (OOS) or approaching out of stock (AOOS)conditions
+|Reduce out of stock (OOS) or approaching out of stock (AOOS) conditions
 |Out of stock situations lead to lost revenue and decreased brand /
 retailer loyalty. |SCIS Control Tower monitors inventory levels at all
 locations in a client’s network and creates items in the work queue when
@@ -324,7 +184,59 @@ Inventory is managed by exception. Manage and predict inventory
 exceptions such as: low inventory, stockouts, slow moving and aging
 inventory. Optimize inventory transfers to mitigate these circumstances.
 
-=== Action Guide
+== Architectures
+
+The figures in this section show the interaction of customer systems with supply chain optimization platform systems in the context of a retail scenario with branch stores.
+
+=== Understock
+
+Figure 2 shows the schematic for the understock use case.
+
+image::./images/schematic-diagrams/demandrisk-understock-sd.png[understock schematic]
+_Figure 2. Schematic diagram of understock use case._
+
+Understock workflow steps:
+
+. Inventory Analysis detects low stock levels and predicts inventory will
+become unavailable sooner than originally expected.
+
+. Inventory Control Tower alerted to the understock position.
+
+. Inventory Control Tower collects current inventory positions from
+stores, in-transit, warehouses plus future inventory positions
+
+. Inventory Control Tower collects future demand requirements from Demand
+Intelligence.
+
+. Colleague (humans in loop) alerted and asked to take remediation action.
+
+. The Colleague now triggers Business Automation to remediate stock levels using a combination of options, including: ordering more stock, adjusting stock positions within the existing Supply Chain, managing inventory held at existing stores/warehouses and moving existing inventory as appropriate.
+
+=== Overstock
+
+Figure 3 shows the schematic for the overstock use case.
+
+image::./images/schematic-diagrams/demandrisk-overstock-sd.png[overstock schematic]
+_Figure 3. Schematic diagram for the overstock use case._
+
+Overstock workflow steps:
+
+. Inventory Analysis detects high stock levels and predicts inventory will
+not be sold as quickly as expected.
+
+. Inventory Control Tower alerted to the overstock position.
+
+. Inventory Control Tower collects current inventory positions from
+stores, in-transit, and warehouses plus future inventory positions.
+
+. Inventory Control Tower collects future demand requirements from Demand
+Intelligence.
+
+. Colleague (the humans in the loop) alerted and asked to take remediation action.
+
+. The Colleague now triggers Business Automation to remediate stock levels using a combination of options, including: ordering more stock, adjusting stock positions within the existing Supply Chain, managing inventory held at existing stores/warehouses and moving existing inventory as appropriate.
+
+== Action Guide
 
 From a high-level perspective, there are several main steps your
 organization can take to drive innovation and move toward a digital
@@ -365,7 +277,10 @@ operations tools and processes for years to come and thus represents a
 foundational decision point.
 |===
 
-=== Similar use cases
+For specific steps on this approach, see *The Action Guide* details in
+https://www.ibm.com/downloads/cas/1BYY6VEM[_Own Your Transformation_] survey of 1500 CSCOs across 24 industries.
+
+== Similar use cases
 
 See:
 
