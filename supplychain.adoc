@@ -166,6 +166,8 @@ Harvard Business Review article,
 https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis[Three
 steps to prepare your supply chain for the next crisis]. reports:
 
+
+[quote,Harvard Business Review]
 ____
 Companies that are well-prepared and as a result prosper in a crisis can
 expect to recover more quickly than their competitors. In a review of
@@ -173,15 +175,15 @@ corporate performance during the past four U.S. downturns (since 1985),
 Boston Consulting Group (BCG) found that 14% of companies
 increased their sales and their profit margin.
 
-
 Investors are starting to reward companies that build for the future by
 becoming more innovative and more resilient. In June 2020, during the
 depths of the Covid-19 pandemic, BCG surveyed major institutional
-investors and found that nine out of ten believed it was ``important for
+investors and found that nine out of ten believed it was "important for
 healthy companies to prioritize the building of business capabilities —
 even if it means lowering earnings-per-share guidance or delivering
-below consensus.''
+below consensus."
 ____
+
 
 The McKinsey report
 https://www.mckinsey.com/capabilities/operations/our-insights/how-covid-19-is-reshaping-supply-chains[How
@@ -212,6 +214,7 @@ Specifically,
 https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis?autocomplete=true[Harvard
 Business Review article] recommends:
 
+[quote,Harvard Business Review]
 ____
 CEOs need to invest in risk intelligence and strategic foresight,
 creating a team of procurement super-forecasters equipped with the
@@ -274,6 +277,10 @@ Figure 2 shows the major systems and how they relate to each other. Figure 3 emp
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/supplychain-referencearchitecture.png[alt="Portfolio Architecture", width=700]
 --
 _Figure 2. Major systems and their relationships._
+
+== Summary video
+video::ayFq1q_WBYg[youtube]
+
 
 == Logical diagrams
 

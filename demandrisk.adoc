@@ -85,6 +85,10 @@ standalone applications, on-premises and cloud services, and databases.
 image::./images/intro-marketectures/demandrisk-marketing-slide.png[solution overview]
 _Figure 1. Overall view of demand risk solution._
 
+== Summary video
+video::DDk3YA93jNw[youtube]
+
+
 === Technology
 
 The following technologies were chosen for this solution:
