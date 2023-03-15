@@ -1,7 +1,12 @@
-= Demand Risk in Supply Chains Portfolio Architecture
+= Demand Risk
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples/
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
 
 == Use case
-
 Reduce and mitigate the effects of two of the main demand risk use cases, *overstock* and *understock* events, in retail and other supply chains.
 
 == Background
@@ -88,22 +93,29 @@ _Figure 1. Overall view of demand risk solution._
 == Summary video
 video::DDk3YA93jNw[youtube]
 
+== Logical diagrams
 
-=== Technology
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/inventoryoptimisation-ld.png[alt="Logical view", width=700]
+--
+_Figure 2. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain._
+
+== Technology
 
 The following technologies were chosen for this solution:
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red
+https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift*] is an enterprise-ready Kubernetes container platform
 built for an open hybrid cloud strategy. It provides a consistent
 application platform to manage hybrid cloud, including edge
 deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform
 design intended to deliver increased business value and responsiveness
 through rapid, high-quality service delivery.
-https://www.redhat.com/en/technologies/management/ansible[*Red Hat
+
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat
 Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams.
 
-https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[*Red
+https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift API Management*] is a managed API traffic control and
 program management service to secure, manage, and monitor APIs at every
 stage of the development lifecycle.
@@ -128,7 +140,7 @@ Fulfillment Optimizer with Watson*] to determine the best location from
 which to fulfill an order, based on business rules, cost factors, and
 current inventory levels and placement
 * https://www.ibm.com/products/inventory-visibility[*Sterling Inventory
-Visibility*] to processes inventory supply and demand activity to
+Visibility*] to process inventory supply and demand activity to
 provide accurate and real-time global visibility across selling
 channels.
 
@@ -140,7 +152,7 @@ https://www.ibm.com/products/envizi[*Envizi*] simplifies the capture,
 consolidation, management, analysis and reporting of your environmental,
 social, and governance (ESG) data.
 
-==== Supply Assurance Platform details
+=== Supply Assurance Platform details
 
 With Inventory Control Tower, you:
 
@@ -171,15 +183,15 @@ revenue is at risk. When drilling down on the item, users can see where
 they have available inventory and receive recommendations about how much
 inventory can and should be transferred to the OOS / AOOS locations.
 |Action can be taken directly from the Control Tower user interface. OOS
-situations are efficiently managed and AOOS are avoided with minimal
+situations are efficiently managed and AOOS is avoided with minimal
 human intervention.
 
 |Manage industrial and manufacturing critical supplies |Out of stock
 situations lead to line outages, manufacturing delays, and lost revenue.
-|SCIS Control Tower monitors inventory to requested demand and creates
+|SCIS Control Tower monitors inventory to request demand and creates
 items in the work queue when delivery is at risk. When drilling down on
 the item, users can see parts by SKU and location to see which supply is
-at risk take action to minimize impact. |Minimize production and parts
+at risk and take action to minimize impact. |Minimize production and parts
 impact due to OOS / AOOS situations. Increase throughput and minimize
 customer delays. Minimize expedited and remediation costs.
 |===
@@ -194,10 +206,10 @@ The figures in this section show the interaction of customer systems with supply
 
 === Understock
 
-Figure 2 shows the schematic for the understock use case.
+Figure 3 shows the schematic for the understock use case.
 
 image::./images/schematic-diagrams/demandrisk-understock-sd.png[understock schematic]
-_Figure 2. Schematic diagram of understock use case._
+_Figure 3. Schematic diagram of understock use case._
 
 Understock workflow steps:
 
@@ -218,10 +230,10 @@ Intelligence.
 
 === Overstock
 
-Figure 3 shows the schematic for the overstock use case.
+Figure 4 shows the schematic for the overstock use case.
 
 image::./images/schematic-diagrams/demandrisk-overstock-sd.png[overstock schematic]
-_Figure 3. Schematic diagram for the overstock use case._
+_Figure 4. Schematic diagram for the overstock use case._
 
 Overstock workflow steps:
 
@@ -240,7 +252,7 @@ Intelligence.
 
 . The Colleague now triggers Business Automation to remediate stock levels using a combination of options, including: ordering more stock, adjusting stock positions within the existing Supply Chain, managing inventory held at existing stores/warehouses and moving existing inventory as appropriate.
 
-== Action Guide
+=== Action Guide
 
 From a high-level perspective, there are several main steps your
 organization can take to drive innovation and move toward a digital
@@ -284,34 +296,23 @@ foundational decision point.
 For specific steps on this approach, see *The Action Guide* details in
 https://www.ibm.com/downloads/cas/1BYY6VEM[_Own Your Transformation_] survey of 1500 CSCOs across 24 industries.
 
-== Similar use cases
+
+=== Next steps
 
 See:
 
-* link:./perfectorder.md[Inventory management]
-* link:lossmanagement.md[Loss and waste management]
-* link:timeliness.md[Product timeliness]
-* link:./intelligentorder.md[Intelligent order]
-* link:./sustainablesupplychain.md[Sustainable supply chain]
+* Loss and waste management (coming soon)
+* Product timeliness  (coming soon)
+* Perfect order (coming soon)
+* Intelligent order (coming soon)
+* Sustainable supply  (coming soon)
 
 For a comprehensive supply chain overview, see
-link:supplychain.md[Supply Chain Optimization].
+https://www.redhat.com/architect/portfolio/detail/36[Supply Chain Optimization].
 
-=== Downloads
 
-View and download all of the *Inventory Optimization diagrams* shown in
-previous sections in our open source tooling site.
 
-* PowerPoint Solution Overview:
-link:./downloads/SupplyChainOptimization.SolutionOverview.pptx[Open
-Solution Overview]
-* PowerPoint Reference Architecture:
-link:./downloads/SupplyChainOptimization.ReferenceArchitecture.pptx[Open
-Workflow Diagrams]
-* DrawIO: [Open Schematic
-Diagrams](./downloads/SupplyChainOptimization.drawio
-
-=== Contributors
+== Contributors
 
 * Iain Boyle, Chief Architect, Red Hat
 * Mike Lee, Principal AI Ops Technical Specialist, IBM
@@ -321,3 +322,14 @@ Diagrams](./downloads/SupplyChainOptimization.drawio
 * Thalia Hooker, Senior Principal Specialist Solution Architect, Red Hat
 * Jeric Saez, Senior Solution Architect, IBM
 * Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
+
+
+== Download diagrams
+View and download all of the diagrams above on our open source tooling site.
+--
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/supplychain.drawio[[Open Diagrams]]
+--
+
+
+== Provide feedback
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/demandrisk.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
