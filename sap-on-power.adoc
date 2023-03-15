@@ -67,7 +67,7 @@ video::xyz[youtube]
 Figure 2 provides a diagram of the architecture showing the major components and where they logically reside.
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/images/logical-diagrams/sap-on-ibm-power-overview.png[alt="Red Hat Enterprise Linux (RHEL) for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/sap-on-ibm-power-overview.png[alt="Red Hat Enterprise Linux (RHEL) for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
 --
 
 _Figure 2. Logical diagram of the architecture._
