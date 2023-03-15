@@ -179,6 +179,9 @@ routed through Business Automation tools such as Business Automation
 Workshop.
 * Inventory Optimization platform
 
+=== Summary video
+video::yXgTskqtsoE[youtube]
+
 === Solution principles
 
 *True end-to-end visibility*. Remove data silos and create a unified
