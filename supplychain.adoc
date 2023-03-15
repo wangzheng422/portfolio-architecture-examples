@@ -10,7 +10,7 @@
 
 This portfolio architecture addresses several main use cases for transforming supply chain risk factors:
 
-* Demand risk (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/37[Demand risk]
 * Loss and waste management (coming soon)
 * Product timeliness  (coming soon)
 * Perfect order (coming soon)
@@ -30,8 +30,7 @@ _Overstock_ - holding more stock than required to meet current and
 future demand. This results in additional costs to store and carry on the books, then possibly disposing of
 overstocked items at a discount or even destroying them.
 
-For more information about the solution details in this scenario, see
-Demand risk (coming soon)
+For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/36[Demand risk]
 
 === Loss and waste management
 
@@ -507,7 +506,7 @@ survey of 1500 CSCOs across 24 industries.
 
 See _Action Guide_ section in each of the use cases:
 
-* Demand risk (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/36[Demand risk]
 * Loss and waste management (coming soon)
 * Product timeliness  (coming soon)
 * Perfect order (coming soon)
