@@ -87,7 +87,9 @@ standalone applications, on-premises and cloud services, and databases.
 * *Foundational infrastructure.* The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.
 * *Inventory Optimization platform* consisting of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis & AI.
 
-image::./images/intro-marketectures/demandrisk-marketing-slide.png[solution overview]
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/demandrisk-marketing-slide.png[alt="solution overview", width=700]
+--
 _Figure 1. Overall view of demand risk solution._
 
 == Summary video
@@ -208,7 +210,9 @@ The figures in this section show the interaction of customer systems with supply
 
 Figure 3 shows the schematic for the understock use case.
 
-image::./images/schematic-diagrams/demandrisk-understock-sd.png[understock schematic]
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/demandrisk-understock-sd.png[alt="understock schematic", width=700]
+--
 _Figure 3. Schematic diagram of understock use case._
 
 Understock workflow steps:
@@ -232,7 +236,9 @@ Intelligence.
 
 Figure 4 shows the schematic for the overstock use case.
 
-image::./images/schematic-diagrams/demandrisk-overstock-sd.png[overstock schematic]
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/demandrisk-overstock-sd.png[alt="overstock schematic", width=700]
+--
 _Figure 4. Schematic diagram for the overstock use case._
 
 Overstock workflow steps:
