@@ -41,7 +41,7 @@ This architecture covers generic information on the design of the infrastructure
 The following view shows which business drivers are to be covered by the solution. In addition, "Scaled SAP in regulated and restricted environments" is a solution that can be reproduced and is used by various customers. It is based on decades of experience with state-of-the-art technology.
 
 --
-image::./images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="Red Hat Enterprise Linux (RHEL) for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="Red Hat Enterprise Linux (RHEL) for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
 --
 
 _Figure 1. Overall structure of the solution._
@@ -67,7 +67,7 @@ video::xyz[youtube]
 Figure 2 provides a diagram of the architecture showing the major components and where they logically reside.
 
 --
-image::./images/logical-diagrams/sap-on-ibm-power-overview.png[alt="Red Hat Enterprise Linux (RHEL) for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/images/logical-diagrams/sap-on-ibm-power-overview.png[alt="Red Hat Enterprise Linux (RHEL) for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
 --
 
 _Figure 2. Logical diagram of the architecture._
@@ -111,7 +111,7 @@ Certified Collections are also available for AIX, IBM i, VIOS, HMC and Linux for
 All products build the solution stack in the technology capture below.
 
 --
-image::./images/schematic-diagrams/sap-on-ibm-power-schematic.png[alt="Red Hat Enterprise Linux (RHEL) for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-on-ibm-power-schematic.png[alt="Red Hat Enterprise Linux (RHEL) for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
 --
 
 _Figure 3. Schematic diagram of the architecture._
