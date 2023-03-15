@@ -1,0 +1,96 @@
+= Revolutionizing Retail: Exploring the Power of Edge Solutions
+Enrico Guarino @eguarino, Fabio Alessandro Locati @fale, Marc Schindler @mschindl
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Incorporating Edge technologies in retail allows for real-time data analysis, leading to improved operations and enhanced customer experiences
+
+*Background:* In the digital age, the retail industry is encountering challenges as power has shifted from retailers to consumers who have access to vast amounts of information. To keep up with the ever-increasing demands for ultra-convenience, flawless service, and seamless experiences, retailers need to invest in innovative business models and new ways to create value for their ecosystem.
+To meet these elevated expectations, retailers must adopt a customer-centric approach, utilizing modern digital capabilities and intelligent technologies with real-time insights to reimagine stores as the command center for unified commerce. Regardless of the point of purchase, retailers need to provide unique and seamless shopping experiences to their customers.
+Edge technologies and AI-ML can be used by retailers to capture customer interactions, understand customer sentiments, predict and anticipate unspoken needs, and offer the right assortment and offerings. This, in turn, can help retailers provide innovative customer experiences and create efficient workspaces for employees.
+
+== Solution overview
+
+This architecture covers the use case of Edge Computing in the retail industry. Edge computing refers to processing, analyzing, and storing data closer to where it is generated to enable rapid, near real-time analysis and response. This can lead to improved customer experiences, optimized store operations, and the support of new technologies. Real-time data analysis is crucial for personalizing shopping experiences and increasing revenue for retailers. 
+
+====
+*Why Should the Retail Industry Embrace Edge Technologies?*
+
+. Improved Decision-making: By leveraging Edge and AI-ML technologies, retailers can make data-driven decisions in real-time, allowing them to optimize operations and enhance the customer experience.
+
+. Enhanced Customer Experience: IoT devices like sensors, cameras, and RFID tags can capture data on customer behavior, which can be analyzed to deliver personalized experiences and improve customer loyalty.
+
+. Operational Efficiency: Edge and AI-ML technologies can help retailers optimize staffing allocation, manage fresh food stock for last-mile delivery, track demand and key performance indicators (KPIs), monitor in-store promotions, and identify trends and patterns in customer data, resulting in improved operational efficiency.
+====
+
+
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-retail-marketing-slide.png[alt="Retail Edge Solution Overview featuring a schematic representation and the business drivers.", width=700]
+--
+
+== Logical diagram
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/edge-retail-ld.png[alt="Retail Edge Solution Logical Diagram", width=700]
+--
+
+== The technology
+
+The following technology was chosen for this solution:
+
+====
+https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red Hat OpenShift*] Kubernetes container platform with both Serverless and GitOps mentioned above. It provides a consistent application platform to manage supports for full automated workflow and flexible, scalable resource usage.
+
+https://www.redhat.com/en/technologies/device-edge[*Red Hat Device Edge*] extends operational consistency across edge and hybrid cloud environments, no matter where devices are deployed in the field. Red Hat Device Edge combines enterprise-ready lightweight Kubernetes container orchestrations using MicroShift with Red Hat Enterprise Linux to support different use cases and workloads on small, resource-constrained devices at the farthest edge.
+
+
+https://www.redhat.com/en/resources/amq-streams-datasheet[*Red Hat AMQ Streams*] is a data streaming platform with high throughput and low latency. Streams images and registration events to corresponding microservices to automated diagnosis.
+
+https://www.redhat.com/en/technologies/management/ansible[*Red Hat Ansible Automation Platform*] automates the deployment and the management of the infrastructure and the applications running on it.
+
+https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red Hat OpenShift GitOps*] ensure all workloads manifests are versioned, pick up changes from code repository into the CI/CD pipelines and trigger image build and deploys into clouds.
+
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading Enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
+
+https://www.ibm.com/products/ceph[*IBM Storage Ceph*] is a software-defined storage solution for block storage, file storage, and object storage used for images, continuous deployment models, analytics, AI/ML datasets and models.
+
+https://www.ibm.com/cloud/watson-studio[*IBM Watson Studio*] develops, trains, and tests for AI/ML modeling and visualization in sandbox environment. Diagnosis models are being continuously trained and updated, this streamline workflow allows a more rapid, agile application lifecycle.
+
+
+https://www.ibm.com/products/cognos-analytics[*IBM Cognos Analytics with Watson*] is an AI-powered analytics platform that helps businesses make informed decisions by providing insights into their data. It uses advanced analytics, machine learning, and natural language processing to help users analyze data and create interactive reports and dashboards.
+
+
+====
+
+== Architectures
+
+=== Retail Edge Solution overview
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-retail-sd.png[alt="Retail Edge Schematic Diagram. Covers the various services, platforms and applications that compose the solution and how those communicate to each other.", width=700]
+--
+
+The retail industry is constantly evolving, with technology playing a key role in its transformation. AI-ML at the edge enables retailers to make data-driven decisions in real-time, optimizing operations and enhancing customer experience.
+
+IoT devices such as sensors, cameras, POS and RFID tags are used to collect data about everything from inventory levels to customer behavior. Sensors capture customer movement and interaction, tracking the activity levels in the store and the path that reveal how customers navigate through the space. Cameras understand the customer sentiment, which items they touch, monitor the inventory and even identify shoplifters.
+
+Data from Edge Devices are transmitted over MQTT to Red Hat AMQ for model development in the core data center and live inference in the store. MQTT is the most commonly used messaging protocol for IoT applications. Apache Camel K provides MQTT integration, normalizing and routing sensor data to other components. That sensor data is mirrored into a data lake that is provided by IBM Storage Ceph.
+
+The Real Time Analytics Dashboard gives retail managers and employees customized data alerts and analytics in real-time, allowing them to optimize staffing allocation, manage fresh food stock for last-mile delivery, track demand and KPIs, provide insights on how each store zone is performing in terms of driving and engaging traffic, monitor in-store promotions, and more.
+
+IBM Federated Learning allows multiple remote parties (stores) to collaboratively train a single machine learning model without sharing data. Business analysts, data scientists, and cognitive architects use IBM Watson Studio to perform model development and training. The model is deployed using Watson Machine Learning, providing a scalable model with continuous learning.
+
+IBM Cognos Analytics with Watson provides retailers valuable insights into their business operations by analyzing sales data, inventory levels, and customer behavior. This allows them to make informed decisions about product placement, pricing, and marketing strategies. With its AI capabilities, IBM Cognos Analytics with Watson also identifies trends and patterns in customer data, resulting in personalized experiences and improved customer loyalty.
+
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/edge-retail.drawio[[Open Diagrams]]
+--
+
+== Provide feedback on this architecture
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/edge-retail.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
