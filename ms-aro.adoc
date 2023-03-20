@@ -10,6 +10,7 @@ Ricardo Garcia Cavero @rgarciac
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
 *Use case:* Adopt cloud native development technologies and mindset using a container platform without having to manage it and controlling its costs and use all the services offered by cloud providers to create more innovative and useful applications.
+*Background:* Modernizing the way in which companies develop applications is key for keeping up with the fast pace imposed by the market. They need to be flexible and provide the means for developers to be productive from day one without having to worry about infrastructure details. Deploying a container platform is a great way to achieve this as it caters for the usage of DevOps methodologies, cloud native and micro services technologies without having a mix of many different platforms that are hard to maintain. However some customers do not have the in-house skill set to manage such platforms and might also not want to invest on the large infrastructure that they require and it is for them that a managed container platform like Azure Red Hat OpenShift is a great option.
 
 
 
