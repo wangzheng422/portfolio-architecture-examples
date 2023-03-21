@@ -52,7 +52,7 @@ https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red Hat OpenSh
 https://www.redhat.com/en/technologies/device-edge[*Red Hat Device Edge*] extends operational consistency across edge and hybrid cloud environments, no matter where devices are deployed in the field. Red Hat Device Edge combines enterprise-ready lightweight Kubernetes container orchestrations using MicroShift with Red Hat Enterprise Linux to support different use cases and workloads on small, resource-constrained devices at the farthest edge.
 
 
-https://www.redhat.com/en/resources/amq-streams-datasheet[*Red Hat AMQ Streams*] is a data streaming platform with high throughput and low latency. Streams images and registration events to corresponding microservices to automated diagnosis.
+https://www.redhat.com/en/resources/amq-streams-datasheet[*Red Hat AMQ Streams*] is a data streaming platform with high throughput and low latency. Streams events in stores and registration events to corresponding microservices to better analyze customer bahaviours and needs.
 
 https://www.redhat.com/en/technologies/management/ansible[*Red Hat Ansible Automation Platform*] automates the deployment and the management of the infrastructure and the applications running on it.
 
@@ -60,9 +60,9 @@ https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red Hat OpenSh
 
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading Enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
 
-https://www.ibm.com/products/ceph[*IBM Storage Ceph*] is a software-defined storage solution for block storage, file storage, and object storage used for images, continuous deployment models, analytics, AI/ML datasets and models.
+https://www.ibm.com/products/ceph[*IBM Storage Ceph*] is a software-defined storage solution for block storage, file storage, and object storage used for events in stores, continuous deployment models, analytics, AI/ML datasets and models.
 
-https://www.ibm.com/cloud/watson-studio[*IBM Watson Studio*] develops, trains, and tests for AI/ML modeling and visualization in sandbox environment. Diagnosis models are being continuously trained and updated, this streamline workflow allows a more rapid, agile application lifecycle.
+https://www.ibm.com/cloud/watson-studio[*IBM Watson Studio*] develops, trains, and tests for AI/ML modeling and visualization in sandbox environment. The models used to analyze customer behaviour in stores are being continuously trained and updated, this streamline workflow allows a more rapid, agile application lifecycle.
 
 
 https://www.ibm.com/products/cognos-analytics[*IBM Cognos Analytics with Watson*] is an AI-powered analytics platform that helps businesses make informed decisions by providing insights into their data. It uses advanced analytics, machine learning, and natural language processing to help users analyze data and create interactive reports and dashboards.
