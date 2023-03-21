@@ -1,0 +1,98 @@
+= Skin Cancer Detection
+Fabio Alessandro Locati @fale, Marc Schindler @mschindl, Enrico Guarino @eguarino
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+
+*Use case:* Supporting the doctor's decision on skin cancer diagnosis with medical imagery with AI/ML.
+
+*Background:* Every year, millions of skin cancers get detected.
+The current detection process for skin cancers is based on a visual check from a doctor.
+In the last decade, photographing suspect or at risk patches of skin is becoming common to be able to check their development over time.
+Those images need to be conserved in a way that guarantees high degrees of confidentiality due to the nature of the content and availability to ensure usefulness.
+
+== Solution overview
+
+This architecture covers the use case around Skin Cancer Detection in the healthcare industry. The solution provides a way to enhance the doctor's ability to identify skin cancer by analysing skin patch images to offer doctors a synthetic second opinion. This allows to increase the efficiency and precision of the diagnosis.
+
+====
+*Why Skin Cancer Detection?*
+
+. Provide expert-assist to medical experts to reduce time spent on routine diagnosis
+. Need for faster medical diagnosis of skin cancers
+. Focus medical expert time on most difficult to interpret cases
+====
+
+
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/skin-cancer-detection-slide.png[alt="Skin Cancer Detection Solution Overview featuring a schematic representation and the business drivers.", width=700]
+--
+
+== Summary video
+video::RTPje-A7z8w[youtube]
+
+
+== Logical diagram
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/skin-cancer-detection-details-ld.png[alt="Skin Cancer Detection Logical Diagram dividing the services between frontend services, intelligent services, storage, and deployment and management tools.", width=700]
+--
+
+== The technology
+
+The following technology was chosen for this solution:
+
+====
+https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] Kubernetes container platform with both Serverless and GitOps mentioned above. It provides a consistent application platform to manage supports for full automated workflow and flexible, scalable resource usage.
+
+https://www.redhat.com/en/resources/amq-streams-datasheet?intcmp=7013a00000318EWAAY[*Red Hat AMQ Streams*] is a data streaming platform with high throughput and low latency. Streams images and registration events to corresponding microservices to automated diagnosis.
+
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] automates the deployment and the management of the infrastructure and the applications running on it.
+
+https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red Hat OpenShift GitOps*] ensure all workloads manifests are versioned, pick up changes from code repository into the CI/CD pipelines and trigger image build and deploys into clouds.
+
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading Enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
+
+https://www.ibm.com/products/ceph[*IBM Storage Ceph*] is a software-defined storage solution for block storage, file storage, and object storage used for images, continuous deployment models, analytics, AI/ML datasets and models.
+
+https://www.ibm.com/cloud/watson-studio[*IBM Watson Studio*] develops, trains, and tests for AI/ML modeling and visualization in sandbox environment. Diagnosis models are being continuously trained and updated, this streamline workflow allows a more rapid, agile application lifecycle.
+
+====
+
+== Architectures
+
+=== Skin Cancer Detection overview
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/skin-cancer-detection-sd.png[alt="Skin Cancer Detection Schematic Diagram. Covers the various services and applications that compose the application and how those communicate to each other.", width=700]
+--
+
+This is an overview look at the Skin Cancer Detection architecture, providing the solution details and the elements described above in both a network and data centric view.
+
+The solution focuses on the datacenter side of the system.
+This specific focus is needed since the images can be acquired in different ways from the various devices that can be used to acquire such images.
+In case those devices are connecting to smartphones or tables, an application can be put on those devices.
+In case those devices communicate with a computer, this can host such an application.
+
+The chosen device connected to the image acquirer tool transfers the images to the Image Upload Application.
+The Image Upload Application will save the image meta-data in a database, while the image is saved in an object storage provided by IBM Storage Ceph.
+The database is backed by IBM Storage Ceph block storage.
+Additionally, the Image Upload Application will put into AMQ Streams a message to ensure the image will be processed.
+
+IBM Watson watches the Kafka incoming-images queue and processes incoming images returning the result to the doctor via the notification service.
+
+Leveraging the archived images, the doctors diagnoses and the results of biopsies, where available, the AI/ML model can be re-trained periodically to improve the accuracy and the precision of the model.
+The applications, machine learning models, data science development and dashboards for monitoring the processes are all in constant evolution.
+Developers and operation teams maintain code and infrastructure manifests for full GitOps deployment of the architectural elements.
+The installation and management of all components in the environment is done with automation, allowing to create a predictable and auditable enviornment.
+
+== Download diagrams
+View and download all of the diagrams above in our open source tooling site.
+--
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/skin-cancer-detection.drawio[[Open Diagrams]]
+--
+
+== Provide feedback on this architecture
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/skin-cancer-detection.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].

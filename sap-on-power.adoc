@@ -9,7 +9,7 @@ Marc Schindler @mschindl, Fabio Alessandro Locati @fale, Enrico Guarino @eguarin
 
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Modernize regulated and restricted SAP environments with high scalable IBM Power server in a fully automated way for the complete life cycle, which includes day2 operations and reduces infrastructure and personal costs.
+*Use case:* Modernize regulated and restricted SAP environments using high scalable IBM Power server in a fully automated way for the complete life cycle, which includes Day 2 operations and reduces infrastructure and labor costs.
 
 *Background:*
 SAP customers need to migrate to the new suite SAP S/4HANA[1] by 2027. That is a very complex process during which all the customer custom code must be reviewed and if still useful, taken out of the SAP backend so that further upgrade processes are simplified and accelerated. The requirements of regulated and restricted environments must also be considered and complied with.
@@ -22,23 +22,9 @@ _[2] Red Hat Virtualization "Maintenance support ends": https://access.redhat.co
 
 
 == Solution overview 
-The purpose of this solution is to completely automate the deployment of SAP HANA DB and SAP Application components based on IBM PowerVC, RHEL and Pacemaker as high availability solution in a regulated and restricted environment.
+The purpose of this solution is to completely automate the deployment of SAP HANA DB and SAP Application components based on IBM PowerVC, Red Hat Enterprise Linux (RHEL) and Pacemaker (an open source cluster resource manager that ships with Linux) high availability solution in a regulated and restricted environment.
 
-This architecture covers generic information on the design of the infrastructure in a solution pattern:
-
-* IBM Power
-* IBM PowerVC
-* Red Hat Enterprise Linux with Satellite for SAP
-* Red Hat Satellite
-* Red Hat Ansible Automation Platform
-* Red Hat Insights
-* SAP S4/HANA
-* other SAP NetWeaver based Applications
-* SAP HANA
-* AnyDB (e.g. Oracle DB, IBM DB2, SAP ASE)
-
-
-The following view shows which business drivers are to be covered by the solution. In addition, "Scaled SAP in regulated and restricted environments" is a solution that can be reproduced and is used by various customers. It is based on decades of experience with state-of-the-art technology.
+"Scaled SAP in regulated and restricted environments" is a solution that can be reproduced and is used by multiple customers. It is based on decades of experience with state-of-the-art.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/sap-on-ibm-power-solution-overview.png[alt="Red Hat Enterprise Linux (RHEL) for SAP workloads on IBM Power, IBM PowerVC, Red Hat Satellite, Red Hat Automation Platform and Red Hat Insights SaaS", width=700]
@@ -46,23 +32,12 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 _Figure 1. Overall structure of the solution._
 
-*Why customers decide to use IBM Power servers?*
 
-* On-premise Cloud Architecture
-* Highly efficient and secure virtualization
-* Optimal maintenance concept through Live Partition Mobility
-* Effective use of resources leads to energy savings
 
-*Why customers decide to use automation?*
+== Summary video
+video::YEAp1NXD2m4[youtube]
 
-* Standardized approaches, such as platform as code and improved SLAs
-* Reproduceable architecture
-* Time to market by accelerated life cycle workflows
-
-== Summary video (soon)
-video::xyz[youtube]
-
-== Logical diagrams
+== Logical diagram
 
 Figure 2 provides a diagram of the architecture showing the major components and where they logically reside.
 
@@ -78,28 +53,48 @@ Red Hat's and IBM's CDN was included because the packages have to be downloaded 
 
 == Technology
 
+This architecture covers generic information on the design of the infrastructure in a solution pattern:
+
+* IBM Power
+* IBM PowerVC
+* Red Hat Enterprise Linux with Satellite for SAP
+* Red Hat Satellite
+* Red Hat Ansible Automation Platform
+* Red Hat Insights
+* SAP S4/HANA
+* other SAP NetWeaver based Applications
+* SAP HANA
+* AnyDB (e.g. Oracle DB, IBM DB2, SAP ASE)
+
+
 The following hardware and technology were chosen for this solution:
 
 ====
 
 https://www.ibm.com/power[*IBM Power Server*]
 IBM Power is known for its scalability and performance with the most demanding workloads, its superior virtualization and management features for flexibility, its security with better isolation and integrated stack, and its leading availability.
+It was chosen for this solution because of:
+
+* On-premise Cloud Architecture
+* Highly efficient and secure virtualization
+* Optimal maintenance concept through Live Partition Mobility
+* Effective use of resources leads to energy savings
 
 https://www.ibm.com/de-de/products/powervc[*IBM PowerVC Virtualization*]
-IBM PowerVC is based on OpenStack. It provides simplified virtualization management and cloud deployments for IBM AIX , IBM i and Linux virtual machines (VMs) running on IBM Power Systems.
+is based on OpenStack. It provides simplified virtualization management and cloud deployments for IBM AIX , IBM i and Linux virtual machines (VMs) running on IBM Power Systems.
 
 Example of SAP on PowerVC Deployment:
 https://mediacenter.ibm.com/media/SAP+HANA+for+IBM+Power+Systems+-+PowerVC+Deployment/1_ohwmudpk[*SAP HANA Deployment on IBM Power and PowerVC*]
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux for SAP Solutions*]
-Red Hat Enterprise Linux for SAP Solutions is combining an intelligent operating system with predictive management tools and SAP-specific content. It provides a single, consistent, highly available foundation for business-critical SAP and non-SAP workloads and also includes the Red Hat Satellite product portfolio with the Red Hat Insights SaaS offering.
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux for SAP Solutions*]
+RHEL for SAP Solutions combines an intelligent operating system with predictive management tools and SAP-specific content. It provides a single, consistent, highly available foundation for business-critical SAP and non-SAP workloads and also includes the Red Hat Satellite product portfolio with the Red Hat Insights SaaS offering.
 
-https://www.redhat.com/en/technologies/management/satellite[*Red Hat Satellite*] includes Satellite and Cloud Connector, which provides the capability to gather anonymized configuration information from the SAP hosts and send that anonymized data to Insights Platform (on Red Hat’s SaaS). It helps also with proactive detection and automatic remediation of potential issues. Satellite manages the lifecycle of the SAP servers, applying the packages, security fixes, etc., that they need to comply with SAP’s and Red Hat’s recommendations and consistent between them.
+https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] includes Satellite and Cloud Connector, which provides direct integration between Red Hat Insights and on-premises Red Hat Satellite infrastructure. In addition to that the Insights client provides the capability to gather anonymized configuration information from the SAP hosts and send that anonymized data to Insights Platform (on Red Hat’s SaaS). It helps with proactive detection and automatic remediation of potential issues. Satellite manages the lifecycle of the SAP servers, applying the packages, security fixes, etc., that they need to comply with SAP’s and Red Hat’s recommendations and consistent between them.
 
-https://www.redhat.com/en/technologies/management/insights[*Red Hat Insights (SaaS)*] receives the anonymized data of the SAP hosts from Satellite and makes it available to Red Hat Insights services the customer is subscribed to. It is a rule-based SaaS and it has dedicated rules for SAP hosts that are based on SAP's and Red Hat's recommendations and it detects and alerts when a host is not compliant with all these recommendations.
+https://www.redhat.com/en/technologies/management/insights?intcmp=7013a00000318EWAAY[*Red Hat Insights (SaaS)*] receives the anonymized data of the SAP hosts from Satellite and makes it available to Red Hat Insights services the customer is subscribed to. It is a rule-based SaaS and it has dedicated rules for SAP hosts that are based on SAP's and Red Hat's recommendations; it detects and alerts when a host is not compliant with all these recommendations.
 
-https://www.redhat.com/en/technologies/management/ansible[*Red Hat Ansible Automation Platform*]
-Red Hat Ansible Automation Platform is used for the automated life cycle of solution for all components, which leads to increased efficiency and stability in production. It is the framework used in this solution to run the remediation Ansible playbooks in the hosts that will correct the situations that could lead to a failure or issue. For example, modifying a kernel memory parameter that can cause a bad performance of the SAP HANA DB or applying a certain level of an OS package that is needed for a particular version of SAP Netweaver.
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*]
+Red Hat Ansible Automation Platform is used for the automated life cycle of solution for all components, which leads to increased efficiency and stability in production. It is the framework used in this solution to run the remediation Ansible playbooks in the hosts that will correct the situations that could lead to a failure or issue. For example, modifying a kernel memory parameter that can cause a bad performance of the SAP HANA DB or applying a certain level of an OS package that is needed for a particular version of SAP NetWeaver. Automation is essential to enable standardized approaches (such as platform-as-code and reproducible architectures)), to improve SLAs, and shorter time to market through accelerated workflows.
 
 Ansible Collections for IBM Power extend the benefits of Ansible automation to Power enterprise customers.
 Certified Collections are also available for AIX, IBM i, VIOS, HMC and Linux for Power. The Power pipeline includes additional collections to automate PowerHA, SAP HANA (on AIX and IBM i) and Oracle operations.
@@ -116,55 +111,56 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 _Figure 3. Schematic diagram of the architecture._
 
-The schematic overview explains the communication ways between all components and products. One of the importants part is the infrastructure management part, where Ansible Automation Platform, Satellite, PowerVC as Virtualization Management and the local repository is located.
-If content from the public network / internet for the life cycle propose is needed then the communication goes through the proxy and firewall to the permitted CDNs.
-All the data is located on one or several storages. The primary storage tier is provided by SAN storage (FC or NVMe-o-Fabric) and the secondary storage tier provides File storage (NFS) as service and is also need by SAP as shared directory between the SAP instances. 
+One of the importants parts is the infrastructure management part, where Ansible Automation Platform, Satellite, PowerVC as Virtualization Management and the local repository is located.
+If content from the public network / internet for the life cycle process is needed then the communication goes through the proxy and firewall to the permitted CDNs.
+All the data is located on one or several storage systems. The primary storage tier is provided by SAN storage (FC or NVMe-o-Fabric) and the secondary storage tier provides File storage (NFS) as service and is also needed by SAP as a shared directory between the SAP instances. 
 
-The requirements of enterprise customers show that a high level of automation with standardised approaches, such as platform as code, is necessary to ensure availability with the highest possible SLAs. Especially in critical infrastructures, it must be guaranteed and auditable.
-With this solution we provide a lot of day 1 and day 2 taks which helps to achieve the goals.
+The requirements of enterprise customers show that a high level of automation with standardized approaches, such as platform as code, is necessary to ensure availability with the highest possible SLAs. Especially in critical infrastructures, SLAs must be guaranteed and auditable.
+The solution covered in this portfolio architecture can perform many Day 1 and Day 2 tasks to help achieve reliability and consistency goals.
 
-*In which operational areas have customers seen benefits in the portfolio architecture?*
+*Overall process encompassed by this portfolio architecture*
 
-.*Day0*
+.*Day 0 (design)*
+
+* Planning of rack assignment
+* Planning IP addresses (data and administration network)
+* Planning network assignments
+
+.*Day 1 (deploy)*
 
 * Hardware initial setup
-* Each component is wired
-* Initial setup and configuration of network switches with the connection to the cooperate network
-* Initial setup and configuration of storage systems
+* Cable components
+* Initial setup and configuration of network switches with the connection to the corperate administration network
+* Initial setup and base configuration of storage systems
 * Red Hat Enterprise Linux for Power and PowerVC will be deployed and configured fully automated with Red Hat Satellite and Ansible via "infrastructure as code"
-
-.*Day1*
-
 * RHEL virtual machines and SAP HANA / S/4 will be deployed and configured fully automated with Red Hat Satellite and Ansible via "infrastructure as code"
-* Activation of SAP HANA system replication (or equivalent high-availability feature of other DBs)
+* Activate of SAP HANA system replication (or equivalent high-availability feature of other databases (DBs))
 * High-availability Red Hat Enterprise Linux Pacemaker cluster build on both application and DB tiers
-* Red Hat Insights agent activation
-* Migration of SAP workloads from Suse Linux Enterprise Server to Red Hat Enterprise Linux
+* Activate Red Hat Insights agent
+* Migrate SAP workloads from Suse Linux Enterprise Server to Red Hat Enterprise Linux
 
-.*Day2*
+.*Day 2 (maintain hardware and software stack)*
 
-* SAP instance system copies
+* Copy SAP instance system
 * Spin up/delete new application servers on demand (e.g. for service provider)
-* Instance refreshes
-* Kernel parameter changes
-* SAP kernel upgrade
+* Refresh instance
+* Make kernel parameter changes
+* Upgrade SAP kernel
 * DB operations
-* DB and OS patching
+* DB and operating system patching
 * Resource addition (CPU, memory, disk)
-* Cluster management
-* DB backup/restore
-* Stop/start of SAP instances
-* Shutting down of sandbox/pre-production systems to cold storage and pulling them out of storage when needed
+* Manage Cluster 
+* Backup/restore DB
+* Stop/start SAP instances
+* Shut down sandbox/pre-production systems to cold storage and pull them out of primary storage when needed
 * Proactive issue resolution for SAP servers
 * Near-zero downtime maintenance for SAP servers
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
 --
-https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sap-on-power.adoc[[Open Diagrams]]
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/sap-on-ibm-power.drawio[[Open Diagrams]]
 --
 
 == Provide feedback 
 You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sap-on-power.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
-
-
