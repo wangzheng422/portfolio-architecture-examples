@@ -10,14 +10,14 @@ _Some details will differ based on the requirements of a specific implementation
 
 *Use case:* Supporting the doctor's decision on skin cancer diagnosis with medical imagery with AI/ML.
 
-*Background:* Every year, millions of skin cancer get detected.
+*Background:* Every year, millions of skin cancers get detected.
 The current detection process for skin cancers is based on a visual check from a doctor.
 In the last decade, photographing suspect or at risk patches of skin is becoming common to be able to check their development over time.
 Those images need to be conserved in a way that guarantees high degrees of confidentiality due to the nature of the content and availability to ensure usefulness.
 
 == Solution overview
 
-This architecture covers the use case around Skin Cancer Detection in the healthcare industry. The solution provides a way to enhance the doctor ability to identify skin cancer by analysing skin patches images to offer the doctor a synthetic second opinion. This allows to increase efficiency and precision of the diagnosis.
+This architecture covers the use case around Skin Cancer Detection in the healthcare industry. The solution provides a way to enhance the doctor's ability to identify skin cancer by analysing skin patch images to offer doctors a synthetic second opinion. This allows to increase the efficiency and precision of the diagnosis.
 
 ====
 *Why Skin Cancer Detection?*
@@ -31,6 +31,10 @@ This architecture covers the use case around Skin Cancer Detection in the health
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/skin-cancer-detection-slide.png[alt="Skin Cancer Detection Solution Overview featuring a schematic representation and the business drivers.", width=700]
 --
+
+== Summary video
+video::RTPje-A7z8w[youtube]
+
 
 == Logical diagram
 --
@@ -62,7 +66,7 @@ https://www.ibm.com/cloud/watson-studio[*IBM Watson Studio*] develops, trains, a
 
 === Skin Cancer Detection overview
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/skin-cancer-detection-network-sd.png[alt="Skin Cancer Detection Schematic Diagram. Covers the various services and applications that compose the application and how those communicate to each other.", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/skin-cancer-detection-sd.png[alt="Skin Cancer Detection Schematic Diagram. Covers the various services and applications that compose the application and how those communicate to each other.", width=700]
 --
 
 This is an overview look at the Skin Cancer Detection architecture, providing the solution details and the elements described above in both a network and data centric view.
@@ -72,8 +76,8 @@ This specific focus is needed since the images can be acquired in different ways
 In case those devices are connecting to smartphones or tables, an application can be put on those devices.
 In case those devices communicate with a computer, this can host such an application.
 
-The chosen device connected to the image acquirer tool transfer the images to the Image Upload Application.
-The Image Upload Application will save the meta-data regarding the image to a Database, while the image is saved on an object storage provided by IBM Storage Ceph.
+The chosen device connected to the image acquirer tool transfers the images to the Image Upload Application.
+The Image Upload Application will save the image meta-data in a database, while the image is saved in an object storage provided by IBM Storage Ceph.
 The database is backed by IBM Storage Ceph block storage.
 Additionally, the Image Upload Application will put into AMQ Streams a message to ensure the image will be processed.
 
@@ -81,8 +85,8 @@ IBM Watson watches the Kafka incoming-images queue and processes incoming images
 
 Leveraging the archived images, the doctors diagnoses and the results of biopsies, where available, the AI/ML model can be re-trained periodically to improve the accuracy and the precision of the model.
 The applications, machine learning models, data science development and dashboards for monitoring the processes are all in constant evolution.
-Developers and operations teams are maintaining code and infrastructure manifests for full GitOps deployment of the architectural elements.
-The installation and management of all components in the environment is performed through automation, allowing to create a predictable and auditable enviornment.
+Developers and operation teams maintain code and infrastructure manifests for full GitOps deployment of the architectural elements.
+The installation and management of all components in the environment is done with automation, allowing to create a predictable and auditable enviornment.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
