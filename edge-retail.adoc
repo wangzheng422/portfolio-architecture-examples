@@ -47,18 +47,18 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red Hat OpenShift*] Kubernetes container platform with both Serverless and GitOps mentioned above. It provides a consistent application platform to manage supports for full automated workflow and flexible, scalable resource usage.
+https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] Kubernetes container platform with both Serverless and GitOps mentioned above. It provides a consistent application platform to manage supports for full automated workflow and flexible, scalable resource usage.
 
-https://www.redhat.com/en/technologies/device-edge[*Red Hat Device Edge*] extends operational consistency across edge and hybrid cloud environments, no matter where devices are deployed in the field. Red Hat Device Edge combines enterprise-ready lightweight Kubernetes container orchestrations using MicroShift with Red Hat Enterprise Linux to support different use cases and workloads on small, resource-constrained devices at the farthest edge.
+https://www.redhat.com/en/technologies/device-edge?intcmp=7013a00000318EWAAY[*Red Hat Device Edge*] extends operational consistency across edge and hybrid cloud environments, no matter where devices are deployed in the field. Red Hat Device Edge combines enterprise-ready lightweight Kubernetes container orchestrations using MicroShift with Red Hat Enterprise Linux to support different use cases and workloads on small, resource-constrained devices at the farthest edge.
 
 
-https://www.redhat.com/en/resources/amq-streams-datasheet[*Red Hat AMQ Streams*] is a data streaming platform with high throughput and low latency. Streams events in stores and registration events to corresponding microservices to better analyze customer bahaviours and needs.
+https://www.redhat.com/en/resources/amq-streams-datasheet?intcmp=7013a00000318EWAAY[*Red Hat AMQ Streams*] is a data streaming platform with high throughput and low latency. Streams events in stores and registration events to corresponding microservices to better analyze customer bahaviours and needs.
 
-https://www.redhat.com/en/technologies/management/ansible[*Red Hat Ansible Automation Platform*] automates the deployment and the management of the infrastructure and the applications running on it.
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] automates the deployment and the management of the infrastructure and the applications running on it.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red Hat OpenShift GitOps*] ensure all workloads manifests are versioned, pick up changes from code repository into the CI/CD pipelines and trigger image build and deploys into clouds.
+https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red Hat OpenShift GitOps*] ensure all workloads manifests are versioned, pick up changes from code repository into the CI/CD pipelines and trigger image build and deploys into clouds.
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[*Red Hat Enterprise Linux*] is the world’s leading Enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading Enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
 
 https://www.ibm.com/products/ceph[*IBM Storage Ceph*] is a software-defined storage solution for block storage, file storage, and object storage used for events in stores, continuous deployment models, analytics, AI/ML datasets and models.
 
