@@ -259,7 +259,10 @@ planning across the enterprise.
 https://www.ibm.com/products/mro-inventory-optimization[_IBM Maximo MRO
 Inventory Optimization_] can help you optimize your maintenance, repair
 and operations (MRO) inventory by providing an accurate, detailed
-picture of performance.
+picture of performance. https://www.ibm.com/products/supply-chain-intelligence-suite/mro-inventory-optimization[_IBM Supply Chain Intelligence
+Suite - MRO Inventory Optimization_] Optimize your maintenance, repair,
+and operations inventory by providing an accurate, detailed picture of
+performance.
 
 === Action guide
 
