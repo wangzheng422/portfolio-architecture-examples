@@ -527,7 +527,7 @@ approach sustainability initiatives by:
 * Strategic partnership with Red Hat and IBM.
 * Using environmental, social, and governance (ESG) reporting to
 integrate data silos. Find new opportunities to drive positive change
-across your operations with https://www.ibm.com/products/envizi[Envisi].
+across your operations with https://www.ibm.com/products/envizi[Envizi].
 * To manage assets, you can create a lower-emissions business. Use
 automation to track resource usage, reduce costs and improve services
 with https://www.ibm.com/products/maximo[IBM Maximo Application Suite].
