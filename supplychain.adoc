@@ -292,31 +292,89 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 
 Specifically, the recommended platform includes:
 
-* https://developers.redhat.com/products/rhel/overview?intcmp=7013a00000318EWAAY[*Red Hat
-Enterprise Linux*] is the world’s leading enterprise Linux platform.
-It’s an open-source operating system (OS). It’s the foundation from
-which you can scale existing apps—and roll out emerging
-technologies—across bare-metal, virtual, container, and all types of
-cloud environments.
-* https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY)[*Red
-Hat OpenShift*] is an enterprise-ready Kubernetes container platform
-built for an open hybrid cloud strategy. It provides a consistent
-application platform to manage hybrid cloud, including edge
-deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform
-design intended to deliver increased business value and responsiveness
-through rapid, high-quality service delivery.
-* https://www.redhat.com/en/resources/integration-cloud-native-connectivity-datasheet?intcmp=7013a00000318EWAAY)[*Red Hat Integration*] Red Hat Integration provides developers and architects with cloud-native tools for integrating applications and systems. It offers capabilities for application and application programming interface (API) connectivity, API management and security, data transformation, service composition, service orchestration, real-time messaging, data streaming, change data capture, and cross-datacenter consistency to connect applications and data across hybrid cloud infrastructures.
-* https://www.ibm.com/products/business-automation-workflow?intcmp=7013a00000318EWAAY[*Business
-Automation Workflow*] (IBM) unites information, processes, and users to help
-you automate digital workflows on-premises or on the cloud. Create workflows
-that increase productivity, improve collaboration between teams, and
-gain new insight to resolve cases and drive better business outcomes.
+* https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red
+Hat OpenShift*] Kubernetes offering, the hybrid platform offering allow
+deployment across data centers, private and public clouds offering
+choices and flexible for hosting system and services. You can manage
+clusters and applications from a single console, with built-in security
+policies with
+https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red
+Hat Advanced Cluster Management*] and
+https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes?intcmp=7013a00000318EWAAY[*Red
+Hat Advanced Cluster Security*].
+
 * https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat
-Ansible Automation Platform*] Red Hat Ansible Automation Platform provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams.
+Ansible Automation Platform*] operate, scale and delegate automate IT
+services, track changes an update inventory, prevent configuration drift
+and integrated with ITSM.
+
 * https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift API Management*] is a managed API traffic control and
 program management service to secure, manage, and monitor APIs at every
 stage of the development lifecycle.
+
+* https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is
+a comprehensive set of integration and messaging technologies to connect
+applications and data across hybrid infrastructures. It is an agile,
+distributed, containerized, and API-centric solution. It provides
+service composition and orchestration, application connectivity and data
+transformation, real-time message streaming, change data capture, and
+API management.
+
+* https://www.redhat.com/en/getting-started-devops?intcmp=7013a00000318EWAAY[*Red Hat OpenShift
+DevOps*] represents an approach to culture, automation and platform
+design intended to deliver increased business value and responsiveness
+through rapid, high-quality service delivery. DevOps means linking
+legacy apps with newer cloud-native apps and infrastructure. A DevOps
+developer can link legacy apps with newer cloud-native apps and
+infrastructure.
+
+* https://www.ibm.com/products/business-automation-workflow?intcmp=7013a00000318EWAAY[*Business
+Automation Workflow*] automate business processes, case work, task
+automation with Robotic Process Automation (RPA) and Intelligent
+Automation such as conversation intelligence.
+
+* https://www.ibm.com/data-fabric?intcmp=7013a00000318EWAAY[*IBM Data Fabric*] empowers your teams
+and works across the ecosystem by connecting data from disparate data
+sources in multi-cloud environments. In particular,
+https://www.ibm.com/cloud/watson-knowledge-catalog?intcmp=7013a00000318EWAAY[*Watson Knowledge
+Catalog*] provides you users with a catalog tool for intelligent,
+self-service discovery of data, models.
+https://www.ibm.com/products/watson-query?intcmp=7013a00000318EWAAY[*Watson Query*] provides data
+consumers with a universal query engine that executes distributed and
+virtualized queries across databases, data warehouses, data lakes, and
+streaming data without additional manual changes, data movement or
+replication.
+
+* https://www.ibm.com/products/supply-chain-intelligence-suite?intcmp=7013a00000318EWAAY[*IBM Supply
+Chain Control Tower*] provides actionable visibility to orchestrate your
+end-to-end supply chain network, identify and understand the impact of
+external events to predict disruptions, and take actions based on
+recommendations to mitigate the upstream and downstream effects.
+
+* https://www.ibm.com/products/intelligent-promising?intcmp=7013a00000318EWAAY[*IBM Sterling
+Intelligent Promising*] provides shoppers with greater certainty, choice
+and transparency across their buying journey. It includes:
+
+* https://www.ibm.com/products/fulfillment-optimizer?intcmp=7013a00000318EWAAY[*IBM Sterling
+Fulfillment Optimizer with Watson*] to determine the best location from
+which to fulfill an order, based on business rules, cost factors, and
+current inventory levels and placement
+* https://www.ibm.com/products/inventory-visibility?intcmp=7013a00000318EWAAY[*Sterling Inventory
+Visibility*] to processes inventory supply and demand activity to
+provide accurate and real-time global visibility across selling
+channels.
+
+* https://www.ibm.com/products/planning-analytics?intcmp=7013a00000318EWAAY[*IBM Planning Analytics
+with Watson*] streamlines and integrates financial and operational
+planning across the enterprise.
+
+* https://www.ibm.com/products/envizi?intcmp=7013a00000318EWAAY[*Envizi*] simplifies the capture,
+consolidation, management, analysis and reporting of your environmental,
+social and governance (ESG) data.
+
+
+
 
 
 === The technology capabilities
@@ -469,7 +527,7 @@ approach sustainability initiatives by:
 * Strategic partnership with Red Hat and IBM.
 * Using environmental, social, and governance (ESG) reporting to
 integrate data silos. Find new opportunities to drive positive change
-across your operations with https://www.ibm.com/products/envizi[Envisi].
+across your operations with https://www.ibm.com/products/envizi[Envizi].
 * To manage assets, you can create a lower-emissions business. Use
 automation to track resource usage, reduce costs and improve services
 with https://www.ibm.com/products/maximo[IBM Maximo Application Suite].
