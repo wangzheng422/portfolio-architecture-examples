@@ -343,26 +343,14 @@ See:
 
 * link:./perfectorder.md[Inventory management]
 * link:./demandrisk.md[Demand risk]
-* link:lossmanagement.md[Loss and waste management]
-* link:timeliness.md[Product timeliness]
+* link:./lossmanagement.md[Loss and waste management]
+* link:./timeliness.md[Product timeliness]
 * link:./sustainablesupplychain.md[Sustainable supply chain]
 
 For a comprehensive supply chain overview, see
-link:supplychain.md[Supply Chain Optimization].
+https://www.redhat.com/architect/portfolio/detail/36[Supply Chain Optimization].
 
-=== Downloads
 
-View and download all of the *Inventory Optimization diagrams* shown in
-previous sections in our open source tooling site.
-
-* PowerPoint Solution Overview:
-link:./downloads/SupplyChainOptimization.SolutionOverview.pptx[Open
-Solution Overview]
-* PowerPoint Reference Architecture:
-link:./downloads/SupplyChainOptimization.ReferenceArchitecture.pptx[Open
-Workflow Diagrams]
-* DrawIO: [Open Schematic
-Diagrams](./downloads/SupplyChainOptimization.drawio
 
 === References
 
@@ -378,7 +366,7 @@ Delivery Dates Are Key To Win Consumer Confidence]
 https://www.digitalcommerce360.com/2021/03/19/the-shopper-speaks-3-secrets-why-curbside-will-not-die-post-covid-19[3
 secrets why curbside will not die post-COVID-19]
 
-=== Contributors
+== Contributors
 
 * Rajeev Shrivastava, Account Technical Lead, IBM
 * Ashok Iyengar, Executive Cloud Architect, IBM
@@ -386,3 +374,15 @@ secrets why curbside will not die post-COVID-19]
 * Iain Boyle, Chief Architect, Red Hat
 * Bruce Kyle, Solutions Architect, IBM Client Engineering
 * Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
+
+
+== Download diagrams
+View and download all of the diagrams above on our open source tooling site.
+--
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/supplychain.drawio[[Open Diagrams]]
+--
+
+
+== Provide feedback
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/demandrisk.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+

@@ -315,29 +315,16 @@ foundational decision point.
 See:
 
 * link:./demandrisk.md[Demand risk]
-* link:lossmanagement.md[Loss and waste management]
-* link:timeliness.md[Product timeliness]
+* link:./lossmanagement.md[Loss and waste management]
+* link:./timeliness.md[Product timeliness]
 * link:./intelligentorder.md[Intelligent order]
 * link:./sustainablesupplychain.md[Sustainable supply chain]
 
 For a comprehensive supply chain overview, see
-link:supplychain.md[Supply Chain Optimization].
+https://www.redhat.com/architect/portfolio/detail/36[Supply Chain Optimization].
 
-=== Downloads
 
-View and download all of the *Inventory Optimization diagrams* shown in
-previous sections in our open source tooling site.
-
-* PowerPoint Solution Overview:
-link:./downloads/SupplyChainOptimization.SolutionOverview.pptx[Open
-Solution Overview]
-* PowerPoint Reference Architecture:
-link:./downloads/SupplyChainOptimization.ReferenceArchitecture.pptx[Open
-Workflow Diagrams]
-* DrawIO: [Open Schematic
-Diagrams](./downloads/SupplyChainOptimization.drawio
-
-=== Reference
+=== References
 
 * IBM documentation https://www.ibm.com/topics/inventory-management[What
 is inventory management?]
@@ -353,3 +340,15 @@ https://www.ibm.com/blogs/internet-of-things/mro-inventory-spares-criticality/[U
 * Iain Boyle, Chief Architect, Red Hat
 * Bruce Kyle, Solutions Architect, IBM Client Engineering
 * Lee Carbonell, Senior Solution Architect & Master Inventor, IBM
+
+
+== Download diagrams
+View and download all of the diagrams above on our open source tooling site.
+--
+https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/supplychain.drawio[[Open Diagrams]]
+--
+
+
+== Provide feedback
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/demandrisk.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+
