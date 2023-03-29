@@ -267,22 +267,22 @@ Apply financial reimbursement. Generate new order
 
 The following technology was chosen for this solution:
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift[_Red
+https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[_Red
 Hat OpenShift_] Kubernetes offering, the hybrid platform offering allow
 deployment across data centers, private and public clouds as it brings
 choices and flexible for hosting system and services.
 
-https://www.redhat.com/en/technologies/management/ansible[_Red Hat
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[_Red Hat
 Ansible Automation Platform_] operate, scale and delegate automate IT
 services, track changes an update inventory, prevent configuration drift
 and integrated with ITSM.
 
-https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[_Red
+https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98?intcmp=7013a00000318EWAAY[_Red
 Hat OpenShift API Management_] is a managed API traffic control and
 program management service to secure, manage, and monitor APIs at every
 stage of the development lifecycle.
 
-https://www.redhat.com/en/getting-started-devops[_Red Hat OpenShift
+https://www.redhat.com/en/getting-started-devops?intcmp=7013a00000318EWAAY[_Red Hat OpenShift
 DevOps_] represents an approach to culture, automation and platform
 design intended to deliver increased business value and responsiveness
 through rapid, high-quality service delivery. DevOps means linking

@@ -89,13 +89,13 @@ _Figure 2. The personas and technologies that provide a platform for some of the
 
 The following technology was chosen for this solution:
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red
+https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery.
 
-https://www.redhat.com/en/technologies/management/ansible[*Red Hat
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat
 Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams.
 
-https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[*Red
+https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift API Management*] is a managed API traffic control and
 program management service to secure, manage, and monitor APIs at every
 stage of the development lifecycle.
