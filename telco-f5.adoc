@@ -82,7 +82,7 @@ quickly and efficiently across clouds. Its used for persistent storage across mu
 
 Conceptually, the 5G core N6 solution stack can be categorized into:
 
-* *Individual cluster components* (--add content--)
+* *Individual cluster components*
 
 * *Shared cluster platform services*
 
@@ -95,7 +95,7 @@ Conceptually, the 5G core N6 solution stack can be categorized into:
 == Architectures
 === Telco 5G on premise
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g--f5-sd.png[alt="Solution topology of 5G solution with functional components", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-f5-sd.png[alt="Solution topology of 5G solution with functional components", width=700]
 
 --
 Add description of solution components
