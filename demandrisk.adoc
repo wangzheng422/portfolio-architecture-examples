@@ -258,7 +258,7 @@ Intelligence.
 
 . The Colleague now triggers Business Automation to remediate stock levels using a combination of options, including: ordering more stock, adjusting stock positions within the existing Supply Chain, managing inventory held at existing stores/warehouses and moving existing inventory as appropriate.
 
-=== Action Guide
+== Action Guide
 
 From a high-level perspective, there are several main steps your
 organization can take to drive innovation and move toward a digital
@@ -303,7 +303,7 @@ For specific steps on this approach, see *The Action Guide* details in
 https://www.ibm.com/downloads/cas/1BYY6VEM[_Own Your Transformation_] survey of 1500 CSCOs across 24 industries.
 
 
-=== Next steps
+== Similar use cases
 
 See:
 
