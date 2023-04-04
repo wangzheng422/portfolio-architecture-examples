@@ -1,96 +1,56 @@
-== Sustainable supply chain
+_Last updated: April 2023_
 
-Businesses are looking for *sustainable supply chains*. Some of the
-questions they ask:
+= Sustainable supply chain
 
-* How can I ensure my products, vendors and partners along my supply
-chain are aligned with my sustainability goals?
-* Is my supply chain transparent and traceable?
-* How can I get a handle on my Scope 3 emissions?
+== Use case
 
-Businesses are seeking to balance the long-term imperative to protect
-the planet with the short-term need to preserve the bottom line.
+Provide sustainable product and delivery options for customers as part of building sutainability into the supply chain more broadly.
 
-Examples of sustainability in business:
+== Background
 
-* Improving energy management efficiency using alternative power sources
-and carbon accounting
-* Deploying infrastructure that reduces GHG emissions, preserves water
-resources and eliminates waste
-* Operating dynamic and efficient supply chains to empower a circular
-economy, encourage reuse, design out waste, promote sustainable
-consumption and protect natural resources
-* Enabling sustainable development by assessing risks and improving
-resiliency while adhering to external regulations and development goals
+A common definition of environmental sustainability is meeting the resource and services needs of current and future generations without compromising the health of the ecosystems that provide them. In addition to ongoing discussions around government regulation, investors and asset managers are increasingly demanding carbon disclosure from their portfolio companies. 
 
-In this article, we explore *sustainable supply chains*. Reduce waste,
-cost-to-serve and logistics-related emissions by optimizing fulfillment
-and delivery with trusted supply chain solutions that are powered by AI,
-backed by blockchain, and built on an open, hybrid-cloud platform.
+Even though specific actions taken by businesses are arguably still limited in overall impact, it’s nonetheless an increasingly prominent part of vendor, partner, and customer discussions. Many IT industry analysts also observe that sustainability projects can lead to a positive ROI. 
 
-=== Challenges / Business drivers
+Environmental sustainability in organizations takes many forms including power consumption and using renewable sources where possible, deploying infrastructure that reduces greenhouse gas emissions, preserves water
+resources, and eliminates waste, and generally balancing the environmental costs associated with changes to processes and technologies with the benefits delivered. 
 
-*Challenges*
+Operating dynamic and efficient supply chains to empower a circular
+economy, encourage reuse and recycling, design out waste, promote sustainable
+consumption, and protect natural resources is of particular relevance to the use case covered by this portfolio architecture. We'll first take a look at some of the challenges and drivers around sustainability broadly and then consider the specific case of the sustainability of an organization’s delivery systems as part of sustainable supply chain optimization.
 
-There are several challenges to overcome in the pursuit of becoming a
-truly sustainable business:
+
+
+=== Challenges and opportunities
+
+Becoming a truly sustainable business isn’t easy. But simply ignoring sustainability is increasingly no longer tenable. Four challenges are:
 
 * Upfront costs to becoming a sustainable business
-* Difficuly in measuring and demonstrating lowering green house gas
-(GHG) emissions
-* Customers are willing to pay a premium for sustainable products
-* Creating a lower emissions business affects all business processes and
-departments
+* Difficulty in measuring and demonstrating that you are lowering greenhouse gas emissions
+* Customers may not be willing to pay a potential premium for sustainable products
+* Creating a lower emissions business given it affects all business processes and departments
 
-*Business drivers*
+But there are also drivers that encourage businesses to become sustainable—not least of which is that it can be good for the bottom line. These include:
 
-* Increase creation and use of sustainable products
-* Identify and monitor energy and emissions savings opportunities to
-accelerate decarbonization
-* Enhance customer experience with eco-friendly packaging
+* Increase the creation and use of sustainable products and provide sustainable customer choices
+* Eliminate wasteful processes that don’t deliver value to the business or customers
+* Identify and monitor energy and emissions savings opportunities to accelerate decarbonization
+* Enhance the customer experience with eco-friendly packaging
 * Improve brand awareness by being known as a sustainable business
-* Delight customers with green energy delivery fleet
+* Meet customer requirements for environmental sustainability and reporting—for example with green-energy delivery fleets
 
-==== Responses
 
-[width="100%",cols="50%,50%",options="header",]
-|===
-|Business Problem |Solution
-|Automating ESG Reporting |Capture and manage over quantitative and
-qualitive data types to support your expanding sustainability reporting
-requirements to frameworks and reporting schemes
 
-|Strategic goal set for sustainability |
 
-|Incorporate sustainability options into customer decison making
-|Connect your strategy with day-to-day operations to embed
-sustainability into your business transformation
 
-|Create a lower-emissions business |Build intelligent asset management
-into operations
-|===
-
-=== Business outcomes
-
-* Transparency across multiple systems and suppliers to meet
-sustainability goals
-* Drive business to meet sustainability commitment improves brand
-awareness
-* Provide customer choices to drive sustainability
-
-=== Solution overview
-
-This solution focuses on _Automation_ and _Modernization_ in our Action
-Guide as shown in the following diagram:
-
-image::./images/intro-marketectures/sustainablesupplychain-marketing-slide.png[solution overview]
+== Solution overview
 
 The solution uses the following technologies, which can be grouped into
-three main categories as shown in the following diagram:
+fiur main categories as shown in Figure 1:
 
 * Core application systems. Often customer-provided technologies, such
-as order management, facilities management. These systems can be
-stand-alone applications, on premises and cloud services, databases.
+as order management and facilities management. These systems can be
+stand-alone applications, on-premises and cloud services, and databases.
 * Foundational infrastructure. The Red Hat/IBM solution is built on Red
 Hat OpenShift. Data is routed through API management. Events are routed
 through Business Automation tools such as Business Automation Workshop.
@@ -99,102 +59,86 @@ through Business Automation tools such as Business Automation Workshop.
 transport selection, in addition to reporting and creating goal-driven
 outcomes.
 
-=== Sustainable supply chain
+image::./images/intro-marketectures/sustainablesupplychain-marketing-slide.png[solution overview]
+_Figure 1. Overview of sustainable supply chain with an emphasis on customer order fulfillment and delivery._
 
-The following diagram shows the schematic for the sustainability use
-case to improve your supply chain.
 
-image::./images/schematic-diagrams/sustainablesupplychain-sd.png[sustainability schematic]
+== Summary video
 
-Customer chooses items to buy online using the business app.
+== Logical diagram
 
-Determine sustainability posture by determining ESG indicator values.
+image::./images/logical-diagrams/inventoryoptimisation-ld.png[logical diagram]
 
-Before providing cost and delivery options, provide customer
-sustainability options – equivalent greener items, later delivery day,
-pickup option, etc. If customer opts into sustainability option order is
-tagged so Supply Assurance Platform can honor that request.
+_Figure 2. Diagram of the logical components of the overall supply chain optimization solution._
 
-Inventory fulfilment system updates inventory data.
 
-Delivery Optimization system plays a key role in sustainability play. It
-determines whether to contact 3PL or if in-house Route Optimization can
-fulfill the requirements.
-
-If 3PL is the only option, contact the sustainability approved 3PL
-company to fulfill the order. 3PL company takes over the delivery flow
-from here. If business has the means to fulfill the order continue with
-next Step 6a.
-
-Access underlying backend system via API Management
-
-Alert the Order Fulfilment System (OFS) this special order via system
-APIs.
-
-OFS notifies the Warehouse Management System to package and get it ready
-for delivery.
-
-The Transport/Logistics System is alerted to schedule delivery.
-
-Track the order, notify customer and provide real-time tracking.
-
-Delivery department maintains the sustainability posture and upon final
-delivery provides POD (electronic or paper) to customer.
-
-All sub-systems are updated via the data fabric that helps maintain a
-consistent view.
-
-=== Technology
+== Technology
 
 The following technology was chosen for this solution:
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift[_Red
-Hat OpenShift_] Kubernetes offering, the hybrid platform offering allow
-deployment across data centers, private and public clouds as it brings
-choices and flexible for hosting system and services.
 
-https://www.redhat.com/en/technologies/management/ansible[_Red Hat
-Ansible Automation Platform_] operate, scale and delegate automate IT
-services, track changes an update inventory, prevent configuration drift
-and integrated with ITSM.
+https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red
+Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery.
 
-https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[_Red
-Hat OpenShift API Management_] is a managed API traffic control and
+https://www.redhat.com/en/technologies/management/ansible[*Red Hat
+Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams.
+
+https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[*Red
+Hat OpenShift API Management*] is a managed API traffic control and
 program management service to secure, manage, and monitor APIs at every
 stage of the development lifecycle.
 
-https://www.redhat.com/en/getting-started-devops[_Red Hat OpenShift
-DevOps_] represents an approach to culture, automation and platform
-design intended to deliver increased business value and responsiveness
-through rapid, high-quality service delivery. DevOps means linking
-legacy apps with newer cloud-native apps and infrastructure. A DevOps
-developer can link legacy apps with newer cloud-native apps and
-infrastructure.
-
-https://www.ibm.com/products/business-automation-workflow[_Business
-Automation Workflow_] automate business processes, case work, task
+https://www.ibm.com/products/business-automation-workflow[*Business
+Automation Workflow*] automates business processes, case work, task
 automation with Robotic Process Automation (RPA) and Intelligent
 Automation such as conversation intelligence.
 
-https://www.ibm.com/products/supply-chain-intelligence-suite[_IBM Supply
-Chain Control Tower_] provides actionable visibility to orchestrate your
+https://www.ibm.com/products/supply-chain-intelligence-suite[*IBM Supply
+Chain Control Tower*] provides actionable visibility to orchestrate your
 end-to-end supply chain network, identify and understand the impact of
 external events to predict disruptions, and take actions based on
 recommendations to mitigate the upstream and downstream effects.
 
-https://www.ibm.com/products/intelligent-promising[_IBM Sterling
-Intelligent Promising_] provides shoppers with greater certainty, choice
-and transparency across their buying journey.
+https://www.ibm.com/products/intelligent-promising[*IBM Sterling
+Intelligent Promising*] provides shoppers with greater certainty, choice
+and transparency across their buying journey. It includes:
 
-https://www.ibm.com/products/planning-analytics[_IBM Planning Analytics
-with Watson_] streamlines and integrates financial and operational
+* https://www.ibm.com/products/fulfillment-optimizer[*IBM Sterling
+Fulfillment Optimizer with Watson*] to determine the best location from
+which to fulfill an order, based on business rules, cost factors, and
+current inventory levels and placement
+* https://www.ibm.com/products/inventory-visibility[*Sterling Inventory
+Visibility*] to processes inventory supply and demand activity to
+provide accurate and real-time global visibility across selling
+channels.
+
+https://www.ibm.com/products/planning-analytics[*IBM Planning Analytics
+with Watson*] streamlines and integrates financial and operational
 planning across the enterprise.
 
-https://www.ibm.com/products/envizi[_Envizi_] simplifies the capture,
-consolidation, management, analysis and reporting of your environmental,
+https://www.ibm.com/products/envizi[*Envizi*] simplifies the capture,
+consolidation, management, analysis, and reporting of your environmental,
 social and governance (ESG) data.
 
-=== Action Guide
+
+== Architecture
+
+The sustainable supply chain depicted in Figure 3 shows the flow of a typical sustainability use case. While the customer is the main focus, partners or suppliers and third party logistics (3PL) companies could be involved. At every point in the supply chain there is room for sustainability to be improved.
+
+The business can determine its sustainability posture by determining the appropriate ESG indicator values. ESG metrics are indicators of a company's overall performance and risk profile across important environmental (E), social (S), and governance (G) criteria. ESG metrics can be based on ESG and sustainability reporting standards, ESG rating frameworks from investors or analysts, or regulations like the European Union's Corporate Sustainability Reporting Directive (CSRD).
+
+image::./images/schematic-diagrams/sustainablesupplychain-sd.png[sustainability schematic]
+
+_Figure 3. Overall schematic of sustainable supply chain use case including customer order fulfillment and delivery._
+
+A customer kicks the process off by choosing items to buy online through a channel of their choosing. Before providing cost and delivery options, the business may provide the customer with sustainability options such as equivalent greener items, a later delivery day or batching with other orders, pickup options, and so forth. If a customer opts for any of these options, the order is tagged so the Supply Assurance Platform can honor that request. The Inventory Fulfillment System updates inventory data.
+
+The Delivery Optimization System plays a key sustainability role. For example, it determines whether to contact 3PL (Third Party Logistics) or if in-house Route Optimization can fulfill the requirements. If 3PL is the only option, contact the sustainability-approved 3PL company to fulfill the order. 3PL company takes over the delivery flow from here. If the business has the means to fulfill the order, access the underlying backend system via API Management.
+
+Otherwise, the Order Fulfillment System (OSF) is alerted of this special order via system APIs. OFS then notifies the Warehouse Management System to package and get it ready for delivery and the Transport/Logistics System is alerted to schedule delivery. The order is tracked in real-time and the customer is notified. Upon final delivery, proof-of-delivery is provided to the customer and all subsystems are updated via the data fabric to help maintain a consistent view of the supply chain and inventory.
+
+
+== Action Guide
 
 From a high-level perspective, there are several main steps your
 organization can take to drive innovation and move toward a digital
@@ -207,7 +151,7 @@ supply chain:
 [width="100%",cols="34%,33%,33%",options="header",]
 |===
 | |Actionable Step |Implementation details
-|Automation |Integrate suppliers in business sustainable commitment
+|Automation |Integrate suppliers in business-sustainable commitment
 |Integrate data from multiple systems to get enterprise-wide view of
 data used to meet sustainability commitments
 
@@ -216,10 +160,11 @@ data used to meet sustainability commitments
 including product ordering, delivery, supply replacement, and
 timeliness.
 
-|Sustainability |ESG data collection, analysis and reporting |
+|Sustainability |ESG data collection, analysis, and reporting | Maintain data-driven view into both sustainability progress towards goals and problem areas
 
-|Modernization |Modernization for modern infrastructures, scale hybrid
-cloud platforms |The decision for a future, Kubernetes-based enterprise
+|Modernization |Build cloud-native infrastructures and scalable hybrid
+cloud platforms
+ |The decision for a future, Kubernetes-based enterprise
 platform is defining the standards for development, deployment and
 operations tools and processes for years to come and thus represents a
 foundational decision point.
