@@ -532,7 +532,7 @@ across your operations with https://www.ibm.com/products/envizi[Envizi].
 automation to track resource usage, reduce costs and improve services
 with https://www.ibm.com/products/maximo[IBM Maximo Application Suite].
 
-=== Action guide
+== Action guide
 
 From a high-level perspective, several main steps are suggested for your
 organization to drive innovation and move toward a digital supply chain.
@@ -560,7 +560,7 @@ For specific steps on this approach, see *The Action Guide* details in
 https://www.ibm.com/downloads/cas/1BYY6VEM[Own Your Transformation]
 survey of 1500 CSCOs across 24 industries.
 
-=== Next steps
+== Next steps
 
 See _Action Guide_ section in each of the use cases:
 
