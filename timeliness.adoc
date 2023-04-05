@@ -82,7 +82,7 @@ three main categories as shown in Figure 1:
 image::./images/intro-marketectures/timeliness-marketing-slide.png[solution overview]
 _Figure 1._ Overall view of the product timeliness solution.
 
-== Summary video
+== Summary video (coming soon)
 
 == Logical diagram
 
