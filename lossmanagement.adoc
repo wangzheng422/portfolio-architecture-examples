@@ -35,9 +35,6 @@ show a schematic of the two use cases: Environmental Exceptions and
 Product contamination or recall, and conclude with the technology used
 in the solution.
 
-For a comprehensive inventory solution overview, see
-link:./supplychain.md[Inventory Optimization].
-
 === Use cases
 
 The main use cases represented by loss management are:
