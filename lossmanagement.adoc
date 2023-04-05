@@ -191,6 +191,14 @@ Workshop.
 === Summary video
 video::yXgTskqtsoE[youtube]
 
+=== Logical diagrams
+
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/inventoryoptimisation-ld.png[alt="Logical view", width=700]
+--
+_Figure 2. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain._
+
+
 === Architectures
 
 *True end-to-end visibility*. Remove data silos and create a unified
