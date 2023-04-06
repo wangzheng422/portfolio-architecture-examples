@@ -171,7 +171,7 @@ Guide as shown in the following diagram:
 * Amp up AI to make workflows smarter
 * Modernize for modern infrastructures, scale hybrid cloud platforms
 
-image::./images/intro-marketectures/lossmanagement-marketing-slide.png[solution overview]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/lossmanagement-marketing-slide.png[alt="solution overview", width=700]
 
 The solution uses the following technologies, which can be grouped into
 three main categories as shown in the following diagram:
@@ -218,7 +218,7 @@ on a client’s supply chain data using natural language search.
 The following diagram shows the schematic for the understock use case.
 
 
-image::./images/schematic-diagrams/lossmanagement-environmentexception-sd.png[environmental exception schematic]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/lossmanagement-environmentexception-sd.png[alt="environmental exception schematic", width=700]
 
 Food Loss - Environmental Exception steps:
 
@@ -248,7 +248,7 @@ power)
 The following diagram shows the schematic for the contamination recall
 use case.
 
-image::./images/schematic-diagrams/lossmanagement-recall-sd.png[recall schematic]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/lossmanagement-recall-sd.png[alt="recall schematic", width=700]
 
 Food Loss - Contamination recall steps:
 
