@@ -11,8 +11,8 @@
 This portfolio architecture addresses several main use cases for transforming supply chain risk factors:
 
 * https://www.redhat.com/architect/portfolio/detail/37[Demand risk]
-* Loss and waste management (coming soon)
-* Product timeliness  (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/41[Loss and waste management]
+* https://www.redhat.com/architect/portfolio/detail/42[Product timeliness]
 * Perfect order (coming soon)
 * Intelligent order (coming soon)
 * Sustainable supply  (coming soon)
@@ -44,8 +44,7 @@ other disasters affecting the product salability.
 recalled items from sale or items that have a contaminated component.
 Proactively provide safe alternatives or replacements when safe.
 
-For more information about the solution details in this scenario, see
-Loss and waste management (coming soon)
+For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/41[Loss and waste management]
 
 === Product timeliness
 
@@ -63,7 +62,7 @@ expire, but that may still have some benefit. For example,
 the seasonality of clothing can be warehoused until the following year.
 
 For more information about the solution details on this scenario, see
-Product timeliness (coming soon)
+https://www.redhat.com/architect/portfolio/detail/42[Product timeliness]
 
 === Perfect order
 
@@ -565,8 +564,8 @@ survey of 1500 CSCOs across 24 industries.
 See _Action Guide_ section in each of the use cases:
 
 * https://www.redhat.com/architect/portfolio/detail/37[Demand risk]
-* Loss and waste management (coming soon)
-* Product timeliness  (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/41[Loss and waste management]
+* https://www.redhat.com/architect/portfolio/detail/42[Product timeliness]
 * Perfect order (coming soon)
 * Intelligent order (coming soon)
 * Sustainable supply  (coming soon)
