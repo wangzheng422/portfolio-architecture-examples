@@ -40,7 +40,7 @@ In still other cases, the product may simply not be able to be sold at all wheth
 
 A key part of reducing inventory-related financial impact is identifying and managing stock that’s either about to expire or is otherwise becoming less relevant to your customer base.
 
-==== Responses
+=== Responses
 
 Many goods offered in retail and supplier businesses expire, although there are many other aspects of inventory to manage as well, including relevance which we also discuss here.
 
@@ -79,7 +79,8 @@ three main categories as shown in Figure 1:
 * *Foundational infrastructure.* The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.* 
 * *Inventory Optimization platform.* This consists of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis and AI.
 
-image::./images/intro-marketectures/timeliness-marketing-slide.png[solution overview]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/timeliness-marketing-slide.png[alt="solution overview", width=700]
+
 _Figure 1._ Overall view of the product timeliness solution.
 
 == Summary video (coming soon)
@@ -160,7 +161,7 @@ Figure 3 shows the schematic for the shelf life use case which relates to the se
 products that expire on specific dates and must generally be removed from use or
 sale.
 
-image::./images/schematic-diagrams/timeliness-shelflife-sd.png[shelf life schematic]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/timeliness-shelflife-sd.png[alt="shelf life schematic", width=700]
 
 _Figure 3. Schematic diagram for shelf life use case._
 
@@ -181,7 +182,8 @@ Figure 4 shows the schematic for the relevance use case which relates to a set o
 are no longer relevant, possibly due to seasonality, but that may be
 still have some value.
 
-image::./images/schematic-diagrams/timeliness-relevance-sd.png[relevance schematic]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/timeliness-relevance-sd.png[alt="relevance schematic", width=700]
+
 _Figure 4. Schematic diagram for relevance use case._
 
 The steps for relevance are somewhat more complex than for shelf life:
