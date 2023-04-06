@@ -161,7 +161,7 @@ Figure 3 shows the schematic for the shelf life use case which relates to the se
 products that expire on specific dates and must generally be removed from use or
 sale.
 
-image::./images/schematic-diagrams/timeliness-shelflife-sd.png[shelf life schematic]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/timeliness-shelflife-sd.png[alt="shelf life schematic", width=700]
 
 _Figure 3. Schematic diagram for shelf life use case._
 
