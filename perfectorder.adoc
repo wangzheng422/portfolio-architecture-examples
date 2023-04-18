@@ -89,6 +89,7 @@ supply chain virtual assistant that provides responses to issues based
 on a company's supply chain data using natural language search.
 
 == Summary video
+video::IgLR1a6Tr90[youtube]
 
 == Logical diagram
 
