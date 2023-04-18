@@ -138,6 +138,7 @@ image::./images/intro-marketectures/intelligentorder-marketing-slide.png[solutio
 _Figure 1. Overview of intelligent order solution with focus on last mile delivery._
 
 == Summary video
+video::oCPJdCaTXw0[youtube]
 
 == Logical diagram
 
