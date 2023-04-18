@@ -83,7 +83,8 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 _Figure 1._ Overall view of the product timeliness solution.
 
-== Summary video (coming soon)
+== Summary video
+video::Hf_CJuCi5ZQ[youtube]
 
 == Logical diagram
 
