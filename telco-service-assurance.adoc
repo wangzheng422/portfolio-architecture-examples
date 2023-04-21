@@ -1,4 +1,4 @@
-= Telco OSS Service Assurance on Public Cloud
+= Telco Service Assurance on Public Cloud
 Ishu Verma  @IoT_Ishu, Aviv Guetta
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
