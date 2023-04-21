@@ -416,7 +416,7 @@ See:
 
 * https://www.redhat.com/architect/portfolio/detail/42[Product timeliness]
 
-* Perfect order (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/43[Perfect order]
 
 * Intelligent order (coming soon)
 
