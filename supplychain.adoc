@@ -13,7 +13,7 @@ This portfolio architecture addresses several main use cases for transforming su
 * https://www.redhat.com/architect/portfolio/detail/37[Demand risk]
 * https://www.redhat.com/architect/portfolio/detail/41[Loss and waste management]
 * https://www.redhat.com/architect/portfolio/detail/42[Product timeliness]
-* Perfect order (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/43[Perfect order]
 * Intelligent order (coming soon)
 * Sustainable supply  (coming soon)
 
@@ -78,7 +78,7 @@ responsiveness with:
 * Automated responses
 
 For more information and solution details on this scenario, see
-Perfect order (coming soon)
+https://www.redhat.com/architect/portfolio/detail/43[Perfect order]
 
 === Intelligent order
 
@@ -566,7 +566,7 @@ See _Action Guide_ section in each of the use cases:
 * https://www.redhat.com/architect/portfolio/detail/37[Demand risk]
 * https://www.redhat.com/architect/portfolio/detail/41[Loss and waste management]
 * https://www.redhat.com/architect/portfolio/detail/42[Product timeliness]
-* Perfect order (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/43[Perfect order]
 * Intelligent order (coming soon)
 * Sustainable supply  (coming soon)
 
