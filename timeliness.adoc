@@ -269,7 +269,7 @@ See:
 
 * https://www.redhat.com/architect/portfolio/detail/41[Loss and waste management]
 
-* Perfect order (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/43[Perfect order]
 
 * Intelligent order (coming soon)
 
