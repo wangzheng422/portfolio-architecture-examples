@@ -233,7 +233,7 @@ See:
 
 * https://www.redhat.com/architect/portfolio/detail/42[Product Timeliness]
 
-* Intelligent order (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/44[Intelligent order]
 
 * Sustainable supply  (coming soon)
 
