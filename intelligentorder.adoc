@@ -134,7 +134,8 @@ through Business Automation tools such as Business Automation Workshop.
 * Fulfillment optimization
 * Intelligent promising
 
-image::./images/intro-marketectures/intelligentorder-marketing-slide.png[solution overview]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/intelligentorder-marketing-slide.png[alt="solution overview", width=700]
+
 _Figure 1. Overview of intelligent order solution with focus on last mile delivery._
 
 == Summary video
@@ -142,7 +143,7 @@ video::oCPJdCaTXw0[youtube]
 
 == Logical diagram
 
-image::./images/logical-diagrams/inventoryoptimisation-ld.png[logical diagram]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/inventoryoptimisation-ld.png[alt="solution overview", width=700]
 
 _Figure 2. Diagram of the logical components of a supply chain optimization solution._
 
@@ -192,7 +193,7 @@ planning across the enterprise.
 
 Figure 3 shows the process and data flows associated with intelligent order including the last mile delivery component of it.
 
-image::./images/schematic-diagrams/intelligentorder-sd.png[last mile delivery schematic]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/intelligentorder-sd.png[alt="last mile delivery schematic", width=700]
 
 _Figure 3. Overall schematic of intelligent order use case of supply chain optimization._
 
@@ -254,13 +255,15 @@ foundational decision point.
 See:
 
 * https://www.redhat.com/architect/portfolio/detail/37[Demand risk]
-* Loss and waste management (coming soon)
-* Product timeliness  (coming soon)
-* Perfect order (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/41[Loss and waste management]
+* https://www.redhat.com/architect/portfolio/detail/42[Product timeliness]
+* https://www.redhat.com/architect/portfolio/detail/43[Perfect order]
 * Sustainable supply  (coming soon)
 
 For a comprehensive supply chain overview, see
 https://www.redhat.com/architect/portfolio/detail/36[Supply Chain Optimization].
+
+
 
 
 == Contributors
