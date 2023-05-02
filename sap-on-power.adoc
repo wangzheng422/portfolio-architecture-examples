@@ -16,7 +16,7 @@ SAP customers need to migrate to the new suite SAP S/4HANA[1] by 2027. That is a
 
 Regardless of the above migration plan on the part of SAP, *Red Hat Virtualization* customers with SAP or other workloads must migrate to an alternative hypervisor/solution by August 31, 2024[2].
 
-_[1] S/4HANA is the follow on product to the SAP Business Suite, it is the latest offering from SAP.  It runs only on the HANA database, which is an in-memory database developed and tuned by SAP for faster performance and real-time reporting._
+_[1] SAP S/4HANA is the follow on product to the SAP Business Suite, it is the latest offering from SAP.  It runs only on the HANA database, which is an in-memory database developed and tuned by SAP for faster performance and real-time reporting._
 
 _[2] Red Hat Virtualization "Maintenance support ends": https://access.redhat.com/support/policy/updates/rhev_
 
@@ -52,20 +52,7 @@ Red Hat's and IBM's CDN was included because the packages have to be downloaded 
 
 
 == Technology
-
-This architecture covers generic information on the design of the infrastructure in a solution pattern:
-
-* IBM Power
-* IBM PowerVC
-* Red Hat Enterprise Linux with Satellite for SAP
-* Red Hat Satellite
-* Red Hat Ansible Automation Platform
-* Red Hat Insights
-* SAP S4/HANA
 * other SAP NetWeaver based Applications
-* SAP HANA
-* AnyDB (e.g. Oracle DB, IBM DB2, SAP ASE)
-
 
 The following hardware and technology were chosen for this solution:
 
@@ -98,6 +85,10 @@ Red Hat Ansible Automation Platform is used for the automated life cycle of solu
 
 Ansible Collections for IBM Power extend the benefits of Ansible automation to Power enterprise customers.
 Certified Collections are also available for AIX, IBM i, VIOS, HMC and Linux for Power. The Power pipeline includes additional collections to automate PowerHA, SAP HANA (on AIX and IBM i) and Oracle operations.
+
+https://www.sap.com/products/erp/s4hana.html[*SAP S4/HANA*] is the latest enterprise resource planning (ERP) solution released by SAP, a successor to SAP R/3 and SAP ECC. It only runs on SAP HANA database (as opposed to the others that can also run on other databases like Oracle, MS SQL Server, Sybase or IBM DB2). The main idea behind it is to cover most of company processes in just one product, thus integrating also functions that were historically covered by SAP's  own customer relationship management, supplier relationship mangement and supply chain management products. It is important to note that the soution shown in this portfolio architecture can equally involve SAP S/4HANA or its predecessor ERP solutions.
+
+https://www.sap.com/products/technology-platform/hana/what-is-sap-hana.html[*SAP HANA*] is an in-memory database that keeps the data it is working with in memory for a much faster access to it than if it had to go fetch it to disk everytime it is accessed. The data is as well persisted to disk. It aklso performs analytics and includes extract, transform, load (ETL) capabilities. The solution presentd in this portfolio architecture can be deployed using SAP HANA or any other of the databases supported by SAP.
 
 ====
 
