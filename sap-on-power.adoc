@@ -52,7 +52,6 @@ Red Hat's and IBM's CDN was included because the packages have to be downloaded 
 
 
 == Technology
-* other SAP NetWeaver based Applications
 
 The following hardware and technology were chosen for this solution:
 
