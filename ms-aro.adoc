@@ -18,12 +18,12 @@ _Some details will differ based on the requirements of a specific implementation
 
 == Solution overview
 
-The Azure Red Hat Openshift Implementation architecture tackles the challenge of running many redundant platforms. Instead, all applications can be developed and run on a single platform. 
+The Azure Red Hat OpenShift Implementation architecture tackles the challenge of running many redundant platforms. Instead, all applications can be developed and run on a single platform. 
 
 ====
 *Azure Red Hat OpenShift implementation*
 
-. Adopt a cloud native solution to migrate applications to and build new ones on, being able to use a hybrid cloud model
+. Adopt a cloud native solution to migrate applications to and build new ones on, while enabling a hybrid cloud model
 . Make the most of all the services offered by Azure when developing applications by integrating them with the container platform
 . Reduce the cost of having a permanent dedicated on-premise infrastructure for the container platform as well as the cost and need for skills to manage it
 
@@ -52,7 +52,7 @@ The following technology was chosen for this solution:
 ====
 https://www.redhat.com/en/technologies/cloud-computing/openshift/azure[*MS Azure Cloud*] is the hyperscaler platform on which the implementation of this solution has been based. In this solution, some of the main services of the cloud platform that interact with the OpenShift clusters are highlighted, like the Azure Container Registry and the Azure Key Vault for certificate management.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Azure Red Hat Openshift*] is a service on Azure cloud that allows to deploy fully managed OpenShift clusters which provide a Kubernetes container platform. It provides the same functionalities as regular Red Hat Openshift. The support is provided jointly by MS and Red Hat as well as the maintenance operations to keep it up to date and compliant with both MS and Red Hat's recommendations. In this solution, we follow the best practices included in the Azure Landing Zone Accelerator for ARO to deploy it.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Azure Red Hat OpenShift*] is a service on Azure cloud that allows to deploy fully managed OpenShift clusters which provide a Kubernetes container platform. It provides the same functionalities as regular Red Hat OpenShift. The support is provided jointly by MS and Red Hat as well as the maintenance operations to keep it up to date and compliant with both MS and Red Hat's recommendations. In this solution, we follow the best practices included in the Azure Landing Zone Accelerator for ARO to deploy it.
 ====
 
 
@@ -77,7 +77,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 Here we can see the recommended configuration for the egress traffic from the ARO cluster to the Internet. To filter this traffic the choice for the implementation is to use Azure Firewall service.
 
-For users that need to access the ARO cluster itself, the recommendation is to use Azure Bastion service to create a bastion/jump box to connect to it.
+For users that need to access the ARO cluster itself, the recommendation is to use Azure Bastion service to create a bastion/jump host to connect to it.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
