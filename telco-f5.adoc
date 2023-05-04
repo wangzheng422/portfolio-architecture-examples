@@ -1,17 +1,17 @@
-= Telco Next CNF Solution with F5
- Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  @ishuverma
+= Telco 5G N6 LAN Consolidation with F5
+ Rimma Iontel linkedin.com/in/rimma-iontel-5267004, Ishu Verma  linkedin.com/in/ishuverma/, Ulises Alonso Camaro
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
 :icons: font
 :source-highlighter: prettify
 :description: Using F5 Big-IP Next CNF solution for user plane
-:Keywords: Telco 5G, OpenShift, Ansible, Hybrid Cloud, Linux, Automation, Mobile Broadband, F5, Big-IP
+:Keywords: Telco 5G, OpenShift, Ansible, Hybrid Cloud, Linux, Automation, Mobile Broadband, F5, Big-IP, CNF
 :toc: left
 
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
 *Use case:* Delivering Next CNF Solution with F5 Big-IP
-*Background:* Deploying cloud-native 5G with a unified data plane shared across CNFs can greatly reduce overhead, latency and minimize networking connectivity requirements.
+*Background:* 5G networks use service-based architecture (SBA) and cloud-native approach offers many advantages to service providers (agility, scalability, reduced Capex/Opex). Cloud-native network functions (CNFs) have become the main delivery mechanism of 5G network services.
 
 
 == Solution overview
@@ -20,9 +20,7 @@ This portfolio architecture extends the other 5G Core portfolio architectures wi
 
 - F5 Next Edge Firewall CNF is an IPv4/IPv6 firewall for protecting the 5G core networks from external threads, including DDoS flood protection and IPS protocol inspection.
 - F5 Next CGNAT CNF offers large scale NAT44 & NAT64 including ALG support.
-- F5 Next DNS CNF provides a transparent DNS resolver and caching services. Other remarkable features are:
-Zero rating
-DNS64
+- F5 Next DNS CNF provides a transparent DNS resolver and caching services.
 - F5 Next Policy Enforcer CNF provides Traffic classification, steering & shaping, TCP and Video optimization.
 
 
@@ -36,7 +34,7 @@ DNS64
 
 
 --
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-on-premise-marketing-slide_missing.png[alt="High level view of 5G Core N6 solution", width=700]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-f5-marketecture.png[alt="High level view of 5G N6 solution", width=700]
 --
 
 == Logical diagram
@@ -54,10 +52,6 @@ https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7
 OpenShift enables 5GC by supporting functionalities and operational features like automated deployment, intelligent
 workload placement, dynamic scaling, hitless upgrades, and self healing.
 
-https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4?intcmp=7013a00000318EWAAY[*Red Hat AMQ Streams*] is a massively scalable, distributed, and high-performance data streaming platform based on
-the Apache Kafka project. AMQ Streams enables exchange of telemetry and control/management data with back end and
-operational systems.
-
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization.
 The platform includes all the tools needed to implement enterprise-wide automation. It enables cluster and network
 operations administrators to automate deployment of functional components.
@@ -69,7 +63,6 @@ enforcing policies across multiple clusters at scale.
 https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318EWAAY[*Red Hat Quay*] is a private container registry that stores, builds, and deploys container images. Its used to store
 container image repositories for platform and application images, DevOps or GitOps pipelines, and automation tools for
 deployment across various clusters.
-
 
 https://access.redhat.com/products/identity-management?intcmp=7013a00000318EWAAY[*Red Hat Identity Management*] provides a centralized and unified way to manage identity stores, authentication,
 policies, and authorization policies in a Linux-based domain. This is part of the common datacenter services applicable

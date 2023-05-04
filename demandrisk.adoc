@@ -307,14 +307,14 @@ https://www.ibm.com/downloads/cas/1BYY6VEM[_Own Your Transformation_] survey of 
 
 See:
 
-* Loss and waste management (coming soon)
-* Product timeliness  (coming soon)
-* Perfect order (coming soon)
-* Intelligent order (coming soon)
-* Sustainable supply  (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/41-loss-waste-management[Loss and waste management]
+* https://www.redhat.com/architect/portfolio/detail/42-product-timeliness[Product timeliness]
+* https://www.redhat.com/architect/portfolio/detail/43-perfect-order[Perfect order]
+* https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
+* https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply]
 
 For a comprehensive supply chain overview, see
-https://www.redhat.com/architect/portfolio/detail/36[Supply Chain Optimization].
+https://www.redhat.com/architect/portfolio/detail/36-supply-chain-optimization[Supply Chain Optimization].
 
 
 

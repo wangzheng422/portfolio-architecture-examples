@@ -1,10 +1,17 @@
-_Last updated: April 2023_
-
 = Sustainable supply chain
+Thalia Hooker @thooker
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples/
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
+
+// _Last updated: April 2023_
 
 == Use case
 
-Provide sustainable product and delivery options for customers as part of building sutainability into the supply chain more broadly.
+Provide sustainable product and delivery options for customers as part of building sustainability into the supply chain more broadly.
 
 == Background
 
@@ -12,8 +19,8 @@ A common definition of environmental sustainability is meeting the resource and 
 
 Even though specific actions taken by businesses are arguably still limited in overall impact, it’s nonetheless an increasingly prominent part of vendor, partner, and customer discussions. Many IT industry analysts also observe that sustainability projects can lead to a positive ROI. 
 
-Environmental sustainability in organizations takes many forms including power consumption and using renewable sources where possible, deploying infrastructure that reduces greenhouse gas emissions, preserves water
-resources, and eliminates waste, and generally balancing the environmental costs associated with changes to processes and technologies with the benefits delivered. 
+Environmental sustainability in organizations takes many forms including power consumption and using renewable sources where possible, deploying infrastructure that reduces greenhouse gas emissions, preserving water
+resources, and eliminates waste, and generally balances the environmental costs associated with changes to processes and technologies with the benefits delivered. 
 
 Operating dynamic and efficient supply chains to empower a circular
 economy, encourage reuse and recycling, design out waste, promote sustainable
@@ -46,7 +53,7 @@ But there are also drivers that encourage businesses to become sustainable—not
 == Solution overview
 
 The solution uses the following technologies, which can be grouped into
-fiur main categories as shown in Figure 1:
+four main categories as shown in Figure 1:
 
 * Core application systems. Often customer-provided technologies, such
 as order management and facilities management. These systems can be
@@ -59,7 +66,8 @@ through Business Automation tools such as Business Automation Workshop.
 transport selection, in addition to reporting and creating goal-driven
 outcomes.
 
-image::./images/intro-marketectures/sustainablesupplychain-marketing-slide.png[solution overview]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/sustainablesupplychain-marketing-slide.png[alt="solution overview", width=700]
+
 _Figure 1. Overview of sustainable supply chain with an emphasis on customer order fulfillment and delivery._
 
 
@@ -69,7 +77,7 @@ video::jqqk41QjTi0[youtube]
 
 == Logical diagram
 
-image::./images/logical-diagrams/inventoryoptimisation-ld.png[logical diagram]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/inventoryoptimisation-ld.png[alt="logical diagram", width=700]
 
 _Figure 2. Diagram of the logical components of the overall supply chain optimization solution._
 
@@ -79,13 +87,13 @@ _Figure 2. Diagram of the logical components of the overall supply chain optimiz
 The following technology was chosen for this solution:
 
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red
+https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery.
 
-https://www.redhat.com/en/technologies/management/ansible[*Red Hat
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat
 Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams.
 
-https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[*Red
+https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift API Management*] is a managed API traffic control and
 program management service to secure, manage, and monitor APIs at every
 stage of the development lifecycle.
@@ -110,7 +118,7 @@ Fulfillment Optimizer with Watson*] to determine the best location from
 which to fulfill an order, based on business rules, cost factors, and
 current inventory levels and placement
 * https://www.ibm.com/products/inventory-visibility[*Sterling Inventory
-Visibility*] to processes inventory supply and demand activity to
+Visibility*] to process inventory supply and demand activity to
 provide accurate and real-time global visibility across selling
 channels.
 
@@ -125,11 +133,12 @@ social and governance (ESG) data.
 
 == Architecture
 
-The sustainable supply chain depicted in Figure 3 shows the flow of a typical sustainability use case. While the customer is the main focus, partners or suppliers and third party logistics (3PL) companies could be involved. At every point in the supply chain there is room for sustainability to be improved.
+The sustainable supply chain depicted in Figure 3 shows the flow of a typical sustainability use case. While the customer is the main focus, partners or suppliers and third-party logistics (3PL) companies could be involved. At every point in the supply chain there is room for sustainability to be improved.
 
 The business can determine its sustainability posture by determining the appropriate ESG indicator values. ESG metrics are indicators of a company's overall performance and risk profile across important environmental (E), social (S), and governance (G) criteria. ESG metrics can be based on ESG and sustainability reporting standards, ESG rating frameworks from investors or analysts, or regulations like the European Union's Corporate Sustainability Reporting Directive (CSRD).
 
-image::./images/schematic-diagrams/sustainablesupplychain-sd.png[sustainability schematic]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sustainablesupplychain-sd.png[alt=sustainability schematic", width=700]
+
 
 _Figure 3. Overall schematic of sustainable supply chain use case including customer order fulfillment and delivery._
 
@@ -154,7 +163,7 @@ supply chain:
 |===
 | |Actionable Step |Implementation details
 |Automation |Integrate suppliers in business-sustainable commitment
-|Integrate data from multiple systems to get enterprise-wide view of
+|Integrate data from multiple systems to get an enterprise-wide view of
 data used to meet sustainability commitments
 
 |Automation |Improve decisions using AI for greener outcomes
@@ -172,38 +181,24 @@ operations tools and processes for years to come and thus represents a
 foundational decision point.
 |===
 
-=== Similar use cases
+== Similar use cases
 
 See:
 
-* link:./perfectorder.md[Inventory management]
-* link:./demandrisk.md[Demand risk]
-* link:./lossmanagement.md[Loss and waste management]
-* link:./timeliness.md[Product timeliness]
-* link:./intelligentorder.md[Intelligent order]
+* https://www.redhat.com/architect/portfolio/detail/37-demand-risk[Demand risk]
+
+* https://www.redhat.com/architect/portfolio/detail/41-loss-waste-management[Loss and waste management]
+
+* https://www.redhat.com/architect/portfolio/detail/42-product-timeliness[Product Timeliness]
+
+* https://www.redhat.com/architect/portfolio/detail/43-perfect-order[Perfect Order]
+
+* https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
+
 
 For a comprehensive supply chain overview, see
-https://www.redhat.com/architect/portfolio/detail/36[Supply Chain Optimization].
+https://www.redhat.com/architect/portfolio/detail/36-supply-chain-optimization[Supply Chain Optimization].
 
-
-=== References
-
-* IBM Institute for Business Value
-https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research[Balancing
-sustainability and profitability]
-* https://www.ibm.com/topics/business-sustainability[What is
-sustainability in business?]
-* IBM Institute for Business Value
-https://www.ibm.com/downloads/cas/WLJ7LVP4[Sustainability at a turning
-point]
-* Research Insights https://www.ibm.com/downloads/cas/EXK4XKX8[Meet the
-2020 consumers driving change] ``The future of sustainability reporting
-standards'' EY, June 2021
-* Bloomberg Intelligence
-https://www.bloomberg.com/professional/blog/esg-assets-may-hit-53-trillion-by-2025-a-third-of-global-aum/[ESG
-assets may hit $53 trillion by 2025]
-* https://www.dispatchtrack.com/blog/last-mile-logistics-trends-5[2022
-Last Mile Logistics Trends: Sustainable Sustainability]
 
 
 == Contributors
@@ -225,6 +220,8 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 
+
+
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/demandrisk.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sustainablesupplychain.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
 
