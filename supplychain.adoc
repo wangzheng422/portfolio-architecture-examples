@@ -10,12 +10,12 @@
 
 This portfolio architecture addresses several main use cases for transforming supply chain risk factors:
 
-* https://www.redhat.com/architect/portfolio/detail/37[Demand risk]
-* https://www.redhat.com/architect/portfolio/detail/41[Loss and waste management]
-* https://www.redhat.com/architect/portfolio/detail/42[Product timeliness]
-* https://www.redhat.com/architect/portfolio/detail/43[Perfect order]
-* https://www.redhat.com/architect/portfolio/detail/44[Intelligent order]
-* Sustainable supply  (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/37-demand-risk[Demand risk]
+* https://www.redhat.com/architect/portfolio/detail/41-loss-waste-management[Loss and waste management]
+* https://www.redhat.com/architect/portfolio/detail/42-product-timeliness[Product timeliness]
+* https://www.redhat.com/architect/portfolio/detail/43-perfect-order[Perfect order]
+* https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
+* https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply]
 
 These risk factors are described in more detail below:
 
@@ -30,7 +30,7 @@ _Overstock_ - holding more stock than required to meet current and
 future demand. This results in additional costs to store and carry on the books, then possibly disposing of
 overstocked items at a discount or even destroying them.
 
-For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/37[Demand risk]
+For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/37-demand-risk[Demand risk]
 
 === Loss and waste management
 
@@ -44,7 +44,7 @@ other disasters affecting the product salability.
 recalled items from sale or items that have a contaminated component.
 Proactively provide safe alternatives or replacements when safe.
 
-For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/41[Loss and waste management]
+For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/41-loss-waste-management[Loss and waste management]
 
 === Product timeliness
 
@@ -62,7 +62,7 @@ expire, but that may still have some benefit. For example,
 the seasonality of clothing can be warehoused until the following year.
 
 For more information about the solution details on this scenario, see
-https://www.redhat.com/architect/portfolio/detail/42[Product timeliness]
+https://www.redhat.com/architect/portfolio/detail/42-product-timeliness[Product timeliness]
 
 === Perfect order
 
@@ -78,7 +78,7 @@ responsiveness with:
 * Automated responses
 
 For more information and solution details on this scenario, see
-https://www.redhat.com/architect/portfolio/detail/43[Perfect order]
+https://www.redhat.com/architect/portfolio/detail/43-perfect-order[Perfect order]
 
 === Intelligent order
 
@@ -86,7 +86,7 @@ If the *last mile delivery* promise is incorrect and a product arrives
 late (perhaps because of incorrect tracking information), is damaged or is never delivered there’s a good chance that the customer will shop with a
 competitor next time.
 
-For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/44[Intelligent order]
+For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
 
 
 === Sustainable supply chain
@@ -100,8 +100,7 @@ and profits. In the race to reduce emissions, consumption, and waste,
 everything is on the table. Supply chains are being recalibrated. Source
 materials are evolving. Travel requests are carefully scrutinized.
 
-For more information about the solution details on this scenario, see
-Sustainable supply chain (coming soon)
+For more information about the solution details on this scenario, see https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply]
 
 == Background
 
@@ -563,12 +562,12 @@ survey of 1500 CSCOs across 24 industries.
 
 See _Action Guide_ section in each of the use cases:
 
-* https://www.redhat.com/architect/portfolio/detail/37[Demand risk]
-* https://www.redhat.com/architect/portfolio/detail/41[Loss and waste management]
-* https://www.redhat.com/architect/portfolio/detail/42[Product timeliness]
-* https://www.redhat.com/architect/portfolio/detail/43[Perfect order]
-* https://www.redhat.com/architect/portfolio/detail/44[Intelligent order]
-* Sustainable supply  (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/37-demand-risk[Demand risk]
+* https://www.redhat.com/architect/portfolio/detail/41-loss-waste-management[Loss and waste management]
+* https://www.redhat.com/architect/portfolio/detail/42-product-timeliness[Product timeliness]
+* https://www.redhat.com/architect/portfolio/detail/43-perfect-order[Perfect order]
+* https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
+* https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply]
 
 
 == Personas
