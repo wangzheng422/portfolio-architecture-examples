@@ -51,15 +51,15 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 tools and SAP-specific content. Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
 available foundation for business-critical SAP and non-SAP workloads.
 
-https://www.redhat.com/en/technologies/management/insights?intcmp=7013a00000318EWAAY[*Red Hat Insights*] receives the anonymized data of the SAP hosts from Smart Management and makes it available to the
+https://www.redhat.com/en/technologies/management/insights?intcmp=7013a00000318EWAAY[*Red Hat Insights*] receives the anonymized data of the SAP hosts from Satellite and makes it available to the
 Insights services the customer is subscribed to. It is a rule-based SaaS and it has dedicated rules for SAP hosts that
 are based on SAP's and Red Hat's recommendations and it detects and alerts when a host is not compliant with all these
 recommendations.
 
-https://www.redhat.com/en/technologies/management/smart-management?intcmp=7013a00000318EWAAY[*Red Hat Smart Management*], which includes Satellite and Cloud Connector, provides the capability to gather
+https://www.redhat.com/en/technologies/management/smart-management?intcmp=7013a00000318EWAAY[*Red Hat Satellite*], which includes Satellite and Cloud Connector, provides the capability to gather
 anonymized configuration information from the SAP hosts and send that anonymized data to Insights Platform (on Red
 Hat’s SaaS). Satellite manages the lifecycle of the SAP servers, applying the packages, security fixes, etc., that
-they need to comply with SAP’s and Red Hat’s recommendations and consistent between them.
+they need to comply with SAP’s and Red Hat’s recommendations and be consistent between them.
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is the framework used in this solution to run the remediation Ansible
 playbooks in the hosts that will correct the situations that could lead to a failure or issue. For example, modifying
@@ -77,7 +77,7 @@ The prerequisites to implement the solution are the following:
 
 All the servers that will host SAP workloads need to be registered with the RHEL for SAP Solutions subscription.
 - Insights client will be deployed in all of them.
-- Smart Management will be deployed in the customer’s infrastructure (either in the same location/infrastructure where
+- Satellite will be deployed in the customer’s infrastructure (either in the same location/infrastructure where
 the SAP ecosystem is or in a different one).
 - Ansible Automation Platform will also be deployed in the customer’s infrastructure.   
 
@@ -92,16 +92,22 @@ than SAP HANA (Oracle, DB2, Sybase, SQL Server, MaxDB)
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-smart-management-data-sd.png[alt="Red Hat Insights makes sure that all RHEL servers hosting SAP workloads are compliant with SAP and Red Hat's recommendations, if some are missing it triggers a remediation playbook from Red Hat Ansible Automation Platform that will apply the recommendation directly or through Red Hat Smart Management", width=700]
 --
-All the SAP hosts (DB and application) are sending information about their configuration and status to the Smart
-Management server The Smart Management server sends anonymized information about the SAP hosts to the Insights Service
-in Red Hat SaaS. The Insights Service sends the data to the Insights Platform (also in Red Hat SaaS) to compare it to
+1. All the SAP hosts (DB and application) are sending information about their configuration and status to the Satellite server.
+
+2. The Satellite server sends anonymized information about the SAP hosts to the Insights Service
+in Red Hat SaaS. 
+
+3. The Insights Service sends the data to the Insights Platform (also in Red Hat SaaS) to compare it to
 the rules.
 
-If there are configurations that can lead to potential issues in the SAP hosts the Enterprise Operating Automation
-(also in Red Hat SaaS) will send remediation playbooks to the Insights Platform The Insights Platform sends a generated
-plan for the remediation to the Smart Management host Smart Management sends the generated plan and the packages
-necessary to the plan to the Automation Orchestration host (Ansible Tower) Automation Orchestration runs the
-remediation playbooks in the SAP servers
+4. If there are configurations that can lead to potential issues in the SAP hosts the Enterprise Operating Automation
+(also in Red Hat SaaS) will send remediation playbooks to the Insights Platform. 
+
+5. The Insights Platform sends a generated plan for the remediation to the Satellite host. 
+
+6. Satellite sends the generated plan and the packages necessary to the plan to the Automation Orchestration host (Ansible Automation Platform).
+
+7. Ansible Automation Platform runs the remediation playbooks in the SAP servers.
 
 With the packages, security fixes, etc., applied to the hosts in the SAP Landscape we make sure that they are all up to
 date and at the same level (according to Red Hat and SAP’s recommendations) so there is no drift between them that can
