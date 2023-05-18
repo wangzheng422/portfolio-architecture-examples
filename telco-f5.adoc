@@ -11,6 +11,7 @@
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
 *Use case:* Delivering Next CNF Solution with F5 Big-IP
+
 *Background:* 5G networks use service-based architecture (SBA) and cloud-native approach offers many advantages to service providers (agility, scalability, reduced Capex/Opex). Cloud-native network functions (CNFs) have become the main delivery mechanism of 5G network services.
 
 
