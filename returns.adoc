@@ -1,96 +1,106 @@
-== Returns
-
-Evolving customer expectations have forced retailers to figure out how to better manage the ripple effects that the current global crisis has created. This includes the realm of returns.
+== Handling Returns Portfolio Architecture
 
 === Use cases
 
-* Manage return policies and manage customer expectations.
-* Minimizing return losses.
-* Categorize return items for recycle, dispose, or return for sales.
-* Determine fraudulent returns.
-* Identify and track returns items with hazardous materials.
+Meet customer expectations for easy return processes while minimizing return losses, categorizing returned items, minimizing fraudulent returns, and complying with rules related to hazardous materials.
 
 === Background
+Evolving customer expectations have forced retailers to figure out how to better manage the ripple effects that the pandemic, increased online shopping, and supply chain disruptions have created. This includes handling returns from customers. 
 
-Let’s look at some of the trends that 2020 has seen so far:
+On the surface, returns may seem like a fairly straightforward problem. But there are many nuances and tradeoffs to consider.
 
-* Extended return windows: Many retailers have instituted extended return periods that go beyond the average 30-day window for customers.
-* Increased returns: With physical stores closed, ecommerce is on the rise. But with this shift comes increased returns, as customers can’t be certain what they’re buying online will be what the right size and fit.
-* Not accepting returns: In the face of health concerns around coronavirus lingering on surfaces for extended periods of time, some retailers have stopped accepting product returns at all.
+Customers want easy returns. For merchandise delivered to the home, the return experience can in fact be a critical reason why consumers stick with a given retailer. (Zappos’ generous return policy for an item that’s tricky to buy without trying on—shoes—was one important ingredient in their early success.)
 
-=== Business problem
+At the same time, generosity and the best customer experience need to be balanced against the costs of fraudulent or excessive returns—and the losses of various types that inevitably take place as goods are repackaged and sent back. 
+Organizations need to be able to Identify and track returned items with hazardous materials. They also need to handle items more generally as they come in. for example by categorizing them for recycling, disposal or resale (either as new or as an “open box” sale of some manner).
 
-Meet consumer demands by modernizing IT for the retail and consumer packaged goods (CPG) industry.
+==== Recent trends
 
-==== Challenges / Business Drivers
+Many organizations have long needed to handle returns. However, we’re seeing some more recent trends. Some of these were probably brought on by the pandemic and will likely be transitory. But others look to be longer-term.
 
-*Challenges*
+Not accepting returns at all is likely in the former category. In the face of health concerns around viruses lingering on surfaces for extended periods of time, some retailers stopped accepting product returns at all. However, in general, returns are seen as a necessary practice for most retail businesses.
+
+More common is limiting returns on some items. Once a retailer has identified that an item has a high number of returns, that item may be flagged as such, and returns of the item may be limited. (Think of the latest and greatest GPU card that gets used for a period and then returned.) Of course, a large number of returns may also signal a product quality or description problem.
+
+But overall, returns are up because e-commerce is up. Even if many people have gotten more comfortable with shopping online over the years, judging color, fabric, and fit of items on a website is always going to be prone to error. Return windows are even getting longer in many cases beyond what used to be a standard 30-day window. And those returns need to be handled.
+
+==== Minimizing return losses
 
 Making returns easy for consumers is a way to create a loyal customer.
 
-_Minimizing returns losses_ by:
+But you also want to minimize return losses.
 
-* Sell the right item. One major step that eliminates a possible return is to make sure you sell the right item to the right customer.
-* Save the sale. The `save the sale' method is key for businesses who are looking to compensate for returns through a loyalty incentive.
-* Smart returns. Smart returns will require a connected network of inventory visibility, as well as predicted demand.
-* Predict returns. Data plays a vital role when it comes to predicting returns. Specifically, data that tracks the reason for a return: whether it’s done directly (item was damaged, didn’t fit, wasn’t as pictured, etc.) or learned through predictive analytics.
-* Buy online, pick up (or return) in-store. Retailers can give shoppers greater flexibility by allowing them to purchase online and then pick up in-store. While they’re there to pick up, they can test or try products they’ve ordered and make an exchange via curbside processing if needed.
-* Virtual or personal shopping. Whether it’s a virtual showcase of new items for your most loyal customers, or enabling sales associates to set aside items for shoppers based on their past purchase history, these tech-enabled shopping solutions should help lower the risk of returns.
-* Process returns quickly and efficiently, reducing the amount of time and employee hours spent.
+A good way to meet both objectives is to *sell the right item.* This major step eliminates a possible return by making sure you sell the right item to the right customer. The customer is happier too; returns always have a degree of hassle, however streamlined the process. Personalized shopping experiences that make recommendations based on past purchases or that otherwise help connect shoppers to the products that are best for them are among the ways that the right product and the right customer can find each other.
 
-_Identify fraudulent returns_:
+Retailers can give shoppers greater flexibility by allowing them to purchase online and then pick up in-store. While they’re there to pick up, they can test or try products they’ve ordered and make an exchange via curbside processing if needed. Returning to a physical store can be especially attractive for heavy, bulky, or fragile items that may be challenging to ship back to the merchant.
 
-* Returning stolen merchandise
-* Receipt fraud
-* Employee fraud
-* Price switching
-* Price arbitrage
-* Switch fraud
-* Bricking
-* Cross-retail return
-* Open-box fraud
-* Wardrobing
-
-*Drivers*
-
-* Increase customer loyalty with appropriate returns policies
-* Minimizing returns losses
-* The return process is an opportunity to upsell
-* Identify fraudulent returns
-* Provide sustainable transport of returned items
-* Demonstrate proper disposal of hazardous material returns
-
-=== Business outcomes
-
-* Determine return policy suitable by item
-* Setting and meeting customer expectations on returned items
-* Enhance loyalty of customers
-* Minimize losses by having fewer returns
-* Identify items for resale, open box, refurbish, resale, donation to charity
-* Hazardous materials handled properly
+Once a product is returned, *smart returns* require a connected network that provides inventory visibility, as well as predicts demand. Data also plays a vital role when it comes to *predicting returns.* For example, data that tracks the reason for a return: whether it's a reason provided by the customer (such as the item was damaged, didn’t fit, or wasn’t as pictured) or it’s something learned through predictive analytics. Throughout the workflow, it’s important to *process returns quickly and efficiently,* reducing the number of employee hours spent.
 
 === Solution overview
 
-The solution shown in Figure 1 uses components that can be grouped into three main categories as shown in the following diagram:
+The solution shown in Figure 1 uses components that can be grouped into three main categories:
 
-* *Core application systems*. Often customer-provided technologies, such as order management or facilities management. These systems can be standalone applications, on-premises and cloud services, and databases.
-* *Foundational infrastructure*. The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.
-* *Supply Chain Optimization* platform consisting of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis & AI.
+* *Core application systems.* These are often customer-provided technologies, such as order management and facilities management. These systems can include standalone applications, on-premises and cloud services, and databases.
+
+* *Foundational infrastructure.* The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workflow.
+
+* *Supply chain optimization platform.* This consists of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis and AI.
 
 image::./images/intro-marketectures/returns-marketing-slide.png[solution overview]
 
-_Figure 1. Overall view of demand risk solution._
+_Figure 1. Overview of returns management solution including major components and business drivers._
 
-=== Logical diagrams
+=== Summary video
+
+=== Logical diagram
+
+
 
 image::./images/logical-diagrams/inventoryoptimisation-ld.png[logical diagram]
+_Figure 2. Logical overview of supply chain optimization solution showing major building blocks._
+
+=== Technology
+
+The following technologies offered by Red Hat and IBM can augment the solutions already in place in your organization.
+
+==== Core systems
+
+https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red
+Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery.
+
+https://www.redhat.com/en/technologies/management/ansible[*Red Hat
+Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams.
 
 
-_Figure 2. The personas and technologies that provide a platform for some of the biggest potential breakthroughs in the supply chain._
+==== Integration services
 
-=== Architectures
+https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[*Red
+Hat OpenShift API Management*] is a managed API traffic control and
+program management service to secure, manage, and monitor APIs at every
+stage of the development lifecycle.
 
-The figures in this section show the interaction of customer systems with supply chain optimization platform systems in the context of a retail scenario with branch stores.
+
+https://www.redhat.com/en/products/integration[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
+
+https://www.ibm.com/business-automation[*IBM Business Automation*] delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing. Rules processing, intelligent decison making, and regulation compliance using automation give business flexible, auditable, policy-based workflows across the enterprise.
+
+==== Supply assurance platform
+
+https://www.ibm.com/products/fulfillment-optimizer[*IBM Sterling
+Fulfillment Optimizer with Watson*] to determine the best location from
+which to fulfill an order, based on business rules, cost factors, and
+current inventory levels and placement
+
+
+https://www.ibm.com/products/planning-analytics[*IBM Planning Analytics
+with Watson*] streamlines and integrates financial and operational
+planning across the enterprise.
+
+
+
+=== Architecture
+
+Figure 3 shows how an organization can handle returns in the context of a retail scenario with branch stores.
 
 === Returns management
 
@@ -99,23 +109,13 @@ link:./images/schematic-diagrams/returns-sd.png[image:./images/schematic-diagram
 
 _Figure 3. Schematic diagram of returns management use case._
 
-Returns workflow steps:
 
-Customer initiates return, provides reason at a kiosk, store, or mobile application
+The customer first initiates a return, providing a reason at a kiosk, store, or mobile application. At this point, it’s important to set customer expectations about what happens next—including options as available. For example, they may elect to take a refund. Or, if an item just arrived damaged in shipment, they may prefer a replacement. The customer will also need to understand their options for returning the item. For example, they may be able to print out a barcode label.
 
-Set customer expectation of refund, store credit, or upsell
+Business automation now orchestrates the return item process. It’s first returned to a warehouse or store location whether physically dropped off by a customer or sent through a logistics company like UPS. The disposition system then determines whether the item should be disposed of, resold or refurbished based on business rules.
 
-Business automation orchestrates, return item process
+Subsequently the data associated with this return will be analyzed together with data from other returns for patterns that may indicate fraud or a problem with a supplier. Any necessary hazardous material disposal also needs to be tracked.
 
-Item is picked up and returns to a warehouse or store location
-
-The item is returned to a location
-
-Disposition system determines whether item is for disposal, resell as open box, referbish based on business rules.
-
-Review return for fraudulent return patterns
-
-Track hazardous material disposal
 
 === Action Guide
 
@@ -133,39 +133,15 @@ From a high-level perspective, the *Action Guide* represents a future state for 
 |Automation |Amp up AI to make workflows smarter |
 |Sustainability |Include sustainability commitments in decision making |Integrate sustainability metrics in returns decision making, especially return items transport or disposal.
 |Sustainability |Track disposal of hazardous returns |Report on how hazardous returns are handled.
-|Modernization |Modernization for modern infrastructures, scale hybrid cloud platforms |The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.
+|Modernization |Modernization for modern infrastructures, scale hybrid cloud platforms |The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment, and operations tools and processes for years to come and thus represents a foundational decision point.
 |Modernization |Modernize application deployment and operations practices |Include DevOps best practices to deploy, monitor, and maintain applications
 |===
 
 For specific steps on this approach, see *The Action Guide* details in https://www.ibm.com/downloads/cas/1BYY6VEM[_Own Your Transformation_] survey of 1500 CSCOs across 24 industries.
 
-=== Technology
 
-The following technologies offered by Red Hat and IBM can augment the solutions already in place in your organization.
 
-==== Core systems
-
-https://www.redhat.com/en/technologies/cloud-computing/openshift[_Red Hat OpenShift_] Kubernetes offering, the hybrid platform offering allow deployment across data centers, private and public clouds offering choices and flexible for hosting system and services. You can manage clusters and applications from a single console, with built-in security policies with https://www.redhat.com/en/technologies/management/advanced-cluster-management[_Red Hat Advanced Cluster Management_] and https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes[_Red Hat Advanced Cluster Security_].
-
-https://www.redhat.com/en/technologies/management/ansible[_Red Hat Ansible Automation Platform_] operate, scale and delegate automate IT services, track changes an update inventory, prevent configuration drift and integrated with ITSM.
-
-https://www.redhat.com/en/getting-started-devops[_Red Hat OpenShift DevOps_] represents an approach to culture, automation and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. DevOps means linking legacy apps with newer cloud-native apps and infrastructure. A DevOps developer can link legacy apps with newer cloud-native apps and infrastructure.
-
-==== Integration services
-
-https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[_Red Hat OpenShift API Management_] is a managed API traffic control and program management service to secure, manage, and monitor APIs at every stage of the development lifecycle.
-
-https://www.redhat.com/en/products/integration[_Red Hat Intgration_] is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
-
-https://www.ibm.com/business-automation[_IBM Business Automation_] delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing. Rules processing, intelligent decison making, and regulation compliance using automation gives business flexible, auditable, policy-based workflows across the enterprise.
-
-==== Supply assurance platform
-
-https://www.ibm.com/products/fulfillment-optimizer[_IBM Sterling Fulfillment Optimizer with Watson_] to determine the best location from which to fulfill an order, based on business rules, cost factors, and current inventory levels and placement.
-
-https://www.ibm.com/products/planning-analytics[_IBM Planning Analytics with Watson_] streamlines and integrates financial and operational planning across the enterprise.
-
-=== Similar use cases
+=== Related use cases
 
 See:
 
@@ -176,7 +152,6 @@ See:
 * link:./intelligentorder.adoc[Intelligent order]
 * link:./sustainablesupplychain.adoc[Sustainable supply chain]
 * link:./disasterreadiness.adoc[Disaster readiness]
-* Returns (coming soon)
 
 
 For a comprehensive supply chain overview, see https://www.redhat.com/architect/portfolio/detail/36[Supply Chain Optimization].
