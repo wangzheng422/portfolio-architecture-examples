@@ -312,6 +312,8 @@ See:
 * https://www.redhat.com/architect/portfolio/detail/43-perfect-order[Perfect order]
 * https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
 * https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply]
+* https://www.redhat.com/architect/portfolio/detail/47-returns[Returns]
+* https://www.redhat.com/architect/portfolio/detail/48-disaster-readiness[Disaster Readiness]
 
 For a comprehensive supply chain overview, see
 https://www.redhat.com/architect/portfolio/detail/36-supply-chain-optimization[Supply Chain Optimization].
