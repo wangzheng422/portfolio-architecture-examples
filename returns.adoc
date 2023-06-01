@@ -1,10 +1,16 @@
-== Handling Returns Portfolio Architecture
+= Supply Chain Returns
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples/
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
 
-=== Use cases
+== Use cases
 
 Meet customer expectations for easy return processes while minimizing return losses, categorizing returned items, minimizing fraudulent returns, and complying with rules related to hazardous materials.
 
-=== Background
+== Background
 Evolving customer expectations have forced retailers to figure out how to better manage the ripple effects that the pandemic, increased online shopping, and supply chain disruptions have created. This includes handling returns from customers. 
 
 On the surface, returns may seem like a fairly straightforward problem. But there are many nuances and tradeoffs to consider.
@@ -14,7 +20,7 @@ Customers want easy returns. For merchandise delivered to the home, the return e
 At the same time, generosity and the best customer experience need to be balanced against the costs of fraudulent or excessive returns—and the losses of various types that inevitably take place as goods are repackaged and sent back. 
 Organizations need to be able to Identify and track returned items with hazardous materials. They also need to handle items more generally as they come in. for example by categorizing them for recycling, disposal or resale (either as new or as an “open box” sale of some manner).
 
-==== Recent trends
+=== Recent trends
 
 Many organizations have long needed to handle returns. However, we’re seeing some more recent trends. Some of these were probably brought on by the pandemic and will likely be transitory. But others look to be longer-term.
 
@@ -24,7 +30,7 @@ More common is limiting returns on some items. Once a retailer has identified th
 
 But overall, returns are up because e-commerce is up. Even if many people have gotten more comfortable with shopping online over the years, judging color, fabric, and fit of items on a website is always going to be prone to error. Return windows are even getting longer in many cases beyond what used to be a standard 30-day window. And those returns need to be handled.
 
-==== Minimizing return losses
+=== Minimizing return losses
 
 Making returns easy for consumers is a way to create a loyal customer.
 
@@ -46,45 +52,44 @@ The solution shown in Figure 1 uses components that can be grouped into three ma
 
 * *Supply chain optimization platform.* This consists of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis and AI.
 
-image::./images/intro-marketectures/returns-marketing-slide.png[solution overview]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/returns-marketing-slide.png[alt="Dsolution overview", width=700]
 
 _Figure 1. Overview of returns management solution including major components and business drivers._
 
-=== Summary video
+== Summary video (coming soon)
 
-=== Logical diagram
+== Logical diagram
 
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/inventoryoptimisation-ld.png[alt="Dsolution overview", width=700]
 
-
-image::./images/logical-diagrams/inventoryoptimisation-ld.png[logical diagram]
 _Figure 2. Logical overview of supply chain optimization solution showing major building blocks._
 
-=== Technology
+== Technology
 
 The following technologies offered by Red Hat and IBM can augment the solutions already in place in your organization.
 
-==== Core systems
+=== Core systems
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red
+https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery.
 
-https://www.redhat.com/en/technologies/management/ansible[*Red Hat
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat
 Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams.
 
 
-==== Integration services
+=== Integration services
 
-https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[*Red
+https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift API Management*] is a managed API traffic control and
 program management service to secure, manage, and monitor APIs at every
 stage of the development lifecycle.
 
 
-https://www.redhat.com/en/products/integration[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
+https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
 
-https://www.ibm.com/business-automation[*IBM Business Automation*] delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing. Rules processing, intelligent decison making, and regulation compliance using automation give business flexible, auditable, policy-based workflows across the enterprise.
+https://www.ibm.com/business-automation[*IBM Business Automation*] delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing. Rules processing, intelligent decision making, and regulation compliance using automation give businesses flexible, auditable, policy-based workflows across the enterprise.
 
-==== Supply assurance platform
+=== Supply assurance platform
 
 https://www.ibm.com/products/fulfillment-optimizer[*IBM Sterling
 Fulfillment Optimizer with Watson*] to determine the best location from
@@ -98,14 +103,13 @@ planning across the enterprise.
 
 
 
-=== Architecture
+== Architecture
 
 Figure 3 shows how an organization can handle returns in the context of a retail scenario with branch stores.
 
 === Returns management
 
-link:./images/schematic-diagrams/returns-sd.png[image:./images/schematic-diagrams/returns-sd.png[returns]]
-
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/returns-sd.png[alt="Return", width=700]
 
 _Figure 3. Schematic diagram of returns management use case._
 
@@ -117,7 +121,7 @@ Business automation now orchestrates the return item process. It’s first retur
 Subsequently the data associated with this return will be analyzed together with data from other returns for patterns that may indicate fraud or a problem with a supplier. Any necessary hazardous material disposal also needs to be tracked.
 
 
-=== Action Guide
+== Action Guide
 
 From a high-level perspective, the *Action Guide* represents a future state for organizations considering a comprehensive commitment. The idea is to outline a set steps that can be prioritized to reach that future state by adding new functionality to your existing systems.
 
@@ -141,28 +145,22 @@ For specific steps on this approach, see *The Action Guide* details in https://w
 
 
 
-=== Related use cases
+== Related use cases
 
 See:
 
-* link:./demandrisk.adoc[Demand risk]
-* link:./lossmanagement.adoc[Loss and waste management]
-* link:./timeliness.adoc[Product timeliness]
-* link:./perfectorder.adoc[Inventory management]
-* link:./intelligentorder.adoc[Intelligent order]
-* link:./sustainablesupplychain.adoc[Sustainable supply chain]
-* link:./disasterreadiness.adoc[Disaster readiness]
+* https://www.redhat.com/architect/portfolio/detail/37-demand-risk[Demand risk]
+* https://www.redhat.com/architect/portfolio/detail/41-loss-waste-management[Loss and waste management]
+* https://www.redhat.com/architect/portfolio/detail/42-product-timeliness[Product timeliness]
+* https://www.redhat.com/architect/portfolio/detail/43-perfect-order[Perfect order]
+* https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
+* https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply]
+* https://www.redhat.com/architect/portfolio/detail/48-disaster-readiness[Disaster readiness] 
 
 
 For a comprehensive supply chain overview, see https://www.redhat.com/architect/portfolio/detail/36[Supply Chain Optimization].
 
-=== References
-
-* IBM https://www.ibm.com/blog/ibm-future-of-returns/[The future of retail returns]
-* Digital Commerce 360 https://www.digitalcommerce360.com/2023/02/28/how-ecommerce-returns-can-be-a-retail-superpower/[How returns can be a retail `superpower']
-* Digital Commerce 360 https://www.digitalcommerce360.com/2023/01/09/loop-processes-60000-returns-a-day-during-2022-holiday-season/[Loop processes 60&#44;000 returns a day during 2022 holiday season]
-
-=== Contributors
+== Contributors
 
 * Iain Boyle, Chief Architect, Red Hat
 * Bruce Kyle, Sr Solution Architect, IBM Client Engineering
@@ -181,5 +179,5 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/demandrisk.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/returns.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
 
