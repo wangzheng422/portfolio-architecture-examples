@@ -25,13 +25,6 @@ A central metric is time to recover (TTR), the time it would take for a particul
 The second metric is risk exposure, an assessment of exposure to risk based on a model that applies suppliers' TTR to estimate the performance impact, including operational (lost production) and financial (lost revenue and profit).
 
 
-
-== Background
-
-Business need to anticipate and respond to supply chain challenges due to unanticipated disasters.
-
-According to the https://www.thebci.org/[Business Continuity Institute], 72% of suppliers who dealt with a breakdown in their supply chain lacked the full, real-time visibility needed to come up with a fast and simple solution.
-
 === Metrics
 
 A central feature is time to recover (TTR), the time it would take for a particular node — a supplier facility, a distribution center, or a transportation hub — to be restored to full functionality after a disruption.
