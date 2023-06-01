@@ -194,6 +194,8 @@ See:
 * https://www.redhat.com/architect/portfolio/detail/43-perfect-order[Perfect Order]
 
 * https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
+* https://www.redhat.com/architect/portfolio/detail/47-returns[Returns]
+* https://www.redhat.com/architect/portfolio/detail/48-disaster-readiness[Disaster Readiness]
 
 
 For a comprehensive supply chain overview, see
