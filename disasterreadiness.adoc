@@ -1,16 +1,23 @@
-== Disaster readiness Portfolio Architecture
+= Disaster Readiness
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples/
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
 
-=== Use case
+
+== Use case
 
 Disasters that affect companies can take many forms: public health, terrorism and war, and extreme weather. They can also affect companies in different ways from needing to shut down offices, help affected employees, and regain access to networks and computers. This portfolio architecture focuses on anticipating and responding to supply chain challenges due to natural disasters such as hurricanes, typhoons, floods, earthquakes, wildfires, and droughts but the overall architecture and principles apply to a wide range of disaster planning scenarios.
 
-=== Background
+== Background
 
 Events could result in physical damage to our properties, limitations on store operating hours, less frequent visits by members to physical locations, the temporary closure of warehouses, depots, manufacturing or home office facilities, the temporary lack of an adequate work force, disruptions to our IT systems, the temporary or long-term disruption in the supply of products from some local or overseas suppliers, the temporary disruption in the transport of goods to or from overseas, delays in the delivery of goods to our warehouses or depots, and the temporary reduction in the availability of products in  warehouses.
 
 In 2020, there were https://www.climate.gov/news-features/blogs/beyond-data/2020-us-billion-dollar-weather-and-climate-disasters-historical[22 separate billion-dollar weather and climate disasters] in the US alone. and you can understand why modeling the risk from weather is so critical to your operations.  It’s easy to see why modeling the risk from weather is so critical to supply chain and store operations. At the same time, according to the https://www.thebci.org/[Business Continuity Institute], 72% of suppliers who dealt with a breakdown in their supply chain lacked the full, real-time visibility needed to come up with a fast and simple solution.
 
-==== Business Problem
+=== Business Problem
 There are a wide range of possible supply chain effects. Events could result in physical damage to properties; limitations on store operating hours; the temporary closure of warehouses, depots, manufacturing or home office facilities; the temporary lack of an adequate workforce; disruptions to our IT systems; the temporary or long-term disruption in the supply of products from some local or overseas suppliers; the temporary disruption in the transport of goods to or from overseas; delays in the delivery of goods to our warehouses or depots; and the temporary reduction in the availability of products in warehouses.
 
 A central metric is time to recover (TTR), the time it would take for a particular node—a supplier facility, a distribution center, or a transportation hub—to be restored to full functionality after a disruption.
@@ -19,19 +26,19 @@ The second metric is risk exposure, an assessment of exposure to risk based on a
 
 
 
-=== Background
+== Background
 
 Business need to anticipate and respond to supply chain challenges due to unanticipated disasters.
 
 According to the https://www.thebci.org/[Business Continuity Institute], 72% of suppliers who dealt with a breakdown in their supply chain lacked the full, real-time visibility needed to come up with a fast and simple solution.
 
-==== Metrics
+=== Metrics
 
 A central feature is time to recover (TTR), the time it would take for a particular node — a supplier facility, a distribution center, or a transportation hub — to be restored to full functionality after a disruption.
 
 The second concept is risk exposure, an assessment of exposure to risk based on a model that applies suppliers’ TTR to estimate the performance impact, including operational (lost production) and financial (lost revenue and profit).
 
-==== How to prepare
+=== How to prepare
 
 Later in this portfolio architecture, we’ll take you through a detailed technical architecture that can help you deal with weather disruption preparation. We’ll also consider the scenario where a store is open but disconnected from a company’s datacenter.
 
@@ -47,7 +54,7 @@ However, first, let’s first consider at a high level on how companies can prep
 
 
 
-==== Responses
+=== Responses
 
 [width="100%",cols="50%,50%",options="header",]
 |===
@@ -58,7 +65,7 @@ However, first, let’s first consider at a high level on how companies can prep
 |Point of sales may not be connected to corporate office during a disaster. |Data can be queued and then sent to corporate at a later time.
 |===
 
-=== Solution overview
+== Solution overview
 
 The solution shown in Figure 1 uses components that can be grouped into three main categories:
 
@@ -66,52 +73,50 @@ The solution shown in Figure 1 uses components that can be grouped into three ma
 * *Foundational infrastructure.* The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workflow.
 * *Supply chain optimization platform.* This consists of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis and AI.
 
-// image::./media/disasterreadinesssolution.png[solution overview]
-//![solution overview](./images/intro-marketectures/disasterreadiness-marketing-slide.png)
-image::./images/intro-marketectures/disasterreadiness-marketing-slide.png[solution overview]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/disasterreadiness-marketing-slide.png[alt="solution overview", width=700]
+
 _Figure 1. Solution overview showing business drivers and the main technology categories._
 
-_Figure 1. Overall view of demand risk solution._
 
-=== Summary video
+== Summary video (coming soon)
 
-=== Logical diagram
+== Logical diagram
 
-image::./images/logical-diagrams/inventoryoptimisation-ld.png[logical diagram]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/inventoryoptimisation-ld.png[alt="logical diagram", width=700]
 
 _Figure 2. The personas and logically-grouped technologies that provide a platform for supply chain optimization._
 
-=== Technology
+== Technology
 
 The following technologies offered by Red Hat and IBM can augment the solutions already in place in your organization.
 
-==== Core platform
+=== Core platform
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift[*Red
+https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery.  You can manage clusters and applications from a single console, with built-in security policies with:
 
-* https://www.redhat.com/en/technologies/management/advanced-cluster-management[*Red Hat Advanced Cluster Management*]
-* https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes[*Red Hat Advanced Cluster Security*]
+* https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management*]
+* https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Security*]
 
-https://www.redhat.com/en/technologies/management/ansible[*Red Hat
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat
 Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—-from development and operations to security and network teams.
 
 
-==== Integration services
+=== Integration services
 
 https://www.ibm.com/business-automation[*IBM Business Automation*] delivers intelligent automations quickly with low-code tooling, such as business process automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing. Rules processing, intelligent decison making, and regulatory compliance using automation provides the business with flexible, auditable, policy-based workflows across the enterprise.
 
 https://www.ibm.com/data-fabric[*IBM Data Fabric*] works across the ecosystem by connecting data from disparate data sources in multicloud envrionments. In particular, https://www.ibm.com/cloud/watson-knowledge-catalog[*Watson Knowledge Catalog*] provides you users with a catalog tool for intelligent, self-service discovery of data, models. https://www.ibm.com/products/watson-query[*Watson Query*] provides data consumers with a universal query engine that executes distributed and virtualized queries across databases, data warehouses, data lakes, and streaming data without additional manual changes, data movement or replication.
 
-https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98[*Red
+https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift API Management*] is a managed API traffic control and
 program management service to secure, manage, and monitor APIs at every
 stage of the development lifecycle.
 
 
-https://www.redhat.com/en/products/integration[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
+https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
 
-==== Supply Assurance Platform
+=== Supply Assurance Platform
 
 https://www.ibm.com/products/supply-chain-intelligence-suite[*IBM Supply Chain Control Tower*] provides actionable visibility to orchestrate your end-to-end supply chain network, identify and understand the impact of external events to predict disruptions, and take actions based on recommendations to mitigate the upstream and downstream effects.
 
@@ -126,13 +131,13 @@ https://www.ibm.com/products/envizi[*Envizi*] simplifies the capture, consolidat
 
 https://www.ibm.com/products/environmental-intelligence-suite[*IBM Environmental Intelligence Suite*] provides climate and weather insights to anticipate disruptive environmental conditions, proactively manage risk, and build more sustainable operations.
 
-=== Architecture
+== Architecture
 
 Figures 3 and 4 show the interaction of customer systems with supply chain optimization platform systems in the context of a retail scenario with branch stores. We consider both preparation for weather disruption and the workflows associated with an operating store that becomes disconnected from the datacenter. As noted earlier, while we chose to show the example of an extreme weather event specifically, the overall architecture applies to disaster preparedness more generally.
 
-==== Weather disruption preparation
+=== Weather disruption preparation
 
-link:./images/schematic-diagrams/disasterreadiness-sd.png[image:./images/schematic-diagrams/disasterreadiness-sd.png[disaster readiness and response]]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/disasterreadiness-sd.png[alt="disaster readiness and response", width=700]
 
 _Figure 3. Schematic diagram of weather disruption preparation use case._
 
@@ -148,11 +153,11 @@ Control Tower triggers Business Automation to remediate stock levels using a com
 * Coordinating with suppliers and vendors to position inventory
 
 
-==== Disconnected store
+=== Disconnected store
 
 The following scenario shows how data can be transmitted from a store to the datacenter as part of an overall solution to setting up and maintaining the computer facilities in a store or branch office.
 
-link:./images/schematic-diagrams/disconnectedstore-sd.png[image:./images/schematic-diagrams/disconnectedstore-sd.png[disconnected store]]
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/disconnectedstore-sd.png[alt="disconnected store", width=700]
 
 _Figure 4. Schematic diagram of disaster response with a disconnected store use case._
 
@@ -165,12 +170,12 @@ The transaction events are now read and Business Automation workflows are trigge
 * Setup store operations data
 * Consolidate data to update the work queue in the Supply Chain Control Tower
 
-=== Summary
+== Summary
 
 Extreme weather events and other types of disasters can overtake a company and its supply chain quickly. The statistical likelihood of certain types of events, such as blizzards, in a given area, may make them seem routine but they can snarl supply chains nonetheless. Nor can the company ignore the possibility of major weather events such as hurricanes just because they’re rare. Planning is essential, together with your suppliers in all cases—as is constantly updating your assumptions and the list of partners you’ll need to work with.
 
 
-=== Action Guide
+== Action Guide
 
 From a high-level perspective, the *Action Guide* represents a future state for organizations considering a comprehensive commitment. The idea is to outline a set steps that can be prioritized to reach that future state by adding new functionality to your existing systems.
 
@@ -186,38 +191,31 @@ From a high-level perspective, the *Action Guide* represents a future state for 
 |Automation |Amp up AI to make workflows smarter |When users are inspecting inventory items by drilling down on the item, users see where they have available inventory and receive recommendations about how much inventory can and should be transferred. These recommendations are based on adding automation and AI to make workflows smarter.
 |Automation |Respond to disconnected stores proactively |Use available data to take actions to support disconnected store.
 |Sustainability |Include sustainability commitments in decision making |Integrate sustainability metrics in disaster planning and response decision making.
-|Sustainability |Combine your proprietary and third-party geospatial information with weather data | Take advantage of multiple data sources to gain the best view of possible disaster scenarions.
+|Sustainability |Combine your proprietary and third-party geospatial information with weather data | Take advantage of multiple data sources to gain the best view of possible disaster scenarios.
 |Modernization |Modernization for modern infrastructures, scale hybrid cloud platforms |The decision for a future, Kubernetes-based enterprise platform is defining the standards for development, deployment and operations tools and processes for years to come and thus represents a foundational decision point.
-|Modernization |Modernize application deployment and operations practices | Adopt best practices for cloud-native CI/CD zand other workflows.
+|Modernization |Modernize application deployment and operations practices | Adopt best practices for cloud-native CI/CD and other workflows.
 |Modernization |Manage disconnected operations |Computing capabilities and data can be mirrored in stores to maintain local data needed to support store operations, such as product catalogs, and transactions, to provide basic services
 |===
 
 For specific steps on this approach, see *The Action Guide* details in https://www.ibm.com/downloads/cas/1BYY6VEM[_Own Your Transformation_] survey of 1500 CSCOs across 24 industries.
 
 
-=== Related use cases
+== Related use cases
 
 See:
 
-* link:./demandrisk.md[Demand risk]
-* link:./lossmanagement.md[Loss and waste management]
-* link:./timeliness.md[Product timeliness]
-* link:./perfectorder.md[Inventory management]
-* link:./intelligentorder.md[Intelligent order]
-* link:./sustainablesupplychain.md[Sustainable supply chain]
-* Returns (coming soon)
+* https://www.redhat.com/architect/portfolio/detail/37-demand-risk[Demand risk]
+* https://www.redhat.com/architect/portfolio/detail/41-loss-waste-management[Loss and waste management]
+* https://www.redhat.com/architect/portfolio/detail/42-product-timeliness[Product timeliness]
+* https://www.redhat.com/architect/portfolio/detail/43-perfect-order[Perfect order]
+* https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
+* https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply]
+* https://www.redhat.com/architect/portfolio/detail/47-returns[Returns]
 
 For a comprehensive supply chain overview, see https://www.redhat.com/architect/portfolio/detail/36[Supply Chain Optimization].
 
-=== References
 
-* https://www.ibm.com/products/planning-analytics/supply-chain-planning[Supply chain planning and analytics]
-* MIT Solan Managmenet Review https://sloanreview.mit.edu/article/three-scenarios-to-guide-your-global-supply-chain-recovery/[Three Scenarios to Guide Your Global Supply Chain Recovery]
-* Harvard Business Review https://hbr.org/2014/01/from-superstorms-to-factory-fires-managing-unpredictable-supply-chain-disruptions[Managing Unpredictable Supply-Chain Disruptions]
-* IBM https://www.ibm.com/blog/supply-chain-visibility-tool/[The missing link: Why visibility is essential to creating a resilient supply chain]
-* IBM https://www.ibm.com/blogs/internet-of-things/sustainable-operations-one-asset-at-a-time/[How to create more sustainable operations – one asset at a time]
-
-=== Contributors
+== Contributors
 
 * Iain Boyle, Chief Architect, Red Hat
 * Anthony Giles, Business Automation Technical Specialist, IBM
@@ -236,5 +234,5 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/demandrisk.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/disasterreadiness.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
 
