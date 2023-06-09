@@ -205,6 +205,7 @@ https://www.redhat.com/architect/portfolio/detail/36-supply-chain-optimization[S
 
 == Contributors
 
+* Ashok Iyengar, Executive Cloud Architect, IBM
 * Iain Boyle, Chief Architect, Red Hat
 * Mike Lee, Principal AI Ops Technical Specialist, IBM
 * James Stewart, Principle Account Technical Leader, IBM
