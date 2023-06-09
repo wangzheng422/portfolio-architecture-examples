@@ -71,7 +71,8 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 _Figure 1. Solution overview showing business drivers and the main technology categories._
 
 
-== Summary video (coming soon)
+== Summary video
+video::G59rfI7D_T8[youtube]
 
 == Logical diagram
 
