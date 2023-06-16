@@ -9,22 +9,24 @@ Fatih Nar https://www.linkedin.com/in/fenar/  Ishu Verma  @IoT_Ishu, Fatih Nar, 
 :toc: left
 :toclevels: 5
 
-
-Cloud-ready OSS and BSS architectures can help telco network operators provide next-gen 5G and 6G communication solutions more efficiently and reliably.
-Operational support systems (OSS) are the information processing systems that manage communications networks. These systems allow an organization to coordinate customers, services, resources, processes, and activities. They assist service providers in designing, building, operating, and maintaining communications networks.
-Business support systems (BSS) provide business and customer-facing functionality. BSS tools allow an organization to connect with partners and customers (using services called customer relationship management, or CRM), create offerings, issue bills to customers, and generate inter-business transactions such as settlements and point-of-interconnect.
-
-====
-*Telco OSS/BSS Modernization*
-
-====
+_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
 *Use case:* Build next-generation cloud-ready OSS and BSS solution that can can offer next-generation communication solutions with a multi-cloud approach
 
+*Background* Cloud-ready OSS and BSS architectures can help telco network operators provide next-gen 5G and 6G communication solutions more efficiently and reliably.
+Operational support systems (OSS) are the information processing systems that manage communications networks. These systems allow an organization to coordinate customers, services, resources, processes, and activities. They assist service providers in designing, building, operating, and maintaining communications networks.
+Business support systems (BSS) provide business and customer-facing functionality. BSS tools allow an organization to connect with partners and customers (using services called customer relationship management, or CRM), create offerings, issue bills to customers, and generate inter-business transactions such as settlements and point-of-interconnect.
+
+== Solution overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-oss-bss-marketing-slide.png[750,700]
 --
 
+== Summary video
+video::rKSzodsad2k[youtube]
+
+
+== Logical diagrams
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-oss-bss-ld.png[750, 700]
@@ -60,12 +62,13 @@ The OSS and BSS portfolio architecture is based the following design principles:
 *Self-organized autonomous systems*: Self-aware and self-scaling complete OSS/BSS solutions, from infrastructure to platform to OSS/BSS application set, are integral to the design.
 
 
+== Architectures
 
+=== OSS/BSS with Hyperscalers
+--
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-oss-bss-sa-sd.png[750, 700]
+--
 
-== OSS/BSS with Hyperscalers
---
-image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/.png[750, 700]
---
 
 *Layered solution*
 This solution recommends creating an abstracted, layered approach based on these application-set placement locations:
@@ -93,4 +96,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/telco-5g-with-hyperscalers.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/telco-oss-bss.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
