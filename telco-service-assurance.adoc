@@ -43,6 +43,9 @@ Figure 2 provides a high-level view of service assurance with a next-generation 
 3. High-performance event streaming using Apache Kafka.
 4. AI-backed applications enabling flexibility with respect to new data streams, predictive and reactive automated network management, and analytics.
 
+== Summary video
+video::rKSzodsad2k[youtube]
+
 == Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-oss-bss-sa-ld.png[alt="Logical view of OSS solution", width=700]
@@ -102,4 +105,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/telco-oss-bss-sa.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/telco-service-assurance.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
