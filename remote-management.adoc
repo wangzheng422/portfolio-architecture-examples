@@ -10,93 +10,90 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Providing remote management for a consist server estate across hybrid cloud and data centers with remote
-management, security, and  data protection for full lifecycle.
+*Use case:* Provide remote management so that a server environment is consistent, secure, and has associated data protected across a hybrid cloud and data centers for its full lifecycle.
 
-*Background:* As more and more enterprises are deployed across different data
-centers and public and/or private clouds, it is important to provide consistency and security in an automated way
-across all of the the servers in order to reduce risk and costs.
+
+*Background:* As more and more enterprises deploy across different data centers, public and/or private clouds, and edge locations, it is important to maintain consistency and security in an automated way across all of the servers in order to reduce risk and costs. Remote server management can also help to improve uptime by helping IT staff to quickly identify and resolve problems, while cloud services can provide valuable insights that can help optimize and secure the entire environment.
+
 
 == Solution overview
 
-This architecture covers remote server management. 
+Figure 1 provides an overview of the major components in a cloud or data center together with the components doing the remote management. These provide:
 
-====
-*Why Remote Server Management?*
-
-. Consistency of RHEL estate across all public clouds and datacenters
-. Full lifecycle management 
+. Consistency of a Red Hat Enterprise Linux (RHEL) environment across all public clouds and data centers
+. Full lifecycle management
 . Remote management and automation
-====
+
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/rsm-marketing-slide.png[750,700]
 --
 
+_Figure 1. Remote management solution overview showing the major components of the architecture and some key business drivers._
+
 
 == Logical diagram
+
+Figure 2 provides additional detail in the form of a logical view of the cloud services, the core data center, and the hybrid cloud infrastructure.
+
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/rsm-ld.png[750, 700]
 --
+
+_Figure 2. Logical diagram of the primary building blocks associated with the solution._
+
 
 == The technology
 
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery.
 
-https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization.
-The platform includes all the tools needed to implement enterprise-wide automation.
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] provides a framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams. The platform includes all the tools needed to implement enterprise-wide automation.
 
-https://www.redhat.com/en/technologies/management/insights?intcmp=7013a00000318EWAAY[*Red Hat Insights*] continuously analyzes platforms and applications to predict risk, recommend actions, and track
-costs so enterprises can better manage hybrid cloud environments.
+https://www.redhat.com/en/technologies/management/insights?intcmp=7013a00000318EWAAY[*Red Hat Insights*] continuously analyzes platforms and applications to predict risk, recommend actions, and track costs so enterprises can better manage hybrid cloud environments.
 
-https://www.redhat.com/en/technologies/management/smart-management?intcmp=7013a00000318EWAAY[*Red Hat Smart Management*] combines the flexible and powerful infrastructure management capabilities with the
-ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise
-Linux, from physical machines to hybrid multiclouds.
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. Red Hat OpenShift Data Foundation integrates a collection of software projects, including Ceph to provide block storage, a shared and distributed file system, and on-prem object storage.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage
-services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
-quickly and efficiently across clouds.
 
-https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
-environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
+https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux environments and other Red Hat infrastructure running efficiently, securely, and compliantly.
 
-https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318EWAAY[*Red Hat Quay*] is a private container registry that stores, builds, and deploys container images. It analyzes your
-images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments.
+https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318EWAAY[*Red Hat Quay*] is a private container registry that stores, builds, and deploys container images. It analyzes your images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
+
+
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS) that’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
+
 ====
 
 == Architectures
-=== Remote Server Management
+
+Figures 3 and 4 provide a schematic view of the remote server management solution from network- and data-centric perspectives respectively. The two diagrams are summarized below.
+
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-network-sd.png[750, 700]
 --
 
-This overview looks at Remote Server Managment, providing the solution details and the elements described above in both a
-network and data centric view:
+_Figure 3. Schematic diagram of the remote server management solution from a network-centric perspective._
 
-The architecture is designed to automate the deployment and managment of servers no matter their location in your chosen cloud
-architecture. The core data center is where an organizations images are built (where the application source code are in a
-source code management system (SCM)) and deployed to the image store found in the core data center.
 
-Infrastructure management uses automation orchestration together with smart management to automate the delivery of images to the
-desired cloud infrastructure destinations (physical data center, private cloud, or public cloud). There the OpenShift platform 
-ensures the images are deployed for use. Note that this diagram also features edge or remote deployments, ensuring through the use
-of automation orchestration that the edge applications and edge devices are managed alongside the rest of the cloud infrastructure.
-
-Cloud services from Red Hat provide centralized automation analytics, insights into the core services across the deployed cloud
-architecture, and management insights used to maintain the catalog of activites used in automating the management of all remote
-infrastructure.
-
-=== Remote Server Management data view
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/rsm-data-sd.png[750, 700]
 --
+
+_Figure 4. Schematic diagram of the remote server management solution from a data-centric perspective._
+
+The architecture is designed to automate the deployment and management of servers, no matter their location in your chosen cloud architecture. The core data center is where an organization’s images are built and deployed to the image store found in the core data center. It’s also where the application source code resides in a source code management system (SCM).
+
+Infrastructure management uses automation orchestration together with Red Hat Satellite to automate the delivery of images to the desired cloud infrastructure destinations (physical data center, private cloud, or public cloud). There the Red Hat OpenShift platform ensures the images are deployed for use. Note that these diagrams also feature edge or remote deployments; through the use of automation orchestration the edge applications and edge devices are managed alongside the rest of the cloud infrastructure.
+
+Cloud services from Red Hat provide centralized automation analytics, insights into the core services across the deployed cloud architecture, and management insights used to maintain the catalog of activities automating the management of all remote infrastructure.
+
+
+
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
