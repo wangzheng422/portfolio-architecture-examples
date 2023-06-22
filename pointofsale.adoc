@@ -1,4 +1,4 @@
-= Point of Sale
+= Modernizing a Retail Point of Sale Infrastructure
 Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
@@ -9,20 +9,30 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Simplifying and modernizing central management of distributed point-of-sale devices with built in support
-for container based applications.
+*Use case:* Simplifying and modernizing central management of distributed point-of-sale devices with built in support for container based applications.
+
 
 *Background:* Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
 earn a profit. A point of sale, or point of purchase, is where you ring up customers. When customers check out online,
 walk up to your counter, or pick out an item from your stand or booth, they're at the point of sale. Your point-of-sale
 system is the hardware and software that enables your business to make those sales.
 
+PoS systems are critical to businesses selling products and services because they help enable:
+
+. Improved efficiency: PoS systems can help businesses improve efficiency by automating many of the tasks involved in sales and inventory management. This can free up employees to focus on other tasks, such as customer service.
+. Increased sales: PoS systems can help businesses increase sales by providing insights into customer behavior and trends. This information can be used to create targeted marketing campaigns and promotions.
+. Better customer service: PoS systems can help businesses provide better customer service by providing a more efficient and convenient checkout process. This can lead to increased customer satisfaction and loyalty.
+
+
 == Solution overview
+
+As shown in Figure 1, there are several important considerations that apply across PoS systems in general which will affect the degree to which a business can drive the types of value listed above:
+
 ====
 *Business Drivers for Point of Sale*
 
 . Remote management of all PoS 
-. Consistency of PoS estate; security and updates
+. Consistency of PoS environment—including security and updates
 . Automated build, manage, and deployment
 ====
 
@@ -31,36 +41,42 @@ system is the hardware and software that enables your business to make those sal
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/pos-marketing-slide.png[750,700]
 --
 
+_Figure 1. High-level view of a PoS architecture, showing the major components and important drivers for getting the most business value out of a PoS architecture._
+
 == Logical diagram
+
+Figure 2 shows the major logical groupings of the PoS system. These are the PoS itself, the store server, infrastructure services, and the PoS CI/CD.
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-pos-ld.png[750, 700]
 --
+
+_Figure 2. Logical diagram of a PoS architecture showing the main functional groupings._
+
+
 
 == The technology
 
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery.
 
-https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization.
-The platform includes all the tools needed to implement enterprise-wide automation.
 
-https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and
-data across hybrid infrastructures.
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] provides a framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams. The platform includes all the tools needed to implement enterprise-wide automation.
 
-https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux
-environments and other Red Hat infrastructure running efficiently, with security, and compliant with various standards.
 
-https://www.redhat.com/en/technologies/storage/ceph?intcmp=7013a00000318EWAAY[*Red Hat Ceph Storage*] is an open, massively scalable, simplified storage solution for modern data pipelines.
-Engineered for data analytics, artificial intelligence/machine learning (AI/ML), and emerging workloads, it delivers
-software-defined storage on your choice of industry-standard hardware.
+https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments.
+
+https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] is an infrastructure management product specifically designed to keep Red Hat Enterprise Linux environments and other Red Hat infrastructure running efficiently, securely, and compliantly.
+
+
+https://www.redhat.com/en/technologies/storage/ceph?intcmp=7013a00000318EWAAY[*Red Hat Ceph Storage*] is an open, massively scalable, simplified storage solution for modern data pipelines. Engineered for data analytics, artificial intelligence/machine learning (AI/ML), and emerging workloads, it delivers software-defined storage on your choice of industry-standard hardware.
+
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS) that’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
+
 ====
 
 == Architectures
@@ -70,20 +86,14 @@ virtual, container, and all types of cloud environments.
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-pos-sd.png[750, 700]
 --
 
-The above diagram demonstrates a solution to deliver images of point of sale devices and store applications across
-diverse retail landscapes. It tackles the challenges of standardizing how to support both legacy infrastructure needs
-at the point of sale, as well as positioning a retail organization for the cloud native development future of their
-business.
+_Figure 3. Schematic diagram for PoS image delivery._
 
-The SKU Catalog is maintained with available items for sale in the running inventory. The sales data cache is where
-all sales activities are collected and held for sharing to the retail organization. Point of sale is an onsite
-application and is the main focus of providing an end point application image pipeline for use throughout the retail
-organization.
+Figure 3 shows a solution to deliver images of point of sale devices and store applications across diverse retail environments. It tackles the challenges of standardizing support for both legacy infrastructure at the point of sale, while also positioning a retail organization for the cloud-native development future of their business.
 
-The store server is a part of the infrastructure that hosts the elements needed to facilitate on site point of sale
-image pipelines and the daily management of communication, sales data, and stock control information. The SKU Catalog
-takes input from each point of sale in the store. The image cache hosts the retail organizations centrally developed
-collection of point of sale images.
+The SKU Catalog is maintained with available items for sale in the running inventory. The sales data cache is where all sales activities are collected and held for sharing to the retail organization. Point of sale is an onsite application and is the main focus of providing an end point application image pipeline for use throughout the retail organization.
+
+The store server is a part of the infrastructure that hosts the elements needed to facilitate on-site point of sale image pipelines and the daily management of communication, sales data, and stock control information. The SKU Catalog takes input from each point of sale in the store. The image cache hosts the retail organizations centrally developed collection of point of sale images.
+
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
