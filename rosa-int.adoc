@@ -55,7 +55,7 @@ https://aws.amazon.com/[*Amazon Web Services Cloud*] is the hyperscaler platform
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift/aws?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Service on AWS (ROSA)*]  is a service on AWS cloud that allows the deployment of fully-managed OpenShift clusters which provide an enterprise container platform built on Kubernetes. It provides the same functionalities as on-premises Red Hat OpenShift. Support is provided jointly by AWS and Red Hat as well as maintenance operations to keep it up to date and compliant with both AWS and Red Hat’s recommendations.
 
-https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] iis a set of integration and messaging technologies that uses an API-first approach to create reusable and modular integrations. This enables the communication between 3rd party apps and SAP, as well as between the extensions and custom code that customers will develop outside of the SAP core. One of the technologies, Camel, has a specific component for SAP (SAP Netweaver) that uses the main protocols utilized by SAP (RFC, iDoc, OData).
+https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a set of integration and messaging technologies that uses an API-first approach to create reusable and modular integrations. This enables the communication between 3rd party apps and SAP, as well as between the extensions and custom code that customers will develop outside of the SAP core. One of the technologies, Camel, has a specific component for SAP (SAP Netweaver) that uses the main protocols utilized by SAP (RFC, iDoc, OData).
 
 == Architectures
 === AWS ROSA public cluster
