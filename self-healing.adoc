@@ -40,7 +40,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 == The technology
 
 ====
-https://www.redhat.com/en/technologies/management/smart-management?intcmp=7013a00000318EWAAY[*Red Hat Smart Management*] securely manages any environment supported by Red Hat Enterprise Linux.
+https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] securely manages any environment supported by Red Hat Enterprise Linux.
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is used for adding a powerful layer of automation to a customer's environment, and can be leveraged as
 another means of distributing remediation throughout an estate.
@@ -56,7 +56,7 @@ https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-net.png[alt="All that is needed to enable efficient communications in a self healing architecture is a very simple network mapping between the managed infrastructure, the automation and management tools, and Red Hat", width=700]
 --
 
-In this network configuration, you can see the internal network depicted in light blue, where all that is required on the customer estate is the hosted client systems, Red Hat Smart Management, and Red Hat Ansible Automation Platform. These are able to simply communicate amongst themselves on an internal network. From here, Ansible and Smart Management connect on a secure network out to Red Hat, where the data is then processed by Red Hat Insights, and displayed on the Hybrid Cloud Console, of which they communicate to each other internally within Red Hat's network. Once processed, that data is passed back to Ansible and Smart Management on the same channel as originally. 
+In this network configuration, you can see the internal network depicted in light blue, where all that is required on the customer estate is the hosted client systems, Red Hat Satellite, and Red Hat Ansible Automation Platform. These are able to simply communicate amongst themselves on an internal network. From here, Ansible and Satellite connect on a secure network out to Red Hat, where the data is then processed by Red Hat Insights, and displayed on the Hybrid Cloud Console, of which they communicate to each other internally within Red Hat's network. Once processed, that data is passed back to Ansible and Satellite on the same channel as originally. 
 
 
 === Self-Healing Infrastructure (data)
@@ -76,10 +76,10 @@ remediations to Ansible Automation Platform.
 Explicitly stepping through the process:  
  
 1. Client hosts register to Satellite which initially collects RHEL system data for Red Hat Insights.  
-2. Smart Management and Ansible Automation Platform secure connections to the Hybrid Cloud Console.  
+2. Satellite and Ansible Automation Platform secure connections to the Hybrid Cloud Console.  
 3. Anonymized data is analyzed by Red Hat:  
         - Insights services analyze data against known issues as well as customer defined parameters.  
-                * Insights for RHEL generate remediation plans and configures playbooks to return to the Smart Management platform.  
+                * Insights for RHEL generate remediation plans and configures playbooks to return to the Satellite platform.  
                 * Insights for Ansible generates remediation to return to the automation controller.  
 4. Remediation assets download to Satellite from Red Hat hosted Insights, on-demand.  
 5. RHEL remediation is delivered to the client systems.  
