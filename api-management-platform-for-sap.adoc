@@ -53,11 +53,13 @@ tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provi
 available foundation for business-critical SAP and non-SAP workloads.
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. It provides the foundation for Red Hat Integration which has the components needed for SAP and non-SAP workloads to communicate. Furthermore, it’s the platform on which new cloud native applications that talk to the SAP core can be developed. In this portfolio architecture, Red Hat Openshift also provides a PostgreSQL database that is used to cache data from SAP that will be used by business intelligence (BI) applications for reporting.
+
 https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a set of integration and messaging technologies that form a containerized and API-centric solution. It runs on Red Hat OpenShift and includes, among the many integration components, some specific to SAP. Red Hat Fuse is one of its elements. It uses Camel, specifically its SAP NetWeaver component, to allow SAP and non-SAP applications to connect to SAP. NetWeaver-based instances (classic Netweaver or SAP S/4HANA) can use RFC, iDoc, and OData protocols. Function modules and BAPIs (Business APIs) can be triggered in the SAP core and thereby access data structures directly. All this is achieved by creating and exposing API endpoints. Red Hat 3Scale is another component of Red Hat Integration used in this portfolio architecture to manage the access by applications to the APIs exposed by Red Hat Fuse.
 ====
 
 == Architectures
 Figures 3, 4, and 5 are schematic diagrams that dive into invoking SAP functions, retrieving data from SAP, and using cached data use cases.
+
 === Invoke SAP functions use case
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/sap-integration-invoke-data.png[alt="Non-SAP systems invoke functions via BAPIs in the SAP backend using APIs created in Red Hat Fuse and exposed in Red Hat 3Scale as API gateway", width=700]
