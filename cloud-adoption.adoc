@@ -1,4 +1,4 @@
-= Cloud Adoption
+= Adopting Cloud for Application Workloads
 Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
@@ -52,14 +52,14 @@ environment supported by Red Hat Enterprise Linux, from physical machines to hyb
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] facilitates consistent,repeatable,and tested infrastructure automation tasks as
 needed by the other elements managing the hybrid cloud. This element is directed to execute based on the findings of
-the smart management element.
+the smart management element. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318EWAAY[*Red Hat Quay*] is part of the Core Data Center, it is a private container registry that stores, builds, and deploys container
 images. It analyzes your images for security vulnerabilities, identifying potential issues that can help you mitigate
-security risks.
+security risks. https://www.redhat.com/en/technologies/cloud-computing/quay/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] (RHEL) is the host element with an image registry to facilitate the deployment of infrastructure,
-services, and applications across the entire hybrid cloud infrastructure.
+services, and applications across the entire hybrid cloud infrastructure. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/management/?intcmp=7013a00000318EWAAY[*Red Hat Insights*] is the key to monitoring and data collection around the entire hybrid cloud infrastructure. Based on
 this data and working together with insights services, automated actions can take place around updates, security patches,
