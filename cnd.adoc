@@ -1,4 +1,4 @@
-= Cloud Native Development
+= Building Your Cloud Native Applications
  Eric D. Schabell @eschabell
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
@@ -49,15 +49,15 @@ The following technology was chosen for this solution:
 ====
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform to orchestrate the containerized applications,
 enable agile DevOps development with automated CI/CD workflows, for shorter lead time for change, mean time to recovery.
-And increase deployment frequency, plus lowering the change failure rate.
+And increase deployment frequency, plus lowering the change failure rate. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318EWAAY[*Red Hat Quay*] the image registry for the enterprise. That provides storage for containers within the enterprise. Not
 only stores pulls from approved external image registries, but also stores the built images from automated CI/CD
-workflow.
+workflow. https://www.redhat.com/en/technologies/cloud-computing/quay/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] enhanced cloud delivery model and simplify continuous delivery of applications with
 frameworks such as Spring Boot and Quarkus. Developer IDE support development  with tooling connects directly to the
-platform and support and build in cloud native way.
+platform and support and build in cloud native way. 
 
 https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] cloud native favors microservice style applications, integration helps to connect and orchestrate
 microservices with support for creating API, API management and messaging or streaming data across the systems.

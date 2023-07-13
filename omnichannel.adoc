@@ -53,18 +53,18 @@ consumer applications with backend systems or third party services. With support
 data streams.
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] software-defined storage for containers. For real-time data storage and analysis,
-realizations of logical storage definitions as needed by applications, processes or services.
+realizations of logical storage definitions as needed by applications, processes or services. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/products/runtime?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] Foundation to build microservices. Support cloud native development strategy with built-in
 build and deployment support. Also includes Single Sign On solution that can  be tied into existing organizational
 directories.
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] Kubernetes container platform for orchestrating, managing, handling deployments, auto scaling of
-the containerized application.
+the containerized application. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments.
+virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 ====
 
 == Architectures
