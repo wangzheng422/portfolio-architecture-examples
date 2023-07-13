@@ -43,7 +43,7 @@ The following technology was chosen for this solution:
 
 ====
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/products/middleware?intcmp=7013a00000318EWAAY[*Red Hat Application Services*] helps organizations use the cloud delivery model and simplify continuous delivery of
 applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
@@ -53,18 +53,18 @@ https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4?in
 
 https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management*] for Kubernetes controls clusters and applications from a single console, with
 built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
-enforcing policies across multiple clusters at scale.
+enforcing policies across multiple clusters at scale. https://www.redhat.com/en/technologies/management/advanced-cluster-management/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318EWAAY[*Red Hat Quay*] is a private container registry that stores, builds, and deploys container images. It analyzes your
-images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.
+images for security vulnerabilities, identifying potential issues that can help you mitigate security risks. https://www.redhat.com/en/technologies/cloud-computing/quay/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
-quickly and efficiently across clouds.
+quickly and efficiently across clouds. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments.
+virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 ====
 
 

@@ -43,11 +43,11 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] securely manages any environment supported by Red Hat Enterprise Linux.
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is used for adding a powerful layer of automation to a customer's environment, and can be leveraged as
-another means of distributing remediation throughout an estate.
+another means of distributing remediation throughout an estate. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/management/insights?intcmp=7013a00000318EWAAY[*Red Hat Insights*] services each perform their individual functions, and the customer can choose which services fit their specific needs. For example, Compliance will assess a systems status against a set of compliance rules, and Vulnerability assesses any security risks that may be currently active in the environment.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 ====
 
 == Architectures
