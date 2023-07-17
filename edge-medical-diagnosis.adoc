@@ -6,94 +6,150 @@ Eric D. Schabell @eschabell
 :source-highlighter: prettify
 :toc: left
 
+_Updated July 2023._
+
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Accelerating medical diagnosis using condition detection in medical imagery with AI/ML in Edge computing at medical facilities.
+== Use cases 
 
+* Accelerating medical diagnosis using condition detection in medical imagery with (artificial intelligence/machine learning) AI/ML in edge computing at medical facilities
+* Specific use case of skin cancer detection
+
+== Background 
+
+The current detection process for many types of medical conditions, including skin cancers. For example, in the last decade, photographing suspect or at risk patches of skin is becoming common to be able to check their development over time. 
+
+AI lends itself to being effectively a medical assistant in medical imaging in a variety of ways, including:
+
+* Automating tasks: AI can be used to automate tasks such as image segmentation, which is the process of identifying and isolating different parts of an image. This can free up radiologists to focus on more complex tasks, such as interpreting images.
+
+* Detecting abnormalities: AI can be used to detect abnormalities in medical images that may be invisible to the human eye. This is especially useful for detecting small or subtle changes that can be early signs of disease.
+
+* Personalizing treatment: AI can be used to personalize treatment for patients based on their individual medical imaging data. This can help to ensure that patients receive the most effective treatment possible.
+
+* Providing clinical decision support: AI can be used to provide clinical decision support to radiologists and other healthcare professionals. This can help them to make more informed decisions about patient care.
+
+There are challenges to using AI in this manner such as explainability of results, the use of training data while maintaining confidentiality, and algorithm validation. Nonetheless,  AI has the potential to make a significant impact on medical imaging. As the technology continues to develop, we can expect to see even more innovative and beneficial applications of AI in this field.
 
 
 
 == Solution overview
 
-This architecture covers the use case around Edge Medical Diagnosis in the healthcare industry. The solution provides a way to increase efficiency of a medical facility by reducing time spent on routine diagnosis and medical diagnosis of disease. This gives the medical expert time to focus on the difficult cases.
+This architecture, for which Figure 1 provides an overview, covers the use case around Edge Medical Diagnosis in the healthcare industry and drills down on skin cancer detection in particular. The solution provides a way to increase efficiency of a medical facility by reducing time spent on routine diagnosis and medical diagnosis of disease. This gives  medical experts more time to focus on the difficult cases.
 
 ====
 *Why Edge Medical Diagnosis?*
 
-. Need for faster medical diagnosis of diseases
-. Provide expert-assist to medical experts to reduce time spent on routine diagnosis
-. Focus medical expert time on most difficult to interpret cases
+* Need for faster medical diagnosis of diseases
+* Provide expert-assist to medical experts to reduce time spent on routine diagnosis
+* Focus medical expert time on most difficult to interpret cases
 ====
 
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/edge-medical-diagnosis-marketing-slide.png[750,700]
 --
+_Figure 1. Overview of Edge Medical Diagnosis architecture._
+
+== Summary video (coming soon)
 
 == Logical diagram
+
+Figure 2 shows a logical diagram of the solution including the frontend application, the intelligent services, storage, and deployment and management tools.
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/edge-medical-diagnosis-details-ld.png[750, 700]
 --
+_Figure 2. Logical diagram of Edge Medical Diagnosis solution._
 
 == The technology
 
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is a software-defined storage services for X-ray images, continuous deployment models, analytics, AI/ML datasets and models, provisioned across multi-cloud environments. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*] Red Hat OpenShift Data Foundation is software-defined storage for containers. Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. For the purposes of this solution, it provides storage services for medical imagery, continuous deployment models, analytics, and AI/ML datasets and models, allowing them to be provisioned across multiple cloud environments. Diagnosis models can be continuously trained and updated, resulting in a streamlined workflow for a more rapid, agile application lifecycle. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] develops, trains, and tests for AI/ML modeling and visualization in sandbox environment. Diagnosis models are being continuously trained and updated, this streamline workflow allows a more rapid, agile application lifecycle. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4?intcmp=7013a00000318EWAAY[*Red Hat AMQ Streams*] is a data streaming platform with high throughput and low latency. Streams images and registration events to corresponding microservices to automated diagnosis. Relay diagnosis result for further process, and broadcast notifications.
+https://www.redhat.com/en/technologies/jboss-middleware/amq?intcmp=7013a00000318EWAAY[*Red Hat AMQ*] is a lightweight messaging platform for real-time integration. Based on open source communities like Apache ActiveMQ and Apache Kafka, it reliably and scalably delivers information like pricing updates, order acknowledgements, and delivery schedules between distributed endpoints such as distribution centers, warehouses, storefronts, and headquarters.
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Serverless*] provides event-driven functions and scales up based on an event trigger. Medical application scales down to zero for resource optimization, and starts up with minimal bootstrap time when it is required. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift GitOps*] automates the deployment of the edge medical diagnosis elements, pick up changes from code repository into the CI/CD pipelines and trigger image build and deploys into clouds.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] Kubernetes container platform with both Serverless and GitOps mentioned above. It provides a consistent application platform to manage supports for full automated workflow and flexible, scalable resource usage. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+Red Hat OpenShift includes OpenShift Serverless based on the open source Knative project. It delivers Kubernetes-native primitives to build event-driven microservices, containers, and compatible Function-as-a-Service (FaaS) applications on the platform. Lets developers write serverless applications using containers based on standards and with portability. Using the serverless model, an application can consume compute resources and automatically scale up or down based on use. This removes the overhead of server provisioning and maintenance from the developer.
+
+OpenShift also include Red Hat OpenShift GitOps, an operator for Red Hat OpenShift that helps customers to adopt GitOps principles for cluster management and application delivery. It's elivered via an operator through the Operator Hub. In this architecture, it automates the deployment of the edge medical diagnosis elements, picks up changes from code repository into the CI/CD pipelines, triggers image builds, and deploys into clouds.
+
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—-from development and operations to security and network teams. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+
+https://www.ibm.com/products/ceph[*IBM Storage Ceph*] is a software-defined storage solution for block storage, file storage, and object storage used for images, continuous deployment models, analytics, AI/ML datasets and models.
+
+https://www.ibm.com/cloud/watson-studio[*IBM Watson Studio*] develops, trains, and tests for AI/ML modeling and visualization in sandbox environment. Diagnosis models are being continuously trained and updated, this streamline workflow allows a more rapid, agile application lifecycle.
 ====
 
 == Architectures
+
+Figure 3 provides a network-centric view of the general Edge Medical Diagnosis solution. Figure 4 shows into GitOps deliver and deployment. Figure 5 looks specifically at the skin cancer detection use case which includes IBM Watson Studio technology.
 
 === Edge Medical Diagnosis overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-network-sd.png[750, 700]
 --
 
-This is an overview look at Edge Medical Diagnosis, providing the solution details and the elements described above in both a network and data centric view.
+_Figure 3. Network-centric schematic view of Edge Medical Diagnosis architecture._
 
-The overview splits the solution into two distinct locations; the diagnostic facility where the medical staff and
+The solution shown in Figure 3 has two distinct locations: the diagnostic facility where the medical staff and
 the edge x-ray devices are located and the medical data center where development and monitoring of the solution takes
 place.
 
 Initial images are sent into the diagnostic facility image receiver and register an event to start the processing
 for automated diagnosis. These images are stored locally, anonymized, and automatically evaluated for possible
-disease detection. A notification is generated for the medical staff, either automated detection, non-detection, or
-an edge case needing qualified medical staff review.
+disease detection. A notification is generated for the medical staff, whether automated detection, non-detection, or
+an edge case especially requiring qualified medical staff review. (In many cases, medical staff will want to give at lerast a quick review of detection and non-detection cases as well.)
 
 In the process of image capture and processing, the images are sent back to the medical data center to be added
 to the collection used for model training and development. The applications, machine learning models, data science
-development and dashboards for monitoring the processes are all in constant evolution. Developers and operations
-teams are maintaining code and infrastructure manifests for full GitOps deployment of the architectural elements.
+development, and dashboards for monitoring the processes are all in constant evolution. Developers and operations
+teams maintain code and infrastructure manifests for full GitOps deployment of the architectural elements.
 
 === Edge Medical Diagnosis with GitOps
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/edge-medical-diagnosis-gitops-sd.png[750, 700]
 
 --
+_Figure 4. Schematic view of Edge Medical Diagnosis architecture with a focus on GitOps delivery and deployment._
 
-GitOps delivery and development are essential to a fully automated cloud hosted solution. This schematic diagram features the elements focusing only on development and deployment of the Edge Medical Diagnosis elements needed for this solution. It removes the patient facing medical staff and the edge image capturing, instead featuring developer and IT operations staff on the back end.
+GitOps delivery and development are essential to a fully automated cloud hosted solution. This schematic diagram features the elements focusing only on development and deployment of the Edge Medical Diagnosis elements needed for this solution. It does not show the patient-facing medical staff and the edge image capturing; rather it features developer and IT operations staff on the back end.
 
-In the medical data center, developers deliver code projects into the CI/CD pipelines and trigger eventual container image builds put into the registry. The same is happening on the IT operations side, where system configuration and
+In the medical data center, developers deliver code projects into the CI/CD pipelines and trigger eventual container image builds that are placed into the registry. The same thing happens on the IT operations side, where system configuration and
 manifest code is maintained in their repository.
 
 The developer image registry is replicated out to the image registry in the remote diagnostic facility and the source code repository for IT operations is also replicated out to the remote location. These both are setup to
 trigger the GitOps pipelines to sync updates to the image registry and the operation's source code repository to the OpenShift platform. This means it's deploying, configuring, and applying manifests to the applications and services
 used to process the medical diagnosis imaging solution.
+
+=== Skin Cancer Detection use case
+
+Figure 5 shows a Skin Cancer Detection use case that includes IBM data science and storage components.
+
+--
+image:https://www.redhat.com/architect/portfolio/repo/images/schematic-diagrams/skin-cancer-detection-sd.png[750.700]
+--
+_Figure 5. Schematic view of Skin Cancer Detection architecture that includes IBM data science and storage components._
+
+The schematic in Figure 5 focuses on the datacenter side of the system. This specific focus is needed since the images can be acquired in different ways from the various devices that can be used to acquire such images. In case those devices are connecting to smartphones or tables, an application can be installed on those devices. If those devices communicate with a computer, it can host such an application.
+
+The chosen device connected to the image acquirer tool transfers the images to the Image Upload Application. The Image Upload Application saves the image metadata in a database; the image itself is saved in an object storage provided by IBM Storage Ceph. The database is backed by IBM Storage Ceph block storage. Additionally, the Image Upload Application will also place a message into AMQ to ensure the image will be processed.
+
+IBM Watson watches the AMQ (Kafka) incoming-images queue and processes incoming images; it returns the result to the doctor via the notification service.
+
+The doctors' diagnoses based on the images and the results of biopsies, where available, can be used to retrain the AI/ML model periodically to improve the accuracy and the precision of the model. The applications, machine learning models, data science development, and dashboards for monitoring the processes are all in constant evolution. Developers and operation teams maintain code and infrastructure manifests for full GitOps deployment of the architectural elements. The installation and management of all components in the environment is done with automation using Ansible, which helps create a predictable and auditable enviornment.
+
+
+
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
