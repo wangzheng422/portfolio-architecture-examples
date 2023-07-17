@@ -51,7 +51,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 --
 _Figure 1. Overview of Edge Medical Diagnosis architecture._
 
-== Summary video
+== Summary video (coming soon)
 
 == Logical diagram
 
@@ -66,7 +66,7 @@ _Figure 2. Logical diagram of Edge Medical Diagnosis solution._
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*] Red Hat OpenShift Data Foundation is software-defined storage for containers. Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. For the purposes of this solution, it provides storage services for medical imagery, continuous deployment models, analytics, and AI/ML datasets and models, allowing them to be provisioned across multiple cloud environments. Diagnosis models can be continuously trained and updated, resulting in a streamlined workflow for a more rapid, agile application lifecycle.
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*] Red Hat OpenShift Data Foundation is software-defined storage for containers. Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. For the purposes of this solution, it provides storage services for medical imagery, continuous deployment models, analytics, and AI/ML datasets and models, allowing them to be provisioned across multiple cloud environments. Diagnosis models can be continuously trained and updated, resulting in a streamlined workflow for a more rapid, agile application lifecycle. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 
 https://www.redhat.com/en/technologies/jboss-middleware/amq?intcmp=7013a00000318EWAAY[*Red Hat AMQ*] is a lightweight messaging platform for real-time integration. Based on open source communities like Apache ActiveMQ and Apache Kafka, it reliably and scalably delivers information like pricing updates, order acknowledgements, and delivery schedules between distributed endpoints such as distribution centers, warehouses, storefronts, and headquarters.
@@ -75,15 +75,15 @@ https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift GitOps*] automates the deployment of the edge medical diagnosis elements, pick up changes from code repository into the CI/CD pipelines and trigger image build and deploys into clouds.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 Red Hat OpenShift includes OpenShift Serverless based on the open source Knative project. It delivers Kubernetes-native primitives to build event-driven microservices, containers, and compatible Function-as-a-Service (FaaS) applications on the platform. Lets developers write serverless applications using containers based on standards and with portability. Using the serverless model, an application can consume compute resources and automatically scale up or down based on use. This removes the overhead of server provisioning and maintenance from the developer.
 
 OpenShift also include Red Hat OpenShift GitOps, an operator for Red Hat OpenShift that helps customers to adopt GitOps principles for cluster management and application delivery. It's elivered via an operator through the Operator Hub. In this architecture, it automates the deployment of the edge medical diagnosis elements, picks up changes from code repository into the CI/CD pipelines, triggers image builds, and deploys into clouds.
 
-https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—-from development and operations to security and network teams.
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—-from development and operations to security and network teams. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments.
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.ibm.com/products/ceph[*IBM Storage Ceph*] is a software-defined storage solution for block storage, file storage, and object storage used for images, continuous deployment models, analytics, AI/ML datasets and models.
 
