@@ -64,7 +64,7 @@ The following technology was chosen for this solution:
 
 https://aws.amazon.com/[*Amazon Web Services Cloud*] is the hyperscaler cloud provider platform on which this solution is based. Figure 2 highlights some of the main services of the cloud platform that interact with the OpenShift clusters, including the AWS Container Registry and the AWS Identity and Access Management for certificate management.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/aws?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Service on AWS*] is a service on the  AWS cloud that allows users to deploy fully-managed OpenShift clusters based on the Kubernetes container platform. It provides the same functionality as Red Hat OpenShift running in other environments. Support is provided jointly by AWS and Red Hat which also run the maintenance operations to keep the service up to date and compliant with both AWS’ and Red Hat’s recommendations.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/aws?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Service on AWS*] is a service on the  AWS cloud that allows users to deploy fully-managed OpenShift clusters based on the Kubernetes container platform. It provides the same functionality as Red Hat OpenShift running in other environments. Support is provided jointly by AWS and Red Hat which also run the maintenance operations to keep the service up to date and compliant with both AWS’ and Red Hat’s recommendations. https://www.redhat.com/en/technologies/cloud-computing/openshift/aws/get-started?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 == Architectures
 === AWS ROSA public cluster

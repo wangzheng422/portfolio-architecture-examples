@@ -284,12 +284,12 @@ The following technology was chosen for this solution:
 https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[_Red
 Hat OpenShift_] Kubernetes offering, the hybrid platform offering allow
 deployment across data centers, private and public clouds as it brings
-choices and flexible for hosting system and services.
+choices and flexible for hosting system and services. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[_Red Hat
 Ansible Automation Platform_] operate, scale and delegate automate IT
 services, track changes an update inventory, prevent configuration drift
-and integrated with ITSM.
+and integrated with ITSM. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98?intcmp=7013a00000318EWAAY[_Red
 Hat OpenShift API Management_] is a managed API traffic control and

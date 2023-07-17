@@ -71,7 +71,7 @@ https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation
 
 https://www.redhat.com/en/technologies/jboss-middleware/amq?intcmp=7013a00000318EWAAY[*Red Hat AMQ*] is a lightweight messaging platform for real-time integration. Based on open source communities like Apache ActiveMQ and Apache Kafka, it reliably and scalably delivers information like pricing updates, order acknowledgements, and delivery schedules between distributed endpoints such as distribution centers, warehouses, storefronts, and headquarters.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Serverless*] provides event-driven functions and scales up based on an event trigger. Medical application scales down to zero for resource optimization, and starts up with minimal bootstrap time when it is required.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Serverless*] provides event-driven functions and scales up based on an event trigger. Medical application scales down to zero for resource optimization, and starts up with minimal bootstrap time when it is required. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift GitOps*] automates the deployment of the edge medical diagnosis elements, pick up changes from code repository into the CI/CD pipelines and trigger image build and deploys into clouds.
 
