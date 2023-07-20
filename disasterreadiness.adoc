@@ -20,11 +20,6 @@ In 2020, there were https://www.climate.gov/news-features/blogs/beyond-data/2020
 === Business Problem
 There are a wide range of possible supply chain effects. Events could result in physical damage to properties; limitations on store operating hours; the temporary closure of warehouses, depots, manufacturing or home office facilities; the temporary lack of an adequate workforce; disruptions to our IT systems; the temporary or long-term disruption in the supply of products from some local or overseas suppliers; the temporary disruption in the transport of goods to or from overseas; delays in the delivery of goods to our warehouses or depots; and the temporary reduction in the availability of products in warehouses.
 
-A central metric is time to recover (TTR), the time it would take for a particular node—a supplier facility, a distribution center, or a transportation hub—to be restored to full functionality after a disruption.
-
-The second metric is risk exposure, an assessment of exposure to risk based on a model that applies suppliers' TTR to estimate the performance impact, including operational (lost production) and financial (lost revenue and profit).
-
-
 === Metrics
 
 A central feature is time to recover (TTR), the time it would take for a particular node — a supplier facility, a distribution center, or a transportation hub — to be restored to full functionality after a disruption.
