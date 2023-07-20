@@ -16,6 +16,8 @@ This portfolio architecture addresses several main use cases for transforming su
 * https://www.redhat.com/architect/portfolio/detail/43-perfect-order[Perfect order]
 * https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
 * https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply]
+* https://www.redhat.com/architect/portfolio/detail/48-disaster-readiness[Disaster readiness]
+* https://www.redhat.com/architect/portfolio/detail/47-returns[Supply chain returns]
 
 These risk factors are described in more detail below:
 
@@ -88,7 +90,6 @@ competitor next time.
 
 For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
 
-
 === Sustainable supply chain
 
 *Sustainability* provides an opportunity to differentiate your business.
@@ -101,6 +102,23 @@ everything is on the table. Supply chains are being recalibrated. Source
 materials are evolving. Travel requests are carefully scrutinized.
 
 For more information about the solution details on this scenario, see https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply]
+
+=== Disaster readiness
+
+Disasters that affect companies can take many forms: public health, terrorism and war, and extreme weather. They can also affect companies in different ways from needing to shut down offices, help affected employees, and regain access to networks and computers. Businesses need a solution that focuses on anticipating and responding to supply chain challenges due to a wide range of disaster planning scenarios.
+
+A central feature is *time to recover* (TTR), the time it would take for a particular node — a supplier facility, a distribution center, or a transportation hub — to be restored to full functionality after a disruption.
+
+Another main concept is *risk exposure*, an assessment of exposure to risk based on a model that applies suppliers’ TTR to estimate the performance impact, including operational (lost production) and financial (lost revenue and profit).
+
+For more information about the solution details on this scenario, see https://www.redhat.com/architect/portfolio/detail/48-disaster-readiness[Disaster readiness]
+
+=== Supply chain returns
+
+Customers want *easy returns*. For merchandise delivered to the home, the return experience can in fact be a critical reason why consumers stick with a given retailer. At the same time, generosity and the best customer experience need to be balanced against the costs of fraudulent or excessive returns—and the losses of various types that inevitably take place as goods are repackaged and sent back. Businesses need to make returns easy for consumers in order to create loyal customers while at the same time *minimizing* return losses.
+
+For more information about the solution details on this scenario, see https://www.redhat.com/architect/portfolio/detail/47-returns[Supply chain returns]
+
 
 == Background
 
@@ -162,7 +180,6 @@ mindset, challenges create opportunities within the enterprise.
 Harvard Business Review article,
 https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis[Three
 steps to prepare your supply chain for the next crisis]. reports:
-
 
 [quote,Harvard Business Review]
 ____
