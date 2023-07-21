@@ -12,30 +12,35 @@
 
 Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case.
 
-*Use case:* Deploy a software-defined open radio access network (open RAN) as part of a mobile network.
+== Use case
 
-*Background:* Telcos  are increasingly replacing proprietary and other single-purpose hardware with software-defined functions running on standard servers.
+ Deploy a software-defined open radio access network (open RAN) as part of a mobile network.
+
+== Background
+
+Telcos are increasingly replacing proprietary and other single-purpose hardware with software-defined functions running on standard servers.
 One such function is RANs which account for significant overall network expenses and have emerged as a key focus area as more edge and 5G applications are deployed by telco customers. A RAN links user equipment, such as a cellphone, computer, or any remotely controlled machine to the core network, which manages subscriber information, location and more.
+
 Software-defined open RANs, based on developing industry standards, allow telcos to simplify network operations and improve flexibility, availability, and efficiency—all while serving an increasing number of devices and bandwidth-hungry applications.
 
 == Solution overview
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-ran-marketing-slide.png[alt="High level view of Radio Access Network", width=700]
-Figure 1. RAN overview
+_Figure 1. RAN overview_
 --
 
 An open RAN disaggregates traditional RAN solutions by:
 
 - Splitting the remote radio head and baseband unit → radio unit, distributed unit, and centralized unit (user and control plane) as seen in Figure 1.
-- Decoupling the dedicated hardware → COTS and general purpose hardware available with CSPs
+- Decoupling the dedicated hardware → commercial off-the-shelf (COTS) and general purpose hardware available with cloud service providers (CSP).
 
 This approach allows for the use of less (and less expensive) hardware. However, it also increases flexibility, provides the ability to spin workloads up and down with minimal effort, and allows workloads to be scaled elastically to address changing network demands.
 
 == Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-ran-ld.png[alt="Conceptual view of Radio Access Network deployed at various locations", width=700]
-Figure 2. VRAN architecture, as logically and physically distributed across multiple locations.
+_Figure 2. Radio Access Network architecture, as logically and physically distributed across multiple locations._
 --
 
 == The technology
@@ -46,7 +51,7 @@ The following technology was chosen for this solution:
 ====
 https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud,  and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/management/smart-management?intcmp=7013a00000318EWAAY[*Red Hat Smart Management*] combines flexible and powerful infrastructure management capabilities with the ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise Linux, from physical machines to hybrid clouds. 
+https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] combines flexible and powerful infrastructure management capabilities with the ability to execute remediation plans. It helps you more securely manage any environment supported by Red Hat Enterprise Linux, from physical machines to hybrid clouds. 
 
 https://www.redhat.com/en/technologies/jboss-middleware/amq?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management for Kubernetes*] controls clusters and applications from a single console, with built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and enforcing policies across multiple clusters at scale. https://www.redhat.com/en/technologies/management/advanced-cluster-management/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
@@ -54,7 +59,7 @@ https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318
 
 https://access.redhat.com/products/identity-management?intcmp=7013a00000318EWAAY[*Red Hat Identity Management*] provides a centralized and unified way to manage identity stores, authentication, policies, and authorization policies in a Linux-based domain.
 
-*Red Hat OpenShift Data Foundations* is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 ====
@@ -63,7 +68,7 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 === Telco 5G Radio Access Networks Overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-sd.png[alt="Network topology of network components", width=700]
-Figure 3. Schematic diagram of centralized RAN
+_Figure 3. Schematic diagram of centralized RAN_
 
 By decoupling RAN software from the underlying hardware platforms, commodity hardware platforms can be used for deploying RAN components like CU (Central Units) and the DU (Distributed Units). This architecture supports the open RAN deployment scenario in which the Distributed Units are located at the edge sites and Central Units are located at the regional data center. The RU (Radio Unit) is deployed at the cell site.
 
@@ -84,7 +89,7 @@ The https://www.o-ran.org/[O-RAN Alliance] defines interfaces between components
 === Radio Access Networks management and orchestration
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-ran-mgmt-sd.png[alt="Management and Orchestration of RAN components", width=700]
-Figure 4. Schematic diagram of RAN management and orchestration
+_Figure 4. Schematic diagram of RAN management and orchestration_
 --
 
 As service providers deploy applications across multiple sites, new operational and business challenges arise with challenges that include:
@@ -96,7 +101,7 @@ As service providers deploy applications across multiple sites, new operational 
 
 GitOps is the preferred solution to manage such complex operational scenarios. Figure 4 shows schematically how a GitOps Operator can be deployed to manage both centralized and distributed RAN components with GitOps workflows across multiple sites.
 
-The various components of the RAN solution are orchestrated in a standardized manner using Kubernetes primitives and Red Hat Advanced Cluster Management for Kubernetes (ACM). The event streaming data for various metrics and logs is enabled with Kafka
+The various components of the RAN solution are orchestrated in a standardized manner using Kubernetes primitives and Red Hat Advanced Cluster Management for Kubernetes (ACM). The event streaming data for various metrics and logs is enabled with Kafka.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
