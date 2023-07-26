@@ -1,4 +1,4 @@
-= Headless eCommerce
+= Providing a Headless E-Commerce Platform
 Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples
 :imagesdir: images
@@ -7,97 +7,128 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toc: left
 :toclevels: 5
 
+_Updated July 2023_
+
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce
-platform.
+*Use case:* Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce platform.
 
-*Background:* Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
-earn a profit. The term electronic commerce (e-commerce) refers to a business model that allows companies and
-individuals to buy and sell goods and services over the Internet.
+
+== Background 
+E-commerce has evolved over the years, from its humble beginnings in the 1970s to the global phenomenon it is today. Here are some of the key milestones in the evolution of e-commerce:
+
+1979: Michael Aldrich invents electronic shopping and makes the first electronic transaction.
+
+1982: The world's first e-commerce company, Boston Computer Exchange, is started.
+
+1991: The world wide web is invented.
+
+1992: First e-commerce website—an online bookstore—Book Stacks Unlimited is launched.
+
+1995: eBay and Amazon are launched.
+
+2000: The dot-com bubble bursts, but e-commerce continues to grow.
+
+2005: Smartphones become mainstream, making mobile e-commerce possible.
+
+2010: Social media platforms like Facebook and Twitter become popular, and social commerce emerges.
+
+2020: The COVID-19 pandemic accelerates the growth of e-commerce.
+
+Today, e-commerce is a major force in the global economy.To offer just one data point from the US Census, U.S. retail e-commerce sales for the first quarter of 2023, adjusted for seasonal variation, but not for price changes, was $272.6 billion, an increase of 3.0 percent (±0.7%) from the fourth quarter of 2022. E-commerce sales in the first quarter of 2023 accounted for 15.1 percent of total sales. 
+
+E-commerce has changed the way people shop, and it is transforming the retail industry.
+
+Here are some of the key trends that are shaping the future of e-commerce:
+
+* The rise of mobile commerce: Mobile commerce is growing rapidly, and it is expected to account for more than half of all e-commerce sales by 2025.
+* The growth of social commerce: Social commerce is the use of social media platforms to sell products and services. It is a growing trend, and it is expected to continue to grow in the years to come.
+* The rise of omnichannel commerce: Omnichannel commerce is the use of multiple channels to sell products and services. It is a way to provide customers with a seamless shopping experience, and it is becoming increasingly important for retailers.
+* The growth of personalization: Personalization is the use of data to create a more tailored shopping experience for customers. It is a key trend in e-commerce, and it is expected to continue to grow in the years to come.
+
+E-commerce is a rapidly evolving industry, and it is constantly changing. The trends that I have mentioned are just a few of the things that are shaping the future of e-commerce. It will be interesting to see how the industry evolves in the years to come.
+
+
 
 == Solution overview
 
-====
-*Why Headless eCommerce?*
+Headless e-commerce is an approach to e-commerce where the front-end (presentation layer) is decoupled from the back-end (commerce functionality). This means that the front-end can be built using any technology, while the back-end can be used to power any commerce platform.
 
-. Consistency across multiple customers channels or brands
-. Dynamic scaling to match customer demand
-. Reduce reaction time to changing market conditions
-====
+As shown in Figure 1, some of the key business drivers for headless e-commerce are:
+
+
+* Consistency across multiple customers channels or brands
+* Dynamic scaling to match customer demand
+* Reduced reaction time to changing market conditions
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/headless-ecommerce-marketing-slide.png[750,700]
 --
 
+_Figure 1. Summary of headless e-commerce solution showing the container platform as it related to customers and the backend systems._
+
 == Logical diagram
+
+The logical diagram in Figure 2 shows how the headless e-commerce architecture clearly divides functions into largely autonomous tiers.
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-headless-ecommerce-ld.png[750, 700]
 --
 
+_Figure 2. Logical diagram of headless e-commerce solution showing developer components, the presentation tier, the container platform and container CI/CD, and infrastructure services._
+
 == The technology
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes-based container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] helps organizations use the cloud delivery model and simplify continuous delivery of
-applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
-multiple modernization options to enable a smooth transition to the cloud for existing applications.
+https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] helps organizations use the cloud delivery model and simplify continuous delivery of applications, the cloud-native way. Built on proven open source technologies, it also provides development teams multiple modernization options to enable a smooth transition to the cloud for existing applications.
 
-https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and
-data across hybrid infrastructures.
+https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) Includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control. 
 
-https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4?intcmp=7013a00000318EWAAY[*Red Hat AMQ Streams*] is a massively scalable, distributed, and high-performance data streaming platform based on
-the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share
-data with high throughput and low latency.
 
-https://www.redhat.com/en/technologies/jboss-middleware/3scale?intcmp=7013a00000318EWAAY[*Red Hat 3scale API Management*] makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
-your APIs on an infrastructure platform built for performance, customer control, and future growth.
+https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4?intcmp=7013a00000318EWAAY[*Red Hat AMQ*] is a lightweight messaging platform for real-time integration. Based on open source communities like Apache ActiveMQ and Apache Kafka, it reliably and scalably delivers information like pricing updates, order acknowledgements, and delivery schedules between distributed endpoints such as distribution centers, warehouses, storefronts, and headquarters. It offers a distributed backbone that allows microservices and other applications to share data with high throughput and low latency.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage
-services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
-quickly and efficiently across clouds. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/jboss-middleware/3scale?intcmp=7013a00000318EWAAY[*Red Hat 3scale API Management*] is a platform that makes it easy to share, secure, distribute, control, and monetize your application programming interfaces (APIs) for internal or external users.
 
-https://www.redhat.com/en/technologies/storage/ceph?intcmp=7013a00000318EWAAY[*Red Hat Ceph Storage*] is an open, massively scalable, simplified storage solution for modern data pipelines.
-Engineered for data analytics, artificial intelligence/machine learning (AI/ML), and emerging workloads, it delivers
-software-defined storage on your choice of industry-standard hardware.
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/storage/ceph?intcmp=7013a00000318EWAAY[*Red Hat Ceph Storage*] is an open, massively scalable, simplified storage solution for modern data pipelines. Engineered for data analytics, artificial intelligence/machine learning (AI/ML), and emerging workloads, it delivers software-defined storage on your choice of industry-standard hardware.
+
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 ====
 
 == Architectures
+
+Figures 3 and 4 present schematic diagrams of the local and remote development components, respectively, of the headless e-commerce architecture.
 
 === Headless E-commerce local development
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-headless-ecommerce-local-sd.png[750, 700]
 --
 
-The developer is central to delivering the components used in this architecture. The developer IDE is the tooling the developer codes in. A source code management repository is used in some form. For this, a Git-based repository was used. Integration is based on Camel, Fuse, and often a collection of Java runtimes. All of the work is done using local container tooling and triggers builds with git hooks, maven plugins, or file uploads.
+_Figure 3. Schematic diagram for headless e-commerce architecture focused on the local development component._
 
-A container platform hosting the continuous integration (CI) and continuous development (CD) tooling is the main
-element in the dev infrastructure. The SCM repository represents the connection between developer and collecting project artifacts for use in the container CI/CD platform for testing ,tagging, and finalizing images for the image management to process out into the test infrastructure.
+The developer is central to delivering the components used in this architecture. The developer IDE is the tooling in which the developer codes. A source code management repository is used in some form. Here, a Git-based repository was used. Integration within Red Hat Application Foundations is based on Camel, Fuse, and a collection of Java runtimes. All of the work is done using local container tooling which triggers builds with git hooks, maven plugins, or file uploads.
 
-The test environment is used to roll out the entire headless e-commerce suite of services, web application, and messaging. These are tied to external integration services and the testing web application. The process continues on through more environments until the organization is satisfied to push to production.
+A container platform hosting the continuous integration (CI) and continuous development (CD) tooling is a major element within the development infrastructure. The source code management (SCM) repository represents the connection between the developer and the collection of project artifacts for use in the container CI/CD platform. This enables the testing, tagging, and finalizing of images so that image management can send it out into the test infrastructure.
+
+The test environment is used to roll out the entire headless e-commerce suite of services, web applications, and messaging. These are tied to external integration services and the web application that performs testing. The process continues on through more environments until the organization is satisfied and ready to push to production.
+
 
 === Headless E-commerce remote development
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-headless-ecommerce-remote-sd.png[750, 700]
 --
 
-The developer is central to delivering the components used in this architecture. The developer IDE is the tooling the developer codes in. A source code management repository is used in some form. For this, a Git-based repository was used. Integration is based on Camel, Fuse, and often a collection of Java runtimes. All the work is done using remote container tooling and triggers builds with git hooks, maven plugins, or OpenShift client tooling.
+_Figure 4. Schematic diagram for headless e-commerce architecture focused on the remote development component._
 
-A container platform hosting the continuous integration (CI) and continuous development (CD) tooling is the main
-element in the dev infrastructure. The SCM repository represents the connection between developer and collecting project artifacts for use in the container CI/CD platform for testing , tagging, and finalizing of images for the image management to process out into the test infrastructure. A source-to-image process is triggered by the remote tooling and the code pulled into a container build process, which is then pushed into the CI/CD testing for eventual tagging.
-Once tagged it is placed in the container platform registry which rolls out a dev environment of the headless e-commerce for developer testing. Once satisfied, it's tagged for testing.
+Many aspects of remote development are similar to local development. But, here, all the work is done using remote container tooling which triggers builds with git hooks, maven plugins, or OpenShift client tooling.
 
-The image is pushed to the test environment and rolls out the entire headless e-commerce suite of services, web
-application, and messaging. These are tied to external integration services and the testing web application. The
-process continues on through more environments until the organization is satisfied to push to production.
+The balance of the workflow shown in Figure 4 is the same as in the case of local development.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
