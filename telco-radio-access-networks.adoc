@@ -14,7 +14,7 @@ Some details will differ based on the requirements of a specific implementation 
 
 == Use case
 
- Deploy a software-defined open radio access network (open RAN) as part of a mobile network.
+Deploy a software-defined open radio access network (open RAN) as part of a mobile network.
 
 == Background
 
