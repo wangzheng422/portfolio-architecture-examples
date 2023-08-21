@@ -6,48 +6,76 @@ Camry Fedei @cfedei
 :source-highlighter: prettify
 :toc: left
 
+_Last updated: June 2023_
+
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Managing security, policy and patches for a large number of servers in data centers or public/private clouds.
+== Use case
+Managing security, policy, and patches for a large number of servers in data centers or public/private clouds in an automated way.
 
-*Background:* Modern application infrastructure has become more complex as it has become more powerful and easy to
-consume. Keeping infrastructure safe and compliant is a challenge for many organizations.
+
+== Background 
+Self-healing infrastructure is a type of automation that allows systems to identify and repair errors and misconfigurations without any human action. It is the next natural progression in automation, and is essential for organizations that want to improve their IT operations and reduce costs—and generally deal with increased complexity and scale.
+
+Self-healing infrastructure is based on the following principles:
+
+* Monitoring: The first step in self-healing is to monitor the system for any potential problems. This can be done using a variety of tools, such as sensors, probes, and applications.
+* Analysis: Once a problem is detected, it must be analyzed to determine the cause. This can be a complex process, as there may be multiple factors contributing to the problem.
+* Remediation: Once the cause of the problem is known, it can be remedied. This may involve fixing a bug, updating a configuration, or replacing a hardware component.
+
+
+Self-healing infrastructure can offer a number of benefits for organizations, including:
+
+
+* Improved uptime: Self-healing infrastructure can help to reduce the number of outages and improve the overall uptime of the system.
+* Reduced costs: Self-healing infrastructure can help to reduce the cost of IT operations by reducing the need for manual intervention.
+* Increased agility: Self-healing infrastructure can help organizations to be more agile and responsive to changes in the environment.
+* Improved security: Self-healing infrastructure can help to improve the security of the system by identifying and remediating vulnerabilities.
+
+
 
 == Solution overview
-One of the most powerful approaches to infrastructure management today is the combination of using historical data-driven insights and
-automation tools for applying remediation across a scaling estate of hosts in a targeted and prioritized manner.
+One of the most powerful approaches to self-healing infrastructure management today is through the combination of using historical data-driven insights and automation tools for applying remediation across a scalable pool of hosts in a targeted and prioritized manner.
 
-====
-*Cloud Factory*
+As shown in Figure 1, this solution provides:
 
-. System consistency across hybrid cloud estates
-. Full lifecycle, content, and compliance management 
-. Automated detection and remediation with remote management
-====
-
+* System consistency across a hybrid cloud 
+* Full lifecycle, content, and compliance management
+* Automated detection and remediation with remote management
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/self-healing-marketing-slide.png[alt="A self healing architecture designed to improve operational efficiency by introducing automated detection, remediation, and management of a hybrid cloud environment", width=700]
 --
 
+_Figure 1. Self-healing infrastructure solution overview showing business drivers and major components._
+
 == Summary video
 video::JOT8If4F27k[youtube]
 
 == Logical diagram
+
+Figure 2 shows a logical view of the entire solution including the underlying infrastructure and the management tooling.
+
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/self-healing-ld-withSatellite.png[width=700]
+
+_Figure 2. Logical diagram of the self-healing infrastructure portfolio architecture._
 
 
 == The technology
 
 ====
-https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] securely manages any environment supported by Red Hat Enterprise Linux.
+https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] helps organizations optimize and manage their Red Hat Enterprise Linux environments, regardless of where Red Hat Enterprise Linux is running. It gives customers the choice to manage their Red Hat Enterprise Linux either in the cloud or on-prem, depending on their preference, to address key IT challenges around vulnerability, compliance, provisioning, and patching. (Red Hat Satellite has also been called Red Hat Smart Management in the past.)
 
-https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is used for adding a powerful layer of automation to a customer's environment, and can be leveraged as
-another means of distributing remediation throughout an estate. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/management/insights?intcmp=7013a00000318EWAAY[*Red Hat Insights*]  is a managed service that continuously analyzes platforms and applications to help enterprises better manage hybrid cloud environments. Included with Red Hat subscriptions, Insights uses predictive analytics and deep domain expertise to reduce complex operational tasks from hours to minutes, including identifying security and performance risks, tracking licenses, and managing costs. Focusing on areas of operations, security, and business, Insights proactively alerts administrators and stakeholders before an outage, security event, or overspending occurs.
 
-https://www.redhat.com/en/technologies/management/insights?intcmp=7013a00000318EWAAY[*Red Hat Insights*] services each perform their individual functions, and the customer can choose which services fit their specific needs. For example, Compliance will assess a systems status against a set of compliance rules, and Vulnerability assesses any security risks that may be currently active in the environment.
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—-from development and operations to security and network teams. In this solution, automation provides the means to distribute remediation actions across the distributed infrastructure.
+ https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+
+
+
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. 
+ https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 ====
 
 == Architectures
@@ -56,7 +84,9 @@ https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-net.png[alt="All that is needed to enable efficient communications in a self healing architecture is a very simple network mapping between the managed infrastructure, the automation and management tools, and Red Hat", width=700]
 --
 
-In this network configuration, you can see the internal network depicted in light blue, where all that is required on the customer estate is the hosted client systems, Red Hat Satellite, and Red Hat Ansible Automation Platform. These are able to simply communicate amongst themselves on an internal network. From here, Ansible and Satellite connect on a secure network out to Red Hat, where the data is then processed by Red Hat Insights, and displayed on the Hybrid Cloud Console, of which they communicate to each other internally within Red Hat's network. Once processed, that data is passed back to Ansible and Satellite on the same channel as originally. 
+_Figure 3. Schematic diagram of the solution with a focus on the networking components._
+
+In the network configuration shown in Figure 3, you can see the internal network depicted in light blue, where all that is required on the customer site is the hosted client systems, Red Hat Satellite, and Red Hat Ansible Automation Platform. These are able to communicate amongst themselves on an internal network. From here, Ansible and Satellite connect on a secure network out to Red Hat, where the data is then processed by Red Hat Insights, and displayed on the Hybrid Cloud Console—which communicate with each other internally within Red Hat’s network. Once processed, the data is passed back to Ansible and Satellite on the same channel as originally.
 
 
 === Self-Healing Infrastructure (data)
@@ -64,30 +94,27 @@ In this network configuration, you can see the internal network depicted in ligh
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/self-healing-sd-data.png[alt="A self healing architecture has a simple data flow organized by the smart system management tool, through Red Hat, and back out to the managed infrastructure and automation controller", width=700]
 --
 
-The data path, starting from the hosts, delivers data to Red Hat Satellite. Here, both Ansible's automation controller and Satellite
-transmit the anonymized data to Red Hat where the cloud services internally analyze what issues might be present,
-what solutions are available, and what remediation plan we have to move forward with.
+_Figure 4. Schematic diagram of the solution with a focus on the data path._
 
-From there, these remediation plans, and any associated playbooks, are passed back to the customer's environment, where
-Satellite will orchestrate the application of which issues have automated solutions, as well as what package updates
-will be delivered to any applicable Red Hat Enterprise Linux (RHEL) system(s), and the automation controller will apply any
-remediations to Ansible Automation Platform.
+As shown in Figure 4, the data path, starting from the hosts, delivers data to Red Hat Satellite. Here, both Ansible’s automation controller and Satellite transmit the anonymized data to Red Hat where cloud services internally analyze what issues might be present, determine available solutions, and recommend a remediation plan.
 
-Explicitly stepping through the process:  
- 
+Remediation plans, along with any associated playbooks, are passed back to the customer’s environment. There, Satellite will orchestrate the application of any automated solutions; package updates will also be delivered to any applicable Red Hat Enterprise Linux (RHEL) system(s), and the automation controller will apply any remediations to Ansible Automation Platform.
+
+Here’s the explicit process in more detail:
+   
 1. Client hosts register to Satellite which initially collects RHEL system data for Red Hat Insights.  
 2. Satellite and Ansible Automation Platform secure connections to the Hybrid Cloud Console.  
 3. Anonymized data is analyzed by Red Hat:  
-        - Insights services analyze data against known issues as well as customer defined parameters.  
-                * Insights for RHEL generate remediation plans and configures playbooks to return to the Satellite platform.  
-                * Insights for Ansible generates remediation to return to the automation controller.  
-4. Remediation assets download to Satellite from Red Hat hosted Insights, on-demand.  
+        - Insights services analyze data against known issues as well as customer-defined parameters.  
+                * Insights for RHEL generates remediation plans and configures playbooks to return to the Satellite platform.  
+                * Insights for Ansible generates remediations to return to the automation controller.  
+4. Remediation assets download to Satellite from Red Hat's hosted Insights, on-demand.  
 5. RHEL remediation is delivered to the client systems.  
         - Ansible runner automates running the remediation playbooks on multiple systems at once, and anything requiring manual
 configuration is outlined in the remediation plan in the Satellite.  
-        - Any package updates are pulled from Red Hat Satellite. 
-        - Remediation status is outlined in the dashboard in the Satellite.  
-6. Ansible Syncs with Red Hat  
+        - Any package updates are pulled from Satellite. 
+        - Remediation status is outlined in the dashboard in Satellite.  
+6. Ansible syncs with Red Hat  
         - Ansible remediation is delivered to Ansible Automation Platform  
         - RHEL remediation plans can also be manually synced to the automation controller (optional).  
 7. Ansible’s automation controller can be used to deliver the additional remediation synced (optional) in tandem with it’s normal automation workflow.  
