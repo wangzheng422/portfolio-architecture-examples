@@ -12,8 +12,7 @@ _Some details will differ based on the requirements of a specific implementation
 
 *Use case:* Deploy a 5G core network on-premise that’s cost effective, secure, and is adaptable to a range of requirements.
 
-*Background:* 5G is the latest evolution of wireless mobile technology that enables the delivery of highly immersive experiences for people and reliable, low latency communication between devices. With the addition of 5G to the high-bandwidth connectivity of edge computing, companies are better positioned to meet demands in areas like healthcare delivery, emergency response, manufacturing efficiency, traffic congestion and industrial safety.  At the heart of each 5G network lies the 5G Core (5GC). Software-defined and built with a service-based architecture (SBA), this architecture allows the 5G core to be disaggregated, cloud-native, and distributed. 
-
+*Background:* 5G is the latest evolution of wireless mobile technology that enables the delivery of highly immersive experiences for people and reliable, low latency communication between devices. With the addition of 5G to the high-bandwidth connectivity of edge computing, companies are better positioned to meet demands in areas like healthcare delivery, emergency response, manufacturing efficiency, traffic congestion and industrial safety.  At the heart of each 5G network lies the 5G Core (5GC). Software-defined and built with a service-based architecture (SBA), this architecture allows the 5G core to be disaggregated, cloud-native, and distributed.
 
 == Solution overview
 
@@ -21,13 +20,12 @@ As shown in Figure 1, this portfolio architecture presents 5G Core as a set of d
 
 Each 5GC component is implemented as a container-based application and is referred to as cloud-native network function (CNF).
 
-
 ====
 *Telco 5G Core: On Premise*
 
 . Cloud native, disaggregated, scalable and  agile 5G core
 . Custom networks with unique characteristics on a shared infrastructure
-. Cost effective, security conscious and use case adoptable
+. Cost effective, secure, and use case adoptable
 ====
 
 
@@ -49,6 +47,7 @@ As shown in Figure 2, logically the solution can be categorized into:
 * Management and orchestration
 
 
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-5g-ld.png[alt="Generic common architectural elements of 5G solution for conceptual guidance", width=700]
 --
@@ -63,9 +62,9 @@ _Figure 2. Logical diagram of the on-premise Telco 5G Core solution._
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. OpenShift enables 5GC by supporting functionalities and operational features like automated deployment, intelligent workload placement, dynamic scaling, hitless upgrades, and self healing. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. OpenShift enables 5GC by supporting functionalities and operational features like automated deployment, intelligent workload placement, dynamic scaling, hitless upgrades, and self healing.
 
-https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4?intcmp=7013a00000318EWAAY[*Red Hat AMQ Streams*] is a massively scalable, distributed, and high-performance data streaming platform based on the Apache Kafka project. AMQ enables exchange of telemetry and control/management data with back end and operational systems. 
+https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4?intcmp=7013a00000318EWAAY[*Red Hat AMQ Streams*] is a massively scalable, distributed, and high-performance data streaming platform based on the Apache Kafka project. AMQ enables exchange of telemetry and control/management data with back end and operational systems.
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
