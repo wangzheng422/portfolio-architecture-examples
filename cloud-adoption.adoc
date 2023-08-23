@@ -89,10 +89,11 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 _Figure 4. Data-centric schematic diagram of Adopting Cloud for Application Workloads solution._
 
 Figure 4 shows how data interacts in this solution. Here are some examples:
-The file storage of the SCM system delivers code to the Server build image pipeline from which the image is stored in Red Hat Quay or an alternative
-Playbooks from Enterprise operating automation (including Ansible Analytics) are delivered to Automation orchestration
-Configurations are delivered to the Red Hat Enterprise Linux hosts from Automation orchestration
-The Image store delivers a payload to Red Hat Satellite (smart management) which, in turn exchanges data with the Insights service and Insights platform.
+
+* The file storage of the SCM system delivers code to the Server build image pipeline from which the image is stored in Red Hat Quay or an alternative
+* Playbooks from Enterprise operating automation (including Ansible Analytics) are delivered to Automation orchestration
+* Configurations are delivered to the Red Hat Enterprise Linux hosts from Automation orchestration
+* The Image store delivers a payload to Red Hat Satellite (smart management) which, in turn exchanges data with the Insights service and Insights platform.
 
 == Download solution diagrams
 View and download all of the diagrams above in our open source tooling site.
