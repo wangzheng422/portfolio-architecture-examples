@@ -9,13 +9,18 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
 
-*Use case:* Accelerating cloud adoption with effective automation for deploying and managing workloads across multiple
-cloud infrastructures according to performance, security, compliance, and cost requirements.
+*Use case:* Accelerate cloud adoption using effective automation to deploy and manage workloads across multiple cloud infrastructures to meet performance, security, compliance, and cost requirements.
 
 *Background:* 
-As enterprises transition to public and/or private clouds, it is important to
-provide automation to manage and scale server deployments and to provide the capability to transition servers between
-data centers and cloud providers. This provides flexibility and portability.
+A hybrid cloud strategy promotes workload portability–which means that applications work consistently across different environments, allowing for a single computing platform to span across and communicate with multiple clouds. However, portability and consistency of cloud application workloads across a hybrid environment don’t just magically happen. They require a deliberate and concerted focus on many aspects of the overall system architecture—including automation and management.
+Automation and management are important for deploying and managing workloads across multiple cloud infrastructures for the following reasons:
+
+. Reduces human error: Manually deploying and managing workloads across multiple clouds is a complex and error-prone task. Automation can help to eliminate human errors, such as typos in configuration files. For example, Ansible can create a deployment script that runs on each cloud platform.
+. Improves visibility. It can be difficult to get a clear picture of what is happening across multiple cloud infrastructures. The right management solution can help to improve visibility by providing a view of all of the workloads deployed and resources in use.
+. Improves efficiency: Automation can help to improve the efficiency of deploying and managing workloads across multiple clouds by automating repetitive tasks and freeing up IT staff to focus on more strategic jobs and decisions.
+. Increases agility: Automation can help organizations to quickly deploy and scale workloads as needed. This is important for organizations that need to be able to respond quickly to changes in demand or market conditions.
+. Reduces costs: Automation can help to reduce the costs of deploying and managing workloads across multiple clouds by reducing the need for manual labor.
+. Improves compliance: Automation and management can help organizations to improve their compliance with regulations by ensuring that workloads are deployed and managed in a consistent and secure manner.
 
 == Solution overview
 
@@ -27,75 +32,67 @@ data centers and cloud providers. This provides flexibility and portability.
 . Remote management and automation
 ====
 
+Figure 1 shows an overview of Adopting Cloud for Application Workloads solution.
+Some of the solution elements that are worthy of particular note are the Red Hat Enterprise Linux platforms themselves that provide the foundation with which Red Hat Satellite’s intelligent management and Red Ansible Automation Platform interact, the underlying hybrid cloud environment, and the infrastructure that maintains the application code artifacts.
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloud-adoption-marketing-slide.png[750,700]
 --
+_Figure 1. Overview of Adopting Cloud for Application Workloads solution._
 
 == Logical diagram
+
+Figure 2 provides a logical view of the solution in more detail, including the key cloud services and the key datacenter elements.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-adoption-ld.png[750, 700]
 --
+_Figure 2. Logical diagram of Adopting Cloud for Application Workloads solution._
 
 == The technology
 
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*]  is the smart management element in this architecture, used for tracking, managing, auditing, and
-collecting data on the entire infrastructure to ensure that baselines are met.
+https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*]  is the smart management element in this architecture, used for tracking, managing, auditing, and collecting data on the entire infrastructure to ensure that all necessary baselines are met. It combines the flexible and powerful infrastructure management capabilities with the ability to execute remediation plans. It helps to securely manage any environment supported by Red Hat Enterprise Linux, from physical machines to hybrid clouds.
 
-https://www.redhat.com/en/technologies/management/smart-management?intcmp=7013a00000318EWAAY[*Red Hat Smart Management*] provides a cloud experience, existing physical data center resources might be the starting
-point to be offered to the organization with a cloud-like experience. This combines the flexible and powerful
-infrastructure management capabilities with the ability to execute remediation plans. It helps to securely manage any
-environment supported by Red Hat Enterprise Linux, from physical machines to hybrid multiclouds.
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization. The platform includes all the tools needed to implement enterprise-wide automation. It enables cluster and network operations administrators to automate deployment of functional components across a hybrid cloud. In this solution, it facilitates consistent,repeatable,and tested infrastructure automation tasks as needed by the other elements managing the hybrid cloud. This element is directed to execute based on the findings of Red Hat Satellite. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] facilitates consistent,repeatable,and tested infrastructure automation tasks as
-needed by the other elements managing the hybrid cloud. This element is directed to execute based on the findings of
-the smart management element. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318EWAAY[*Red Hat Quay*] , part of the core datacenter in this solution, is a private container registry that stores and builds container images. It analyzes your images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.It can not only store pulls from approved external image registries, but also the built images from the automated CI/CD workflow. https://www.redhat.com/en/technologies/cloud-computing/quay/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318EWAAY[*Red Hat Quay*] is part of the Core Data Center, it is a private container registry that stores, builds, and deploys container
-images. It analyzes your images for security vulnerabilities, identifying potential issues that can help you mitigate
-security risks. https://www.redhat.com/en/technologies/cloud-computing/quay/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] (RHEL)  is the world’s leading enterprise Linux platform. It’s an open source operating system (OS) and the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments. In this solution, it is the key host element whose image registry facilitates the deployment of infrastructure, services, and applications across the entire hybrid cloud infrastructure. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] (RHEL) is the host element with an image registry to facilitate the deployment of infrastructure,
-services, and applications across the entire hybrid cloud infrastructure. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
-
-https://www.redhat.com/en/technologies/management/?intcmp=7013a00000318EWAAY[*Red Hat Insights*] is the key to monitoring and data collection around the entire hybrid cloud infrastructure. Based on
-this data and working together with insights services, automated actions can take place around updates, security patches,
-infrastructure rollouts, workload management, and workload migrations. This is the key to an organizations ability to
-successfully adopt a truly hybrid cloud infrastructure.
+https://www.redhat.com/en/technologies/management/?intcmp=7013a00000318EWAAY[*Red Hat Insights*] is the key to monitoring and data collection across the entire hybrid cloud infrastructure. Based on this data and working together with insights services, automated actions can take place around updates, security patches, infrastructure rollouts, workload management, and workload migrations. This is the key to an organization's ability to successfully adopt a hybrid cloud infrastructure.
 ====
 
 == Architectures
+
+Figures 3 and 4 provide schematic diagram views that take network-centric and more data-centric views respectively of the Adopting Cloud for Application Workloads solution. 
+
 === Cloud Adoption overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-network-sd.png[750, 700]
 --
+_Figure 3. Network-centric schematic diagram of Adopting Cloud for Application Workloads solution._
 
-This overview looks at Cloud Adoption, providing the solution details and the elements described above in both a
-network and data centric view:
 
-It starts in the core data center where images are built (where the application source code are in a
-source code management system (SCM)) and deployed out to the image registry found in a physical data center, a private
-cloud, or in any public clouds desired. Quay is used to sync these registries.
-
-Cloud services assist with analyzing the data to help manage responses and maintain a repository of automated actions.
-Result of the analyzed data react to specific insights with plans that can be used to support the infrastructure
-management.
-
-Infrastructure management uses smart management to monitor all deployments and locations, leveraging input from the
-cloud services provided by insights and automation repositories. If needed, remediation can be triggered by smart
-management and automation orchestration will take action as defined in the automation playbooks to fix deployments.
-
-Infrastructure management also uses the gained workload insights to deploy new updates and manage security patches
-across all infrastructure destinations. 
+The process begins in the core datacenter where images are built. Application source code is stored in a source code management system (SCM)) and deployed out to the image registry found in a physical data center, a private cloud, or in any public clouds desired. Red Hat Quay is used to sync these registries.
+Cloud services assist by analyzing the data to help manage responses and maintain a repository of automated actions. Analyzed data is the basis for specific insights that can be used to generate plans in support of infrastructure management.
+Infrastructure management uses Red Hat Satellite to monitor all deployments and locations. It uses input from the cloud services provided through insights/management and automation repositories. Remediation can be triggered as needed by Red Hat Satellite; automation orchestration will take action as defined in the automation playbooks to fix deployments.
+Infrastructure management also uses insights gained to inform deploying new updates and managing security patches across all infrastructure destinations.
 
 
 === Cloud Adoption data overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-adoption-data-sd.png[750, 700]
 --
+_Figure 4. Data-centric schematic diagram of Adopting Cloud for Application Workloads solution._
+
+Figure 4 shows how data interacts in this solution. Here are some examples:
+The file storage of the SCM system delivers code to the Server build image pipeline from which the image is stored in Red Hat Quay or an alternative
+Playbooks from Enterprise operating automation (including Ansible Analytics) are delivered to Automation orchestration
+Configurations are delivered to the Red Hat Enterprise Linux hosts from Automation orchestration
+The Image store delivers a payload to Red Hat Satellite (smart management) which, in turn exchanges data with the Insights service and Insights platform.
 
 == Download solution diagrams
 View and download all of the diagrams above in our open source tooling site.
