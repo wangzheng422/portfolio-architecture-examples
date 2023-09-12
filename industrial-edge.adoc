@@ -152,7 +152,7 @@ The northbound traffic of sensor data is visible in Figure 9. It flows from the 
 
 The southbound traffic is abstracted  in the App-Dev / Pipeline box at the top. This is where GitOps kicks in to push config or version changes down into the factories.
 
-Industrial edge pattern: https://hybrid-cloud-patterns.io/industrial-edge/
+Industrial edge pattern: https://validatedpatterns.io/patterns/industrial-edge/
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
