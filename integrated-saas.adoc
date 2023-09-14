@@ -8,90 +8,124 @@ Eric D. Schabell @eschabell
 :toclevels: 5
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
+_Updated: September 2023_
+
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
 
 
-*Use case:* Providing integration with SaaS applications, platforms, and services empowers organizations to build and
-run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
+== Use case 
 
-*Background:* Integrating with Software-as-a-Service (SaaS) applications is the process of operationally connecting SaaS solutions
-to other separate computer systems or applications into a single larger system, allowing each solution to functionally
-work together.
+Integrating with Software-as-a-Service (SaaS) applications, platforms, and services empowers organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
+
+
+== Background
+
+Integrating with Software-as-a-Service (SaaS) applications is the process of operationally connecting SaaS solutions to other separate computer systems or applications into a single larger system, allowing the solutions to functionally work together.
+
+Many organizations subscribe to SaaS applications to meet both customer-facing and internal needs. SaaS can offer a quick answer to many organizational requirements, whether out-of-the box or by taking advantage of the many customizations and partner add-ons that many SaaS vendors offer.
+
+However, while some SaaS applications can be useful as turnkey standalone solutions, in larger organizations with more complex application environments, silos are often undesirable. For example, SaaS applications often store data in their own databases, which can make it difficult to integrate with other data sources. By integrating SaaS with other compute infrastructure, you can create a single, unified view of your data. This can make it easier to analyze data, make better decisions, and automate tasks.
+
+Many organizations also want to maintain some of their infrastructure on-prem—whether for cost, data sovereignty, perceived security or other reasons. 
+
+For example, a financial institution might use SaaS for its trading platform, but keep its risk management system on-prem. This allows the institution to take advantage of the low latency and high availability of the cloud for its trading platform, while maintaining direct control over its risk data.
+
+If you are considering integrating SaaS with other compute infrastructure, there are a few things you need to keep in mind:
+
+. You need to have a clear understanding of your business needs and requirements.
+. You need to choose the right SaaS applications and compute infrastructure.
+. You need to implement a security plan that protects your data.
+. You need to monitor your integrated environment to ensure that it is performing as expected.
+
+By carefully planning and implementing an integrated SaaS solution, you can reap the benefits of both SaaS and other compute infrastructure.
+
+
 
 == Solution overview
-====
-*Integrating with SaaS applications*
 
-. Managing updates to SaaS applications back into processes
-. Integration with SaaS applications
-. Integration with SaaS platforms
-====
+Figure 1 provides an overview of the SaaS applications integration solution. This solution enables managing updates to SaaS applications back into associated processes as well as the integration of other components of the compute environment with SaaS applications and platforms.
+
+The container platform in this solution as shown is on-prem but it could also be hosted at a cloud provider.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/saas-integration-marketing-slide.png[750,700]
-
 --
+_Figure 1. Overview of the SaaS applications integration solution._
+
 
 == Logical diagram
+
+Figure 2 shows a logical diagram of the SaaS applications integration solution. It uses the example of an external SaaS CRM together with other infrastructure services such as API management and single-sign-on (SSO). The container platform includes the microservices supporting the front-end, business process orchestration, integration between front-end services and external systems, and data integration.
+
+
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/integrating-with-saas-applications-details-ld.png[750,700]
 --
+_Figure 2. Logical diagram of the SaaS applications integration solution._
+
 
 == The technology
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes-based container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run across a variety of infrastructure. It orchestrates the containerized applications and enables agile DevOps development with automated CI/CD workflows. This shortens the lead time for application changes, increases deployment frequency, and lowers the change failure rate. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] helps organizations use the cloud delivery model and simplify continuous delivery of
-applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
-multiple modernization options to enable a smooth transition to the cloud for existing applications.
 
-https://www.redhat.com/en/technologies/jboss-middleware/3scale?intcmp=7013a00000318EWAAY[*Red Hat 3scale API Management*] makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
-your APIs on an infrastructure platform built for performance, customer control, and future growth.
+https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundation*] (formerly Red Hat Integration) Includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control.
 
-https://www.redhat.com/en/technologies/jboss-middleware/process-automation-manager?intcmp=7013a00000318EWAAY[*Red Hat Business Automation*] is an application development platform that enables developers and business experts to
-create cloud-native applications that automate business operations.
+https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] is a set of products, tools, and components for developing and maintaining cloud-native applications. It offers lightweight runtimes and frameworks for highly distributed cloud architectures, such as Spring Boot and Quarkus. The developer IDE supports development with tooling that connects directly to the platform. It also includes Single-Sign-On solution that can be tied into existing organizational directories. Red Hat OpenShift Runtimes is included as part of Red Hat Application Foundations. 
 
-https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and
-data across hybrid infrastructures.
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
-(OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
-virtual, container, and all many of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/jboss-middleware/3scale?intcmp=7013a00000318EWAAY[*Red Hat 3scale API Management*] is a platform that simplifies sharing, securing, distributing, controlling, and monetizing application programming interfaces (APIs) for internal or external users.
+
+https://www.ibm.com/blog/announcement/ibm-expands-business-automation-portfolio-with-open-source-process-and-decision-automation/[*IBM Process Automation Manager Open Edition*] (formerly Red Hat Process Automation Manager) is an application development platform that enables developers and business experts to create cloud-native applications that automate business operations.
+
+
+
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all many of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 ====
 
 == Architectures
+
+Figures 3 through 6 schematically show the following aspects of the SaaS applications integration solution using a CRM SaaS as an example.
+
+. External CRM integration
+. External CRM integration connector
+. Integration of third-party platforms
+. Integration of third-party platform process
+
 
 === External CRM integration
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/saas-external-crm-integration-sd.png[750,700]
 --
 
-The external request enters through an API gateway that is backed by front end microservices used to
-access the process services. The request triggers process activity uses integration microservices to
-communicate with an external SaaS CRM offering. The SSO for authentication and authorization is added to show the
-ability to connect to existing organizational directory services.
+_Figure 3. SaaS integration schematic diagram using the example of external CRM integration._
+
+
+The external request enters through an API gateway that is backed by the front-end microservices used to access the process services. The request triggers process activity using integration microservices to communicate with an external SaaS CRM offering in this example. The SSO for authentication and authorization is added to show the ability to connect to existing organizational directory services.
 
 === External CRM integration connector
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/saas-external-crm-connector-sd.png[750,700]
 --
 
-The external request enters through an API gateway that is backed by front end microservices used to
-access the process services. The request triggers process activity that uses integration microservices to
-leverage a specialized connector to communicate with an external SaaS CRM offering. The SSO for authentication
-and authorization is added to show the ability to connect to existing organisational directory services.
+_Figure 4. SaaS integration schematic diagram using the example of an external CRM integration connector._
+
+The external request enters through an API gateway that is backed by front-end microservices used to access the process services. The request triggers process activity that uses integration microservices to utilize a specialized connector to communicate with an external SaaS CRM offering. The SSO for authentication and authorization is added to show the ability to connect to existing organizational directory services.
+
 
 === Integration third-party platform
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/saas-integration-3rd-party-platform-sd.png[750,700]
 --
 
-The external request enters through an API gateway that is backed by front end microservices used to
-access the backend systems. The request triggers the use of integration microservices to communicate with an external SaaS platforms services. The SSO for authentication and authorization is added to show the ability to connect to existing organizational directory services.
+_Figure 5. SaaS integration schematic diagram using the example of integrating a third-party platform._
+
+
+The external request enters through an API gateway that is backed by front-end microservices used to access the back-end systems. The request triggers the use of integration microservices to communicate with external SaaS platforms. The SSO for authentication and authorization is added to show the ability to connect to existing organizational directory services.
+
 
 
 === Integration third-party platform process
@@ -99,8 +133,9 @@ access the backend systems. The request triggers the use of integration microser
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/saas-integration-3rd-party-process-sd.png[750,700]
 --
 
-The external request enters through an API gateway that is backed by front end microservices used to
-access the process services. The request triggers process activity that needs to use integration microservices to communicate with an external SaaS platforms services. It's essential that the integration services can work in both directions offering the SaaS platforms services the ability to trigger process activity as needed. The SSO for authentication and authorization is added to show the ability to connect to existing organizational directory services.
+_Figure 6. SaaS integration schematic diagram using the example of integrating a third-party platform process._
+
+The external request enters through an API gateway that is backed by front-end microservices used to access the process services. The request triggers process activity that needs to use integration microservices to communicate with external SaaS platform process services. It’s essential that the integration services can work bidirectionally to provide the SaaS platform services the ability to trigger process activity as needed. The SSO for authentication and authorization is added to show the ability to connect to existing organizational directory services.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
