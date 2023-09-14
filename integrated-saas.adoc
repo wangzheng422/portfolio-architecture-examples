@@ -33,10 +33,10 @@ For example, a financial institution might use SaaS for its trading platform, bu
 
 If you are considering integrating SaaS with other compute infrastructure, there are a few things you need to keep in mind:
 
-. You need to have a clear understanding of your business needs and requirements.
-. You need to choose the right SaaS applications and compute infrastructure.
-. You need to implement a security plan that protects your data.
-. You need to monitor your integrated environment to ensure that it is performing as expected.
+* You need to have a clear understanding of your business needs and requirements.
+* You need to choose the right SaaS applications and compute infrastructure.
+* You need to implement a security plan that protects your data.
+* You need to monitor your integrated environment to ensure that it is performing as expected.
 
 By carefully planning and implementing an integrated SaaS solution, you can reap the benefits of both SaaS and other compute infrastructure.
 
@@ -90,10 +90,10 @@ https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7
 
 Figures 3 through 6 schematically show the following aspects of the SaaS applications integration solution using a CRM SaaS as an example.
 
-. External CRM integration
-. External CRM integration connector
-. Integration of third-party platforms
-. Integration of third-party platform process
+* External CRM integration
+* External CRM integration connector
+* Integration of third-party platforms
+* Integration of third-party platform process
 
 
 === External CRM integration
