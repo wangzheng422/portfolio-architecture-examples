@@ -8,35 +8,41 @@
 :Keywords: Telco 5G, OpenShift, Ansible, Hybrid Cloud, Linux, Automation, Mobile Broadband, F5, Big-IP, CNF
 :toc: left
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+_Some details will differ based on the requirements of a specific implementation but all Red Hat architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Delivering Next CNF Solution with F5 Big-IP
+== Use case
 
-*Background:* 5G networks use service-based architecture (SBA) and cloud-native approach offers many advantages to service providers (agility, scalability, reduced Capex/Opex). Cloud-native network functions (CNFs) have become the main delivery mechanism of 5G network services.
+Delivering Next Cloud-native network function (CNF) Solution with F5 Big-IP
+
+== Background
+
+5G networks using a service-based architecture (SBA) and cloud-native approach offers many advantages to service providers including agility, scalability, and reduced Capex/Opex. Cloud-native network functions (CNFs) have become the main delivery mechanism of 5G network services. As an evolution from virtual network functions (VNFs), cloud-native network functions (CNFs) are designed and implemented to run inside containers. This containerization of network architecture components makes it possible to run a variety of services on the same cluster and more easily on-board already decomposed applications, while dynamically directing network traffic to the correct pods.
 
 
 == Solution overview
 
-This portfolio architecture extends the other 5G Core portfolio architectures with Next CNF Solution with F5 Big-IP. In addition to Red Hat components, this solution includes:
+This architecture extends the other 5G Core portfolio architectures with Next CNF Solution with F5 Big-IP. In addition to Red Hat components, this solution includes:
 
 - F5 Next Edge Firewall CNF is an IPv4/IPv6 firewall for protecting the 5G core networks from external threads, including DDoS flood protection and IPS protocol inspection.
-- F5 Next CGNAT CNF offers large scale NAT44 & NAT64 including ALG support.
+- F5 Next CGNAT CNF offers large scale NAT44 & NAT64 including Application Layer Gateway (ALG) support.
 - F5 Next DNS CNF provides a transparent DNS resolver and caching services.
 - F5 Next Policy Enforcer CNF provides Traffic classification, steering & shaping, TCP and Video optimization.
 
 
 ====
-*Telco Next CNF Solution with F5*
+The business drivers for the Telco Next CNF Solution with F5 include:
 
-. Kubernetes orchestrated CNFs allows a common, consistent control plane allowing for a simplified operation and automation
-. Re-architecture of VNFs into micro-services for better utilization of resources, fast deployment and scaling
-. Provide required functionalities for subscribers in the N6 LAN/Gi LAN reference point
+. Kubernetes-orchestrated CNFs allow for a common, consistent control plane which provides for simplified operation and automation
+. Re-architecture of VNFs into microservices allows for better utilization of resources, faster deployment, and better scalability
+. Required functionality for subscribers in the N6 LAN/Gi LAN reference point
 ====
 
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-f5-marketecture.png[alt="High level view of 5G N6 solution", width=700]
+
 --
+_Figure 1. Overview of the Telco Next CNF Solution with F5 showing the business drivers and the major components._
 
 == Summary video
 video::e6dHg3eW5to[youtube]
@@ -44,22 +50,21 @@ video::e6dHg3eW5to[youtube]
 
 == Logical diagram
 
+Figure 2 shows the logical grouping of the solution components which include the management cluster, external services, individual cluster components, and the relevant 5G functions.
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco-5g-f5-ld.png[alt="Generic common architectural elements of 5G solution with N6 Services for conceptual guidance", width=700]
+
 --
+_Figure 2. Logical diagram of the Telco Next CNF Solution with F5 showing the logical grouping of the components._
 
 == The technology
 
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-OpenShift enables 5GC by supporting functionalities and operational features like automated deployment, intelligent
-workload placement, dynamic scaling, hitless upgrades, and self healing. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments.  https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization.
-The platform includes all the tools needed to implement enterprise-wide automation. It enables cluster and network
-operations administrators to automate deployment of functional components. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—-from development and operations to security and network teams. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management*] for Kubernetes controls clusters and applications from a single console, with
 built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
@@ -73,30 +78,33 @@ https://access.redhat.com/products/identity-management?intcmp=7013a00000318EWAAY
 policies, and authorization policies in a Linux-based domain. This is part of the common datacenter services applicable
 to network applications running on cloud platforms.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*] is software-defined storage for containers. Engineered as the data and storage
 services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
-quickly and efficiently across clouds. Its used for persistent storage across multiple clusters. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+quickly and efficiently across clouds. It's used for persistent storage across multiple clusters. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 ====
 
-Conceptually, the 5G core N6 solution stack can be categorized into:
 
-* *Individual cluster components*
-
-* *Shared cluster platform services*
-
-* *External services*
-
-* *External network infrastructure*
-
-* *Management and orchestration*
 
 == Architectures
-=== Telco 5G on premise
+=== Telco 5G on-premise
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco-5g-f5-sd.png[alt="Solution topology of 5G solution with functional components", width=700]
 
 --
-Add description of solution components
+_Figure 3. Schematic diagram of the Telco Next CNF Solution with F5 showing how user and telemetry data, as well as automation, flow between components in the architecture._
+
+Conceptually, as shown in the Figure 3 schematic diagram, the 5G core N6 solution stack architecture can be categorized into:
+
+* Individual cluster components
+
+* Shared cluster platform services
+
+* External services
+
+* External network infrastructure
+
+* Management and orchestration
+
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
