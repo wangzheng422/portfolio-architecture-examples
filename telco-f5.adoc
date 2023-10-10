@@ -105,9 +105,6 @@ Conceptually, as shown in the Figure 3 schematic diagram, the 5G core N6 solutio
 
 * Management and orchestration
 
-== Reference
-
-https://www.redhat.com/en/topics/cloud-native-apps/vnf-and-cnf-whats-the-difference[VNF and CNF, what’s the difference?]
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
