@@ -7,11 +7,15 @@ Ricardo Garcia Cavero @rgarciac
 :toc: left
 :toclevels: 5
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+_Some details will differ based on the requirements of a specific implementation but all Red Hat architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Modernize the way applications are deployed and run, using microservices and serverless technologies while prioritizing security. Adopt a DevOps philosophy without the need to maintain the underlying infrastructure or the platform for the applications.
+== Use case
 
-*Background:* More and more organizations are adopting cloud-native development technologies together with DevOps processes and culture. But maintaining an in-house container platform to do so requires a large up-front investment in infrastructure and a specialized team of administrators often referred to as site reliability engineers (SRE) on an ongoing basis. Both constitute a significant overhead and can present a barrier to adopting container platforms.
+Modernize the way applications are deployed and run, using microservices and serverless technologies while prioritizing security. Adopt a DevOps philosophy without the need to maintain the underlying infrastructure or the platform for the applications.
+
+== Background
+
+More and more organizations are adopting cloud-native development technologies together with DevOps processes and culture. But maintaining an in-house container platform to do so requires a large up-front investment in infrastructure and a specialized team of administrators, often referred to as site reliability engineers (SRE), on an ongoing basis. Both constitute a significant overhead and can present a barrier to adopting container platforms.
 
 Many organizations are finding that running a supported open source container platform like Red Hat OpenShift on a public cloud synch as Microsoft Azure can eliminate much of the operational burden associated with the underlying container infrastructure—allowing them to focus on their differentiating cloud-native applications. At the same time, by deploying a container platform that is available on multiple cloud providers as well as on-prem, they retain the flexibility to move workloads across providers as their needs change.
 
@@ -23,16 +27,14 @@ Many organizations are finding that running a supported open source container pl
 
 The Azure Red Hat OpenShift Implementation architecture tackles the challenge of running many redundant platforms. Instead, all applications can be developed and run on a single platform. 
 
-The primary goals of the Azure Red Hat OpenShift implementation are as follows:
+The primary goals of the Azure Red Hat OpenShift (ARO) implementation are as follows:
 
-====
-*Azure Red Hat OpenShift implementation*
 
-. Enable the adoption of a cloud-native solution to migrate applications to and build new ones on and enable a hybrid cloud model
-. Make the most of all the services offered by Azure when developing applications by integrating them with the container platform
-. Reduce the cost of having a permanent dedicated on-premise infrastructure for the container platform as well as the cost and need for skills to manage it
+* Enable the adoption of a cloud-native solution for the migration of existing applications and on which to build new ones, enabling a hybrid cloud model
+* Make the most of all the services offered by Azure when developing applications by integrating them with the container platform
+* Reduce the cost of building a permanent dedicated on-prem infrastructure for the container platform as well as the ongoing cost and need for skills to manage it
 
-====
+
 
 
 --
@@ -45,6 +47,7 @@ This solution is based on the https://github.com/Azure/ARO-Landing-Zone-Accelera
 
 
 == Summary video
+
 video::ZKa2ZoV89uI[youtube]
 
 
@@ -62,15 +65,15 @@ _Figure 2. Logical diagram of the Azure Red Hat OpenShift solution which shows t
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/azure[*MS Azure Cloud*] is the hyperscaler platform on which the implementation of this solution has been based. In this solution, some of the main services of the cloud platform that interact with the OpenShift clusters are highlighted, like the Azure Container Registry and the Azure Key Vault for certificate management.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/azure[*Microsoft Azure Cloud*] is the hyperscaler platform on which the implementation of this solution is based. In this solution, some of the main services of the cloud platform that interact with the OpenShift clusters are highlighted, like the Azure Container Registry and the Azure Key Vault for certificate management.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Azure Red Hat OpenShift*] is a service on Azure cloud that allows to deploy fully managed OpenShift clusters which provide a Kubernetes container platform. It provides the same functionalities as regular Red Hat OpenShift. The support is provided jointly by MS and Red Hat as well as the maintenance operations to keep it up to date and compliant with both MS and Red Hat's recommendations. In this solution, we follow the best practices included in the Azure Landing Zone Accelerator for ARO to deploy it. https://www.redhat.com/en/technologies/cloud-computing/openshift/azure/get-started[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Azure Red Hat OpenShift*] is a service on Azure cloud that allows the deployment fully managed OpenShift clusters. It provides the same functionalities as regular Red Hat OpenShift,  a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.. The support is provided jointly by Microsoft and Red Hat as well as the maintenance operations to keep it up to date and compliant with both MS and Red Hat's recommendations. In this solution, we follow the best practices included in the Azure Landing Zone Accelerator for ARO to deploy it. https://www.redhat.com/en/technologies/cloud-computing/openshift/azure/get-started[*Try It >*]
 ====
 
 
 == Architectures
 
-=== MS ARO ingress traffic configuration
+=== Azure Red Hat OpenShift ingress traffic configuration
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/ms-aro-ingress.png[alt="Ingress traffic configuration for Azure Red Hat OpenShift (ARO)", width=700]
 --
@@ -81,17 +84,17 @@ Figure 3 shows the recommended network configuration for the ingress traffic int
 
 It also shows how users can access the APIs for the applications running on the ARO cluster through the Azure Front Door service combined with Azure Private Link to create a private endpoint.
 
-Connection to Azure Arc logging and monitoring services is recommended for cluster performance and usage analysis that will trigger recommendations to improve customer use of their clusters.
+A connection to Azure Arc logging and monitoring services is recommended for cluster performance and usage analysis that will trigger recommendations to improve how you use your clusters.
 
 
-=== MS ARO egress traffic configuration
+=== Azure Red Hat OpenShift egress traffic configuration
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/ms-aro-egress.png[alt="Egress traffic configuration for Azure Red Hat OpenShift (ARO)", width=700]
 --
 
 _Figure 4. Schematic diagram for ARO egress traffic configuration._
 
-In Figure 4, we can see the recommended configuration for the egress traffic from the ARO cluster to the Internet. To filter this traffic the choice for the implementation is to use Azure Firewall service.
+In Figure 4, we can see the recommended configuration for the egress traffic from the ARO cluster to the Internet. To filter this traffic the recommended choice for the implementation is to use Azure Firewall service.
 
 For users that need to access the ARO cluster itself, we recommend using Azure Bastion (jump box) service to connect to it. (A jump box is similar to  an SSH proxy that allows you to hide your server's SSH port from the internet, while still allowing authorized people to SSH in.  It can make attacking your servers more difficult.)
 
@@ -102,7 +105,7 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/ms-aro.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/ms-aro.adoc[issue or submitting a merge request against this Red Hat Architecture product in our GitLab repositories].
 
 The opinions expressed on this website are those of the individual authors and do not necessarily reflect the views of their employer or Red Hat. The content published on this site is contributed by the community and is for informational purposes only. It is not intended to be, and should not be considered as, official Red Hat documentation, support, or advice.
 
