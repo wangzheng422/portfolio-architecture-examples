@@ -7,7 +7,7 @@ Ricardo Garcia Cavero @rgarciac
 :toc: left
 :toclevels: 5
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+_Some details will differ based on the requirements of a specific implementation but all Red Hat architectures generalize one or more successful deployments of a use case._
 
 *Use case:* Modernize the way applications are deployed and run, using microservices and serverless technologies while prioritizing security. Adopt a DevOps philosophy without the need to maintain the underlying infrastructure or the platform for the applications.
 
@@ -15,15 +15,15 @@ _Some details will differ based on the requirements of a specific implementation
 Many organizations are finding that running a supported open source container platform like Red Hat OpenShift on a public cloud can eliminate much of the operational burden associated with the underlying container infrastructure allowing them to focus on their differentiating cloud-native applications. At the same time, by deploying a container platform that is available on multiple cloud providers as well as on-prem, they retain the flexibility to move workloads across providers as their needs change.
 
 == Solution overview
-As seen in Figure 1, the Red Hat Openshift Service on AWS (ROSA) implementation architecture tackles the challenge of having a highly-secured cloud native application development platform without having to manage the underlying infrastructure.
+As seen in Figure 1, the Red Hat Openshift Service on AWS (ROSA) implementation architecture tackles the challenge of having a highly-secured cloud-native application development platform without having to manage the underlying infrastructure.
 The primary goals of the Red Hat Openshift Service on AWS implementation are as follows:
 
 ====
 *Red Hat Openshift Service on AWS Implementation*
 
-. Develop new applications faster, in a more flexible way  and with less footprint
-. Improve customer experience and satisfaction being more responsive to market demands adopting DevOps methodologies
-. Reduce the cost of having a permanent dedicated on-premise infrastructure for the container platform as well as the cost and need for skills to manage it
+* Develop new applications faster, in a more flexible way  and with a smaller footprint
+* Improve customer experience and satisfaction to be more responsive to market demands by adopting DevOps methodologies
+* Reduce the cost of having a permanent dedicated on-prem infrastructure for the container platform as well as the cost and need for skills to manage it
 
 ====
 
@@ -34,13 +34,13 @@ _Figure 1. Overview of Red Hat Openshift Service on AWS (ROSA) Implementation ar
 
 Adopting ROSA can deliver a number of benefits especially to organizations that are already using AWS:
 
-. Red HatOpenShift clusters can be created from the AWS console or CLI
-. Customers can apply their existing AWS spending commitment to use Red Hat OpenShift
-. Both Red Hat OpenShift and AWS consumption can be consolidated on a single unified bill
-. Red Hat and AWS deliver support jointly, allowing customers to take the support route that best meets their needs
-. Applications built on ROSA integrate natively with a large number of AWS cloud-native services
-. Amazon EC2 Spot Instances can be used for the nodes in a ROSA cluster to reduce costs
-. ROSA has native integrations with managed versions of observability tools like Prometheus and Grafana as well as with Amazon CloudWatch and Splunk
+* Red HatOpenShift clusters can be created from the AWS console or CLI
+* Customers can apply their existing AWS spending commitment to use Red Hat OpenShift
+* Both Red Hat OpenShift and AWS consumption can be consolidated on a single unified bill
+* Red Hat and AWS deliver support jointly, allowing customers to take the support route that best meets their needs
+* Applications built on ROSA integrate natively with a large number of AWS cloud-native services
+* Amazon EC2 Spot Instances can be used for the nodes in a ROSA cluster to reduce costs
+* ROSA has native integrations with managed versions of observability tools like Prometheus and Grafana as well as with Amazon CloudWatch and Splunk
 
 
 == Summary video
@@ -64,7 +64,7 @@ The following technology was chosen for this solution:
 
 https://aws.amazon.com/[*Amazon Web Services Cloud*] is the hyperscaler cloud provider platform on which this solution is based. Figure 2 highlights some of the main services of the cloud platform that interact with the OpenShift clusters, including the AWS Container Registry and the AWS Identity and Access Management for certificate management.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/aws?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Service on AWS*] is a service on the  AWS cloud that allows users to deploy fully-managed OpenShift clusters based on the Kubernetes container platform. It provides the same functionality as Red Hat OpenShift running in other environments. Support is provided jointly by AWS and Red Hat which also run the maintenance operations to keep the service up to date and compliant with both AWS’ and Red Hat’s recommendations. https://www.redhat.com/en/technologies/cloud-computing/openshift/aws/get-started?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/aws?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Service on AWS*] is a service on the  AWS cloud that allows users to deploy fully-managed OpenShift clusters based on the Kubernetes container platform. It provides the same functionality as Red Hat OpenShift running in other environments including the ability to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. Support is provided jointly by AWS and Red Hat which also run the maintenance operations to keep the service up to date and compliant with both AWS’ and Red Hat’s recommendations. https://www.redhat.com/en/technologies/cloud-computing/openshift/aws/get-started?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 == Architectures
 === AWS ROSA public cluster
@@ -76,7 +76,7 @@ _Figure 3. Red Hat OpenShift Service on AWS public cluster._
 
 We recommend always using multiple Availability Zone (AZ) clusters (spread across 3 AZs) for both public and private clusters. The cluster will be deployed in a private subnet in a dedicated AWS Virtual Private Cloud (VPC) but will be accessible from the Internet (ingress traffic) and will also be able to direct traffic to it (egress traffic). In order to achieve this, a public subnet must be created in the AWS VPC where the cluster is deployed and this public subnet will need load balancers for the incoming traffic and an AWS NAT Gateway plus an AWS Internet Gateway for the egress traffic. The former will mask the IP address of the cluster and the latter will do the actual redirection.
 
-As mentioned before, the ingress traffic will be controlled by load balancers, one of which will be an AWS Classic Load Balancer that connects to the applications. The load balancer will redirect to the Router service on the infrastructure nodes; from there they will be sent to the right application on the worker nodes. Another load balancer will be an AWS Network Load Balancer for the Site Reliability Engineers (SREs) from Red Hat to connect to the control plane nodes.
+As mentioned above, the ingress traffic will be controlled by load balancers, one of which will be an AWS Classic Load Balancer that connects to the applications. The load balancer will redirect to the Router service on the infrastructure nodes; from there they will be sent to the right application on the worker nodes. Another load balancer will be an AWS Network Load Balancer for the Site Reliability Engineers (SREs) from Red Hat to connect to the control plane nodes.
 
 
 === AWS ROSA private cluster
@@ -86,12 +86,12 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 _Figure 4. Red Hat OpenShift Service on AWS PrivateLink cluster._
 
-The other implementation option is a private cluster which is not accessible from the Internet. Here again, the cluster will be deployed in a private subnet in a dedicated AWS VPC. The users will connect to the applications running on the cluster via an AWS Classic Load Balancer (and not coming through the Internet) and like in the public cluster implementation they will be redirected to the Router service on the infrastructure nodes and from there to the desired application running on the worker nodes.
+The other implementation option is a private cluster which is not accessible from the Internet. Here again, the cluster will be deployed in a private subnet in a dedicated AWS VPC. The users will connect to the applications running on the cluster via an AWS Classic Load Balancer (and not coming through the Internet) and, as in the public cluster implementation, they will be redirected to the Router service on the infrastructure nodes and from there to the desired application running on the worker nodes.
 In this case, the SREs use a dedicated AWS account to connect to an AWS Network Load Balancer via an AWS PrivateLink endpoint; the load balancer will eventually redirect them to the control plane nodes.
 
 If the customer needs to redirect the egress traffic to the Internet they can do so by using an AWS Transit Gateway; this will send that traffic to another AWS VPC where a public subnet is deployed. That subnet will contain an AWS NAT Gateway and AWS Internet Gateway.
 
-In both public and private implementations, the applications running in the cluster can interact with other AWS services that reside on a different AWS VPC by using an AWS VPC endpoint to connect the cluster VPC with the other VPC. Services like https://aws.amazon.com/ebs/[*Amazon EBS*], and https://aws.amazon.com/efs/[*Amazon EFS*] to use them as persistent storage, https://aws.amazon.com/s3/[*Amazon S3*] to store secrets, config mappings, etc., or https://aws.amazon.com/lambda/[*AWS Lambda*]. It is also possible to integrate https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html[*IAM roles for service accounts*] (IRSA) to use these services. In this way an IAM role can be associated with a Kubernetes service account that will be used by pods for authentication to the services. IRSA uses least privileged principles; the container within the pod can only retrieve credentials for the IAM role associated with the account to which the pod belongs.
+In both public and private implementations, the applications running in the cluster can interact with other AWS services that reside on a different AWS VPC by using an AWS VPC endpoint to connect the cluster VPC with the other VPC. This includess ervices like https://aws.amazon.com/ebs/[*Amazon EBS*] and https://aws.amazon.com/efs/[*Amazon EFS*] for persistent storage, https://aws.amazon.com/s3/[*Amazon S3*] to store secrets, config mappings, etc., and https://aws.amazon.com/lambda/[*AWS Lambda*]. It is also possible to integrate https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html[*IAM roles for service accounts*] (IRSA) to use these services. In this way an IAM role can be associated with a Kubernetes service account that will be used by pods for authentication to the services. IRSA uses least privileged principles; the container within the pod can only retrieve credentials for the IAM role associated with the account to which the pod belongs.
 
 
 == Download diagrams

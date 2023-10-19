@@ -1,4 +1,4 @@
-= Supply Chain Optimization Portfolio Architecture
+= Supply Chain Optimization Red Hat Architecture
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples/
 :imagesdir: images
 :icons: font
@@ -8,14 +8,14 @@
 
 == Use Cases
 
-This portfolio architecture addresses several main use cases for transforming supply chain risk factors:
+This Red Hat architecture addresses several main use cases for transforming supply chain risk factors:
 
 * https://www.redhat.com/architect/portfolio/detail/37-demand-risk[Demand risk]
 * https://www.redhat.com/architect/portfolio/detail/41-loss-waste-management[Loss and waste management]
 * https://www.redhat.com/architect/portfolio/detail/42-product-timeliness[Product timeliness]
 * https://www.redhat.com/architect/portfolio/detail/43-perfect-order[Perfect order]
 * https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
-* https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply]
+* https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply chain]
 * https://www.redhat.com/architect/portfolio/detail/48-disaster-readiness[Disaster readiness]
 * https://www.redhat.com/architect/portfolio/detail/47-returns[Supply chain returns]
 
@@ -42,8 +42,8 @@ cases of:
 * _Shelf life_. Identify and replace items in a timely way as shelf life expires.
 * _Environmental exceptions_. Food expirations, power interruptions or
 other disasters affecting the product salability.
-* _Contamination or recall_. Quickly identify, and remove contaminated and
-recalled items from sale or items that have a contaminated component.
+* _Contamination or recall_. Quickly identify and remove contaminated and
+recalled items (or items that have a contaminated component) from sale.
 Proactively provide safe alternatives or replacements when safe.
 
 For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/41-loss-waste-management[Loss and waste management]
@@ -52,23 +52,23 @@ For more information about the solution details in this scenario, see https://ww
 
 *Product timeliness* is having goods and products in the right place at
 the right time, packed correctly, and in line with customer expectations.
-This risk is particular to seasonal goods, fast fashion, drugs,
-cosmetics, grocery, and the food supply industries. KPIs relevant to product
+This risk applies in particular to seasonal goods, fast fashion, drugs,
+cosmetics, groceries, and the food supply industries. KPIs relevant to product
 timeliness include dead stock and inventory days on hand.
 
 * _Shelf life_ defines a set of actions to be taken with products that
 expire on specific dates and must be removed from use or sale. For
 example, food can expire and need to be removed from shelves.
 * _Timeliness_ defines a set of actions that can be taken when products
-expire, but that may still have some benefit. For example,
-the seasonality of clothing can be warehoused until the following year.
+expire, but that may still have some value. For example,
+seasonal clothing can be warehoused until the following year.
 
-For more information about the solution details on this scenario, see
+For more information about the solution details in this scenario, see
 https://www.redhat.com/architect/portfolio/detail/42-product-timeliness[Product timeliness]
 
 === Perfect order
 
-Inventory may not be on hand or maybe in a different location than expected.
+Inventory may not be on hand or may be in a different location than expected.
 Multiple and partial shipments may be able to solve many customer
 requests.
 
@@ -79,13 +79,13 @@ responsiveness with:
 * Optimization of user expectations with improved demand forecasting
 * Automated responses
 
-For more information and solution details on this scenario, see
+For more information and solution details in this scenario, see
 https://www.redhat.com/architect/portfolio/detail/43-perfect-order[Perfect order]
 
 === Intelligent order
 
 If the *last mile delivery* promise is incorrect and a product arrives
-late (perhaps because of incorrect tracking information), is damaged or is never delivered there’s a good chance that the customer will shop with a
+late (perhaps because of incorrect tracking information), is damaged, or is never delivered there’s a good chance that the customer will shop with a
 competitor next time.
 
 For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/44-intelligent-order[Intelligent order]
@@ -94,14 +94,12 @@ For more information about the solution details in this scenario, see https://ww
 
 *Sustainability* provides an opportunity to differentiate your business.
 Yet the business must balance the long-term imperative to protect the
-planet with the immediate need to preserve the bottom line. On a rapidly
-warming planet, companies across sectors have transformed business
-models to forge a sustainable future ‐ one that protects people, the planet,
-and profits. In the race to reduce emissions, consumption, and waste,
+planet with the immediate need to preserve the bottom line. Companies across sectors have transformed business
+models to forge a sustainable future ‐ one that protects people, the planet - while minimizing cost increases. In the race to reduce emissions, consumption, and waste,
 everything is on the table. Supply chains are being recalibrated. Source
 materials are evolving. Travel requests are carefully scrutinized.
 
-For more information about the solution details on this scenario, see https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply]
+For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/45-sustainable-supply-chain[Sustainable supply chain]
 
 === Disaster readiness
 
@@ -109,13 +107,13 @@ Disasters that affect companies can take many forms: public health, terrorism an
 
 A central feature is *time to recover* (TTR), the time it would take for a particular node — a supplier facility, a distribution center, or a transportation hub — to be restored to full functionality after a disruption.
 
-Another main concept is *risk exposure*, an assessment of exposure to risk based on a model that applies suppliers’ TTR to estimate the performance impact, including operational (lost production) and financial (lost revenue and profit).
+Another main concept is *risk exposure*, an assessment of exposure to risk based on a model that applies suppliers’ TTR to estimate the performance impact, including operational (lost production) and financial (lost revenue and profit) measures.
 
-For more information about the solution details on this scenario, see https://www.redhat.com/architect/portfolio/detail/48-disaster-readiness[Disaster readiness]
+For more information about the solution details in this scenario, see https://www.redhat.com/architect/portfolio/detail/48-disaster-readiness[Disaster readiness]
 
 === Supply chain returns
 
-Customers want *easy returns*. For merchandise delivered to the home, the return experience can in fact be a critical reason why consumers stick with a given retailer. At the same time, generosity and the best customer experience need to be balanced against the costs of fraudulent or excessive returns—and the losses of various types that inevitably take place as goods are repackaged and sent back. Businesses need to make returns easy for consumers in order to create loyal customers while at the same time *minimizing* return losses.
+Customers want *easy returns*. For merchandise delivered to the home, the return experience can in fact be a critical reason why consumers stick with a given retailer. At the same time, generosity and the best customer experience need to be balanced against the costs of fraudulent or excessive returns — and the losses of various types that inevitably take place as goods are repackaged and sent back. Businesses need to make returns easy for consumers in order to create loyal customers while at the same time *minimizing* return losses.
 
 For more information about the solution details on this scenario, see https://www.redhat.com/architect/portfolio/detail/47-returns[Supply chain returns]
 
@@ -147,12 +145,10 @@ customer receives their requested products, goods, or services. The items
 must be made available in a suitable timeframe, at the correct location,
 and in an acceptable condition.
 
-Fulfillment optimization takes the fulfillment process a step further by
+_Fulfillment optimization_ takes the fulfillment process a step further by
 using information and knowledge about the supply chain, inventory, and
 stock positions to ensure any promises made to the customer are met or
-exceeded.
-
-A key element of the retail fulfillment process is knowing the inventory
+exceeded. A key element of the retail fulfillment process is knowing the inventory
 position. This is the amount of stock available for sale to a customer,
 its location, and the time it takes to make it available to the
 customer.
@@ -168,8 +164,6 @@ particular market. An organization’s sustainability practices are
 typically analyzed against environmental, social, and governance (ESG)
 metrics.
 
-The business goal is to balance the long-term imperative to protect the planet with the immediate need to preserve the bottom line.
-
 === Business problem
 
 Chief Supply Chain Officers (CSCOs) face issues related to supply chain
@@ -177,7 +171,7 @@ disruptions, technology infrastructure, sustainability, and market
 shifts as their greatest challenges. Yet when addressed with an open
 mindset, challenges create opportunities within the enterprise.
 
-Harvard Business Review article,
+The Harvard Business Review article,
 https://hbr.org/2022/11/3-steps-to-prepare-your-supply-chain-for-the-next-crisis[Three
 steps to prepare your supply chain for the next crisis]. reports:
 
@@ -232,7 +226,7 @@ Business Review article] recommends:
 ____
 CEOs need to invest in risk intelligence and strategic foresight,
 creating a team of procurement super-forecasters equipped with the
-latest artificial-intelligence (AI)-powered sensing technology.
+latest artificial intelligence (AI)-powered sensing technology.
 ____
 
 === Impacts on KPIs
@@ -308,9 +302,7 @@ _Figure 3. The personas and technologies that provide a platform for some of the
 Specifically, the recommended platform includes:
 
 * https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red
-Hat OpenShift*] Kubernetes offering, the hybrid platform offering allow
-deployment across data centers, private and public clouds offering
-choices and flexible for hosting system and services. You can manage
+Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments.  You can manage
 clusters and applications from a single console, with built-in security
 policies with
 https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red
@@ -319,9 +311,9 @@ https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluste
 Hat Advanced Cluster Security*]. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 * https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat
-Ansible Automation Platform*] operate, scale and delegate automate IT
-services, track changes an update inventory, prevent configuration drift
-and integrated with ITSM. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—-from development and operations to security and network teams.Ansible enables operating, scaling and automating IT
+services, tracking changes and updating inventory levels, preventing configuration drift,
+and integrating with ITSM. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 * https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/guide/53dfb804-2038-4545-b917-2cb01a09ef98?intcmp=7013a00000318EWAAY[*Red
 Hat OpenShift API Management*] is a managed API traffic control and
@@ -345,7 +337,7 @@ developer can link legacy apps with newer cloud-native apps and
 infrastructure.
 
 * https://www.ibm.com/products/business-automation-workflow?intcmp=7013a00000318EWAAY[*Business
-Automation Workflow*] automate business processes, case work, task
+Automation Workflow*] automates business processes, case work, and task
 automation with Robotic Process Automation (RPA) and Intelligent
 Automation such as conversation intelligence.
 
@@ -353,7 +345,7 @@ Automation such as conversation intelligence.
 and works across the ecosystem by connecting data from disparate data
 sources in multi-cloud environments. In particular,
 https://www.ibm.com/cloud/watson-knowledge-catalog?intcmp=7013a00000318EWAAY[*Watson Knowledge
-Catalog*] provides you users with a catalog tool for intelligent,
+Catalog*] provides your users with a catalog tool for intelligent,
 self-service discovery of data, models.
 https://www.ibm.com/products/watson-query?intcmp=7013a00000318EWAAY[*Watson Query*] provides data
 consumers with a universal query engine that executes distributed and
@@ -371,13 +363,13 @@ recommendations to mitigate the upstream and downstream effects.
 Intelligent Promising*] provides shoppers with greater certainty, choice
 and transparency across their buying journey. It includes:
 
-* https://www.ibm.com/products/fulfillment-optimizer?intcmp=7013a00000318EWAAY[*IBM Sterling
+** https://www.ibm.com/products/fulfillment-optimizer?intcmp=7013a00000318EWAAY[*IBM Sterling
 Fulfillment Optimizer with Watson*] to determine the best location from
 which to fulfill an order, based on business rules, cost factors, and
 current inventory levels and placement
-* https://www.ibm.com/products/inventory-visibility?intcmp=7013a00000318EWAAY[*Sterling Inventory
-Visibility*] to processes inventory supply and demand activity to
-provide accurate and real-time global visibility across selling
+** https://www.ibm.com/products/inventory-visibility?intcmp=7013a00000318EWAAY[*Sterling Inventory
+Visibility*] to process inventory supply and demand activity,
+providing accurate and real-time global visibility across selling
 channels.
 
 * https://www.ibm.com/products/planning-analytics?intcmp=7013a00000318EWAAY[*IBM Planning Analytics
@@ -386,7 +378,7 @@ planning across the enterprise.
 
 * https://www.ibm.com/products/envizi?intcmp=7013a00000318EWAAY[*Envizi*] simplifies the capture,
 consolidation, management, analysis and reporting of your environmental,
-social and governance (ESG) data.
+social, and governance (ESG) data.
 
 
 
@@ -408,7 +400,7 @@ The solution architecture provides for:
 The decision to adopt a future-looking, Kubernetes-based enterprise platform is
 defining the standards for development, deployment, and operations tools
 and processes for years to come and thus represents a foundational
-decision point. Key client value areas include:
+decision point. Key value areas include:
 
 * Platform for digital Transformation and modernization
 * Accelerated application development for faster go-to-market and
@@ -466,14 +458,14 @@ and includes:
 ** Partner applications
 
 
-=== Supply Assurance Platform detail
+=== Supply assurance platform detail
 
 Each of the core application systems provides data and responds to
 events through these foundational technologies.
 
 *Supply assurance control tower*. Gartner describes
 https://www.gartner.com/smarterwithgartner/gartner-predicts-the-future-of-supply-chain-technology[supply
-chain technology] as a central hub as an integrated part of a broader
+chain technology] as a central hub that is an integrated part of a broader
 SCM platform using these building blocks: people, process, data,
 organization, and technology. The idea is to capture and use data to
 provide enhanced real-time visibility and in-depth analysis.
@@ -511,7 +503,7 @@ uncertainty, economic upheaval, cyber and terrorist attacks, third-party
 or supplier threats, and rapid swings in consumer preferences and
 demand.
 * Supply chain transformation also complicates supply chain risk
-management ‐ lean, but complex and globally dispersed operations add
+management — lean, but complex and globally dispersed operations add
 risks and the supply chain risk management process is vital to wringing
 out inefficiencies and costs.
 
@@ -633,4 +625,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/supplychain.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/supplychain.adoc[issue or submitting a merge request against this Red Hat Architecture product in our GitLab repositories].
