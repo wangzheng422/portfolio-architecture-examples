@@ -7,24 +7,24 @@ Ricardo Garcia Cavero @rgarciac
 :toc: left
 :toclevels: 5
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+_Some details will differ based on the requirements of a specific implementation but all Red Hat architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Modernize an SAP environment by keeping a clean core while adopting DevOps and cloud native development technologies for all SAP customizations and applications that interact with SAP. Provide integration through an API-first approach which reduces maintenance of the development and integration platform.
+== Use case
 
-*Background:* SAP customers need to migrate to the new suite SAP S/4HANA by 2027. That is a very complex process during which all the customer custom code must be reviewed and, if still useful, taken out of the SAP backend so that further upgrade processes are simplified and accelerated. Red Hat OpenShift provides a platform for all this custom code to live and new applications and extensions to SAP standard structures to be developed. Red Hat OpenShift on AWS (ROSA) is an alternative for those customers who prefer not to worry about hosting and managing the platform since it is fully managed by Red Hat in combination with Amazon Web Services (AWS). Red Hat Integration can run on ROSA to integrate all the applications and extensions that need to talk to SAP in a seamless way using an API-first approach.
+Modernize an SAP environment by keeping a clean core while adopting DevOps and cloud native development technologies for all SAP customizations and applications that interact with SAP. Provide integration through an API-first approach which reduces maintenance of the development and integration platform.
+
+== Background
+
+SAP customers need to migrate to the new suite SAP S/4HANA by 2027. That is a very complex process during which all the customer custom code must be reviewed and, if still useful, taken out of the SAP backend so that further upgrade processes are simplified and accelerated. Red Hat OpenShift provides a platform for all this custom code to live and new applications and extensions to SAP standard structures to be developed. Red Hat OpenShift on AWS (ROSA) is an alternative for those customers who prefer not to worry about hosting and managing the platform since it is fully managed by Red Hat in combination with Amazon Web Services (AWS). Red Hat Integration can run on ROSA to integrate all the applications and extensions that need to talk to SAP in a seamless way using an API-first approach.
 
 == Solution overview
-The Keeping the SAP Core clean with ROSA architecture shows how customers can move all their custom code outside of the SAP backend. By embracing DevOps and cloud native methodologies and patterns by using ROSA and Red Hat Integration, they can progress in their journey towards the Intelligent Enterprise.
+The Keeping the SAP Core clean with ROSA architecture in Figure 1 shows how customers can move all their custom code outside of the SAP backend. By embracing DevOps and cloud native methodologies and patterns by using ROSA and Red Hat Integration, they can progress in their journey towards the Intelligent Enterprise.
 
-====
-The Keeping the SAP core clean with ROSA architecture shown in Figure 1:
+The solution:
 
-. Eases the SAP upgrade process and reduces the number of migration steps
-. Provides a cloud-native development platform to create and fully integrate all the SAP extensions—applications that interact with SAP along with any other non-SAP related applications
-. Saves on infrastructure and maintenance costs for the cloud-native development platform and eliminates the need for in-house skills to maintain it
-
-
-====
+* Eases the SAP upgrade process and reduces the number of migration steps
+* Provides a cloud-native development platform to create and fully integrate all the SAP extensions—applications that interact with SAP along with any other non-SAP related applications
+* Saves on infrastructure and maintenance costs for the cloud-native development platform and eliminates the need for in-house skills to maintain it
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/rosa-int-marketing-slide.png[alt="Development and integration platform for SAP on ROSA", width=700]
@@ -53,9 +53,9 @@ The following technology was chosen for this solution:
 
 https://aws.amazon.com/[*Amazon Web Services Cloud*] is the hyperscaler platform on which the implementation of this solution has been based. In this solution, some of the main services of the cloud platform that interact with the OpenShift clusters are highlighted, such as the AWS Container Registry and the AWS Identity and Access Management for certificate management.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/aws?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Service on AWS (ROSA)*]  is a service on AWS cloud that allows the deployment of fully-managed OpenShift clusters which provide an enterprise container platform built on Kubernetes. It provides the same functionalities as on-premises Red Hat OpenShift. Support is provided jointly by AWS and Red Hat as well as maintenance operations to keep it up to date and compliant with both AWS and Red Hat’s recommendations. https://www.redhat.com/en/technologies/cloud-computing/openshift/aws/get-started?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/aws?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Service on AWS (ROSA)*]  is a service on the AWS cloud that allows users to deploy fully-managed OpenShift clusters based on the Kubernetes container platform. It provides the same functionality as Red Hat OpenShift running in other environments including the ability to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. Support is provided jointly by AWS and Red Hat which also run the maintenance operations to keep the service up to date and compliant with both AWS’ and Red Hat’s recommendations. https://www.redhat.com/en/technologies/cloud-computing/openshift/aws/get-started?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a set of integration and messaging technologies that uses an API-first approach to create reusable and modular integrations. This enables the communication between 3rd party apps and SAP, as well as between the extensions and custom code that customers will develop outside of the SAP core. One of the technologies, Camel, has a specific component for SAP (SAP Netweaver) that uses the main protocols utilized by SAP (RFC, iDoc, OData).
+https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) is a set of integration and messaging technologies that uses an API-first approach to create reusable and modular integrations. This enables the communication between 3rd party apps and SAP, as well as between the extensions and custom code that customers will develop outside of the SAP core. One of the technologies, Camel, has a specific component for SAP (SAP Netweaver) that uses the main protocols utilized by SAP (RFC, iDoc, OData).
 
 == Architectures
 === AWS ROSA public cluster
@@ -66,7 +66,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 _Figure 3. Schematic diagram of the architecture._
 
-This diagram shows how the ROSA platform can connect to an SAP installation that resides on AWS as well as how this SAP installation can also connect to SAP BTP and make use of its applications to expand the entire SAP landscape.
+Figure 3 shows how the ROSA platform can connect to an SAP installation that resides on AWS as well as how this SAP installation can also connect to SAP BTP and make use of its applications to expand the entire SAP environment.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
@@ -75,4 +75,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/rosa-int.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/rosa-int.adoc[issue or submitting a merge request against this Red Hat Architecture product in our GitLab repositories].
