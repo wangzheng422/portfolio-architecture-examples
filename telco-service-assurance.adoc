@@ -7,11 +7,15 @@ Ishu Verma  @IoT_Ishu, Aviv Guetta
 :toc: left
 :toclevels: 5
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+_Some details will differ based on the requirements of a specific implementation but all Red Hat architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Build operations support system and business support system (OSS) service assurance solution on public cloud.
+== Use case
 
-*Background:* An OSS service assurance architecture can help deliver end-to-end service management—from service activation and provisioning, to service performance monitoring and customer support—to achieve the required customer service level agreement (SLA). Operational support systems (OSS) are the information processing systems that manage communications networks. Business support systems (BSS) provide business and customer-facing functionality. The distinction emphasizes a separation of concerns between maintaining network operations and the business around which that network is built (which historically were very clearly separate entities). By monitoring, identifying, and resolving any technical or business issues with OSS/BSS tools and processes, communication service providers are able to ensure the reliability and quality of network services. This includes proactively detecting and resolving network problems to ensure network availability and performance, as well as monitoring and resolving any customer issues.
+Build operational support system (OSS) and business support system (BSS) service assurance solution on public cloud.
+
+== Background
+
+A service assurance architecture can help deliver end-to-end service management—from service activation and provisioning to service performance monitoring and customer support—to achieve the required customer service level agreement (SLA). Operational support systems (OSS) are the information processing systems that manage communications networks. Business support systems (BSS) provide business and customer-facing functionality. The distinction emphasizes a separation of concerns between maintaining network operations and the business around which that network is built (which historically were very clearly separate entities). By monitoring, identifying, and resolving any technical or business issues with OSS/BSS tools and processes, communication service providers are able to ensure the reliability and quality of network services. This includes proactively detecting and resolving network problems to ensure network availability and performance, as well as monitoring and resolving any customer issues.
 
 
 == Solution overview
@@ -21,15 +25,13 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 --
 _Figure 1. OSS service assurance solution overview._
 
-Figure 1 provides an overview of the OSS Sales Assurance solution.
+Figure 1 provides an overview of the OSS Service Assurance solution.
 
-====
 This solution:
 
-. Provides a cloud-native OSS architecture with on-demand scaling where and when needed, with high performance data streaming and processing.
-. Provides network automation, network fault management, and network analytics and assurance based on a fully managed application platform on the public cloud.
-. Provides a fundamental unified data streaming and processing layer that can be utilized as an engine for other OSS services.
-====
+* Provides a cloud-native OSS architecture with on-demand scaling where and when needed, with high performance data streaming and processing.
+* Provides network automation, network fault management, and network analytics and assurance based on a fully managed application platform on the public cloud.
+* Provides a fundamental unified data streaming and processing layer that can be utilized as an engine for other OSS services.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-oss-bss-sa-workflow.png[alt="Service Assurance with OSS solution", width=700]
@@ -38,10 +40,10 @@ _Figure 2. Service assurance with next-generation OSS._
 
 Figure 2 provides a high-level view of service assurance with a next-generation OSS solution. It includes:
 
-1. Events, metrics, and log data (mostly in batch) streaming from the customer network in a private secure connection.
-2. High-performance data ingestion and parallel processing.
-3. High-performance event streaming using Apache Kafka.
-4. AI-backed applications enabling flexibility with respect to new data streams, predictive and reactive automated network management, and analytics.
+* Events, metrics, and log data (mostly in batch) streaming from the customer network in a private secure connection.
+* High-performance data ingestion and parallel processing.
+* High-performance event streaming using Apache Kafka.
+* AI-backed applications enabling flexibility with respect to new data streams, predictive and reactive automated network management, and analytics.
 
 == Summary video
 video::rKSzodsad2k[youtube]
@@ -54,39 +56,44 @@ _Figure 3: OSS service assurance solution as logically distributed across multip
 
 
 == The technology
+
 The following technology was chosen for this solution:
 
-====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. OpenShift enables OSS by supporting functionality and operational features such as automated deployment, intelligent workload placement, dynamic scaling, upgrades without any degradation of service or performance (hitless), and self healing. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization. The platform includes all the tools needed to implement enterprise-wide automation. It enables cluster and network operations administrators to automate deployment of functional components across a hybrid cloud. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. OpenShift enables OSS by supporting functionality and operational features such as automated deployment, intelligent workload placement, dynamic scaling, upgrades without any degradation of service or performance (hitless), and self healing. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+
+https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—-from development and operations to security and network teams. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management*] for Kubernetes controls clusters and applications from a single console, with built-in security policies. It extends the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and enforcing policies across multiple clusters at scale. https://www.redhat.com/en/technologies/management/advanced-cluster-management/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. It provides persistent storage across clusters across a hybrid cloud. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
-====
-== Architectures
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. It provides persistent storage across clusters in a hybrid cloud. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+
+== Architecture
 
 === OSS with Hyperscalers
 
-The OSS service assurance portfolio architecture is based on the following design principles:
+The OSS service assurance architecture is based on the following design principles:
 
-*Layered solution*: The solution separates OSS  applications running on a common platform (enterprise-grade Kubernetes-based application platform) and infrastructure (on-premises private cloud and hyperscalers). This approach captures OSS value within the application layer enriched by the platform and underpinned by infrastructure.
+*Layered solution*: The solution separates OSS  applications running on a common platform (enterprise-grade Kubernetes-based application platform) and infrastructure (on-premise private cloud and hyperscalers). This approach captures OSS value within the application layer as enriched by the platform and underpinned by infrastructure.
 
-*Break down and build up*: OSS functions are implemented in an atomic fashion (such as fault management, performance management, alert management, and accounting) so that enriched and more complex value-added services can be built using these as constructs (such as service assurance, revenue assurance, mediation, and AI/ML-driven operations).
+*Break down and build up*: OSS functions are implemented in an atomic fashion (such as fault management, performance management, alert management, and accounting) so that more complex value-added services can be built using these as constructs (such as service assurance, revenue assurance, mediation, and AI/ML-driven operations).
 
-*Self-organized autonomous systems*: Self-aware and self-scaling complete OSS solutions, from infrastructure to platform to OSS application set, are integral to the design.
+*Self-organized autonomous systems*: Complete OSS solutions, from infrastructure to platform to OSS application set, are integral to the design.
 
 *Layered solution*
 This solution recommends creating an abstracted, layered approach based on these application-set placement locations:
-- Core: This is where the OSS solution core is deployed, leveraging on-demand high availability with a low-cost cloud multiregion, multizone infrastructure. The network fabric design part of the solution blueprint is architected to avoid well-known networking drawbacks (such as latency or replication durations). Using integrated cloud-native networking constructs and facilities (for example, unicast IPs and geoload balancers), the solution delivers the best experience with on-demand autoscaling when and where needed.
+
+- Core: This is where the OSS solution core is deployed, leveraging on-demand high availability with a low-cost cloud multiregion, multizone infrastructure. The network fabric design part of the solution is architected to avoid well-known networking drawbacks (such as latency or replication durations). Using integrated cloud-native networking constructs and facilities (for example, unicast IPs and geoload balancers), the solution delivers the best experience with on-demand autoscaling when and where needed.
+
 - Edge: This layer covers OSS solution extensions (such as element management systems (EMS), distributed API gateways, or data ingest proxies), benefiting from hyperscaler edge (local zones) as a proximity-based availability and bursting option.
+
 - Far edge: This layer operates on ingress data and interacts with the 5G OSS solution core and on-premises low-latency solutions. This is where applications, probes, and agents are located, such as xAPPs (software tools used by the RAN (Radio Access Network) intelligent controller, or RIC, to manage network functions in real time) and rAPPs (which manage non-real-time events within the RIC).
+
 - Device edge: Similar to the far edge layer, this layer deals with interaction and interworking with edge components, including Internet of Things (IoT) devices, manufacturing facilities, and other network subscribers, ingressing data from these devices towards the OSS core.
 
 *Break down and build-up*
 To address the challenges with distributed and complex OSS solutions, we have applied some of the best practices from 5G core deployments and operations (distributed microservices with higher levels of automation and standards guidance). The result is a consistent model across different layers of an end-to-end 5G solution.
-Within the 5G solution, each OSS microservice can either be integrated with a 5G core service over Kubernetes service exposure or it can implement an abstraction layer via an element management system (EMS, shown in Figure 4) and perform functional and logical breakdown underneath. Such an abstraction layer reduces integration points and network traffic complexity for OSS deployment and management and enables a single data governance point.
+Within the 5G solution, each OSS microservice can either be integrated with a 5G core service over Kubernetes service exposure or it can implement an abstraction layer via an element management system (EMS, as shown in Figure 4) and perform functional and logical breakdown underneath. Such an abstraction layer reduces integration points and network traffic complexity for OSS deployment and management and enables a single data governance point.
 
 *Self-organized autonomous systems*
 As organizations deploy more applications across multiple clouds, new operational and business challenges arise.
@@ -105,4 +112,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/telco-service-assurance.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/telco-service-assurance.adoc[issue or submitting a merge request against this Red Hat Architecture product in our GitLab repositories].
