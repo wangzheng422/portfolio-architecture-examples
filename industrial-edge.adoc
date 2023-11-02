@@ -7,15 +7,19 @@ Ishu Verma  @ishuverma, William Henry @ipbabble,
 :toc: left
 :toclevels: 5
 
-_Red Hat  Validated Patterns are detailed deployments created for different use cases. These pre-defined computing configurations bring together the Red Hat portfolio and technology ecosystem to help you stand up your architectures faster. Example application code is provided as a demonstration, along with the various open source projects and Red Hat products required for the deployment to work. Users can then modify the pattern for their own specific application._
+_Red Hat  Validated Patterns, such as the one on which this Red Hat architecture is based, are detailed deployments created for different use cases. These pre-defined computing configurations bring together the Red Hat portfolio and technology ecosystem to help you stand up your architectures faster. Example application code is provided as a demonstration, along with the various open source projects and Red Hat products required for the deployment to work. Users can then modify the pattern for their own specific application._
 
-**Use Case:** Boosting manufacturing efficiency and product quality with artificial intelligence/machine learning (AI/ML) out to the edge of the network.
+== Use case
 
-**Background:** Microcontrollers and other types of simple computers have long been widely used on factory floors and processing plants to monitor and control the many machines required to implement the many machines required to implement many modern manufacturing workflows. 
+Boosting manufacturing efficiency and product quality with artificial intelligence/machine learning (AI/ML) out to the edge of the network.
 
-The manufacturing industry has consistently used technology to fuel innovation, production optimization, and operations. However, historically, control systems were mostly “dumb” in that they mostly took actions in response to pre-programmed triggers and heuristics. For example, predictive maintenance commonly took place on either a set length of time or the number of hours was in service.
+== Background
 
-Supervisory control and data acquisition (SCADA) has often been used to collectively describe these hardware and software systems, which mostly functioned independently of the company’s information technology (IT) systems. Companies increasingly see the benefit of bridging these operational technology (OT) systems with their IT. Factory systems can be much more flexible as a result. They can also benefit from newer technologies such as AI/ML, thereby allowing for tasks like maintenance to be scheduled based on multiple real-time measurements rather than simple programmed triggers while bringing processing power closer to data.
+Microcontrollers and other types of simple computers have long been widely used on factory floors and processing plants to monitor and control the many machines required to implement many modern manufacturing workflows. 
+
+The manufacturing industry has consistently used technology to fuel innovation, production optimization, and streamlined operations. However, historically, control systems were mostly “dumb” in that they mostly took actions in response to pre-programmed triggers and heuristics. For example, predictive maintenance commonly took place on either a fixed time interval or the number of hours a machine was in service.
+
+Supervisory control and data acquisition (SCADA) has often been used to collectively describe these hardware and software systems, which mostly functioned independently of the company’s information technology (IT) systems. Companies increasingly see the benefit of bridging these operational technology (OT) systems to their IT. Factory systems can be much more flexible as a result. They can also benefit from newer technologies such as AI/ML, thereby allowing for tasks like maintenance to be scheduled based on multiple real-time measurements rather than simple programmed triggers while also bringing processing power closer to data.
 
 
 == Solution overview
@@ -26,9 +30,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 _Figure 1. Industrial edge solution overview._
 
 
-Figure 1 provides an overview of the industrial edge solution. It is applicable across a number of verticals including manufacturing. 
-
-====
+Figures 1 and 2 provide an overview of the industrial edge solution. It is applicable across a number of verticals including manufacturing. 
 
 This solution:
 
@@ -36,12 +38,11 @@ This solution:
 - Secures GitOps and DevOps management across core and factory sites
 - Provides AI/ML tools that can reduce maintenance costs
 
-====
 
 Different roles within an organization have different concerns and areas of focus when working with this distributed AL/ML architecture across two logical types of sites: the core datacenter and the factories. (As shown in Figure 2.)
 
 - **The core datacenter**. This is where data scientists, developers, and operations personnel apply the changes to their models, application code, and configurations.
-- **The factories**. This is where new applications, updates and operational changes are deployed to improve quality and efficiency in the factory..
+- **The factories**. This is where new applications, updates, and operational changes are deployed to improve quality and efficiency in the factory..
 
 
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/ai-ml-architecture-vp.png[alt="Mapping of organizational roles to architectural areas", width=700]
@@ -54,9 +55,9 @@ _Figure 3. Overall data flows of solution._
 
 Figure 3 provides a different high-level view of the solution with a focus on the two major dataflow streams.
 
-1. Moving sensor data and events from the operational/shop floor edge towards the core. The idea is to centralize as much as possible, but decentralize as needed. For example, sensitive production data might not be allowed to leave the premises. Think of a temperature curve of an industrial oven; it might be considered crucial intellectual property of the customer. Or the sheer amount of raw data (maybe 10,000 events per second) might be too expensive to transfer to a cloud datacenter. In the above diagram, this is from left to right. In other diagrams the edge / operational level is usually at the bottom and the enterprise/cloud level at the top. Thus, this is also referred to as northbound traffic.
+The first stream is about moving sensor data and events from the operational/shop floor edge towards the core. The idea is to centralize as much as possible, but decentralize as needed. For example, sensitive production data might not be allowed to leave the premises. Think of the temperature curve of an industrial oven; it might be considered crucial intellectual property of the customer. Or the sheer amount of raw data (maybe 10,000 events per second) might be too expensive to transfer to a cloud datacenter. In Figure 3, this stream goes from left to right. In other diagrams the edge / operational level is usually at the bottom and the enterprise/cloud level at the top. Thus, this is also referred to as northbound traffic.
 
-2. Push code, configuration, master data, and machine learning models from the core (where development, testing, and training is happening) towards the edge / shop floors. As there might be 100 plants with 1000s of lines, automation and consistency is key. In the above diagram, this is from right to left, in a top/down view, it is called southbound traffic.
+The second stream is about pushing code, configuration, master data, and machine learning models from the core (where development, testing, and training is happening) towards the edge / shop floors. As there might be 100s of plants with 1000s of lines, automation and consistency is key. In Figure 3, this is from right to left; in a top/down view, it is called southbound traffic.
 
 
 == Logical diagrams
@@ -69,9 +70,9 @@ The following technology was chosen for this solution as depicted logically in F
 
 == The technology
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud,  and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (also sold as Red Hat Integration) includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control.
+https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control.
 
 It includes, among other components:
 
@@ -80,14 +81,11 @@ It includes, among other components:
 - https://www.redhat.com/en/technologies/jboss-middleware/amq?intcmp=7013a00000318EWAAY[*Red Hat AMQ*] is a massively scalable, distributed, and high-performance data streaming platform based on the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share data with high throughput and low latency.
 data with high throughput and low latency.
 
-https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and
-data across hybrid infrastructures.
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. It is based on the open source Ceph, Rook, and Noobaa projects. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. It is based on the open source Ceph, Rook, and Noobaa projects. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management for Kubernetes*] controls clusters and applications from a single console, with built-in security policies. It extends the value of Red Hat OpenShift by deploying applications, managing multiple clusters, and enforcing policies across multiple clusters at scale. https://www.redhat.com/en/technologies/management/advanced-cluster-management/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management*] controls clusters and applications from a single console, with built-in security policies. It extends the value of Red Hat OpenShift by deploying applications, managing multiple clusters, and enforcing policies across multiple clusters at scale. https://www.redhat.com/en/technologies/management/advanced-cluster-management/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
-
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing applications—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 == Architectures
 
@@ -97,9 +95,9 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 _Figure 5: Industrial Edge solution showing messaging and ML components schematically._
 
-As shown in Figure 5, data coming from sensors is transmitted over MQTT (Message Queuing Telemetry Transport) to Red Hat AMQ, which routes sensor data for two purposes: model development in the core data center and live inference in the factory data centers. The data is then relayed on to Red Hat AMQ for further distribution within the factory datacenter and out to the core datacenter. MQTT is the most commonly used messaging protocol for Internet of Things (IoT) applications.
+As shown in Figure 5, data coming from sensors is transmitted over MQTT (Message Queuing Telemetry Transport) to Red Hat AMQ, which routes sensor data for two purposes: model development in the core data center and live inference in the factory data centers. MQTT is the most commonly used messaging protocol for Internet of Things (IoT) applications.
 
-The lightweight Apache Camel K, a lightweight integration framework built on Apache Camel that runs natively on Kubernetes, provides MQTT (Message Queuing Telemetry Transport) integration that normalizes and routes sensor data to the other components.
+The lightweight Apache Camel K, a lightweight integration framework built on Apache Camel that runs natively on Kubernetes, provides the MQTT (Message Queuing Telemetry Transport) integration that normalizes and routes sensor data to the other components.
 
 That sensor data is mirrored into a data lake that is provided by Red Hat OpenShift Data Foundation. Data scientists then use various tools from the open source Open Data Hub project to perform model development and training, pulling and analyzing content from the data lake into notebooks where they can apply ML frameworks.
 
@@ -119,7 +117,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 _Figure 7: Industrial Edge solution showing a schematic view of the GitOps workflows._
 
-GitOps is an operational framework that takes DevOps best practices used for application development such as version control, collaboration, compliance, and CI/CD, and applies them to infrastructure automation. Figure 6 shows how, for these industrial edge manufacturing environments, GitOps provides a consistent, declarative approach to managing individual cluster changes and upgrades across the centralized and edge sites. Any changes to configuration and applications can be automatically pushed into operational systems at the factory.
+GitOps is an operational framework that takes DevOps best practices used for application development such as version control, collaboration, compliance, and CI/CD, and applies them to infrastructure automation. Figure 7 shows how, for these industrial edge manufacturing environments, GitOps provides a consistent, declarative approach to managing individual cluster changes and upgrades across the centralized and edge sites. Any changes to configuration and applications can be automatically pushed into operational systems at the factory.
 
 ### Secrets exchange and management
 
@@ -127,14 +125,14 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 _Figure 8: Schematic view of secrets exchange and management in an Industrial Edge solution._
 
-Authentication is used to securely deploy and update components across multiple locations. The credentials are stored using a secrets management solution like Hashicorp Vault. The external secrets component is used to integrate various secrets management tools (AWS Secrets Manager, Google Secrets Manager, Azure Key Vault). As shown in Figure 7, these secrets are then passed to Red Hat Advanced Cluster Management for Kubernetes (RHACM) which pushes the secrets to the RHACM agent at the edge clusters based on policy. RHACM is also responsible for providing secrets to OpenShift for GitOps workflows( using Tekton and Argo CD).
+Authentication is used to securely deploy and update components across multiple locations. The credentials are stored using a secrets management solution like Hashicorp Vault. The external secrets component is used to integrate various secrets management tools (AWS Secrets Manager, Google Secrets Manager, Azure Key Vault). As shown in Figure 8, these secrets are then passed to Red Hat Advanced Cluster Management for Kubernetes (RHACM) which pushes the secrets to the RHACM agent at the edge clusters based on policy. RHACM is also responsible for providing secrets to OpenShift for GitOps workflows (using Tekton and Argo CD).
 
 
 == Demo scenario
 
-This scenario is derived from the https://github.com/sa-mw-dach/manuela[MANUela work] done by Red Hat Middleware Solution Architects in Germany in 2019/20. The name MANUela stands for MANUfacturing Edge Lightweight Accelerator, you will see this acronym in a lot of artifacts. It was developed on a platform called https://github.com/stormshift/documentation[stormshift].
+This scenario is derived from the https://github.com/sa-mw-dach/manuela[MANUela work] done by Red Hat Middleware Solution Architects in Germany. The name MANUela stands for MANUfacturing Edge Lightweight Accelerator, you will see this acronym in a lot of artifacts. It was developed on a platform called https://github.com/stormshift/documentation[stormshift].
 
-The demo has been updated 2021 with an advanced GitOps framework.
+The demo was subsequently with an advanced GitOps framework.
 
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/highleveldemodiagram-vp.png[alt="The specific example is machine condition monitoring based on sensor data in an industrial setting, using AI/ML. It could be easily extended to other use cases such as predictive maintenance, or other verticals", width=700]
 
@@ -161,4 +159,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback on this architecture
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/cloud-adoption.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/industrial-edge.adoc[issue or submitting a merge request against this Red Hat Architecture product in our GitLab repositories].
