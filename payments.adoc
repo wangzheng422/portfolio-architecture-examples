@@ -7,29 +7,29 @@ Eric D. Schabell @eschabell, Ramon Villarreal @rvillarr
 :toc: left
 :toclevels: 5
 
-_Updated September 2023_
+_Updated November 2023_
 
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+_Some details will differ based on the requirements of a specific implementation but all Red Hat architectures generalize one or more successful deployments of a use case._
 
 == Use case 
 Financial institutions want to enable customers to use fast, easy to use, and secure payment services available anytime, anywhere.
 
 
 == Background
-An offering of (near) real-time payments allows businesses, consumers, and governments to send and accept funds that provide both availability to the recipient and instant confirmation to the sender. Enabling real-time payments improves the speed of the online payment experiences to customers and gives banks a greater opportunity to win, serve, and retain their customers. By building solutions that capture real-time payment business, banks also can drive higher payment volumes, ideally at lower costs—in addition to engaging with new customer segments.
+Offering (near) real-time payments allows businesses, consumers, and governments to send and accept funds that provide both availability to the recipient and instant confirmation to the sender. Enabling real-time payments improves the speed of the online payment experiences for customers and gives banks a greater opportunity to win, serve, and retain those customers. By building solutions that capture real-time payment business, banks also can drive higher payment volumes, ideally at lower costs—in addition to engaging with new customer segments.
 
 Real-time payments give customers the convenience of knowing that their payments will be received instantly, regardless of the time of day or day of the week. This can be especially important for businesses that need to make or receive payments quickly, such as for payroll or bill payments.
 
 They can also help businesses improve their cash flow management by giving them more visibility into their incoming and outgoing payments. This can help them to better manage their expenses and optimize their working capital..
 
-In addition, real-time payments can help financial institutions to comply with regulations, such as those governing anti-money laundering and know-your-customer.
+In addition, real-time payments can help financial institutions to comply with regulations, such as those governing anti-money laundering and know-your-customer (KYC).
 
 
 
 
 == Solution overview
-The architecture shown in Figure 1 covers the use case around using a modern payments architecture in the financial services domain. Built on a container platform, it provides improved transparency into near-real-time account balances, better fraud monitoring, and timely payments data for use with analytics.
+The architecture shown in Figure 1 covers the use case of using a modern payments architecture in financial services. Built on a container platform, it provides improved transparency into maintaining near-real-time account balances, better fraud monitoring, and timely payments data for use with analytics.
 
 
 --
@@ -41,7 +41,7 @@ _Figure 1. Solution overview of modern payments architecture solution._
 
 == Logical diagram
 
-The modern payments architecture logical diagram in Figure 2 shows the major functional blocks of the solution. The core functionality is in the container platform which also includes integration and other microservices, API management, and single-sign-on functionality. The container platform interfaces with external applications and services as well as the underlying hybrid cloud infrastructure and infrastructure services such as event streaming.
+The modern payments architecture logical diagram in Figure 2 shows the major functional blocks of the solution. The core functionality is in the container platform which also includes integration and other microservices, API management,  single-sign-on functionality, and capabilities to enable rapid application development. The container platform interfaces with external applications and services as well as the underlying hybrid cloud infrastructure and infrastructure services such as event streaming.
 
 
 --
@@ -54,25 +54,23 @@ _Figure 2. Logical diagram of modern payments architecture solution._
 == The technology
 The following technology was chosen for this solution:
 
-====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes-based container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run across a variety of infrastructure. It orchestrates the containerized applications and enables agile DevOps development with automated CI/CD workflows. This shortens the lead time for application changes, increases deployment frequency, and lowers the change failure rate. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run across a variety of infrastructure. It orchestrates the containerized applications and enables agile DevOps development with automated CI/CD workflows. This shortens the lead time for application changes, increases deployment frequency, and lowers the change failure rate. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 
 https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) Includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control.
 
 https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] is a set of products, tools, and components for developing and maintaining cloud-native applications. It offers lightweight runtimes and frameworks for highly distributed cloud architectures, such as Spring Boot and Quarkus. The developer IDE supports development with tooling that connects directly to the platform. Red Hat OpenShift Runtimes is also included as part of Red Hat Application Foundations.
 
-https://catalog.redhat.com/software/container-stacks/detail/5ef20efd46bc301a95a1e9a4?intcmp=7013a00000318EWAAY[*Red Hat AMQ*] is a lightweight, high-performance, robust messaging platform. Here, it communicates between the event sources, all of the microservices that handle the events, and the automation layer that performs the final remediation, including results listening and response. AMQ provides efficient queuing and event streaming for seamless data exchange between applications and microservices, with extremely high throughput, and extremely low latency. Red Hat AMQ is also included as part of Red Hat Application Foundations.
+https://catalog.redhat.com/software/container-stacks/detail/5ef20efd46bc301a95a1e9a4?intcmp=7013a00000318EWAAY[*Red Hat AMQ*] is a lightweight, high-performance, robust messaging platform. Here, it communicates between the event sources, all of the microservices that handle the events, and the automation layer that performs the final remediation, including results listening and response. AMQ provides efficient queuing and event streaming for seamless data exchange between applications and microservices, with extremely high throughput, and extremely low latency. Red Hat AMQ is also included as part of Red Hat Application Foundations. (Components are included in Red Hat Application Foundations.)
+
+https://www.redhat.com/en/technologies/jboss-middleware/3scale?intcmp=7013a00000318EWAAY[*Red Hat 3scale API Management*] is a platform that simplifies sharing, securing, distributing, controlling, and monetizing application programming interfaces (APIs) for internal or external users. (Included in Red Hat Application Foundations.)
 
 
-
-https://www.redhat.com/en/technologies/jboss-middleware/3scale?intcmp=7013a00000318EWAAY[*Red Hat 3scale API Management*] is a platform that simplifies sharing, securing, distributing, controlling, and monetizing application programming interfaces (APIs) for internal or external users.
-
-
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
-====
+
 
 == Architectures
 
@@ -84,7 +82,7 @@ The schematic diagrams In Figures 3 through 7 provide detail about immediate pay
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/fsi-payments-immediate-payments-sd.png[750,700]
 
 
-_Figure 3. Schematic diagram of modern payments architecture solution with a focus on networking associated with immediate payments._
+_Figure 3. Schematic diagram of a modern payments architecture solution with a focus on networking associated with immediate payments._
 
 
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/fsi-payments-immediate-payments-data-sd.png[750,700]
@@ -109,7 +107,7 @@ Figure 5 zooms into the anti-money laundering element of the architecture. The p
 
 The events stream triggers the start of an anti-money laundering check, which involves taking a look at the payment transaction to score it and add labels as needed. 
 
-These scoring and labeling decisions are based on the use of an AI/ML model that is shown in the bottom right of Figure 5 being updated and trained using know-your-customer (KYC) data maintained in external systems at a financial institution. Once the sourcing is done,rules ensure that the payment is not transgressing any anti-money laundering rules. If it is a good payment request, that event is sent back to the event stream for processing through to payment as described in Figures 3 and 4. A rule is apparently violated, an event is sent to the malicious activity streams element so that a case can be opened for further investigation and suspicious activity processes initiated.
+These scoring and labeling decisions are based on the use of an AI/ML model that is shown in the bottom right of Figure 5 being updated and trained using know-your-customer data maintained in external systems at a financial institution. Once the sourcing is done,rules ensure that the payment is not transgressing any anti-money laundering rules. If it is a good payment request, that event is sent back to the event stream for processing through to payment as described in Figures 3 and 4. A rule is apparently violated, an event is sent to the malicious activity streams element so that a case can be opened for further investigation and suspicious activity processes initiated.
 
 
 === Fraud detection
@@ -134,6 +132,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 _Figure 7. Schematic diagram of modern payments architecture solution with a focus on financial calculations._
 
 The financial calculations diagram in Figure 7 lays out an architecture that is in the payments realm, but is primarily intended to determine the payment to be requested through a billing system of a customer. 
+
 The request for calculating a payment comes into the architecture in the form of a message from the front-facing API’s. This message is processed through various message queues, first to validate the request, then to process it through detailed calculations using rule services to determine the payment needed. Integration services connect the organization to the billing systems that issue the payment invoice.
 
 
@@ -145,4 +144,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback 
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/payments.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/payments.adoc[issue or submitting a merge request against this Red Hat Architecture product in our GitLab repositories].
