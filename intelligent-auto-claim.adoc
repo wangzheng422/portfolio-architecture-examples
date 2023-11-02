@@ -10,12 +10,16 @@ Christina Lin @Christina_wm, Thalia Hooker
 
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case. This architecture is based on a study of claims systems at insurance companies._
 
-*Use case:* Implement an insurance claims system that automates existing manual processes, tasks, and workflows by introducing Robotic Process Automation (RPA) and Artificial Intelligence (AI)/Machine Learning (ML) to improve business processes. It deploys hybrid platforms, reuses legacy systems, and improves IT infrastructure management efficiency.
+== Use case
+
+Implement an insurance claims system that automates existing manual processes, tasks, and workflows by introducing Robotic Process Automation (RPA) and Artificial Intelligence (AI)/Machine Learning (ML) to improve business processes. It deploys hybrid platforms, reuses legacy systems, and improves IT infrastructure management efficiency.
 
 
-*Background:*  Insurance companies now increasingly depend on digital technology to provide customers with a satisfying and faster claim experience. 
+== Background
 
-As digitization accelerated, Insurance companies found themselves relying on old legacy systems and processes. The redundant systems they had accumulated over the years drove up the cost and the resources needed to operate them. 
+Insurance companies now increasingly depend on digital technology to provide customers with a satisfying and faster claim experience. 
+
+As digitization accelerated, insurance companies found themselves relying on old legacy systems and processes. The redundant systems they had accumulated over the years drove up the cost and the resources needed to operate them. 
 
 == Solution overview
 
@@ -23,56 +27,51 @@ To achieve the full benefits of digitization required real-time data access via 
 
 But modernizing a legacy IT platform can be difficult. Claims needed an Intelligent Automation Workflow in order to achieve:
 
+* Streamlined processing to deliver a hassle-free, seamless, and accurate customer claim experience;
+* Enhanced fraud detection and prevention;
+* Reduced skills required for associates and less manual work; and
+* Improved operational efficiency and simplified workflow automation to reduce ongoing maintenance costs.
 
-====
-. Streamlined processing to deliver a hassle-free, seamless, and accurate customer claim experience;
-. Enhanced fraud detection and prevention;
-. Reduced skills required for associates and less manual work; and
-. Improved operational efficiency and simplified workflow automation to reduce ongoing maintenance costs.
-====
-
-Figure 1 provides an overview of the Intelligent Automation Workflow
+Figure 1 provides an overview of the Intelligent Automation Workflow.
 
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/intelligent-auto-claim-marketing-slide.png[alt="Intelligent Automation Workflow solution overview", width=700]
 --
-Figure 1. Intelligent Automation Workflow solution overview.
+_Figure 1. Intelligent Automation Workflow solution overview._
 
 
 
 == Logical diagram
-Figure 2 provides a more detailed logical view
+Figure 2 provides a more detailed logical view showing the combination of operational services, intelligent services, and claim services—together with the core system—that make up the solution.
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/intelligent-auto-claim-ld-detail.png[alt="Intelligent Automation Workflow solution, as logically and physically distributed across multiple locations", width=700]
 --
-Figure 2. Intelligent Automation Workflow solution, as logically and physically distributed across multiple locations.
+_Figure 2. Intelligent Automation Workflow solution, as logically and physically distributed across multiple locations._
 
 
 == The technology
 
 
-IBM and Red Hat together provide cutting-edge technologies to facilitate and accelerate digital transformation with intelligent solutions in hybrid and multi-cloud environments. In this architecture, the client achieved intelligent automated business processes using IBM Cloud Pak® for Business Automation and IBM Cloud Pak® for Integration deployed on Red Hat OpenShift on the IBM Cloud. Additionally, IBM Watson® services on the IBM Cloud infused AI/ML into the applications with conversational chatbots in the claims processing. AutoAI within IBM Watson Studio determined the best models for scoring claims based on complexity and risk, automating decisions and processes, and optimizing adjusters’ time.
+IBM and Red Hat together provide technologies to facilitate and accelerate digital transformation with intelligent solutions in hybrid and multi-cloud environments. This architecture provides intelligent automated business processes using IBM Cloud Pak for Business Automation and IBM Cloud Pak for Integration deployed on Red Hat OpenShift on the IBM Cloud. IBM Watson services on the IBM Cloud AI/ML also enables applications with conversational chatbots in the claims processing. AutoAI within IBM Watson Studio determines the best models for scoring claims based on complexity and risk, automating decisions and processes, and optimizing adjusters’ time.
 
-IT service management (ITSM) was introduced to establish processes and practices to optimize the use of the IT services. This was combined with automated processes using Red Hat Ansible Automation Platform. This enabled replacing manual work with more compliant and effective operations. Doing so reduced the labor cost, allowed for consistent and dynamic adjustments, and created guardrails to deliver more scalable infrastructure.
-
-
+IT service management (ITSM) establishes processes and practices to optimize the use of the IT services and is combined with automated processes using Red Hat Ansible Automation Platform. This enables replacing manual work with more compliant and effective operations. Doing so reduces the labor cost, allows for consistent and dynamic adjustments, and creates guardrails to deliver more scalable infrastructure.
 
 The following technology was chosen for this solution:
 
-====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*]  is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud,  and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments.  https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale, from hybrid cloud to the edge. Ansible Automation Platform enables users across an organization to create, share, and manage automation—from development and operations to security and network teams. It tracks changes in an update inventory, which can be used to prevent configuration drift, and is integrated with ITSM. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-*Business Automation Workflow* automates business processes, case work, task automation with Robotic Process Automation (RPA), and Intelligent Automation such as conversational intelligence.
+https://www.ibm.com/products/business-automation-workflow[*IBM Business Automation Workflow*] automates business processes, case work, task automation with Robotic Process Automation (RPA), and Intelligent Automation such as conversational intelligence.
 
-*IBM Cloud Pak for Data* unifies and simplifies the collection, organization, and analysis of data.
+https://www.ibm.com/products/cloud-pak-for-data[*IBM Cloud Pak for Data*] unifies and simplifies the collection, organization, and analysis of data.
 
-*ServiceNow* is the IT services management software to track IT service requests, events, incidents, and provide context about the issues. It also provides full visibility into the infrastructure resources.
+https://www.servicenow.com/[*ServiceNow*] is IT services management software that tracks IT service requests, events, incidents, and provides context about the issues. It also provides full visibility into the infrastructure resources.
 
-====
+
 
 == Architectures
 
@@ -83,18 +82,22 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 Figure 3. Schematic view of intelligent, smart automation for claims.
 
 
-There are two personas supported in this schematic:
+Two personas are supported in the Figure 3 schematic:
  
-*The Customer / Claimant high-level steps of this intelligent claims processing are:*
+*The Customer / Claimant* 
+
+High-level steps of this intelligent claims processing are:
 
 - Customer / Claimant may use their mobile device to file a claim through a conversational (chatbot) implemented as Intelligent Virtual Agent implemented with IBM Watson Assistant and its associated Data Science Tooling. The Orchestrator (microservice) is initiated by this chatbot UI in the mobile device.
 - The Orchestrator uses Digital Workers that can take actions on behalf of the human workers and thus off-load manual and repetitive work of the humans, such as:
-Retrieving Weather data based on the accident location, date, and time
+* Retrieving Weather data based on the accident location, date, and time
 * Uploading pictures submitted by users in the mobile device to Image Recognition service
-* Invoke Machine Learning (ML) to score / triage these claims as: Low, Medium, and Complex. This ML was implemented as an IBM Auto Claims Routing Accelerator developed with Data Science Tooling in IBM Watson Studio and AutoAI capabilities.
+* Invoke Machine Learning (ML) to score / triage these claims as: low, medium, and complex. This ML was implemented as an IBM Auto Claims Routing Accelerator developed with Data Science Tooling in IBM Watson Studio and AutoAI capabilities.
 - Digital Workers update the Claims Service (microservice) that in turn, leverage integrations with the Legacy Claims systems and new Cloud-native applications. They can also implement Event Streaming Architectures – when events are coming in from chatbot, claims systems, underwriting, etc.
  
-*The Insurer End User such as Adjuster / CSR / Admin high-level steps of this intelligent claims processing are:*
+*The Insurer End User such as Adjuster / CSR / Admin* 
+
+The high-level steps of this intelligent claims processing are:
 
 - Their entry point is the Claims Admin Dashboard web app that interacts through the Claims Service and similar technologies and integrations as the end user flow
 - The Claims Admin Dashboard interacts with a Message consumer (IBM Event Streams, Red Hat Streams, Kafka) that implements the Event Streaming Architecture
@@ -111,11 +114,11 @@ Figure 4. Schematic view of how new processes can interact with legacy processes
 
 As shown in Figure 4:
 
-*Line A:*  A new process can be accessed via an API endpoint, which is managed by an API management platform for security and access control. The new process consolidates new and existing processes (hence this is the interface of the strangler pattern.). When the process kickstarts, it will call the other tasks, services, and processes through API calls or through events.
+*Line A:*  A new process can be accessed via an API endpoint, which is managed by an API management platform for security and access control. The new process consolidates new and existing processes (hence this is the interface of the strangler pattern in which an old system is put behind an intermediary facade). When the process kickstarts, it will call the other tasks, services, and processes through API calls or through events.
 
-*Line B:*  The Digital Worker represents an activity. Depending on need, activities can be automated with AI whether the decision is made or operation performed by the predetermined data model, a third-party service from vendors, or existing processes. When applying the strangler pattern, legacy processes can be reused but AI-enabled.
+*Line B:*  The Digital Worker represents an activity. Depending on need, activities can be automated with AI whether the decision is made or operation performed by the predetermined data model, a third-party service from vendors, or existing processes. When applying the strangler pattern, legacy processes can be reused but will now be AI-enabled.
 
-*Line C:* Past investments are preserved by calling pre-existing processes. A common problem with calling the existing service or process is translating data formats. A connector helps transform data input and output to the receiver and requester. The processes are often built in a closed system. To access it, API or REST endpoints are commonly used. But sometimes, with much older systems, a special connector might be needed to handle the protocols.
+*Line C:* Past investments are preserved by calling pre-existing processes. A common problem with calling the existing service or process is translating data formats. A connector helps transform data input and output to the receiver and requester. The processes are often built in a closed system. To access it, API/REST endpoints are commonly used. But sometimes, with much older systems, a special connector might be needed to handle the protocols.
 
 *Line D:* A big driver for transforming digitally is to take advantage of AI/ML. The Digital Worker automatically requests predictions/decisions from an ML model from the ML platform.
 
