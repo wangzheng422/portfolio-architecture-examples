@@ -1,3 +1,5 @@
+
+= Event-driven Sentiment Analysis with Kafka and AI/ML
 :toc:
 :figure-caption:
 :homepage: https://gitlab.com/osspa/portfolio-architecture-examples/
@@ -7,7 +9,8 @@
 :toc: left
 :toclevels: 5
 
-== Use case:
+
+== Use case
 
 Building an intelligent application to moderate customer reviews and perform sentiment analysis to gain deeper insights of retail customers
 
@@ -20,7 +23,7 @@ Other use cases that can be address with this architecture are:
 * Image and Video Analysis for object detection, monitoring, face recognition
 
 
-== Background:
+== Background
 
 In today's fast-paced digital landscape, businesses are collecting vast amounts of data through their customer interactions, product sales, SEO clicks, and more. However, the true value of this data lies in its ability to fuel informed decision-making and drive business intelligence. By leveraging advanced analytics and the capabilities of an AIML engine, organizations can now unlock the true potential of their data and transform it into a valuable asset for business intelligence. 
 
@@ -28,7 +31,7 @@ A distributed streaming platform which can respond to real-time events  is cruci
 
 
 
-== Solution Overview
+== Solution overview
 
 This architecture demonstrates how an Event-Driven Architecture with Red Hat AMQ Streams and OpenShift Serverless can help build an intelligent system with OpenShift Data Science platform to drive business insights and drive an event-driven workflow.
 
@@ -61,3 +64,5 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 ** https://www.influxdata.com/[InfluxDB time series database^]
 ** https://helm.sh/[Helm^]
 ** https://www.postgresql.org/[PostgreSQL database^]
+
+
