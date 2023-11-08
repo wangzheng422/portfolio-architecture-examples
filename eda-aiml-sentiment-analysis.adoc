@@ -1,0 +1,68 @@
+
+= Event-driven Sentiment Analysis with Kafka and AI/ML
+:toc:
+:figure-caption:
+:homepage: https://gitlab.com/osspa/portfolio-architecture-examples/
+:imagesdir: images
+:icons: font
+:source-highlighter: prettify
+:toc: left
+:toclevels: 5
+
+
+== Use case
+
+Building an intelligent application to moderate customer reviews and perform sentiment analysis to gain deeper insights of retail customers
+
+Other use cases that can be address with this architecture are:
+
+* Machine Learning and Real-Time Analytics to build business intelligence
+* Fraud Detection in financial institutions
+* Personalized Recommendations
+* Forecasting demand
+* Image and Video Analysis for object detection, monitoring, face recognition
+
+
+== Background
+
+In today's fast-paced digital landscape, businesses are collecting vast amounts of data through their customer interactions, product sales, SEO clicks, and more. However, the true value of this data lies in its ability to fuel informed decision-making and drive business intelligence. By leveraging advanced analytics and the capabilities of an AIML engine, organizations can now unlock the true potential of their data and transform it into a valuable asset for business intelligence. 
+
+A distributed streaming platform which can respond to real-time events  is crucial for real-time AI/ML applications that require immediate insights and decision-making. While this solution focuses on Retail Customers, the same architecture is applicable to all industries where  businesses can make (close to) real-time decisions with confidence and  add value to their organization and customers. 
+
+
+
+== Solution overview
+
+This architecture demonstrates how an Event-Driven Architecture with Red Hat AMQ Streams and OpenShift Serverless can help build an intelligent system with OpenShift Data Science platform to drive business insights and drive an event-driven workflow.
+
+=== Business driver for  Intelligent, Event Driven applications 
+
+* *Gain deep insights*:  Gaining deeper insights by analyzing customer feedback, reviews, and social media posts, enables businesses to improve their offerings and enhance customer experience.
+* *Personalized Customer Experience*: Leveraging AI and ML in event-driven applications allows businesses to analyze customer data and preferences in real-time. 
+* *Real-Time Data Insights*:  Real-time data insight helps businesses make data-driven decisions, respond quickly to changing market conditions, and identify emerging opportunities or risks.
+
+
+.Event Driven applications - Implementation Architecture
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/eda-aiml-implementation-architecture.png[alt="solution overview", width=700]
+
+
+== Logical diagram
+This shows a logical diagram of the solution including the data streaming platform, frontend application, the intelligent services, storage, and deployment and management tools.
+
+.Event Driven applications - Logical Diagram
+image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/eda-aiml-logical-diagram.png[alt="logical diagram", width=700]
+
+== The technology
+
+* https://www.redhat.com/en/technologies/cloud-computing/openshift[Red Hat OpenShift^]
+* https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless[OpenShift Serverless^]
+** Grafana
+* https://www.redhat.com/en/products/application-foundations[Red Hat Application Foundation^]
+** https://access.redhat.com/products/quarkus[Quarkus^]
+** https://developers.redhat.com/topics/kafka-kubernetes[AMQ Kafka Streams^]
+* Others
+** https://www.influxdata.com/[InfluxDB time series database^]
+** https://helm.sh/[Helm^]
+** https://www.postgresql.org/[PostgreSQL database^]
+
+
