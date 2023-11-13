@@ -6,9 +6,9 @@ Camry Fedei @cfedei
 :source-highlighter: prettify
 :toc: left
 
-_Last updated: June 2023_
+_Last updated: November 2023_
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+_Some details will differ based on the requirements of a specific implementation but all Red Hat architectures generalize one or more successful deployments of a use case._
 
 == Use case
 Managing security, policy, and patches for a large number of servers in data centers or public/private clouds in an automated way.
@@ -74,7 +74,7 @@ https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EW
 
 
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. 
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. 
  https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 ====
 
@@ -117,7 +117,7 @@ configuration is outlined in the remediation plan in the Satellite.
 6. Ansible syncs with Red Hat  
         - Ansible remediation is delivered to Ansible Automation Platform  
         - RHEL remediation plans can also be manually synced to the automation controller (optional).  
-7. Ansible’s automation controller can be used to deliver the additional remediation synced (optional) in tandem with it’s normal automation workflow.  
+7. Ansible’s automation controller can be used to deliver the additional remediation synced (optional) in tandem with its normal automation workflow.  
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
