@@ -6,10 +6,11 @@
 :toc: left
 :toclevels: 5
 
+_Updated November 2023_
 
 == Use cases
 
-Products held in inventory often decrease in value over time and can even become worthless. This portfolio architecture addresses two primary use cases of product timeliness:
+Products held in inventory often decrease in value over time and can even become worthless. This Red Hat architecture addresses two primary use cases of product timeliness:
 
 Responding to _Shelf life_ defines a set of actions to be taken with
 products that expire on specific dates and should generally no longer be sold. Some products, such as drugs, must be removed from sale as a matter of law in the US.
@@ -32,7 +33,7 @@ Even outside of food and drugs, other product categories quickly lose value as w
 
 Key performance indicators (KPIs) relevant to product timeliness include dead stock and inventory days on hand. 
 
-Fundamentally, in the best case, unsold goods are “just” consuming working capital and shelf or warehouse space. A retailer may decide it’s a reasonable tradeoff to hold over a seasonable product for the next selling season although they may instead decide to hold an end of season sale or negotiate a transfer to a third-party. Whatever they decide to do, the result is lower profits than if they had been able to sell just enough product at the appropriate time.
+Fundamentally, in the best case, unsold goods are “just” consuming working capital and shelf or warehouse space. A retailer may decide it’s a reasonable tradeoff to hold over a seasonal product for the next selling season although they may instead decide to hold an end of season sale or negotiate a transfer to a third-party. Whatever they decide to do, the result is lower profits than if they had been able to sell just enough product at the appropriate time.
 
 In other cases, a store may need to offer deep discounts on an expiring item, if indeed they can sell it at all. Everyone has surely seen “Manager’s Special” labels on meat and other items that are getting close to their “sell by” date. Consumers may even appreciate the discounting stores do to manage excess inventory. But those watching over the finances at the company are probably less impressed. (In some cases, such as books historically, the manufacturer or publisher carried most of the excess inventory risk. But it’s usually borne by the retailer.)
 
@@ -76,7 +77,7 @@ The solution uses the following technologies, which can be grouped into
 three main categories as shown in Figure 1:
 
 * *Core application systems.* These are often customer-provided technologies, such as order management and facilities management. These systems can include standalone applications, on-premises and cloud services, and databases.
-* *Foundational infrastructure.* The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop.* 
+* *Foundational infrastructure.* The Red Hat/IBM solution is built on Red Hat OpenShift with data routed through API management and events routed through business automation tools such as Business Automation Workshop. 
 * *Inventory Optimization platform.* This consists of a Supply Assurance Control Panel, Fulfillment Optimization, and Inventory Analysis and AI.
 
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/timeliness-marketing-slide.png[alt="solution overview", width=700]
@@ -99,7 +100,7 @@ _Figure 2. The personas and technologies that provide a platform for some of the
 The following technology was chosen for this solution:
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red
-Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat
 Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
@@ -297,5 +298,5 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/timeliness.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/timeliness.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
 
