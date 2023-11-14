@@ -6,6 +6,8 @@
 :toc: left
 :toclevels: 5
 
+_Updated November 2023_
+
 == Use cases
 
 Meet customer expectations for easy return processes while minimizing return losses, categorizing returned items, minimizing fraudulent returns, and complying with rules related to hazardous materials.
@@ -18,7 +20,7 @@ On the surface, returns may seem like a fairly straightforward problem. But ther
 Customers want easy returns. For merchandise delivered to the home, the return experience can in fact be a critical reason why consumers stick with a given retailer. (Zappos’ generous return policy for an item that’s tricky to buy without trying on—shoes—was one important ingredient in their early success.)
 
 At the same time, generosity and the best customer experience need to be balanced against the costs of fraudulent or excessive returns—and the losses of various types that inevitably take place as goods are repackaged and sent back. 
-Organizations need to be able to Identify and track returned items with hazardous materials. They also need to handle items more generally as they come in. for example by categorizing them for recycling, disposal or resale (either as new or as an “open box” sale of some manner).
+Organizations need to be able to Identify and track returned items with hazardous materials. They also need to handle items more generally as they come in—for example by categorizing them for recycling, disposal, or resale (either as new or as an “open box” sale of some manner).
 
 === Recent trends
 
@@ -73,7 +75,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 === Core systems
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red
-Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat
 Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
@@ -87,7 +89,7 @@ program management service to secure, manage, and monitor APIs at every
 stage of the development lifecycle.
 
 
-https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
+https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control.
 
 https://www.ibm.com/business-automation[*IBM Business Automation*] delivers intelligent automations quickly with low-code tooling, such as business processes automation, decisioning software, robotic process automation, process mining, workflow automation, business process mapping, Watson Orchestrate, content services, and document processing. Rules processing, intelligent decision making, and regulation compliance using automation give businesses flexible, auditable, policy-based workflows across the enterprise.
 
@@ -181,5 +183,5 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/returns.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/returns.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
 

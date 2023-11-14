@@ -7,7 +7,7 @@ Thalia Hooker @thooker
 :toc: left
 :toclevels: 5
 
-// _Last updated: April 2023_
+_Updated: November 2023_
 
 == Use case
 
@@ -88,7 +88,7 @@ The following technology was chosen for this solution:
 
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red
-Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat
 Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
@@ -145,7 +145,7 @@ _Figure 3. Overall schematic of sustainable supply chain use case including cust
 
 A customer kicks the process off by choosing items to buy online through a channel of their choosing. Before providing cost and delivery options, the business may provide the customer with sustainability options such as equivalent greener items, a later delivery day or batching with other orders, pickup options, and so forth. If a customer opts for any of these options, the order is tagged so the Supply Assurance Platform can honor that request. The Inventory Fulfillment System updates inventory data.
 
-The Delivery Optimization System plays a key sustainability role. For example, it determines whether to contact 3PL (Third Party Logistics) or if in-house Route Optimization can fulfill the requirements. If 3PL is the only option, contact the sustainability-approved 3PL company to fulfill the order. 3PL company takes over the delivery flow from here. If the business has the means to fulfill the order, access the underlying backend system via API Management.
+The Delivery Optimization System plays a key sustainability role. For example, it determines whether to contact 3PL or if in-house Route Optimization can fulfill the requirements. If 3PL is the only option, contact the sustainability-approved 3PL company to fulfill the order. 3PL company takes over the delivery flow from here. If the business has the means to fulfill the order, access the underlying backend system via API Management.
 
 Otherwise, the Order Fulfillment System (OSF) is alerted of this special order via system APIs. OFS then notifies the Warehouse Management System to package and get it ready for delivery and the Transport/Logistics System is alerted to schedule delivery. The order is tracked in real-time and the customer is notified. Upon final delivery, proof-of-delivery is provided to the customer and all subsystems are updated via the data fabric to help maintain a consistent view of the supply chain and inventory.
 
@@ -227,5 +227,5 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sustainablesupplychain.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sustainablesupplychain.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
 

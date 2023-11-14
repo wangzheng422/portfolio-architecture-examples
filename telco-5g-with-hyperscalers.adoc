@@ -9,11 +9,17 @@
 :toc: left
 :toclevels: 5
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+_Updated November 2023_
 
-*Use case:* Deploy a 5G core network that’s cost-effective, secure, and is adaptable to a range of requirements using a public cloud provider (hyperscaler) to minimize up-front CAPEX and to reduce the ongoing operational burden.
+_Some details will differ based on the requirements of a specific implementation but all Red Hat architectures generalize one or more successful deployments of a use case._
 
-*Background:* 5G is the latest evolution of wireless mobile technology that enables the delivery of highly immersive experiences for people and reliable, low latency communication between devices. With the addition of 5G to the high-bandwidth connectivity of edge computing, companies are better positioned to meet demands in areas like healthcare delivery, emergency response, manufacturing efficiency, traffic congestion and industrial safety.  At the heart of each 5G network lies the 5G Core (5GC). Software-defined and built with a service-based architecture (SBA), this architecture allows the 5G core to be disaggregated, cloud-native, and distributed.
+== Use case 
+
+Deploy a 5G core network that’s cost-effective, secure, and is adaptable to a range of requirements using a public cloud provider (hyperscaler) to minimize up-front CAPEX and to reduce the ongoing operational burden.
+
+== Background
+
+5G is the latest evolution of wireless mobile technology that enables the delivery of highly immersive experiences for people and reliable, low latency communication between devices. With the addition of 5G to the high-bandwidth connectivity of edge computing, companies are better positioned to meet demands in areas like healthcare delivery, emergency response, manufacturing efficiency, traffic congestion and industrial safety.  At the heart of each 5G network lies the 5G Core (5GC). Software-defined and built with a service-based architecture (SBA), this architecture allows the 5G core to be disaggregated, cloud-native, and distributed.
 
 In this portfolio architecture we’ll discuss a 5G solution built with open source technologies at core, that can work across any hyperscaler. Some implementation details will vary depending on the hyperscaler, but the overall approach is mostly common.
 
@@ -24,9 +30,9 @@ As shown in Figure 1, this portfolio architecture presents 5G Core as a set of d
 Each 5GC component is implemented as a container-based application and is referred to as cloud-native network function (CNF).
 This solution shows 5G Core as implemented on a generic hyperscaler. Characteristics include:
 
-. Cloud native, disaggregated, scalable, and agile 5G core
-. Custom networks with unique characteristics on a shared infrastructure
-. Cost effective, secure, and automatable on hyperscaler infrastructure to minimize up-front cost and ongoing operational overhead
+* Cloud native, disaggregated, scalable, and agile 5G core
+* Custom networks with unique characteristics on a shared infrastructure
+* Cost effective, secure, and automatable on hyperscaler infrastructure to minimize up-front cost and ongoing operational overhead
 ====
 
 
@@ -34,11 +40,11 @@ This solution shows 5G Core as implemented on a generic hyperscaler. Characteris
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/telco-5g-core-hyperscalers-marketing-slide.png[alt="High level view of 5G core solution with hyperscalers", width=700]
 --
-Figure 1. Solution overview of a 5G core network on a hyperscaler.
+_Figure 1. Solution overview of a 5G core network on a hyperscaler._
 
 == Logical diagram
 
-====
+
 As shown in Figure 2, logically the solution can be categorized into:
 
 * Shared platform components
@@ -46,44 +52,44 @@ As shown in Figure 2, logically the solution can be categorized into:
 * Supplementary functions
 * Management and orchestration
 * Underlying infrastructure services
-====
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/telco5GC-generic-7-ld.png[alt="Generic common architectural elements of 5G solution for conceptual guidance", width=700]
 --
-Figure 2. Logical diagram of the hyperscaler-based Telco 5G Core solution.
+_Figure 2. Logical diagram of the hyperscaler-based Telco 5G Core solution._
 
 == The technology
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. OpenShift enables 5GC by supporting functionalities and operational features like automated deployment, intelligent workload placement, dynamic scaling, hitless upgrades, and self healing. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. OpenShift enables 5GC by supporting functionalities and operational features like automated deployment, intelligent workload placement, dynamic scaling, hitless upgrades, and self healing. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is a foundation for building and operating automation across an organization. The platform includes all the tools needed to implement enterprise-wide automation. It enables cluster and network operations administrators to automate deployment of functional components across hybrid cloud. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management*] for Kubernetes controls clusters and applications from a single console, with
+https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management for Kubernetes*] controls clusters and applications from a single console, with
 built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
 enforcing policies across multiple clusters at scale. https://www.redhat.com/en/technologies/management/advanced-cluster-management/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*]  is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. It’s used for persistent storage across multiple clusters.
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*]  is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. It’s used for persistent storage across multiple clusters.
  https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 ====
 
 == Architecture
 
-====
-Conceptually, the 5G solution stack with hyperscalers can be categorized into:
+
+Conceptually, the 5G solution stack with hyperscalers includes:
 
 * Infrastructure provides necessary compute, network, and storage resources to the application platform.
 * Application Platform accommodates the applications with declarative desired state consistency with facilities to perform scaling, healing, and monitoring.
 * Applications provide the business logic delivered in a homogenous performant way.
 * Platform Management and Application Orchestration allows dynamic scaling of the end-to-end 5G solution, across multiple locations with automation.
-====
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/telco5GC-generic-7-sd.png[alt="Solution topology of 5G solution with functional components", width=700]
 --
-Figure 3. Schematic diagram of the hyperscaler-based Telco 5G Core solution.
+_Figure 3. Schematic diagram of the hyperscaler-based Telco 5G Core solution._
 
 ====
 As shown in Figure 3, the following describes some of the key components of the solution and the workflows that are associated with them.
@@ -116,4 +122,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/telco-5g-with-hyperscalers.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/telco-5g-with-hyperscalers.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
