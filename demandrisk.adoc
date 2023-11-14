@@ -6,6 +6,8 @@
 :toc: left
 :toclevels: 5
 
+_Updated November 2023_
+
 == Use case
 Reduce and mitigate the effects of two of the main demand risk use cases, *overstock* and *understock* events, in retail and other supply chains.
 
@@ -13,7 +15,7 @@ Reduce and mitigate the effects of two of the main demand risk use cases, *overs
 
 A fundamental goal for supply chains of physical goods is matching up available inventory with demand. 
 
-You can have too little of something (understock). Everyone is familiar with this case from during the pandemic whether it involved waiting months for a new car or scrounging all the local markets for toilet paper. These examples illustrate two of the ways in which businesses can fail to align with customer demand. In the case of automobiles, shortages in key components like microprocessors constrained what manufacturers could build. In the case of toilet paper, a spike in consumer demand because people weren’t in offices while also buying whatever and whenever they could was most responsible for the shortfall.
+You can have too little of something (understock). Everyone is familiar with this case from during the pandemic whether it involved waiting months for a new car or scrounging through all the local markets for toilet paper. These examples illustrate two of the ways in which businesses can fail to align with customer demand. In the case of automobiles, shortages in key components like microprocessors constrained what manufacturers could build. In the case of toilet paper, a spike in consumer demand because people weren’t in offices while also buying whatever and whenever they could was most responsible for the shortfall.
 
 But overstock is bad too. Products or components sitting on a shelf or in a warehouse represent capital that’s sitting idle. Furthermore, products can spoil. This latter problem is most obvious in the case of food and other perishables but it’s not limited to literal spoilage. Clothes can become last year’s style. The 2023 electronics gadget isn’t going to be worth as much once new models are announced at the Consumer Electronics Show the next year.
 
@@ -107,10 +109,7 @@ _Figure 2. The personas and technologies that provide a platform for some of the
 The following technologies were chosen for this solution:
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red
-Hat OpenShift*] is an enterprise-ready Kubernetes container platform
-built for an open hybrid cloud strategy. It provides a consistent
-application platform to manage hybrid cloud, including edge
-deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform
+Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform
 design intended to deliver increased business value and responsiveness
 through rapid, high-quality service delivery. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
@@ -340,4 +339,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/demandrisk.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/demandrisk.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
