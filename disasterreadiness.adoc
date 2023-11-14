@@ -6,10 +6,11 @@
 :toc: left
 :toclevels: 5
 
+_Updated November 2023_
 
 == Use case
 
-Disasters that affect companies can take many forms: public health, terrorism and war, and extreme weather. They can also affect companies in different ways from needing to shut down offices, help affected employees, and regain access to networks and computers. This portfolio architecture focuses on anticipating and responding to supply chain challenges due to natural disasters such as hurricanes, typhoons, floods, earthquakes, wildfires, and droughts but the overall architecture and principles apply to a wide range of disaster planning scenarios.
+Disasters that affect companies can take many forms: public health, terrorism and war, and extreme weather. They can also affect companies in different ways from needing to shut down offices, help affected employees, and regain access to networks and computers. This Red Hat architecture focuses on anticipating and responding to supply chain challenges due to natural disasters such as hurricanes, typhoons, floods, earthquakes, wildfires, and droughts but the overall architecture and principles apply to a wide range of disaster planning scenarios.
 
 == Background
 
@@ -28,7 +29,7 @@ The second concept is risk exposure, an assessment of exposure to risk based on 
 
 === How to prepare
 
-Later in this portfolio architecture, we’ll take you through a detailed technical architecture that can help you deal with weather disruption preparation. We’ll also consider the scenario where a store is open but disconnected from a company’s datacenter.
+Later in this architecture, we’ll take you through a detailed technical architecture that can help you deal with weather disruption preparation. We’ll also consider the scenario where a store is open but disconnected from a company’s datacenter.
 
 However, first, let’s first consider at a high level on how companies can prepare their supply chains for weather-related disasters:
 
@@ -82,7 +83,7 @@ The following technologies offered by Red Hat and IBM can augment the solutions 
 === Core platform
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift?intcmp=7013a00000318EWAAY[*Red
-Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery.  https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. Red Hat OpenShift supplies tools needed for DevOps, an approach to culture, automation, and platform design intended to deliver increased business value and responsiveness through rapid, high-quality service delivery.  https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 You can manage clusters and applications from a single console, with built-in security policies with:
 
@@ -105,7 +106,7 @@ program management service to secure, manage, and monitor APIs at every
 stage of the development lifecycle.
 
 
-https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
+https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management.
 
 === Supply Assurance Platform
 
@@ -225,5 +226,5 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/disasterreadiness.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/disasterreadiness.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
 
