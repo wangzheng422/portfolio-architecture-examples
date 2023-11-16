@@ -7,14 +7,19 @@ Ricardo Garcia Cavero @rgarciac
 :toc: left
 :toclevels: 5
 
+_Updated November 2023._
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+_Some details will differ based on the requirements of a specific implementation but all Red Hat architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Provide interfaces with supervisory control and data acquisition (SCADA) systems that are compliant with North American Electric Reliability Corporation (NERC) regulations using different layers of API gateways to protect business service across network zones.
+== Use case
 
-*Background:* SCADA systems are used extensively in many verticals, including utility companies. SCADA devices have gone through several generations. Historically, these control systems were mostly “dumb” in that they mostly took actions in response to pre-programmed triggers and heuristics. For example, predictive maintenance commonly took place based on either a set length of time or the number of hours it was in service.
+Provide interfaces with supervisory control and data acquisition (SCADA) systems that are compliant with North American Electric Reliability Corporation (NERC) regulations using different layers of API gateways to protect business service across network zones.
 
-SCADA systems also historically mostly functioned independently of the company’s information technology (IT) systems. Companies increasingly see the benefit of bridging these operational technology (OT) systems with their IT. Factory systems can be much more flexible as a result. They can also benefit from newer technologies such as AI/ML, thereby allowing for tasks like maintenance to be scheduled based on multiple real-time measurements rather than simple programmed triggers while bringing processing power closer to data.
+== Background
+
+SCADA systems are used extensively in many verticals, including utility companies. SCADA devices have gone through several generations. Historically, these control systems were mostly “dumb” in that they mostly took actions in response to pre-programmed triggers and heuristics. For example, predictive maintenance commonly took place based on either a set length of time or the number of hours a machine was in service.
+
+SCADA systems also historically mostly functioned independently of the company’s information technology (IT) systems. Companies increasingly see the benefit of bridging these operational technology (OT) systems with their IT. Factory systems can be much more flexible as a result. They can also benefit from newer technologies such as AI/ML, thereby allowing for tasks like maintenance to be scheduled based on multiple real-time measurements rather than simple programmed triggers, while also bringing processing power closer to data.
 
 
 == Solution overview
@@ -24,9 +29,9 @@ This portfolio architecture focuses on energy providers in North America that ne
 ====
 As shown in Figure 1, SCADA interface modernisation provides the following:
 
-. Modernize access to critical network equipments and SCADA systems
-. Compliance to relevant international industry standards
-. Improve business agility by standardizing access to old and/or heterogeneous systems using messaging and APIs
+* Modernize access to critical network equipments and SCADA systems
+* Compliance with relevant international industry standards
+* Improve business agility by standardizing access to old and/or heterogeneous systems using messaging and APIs
 
 ====
 
@@ -73,9 +78,9 @@ Finally, Figure 5 drills down on the logical view of the control plane which inc
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. In this solution, Red Hat OpenShift provides the platform on which the applications running in the electric/OT zone retrieve data from the SCADA devices and the business apps that are in the enterprise/IT zone run. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. In this solution, Red Hat OpenShift provides the platform on which the applications running in the electric/OT zone retrieve data from the SCADA devices and the business apps that are in the enterprise/IT zone run. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*], also sold as Red Hat Application Foundations, includes Red Hat AMQ which enables the applications in the two separated network zones to communicate using AMQ message queues and brokers. It is deployed on top of Red Hat OpenShift.
+https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) is a comprehensive set of integration and messaging technologies to connect applications and data across hybrid infrastructures. It is an agile, distributed, containerized, and API-centric solution. It provides service composition and orchestration, application connectivity and data transformation, real-time message streaming, change data capture, and API management. It includes Red Hat AMQ which enables the applications in the two separated network zones to communicate using AMQ message queues and brokers. It is deployed on top of Red Hat OpenShift.
 
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] provides an enterprise framework for building and operating IT automation at scale across hybrid clouds including edge deployments. It enables users across an organization to create, share, and manage automation—from development and operations to security and network teams. Among other functions in this solution, it automates the compliance of the OpenShift clusters with defined security policies. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
@@ -93,7 +98,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 _Figure 6. Schematic diagram overview._
 
 
-As shown in Figure 6, there are two segregated networks, one where the SCADA devices and the applications that talk to them reside (NERC/electric/OT zone) and another one where the business applications run (enterprise/internal/IT zone).
+As shown in Figure 6, there are two segregated networks, one where the SCADA devices and the applications that talk to them reside (NERC/electric/OT zone) and another one where the business applications run (enterprise/internal IT zone).
 
 
 === SCADA interfaces enterprise network
@@ -135,4 +140,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/scada-interface.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/scada-interface.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
