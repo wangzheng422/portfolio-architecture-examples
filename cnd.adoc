@@ -6,7 +6,8 @@
 :source-highlighter: prettify
 :toc: left
 
-_Updated August 2023_
+_Updated November 2023_
+
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
 == Use case
@@ -29,11 +30,11 @@ Some of the key principles of cloud-native application development include:
 
 Figure 1 shows an overview of the building your cloud-native applications solution. Among its benefits for the business are:
 
-Delivers common development workflows across local and remote container platforms
-
+* Delivers common development workflows across local and remote container platforms
 * Supports a hybrid cloud development and deployment strategy
 * Provides a consistent enterprise image registry strategy
-* As you can see, the various cloud-native development components are interconnected, thereby avoiding development and deployment silos.
+
+As you can see, the various cloud-native development components are interconnected, thereby avoiding development and deployment silos.
 
 
 --
@@ -45,29 +46,30 @@ _Figure 1. Overview of the building your cloud-native applications solution._
 
 == Logical diagram
 
-Figure 3 shows a logical diagram of the building your cloud-native applications solution. It shows the developer tools, CI/CD, the container platform, and some of the key infrastructure services,
+Figure 2 shows a logical diagram of the building your cloud-native applications solution. It shows the developer tools, CI/CD, the container platform, and some of the key infrastructure services,
 
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-native-development-ld.png[750, 700]
 --
+_Figure 2. Logical diagram of the building your cloud-native applications solution._
 
 == The technology
 
 
 The following technology was chosen for this solution:
 
-====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes-based container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run across a variety of infrastructure. It orchestrates the containerized applications and enables agile DevOps development with automated CI/CD workflows. This shortens the lead time for application changes, increases deployment frequency, and lowers the change failure rate. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It orchestrates the containerized applications and enables agile DevOps development with automated CI/CD workflows. This shortens the lead time for application changes, increases deployment frequency, and lowers the change failure rate. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318EWAAY[*Red Hat Quay*] is a private container registry that stores, builds, and deploys container images. It analyzes your images for security vulnerabilities, identifying potential issues that can help you mitigate security risks.It can not only store pulls from approved external image registries, but also the built images from the automated CI/CD workflow.
  https://www.redhat.com/en/technologies/cloud-computing/quay/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] is a set of products, tools, and components for developing and maintaining cloud-native applications. It offers lightweight runtimes and frameworks for highly distributed cloud architectures, such as Spring Boot and Quarkus. The developer IDE supports development with tooling that connects directly to the platform. Red Hat OpenShift Runtimes is also included as part of Red Hat Application Foundations. 
 
-https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*]. In addition to Red Hat Runtimes, this product includes additional capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control.
+https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*]. (Formerly Red Hat Integration.) In addition to Red Hat Runtimes, this product includes additional capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control.
 
-====
+
 
 == Architectures
 
@@ -144,8 +146,8 @@ Using a CD platform (e.g. ArgoCD), images can be automatically synced with the t
 
 == Conclusion
 
-This portfolio architecture has gone through environments and workflows for cloud-native application development at a general level. While individual tool choices may differ, this portfolio architecture is broadly applicable to a wide range of development, testing, and deployment processes in a cloud-native scenario.
-Clearly, details will change as we consider more specific scenarios such as AI and ML and we plan to consider narrower cases like these in a future portfolio architectures.
+This  architecture has gone through environments and workflows for cloud-native application development at a general level. While individual tool choices may differ, this  architecture is broadly applicable to a wide range of development, testing, and deployment processes in a cloud-native scenario.
+Clearly, details will change as we consider more specific scenarios such as AI and ML and we plan to consider narrower cases like these in a future  architectures.
 
 
 == Download diagrams
@@ -155,4 +157,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback on this architecture
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/cnd.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/cnd.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
