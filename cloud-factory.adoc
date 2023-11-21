@@ -6,70 +6,72 @@ Eric Lavarde @L1
 :source-highlighter: prettify
 :toc: left
 
+_Updated November 2023._
 
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Deploy multiple private clouds based on the same infrastructure as code using different parameters and Ansible inventories.
+== Use case
 
-*Background:* Large enterprises may use this Cloud Factory architecture in order to deploy and manage their cloud in a modern and automated manner. 
+Deploy multiple private clouds based on the same infrastructure as code using different parameters and Ansible inventories.
+
+== Background
+
+Large enterprises may use this Cloud Factory architecture in order to deploy and manage their cloud in a modern and automated manner. 
 
 == Solution overview
 This architecture covers the deployment pertaining to one code base using the principles of Infrastructure as Code. This architecture addresses adapting to needs with specific clouds creating an efficient repeatable cloud deployment. 
 
-====
-*Cloud Factory*
+This solution includess the following:
 
-. Efficient and repeatable cloud deployment
-. Have a life-cycle for the cloud itself
-. Address specific needs with specific cloud
-====
+* Efficient and repeatable cloud deployment
+* A life-cycle for the cloud itself
+* Addresses specific needs with specific cloud
 
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/cloud-factory-marketing-slide.png[750,700]
 --
-
+_Figure 1. Overview of Cloud Factory solution._
 
 == Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/cloud-factory-ld.png[750, 700]
 --
-
+_Figure 2. Logical diagram of the Cloud Factory solution showing the main component groupings._
 
 == The technology
 
 The following technology was chosen for this solution:
 
-====
-https://www.redhat.com/en/technologies/linux-platforms/openstack-platform?intcmp=7013a00000318EWAAY[*Red Hat OpenStack Platform*] is an essential part of the factory where it virtualizes resources from hardware, organizes those
-resources into clouds, and manages them.  So automation can be done on top of it allowing access to hardware when they need it.
 
-https://www.redhat.com/en/technologies/storage/ceph?intcmp=7013a00000318EWAAY[*Red Hat Ceph Storage*] is a software-defined storage solution that is simple to set up, supports automation, and easy to
-scale and manage. It's a good cloud factory choice because it's ability to store data as objects that can be easily
+https://www.redhat.com/en/technologies/linux-platforms/openstack-platform?intcmp=7013a00000318EWAAY[*Red Hat OpenStack Platform*] is an essential part of the factory where it virtualizes resources from hardware, organizes those
+resources into clouds, and manages them.  Automation on top then provides access to hardware as needed.
+
+https://www.ibm.com/docs/en/storage-ceph/5[*IBM Storage Ceph*] is a software-defined storage solution that is simple to set up, supports automation, and easy to
+scale and manage. It's a good Cloud factory choice because it's ability to store data as objects that can be easily
 shared across a network.
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] builds and operates automation as code. The platform acts as the centralized
 control to execute the code for deployment and remediation based on the analysis of collected environment data. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] manages the infrastructure, provides versioning and management of trusted softwares for containers,
-RPMs or libraries used in applications.
+https://www.redhat.com/en/technologies/management/satellite?intcmp=7013a00000318EWAAY[*Red Hat Satellite*] manages the infrastructure and provides versioning and management of trusted softwares for containers,
+RPMs, or libraries used in applications.
 
-https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] hosts virtual, container, and many types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing applications—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/virtualization/enterprise-virtualization?intcmp=7013a00000318EWAAY[*Red Hat Virtualisation*] virtualization workloads built on Red Hat Enterprise Linux and KVM.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] the Kubernetes container platform that provides a consistent application platform to manage hybrid
-cloud, multicloud, and edge deployments. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-====
+
 
 == Architectures
 === Cloud Factory network overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-factory-sd.png[750, 700]
 --
+_Figure 3. Schematic diagram of the Cloud Factory solution showing two cloud deployments._
 
-This example shows two cloud deployments. The first is the detached deployment head and the second is a cloud
+Figure 3 shows two cloud deployments. The first is the detached deployment head and the second is a cloud
 environment.
 
 *Detached Head Deployment*
@@ -82,17 +84,16 @@ out in the various cloud environments of choice.
 *Cloud Environment*
 
 The focus is on the key elements found in the deployments, such as the OpenStack compute controllers managing the
-compute nodes. A tenant of these nodes is shown as the OpenShift Container Platform providing a container-based
-Platform-as-a-Service (PaaS).
+compute nodes. A tenant of these nodes is shown as the OpenShift Container Platform.
 
 
 === Cloud Factory data overview
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/cloud-factory-data-sd.png[750, 700]
 --
+_Figure 4. Schematic diagram of the Cloud Factory solution._
 
-This is an overview look at Cloud Factory, providing the solution details and the elements described above in both a
-network and data centric view:
+Figure 4 shows the solution details and the elements described above at a more detailed level.
 
 The infrastructure starts with a deployment head, where the definitive software library is maintained through development and connections to the Red Hat content delivery network. Ansible is used to maintain and deliver playbooks
 based infrastructure automation delivery to as many detached deployment heads as needed. Centralized monitoring and logging is also used within the deployment head.
@@ -109,5 +110,5 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback 
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/cloud-factory.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/cloud-factory.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
 
