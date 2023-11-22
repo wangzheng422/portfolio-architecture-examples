@@ -7,12 +7,14 @@ Eric D. Schabell @eschabell
 :toc: left
 :toclevels: 5
 
-_Updated July 2023_
+_Updated November 2023_
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+_Some details will differ based on the requirements of a specific implementation but all Red Hat architectures generalize one or more successful deployments of a use case._
 
 
-*Use case:* Intelligent DaaS (Data as a Service) which focuses on the building and delivery of systems and platforms in a secure and scalable manner while meeting the data needs for increasingly consumerized healthcare.
+== Use case
+
+Intelligent DaaS (Data as a Service) which focuses on the building and delivery of systems and platforms in a secure and scalable manner while meeting the data needs of increasingly consumerized healthcare.
 
 
 == Background
@@ -36,9 +38,9 @@ However, it’s also important to design and modify decision-making, processes, 
 Figure 1 provides an overview of the IDaaS solution that focuses on satisfying the following business drivers:
 
 
-. Getting access to data from our disparate systems
-. Finding better ways to take action based on real-time data
-. Focus on data where it lives for reusability, scalability, and extensibility
+* Getting access to data from our disparate systems
+* Finding better ways to take action based on real-time data
+* Focus on data where it lives for reusability, scalability, and extensibility
 
 
 --
@@ -61,14 +63,13 @@ The following technology was chosen for this solution:
 
 
 ====
-https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) Includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control. For this solution, it utilizes the connectors for HL7 and FHIR messaging standards, interoperates in/out of clinic systems, connects to third-party data sources, and establishes and manages APIs and connectors to clinical and financial entities. Real-time data and events are securely integrated and streamed between systems. Red Hat Application Foundations also acts as a high throughput receiver for edge signals and events.
+https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) Includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control. For this solution, it utilizes the connectors for HL7 and FHIR messaging standards, interoperates in/out of clinic systems, connects to third-party data sources, and establishes and manages APIs and connectors to clinical and financial entities. Real-time data and events are securely integrated and streamed between systems. Red Hat Application Foundations also acts as a high throughput receiver for edge signals and events. It includes Red Hat Runtimes.
 
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] serves as persistent software-defined storage for health records, images, events, and knowledge base repositories in this solution. It provides sophisticated enterprise cluster data management services, allowing applications to interact with data in a simplified, consistent, and scalable manner.  https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*] serves as persistent software-defined storage for health records, images, events, and knowledge base repositories in this solution. It provides sophisticated enterprise cluster data management services, allowing applications to interact with data in a simplified, consistent, and scalable manner.  https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] offers lightweight runtimes and frameworks for highly distributed cloud architectures, such as microservices. It simplifies the continuous delivery of applications with frameworks such as Spring Boot and Quarkus.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is the base platform for iDaaS. It is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere.  https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It is the base platform for iDaaS.  https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 ====
@@ -99,7 +100,7 @@ The iDaaS knowledge conformance element is a set of applications and tools that 
 
 === iDaaS connect for HL7 FHIR
 
-Figure 4 provides An example of integration through iDaaS Connect features around HL7 and FHIR healthcare messaging standards.
+Figure 4 provides an example of integration through iDaaS Connect features around HL7 and FHIR healthcare messaging standards.
 
 
 --
@@ -145,5 +146,5 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback 
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/idaas.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/idaas.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
 

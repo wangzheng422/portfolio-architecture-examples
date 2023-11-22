@@ -7,86 +7,94 @@
 :toc: left
 :toclevels: 5
 
+_Updated November 2023._
+
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
+== Use case
 
-*Background:* Energy (utility) infrastructure companies operate across vast geographical area that connects the upstream drilling operations with downstream fuel processing and delivery to customers. These companies need to monitor the condition of pipeline and other infrastructure for
+Bringing computing closer to the edge by monitoring for potential issues with gas pipeline (edge).
+
+== Background
+
+Energy (utility) infrastructure companies operate across a vast geographical area that connects the upstream drilling operations with downstream fuel processing and delivery to customers. These companies need to monitor the condition of pipelines and other infrastructure for
 operational safety and optimization.
 
 == Solution overview
 
 This architecture covers the use case around data center to edge. 
 
-====
-*Data center to edge*
+Important drivers include:
 
-. Modernize operations from data center to edge
-. Real time access to IoT data
-. Dynamic energy management in response to customer demand
-====
+* Modernizing operations from data center to edge
+* Real time access to IoT data
+*  Dynamic energy management in response to customer demand
+
 
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/datacenter-to-edge-marketing-slide.png[alt="High level view of solution", width=700]
 --
+_Figure 1. Overview of the datacenter to edge solution._
 
 == Logical diagram
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/datacenter-to-edge-ld.png[alt="Conceptual view of solution components deployed at various locations", width=700]
 --
+_Figure 2. Logical diagram of the datacenter to edge solution showing the major component groupings._
 
 == The technology
 
 
 The following technology was chosen for this solution:
 
-====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/products/middleware?intcmp=7013a00000318EWAAY[*Red Hat Application Services*] helps organizations use the cloud delivery model and simplify continuous delivery of
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments.  https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+
+https://www.redhat.com/en/products/middleware?intcmp=7013a00000318EWAAY[*Red Hat Application Services portfolio*] helps organizations use the cloud delivery model and simplify continuous delivery of
 applications, the cloud-native way. Built on proven open source technologies, it also provides development teams
 multiple modernization options to enable a smooth transition to the cloud for existing applications.
 
-https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4?intcmp=7013a00000318EWAAY[*Red Hat AMQ Streams*] data streaming platform with high throughput and low latency. Streams sensor data to corresponding microservices to automated diagnosis.
+https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4?intcmp=7013a00000318EWAAY[*Red Hat AMQ Streams*] is a massively scalable, distributed, and high-performance data streaming platform based on the Apache Kafka project. It offers a distributed backbone that allows microservices and other applications to share data with high throughput and low latency.
 
-https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management*] for Kubernetes controls clusters and applications from a single console, with
+https://www.redhat.com/en/technologies/management/advanced-cluster-management?intcmp=7013a00000318EWAAY[*Red Hat Advanced Cluster Management for Kubernetes*] controls clusters and applications from a single console, with
 built-in security policies. Extend the value of Red Hat OpenShift by deploying apps, managing multiple clusters, and
 enforcing policies across multiple clusters at scale. https://www.redhat.com/en/technologies/management/advanced-cluster-management/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/cloud-computing/quay?intcmp=7013a00000318EWAAY[*Red Hat Quay*] is a private container registry that stores, builds, and deploys container images. It analyzes your
 images for security vulnerabilities, identifying potential issues that can help you mitigate security risks. https://www.redhat.com/en/technologies/cloud-computing/quay/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage
-services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat Data Foundation*] is software-defined storage for containers. Engineered as the data and storage
+services platform for Red Hat OpenShift, Red Hat  Data Foundation helps teams develop and deploy applications
 quickly and efficiently across clouds. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system
 (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal,
 virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
-====
+
 
 
 == Architectures
 
-=== Data center to edge
+=== Datacenter to edge
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/datacenter-to-edge-data-sd.png[alt="Data interaction of centralized and edge components", width=700]
 --
+_Figure 3. Schematic diagram of the datacenter to edge solution with a focus on data._
 
-At the edge locations, the telemetry data from sensors is transmitted Edge Microservice application for protocol conversion/normalization and then forwarded to Red Hat AMQ message broker, which then routes it to Message Gateway which is a SpringBoot application for sending this data to the core data center.
+At the edge locations, the telemetry data from sensors is transmitted to Edge Microservice application for protocol conversion/normalization and then forwarded to Red Hat AMQ message broker, which then routes it to Message Gateway which is a SpringBoot application for sending this data to the core datacenter.
 
-At the core data center, the edge data event stream is received by
-Red Hat AMQ Streams and sent to Core Microservices for further processing. The container and non-container storage components provide long term persistent storage. The data is stored into SQL and no-SQL databases for further access.
+At the core datacenter, the edge data event stream is received by
+Red Hat AMQ Streams (part of Red Hat AMQ) and sent to Core Microservices for further processing. The container and non-container storage components provide long term persistent storage. The data is stored into SQL and no-SQL databases for further access.
 
 
 === Data center to edge management
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/datacenter-to-edge-management-sd.png[alt="Cluster and applicationnlifecycle management using ACM and DevOps", width=700]
 --
+_Figure 4. Schematic diagram of the datacenter to edge solution with a focus on management._
 
-In order to centrally manage the geographically dispersed edge clusters, a consistent approach is needed. Red Hat ACM provides cluster lifecycle management for edge and centralized clusters. For DevOps, the OpenShift Pipelines enables the CI/CD workflow with the containerized applications delivered to Red Hat Quay image registry in the cloud. The application monitoring provided by Dynatrace enables the application optimization across edge and core sites.
+In order to centrally manage the geographically dispersed edge clusters, a consistent approach is needed. Red Hat Advanced Cluster Management (ACM) for Kubernetes provides cluster lifecycle management for edge and centralized clusters. For DevOps, OpenShift Pipelines enables the CI/CD workflow with the containerized applications delivered to Red Hat Quay image registry in the cloud. The application monitoring provided by Dynatrace enables the application optimization across edge and core sites.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
@@ -95,4 +103,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/datacenter-to-edge.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/datacenter-to-edge.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].

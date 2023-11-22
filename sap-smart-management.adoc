@@ -7,26 +7,31 @@ Ricardo Garcia Cavero @rgarciac
 :toc: left
 :toclevels: 5
 
+_Updated November 2023._
+
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Managing security, policy, and patches for all the servers in an SAP environment (on-premise, public, private and hybrid cloud) and making sure they are compliant with SAP and Red Hat’s recommendations through their entire lifecycle.
+== Use case
 
-*Background:* SAP environments can be complex because they are large, heterogeneous, customized, integrated, secure, and compliant. SAP workloads demand high levels of performance. This complexity can pose challenges for organizations, such as cost, risk, time to market, and agility. 
+Managing security, policy, and patches for all the servers in an SAP environment (on-premise, public, private and hybrid cloud) and making sure they are compliant with SAP and Red Hat’s recommendations through their entire lifecycle.
+
+== Background
+
+SAP environments can be complex because they are large, heterogeneous, customized, integrated, secure, and compliant. SAP workloads demand high levels of performance. This complexity can pose challenges for organizations, such as cost, risk, time to market, and agility. 
 
 Furthermore, new recommendations need to be applied whenever a new release of the OS or the workload is certified. Maintaining all the servers in these environments aligned and up to date with the latest recommendations is challenging. But, given how  critical these systems are to organizations, the need to prevent potential issues is of the utmost importance.
 
 
 
 == Solution summary 
-This architecture covers Smart Management for RHEL servers hosting SAP workloads. The combination of Red Hat Insights with all its SAP-specific rules to detect potential problems, Red Hat Automation Platform to remediate them before they occur, and Red Hat Satellite to manage the servers' lifecycle is a ‌powerful tool to make sure that the SAP workloads will be healthy and operate smoothly.
+This architecture covers Smart Management for RHEL servers hosting SAP workloads. The combination of Red Hat Insights with all its SAP-specific rules to detect potential problems, Red Hat Ansible Automation Platform to remediate them before they occur, and Red Hat Satellite to manage the servers' lifecycle is a ‌powerful tool to make sure that the SAP workloads will be healthy and operate smoothly.
 
-====
-*Smart Management for SAP*
+This solution provides:
 
-. Full lifecycle management of all SAP hosts 
-. Minimization of maintenance downtimes
-. Proactive detection and automatic remediation of potential issues
-====
+* Full lifecycle management of all SAP hosts 
+* Minimization of maintenance downtimes
+* Proactive detection and automatic remediation of potential issues
+
 
 
 
@@ -50,7 +55,7 @@ _Figure 2. Logical diagram for Smart Management for SAP solution._
 
 The following technology was chosen for this solution:
 
-====
+
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux for SAP Solutions*] combines an intelligent operating system with predictive management tools and SAP-specific content. Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly available foundation for business-critical SAP and non-SAP workloads. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/sap/trial[*Try It >*]
 
 https://www.redhat.com/en/technologies/management/insights?intcmp=7013a00000318EWAAY[*Red Hat Insights*] receives the anonymized data of the SAP hosts from Satellite and makes it available to the Insights services to which the customer is subscribed. It is a rule-based SaaS and it has dedicated rules for SAP hosts that are based on SAP’s and Red Hat’s recommendations. It detects and alerts when a host is not compliant with all these recommendations.
@@ -58,15 +63,15 @@ https://www.redhat.com/en/technologies/management/insights?intcmp=7013a00000318E
 https://www.redhat.com/en/technologies/management/smart-management?intcmp=7013a00000318EWAAY[*Red Hat Satellite*], which includes Satellite and Cloud Connector, provides the capability to gather anonymized configuration information from the SAP hosts and send that anonymized data to Insights Platform (on Red Hat’s SaaS). Satellite manages the lifecycle of the SAP servers, applying the packages, security fixes, etc., that they need to comply with SAP’s and Red Hat’s recommendations and be consistent between them.
 
 https://www.redhat.com/en/technologies/management/ansible?intcmp=7013a00000318EWAAY[*Red Hat Ansible Automation Platform*] is the framework used in this solution to run the remediation Ansible playbooks in the hosts that will correct the situations that could lead to a failure or issue. For example, modifying a kernel memory parameter that can cause poor performance of the SAP HANA DB or applying a certain level of an OS package that is needed for a particular version of SAP Netweaver. Additionally, while the Ansible community version is a great introduction to automating small services, Ansible Automation Platform steps up as the full enterprise platform needed to implement this solution at scale. It acts as the central repository for all automation and allows very granular control over who can access each automation asset with Role Based Access Control (RBAC). It also makes it possible to have all the hosts in the IT footprint be part of perfectly organized inventories (static and dynamic). Ansible Automation Platform also incorporates its own vault mechanisms and integrates with other secret and vault management providers for robust security configurations. The Ansible Automation Platform subscription gives access to Automation Hub where certified and Red Hat supported content resides. For SAP there are collections for Day 1 and Day 2 operations, the latter being of great help for Smart Management of the SAP systems. https://www.redhat.com/en/technologies/management/ansible/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
-====
+
 
 == Architectures
 The prerequisites to implement the solution are the following:
 
-. All the servers that will host SAP workloads need to be registered with the RHEL for SAP Solutions subscription.
-. Insights client will be deployed on all servers.
-.Satellite will be deployed in the customer’s infrastructure (either in the same location/infrastructure as the SAP ecosystem or in a different one). 
-. Ansible Automation Platform will also be deployed in the customer’s infrastructure.
+* All the servers that will host SAP workloads need to be registered with the RHEL for SAP Solutions subscription.
+* Insights client will be deployed on all servers.
+* Satellite will be deployed in the customer’s infrastructure (either in the same location/infrastructure as the SAP ecosystem or in a different one). 
+* Ansible Automation Platform will also be deployed in the customer’s infrastructure.
 
 
 === SAP smart management overview
@@ -76,8 +81,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 _Figure 3. Schematic diagram showing an overview of the Smart Management for SAP from a network connections perspective._   
 
 In the SAP environment, there can be classic SAP Netweaver applications that can run on AnyDB or SAP HANA (thus the dotted connection in the diagram) and SAP S/4HANA applications that will only run on SAP HANA. Smart Management can be applied to any of those scenarios, thus covering all the deployments supported by SAP.
-We are using SAP’s terminology when we refer to “AnyDB”—meaning any of the databases on which SAP workloads can run other than SAP HANA (Oracle, DB2, Sybase, SQL Server, MaxDB
-)
+We are using SAP’s terminology when we refer to “AnyDB”—meaning any of the databases on which SAP workloads can run other than SAP HANA (Oracle, DB2, Sybase, SQL Server, MaxDB)
 
 === SAP smart management data flow overview
 --
@@ -110,4 +114,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback 
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sap-smart-management.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/sap-smart-management.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
