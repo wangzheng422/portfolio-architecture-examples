@@ -81,7 +81,7 @@ https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318E
 
 
 
-https://www.redhat.com/en/products/runtime?intcmp=7013a00000318EWAAY[*Red Hat Runtimes*] is a set of products, tools, and components for developing and maintaining cloud-native applications. It offers lightweight runtimes and frameworks for highly distributed cloud architectures, such as Spring Boot and Quarkus. The developer IDE supports development with tooling that connects directly to the platform. It also includes Single-Sign-On solution that can be tied into existing organizational directories. Red Hat Runtimes is included as part of Red Hat Application Foundations.
+https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat Runtimes*] is a set of products, tools, and components for developing and maintaining cloud-native applications. It offers lightweight runtimes and frameworks for highly distributed cloud architectures, such as Spring Boot and Quarkus. The developer IDE supports development with tooling that connects directly to the platform. It also includes Single-Sign-On solution that can be tied into existing organizational directories. Red Hat Runtimes is included as part of Red Hat Application Foundations.
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
