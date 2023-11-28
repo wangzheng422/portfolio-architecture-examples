@@ -7,11 +7,13 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toc: left
 :toclevels: 5
 
-_Updated July 2023_
+_Updated November 2023._
 
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Deploying a container based eCommerce website while moving away from tightly coupled existing eCommerce platform.
+== Use case
+
+Deploying a container based eCommerce website while moving away from a tightly coupled existing eCommerce platform.
 
 
 == Background 
@@ -35,7 +37,7 @@ E-commerce has evolved over the years, from its humble beginnings in the 1970s t
 
 2020: The COVID-19 pandemic accelerates the growth of e-commerce.
 
-Today, e-commerce is a major force in the global economy.To offer just one data point from the US Census, U.S. retail e-commerce sales for the first quarter of 2023, adjusted for seasonal variation, but not for price changes, was $272.6 billion, an increase of 3.0 percent (±0.7%) from the fourth quarter of 2022. E-commerce sales in the first quarter of 2023 accounted for 15.1 percent of total sales. 
+Today, e-commerce is a major force in the global economy. To offer just one data point from the US Census, U.S. retail e-commerce sales for the first quarter of 2023, adjusted for seasonal variation, but not for price changes, was $272.6 billion, an increase of 3.0 percent (±0.7%) from the fourth quarter of 2022. E-commerce sales in the first quarter of 2023 accounted for 15.1 percent of total sales. 
 
 E-commerce has changed the way people shop, and it is transforming the retail industry.
 
@@ -82,10 +84,10 @@ _Figure 2. Logical diagram of headless e-commerce solution showing developer com
 == The technology
 The following technology was chosen for this solution:
 
-====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes-based container platform built for an open hybrid cloud strategy. Here, it provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. It delivers a complete application platform for both traditional and cloud-native applications, allowing them to run anywhere. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] helps organizations use the cloud delivery model and simplify continuous delivery of applications, the cloud-native way. Built on proven open source technologies, it also provides development teams multiple modernization options to enable a smooth transition to the cloud for existing applications.
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+
+https://www.redhat.com/en/products/runtimes?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] helps organizations use the cloud delivery model and simplify continuous delivery of applications, the cloud-native way. Built on proven open source technologies, it also provides development teams multiple modernization options to enable a smooth transition to the cloud for existing applications. It is included as part of Red Hat Application Foundations.
 
 https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) Includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control. 
 
@@ -94,12 +96,12 @@ https://catalog.redhat.com/software/operators/detail/5ef20efd46bc301a95a1e9a4?in
 
 https://www.redhat.com/en/technologies/jboss-middleware/3scale?intcmp=7013a00000318EWAAY[*Red Hat 3scale API Management*] is a platform that makes it easy to share, secure, distribute, control, and monetize your application programming interfaces (APIs) for internal or external users.
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/storage/ceph?intcmp=7013a00000318EWAAY[*Red Hat Ceph Storage*] is an open, massively scalable, simplified storage solution for modern data pipelines. Engineered for data analytics, artificial intelligence/machine learning (AI/ML), and emerging workloads, it delivers software-defined storage on your choice of industry-standard hardware.
 
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
-====
+
 
 == Architectures
 
@@ -137,4 +139,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback 
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/headlessecommerce.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/headlessecommerce.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
