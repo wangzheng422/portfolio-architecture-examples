@@ -7,23 +7,26 @@ Ricardo Garcia Cavero @rgarciac
 :toc: left
 :toclevels: 5
 
-_Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
+_Updated November 2023._
 
-*Use case:* Integrate SAP and non-SAP applications with an API-first approach, adopting cloud native and microservices development patterns for new applications. Not developing inside SAP leaves the core untouched, which dramatically speeds up and simplifies upgrades. This portfolio architecture specifically details invoking SAP functions, retrieving data from SAP, and using cached data use cases.
+_Some details will differ based on the requirements of a specific implementation but all Red Hat architectures generalize one or more successful deployments of a use case._
 
-*Background:* Typically, SAP systems interact with a large number of heterogeneous applications that use different protocols and formats. A solution is needed that translates the data from SAP into the formats that the 3rd party applications will understand and vice versa, while abstracting those details so that developers and application users do not need to know the structure of the data in SAP. This also plays a very important role in moving custom code out of the core of SAP, which is one of the main premises of the migration to SAP S/4HANA. This keeps the core clean, greatly simplifying the migration process; the custom code can be moved out but kept connected to the core using API integration.
+== Use case
+
+Integrate SAP and non-SAP applications with an API-first approach, adopting cloud native and microservices development patterns for new applications. Not developing inside SAP leaves the core untouched, which dramatically speeds up and simplifies upgrades. This  architecture specifically details invoking SAP functions, retrieving data from SAP, and using cached data use cases.
+
+== Background 
+
+Typically, SAP systems interact with a large number of heterogeneous applications that use different protocols and formats. A solution is needed that translates the data from SAP into the formats that the 3rd party applications will understand and vice versa, while abstracting those details so that developers and application users do not need to know the structure of the data in SAP. This also plays a very important role in moving custom code out of the core of SAP, which is one of the main premises of the migration to SAP S/4HANA. This keeps the core clean, greatly simplifying the migration process; the custom code can be moved out but kept connected to the core using API integration.
 
 == Solution overview
 
 This architecture covers API management platform for SAP. Figure 1 shows the overall architecture together with the following business drivers:
 
-====
-*Why API Management Platform for SAP ?*
+* Increase development efficiency by consolidating system integration functions
+* Avoid modifications to business processes associated with the format changes introduced by the migration  to SAP S/4HANA 
+* Reduce maintenance costs by minimizing development of SAP add-ons and, more generally, not creating custom developments in the SAP core
 
-. Increase development efficiency by consolidating system integration functions
-. Avoid modifications to business processes associated with the format changes introduced by the migration  to SAP S/4HANA 
-. Reduce maintenance costs by minimizing development of SAP add-ons and, more generally, not creating custom developments in the SAP core
-====
 
 
 --
@@ -47,15 +50,15 @@ _Figure 2. Logical diagram of the API management platform for SAP solution._
 
 The following technology was chosen for this solution:
 
-====
+
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux for SAP Solutions*] is combines an intelligent operating system with predictive management
 tools and SAP-specific content, Red Hat Enterprise Linux for SAP Solutions provides a single, consistent, highly
 available foundation for business-critical SAP and non-SAP workloads. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, including edge deployments. It provides the foundation for Red Hat Integration which has the components needed for SAP and non-SAP workloads to communicate. Furthermore, it’s the platform on which new cloud native applications that talk to the SAP core can be developed. In this portfolio architecture, Red Hat Openshift also provides a PostgreSQL database that is used to cache data from SAP that will be used by business intelligence (BI) applications for reporting. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. Here, it provides the foundation for Red Hat Application Foundations which has the components needed for SAP and non-SAP workloads to communicate. Furthermore, it’s the platform on which new cloud native applications that talk to the SAP core can be developed. In this portfolio architecture, Red Hat Openshift also provides a PostgreSQL database that is used to cache data from SAP that will be used by business intelligence (BI) applications for reporting. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a set of integration and messaging technologies that form a containerized and API-centric solution. It runs on Red Hat OpenShift and includes, among the many integration components, some specific to SAP. Red Hat Fuse is one of its elements. It uses Camel, specifically its SAP NetWeaver component, to allow SAP and non-SAP applications to connect to SAP. NetWeaver-based instances (classic Netweaver or SAP S/4HANA) can use RFC, iDoc, and OData protocols. Function modules and BAPIs (Business APIs) can be triggered in the SAP core and thereby access data structures directly. All this is achieved by creating and exposing API endpoints. Red Hat 3Scale is another component of Red Hat Integration used in this portfolio architecture to manage the access by applications to the APIs exposed by Red Hat Fuse.
-====
+https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) is a set of integration and messaging technologies that form a containerized and API-centric solution. It runs on Red Hat OpenShift and includes, among the many integration components, some specific to SAP. Red Hat Fuse is one of its elements. It uses Camel, specifically its SAP NetWeaver component, to allow SAP and non-SAP applications to connect to SAP. NetWeaver-based instances (classic Netweaver or SAP S/4HANA) can use RFC, iDoc, and OData protocols. Function modules and BAPIs (Business APIs) can be triggered in the SAP core and thereby access data structures directly. All this is achieved by creating and exposing API endpoints. Red Hat 3Scale is another component of Red Hat Application Foundations used in this architecture to manage the access by applications to the APIs exposed by Red Hat Fuse.
+
 
 == Architectures
 Figures 3, 4, and 5 are schematic diagrams that dive into invoking SAP functions, retrieving data from SAP, and using cached data use cases.
@@ -66,7 +69,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 --
 _Figure 3. Schematic diagram showing the invocation of SAP functions._
 
-In this use case, the systems outside of SAP communicate only with Red Hat 3Scale where all the business functions (BAPIs) that are published in the SAP backend (classic NetWeaver or SAP S/4HANA) have an API that can be called. The Role-Based Access Controls (RBAC) implemented in Red Hat 3Scale ensure that each business function in SAP will only be triggered by the applications that have permissions to do so.
+In the use case shown in Figure 3, the systems outside of SAP communicate only with Red Hat 3Scale where all the business functions (BAPIs) that are published in the SAP backend (classic NetWeaver or SAP S/4HANA) have an API that can be called. The Role-Based Access Controls (RBAC) implemented in Red Hat 3Scale ensure that each business function in SAP will only be triggered by the applications that have permissions to do so.
 
 The protocol used to communicate with the SAP systems is RFC (Remote Function Call). Red Hat Fuse does the data conversion from the protocol used by the applications to the one used by SAP and vice-versa.
 
@@ -78,7 +81,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 --
 _Figure 4. Schematic diagram showing the retrieval of data from SAP._
 
-In the second use case, applications access data directly in SAP. They too communicate exclusively with Red Hat 3Scale. Here, there is an additional layer of access control; not only is the access to the APIs regulated by Red Hat 3Scale but also the access to the tenants in the SAP backend (called clients). For this additional control, Red Hat Fuse connects to a database that holds the authorization tables.
+In the second use case shown in Figure 4, applications access data directly in SAP. They too communicate exclusively with Red Hat 3Scale. Here, there is an additional layer of access control; not only is the access to the APIs regulated by Red Hat 3Scale but also the access to the tenants in the SAP backend (called clients). For this additional control, Red Hat Fuse connects to a database that holds the authorization tables.
 
 When accessing data structures in SAP, the protocol used is OData and Red Hat Fuse will again convert the data in the format used by the applications to OData and back again. These data structures are exposed in the SAP system (classic NetWeaver or SAP S/4HANA) using the SAP NetWeaver Gateway.
 
@@ -90,7 +93,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 --
 _Figure 5. Schematic diagram showing the access of cached data for business intelligence._
 
-This use case shows how data from SAP Business Warehouse that is frequently accessed can be cached to avoid performance bottlenecks, given that queries in SAP Business Warehouse systems are usually quite resource-intensive. Here, only the JDBC/ODBC connector is used for the applications in the satellite systems to connect to the SAP backend. The JDBC/ODBC connector uses the Python OData library to establish connections to the SAP systems and extract the data using the OData protocol. This data is stored in a PostgreSQL database that acts as a cache for the satellite systems.
+The use case in Figure 5 shows how data from SAP Business Warehouse that is frequently accessed can be cached to avoid performance bottlenecks, given that queries in SAP Business Warehouse systems are usually quite resource-intensive. Here, only the JDBC/ODBC connector is used for the applications in the satellite systems to connect to the SAP backend. The JDBC/ODBC connector uses the Python OData library to establish connections to the SAP systems and extract the data using the OData protocol. This data is stored in a PostgreSQL database that acts as a cache for the satellite systems.
 
 As in the previous use cases the satellite systems can be applications running anywhere whether on-premise, in a cloud, or on the OpenShift container platform.
 
@@ -101,6 +104,6 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback 
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/api-management-platform-for-sap.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/api-management-platform-for-sap.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
 
 
