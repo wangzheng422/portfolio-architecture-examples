@@ -7,43 +7,51 @@ Eric D. Schabell @eschabell, Iain Boyle @iainboy
 :toc: left
 :toclevels: 5
 
+_Updated November 2023._
+
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
-*Use case:* Managing effective in-store compliance, health & safety, and employee checks and procedures.
+== Use case
 
-*Background:* Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
+Managing effective in-store compliance, health & safety, and employee checks and procedures.
+
+== Background
+
+Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to
 earn a profit. Store health and safety is all about managing risks to protect workers and stores. In a global context,
 health and safety is also an essential part of the movement towards sustainable operational growth.
 
 == Solution overview
-====
-*Store Health and Safety*
 
-. Ensure consistency of actions across stores
-. Reduce manual effort on store operations, health and safety
-. Free up colleagues to focus on customers
-====
+Figure 1 provides an overview of the solution, including key drivers:
+
+* Ensure consistency of actions across stores
+* Reduce manual effort on store operations, health, and safety
+* Free up colleagues to focus on customers
+
 
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/intro-marketectures/store-health-safety-marketing-slide.png[750,700]
 --
+_Figure 1. Overview of of Store Health and Safety solution including the business drivers._
 
 
 == Logical diagram
+
+Figure 2 shows a logical diagram of the solution including the primary groupings: External applications, container platform, infrastructure services, and external systems.
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/logical-diagrams/retail-store-safety-ld.png[750, 700]
 --
+_Figure 2. Logical diagram of the solution._
 
 == The technology
 
 The following technology was chosen for this solution:
 
 ====
-https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy.
-It provides a consistent application platform to manage hybrid cloud, multicloud, and edge deployments. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments.  https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
-https://www.redhat.com/en/products/integration?intcmp=7013a00000318EWAAY[*Red Hat Integration*] is a comprehensive set of integration and messaging technologies to connect applications and
-data across hybrid infrastructures.
+https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control.
 
 https://www.redhat.com/en/technologies/jboss-middleware/3scale?intcmp=7013a00000318EWAAY[*Red Hat 3scale API Management*] makes it easy to manage your APIs. Share, secure, distribute, control, and monetize
 your APIs on an infrastructure platform built for performance, customer control, and future growth.
@@ -54,14 +62,21 @@ virtual, container, and all types of cloud environments. https://www.redhat.com/
 ====
 
 == Architectures
+
+Figures 3 and 4 provide a schematic view of the solution from both an overall and a more data-centric solution.
+
 === Store Health and Safety Example
 --
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-store-safety-sd.png[750, 700]
 
+_Figure 3. Overall schematic view of the solution._
+
 image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images/schematic-diagrams/retail-store-safety-data-sd.png[750, 700]
 --
 
-The retail store and health safety is a case of capturing compliancy and processes for a broad range of store locations across the organization. It requires input from suppliers, customers, store associates, and vendors that can be both internal and external to the stores themselves. Access via applications, web front ends, and devices uses API management to access the store processes. Triggering a process often triggers a subset of the health and safety processes that lean on the local store rules and health and safety rules for determining actions needed. Should processes require human task intervention, then the API management provides the external parties access to complete their tasks. Processes might need to take action toward health and safety suppliers, for example, ordering new fire extinguishers or safety equipment using the supplier microservices. Actions taken towards external backend systems can be local to the store, internal to the organization but remote to the store, or to some remote third-party system using integration microservices.
+_Figure 4. Data-centric schematic view of the solution._
+
+Retail store and health safety is a matter of capturing compliancy and processes for a broad range of store locations across the organization. It requires input from suppliers, customers, store associates, and vendors which can be both internal and external to the stores themselves. Access via applications, web front ends, and devices uses API management to access the store processes. Triggering a process often triggers a subset of the health and safety processes that lean on the local store rules and health and safety rules for determining actions needed. Should processes require human task intervention, then the API management provides the external parties access to complete their tasks. Processes might need to take action with health and safety suppliers; for example, ordering new fire extinguishers or safety equipment using the supplier microservices. Actions taken towards external backend systems can be local to the store, internal to the organization but remote to the store, or to some remote third-party system using integration microservices.
 
 == Download diagrams
 View and download all of the diagrams above in our open source tooling site.
@@ -69,4 +84,4 @@ View and download all of the diagrams above in our open source tooling site.
 https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/diagrams/retail-store-health-and-safety.drawio[[Open Diagrams]]
 --
 == Provide feedback 
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/storehealthandsafety.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/storehealthandsafety.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
