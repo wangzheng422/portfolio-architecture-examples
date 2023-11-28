@@ -7,13 +7,13 @@ Eric D. Schabell @eschabell
 :toc: left
 :toclevels: 5
 
-_Updated: September 2023_
+_Updated: November 2023_
 
 _Some details will differ based on the requirements of a specific implementation but all portfolio architectures generalize one or more successful deployments of a use case._
 
 
 == Use case 
-Omnichannel implies integration and orchestration of channels such that the experience of engaging across all the channels someone chooses to use.
+Omnichannel requires integration and orchestration of channels such that the experience of engaging across all the channels someone chooses to use.
 
 == Background
 In today's competitive marketplace, it is more important than ever to deliver an omnichannel customer experience that lets customers interact in a unified way across platforms. By doing so, you can improve customer satisfaction, reduce customer churn, and enhance your brand reputation.
@@ -26,20 +26,21 @@ Let’s consider these inter-related benefits in more detail:
 
 *Enhanced brand reputation:* A positive customer experience can help to enhance your brand reputation and attract new customers. By delivering an omnichannel experience, you can build a strong brand that customers trust and value.
 
-A variety of largely non-technical steps go into designing a good omnichannel customer experience. For example, such a design rests first and foremost on understanding your customers and their needs. What channels do they prefer to use? What are their expectations for customer service? Only once you understand your customers, can uou start to design an experience that meets their needs.
+A variety of largely non-technical steps go into designing a good omnichannel customer experience. For example, such a design rests first and foremost on understanding your customers and their needs. What channels do they prefer to use? What are their expectations for customer service? Only once you understand your customers can you start to design an experience that meets their needs.
 
-Next, you need to identify the channels that you will use to interact with them. This could include your website, mobile app, social media, email, phone, chat, and even in-person channels.Customers also want to feel like they are being treated as individuals, so it's important to personalize your experiences as much as possible. This means using their data to understand their preferences and deliver relevant content and offers.
+Next, you need to identify the channels that you will use to interact with them. This could include your website, mobile app, social media, email, phone, chat, and even in-person channels. Customers also want to feel like they are being treated as individuals, so it's important to personalize your experiences as much as possible. This means using their data to understand their preferences and deliver relevant content and offers.
 
 It will be an ongoing and iterative process. It's important to measure the results of your omnichannel customer experience so that you can see what's working and what's not. This will help you to improve your experience over time.
 
-From the perspective of the solution presented in this portfolio architecture, however, connecting channels and connecting data so that customers can easily move from one channel to another is also a critical element. 
+From the perspective of the solution presented in this architecture, however, connecting channels and connecting data so that customers can easily move from one channel to another is also a critical element. 
 
 
 == Solution overview
 
-Red Hat provides a foundation for IT teams to develop and deliver omnichannel services through a combination of integration and process automation technologies. Agile integration defines how organizations are transforming and delivering on their digital promise to customers by integrating applications and services across on-premise infrastructure and cloud environments. Business automation, as process integrations, are captured to enable access to complex process services.
+Red Hat provides a foundation for IT teams to develop and deliver omnichannel services through a combination of integration and process automation technologies. Agile integration defines how organizations are transforming and delivering on their digital promise to customers by integrating applications and services across on-premise infrastructure and cloud environments. Business automation also enables access to complex process services.
 
 As shown in Figure 1, the omnichannel customer experience solution includes:
+
 * Data management, security, and user access
 * Multiple protocol support through different integration technologies
 * Distributed deployments with non-centralized integration
@@ -73,21 +74,19 @@ _Figure 2: Logical diagram of the omnichannel customer experience solution_
 
 The following technology was chosen for this solution:
 
-====
-https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundations*] software-defined storage for containers. For real-time data storage and analysis,
-realizations of logical storage definitions as needed by applications, processes or services. https://www.redhat.com/en/technologies/cloud-computing/openshift/data-foundation/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
+https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it?intcmp=7013a00000318EWAAY[*Red Hat OpenShift*] is a unified platform to quickly build, modernize, and deploy both traditional and cloud-native applications at scale. It is packaged with a complete set of services for bringing apps to market on your choice of infrastructure. It’s based on an enterprise-ready Kubernetes container platform built for an open hybrid cloud strategy. It provides a consistent application platform to manage hybrid cloud, public cloud, and edge deployments. 
 
 
-https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Foundations*] (formerly Red Hat Integration) Includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control.
+https://www.redhat.com/en/products/application-foundations?intcmp=7013a00000318EWAAY[*Red Hat Application Foundations*] (formerly Red Hat Integration) Includes frameworks and capabilities for designing, building, deploying, connecting, securing, and scaling cloud-native applications, including foundational patterns like microservices, API-first, and data streaming. When combined with Red Hat OpenShift, Application Foundations creates a hybrid cloud platform for development and operations teams to build and modernize applications efficiently and with attention to security, while balancing developer choice and flexibility with operational control.
 
 
 
-https://www.redhat.com/en/products/runtime?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Runtimes*] is a set of products, tools, and components for developing and maintaining cloud-native applications. It offers lightweight runtimes and frameworks for highly distributed cloud architectures, such as Spring Boot and Quarkus. The developer IDE supports development with tooling that connects directly to the platform. It also includes Single-Sign-On solution that can be tied into existing organizational directories. Red Hat OpenShift Runtimes is included as part of Red Hat Application Foundations.
+https://www.redhat.com/en/products/runtime?intcmp=7013a00000318EWAAY[*Red Hat Runtimes*] is a set of products, tools, and components for developing and maintaining cloud-native applications. It offers lightweight runtimes and frameworks for highly distributed cloud architectures, such as Spring Boot and Quarkus. The developer IDE supports development with tooling that connects directly to the platform. It also includes Single-Sign-On solution that can be tied into existing organizational directories. Red Hat Runtimes is included as part of Red Hat Application Foundations.
 
 https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation?intcmp=7013a00000318EWAAY[*Red Hat OpenShift Data Foundation*] is software-defined storage for containers. Engineered as the data and storage services platform for Red Hat OpenShift, Red Hat OpenShift Data Foundation helps teams develop and deploy applications quickly and efficiently across clouds. https://www.redhat.com/en/technologies/cloud-computing/openshift/ocp-self-managed-trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
 
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?intcmp=7013a00000318EWAAY[*Red Hat Enterprise Linux*] is the world’s leading enterprise Linux platform. It’s an open source operating system (OS). It’s the foundation from which you can scale existing apps—and roll out emerging technologies—across bare-metal, virtual, container, and all types of cloud environments. https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/server/trial?intcmp=7013a000003Sh3TAAS[*Try It >*]
-====
+
 
 == Architectures
 
@@ -124,7 +123,7 @@ image:https://gitlab.com/osspa/portfolio-architecture-examples/-/raw/main/images
 
 _Figure 5: Schematic diagram of integration service in the omnichannel customer experience solution_
 
-Figure 5 shows the example use of integration microservices with a web user interface making calls through the API Gateway to front-end microservices that, in turn, call to various integration with back-end systems through an integration microservice. In this example, the SSO server integrates with an existing company back-end Active Directory server for authentication. 
+Figure 5 shows the example use of integration microservices with a web user interface making calls through the API Gateway to front-end microservices that, in turn, call to various integrations with back-end systems through an integration microservice. In this example, the SSO server integrates with an existing company back-end Active Directory server for authentication. 
 
 === Integration data service example
 --
@@ -152,4 +151,4 @@ https://www.redhat.com/architect/portfolio/tool/index.html?#gitlab.com/osspa/por
 --
 
 == Provide feedback 
-You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/omnichannel.adoc[issue or submitting a merge request against this Portfolio Architecture product in our GitLab repositories].
+You can offer to help correct or enhance this architecture by filing an https://gitlab.com/osspa/portfolio-architecture-examples/-/blob/main/omnichannel.adoc[issue or submitting a merge request against this architecture product in our GitLab repositories].
